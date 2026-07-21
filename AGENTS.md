@@ -43,6 +43,22 @@ Pipeline: `preprocess → KISS-ICP odometry → keyframe selection → Scan Cont
 - Gotchas recorded in `RAP-SLAM/ros2/README.md`: never source ROS `setup.bash` under `set -u`; RViz PointCloud2 default Reliable QoS (player matches it deliberately); **WSLg can wedge so that NO GUI window shows at all (even `xeyes` exits silently) — fix is `wsl --shutdown` from PowerShell**; do not hand-write `Window Geometry`/`QMainWindow State` blobs into `.rviz` files (off-screen/zero-size windows); `RVIZ_SOFTWARE=1 bash run_step1.sh` (LIBGL_ALWAYS_SOFTWARE) is the fallback when OGRE windows stay invisible.
 - Next: Step 2 — KISS-ICP odometry node publishing `nav_msgs/Odometry` + `odom→base_link` TF.
 
+#### Session handoff addendum (2026-07-21, end of session)
+
+**Immediate next action (agreed with owner): Step 2 — KISS-ICP odometry node.** Wrap `rap_slam/odometry.py` (KISS-ICP) as an rclpy node: subscribe `/points_raw`, publish `nav_msgs/Odometry` + TF `odom→base_link`, add a `Path` display to `ros2/rviz/rap_slam.rviz` so the trajectory grows live during playback. Runs entirely on the local POSS data (`data/poss/...`); **does NOT need the 80 GB KITTI download** (that is for later multi-dataset generalization). Then Step 3: loop-closure + PGO nodes with `map→odom` correction + loop-edge markers.
+
+**Repo / sync state:**
+- GitHub (private, owner account `YCDJ`): `YCDJ/RAP` and `YCDJ/RAP-SLAM`. Local dirs `E:\githouse\RAP-main` and `E:\githouse\RAP-SLAM` are git repos (branch `main`, remote `origin`, git identity `YCDJ <184950371+YCDJ@users.noreply.github.com>`, commit messages in English).
+- RAP-SLAM pushed through `6d908e5`. **On session start, check for unpushed commits in both repos: `git log origin/main..HEAD --oneline` — push if non-empty.** Pushes to github.com were intermittently unreachable while the owner's 80 GB download saturated the link (TCP connect timeouts / connection resets); Windows GCM credentials work and pushes succeed on simple retry-with-backoff. Use `GIT_TERMINAL_PROMPT=0`.
+
+**ROS 2 environment (WSL2 `Ubuntu-24.04`, root):** Jazzy installed via `scripts/install_ros2_jazzy.sh` (ros-base, rviz2, ros2cli, demo-nodes, sensor-msgs-py, colcon, python3-numpy; x11-apps/xdotool/wmctrl added during debugging). Player runs with **system python3** (`/usr/bin/python3`, where rclpy lives), not the conda env. Viz entry point: `bash /mnt/e/githouse/RAP-SLAM/ros2/run_step1.sh [--ros-args -p loop:=true]`; software-GL fallback: prefix `RVIZ_SOFTWARE=1`.
+
+**Agent operational gotchas (Windows host → WSL):**
+- When invoking `wsl` from Git Bash, prefix `MSYS_NO_PATHCONV=1` and prefer repo-relative paths (Git Bash mangles `/mnt/...` args into the Git install dir); do **not** pass URLs inline into `wsl bash -c` (quoting gets eaten — write a script file instead).
+- Filter WSL's harmless NAT warning with `grep -av 'localhost'` (output can look binary to grep).
+- Owner is manually downloading the 80 GB KITTI odometry velodyne zip on the **Windows host**; expect GitHub pushes to be flaky until it finishes.
+
+
 **Verified results (RTX 5070, WSL2):**
 
 | Dataset | Setup | Odometry APE RMSE | After PGO | Notes |
