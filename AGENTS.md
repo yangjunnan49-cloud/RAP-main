@@ -35,6 +35,14 @@ The owner's goal is a **non-realtime SLAM system around RAP as the registration 
 
 Pipeline: `preprocess → KISS-ICP odometry → keyframe selection → Scan Context global + proximity loop candidates → RAP 2-way verification (or N-way joint batch registration) → GTSAM PGO → evo APE/RPE + merged map`. Entry point: `RAP-SLAM/scripts/run_pipeline.py`. All six stages verified end-to-end three times.
 
+### Phase 2 STARTED (2026-07-21): ROS 2 Jazzy + RViz — Step 0+1 DONE
+
+- **Both repos now on GitHub** (private, owner account): `YCDJ/RAP` (upstream snapshot + Blackwell patches) and `YCDJ/RAP-SLAM` (original pipeline). Local dirs are git repos; `data/` and `output*/` are gitignored.
+- **Step 0**: `RAP-SLAM/scripts/install_ros2_jazzy.sh` — idempotent Jazzy installer for WSL2 Ubuntu 24.04; auto-probes apt mirrors (TUNA → Aliyun → official) + rosdistro key sources. Installed & verified in WSL2: ros-base, rviz2, ros2cli, demo nodes, sensor-msgs-py, colcon. Talker/listener DDS check passed. WSLg present (`DISPLAY=:0`).
+- **Step 1**: `RAP-SLAM/ros2/` — `pointcloud_player.py` (standalone rclpy node, no colcon: POSS/KITTI `.bin` → `/points_raw` PointCloud2 with xyz+intensity; Reliable QoS to match RViz default), `rviz/rap_slam.rviz` (fixed frame `velodyne`), `run_step1.sh` (one-command player + RViz). Verified headless: 1419 POSS scans publish correctly; effective rate caps at ~10 Hz due to `.tolist()` conversion (= native LiDAR rate, fine). GUI run: `bash /mnt/e/githouse/RAP-SLAM/ros2/run_step1.sh`.
+- Gotchas recorded in `RAP-SLAM/ros2/README.md`: never source ROS `setup.bash` under `set -u`; RViz PointCloud2 default Reliable QoS (player matches it deliberately).
+- Next: Step 2 — KISS-ICP odometry node publishing `nav_msgs/Odometry` + `odom→base_link` TF.
+
 **Verified results (RTX 5070, WSL2):**
 
 | Dataset | Setup | Odometry APE RMSE | After PGO | Notes |
@@ -85,7 +93,7 @@ python scripts/eval_nway_backend.py --batches B1,B2,B3 --load-loops output_nway/
 
 3. ~~Scan Context global place recognition for loop candidates~~ ✅ (2026-07-20: `rap_slam/scan_context.py`, merged with proximity via `--loop-method both`; rescues loops under 13.3 m drift). Remaining: multi-dataset generalization (KITTI seq 06 velodyne still un-downloaded, MCD, Livox) and SC threshold validation off-POSS.
 4. ~~RAP N-way joint global registration backend — first comparison~~ ✅ (2026-07-20: `register_multi` in `rap_backend.py` + `scripts/eval_nway_backend.py`; small-batch cycle-consistent constraints beat pairwise-PGO 1.74 vs 1.82 m; 82-part one-shot registration warps globally). Next iteration: **hierarchical N-way** (joint registration within loop clusters + PGO across clusters) and multi-seed variance evaluation.
-5. Phase 2: ROS 2 (Jazzy on Ubuntu 24.04) node-ification + RViz.
+5. Phase 2: ROS 2 (Jazzy on Ubuntu 24.04) node-ification + RViz. ⏳ STARTED 2026-07-21: Step 0 (Jazzy install in WSL2) + Step 1 (PointCloud2 player + RViz config) done — see "Phase 2 STARTED" section above.
 
 ---
 
