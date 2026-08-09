@@ -78,7 +78,7 @@ Pipeline: `preprocess → KISS-ICP odometry → keyframe selection → Scan Cont
 
 **Repo / sync state:**
 - GitHub (private, owner account `YCDJ`): `YCDJ/RAP` and `YCDJ/RAP-SLAM`. Local dirs `E:\githouse\RAP-main` and `E:\githouse\RAP-SLAM` are git repos (branch `main`, remote `origin`, git identity `YCDJ <184950371+YCDJ@users.noreply.github.com>`, commit messages in English).
-- RAP-SLAM pushed through `cbc92f7` (KITTI live-run scripts + verification, 2026-07-23); RAP pushed through this wrap-up commit. **On session start, check for unpushed commits in both repos: `git log origin/main..HEAD --oneline` — push if non-empty.** Pushes to github.com can be flaky while big downloads saturate the link; Windows GCM credentials work, retry-with-backoff succeeds. Use `GIT_TERMINAL_PROMPT=0`.
+- RAP-SLAM pushed through `7ab2f06` (Direction A eval + re-gate + Direction B probe, 2026-08-09); RAP pushed through `22d6a4d` (handoff addenda, 2026-08-09). **On session start, check for unpushed commits in both repos: `git log origin/main..HEAD --oneline` — push if non-empty.** Pushes to github.com can be flaky while big downloads saturate the link; retry-with-backoff succeeds. Use `GIT_TERMINAL_PROMPT=0`. **Push from WINDOWS Git Bash, NOT WSL: the WSL-side git has no GitHub credentials (`git push` fails with "could not read Username for 'https://github.com': terminal prompts disabled"), while Windows GCM credentials work. In WSL, root needs `git config --global --add safe.directory /mnt/e/githouse/<repo>` for status/commit (dubious-ownership error otherwise).**
 
 **ROS 2 environment (WSL2 `Ubuntu-24.04`, root):** Jazzy installed via `scripts/install_ros2_jazzy.sh` (ros-base, rviz2, ros2cli, demo-nodes, sensor-msgs-py, colcon, python3-numpy; x11-apps/xdotool/wmctrl added during debugging). Player + odometry node run with **system python3** (`/usr/bin/python3`, where rclpy + kiss-icp live), not the conda env. Offline pipeline runs in conda env `rap-inference`. Viz entry points: `run_step1.sh` (player only), `run_step2.sh` (player + odometry); headless regression: `ros2/verify_step2_headless.sh [n_frames]`; software-GL fallback: prefix `RVIZ_SOFTWARE=1`.
 
@@ -91,6 +91,8 @@ Pipeline: `preprocess → KISS-ICP odometry → keyframe selection → Scan Cont
 - rclpy parameter typing is strict: a double-declared param rejects an integer literal (`-p rate:=15` → InvalidParameterTypeException); pass `-p rate:=15.0`.
 - `wsl` from Git Bash may default to a NON-root user (`aaa`) even though the whole ROS/conda setup was done as root — conda envs live under `/root/miniconda3`, so permission errors mean you landed in the wrong user; always invoke pipeline work as `wsl -u root bash ...`.
 - A detached `setsid bash script.sh > log 2>&1 < /dev/null &` launched inside `wsl bash -c '...'` gets killed when the outer command exits immediately; append `sleep 3` after the background launch inside the same command so the setsid child fully detaches.
+- **`RAP-SLAM/scripts/_vendor/` can show every file as modified** after Windows-side touches — pure CRLF/LF churn (identical content, equal insertions/deletions). Restore with `git checkout -- scripts/_vendor` before staging; never commit that noise (hit 2026-08-09).
+- In `wsl bash -c "... sed 's/x$/y/' ..."`, the `$` is eaten by Git Bash even inside double quotes — prefer `awk '/START/,0'` over `sed -n '/START/,$p'` (hit 2026-08-09).
 
 
 **Verified results (RTX 5070, WSL2):**
