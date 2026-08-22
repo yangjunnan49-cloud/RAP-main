@@ -291,15 +291,35 @@ python scripts/eval_nway_backend.py --batches B1,B2,B3 --load-loops output_nway/
 
 **Paper narrative (one sentence):** not "RAP plugged into SLAM" but "a frozen generative registration foundation model as the SLAM sensor model: (1) its intrinsic statistics calibrate into transferable PGO noise models; (2) its native N-way generation lifts loop closing from pairwise edges to cycle-consistent set-level constraints; (3) all zero-training, zero-shot across sensor embodiments". The headline is the PARADIGM + properties — NOT overall KITTI SOTA (CT-ICP-class front-ends out-tune us there; we win on loop-rich sequences, the isolated module comparison, and cross-sensor zero-shot).
 
-**Housekeeping:** `paper/` (LaTeX outline, compiled main.pdf, 31 MB) appeared in RAP-main on 2026-08-16 AFTER the tree-cleanup commit — still UNTRACKED, not gitignored; pending owner decision whether to relocate to `E:\githouse\RAP-SLAM-report\paper\`.
+**Housekeeping (RESOLVED same day, owner-approved "use your default"):** `paper/` relocated to `E:\githouse\RAP-SLAM-report\paper\` (alongside advisor_report/ + ppt/); forced rebuild PASS in WSL (`latexmk -xelatex -g`, fresh main.pdf). RAP-main tree 100% clean again.
+
+#### Session handoff addendum (2026-08-22, P0 DONE — all saved trajectories recomputed on both APE protocols + KITTI official drift)
+
+- **P0 DONE:** `RAP-SLAM/scripts/eval_paper_metrics.py` (CPU-only, conda env) recomputes ALL saved trajectory products on three metric families: unaligned APE (our convention), evo aligned APE (SE3 Umeyama — the literature "ATE RMSE" convention), and KITTI official drift ter%/rer (100–800 m subsegments, start-step 10, per-length mean then averaged). GT is derived automatically from each offline run's summary.json config (`real_root` + the `dataset/` subdir convention) or from the live-run registry (KITTI apply_calib=True, POSS False, segA offset 3850). Products: `RAP-SLAM/output_paper_metrics/paper_metrics.{json,md}` (12 offline + 7 live entries × {odometry, pgo}). Live↔offline equivalence re-confirmed (step3_poss odometry row == prods_poss odometry row, bit-exact).
+- **Headline numbers (odometry → PGO; aligned APE rmse [m] / unaligned [m] / KITTI ter [%]):**
+
+  | dataset | path [m] | aligned APE | unaligned APE | ter % |
+  |---|---|---|---|---|
+  | POSS segA | 420 | 2.565 → **0.665** (live 0.651; deskew live 0.629) | 8.257 → 1.821 | 3.589 → 1.315 |
+  | POSS segB | 844 | 1.921 → **1.040** | 16.258 → 14.064 | 2.161 → 1.764 |
+  | KITTI 06 | 1233 | 0.893 → **0.869** | 2.777 → 2.441 | 0.583 → 0.606 |
+  | KITTI 05 | 2205 | 1.869 → **1.129** | 5.194 → 3.417 | 0.764 → 0.688 |
+  | KITTI 00 (bb) | 3723 | 3.938 → **2.264** | 12.267 → 10.920 | 0.902 → 0.909 |
+  | KITTI 02 (offline / live) | 5067 | 7.953 → **4.410 / 6.930** | 31.64 → 27.97 / 27.39 | 1.234 → 1.196 / 1.612 |
+  | KITTI 01 (no loops) | 2453 | 19.874 (= odom) | 117.8 | 2.256 |
+
+- **Three findings that shape the experiment section:**
+  1. **Alignment flips our optics:** POSS-B 16.3 m unaligned → 1.9 m aligned; every loop-rich dataset lands at **0.63–2.26 m aligned APE after PGO** — the same ballpark as SG-SLAM's semantic-aided ~0.99 m loop-sequence average, achieved zero-shot, LiDAR-only, no training.
+  2. **The KITTI official metric is odometry-dominated:** PGO barely moves ter (06: 0.583→0.606; 00: 0.902→0.909; 02: 1.234→1.196) while unaligned APE improves 12–78%. Loop-closure value must be argued via APE + map consistency, NOT the official metric (the same effect is reported by the GICP matching-cost-factor paper, arXiv:2109.07073 — cite it).
+  3. **Our ter is ~2× CT-ICP per-seq** (06: 0.58 vs 0.27; 05: 0.69 vs 0.25; 00: 0.90 vs 0.49) — the front-end runs untuned KISS-ICP (max_range 80 / voxel 0.8 / no motion compensation; the KISS-ICP paper's 0.50 avg used tuned params). System-table framing: competitive on loop-rich sequences, not leaderboard SOTA. Optional P0.5: a tuned-front-end arm (max_range 100, smaller voxel) for the system table ONLY — it would break golden bit-exactness, so default-param goldens stay the canonical regression; report tuning separately.
 
 #### Next-session startup checklist (2026-08-22, eleventh update)
 
 1. `git log origin/main..HEAD --oneline` in both repos — should be empty; pull if the owner edited elsewhere.
-2. **Paper-phase plan DECIDED 2026-08-22** (advisor feedback: horizontal comparison + innovation beyond assembly) — full plan + literature findings in the 2026-08-22 addendum above. Priority order: **P0 evaluation-protocol unification (aligned APE + KITTI official drift, CPU-only — START HERE) → P1 verifier-swap module table → P2 calibrated generative uncertainty → P3 set-level loop closure + clique down-weighting → P4 cross-sensor probe (Newer College first) + Properties&Limits section → P5 writing.**
+2. **Paper-phase plan DECIDED 2026-08-22** (advisor feedback: horizontal comparison + innovation beyond assembly) — full plan + literature findings in the 2026-08-22 decision addendum. **P0 DONE the same day** (see the P0 addendum: `scripts/eval_paper_metrics.py`, both APE protocols + KITTI official drift for all 19 saved trajectories, products `output_paper_metrics/`). Next: **P1 verifier-swap module table** (ICP arms from saved candidates, CPU) → P2 calibrated generative uncertainty → P3 set-level loop closure + clique down-weighting → P4 cross-sensor probe (Newer College first) + Properties&Limits section → P5 writing.
 3. Old next-work list re-prioritized: (d) rosbag recording — optional demo; (e) MCD/Livox generalization — folded into P4 as a download-feasibility-gated probe (Newer College preferred); (f) LIO — still deferred (deskew falsified for KITTI 2026-08-16; needs throttled raw-dataset IMU).
 4. POSS segments A+B local (4170 frames, both smoke-validated). Further GT-revisit segments from the 2026-08-01 analysis: 0–1750, 16000–17250, 21750–22750, 25250–27250, 31000–35000 — download only if P4 wants more POSS coverage.
-5. Cleanup items DONE 2026-08-16 (84.8 GB zip deleted; advisor_report/ + ppt/ → `RAP-SLAM-report\`). NEW stray: untracked `paper/` in RAP-main — see the 2026-08-22 addendum housekeeping note.
+5. Cleanup items DONE 2026-08-16 (84.8 GB zip deleted; advisor_report/ + ppt/ → `RAP-SLAM-report\`). `paper/` stray RESOLVED 2026-08-22 (relocated to `RAP-SLAM-report\paper\`, rebuild verified); RAP-main tree 100% clean.
 
 #### Dataset request sent to owner (2026-08-01)
 
