@@ -93,6 +93,7 @@ Pipeline: `preprocess → KISS-ICP odometry → keyframe selection → Scan Cont
 - A detached `setsid bash script.sh > log 2>&1 < /dev/null &` launched inside `wsl bash -c '...'` gets killed when the outer command exits immediately; append `sleep 3` after the background launch inside the same command so the setsid child fully detaches.
 - **`RAP-SLAM/scripts/_vendor/` can show every file as modified** after Windows-side touches — pure CRLF/LF churn (identical content, equal insertions/deletions). Restore with `git checkout -- scripts/_vendor` before staging; never commit that noise (hit 2026-08-09).
 - In `wsl bash -c "... sed 's/x$/y/' ..."`, the `$` is eaten by Git Bash even inside double quotes — prefer `awk '/START/,0'` over `sed -n '/START/,$p'` (hit 2026-08-09).
+- **Never delete or overwrite a bash script while a detached `setsid bash script.sh` instance is still running** — bash reads the file incrementally and the run dies silently at the next unread line (hit 2026-08-23 with the Spires GT harvest; add integrity-checked resume to the script instead, e.g. `download_spires.sh`'s `-C -` + first/last-line validation).
 
 
 **Verified results (RTX 5070, WSL2):**
