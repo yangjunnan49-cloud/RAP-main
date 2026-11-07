@@ -1,0 +1,13 @@
+# SRA1 complete: new right-camera packet and stereo contract
+
+All 273 exact right-camera members were found in the already owner-provided archive, fully CRC-checked and decoded. New packet size 72,675,219 bytes. The current 87,215-entry central directory has unique safe names; archive size and nanosecond mtime match the original admission receipt before and after reads. No current whole-archive SHA authentication is claimed. Independent parsing checked every saved image hash, member CRC, PNG chunk CRC and decompressed grayscale scanline structure; it did not independently reconstruct all pixels.
+
+Actual existing OpenCV5.0.0 / NumPy2.3.5 controls passed before real image binding. StereoSGBM recovered deterministic synthetic8/16/32-pixel disparities at exactly those medians with full tested-interior coverage. Non-unit focal length/baseline triangulation and a nonidentity coordinate round trip passed. An exactly repeated appearance fixture retains three zero-cost rival disparities; the API winner cannot certify uniqueness. Full-rank geometric aliases with distinct versus repeated appearance separately demonstrate opportunity and limitation. These simple fixtures do not validate real SGBM error distributions or place identity.
+
+Supplied P0/P1 yield baselines00=0.5371657188644179m and08=0.5371506532679237m. Scalar projection/triangulation agree on the synthetic point. Original calibration bytes are bound and unchanged; physical calibration version, sensor timing and local reference precision remain unverified. Source admission is conditional on this supplied contract.
+
+Three owned Windows children (controls, packet, audit) exited0 and were reaped. Each has external fresh >=12GiB/<=2s nonce, RSS and wall receipts. No WSL/GPU/install/network/data download, features, real depth maps, candidate scores, pose solver, training, default or production change. Resource observations are not OS isolation or a complete instantaneous-peak guarantee. No failure or integration repair occurred in these three stages.
+
+Decision: source admission PASS, identity/safe acceptance NOT ESTABLISHED. A separate full200 support census may now ask whether direct stereo depth at BOTH visits covers the target IDs when paired with unchanged original left-left SIFT hypotheses. This changes the depth observation channel relative to CPV1's assigned LiDAR proximity depth; it does not expand the shared forward camera field of view, repair old SIFT results, or justify a confidence network. Test coverage before scoring candidates.
+
+Existing API reference (opened during the study): https://docs.opencv.org/5.0/main_modules/stereo.html . StereoSGBM is an existing method, not an original contribution.

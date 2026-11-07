@@ -1,0 +1,726 @@
+{
+  "passed": true,
+  "validation": {
+    "passed": true,
+    "extraction_and_sampler_conjunction": true,
+    "source_Euler_AST_exact": true,
+    "independent_Horn_part_fits": 120,
+    "independent_rigid_max_delta": 1.1102230246251565e-15,
+    "independent_state_max_delta": 7.216449660063518e-16,
+    "buffer_cast_checks": [
+      {
+        "name": "fit_00_helper1",
+        "step": 0,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper1",
+        "step": 0,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper1",
+        "step": 1,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper1",
+        "step": 1,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper1",
+        "step": 2,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper1",
+        "step": 2,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper1",
+        "step": 3,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper1",
+        "step": 3,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper1",
+        "step": 4,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper1",
+        "step": 4,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper2",
+        "step": 0,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper2",
+        "step": 0,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper2",
+        "step": 1,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper2",
+        "step": 1,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper2",
+        "step": 2,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper2",
+        "step": 2,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper2",
+        "step": 3,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper2",
+        "step": 3,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper2",
+        "step": 4,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_helper2",
+        "step": 4,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook1",
+        "step": 0,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook1",
+        "step": 0,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook1",
+        "step": 1,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook1",
+        "step": 1,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook1",
+        "step": 2,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook1",
+        "step": 2,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook1",
+        "step": 3,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook1",
+        "step": 3,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook1",
+        "step": 4,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook1",
+        "step": 4,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook2",
+        "step": 0,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook2",
+        "step": 0,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook2",
+        "step": 1,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook2",
+        "step": 1,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook2",
+        "step": 2,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook2",
+        "step": 2,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook2",
+        "step": 3,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook2",
+        "step": 3,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook2",
+        "step": 4,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "fit_00_hook2",
+        "step": 4,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper1",
+        "step": 0,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper1",
+        "step": 0,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper1",
+        "step": 1,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper1",
+        "step": 1,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper1",
+        "step": 2,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper1",
+        "step": 2,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper1",
+        "step": 3,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper1",
+        "step": 3,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper1",
+        "step": 4,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper1",
+        "step": 4,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper2",
+        "step": 0,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper2",
+        "step": 0,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper2",
+        "step": 1,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper2",
+        "step": 1,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper2",
+        "step": 2,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper2",
+        "step": 2,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper2",
+        "step": 3,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper2",
+        "step": 3,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper2",
+        "step": 4,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_helper2",
+        "step": 4,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook1",
+        "step": 0,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook1",
+        "step": 0,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook1",
+        "step": 1,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook1",
+        "step": 1,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook1",
+        "step": 2,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook1",
+        "step": 2,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook1",
+        "step": 3,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook1",
+        "step": 3,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook1",
+        "step": 4,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook1",
+        "step": 4,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook2",
+        "step": 0,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook2",
+        "step": 0,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook2",
+        "step": 1,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook2",
+        "step": 1,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook2",
+        "step": 2,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook2",
+        "step": 2,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook2",
+        "step": 3,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook2",
+        "step": 3,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook2",
+        "step": 4,
+        "buffer": "end_point_trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      },
+      {
+        "name": "eval_00_hook2",
+        "step": 4,
+        "buffer": "trajectory",
+        "byteequal": true,
+        "max_delta": 0.0,
+        "outside_one_float32_ULP": 0
+      }
+    ],
+    "pairs": [
+      {
+        "noise": "fit_00",
+        "left": "helper1",
+        "right": "helper2",
+        "byteexact": true,
+        "max_delta": 0.0
+      },
+      {
+        "noise": "fit_00",
+        "left": "hook1",
+        "right": "hook2",
+        "byteexact": true,
+        "max_delta": 0.0
+      },
+      {
+        "noise": "fit_00",
+        "left": "helper1",
+        "right": "hook1",
+        "byteexact": true,
+        "max_delta": 0.0
+      },
+      {
+        "noise": "fit_00",
+        "left": "helper2",
+        "right": "hook2",
+        "byteexact": true,
+        "max_delta": 0.0
+      },
+      {
+        "noise": "eval_00",
+        "left": "helper1",
+        "right": "helper2",
+        "byteexact": true,
+        "max_delta": 0.0
+      },
+      {
+        "noise": "eval_00",
+        "left": "hook1",
+        "right": "hook2",
+        "byteexact": true,
+        "max_delta": 0.0
+      },
+      {
+        "noise": "eval_00",
+        "left": "helper1",
+        "right": "hook1",
+        "byteexact": true,
+        "max_delta": 0.0
+      },
+      {
+        "noise": "eval_00",
+        "left": "helper2",
+        "right": "hook2",
+        "byteexact": true,
+        "max_delta": 0.0
+      }
+    ],
+    "decision": "SHADOW_SOURCE_SAMPLER_EXTRACTION_AND_PRECISION_BINDINGS_VALID",
+    "no_truth_target_metrics": true,
+    "backwards": 0,
+    "optimizer_calls": 0,
+    "retained_updates": 0,
+    "fit_admitted": false,
+    "original_native_equivalence": false,
+    "independent_complete_model": false
+  },
+  "science_caps_pass": true,
+  "old_repository_identity_and_markers": true,
+  "no_losses_truth_targets": true,
+  "backwards": 0,
+  "optimizer_calls": 0,
+  "retained_updates": 0,
+  "fit_admitted": false
+}

@@ -1,0 +1,489 @@
+{
+  "utc": "2026-10-21T01:32:26.139332+00:00",
+  "stages": [
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "close_r0",
+      "enclosing_seconds": 2.3942446,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 1.507744107999315
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 2.3942446
+        }
+      },
+      "Python_RSS": 43266048,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "freeze",
+      "enclosing_seconds": 153.1773855,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 150.938559962
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 153.1773855
+        }
+      },
+      "Python_RSS": 57618432,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "frontend_diagnosis",
+      "enclosing_seconds": 3.1903167,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 1.5897068999984185
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 3.1903167
+        }
+      },
+      "Python_RSS": 43634688,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "preflight",
+      "enclosing_seconds": 3.9400232,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 1.021822759998031
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 3.9400232
+        }
+      },
+      "Python_RSS": 52801536,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "prepare02",
+      "enclosing_seconds": 2.3874752,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 0.11347775199828902
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 2.3874752
+        }
+      },
+      "Python_RSS": 22949888,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "prepare03",
+      "enclosing_seconds": 2.3859781,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 0.10070619600446662
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 2.3859781
+        }
+      },
+      "Python_RSS": 19521536,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "run",
+      "enclosing_seconds": 3.195105,
+      "receipts": {
+        "child_exit.json": {
+          "success": false,
+          "exit_code": null,
+          "wall_seconds": 0.43486341599782463
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 1,
+          "wall_seconds": 3.195105
+        },
+        "wrapper_exit.json": {
+          "success": false,
+          "exit_code": null,
+          "wall_seconds": 1.0383372879950912
+        }
+      },
+      "Python_RSS": 43393024,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "run03",
+      "enclosing_seconds": 519.9071704,
+      "receipts": {
+        "child_exit.json": {
+          "success": false,
+          "exit_code": null,
+          "wall_seconds": 519.1491892420017
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 1,
+          "wall_seconds": 519.9071704
+        },
+        "wrapper_exit.json": {
+          "success": false,
+          "exit_code": null,
+          "wall_seconds": 519.6796519909985
+        }
+      },
+      "Python_RSS": 43577344,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "synthetic",
+      "enclosing_seconds": 3.1898567,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 2.7046385840003495
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 3.1898567
+        }
+      },
+      "Python_RSS": 305668096,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "audit_bindings",
+      "enclosing_seconds": 199.2075483,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 194.6345927939983
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 199.2075483
+        }
+      },
+      "Python_RSS": 51597312,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "certify_inputs",
+      "enclosing_seconds": 395.4870805,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 393.5737670269955
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 395.4870805
+        }
+      },
+      "Python_RSS": 59510784,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "evaluate06",
+      "enclosing_seconds": 247.5511201,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 241.47387368000636
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 247.5511201
+        }
+      },
+      "Python_RSS": 97021952,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "frontend_eligibility",
+      "enclosing_seconds": 508.8995527,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 506.5764438190017
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 508.8995527
+        }
+      },
+      "Python_RSS": 135335936,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "package_precision",
+      "enclosing_seconds": 1.6107848,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 1.4036522960013826
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 1.6107848
+        }
+      },
+      "Python_RSS": 38817792,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "prepare04",
+      "enclosing_seconds": 3.1763302,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 1.0147988300013822
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 3.1763302
+        }
+      },
+      "Python_RSS": 43651072,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "prepare05",
+      "enclosing_seconds": 3.1836946,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 1.2249824539976544
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 3.1836946
+        }
+      },
+      "Python_RSS": 44392448,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "prepare06",
+      "enclosing_seconds": 2.3885801,
+      "receipts": {
+        "child_exit.json": {
+          "success": false,
+          "exit_code": null,
+          "wall_seconds": 0.5418770809992566
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 1,
+          "wall_seconds": 2.3885801
+        }
+      },
+      "Python_RSS": 42876928,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "prepare06b",
+      "enclosing_seconds": 3.1886337,
+      "receipts": {
+        "exit.json": {
+          "success": null,
+          "exit_code": 1,
+          "wall_seconds": 3.1886337
+        }
+      },
+      "Python_RSS": null,
+      "missing_child_receipt": true,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "prepare_delivery07",
+      "enclosing_seconds": 1.6294855,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 0.739426394997281
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 1.6294855
+        }
+      },
+      "Python_RSS": 43462656,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "prepare_eval05",
+      "enclosing_seconds": 2.3917231,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 0.7976375289945281
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 2.3917231
+        }
+      },
+      "Python_RSS": 42946560,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "run04",
+      "enclosing_seconds": 773.4728936,
+      "receipts": {
+        "child_exit.json": {
+          "success": false,
+          "exit_code": null,
+          "wall_seconds": 763.9822340559986
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 1,
+          "wall_seconds": 773.4728936
+        },
+        "wrapper_exit.json": {
+          "success": false,
+          "exit_code": null,
+          "wall_seconds": 764.7524427570024
+        }
+      },
+      "Python_RSS": 43667456,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "run05",
+      "enclosing_seconds": 2059.723999,
+      "receipts": {
+        "child_exit.json": {
+          "success": false,
+          "exit_code": null,
+          "wall_seconds": 2005.6632269969996
+        },
+        "wrapper_exit.json": {
+          "success": false,
+          "exit_code": null,
+          "wall_seconds": 2006.2472975280034
+        },
+        "enclosing_upper_bound.json": {
+          "success": null,
+          "exit_code": null,
+          "wall_seconds": 2059.723999
+        }
+      },
+      "Python_RSS": 43409408,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": true
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "run06",
+      "enclosing_seconds": 1831.8392942,
+      "receipts": {
+        "child_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 1789.5818024510008
+        },
+        "exit.json": {
+          "success": null,
+          "exit_code": 0,
+          "wall_seconds": 1831.8392942
+        },
+        "wrapper_exit.json": {
+          "success": true,
+          "exit_code": null,
+          "wall_seconds": 1790.2034796630032
+        }
+      },
+      "Python_RSS": 48476160,
+      "missing_child_receipt": false,
+      "conservative_upper_bound_used": false
+    }
+  ],
+  "enclosing_seconds_before_delivery_stage": 6727.5182758,
+  "original_shared_cap_seconds": 7200,
+  "old_LMB_1073_9382182_unchanged": true,
+  "nested_native_worker_clocks_not_added": true
+}

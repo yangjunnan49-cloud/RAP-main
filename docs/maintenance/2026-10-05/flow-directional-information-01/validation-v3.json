@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "decision": "NO_MATERIAL_JOINT_DIRECTIONAL_INFORMATION",
+  "utc": "2026-10-05T08:46:36.282570+00:00",
+  "pairs": 200,
+  "primary_hard08": 41,
+  "positive_per_sequence": 75,
+  "max_array_delta": 3.4283687000424834e-13,
+  "max_score_delta": 3.9658554218391373e-13,
+  "total_wall_s": 47.395666911965236,
+  "peak_rss_gib": 0.07012557983398438,
+  "artifact_bytes_before_report": 2480141,
+  "checks": [
+    "freeze/original 1000 NPZ identities/stage ordering/seal",
+    "all 200 Horn fits/matrix-log full spatial responses",
+    "all direct-Jacobian geometric matrices and two analytic lever-arm controls",
+    "all native poses/decode tolerances/finite PSD",
+    "independent raw GT calibration and strict labels",
+    "all error-direction scores/cohorts/aggregates/material/safety gates",
+    "resource caps and final identity"
+  ]
+}

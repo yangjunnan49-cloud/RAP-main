@@ -1,0 +1,52 @@
+{
+  "changes": "Standard codec warmup, exact source verification, output-directory routing, audit module name only",
+  "files": [
+    {
+      "original": "predict.py",
+      "new": "predict_runtime02.py",
+      "original_sha256": "7b3de34d847977334339cdfb26dc3aa0b47772a28633a21a226503a4a915db1d",
+      "new_sha256": "bc752d5f3cbab0a11dda2de3db54095ccfa214ab3746d6b0845411747384f73d",
+      "exact_unchanged_functions": [],
+      "function_count": 0,
+      "exact_reverse_transform_recovers_original_source": true
+    },
+    {
+      "original": "evaluate.py",
+      "new": "evaluate_runtime02.py",
+      "original_sha256": "e6b3ab2da0aa20ed4978a004c991ca2b03db554fb29a2ad1e27369c2359cdf7a",
+      "new_sha256": "43f0960a0a9365afe11cfca0f11d7310b481b506c4d859ca1e821178f3c0210a",
+      "exact_unchanged_functions": [
+        "summary"
+      ],
+      "function_count": 1,
+      "exact_reverse_transform_recovers_original_source": true
+    },
+    {
+      "original": "audit.py",
+      "new": "audit_runtime02.py",
+      "original_sha256": "5549af9dbaf5799d86a98006a0260448f8c67e857d2cfa7426d3c0df96f51f86",
+      "new_sha256": "cfc3055b825eed41ede216051c8b0626b47892e5f1eb9d3b15278d79262c884b",
+      "exact_unchanged_functions": [
+        "independent_solve",
+        "independent_angles",
+        "samples",
+        "nearest"
+      ],
+      "function_count": 4,
+      "exact_reverse_transform_recovers_original_source": true
+    },
+    {
+      "original": "audit_refit.py",
+      "new": "audit_refit_runtime02.py",
+      "original_sha256": "bbb16e68dcb23369231f536255a86ff2bbea85ade442fc70a0f90d4d7e1cf0fb",
+      "new_sha256": "cf58ff1d639d88f1ad0d2f55ad567257f2268419cb86ee0eeb04648961a13741",
+      "exact_unchanged_functions": [],
+      "function_count": 1,
+      "exact_reverse_transform_recovers_original_source": true
+    }
+  ],
+  "original_prediction_failed_seconds_charged": 0.920919,
+  "original_source_freeze_sha256": "a36c0bdfdde50c4d5ab50946e7f892d36dffd8e4e40662d4df36dcea7b6d5b70",
+  "math_libraries_and_parameters_changed": false,
+  "partial_predictions_exist": false
+}

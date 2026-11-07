@@ -1,0 +1,393 @@
+{
+  "groups": [
+    {
+      "group": "all200",
+      "pairs": 200,
+      "pose_outputs": 17,
+      "no_evidence": 183,
+      "status_counts": {
+        "NO_EVIDENCE_INSUFFICIENT_HYPOTHESES": 176,
+        "POSE": 17,
+        "NO_EVIDENCE_VERIFIED_SUPPORT": 5,
+        "NO_EVIDENCE_NATIVE_FAILURE": 2
+      },
+      "rotation_translation_denominator": 17,
+      "direction_denominator": 17,
+      "rotation_mean_deg": 0.6233317339196243,
+      "rotation_median_deg": 0.4986931793873381,
+      "translation_mean_m": 0.6641574928437658,
+      "translation_median_m": 0.6477248253092698,
+      "direction_mean_deg": 11.979501330069287,
+      "direction_median_deg": 4.444280643940781,
+      "bin_denominator_all_pairs": 200,
+      "bin_counts": {
+        "R5_t2": 17,
+        "R10_t5": 17,
+        "R5_d15": 14,
+        "R10_d30": 15
+      }
+    },
+    {
+      "group": "00/all100",
+      "pairs": 100,
+      "pose_outputs": 17,
+      "no_evidence": 83,
+      "status_counts": {
+        "NO_EVIDENCE_INSUFFICIENT_HYPOTHESES": 78,
+        "POSE": 17,
+        "NO_EVIDENCE_VERIFIED_SUPPORT": 5
+      },
+      "rotation_translation_denominator": 17,
+      "direction_denominator": 17,
+      "rotation_mean_deg": 0.6233317339196243,
+      "rotation_median_deg": 0.4986931793873381,
+      "translation_mean_m": 0.6641574928437658,
+      "translation_median_m": 0.6477248253092698,
+      "direction_mean_deg": 11.979501330069287,
+      "direction_median_deg": 4.444280643940781,
+      "bin_denominator_all_pairs": 100,
+      "bin_counts": {
+        "R5_t2": 17,
+        "R10_t5": 17,
+        "R5_d15": 14,
+        "R10_d30": 15
+      }
+    },
+    {
+      "group": "00/positive75",
+      "pairs": 75,
+      "pose_outputs": 17,
+      "no_evidence": 58,
+      "status_counts": {
+        "NO_EVIDENCE_INSUFFICIENT_HYPOTHESES": 53,
+        "POSE": 17,
+        "NO_EVIDENCE_VERIFIED_SUPPORT": 5
+      },
+      "rotation_translation_denominator": 17,
+      "direction_denominator": 17,
+      "rotation_mean_deg": 0.6233317339196243,
+      "rotation_median_deg": 0.4986931793873381,
+      "translation_mean_m": 0.6641574928437658,
+      "translation_median_m": 0.6477248253092698,
+      "direction_mean_deg": 11.979501330069287,
+      "direction_median_deg": 4.444280643940781,
+      "bin_denominator_all_pairs": 75,
+      "bin_counts": {
+        "R5_t2": 17,
+        "R10_t5": 17,
+        "R5_d15": 14,
+        "R10_d30": 15
+      }
+    },
+    {
+      "group": "00/confuser25",
+      "pairs": 25,
+      "pose_outputs": 0,
+      "no_evidence": 25,
+      "status_counts": {
+        "NO_EVIDENCE_INSUFFICIENT_HYPOTHESES": 25
+      },
+      "rotation_translation_denominator": 0,
+      "direction_denominator": 0,
+      "rotation_mean_deg": null,
+      "rotation_median_deg": null,
+      "translation_mean_m": null,
+      "translation_median_m": null,
+      "direction_mean_deg": null,
+      "direction_median_deg": null,
+      "bin_denominator_all_pairs": 25,
+      "bin_counts": {
+        "R5_t2": 0,
+        "R10_t5": 0,
+        "R5_d15": 0,
+        "R10_d30": 0
+      }
+    },
+    {
+      "group": "00/ambiguous_positive",
+      "pairs": 25,
+      "pose_outputs": 3,
+      "no_evidence": 22,
+      "status_counts": {
+        "NO_EVIDENCE_INSUFFICIENT_HYPOTHESES": 19,
+        "POSE": 3,
+        "NO_EVIDENCE_VERIFIED_SUPPORT": 3
+      },
+      "rotation_translation_denominator": 3,
+      "direction_denominator": 3,
+      "rotation_mean_deg": 0.406825124860857,
+      "rotation_median_deg": 0.44712271865980757,
+      "translation_mean_m": 0.3043595715691802,
+      "translation_median_m": 0.2214787464502414,
+      "direction_mean_deg": 1.7909977903170324,
+      "direction_median_deg": 1.302198436602392,
+      "bin_denominator_all_pairs": 25,
+      "bin_counts": {
+        "R5_t2": 3,
+        "R10_t5": 3,
+        "R5_d15": 3,
+        "R10_d30": 3
+      }
+    },
+    {
+      "group": "00/confuser",
+      "pairs": 25,
+      "pose_outputs": 0,
+      "no_evidence": 25,
+      "status_counts": {
+        "NO_EVIDENCE_INSUFFICIENT_HYPOTHESES": 25
+      },
+      "rotation_translation_denominator": 0,
+      "direction_denominator": 0,
+      "rotation_mean_deg": null,
+      "rotation_median_deg": null,
+      "translation_mean_m": null,
+      "translation_median_m": null,
+      "direction_mean_deg": null,
+      "direction_median_deg": null,
+      "bin_denominator_all_pairs": 25,
+      "bin_counts": {
+        "R5_t2": 0,
+        "R10_t5": 0,
+        "R5_d15": 0,
+        "R10_d30": 0
+      }
+    },
+    {
+      "group": "00/low_overlap",
+      "pairs": 25,
+      "pose_outputs": 0,
+      "no_evidence": 25,
+      "status_counts": {
+        "NO_EVIDENCE_INSUFFICIENT_HYPOTHESES": 25
+      },
+      "rotation_translation_denominator": 0,
+      "direction_denominator": 0,
+      "rotation_mean_deg": null,
+      "rotation_median_deg": null,
+      "translation_mean_m": null,
+      "translation_median_m": null,
+      "direction_mean_deg": null,
+      "direction_median_deg": null,
+      "bin_denominator_all_pairs": 25,
+      "bin_counts": {
+        "R5_t2": 0,
+        "R10_t5": 0,
+        "R5_d15": 0,
+        "R10_d30": 0
+      }
+    },
+    {
+      "group": "00/ordinary",
+      "pairs": 25,
+      "pose_outputs": 14,
+      "no_evidence": 11,
+      "status_counts": {
+        "NO_EVIDENCE_INSUFFICIENT_HYPOTHESES": 9,
+        "POSE": 14,
+        "NO_EVIDENCE_VERIFIED_SUPPORT": 2
+      },
+      "rotation_translation_denominator": 14,
+      "direction_denominator": 14,
+      "rotation_mean_deg": 0.6697260072893602,
+      "rotation_median_deg": 0.6320735083947048,
+      "translation_mean_m": 0.7412570474026056,
+      "translation_median_m": 0.7309908299386647,
+      "direction_mean_deg": 14.162752088587627,
+      "direction_median_deg": 5.409280967531711,
+      "bin_denominator_all_pairs": 25,
+      "bin_counts": {
+        "R5_t2": 14,
+        "R10_t5": 14,
+        "R5_d15": 11,
+        "R10_d30": 12
+      }
+    },
+    {
+      "group": "08/all100",
+      "pairs": 100,
+      "pose_outputs": 0,
+      "no_evidence": 100,
+      "status_counts": {
+        "NO_EVIDENCE_INSUFFICIENT_HYPOTHESES": 98,
+        "NO_EVIDENCE_NATIVE_FAILURE": 2
+      },
+      "rotation_translation_denominator": 0,
+      "direction_denominator": 0,
+      "rotation_mean_deg": null,
+      "rotation_median_deg": null,
+      "translation_mean_m": null,
+      "translation_median_m": null,
+      "direction_mean_deg": null,
+      "direction_median_deg": null,
+      "bin_denominator_all_pairs": 100,
+      "bin_counts": {
+        "R5_t2": 0,
+        "R10_t5": 0,
+        "R5_d15": 0,
+        "R10_d30": 0
+      }
+    },
+    {
+      "group": "08/positive75",
+      "pairs": 75,
+      "pose_outputs": 0,
+      "no_evidence": 75,
+      "status_counts": {
+        "NO_EVIDENCE_INSUFFICIENT_HYPOTHESES": 74,
+        "NO_EVIDENCE_NATIVE_FAILURE": 1
+      },
+      "rotation_translation_denominator": 0,
+      "direction_denominator": 0,
+      "rotation_mean_deg": null,
+      "rotation_median_deg": null,
+      "translation_mean_m": null,
+      "translation_median_m": null,
+      "direction_mean_deg": null,
+      "direction_median_deg": null,
+      "bin_denominator_all_pairs": 75,
+      "bin_counts": {
+        "R5_t2": 0,
+        "R10_t5": 0,
+        "R5_d15": 0,
+        "R10_d30": 0
+      }
+    },
+    {
+      "group": "08/confuser25",
+      "pairs": 25,
+      "pose_outputs": 0,
+      "no_evidence": 25,
+      "status_counts": {
+        "NO_EVIDENCE_INSUFFICIENT_HYPOTHESES": 24,
+        "NO_EVIDENCE_NATIVE_FAILURE": 1
+      },
+      "rotation_translation_denominator": 0,
+      "direction_denominator": 0,
+      "rotation_mean_deg": null,
+      "rotation_median_deg": null,
+      "translation_mean_m": null,
+      "translation_median_m": null,
+      "direction_mean_deg": null,
+      "direction_median_deg": null,
+      "bin_denominator_all_pairs": 25,
+      "bin_counts": {
+        "R5_t2": 0,
+        "R10_t5": 0,
+        "R5_d15": 0,
+        "R10_d30": 0
+      }
+    },
+    {
+      "group": "08/ambiguous_positive",
+      "pairs": 25,
+      "pose_outputs": 0,
+      "no_evidence": 25,
+      "status_counts": {
+        "NO_EVIDENCE_INSUFFICIENT_HYPOTHESES": 25
+      },
+      "rotation_translation_denominator": 0,
+      "direction_denominator": 0,
+      "rotation_mean_deg": null,
+      "rotation_median_deg": null,
+      "translation_mean_m": null,
+      "translation_median_m": null,
+      "direction_mean_deg": null,
+      "direction_median_deg": null,
+      "bin_denominator_all_pairs": 25,
+      "bin_counts": {
+        "R5_t2": 0,
+        "R10_t5": 0,
+        "R5_d15": 0,
+        "R10_d30": 0
+      }
+    },
+    {
+      "group": "08/confuser",
+      "pairs": 25,
+      "pose_outputs": 0,
+      "no_evidence": 25,
+      "status_counts": {
+        "NO_EVIDENCE_INSUFFICIENT_HYPOTHESES": 24,
+        "NO_EVIDENCE_NATIVE_FAILURE": 1
+      },
+      "rotation_translation_denominator": 0,
+      "direction_denominator": 0,
+      "rotation_mean_deg": null,
+      "rotation_median_deg": null,
+      "translation_mean_m": null,
+      "translation_median_m": null,
+      "direction_mean_deg": null,
+      "direction_median_deg": null,
+      "bin_denominator_all_pairs": 25,
+      "bin_counts": {
+        "R5_t2": 0,
+        "R10_t5": 0,
+        "R5_d15": 0,
+        "R10_d30": 0
+      }
+    },
+    {
+      "group": "08/low_overlap",
+      "pairs": 25,
+      "pose_outputs": 0,
+      "no_evidence": 25,
+      "status_counts": {
+        "NO_EVIDENCE_INSUFFICIENT_HYPOTHESES": 24,
+        "NO_EVIDENCE_NATIVE_FAILURE": 1
+      },
+      "rotation_translation_denominator": 0,
+      "direction_denominator": 0,
+      "rotation_mean_deg": null,
+      "rotation_median_deg": null,
+      "translation_mean_m": null,
+      "translation_median_m": null,
+      "direction_mean_deg": null,
+      "direction_median_deg": null,
+      "bin_denominator_all_pairs": 25,
+      "bin_counts": {
+        "R5_t2": 0,
+        "R10_t5": 0,
+        "R5_d15": 0,
+        "R10_d30": 0
+      }
+    },
+    {
+      "group": "08/ordinary",
+      "pairs": 25,
+      "pose_outputs": 0,
+      "no_evidence": 25,
+      "status_counts": {
+        "NO_EVIDENCE_INSUFFICIENT_HYPOTHESES": 25
+      },
+      "rotation_translation_denominator": 0,
+      "direction_denominator": 0,
+      "rotation_mean_deg": null,
+      "rotation_median_deg": null,
+      "translation_mean_m": null,
+      "translation_median_m": null,
+      "direction_mean_deg": null,
+      "direction_median_deg": null,
+      "bin_denominator_all_pairs": 25,
+      "bin_counts": {
+        "R5_t2": 0,
+        "R10_t5": 0,
+        "R5_d15": 0,
+        "R10_d30": 0
+      }
+    }
+  ],
+  "reference_precision": {
+    "00": {
+      "selected_reference_RtR_deviation": 2.0930703192867384e-07,
+      "selected_reference_det_deviation": 1.6072810604672583e-07,
+      "no_projection": true
+    },
+    "08": {
+      "selected_reference_RtR_deviation": 1.5888761106808147e-07,
+      "selected_reference_det_deviation": 1.3019451206019994e-07,
+      "no_projection": true
+    }
+  },
+  "role": "Exposed supplied-reference numerical camera metric-pose comparison, no corrected-LiDAR equivalence or physical/RAP claim"
+}

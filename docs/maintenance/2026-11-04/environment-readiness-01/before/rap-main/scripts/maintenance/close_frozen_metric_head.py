@@ -1,0 +1,38 @@
+"""FHR0 standard-library identity/resource closure only."""
+import hashlib,json,resource,subprocess,time
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[2];BASE=ROOT/'docs/maintenance/2026-10-13/frozen-metric-head-derivatives-01';START=time.monotonic()
+def read(q):return json.loads(Path(q).read_text(encoding='utf-8-sig'))
+def sha(q):
+    h=hashlib.sha256()
+    with Path(q).open('rb') as f:
+        for b in iter(lambda:f.read(1048576),b''):h.update(b)
+    return h.hexdigest()
+def save(q,v):
+    with Path(q).open('x',encoding='utf-8') as f:json.dump(v,f,indent=2,allow_nan=False);f.write('\n')
+f=read(BASE/'freeze.json');v=read(BASE/'validation.json');assert v['passed']
+for q,h in f['files'].items():assert sha(q)==h,q
+repos={}
+for name,q in [('main',ROOT),('slam',ROOT.parent/'RAP-SLAM')]:
+    def git(*a):return subprocess.check_output(['git','--no-optional-locks','-C',str(q),*a],text=True).strip()
+    repos[name]=dict(head=git('rev-parse','HEAD'),branch=git('branch','--show-current'),tracked_status=git('status','--short','--untracked-files=no').splitlines())
+assert repos==f['repositories'];markers=[ROOT/'docs/maintenance/2026-10-10/native-conditioned-comparison-01/INCOMPLETE',ROOT/'docs/maintenance/2026-10-10/native-conditioned-comparison-01/attempt-02/INCOMPLETE',ROOT/'docs/maintenance/2026-10-12/native-backward-reproducibility-01/INCOMPLETE',ROOT/'docs/maintenance/2026-10-13/shadow-conditioned-fit-pilot-01/INCOMPLETE'];assert all(q.exists() for q in markers)
+save(BASE/'FINAL_IDENTITY_CHECK.json',dict(passed=True,frozen_identities=len(f['files']),repositories=repos,old_markers_preserved=[str(q) for q in markers]));receipts=[];retries=gaps=0
+for stage in ('freeze','probe','validate'):
+    folder=BASE/'supervision'/stage;c=read(folder/'child_exit.json');h=read(folder/'exit.json');l=read(folder/'launch.json');assert c['success'] and c['full_resource_capture'] and h['exit_code']==0 and c['peak_RSS_bytes']<=2*2**30 and c['peak_GPU_allocated_bytes']==c['peak_GPU_reserved_bytes']==c['optimizer_calls']==0
+    samples=[json.loads(x) for x in (folder/'host_memory.jsonl').read_text().splitlines() if x.strip()];assert samples and len(samples)==h['host_memory_observations'] and min(x['headroom_bytes'] for x in samples)>=4*2**30 and l['headroom_before_bytes']>=12*2**30
+    for name in ('logging_retry.jsonl','logging_gap.jsonl'):
+        if (folder/name).exists():
+            count=len((folder/name).read_text().splitlines())
+            if name.startswith('logging_retry'):retries+=count
+            else:gaps+=count
+    receipts.append(dict(stage=stage,child=c,host=h,launch=l))
+assert {q.name for q in (BASE/'supervision').iterdir() if q.is_dir()}=={'freeze','probe','validate'}
+seconds=sum(x['child']['wall_seconds'] for x in receipts);rss=max(x['child']['peak_RSS_bytes'] for x in receipts);assert seconds<=600
+save(BASE/'RESOURCE_AUDIT.json',dict(passed=True,receipts=receipts,scientific_child_seconds_including_imports=seconds,peak_RSS_bytes=rss,GPU_bytes=0,logging_retries=retries,logging_gaps=gaps,ordinary_setup_RSS_unknown=True,closing_identity_bookkeeping_separate=True,old_caps_gaps_unchanged=True))
+status='VALIDATED_FROZEN_METRIC_HEAD_DERIVATIVES_AND_ACTIVE_COLUMNS_COMPLETE'
+save(BASE/'CHECKS.json',dict(passed=True,full_parameter_derivatives_independently_verified=True,all216_trial_poses_and108_FD_checks_pass=True,all6_conditions_repeat_bytes_exact=True,zero_head_T0_bitexact=True,right_body_units_frame_and_permutation_valid=True,all_arms6150_nonzero_output_Jacobian_columns_and_local_rank12=True,native_or_retained_fit_or_GT_calls=0));save(BASE/'STATUS.json',dict(status=status,decision=v['decision'],native_backwards_repaired=False,head_fitting_executed=False,real_metric_headroom=False,original_HFIT='INCOMPLETE_ARTIFACT_CAP'))
+(BASE/'REPORT.md').write_text('\n'.join(['# FHR0 frozen metric-SE3 residual interface','',f'All{len(f["files"])} frozen identities match. Three fixed pointwise/separated/joint feature interfaces, two exposed synthetic input noises, share the same unadapted FP32 tau1 geometric base and6150-parameter zero linear head. All6150 local output-Jacobian columns are nonzero and two-row pose-output rank12 in every condition. This is explicit local activity/rank accounting, not full native/dataset capacity or equal total pipeline work. Pointwise D contains learned RAP encoding, not a raw descriptor/strong geometry control.', '',f'12 actual CPU head backwards/246 CPU head forwards including216 restored finite-difference trials;0 native model/checkpoint/forward/backward/optimizer/retained fit/GT errors. All complete zero-state/gradient repeats and zero-head base pose bytes exact. Independent Horn base delta{v["independent_Horn_base_max_delta"]:.12g}, FSUM pooling{v["independent_FSUM_pool_max_delta"]:.12g}, full parameter derivative{v["full_parameter_gradient_max_delta"]:.12g}, SciPy exp pose{v["independent_SciPy_exponential_max_delta"]:.12g};all108 directional checks/proper-pose/right-body metric units/common-left-frame/shared-row permutation gates pass.', '',f'Three fully supervised CPU children{seconds:.9f}s including imports,RSS{rss}/GPU0;600s/2GiB RSS/64MiB artifacts pass, full child+Windows exits,{retries} logging retries/{gaps} gaps. Process-local GPU hidden for CPU math only, no environment persistence. Setup RSS unknown/stdlib final bookkeeping separate; old caps/gaps unchanged.', '', 'This numerical head prerequisite is ordinary metric-SE3 linear residual geometry, not a new RAP mechanism, physical/system gain, generalization or training result. Copied descriptors/one known exposed synthetic scene need a direct non-learning descriptor/geometry ceiling control before further fitting can be interpreted. Current head does not include all future common residual/statistical inputs or strong real geometry/equal-work controls. Original HFIT0/NOC4/NBR INCOMPLETE, CCR0/SGC0/MGR0 stops and09 physical unknown/official reference/HEADs/branches/two-nine dirty sets remain. No head fitting/real/trajectory/production/ref/install/acquisition/restart/manuscript/commit/Git sync.'])+'\n',encoding='utf-8')
+(BASE/'NEXT_ROUND_PLAN.md').write_text('# Next baseline prerequisite — DESIGN_ONLY\n\nInspect a distinct target-free copied-descriptor geometric correspondence control on the original synthetic OBS, with all-source ambiguity/support census, prediction seal before fixture truth and independent brute-force correspondence/rigid/metric validation. This could establish an exposed numerical-control ceiling, not a real-data baseline or admission to training. Do not resume HFIT0 or native400 fits, manufacture a RAP-specific claim, or skip raw-observation/strong geometry/common-stat/equal-work controls before later real efficacy. No new baseline runner/protocol/metrics or head fitting executed by this closure.\n',encoding='utf-8')
+(BASE/'source_snapshot/closure_close_frozen_metric_head.py').write_bytes(Path(__file__).read_bytes());save(BASE/'BOOKKEEPING.json',dict(standard_library_only=True,no_numerical_replay=True,wall_seconds_before_seal=time.monotonic()-START,RSS_observed_before_seal_bytes=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*1024));assert (BASE/'INCOMPLETE').read_text().startswith('FHR0');(BASE/'INCOMPLETE').unlink()
+files=[dict(path=str(q.relative_to(BASE)),sha256=sha(q),bytes=q.stat().st_size) for q in sorted(BASE.rglob('*')) if q.is_file()];artifact=sum(x['bytes'] for x in files);assert artifact<64*2**20;save(BASE/'DELIVERY_SEAL.json',dict(status=status,decision=v['decision'],files=files,entries=len(files),artifact_bytes_before_seal=artifact));print(json.dumps(dict(status=status,deliveries=len(files),seconds=seconds,RSS=rss,artifact_bytes_before_seal=artifact),indent=2))

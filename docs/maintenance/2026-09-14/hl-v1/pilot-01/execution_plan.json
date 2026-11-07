@@ -1,0 +1,14 @@
+{
+  "protocol_sha256": "672d1ed4c4007bdd6fe63a7759031f6cebc960e7198980c71b04cbdabea11e1b",
+  "stage": "HL1 adequacy before inference",
+  "order": [
+    "05 discovery, freeze report",
+    "06 data adequacy only after discovery freeze"
+  ],
+  "insufficient_action": "INCONCLUSIVE; do not generate hypotheses or tune protocol after failed cohort minima",
+  "tie_order": "distance ascending then source ID ascending",
+  "geometric_cap_seed": 42,
+  "overlap_preprocess": "minrange1.5, voxel0.4, statistical outlier20/2.5, cap4000, no learned features",
+  "full_population": "All temporal-eligible historical ring/proximity distances plus shortlisted SC values persisted; registry union of up-to20 SC<=.25 and up-to5 proximity<=30 per query",
+  "ambiguous": "At least two retained historical SC candidates within .02 of best SC distance and source separation>=200; best counts among the two"
+}

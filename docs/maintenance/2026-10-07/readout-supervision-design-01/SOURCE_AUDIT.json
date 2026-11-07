@@ -1,0 +1,94 @@
+{
+  "status": "READ_ONLY_SOURCE_DESIGN",
+  "audit_utc": "2026-10-07T12:29:23Z",
+  "extra_source_hashes": {
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-10/m3/pilot-01/sequence_split_diagnostic.json": "8a96703112d8eb8c8a75b6c0cb6796be8522b48ebccaae27631f35f4e80b307e"
+  },
+  "local_checkpoint_training_binding": "UNKNOWN",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/html/2512.01850v1",
+      "facts": [
+        "Published KITTI training scenes19/22 and Oxford5/6",
+        "Paper excludes KITTI08-10 from training"
+      ],
+      "binding_to_local_checkpoint": false
+    },
+    {
+      "url": "https://www.cvlibs.net/datasets/kitti/eval_odometry.php",
+      "facts": [
+        "Public poses00-10; official withheld evaluation11-21",
+        "Very short subsequence GT error caveat; official segment lengths100-800m"
+      ]
+    },
+    {
+      "url": "https://dynamic.robots.ox.ac.uk/datasets/oxford-spires/",
+      "facts": [
+        "Reported trajectory is base pose in world; calibration and raw lidar payload are separate data components"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/1911.11763",
+      "facts": [
+        "Learned matching and unmatched assignment are prior art"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2202.06688",
+      "facts": [
+        "Contextual learned point cloud registration is prior art"
+      ]
+    }
+  ],
+  "independent_context": {
+    "runtime_validated": false,
+    "source_feasible": true,
+    "rows": 3000,
+    "part_cuts": [
+      0,
+      1000,
+      2000,
+      3000
+    ],
+    "joint_batch_cuts": [
+      0,
+      3000
+    ],
+    "independent_batch_cuts": [
+      0,
+      1000,
+      2000,
+      3000
+    ],
+    "independent_counts": [
+      [
+        1000
+      ],
+      [
+        1000
+      ],
+      [
+        1000
+      ]
+    ],
+    "norm_noise_role_changed": false,
+    "full_rollout_separated": true,
+    "one_part_ood_caveat": true,
+    "attention_cost_equal": false
+  },
+  "head_draft": {
+    "input_dimensions": 521,
+    "hidden_dimensions": 128,
+    "match_dimensions": 64,
+    "nominal_parameters": 75202,
+    "direct_inactive_parameters": 61440,
+    "direct_effective_parameters": 13762,
+    "implemented": false
+  },
+  "limitations": [
+    "Metadata/schema readiness is not physical supervision quality",
+    "No real dynamic annotations confirmed",
+    "Sites/disjointness/local checkpoint split unknown",
+    "New readout scoring convention does not change official GT or historical metrics"
+  ]
+}

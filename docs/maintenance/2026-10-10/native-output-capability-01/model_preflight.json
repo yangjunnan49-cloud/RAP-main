@@ -1,0 +1,29 @@
+{
+  "checkpoint": {
+    "strict": true,
+    "keys": 344,
+    "weights_only": true,
+    "allowed": [
+      "builtins.dict",
+      "builtins.int",
+      "builtins.list",
+      "collections.defaultdict",
+      "numpy._core.multiarray._reconstruct",
+      "numpy.dtype",
+      "numpy.ndarray",
+      "omegaconf.base.ContainerMetadata",
+      "omegaconf.base.Metadata",
+      "omegaconf.listconfig.ListConfig",
+      "omegaconf.nodes.AnyNode",
+      "typing.Any"
+    ],
+    "descriptor_loaded": false
+  },
+  "initialized_native_delta": 0.0,
+  "trainable_parameters": 443904,
+  "wall_seconds": 9.46940022916533,
+  "peak_RSS_bytes": 2475556864,
+  "peak_GPU_allocated_bytes": 429233152,
+  "peak_GPU_reserved_bytes": 465567744,
+  "artifact_bytes": 1351190
+}

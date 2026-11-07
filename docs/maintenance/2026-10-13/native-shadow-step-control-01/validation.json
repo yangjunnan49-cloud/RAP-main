@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "functional_conjunction": true,
+  "repeat_byteexact": true,
+  "rows": [
+    {
+      "name": "V1",
+      "arm": "V",
+      "radius": 3.1875489620250323e-06,
+      "checks": [
+        {
+          "sign": -1,
+          "loss_before": 7.229966710778735e-06,
+          "loss_after": 7.22275540144204e-06,
+          "actual_dot": -7.229966710781719e-09,
+          "parameter_L2_norm": 3.1875489620263486e-06,
+          "Armijo_pass": true
+        },
+        {
+          "sign": 1,
+          "loss_before": 7.229966710778735e-06,
+          "loss_after": 7.237215334725143e-06,
+          "actual_dot": 7.229966710781719e-09,
+          "parameter_L2_norm": 3.1875489620263486e-06,
+          "Armijo_pass": true
+        }
+      ],
+      "all_pass": true
+    },
+    {
+      "name": "V2",
+      "arm": "V",
+      "radius": 3.1875489620250323e-06,
+      "checks": [
+        {
+          "sign": -1,
+          "loss_before": 7.229966710778735e-06,
+          "loss_after": 7.22275540144204e-06,
+          "actual_dot": -7.229966710781719e-09,
+          "parameter_L2_norm": 3.1875489620263486e-06,
+          "Armijo_pass": true
+        },
+        {
+          "sign": 1,
+          "loss_before": 7.229966710778735e-06,
+          "loss_after": 7.237215334725143e-06,
+          "actual_dot": 7.229966710781719e-09,
+          "parameter_L2_norm": 3.1875489620263486e-06,
+          "Armijo_pass": true
+        }
+      ],
+      "all_pass": true
+    },
+    {
+      "name": "P1",
+      "arm": "P",
+      "radius": 6.403882462061483e-06,
+      "checks": [
+        {
+          "sign": -1,
+          "loss_before": 198.32998955584299,
+          "loss_after": 198.13171256872013,
+          "actual_dot": -0.1983299895558075,
+          "parameter_L2_norm": 6.403882462060349e-06,
+          "Armijo_pass": true
+        },
+        {
+          "sign": 1,
+          "loss_before": 198.32998955584299,
+          "loss_after": 198.52837254860734,
+          "actual_dot": 0.1983299895558075,
+          "parameter_L2_norm": 6.403882462060349e-06,
+          "Armijo_pass": true
+        }
+      ],
+      "all_pass": true
+    },
+    {
+      "name": "P2",
+      "arm": "P",
+      "radius": 6.403882462061483e-06,
+      "checks": [
+        {
+          "sign": -1,
+          "loss_before": 198.32998955584299,
+          "loss_after": 198.13171256872013,
+          "actual_dot": -0.1983299895558075,
+          "parameter_L2_norm": 6.403882462060349e-06,
+          "Armijo_pass": true
+        },
+        {
+          "sign": 1,
+          "loss_before": 198.32998955584299,
+          "loss_after": 198.52837254860734,
+          "actual_dot": 0.1983299895558075,
+          "parameter_L2_norm": 6.403882462060349e-06,
+          "Armijo_pass": true
+        }
+      ],
+      "all_pass": true
+    }
+  ],
+  "independent_loss_max_delta": 1.5631940186722204e-12,
+  "actual_signed_steps": 8,
+  "optimizer_API_calls": 0,
+  "retained_updates": 0,
+  "fit_admitted": false,
+  "decision": "SHADOW_FIXED_FIRST_ORDER_DESCENT_ASCENT_WITNESS"
+}

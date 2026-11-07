@@ -1,0 +1,16 @@
+{
+  "scope": "Bookkeeping-only source snapshot supplement before numerical payload",
+  "reason": "Flat source_snapshot filenames include prefreeze-attempt01 copies that overwrite same-name current copies; preserve original snapshot and supply separately identified exact current frozen sources.",
+  "files": [
+    {
+      "path": "frozen_current_sources/measured_gicp_registration.py",
+      "sha256": "ad0ffdcd7cc7373389f70c6e5d03250088cb91806fb6347c509902fd96a3163d",
+      "source": "/mnt/e/githouse/RAP-main/scripts/maintenance/measured_gicp_registration.py"
+    },
+    {
+      "path": "frozen_current_sources/validate_measured_gicp.py",
+      "sha256": "4b78c650ce39ceb55ad860930aa41f0500160cc1c299939d8625538f613f85d5",
+      "source": "/mnt/e/githouse/RAP-main/scripts/maintenance/validate_measured_gicp.py"
+    }
+  ]
+}

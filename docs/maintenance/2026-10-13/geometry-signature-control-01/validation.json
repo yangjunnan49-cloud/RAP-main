@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "decision": "CONGRUENT_SYNTHETIC_GEOMETRY_CEILING_RECOVERED_NO_LEARNING_CONTEXT_EFFICACY_IDENTIFIABLE",
+  "fixtures": [
+    {
+      "name": "asymmetric",
+      "passed": true,
+      "expected_full_support": true
+    },
+    {
+      "name": "coincident_coordinate",
+      "passed": true,
+      "expected_full_support": true
+    },
+    {
+      "name": "distinct_coordinate_cube_symmetry",
+      "passed": true,
+      "expected_full_support": false
+    }
+  ],
+  "independent_3000000_point_distances": true,
+  "independent_4000000_signature_vector_distances": true,
+  "signature_scalar_component_comparisons": 4000000000,
+  "all4000_full_candidate_queries_verified": true,
+  "independent_signature_max_delta": 0.0,
+  "nearest_distance_max_delta": 1.4210854715202004e-14,
+  "independent_Horn_max_delta": 9.658940314238862e-15,
+  "control_conjunction": true,
+  "prediction_seal_precedes_new_truth_errors": true,
+  "CDG0_failed_support_not_repaired": true,
+  "head_fitting": 0
+}

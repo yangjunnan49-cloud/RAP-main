@@ -1,0 +1,63 @@
+{
+  "utc": "2026-10-21T01:32:24.834884+00:00",
+  "modes": {
+    "G": {
+      "cells": 18,
+      "frames": 36888,
+      "enclosing_cell_seconds": 3238.2230565720165,
+      "batch_frames_per_second": 11.391432694895837,
+      "frame_seconds": {
+        "median": 0.07999780849786475,
+        "p95": 0.09928404214770126,
+        "p99": 0.13736283260928756,
+        "maximum": 0.37879950999922585,
+        "over100ms": 1717
+      },
+      "summed_frame_clock_columns": [
+        432.004865471652,
+        285.2287027561033,
+        710.2503140311164,
+        1624.0330116193727,
+        3051.5168938782444
+      ],
+      "serialization_seconds": 0.5528199990076246,
+      "fine_and_source_check_seconds": 1.4829976620167145,
+      "maximum_successful_worker_RSS_bytes": 694571008
+    },
+    "K": {
+      "cells": 18,
+      "frames": 36888,
+      "enclosing_cell_seconds": 1361.5616683459884,
+      "batch_frames_per_second": 27.09241957788895,
+      "frame_seconds": {
+        "median": 0.029229928499262314,
+        "p95": 0.04367272830495495,
+        "p99": 0.06942042125774595,
+        "maximum": 0.2971678090034402,
+        "over100ms": 272
+      },
+      "summed_frame_clock_columns": [
+        415.9564051820489,
+        146.41622632855433,
+        0.01610029711446259,
+        599.2684913794728,
+        1161.6572231871905
+      ],
+      "serialization_seconds": 18.282632105008815,
+      "fine_and_source_check_seconds": 1.0448619069939014,
+      "maximum_successful_worker_RSS_bytes": 678711296
+    }
+  },
+  "clock_columns": [
+    "read_hash",
+    "preprocess_and_input_audit",
+    "E0_frontend_G_only",
+    "native_process_scan",
+    "frame_total"
+  ],
+  "frame_clock_excludes_outside_loop_logging_and_cap_checks": true,
+  "cell_wall_includes_all_interpreter_import_validation_outputs": true,
+  "first_K_retained_once": true,
+  "cold_OS_cache_not_certified": true,
+  "guaranteed_online_10Hz": false
+}

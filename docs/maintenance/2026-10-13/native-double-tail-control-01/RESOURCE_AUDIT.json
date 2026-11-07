@@ -1,0 +1,162 @@
+{
+  "passed": true,
+  "scientific_children": 5,
+  "combined_seconds": 98.51595506299782,
+  "peak_RSS_bytes": 2435121152,
+  "peak_GPU_allocated_bytes": 4052324864,
+  "peak_GPU_reserved_bytes": 4240441344,
+  "receipts": [
+    {
+      "stage": "freeze",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 11.3611629589941,
+        "peak_RSS_bytes": 630484992,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 294483,
+        "optimizer_calls": 0,
+        "imports_included": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:54:10.7231808Z",
+        "wall_seconds": 14.8167269,
+        "host_memory_observations": 19,
+        "minimum_observed_headroom_bytes": 91973050368.0
+      },
+      "launch": {
+        "pid": 31420,
+        "utc_start": "2026-10-13T01:53:55.9064539Z",
+        "script": "scripts/maintenance/native_double_tail.py",
+        "stage": "freeze",
+        "headroom_before_bytes": 95270268928
+      }
+    },
+    {
+      "stage": "probe",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 23.27838287200575,
+        "peak_RSS_bytes": 2435121152,
+        "peak_GPU_allocated_bytes": 4052324864,
+        "peak_GPU_reserved_bytes": 4240441344,
+        "artifact_bytes": 29613108,
+        "optimizer_calls": 0,
+        "imports_included": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:54:46.1617792Z",
+        "wall_seconds": 25.6574134,
+        "host_memory_observations": 33,
+        "minimum_observed_headroom_bytes": 84781010944.0
+      },
+      "launch": {
+        "pid": 42448,
+        "utc_start": "2026-10-13T01:54:20.5043658Z",
+        "script": "scripts/maintenance/native_double_tail.py",
+        "stage": "probe",
+        "headroom_before_bytes": 92074336256
+      }
+    },
+    {
+      "stage": "repeat",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 8.055970222994802,
+        "peak_RSS_bytes": 106786816,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 29631988,
+        "optimizer_calls": 0,
+        "imports_included": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:55:31.1930001Z",
+        "wall_seconds": 10.8999315,
+        "host_memory_observations": 14,
+        "minimum_observed_headroom_bytes": 91512848384.0
+      },
+      "launch": {
+        "pid": 3780,
+        "utc_start": "2026-10-13T01:55:20.2930686Z",
+        "script": "scripts/maintenance/native_double_tail.py",
+        "stage": "repeat",
+        "headroom_before_bytes": 92146577408
+      }
+    },
+    {
+      "stage": "directions",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 30.362125870000455,
+        "peak_RSS_bytes": 2324598784,
+        "peak_GPU_allocated_bytes": 1754294784,
+        "peak_GPU_reserved_bytes": 1933574144,
+        "artifact_bytes": 118449715,
+        "optimizer_calls": 0,
+        "imports_included": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:56:45.4228584Z",
+        "wall_seconds": 35.027181,
+        "host_memory_observations": 45,
+        "minimum_observed_headroom_bytes": 87134158848.0
+      },
+      "launch": {
+        "pid": 43936,
+        "utc_start": "2026-10-13T01:56:10.3956774Z",
+        "script": "scripts/maintenance/native_double_tail.py",
+        "stage": "directions",
+        "headroom_before_bytes": 95271161856
+      }
+    },
+    {
+      "stage": "validate",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 25.458313139002712,
+        "peak_RSS_bytes": 117563392,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 118485565,
+        "optimizer_calls": 0,
+        "imports_included": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:57:30.3519937Z",
+        "wall_seconds": 28.8448982,
+        "host_memory_observations": 37,
+        "minimum_observed_headroom_bytes": 89341169664.0
+      },
+      "launch": {
+        "pid": 35816,
+        "utc_start": "2026-10-13T01:57:01.5070955Z",
+        "script": "scripts/maintenance/native_double_tail.py",
+        "stage": "validate",
+        "headroom_before_bytes": 89659867136
+      }
+    }
+  ],
+  "imports_included": true,
+  "full_child_and_Windows_exits": true,
+  "logging_retries": 0,
+  "logging_gaps": 0,
+  "setup_RSS_unknown": true,
+  "bookkeeping_separate": true,
+  "old_caps_and_gaps_preserved": true
+}

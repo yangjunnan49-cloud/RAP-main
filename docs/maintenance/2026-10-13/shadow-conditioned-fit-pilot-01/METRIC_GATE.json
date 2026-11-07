@@ -1,0 +1,14 @@
+{
+  "source": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-10\\native-noise-robustness-01\\freeze.json",
+  "source_sha256": "e34827f761ff155ea99310f442505361f4b019672d033909f6e48bf8de1164d7",
+  "gate": {
+    "mean_t_ratio": 0.9,
+    "median_t_gain_m": 0.005,
+    "mean_R_slack_deg": 0.01,
+    "median_R_gain_deg": 0,
+    "joint_nonworse_min": 12,
+    "q90_t_ratio": 1.05,
+    "q90_R_slack_deg": 0.02
+  },
+  "scope": "same formula for new shadow condition and old eval-noise set; historical gates unchanged"
+}

@@ -1,0 +1,108 @@
+{
+  "utc": "2026-10-20T03:35:07.563263+00:00",
+  "source_identities": {
+    "/root/venvs/kiss-slam-hc1/lib/python3.12/site-packages/kiss_slam/slam.py": "e5325fdaaef2248d035a76f3f3ca3ab69a418e474596c7848d8164f593a28759",
+    "/root/venvs/kiss-slam-hc1/lib/python3.12/site-packages/kiss_slam/local_map_graph.py": "044923aae7771a3afa9026a593efb7fdc6d3dce2b7ee2c2d15f248a8e683ae69",
+    "/root/venvs/kiss-slam-hc1/lib/python3.12/site-packages/kiss_slam/pose_graph_optimizer.py": "1ab83a3b1e24ac8a9a51dca2bd4ed4c830e9a525e5949067fd90e87afb872d3e"
+  },
+  "rows": {
+    "00": {
+      "trajectory.g2o": {
+        "sha256": "f90c46c7138cecf2cb3e52a492fb96252a141215933f1f3e1fa774551ffc4278",
+        "vertices": 4541,
+        "edges": 4540,
+        "nonadjacent_index_edges": []
+      },
+      "local_maps/local_map_graph.g2o": {
+        "sha256": "b5b8527e07f459c09e8817fd905baa2c235265f96ae06147b1536dd95f7494c9",
+        "vertices": 33,
+        "edges": 39,
+        "nonadjacent_index_edges": [
+          [
+            9,
+            0
+          ],
+          [
+            21,
+            15
+          ],
+          [
+            22,
+            3
+          ],
+          [
+            23,
+            4
+          ],
+          [
+            24,
+            5
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            31,
+            0
+          ]
+        ]
+      },
+      "E0_keyframes": 670,
+      "E0_loops": 12,
+      "exported_map_files": 32,
+      "config_sha256": "da019d4a2f1f11280238f1de78de2db2a8251371ea3d5967fabcf8f1c8ea46d7",
+      "member_sidecars": []
+    },
+    "05": {
+      "trajectory.g2o": {
+        "sha256": "cddb4ce32cd2102ef39a9521b5c69ba57119d6cf5407f1128d3fb5f6bd9bd1f7",
+        "vertices": 2761,
+        "edges": 2760,
+        "nonadjacent_index_edges": []
+      },
+      "local_maps/local_map_graph.g2o": {
+        "sha256": "e705d185b805b397aab4b6cb6f275e1062b8395ceca76af16bdecbb69fe94c2c",
+        "vertices": 20,
+        "edges": 24,
+        "nonadjacent_index_edges": [
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            15,
+            0
+          ],
+          [
+            17,
+            5
+          ]
+        ]
+      },
+      "E0_keyframes": 374,
+      "E0_loops": 12,
+      "exported_map_files": 19,
+      "config_sha256": "da019d4a2f1f11280238f1de78de2db2a8251371ea3d5967fabcf8f1c8ea46d7",
+      "member_sidecars": []
+    }
+  },
+  "decision": "NO_IDENTIFIABLE_E0_COMPONENT_TRANSPLANT; ADMIT_FIXED_INPUT_DMF_SCREEN",
+  "causal_attribution": false,
+  "point_decode": false,
+  "GT_numeric_read": false,
+  "reasons": [
+    "local map IDs differ from raw scan IDs",
+    "map PLY exports apply optimized keypose",
+    "KISS local odometry resets and unit information differ from E0",
+    "no explicit source membership sidecar found in these two archive folders"
+  ]
+}

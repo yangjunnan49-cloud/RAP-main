@@ -1,0 +1,1046 @@
+{
+  "00": {
+    "endpoints": [
+      2429,
+      3373
+    ],
+    "memberships": {
+      "B": {
+        "census": {
+          "candidate_voxels": 2957,
+          "full_eligible_planes": 216,
+          "accepted_cross_patches": 216,
+          "rejected_support": 2405,
+          "rejected_plane": 336,
+          "rejected_single_visit": 0
+        },
+        "train": {
+          "patches": 163,
+          "per_scan_points": [
+            762,
+            683,
+            804,
+            1022,
+            970,
+            968,
+            969,
+            897,
+            588,
+            733,
+            897,
+            1032,
+            847,
+            889,
+            1052,
+            847
+          ],
+          "per_visit_points": [
+            7075,
+            6885
+          ],
+          "per_visit_scans": [
+            8,
+            8
+          ]
+        },
+        "holdout": {
+          "patches": 53,
+          "per_scan_points": [
+            301,
+            204,
+            224,
+            296,
+            260,
+            270,
+            316,
+            310,
+            180,
+            265,
+            237,
+            291,
+            272,
+            245,
+            327,
+            309
+          ],
+          "per_visit_points": [
+            2181,
+            2126
+          ],
+          "per_visit_scans": [
+            8,
+            8
+          ]
+        },
+        "supported": true,
+        "intersection": {
+          "nonempty_patches": 167,
+          "omitted_empty_patches": 49,
+          "single_scan_patches": 6,
+          "per_scan_points": [
+            698,
+            481,
+            566,
+            754,
+            742,
+            756,
+            841,
+            842,
+            369,
+            471,
+            605,
+            754,
+            609,
+            570,
+            761,
+            605
+          ]
+        }
+      },
+      "G": {
+        "census": {
+          "candidate_voxels": 3131,
+          "full_eligible_planes": 161,
+          "accepted_cross_patches": 154,
+          "rejected_support": 2596,
+          "rejected_plane": 374,
+          "rejected_single_visit": 7
+        },
+        "train": {
+          "patches": 115,
+          "per_scan_points": [
+            486,
+            509,
+            589,
+            677,
+            699,
+            668,
+            690,
+            622,
+            412,
+            537,
+            643,
+            780,
+            602,
+            594,
+            618,
+            494
+          ],
+          "per_visit_points": [
+            4940,
+            4680
+          ],
+          "per_visit_scans": [
+            8,
+            8
+          ]
+        },
+        "holdout": {
+          "patches": 39,
+          "per_scan_points": [
+            233,
+            129,
+            121,
+            182,
+            172,
+            182,
+            228,
+            261,
+            92,
+            105,
+            152,
+            186,
+            171,
+            160,
+            266,
+            234
+          ],
+          "per_visit_points": [
+            1508,
+            1366
+          ],
+          "per_visit_scans": [
+            8,
+            8
+          ]
+        },
+        "supported": true,
+        "intersection": {
+          "nonempty_patches": 152,
+          "omitted_empty_patches": 2,
+          "single_scan_patches": 1,
+          "per_scan_points": [
+            698,
+            481,
+            566,
+            754,
+            742,
+            756,
+            841,
+            842,
+            369,
+            471,
+            605,
+            754,
+            609,
+            570,
+            761,
+            605
+          ]
+        }
+      }
+    },
+    "coverage": {
+      "per_scan": [
+        {
+          "total": 6000,
+          "B": 1063,
+          "G": 719,
+          "intersection": 698,
+          "B_only": 365,
+          "G_only": 21,
+          "union": 1084
+        },
+        {
+          "total": 6000,
+          "B": 887,
+          "G": 638,
+          "intersection": 481,
+          "B_only": 406,
+          "G_only": 157,
+          "union": 1044
+        },
+        {
+          "total": 6000,
+          "B": 1028,
+          "G": 710,
+          "intersection": 566,
+          "B_only": 462,
+          "G_only": 144,
+          "union": 1172
+        },
+        {
+          "total": 6000,
+          "B": 1318,
+          "G": 859,
+          "intersection": 754,
+          "B_only": 564,
+          "G_only": 105,
+          "union": 1423
+        },
+        {
+          "total": 6000,
+          "B": 1230,
+          "G": 871,
+          "intersection": 742,
+          "B_only": 488,
+          "G_only": 129,
+          "union": 1359
+        },
+        {
+          "total": 6000,
+          "B": 1238,
+          "G": 850,
+          "intersection": 756,
+          "B_only": 482,
+          "G_only": 94,
+          "union": 1332
+        },
+        {
+          "total": 6000,
+          "B": 1285,
+          "G": 918,
+          "intersection": 841,
+          "B_only": 444,
+          "G_only": 77,
+          "union": 1362
+        },
+        {
+          "total": 6000,
+          "B": 1207,
+          "G": 883,
+          "intersection": 842,
+          "B_only": 365,
+          "G_only": 41,
+          "union": 1248
+        },
+        {
+          "total": 6000,
+          "B": 768,
+          "G": 504,
+          "intersection": 369,
+          "B_only": 399,
+          "G_only": 135,
+          "union": 903
+        },
+        {
+          "total": 6000,
+          "B": 998,
+          "G": 642,
+          "intersection": 471,
+          "B_only": 527,
+          "G_only": 171,
+          "union": 1169
+        },
+        {
+          "total": 6000,
+          "B": 1134,
+          "G": 795,
+          "intersection": 605,
+          "B_only": 529,
+          "G_only": 190,
+          "union": 1324
+        },
+        {
+          "total": 6000,
+          "B": 1323,
+          "G": 966,
+          "intersection": 754,
+          "B_only": 569,
+          "G_only": 212,
+          "union": 1535
+        },
+        {
+          "total": 6000,
+          "B": 1119,
+          "G": 773,
+          "intersection": 609,
+          "B_only": 510,
+          "G_only": 164,
+          "union": 1283
+        },
+        {
+          "total": 6000,
+          "B": 1134,
+          "G": 754,
+          "intersection": 570,
+          "B_only": 564,
+          "G_only": 184,
+          "union": 1318
+        },
+        {
+          "total": 6000,
+          "B": 1379,
+          "G": 884,
+          "intersection": 761,
+          "B_only": 618,
+          "G_only": 123,
+          "union": 1502
+        },
+        {
+          "total": 6000,
+          "B": 1156,
+          "G": 728,
+          "intersection": 605,
+          "B_only": 551,
+          "G_only": 123,
+          "union": 1279
+        }
+      ],
+      "intersection_points": 10424,
+      "union_points": 20337,
+      "jaccard": 0.5125633082558883,
+      "B_split_patches": 138,
+      "G_merge_patches": 139,
+      "B_patches_with_no_shared_rows": 49,
+      "G_patches_with_no_shared_rows": 2,
+      "same_key_pairs": 132
+    }
+  },
+  "05": {
+    "endpoints": [
+      538,
+      1302
+    ],
+    "memberships": {
+      "B": {
+        "census": {
+          "candidate_voxels": 3367,
+          "full_eligible_planes": 167,
+          "accepted_cross_patches": 132,
+          "rejected_support": 2868,
+          "rejected_plane": 332,
+          "rejected_single_visit": 35
+        },
+        "train": {
+          "patches": 102,
+          "per_scan_points": [
+            670,
+            449,
+            481,
+            608,
+            632,
+            637,
+            597,
+            628,
+            193,
+            315,
+            455,
+            628,
+            850,
+            788,
+            772,
+            697
+          ],
+          "per_visit_points": [
+            4702,
+            4698
+          ],
+          "per_visit_scans": [
+            8,
+            8
+          ]
+        },
+        "holdout": {
+          "patches": 30,
+          "per_scan_points": [
+            236,
+            108,
+            99,
+            170,
+            197,
+            200,
+            189,
+            210,
+            19,
+            63,
+            120,
+            145,
+            190,
+            218,
+            224,
+            238
+          ],
+          "per_visit_points": [
+            1409,
+            1217
+          ],
+          "per_visit_scans": [
+            8,
+            8
+          ]
+        },
+        "supported": true,
+        "intersection": {
+          "nonempty_patches": 126,
+          "omitted_empty_patches": 6,
+          "single_scan_patches": 0,
+          "per_scan_points": [
+            868,
+            433,
+            458,
+            641,
+            716,
+            754,
+            734,
+            764,
+            176,
+            325,
+            508,
+            695,
+            920,
+            929,
+            911,
+            866
+          ]
+        }
+      },
+      "G": {
+        "census": {
+          "candidate_voxels": 3383,
+          "full_eligible_planes": 167,
+          "accepted_cross_patches": 129,
+          "rejected_support": 2872,
+          "rejected_plane": 344,
+          "rejected_single_visit": 38
+        },
+        "train": {
+          "patches": 95,
+          "per_scan_points": [
+            659,
+            391,
+            440,
+            521,
+            576,
+            595,
+            579,
+            607,
+            181,
+            300,
+            418,
+            610,
+            800,
+            772,
+            753,
+            662
+          ],
+          "per_visit_points": [
+            4368,
+            4496
+          ],
+          "per_visit_scans": [
+            8,
+            8
+          ]
+        },
+        "holdout": {
+          "patches": 34,
+          "per_scan_points": [
+            261,
+            119,
+            129,
+            192,
+            195,
+            224,
+            230,
+            232,
+            10,
+            46,
+            131,
+            140,
+            196,
+            226,
+            234,
+            251
+          ],
+          "per_visit_points": [
+            1582,
+            1234
+          ],
+          "per_visit_scans": [
+            8,
+            8
+          ]
+        },
+        "supported": true,
+        "intersection": {
+          "nonempty_patches": 125,
+          "omitted_empty_patches": 4,
+          "single_scan_patches": 0,
+          "per_scan_points": [
+            868,
+            433,
+            458,
+            641,
+            716,
+            754,
+            734,
+            764,
+            176,
+            325,
+            508,
+            695,
+            920,
+            929,
+            911,
+            866
+          ]
+        }
+      }
+    },
+    "coverage": {
+      "per_scan": [
+        {
+          "total": 6000,
+          "B": 906,
+          "G": 920,
+          "intersection": 868,
+          "B_only": 38,
+          "G_only": 52,
+          "union": 958
+        },
+        {
+          "total": 6000,
+          "B": 557,
+          "G": 510,
+          "intersection": 433,
+          "B_only": 124,
+          "G_only": 77,
+          "union": 634
+        },
+        {
+          "total": 6000,
+          "B": 580,
+          "G": 569,
+          "intersection": 458,
+          "B_only": 122,
+          "G_only": 111,
+          "union": 691
+        },
+        {
+          "total": 6000,
+          "B": 778,
+          "G": 713,
+          "intersection": 641,
+          "B_only": 137,
+          "G_only": 72,
+          "union": 850
+        },
+        {
+          "total": 6000,
+          "B": 829,
+          "G": 771,
+          "intersection": 716,
+          "B_only": 113,
+          "G_only": 55,
+          "union": 884
+        },
+        {
+          "total": 6000,
+          "B": 837,
+          "G": 819,
+          "intersection": 754,
+          "B_only": 83,
+          "G_only": 65,
+          "union": 902
+        },
+        {
+          "total": 6000,
+          "B": 786,
+          "G": 809,
+          "intersection": 734,
+          "B_only": 52,
+          "G_only": 75,
+          "union": 861
+        },
+        {
+          "total": 6000,
+          "B": 838,
+          "G": 839,
+          "intersection": 764,
+          "B_only": 74,
+          "G_only": 75,
+          "union": 913
+        },
+        {
+          "total": 6000,
+          "B": 212,
+          "G": 191,
+          "intersection": 176,
+          "B_only": 36,
+          "G_only": 15,
+          "union": 227
+        },
+        {
+          "total": 6000,
+          "B": 378,
+          "G": 346,
+          "intersection": 325,
+          "B_only": 53,
+          "G_only": 21,
+          "union": 399
+        },
+        {
+          "total": 6000,
+          "B": 575,
+          "G": 549,
+          "intersection": 508,
+          "B_only": 67,
+          "G_only": 41,
+          "union": 616
+        },
+        {
+          "total": 6000,
+          "B": 773,
+          "G": 750,
+          "intersection": 695,
+          "B_only": 78,
+          "G_only": 55,
+          "union": 828
+        },
+        {
+          "total": 6000,
+          "B": 1040,
+          "G": 996,
+          "intersection": 920,
+          "B_only": 120,
+          "G_only": 76,
+          "union": 1116
+        },
+        {
+          "total": 6000,
+          "B": 1006,
+          "G": 998,
+          "intersection": 929,
+          "B_only": 77,
+          "G_only": 69,
+          "union": 1075
+        },
+        {
+          "total": 6000,
+          "B": 996,
+          "G": 987,
+          "intersection": 911,
+          "B_only": 85,
+          "G_only": 76,
+          "union": 1072
+        },
+        {
+          "total": 6000,
+          "B": 935,
+          "G": 913,
+          "intersection": 866,
+          "B_only": 69,
+          "G_only": 47,
+          "union": 982
+        }
+      ],
+      "intersection_points": 10698,
+      "union_points": 13008,
+      "jaccard": 0.8224169741697417,
+      "B_split_patches": 80,
+      "G_merge_patches": 82,
+      "B_patches_with_no_shared_rows": 6,
+      "G_patches_with_no_shared_rows": 4,
+      "same_key_pairs": 122
+    }
+  },
+  "06": {
+    "endpoints": [
+      150,
+      978
+    ],
+    "memberships": {
+      "B": {
+        "census": {
+          "candidate_voxels": 4613,
+          "full_eligible_planes": 204,
+          "accepted_cross_patches": 204,
+          "rejected_support": 4201,
+          "rejected_plane": 208,
+          "rejected_single_visit": 0
+        },
+        "train": {
+          "patches": 163,
+          "per_scan_points": [
+            480,
+            382,
+            505,
+            639,
+            822,
+            732,
+            725,
+            577,
+            337,
+            427,
+            507,
+            704,
+            792,
+            761,
+            631,
+            499
+          ],
+          "per_visit_points": [
+            4862,
+            4658
+          ],
+          "per_visit_scans": [
+            8,
+            8
+          ]
+        },
+        "holdout": {
+          "patches": 41,
+          "per_scan_points": [
+            136,
+            70,
+            123,
+            176,
+            154,
+            241,
+            200,
+            177,
+            50,
+            101,
+            144,
+            207,
+            219,
+            170,
+            192,
+            119
+          ],
+          "per_visit_points": [
+            1277,
+            1202
+          ],
+          "per_visit_scans": [
+            8,
+            8
+          ]
+        },
+        "supported": true,
+        "intersection": {
+          "nonempty_patches": 194,
+          "omitted_empty_patches": 10,
+          "single_scan_patches": 6,
+          "per_scan_points": [
+            558,
+            385,
+            488,
+            661,
+            817,
+            792,
+            775,
+            656,
+            278,
+            402,
+            473,
+            741,
+            879,
+            813,
+            711,
+            564
+          ]
+        }
+      },
+      "G": {
+        "census": {
+          "candidate_voxels": 4604,
+          "full_eligible_planes": 200,
+          "accepted_cross_patches": 200,
+          "rejected_support": 4192,
+          "rejected_plane": 212,
+          "rejected_single_visit": 0
+        },
+        "train": {
+          "patches": 162,
+          "per_scan_points": [
+            478,
+            432,
+            511,
+            638,
+            782,
+            753,
+            740,
+            607,
+            315,
+            435,
+            500,
+            708,
+            761,
+            735,
+            619,
+            508
+          ],
+          "per_visit_points": [
+            4941,
+            4581
+          ],
+          "per_visit_scans": [
+            8,
+            8
+          ]
+        },
+        "holdout": {
+          "patches": 38,
+          "per_scan_points": [
+            120,
+            73,
+            94,
+            163,
+            158,
+            198,
+            203,
+            160,
+            68,
+            94,
+            109,
+            201,
+            214,
+            182,
+            177,
+            115
+          ],
+          "per_visit_points": [
+            1169,
+            1160
+          ],
+          "per_visit_scans": [
+            8,
+            8
+          ]
+        },
+        "supported": true,
+        "intersection": {
+          "nonempty_patches": 193,
+          "omitted_empty_patches": 7,
+          "single_scan_patches": 3,
+          "per_scan_points": [
+            558,
+            385,
+            488,
+            661,
+            817,
+            792,
+            775,
+            656,
+            278,
+            402,
+            473,
+            741,
+            879,
+            813,
+            711,
+            564
+          ]
+        }
+      }
+    },
+    "coverage": {
+      "per_scan": [
+        {
+          "total": 6000,
+          "B": 616,
+          "G": 598,
+          "intersection": 558,
+          "B_only": 58,
+          "G_only": 40,
+          "union": 656
+        },
+        {
+          "total": 6000,
+          "B": 452,
+          "G": 505,
+          "intersection": 385,
+          "B_only": 67,
+          "G_only": 120,
+          "union": 572
+        },
+        {
+          "total": 6000,
+          "B": 628,
+          "G": 605,
+          "intersection": 488,
+          "B_only": 140,
+          "G_only": 117,
+          "union": 745
+        },
+        {
+          "total": 6000,
+          "B": 815,
+          "G": 801,
+          "intersection": 661,
+          "B_only": 154,
+          "G_only": 140,
+          "union": 955
+        },
+        {
+          "total": 6000,
+          "B": 976,
+          "G": 940,
+          "intersection": 817,
+          "B_only": 159,
+          "G_only": 123,
+          "union": 1099
+        },
+        {
+          "total": 6000,
+          "B": 973,
+          "G": 951,
+          "intersection": 792,
+          "B_only": 181,
+          "G_only": 159,
+          "union": 1132
+        },
+        {
+          "total": 6000,
+          "B": 925,
+          "G": 943,
+          "intersection": 775,
+          "B_only": 150,
+          "G_only": 168,
+          "union": 1093
+        },
+        {
+          "total": 6000,
+          "B": 754,
+          "G": 767,
+          "intersection": 656,
+          "B_only": 98,
+          "G_only": 111,
+          "union": 865
+        },
+        {
+          "total": 6000,
+          "B": 387,
+          "G": 383,
+          "intersection": 278,
+          "B_only": 109,
+          "G_only": 105,
+          "union": 492
+        },
+        {
+          "total": 6000,
+          "B": 528,
+          "G": 529,
+          "intersection": 402,
+          "B_only": 126,
+          "G_only": 127,
+          "union": 655
+        },
+        {
+          "total": 6000,
+          "B": 651,
+          "G": 609,
+          "intersection": 473,
+          "B_only": 178,
+          "G_only": 136,
+          "union": 787
+        },
+        {
+          "total": 6000,
+          "B": 911,
+          "G": 909,
+          "intersection": 741,
+          "B_only": 170,
+          "G_only": 168,
+          "union": 1079
+        },
+        {
+          "total": 6000,
+          "B": 1011,
+          "G": 975,
+          "intersection": 879,
+          "B_only": 132,
+          "G_only": 96,
+          "union": 1107
+        },
+        {
+          "total": 6000,
+          "B": 931,
+          "G": 917,
+          "intersection": 813,
+          "B_only": 118,
+          "G_only": 104,
+          "union": 1035
+        },
+        {
+          "total": 6000,
+          "B": 823,
+          "G": 796,
+          "intersection": 711,
+          "B_only": 112,
+          "G_only": 85,
+          "union": 908
+        },
+        {
+          "total": 6000,
+          "B": 618,
+          "G": 623,
+          "intersection": 564,
+          "B_only": 54,
+          "G_only": 59,
+          "union": 677
+        }
+      ],
+      "intersection_points": 9993,
+      "union_points": 13857,
+      "jaccard": 0.7211517644511799,
+      "B_split_patches": 132,
+      "G_merge_patches": 133,
+      "B_patches_with_no_shared_rows": 10,
+      "G_patches_with_no_shared_rows": 7,
+      "same_key_pairs": 180
+    }
+  }
+}

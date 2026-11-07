@@ -1,0 +1,156 @@
+{
+  "all_match": true,
+  "scopes": [
+    {
+      "scope": "image-archive-admission-01",
+      "seal_sha256": "e53a84199da0e2e13c943ee0a1a57294766096b763ae22f7d6426bcd398ebcf8",
+      "verified_entries": 15,
+      "close_checks": {
+        "required_members": 273,
+        "inclusive_seconds": 240.8381401,
+        "content_worker_attempts": 1,
+        "old_caps_unchanged": true,
+        "cap_seconds": 900,
+        "cap_pass": true,
+        "utc": "2026-10-28T03:37:10.8381401+00:00",
+        "status": "COMPLETE_ARCHIVE_METADATA_ADMISSION",
+        "initial_CIM_access_failure_retained": true
+      }
+    },
+    {
+      "scope": "image-packet-verification-01",
+      "seal_sha256": "faf856d81017585f7106321d0c2cdb29aa59040a1e63bfedbf8609e33171a93f",
+      "verified_entries": 291,
+      "close_checks": {
+        "new_Tr_authentication": false,
+        "P0_to_P3_exact_Decimal_matches": true,
+        "utc": "2026-10-28T03:38:58.2337003+00:00",
+        "dossier_cap_bytes": 536870912,
+        "dossier_cap_pass": true,
+        "cap_pass": true,
+        "dossier_bytes_before_seal": 71987610.0,
+        "models_features_solvers": 0,
+        "cap_seconds": 1200,
+        "inclusive_seconds": 184.2337003,
+        "timestamps_byteexact": true,
+        "no_live_owned_process": true,
+        "all273_ZIP_PNG_full_decodes_pass": true,
+        "status": "COMPLETE_PNG_AND_SUPPLIED_ASSOCIATION"
+      }
+    },
+    {
+      "scope": "visual-runtime-readiness-01",
+      "seal_sha256": "4722be439528e746c22285d83b0034e829e4699380cb682dbf310a9bd5792ea3",
+      "verified_entries": 11,
+      "close_checks": {
+        "status": "COMPLETE_ENVIRONMENT_GATE_CV2_ABSENT",
+        "utc": "2026-10-28T03:41:36.8575538+00:00",
+        "WSL_Stopped_restored": true,
+        "scientific_payload": 0,
+        "cap_pass": true,
+        "inclusive_seconds": 150.8575538,
+        "installs": 0,
+        "runtime_admitted": false,
+        "cap_seconds": 600
+      }
+    },
+    {
+      "scope": "visual-environment-census-01",
+      "seal_sha256": "afc2a1edccdbe65c1eb533ca7d400bbd28c767c8f831051fa6955f0bf9cb36e7",
+      "verified_entries": 10,
+      "close_checks": {
+        "utc": "2026-10-28T03:42:56.1882347+00:00",
+        "module_imports": 0,
+        "inclusive_seconds": 124.1882347,
+        "cap_seconds": 300,
+        "WSL_Stopped_restored": true,
+        "status": "COMPLETE_KNOWN_ENVIRONMENTS_CV2_ABSENT",
+        "new_scientific_payload": 0,
+        "cap_pass": true,
+        "installs": 0
+      }
+    },
+    {
+      "scope": "opencv-metadata-request-01",
+      "seal_sha256": "c088e9a87b3a24dd6621b2e6fb6352c273240802f347ff1a4db65497397bc5f5",
+      "verified_entries": 26,
+      "close_checks": {
+        "no_live_owned_process": true,
+        "cap_seconds": 900,
+        "status": "COMPLETE_PINNED_RUNTIME_METADATA",
+        "installs": 0,
+        "new_scientific_payload": 0,
+        "utc": "2026-10-28T03:48:42.8923300+00:00",
+        "inclusive_seconds": 307.6335679,
+        "dossier_bytes": 885759.0,
+        "dossier_cap_pass": true,
+        "package_downloads": 0,
+        "cap_pass": true
+      }
+    },
+    {
+      "scope": "vision-runtime-install-01",
+      "seal_sha256": "25a9784f997becc036a06c910af36e5cfe452dd51db949ea8a781bfe30fb9486",
+      "verified_entries": 15,
+      "close_checks": {
+        "existing_environments_unchanged": true,
+        "complete_SHA_pass": false,
+        "no_live_owned_process": true,
+        "status": "CLOSED_DOWNLOAD_TIMEOUT_NO_INSTALL",
+        "API_checks": 0,
+        "partial_bytes": 34603008,
+        "wheel_admitted": false,
+        "cap_seconds": 1200,
+        "installs": 0,
+        "authorized_requests_consumed": 1,
+        "utc": "2026-10-28T03:51:22.1965591+00:00",
+        "time_cap_pass": true,
+        "inclusive_seconds": 159.1952432
+      }
+    },
+    {
+      "scope": "vision-runtime-resume-01",
+      "seal_sha256": "02ce169cdfdb1b441686cecac10731c439833e9eb33a3b221f7bafcfe4128d9a",
+      "verified_entries": 14,
+      "close_checks": {
+        "no_live_owned_process": true,
+        "API_probes": 0,
+        "requests_consumed": 1,
+        "installs": 0,
+        "status": "CLOSED_RANGE_READ_TIMEOUT_NO_INSTALL",
+        "full_SHA_pass": false,
+        "time_cap_pass": true,
+        "prefix_bytes": 34603008,
+        "new_saved_body_bytes": 0,
+        "inclusive_seconds": 329.0754891,
+        "utc": "2026-10-28T03:58:53.2452618+00:00",
+        "cap_seconds": 1200
+      }
+    },
+    {
+      "scope": "camera-frustum-support-01",
+      "seal_sha256": "d50529dd02b1467f69b31088882f2ebb0a1c5b560059fad6ba987253191d443c",
+      "verified_entries": 20,
+      "close_checks": {
+        "cap_seconds": 900,
+        "pixel_feature_solver_model_calls": 0,
+        "directions": 400,
+        "old_caps_changed": false,
+        "positive_zero_both_08": 42,
+        "no_live_owned_process": true,
+        "raw_scan_ids": 273,
+        "inclusive_seconds": 453.7761832,
+        "cap_pass": true,
+        "utc": "2026-10-28T04:02:51.7761832+00:00",
+        "dossier_cap_pass": true,
+        "status": "COMPLETE_REFERENCE_CONDITIONED_FINITE_FRUSTUM_CEILING",
+        "pairs": 200,
+        "dossier_bytes": 342552.0,
+        "readout_timing_correction_preserved": true,
+        "positive_zero_both_00": 15,
+        "Decimal_checks": 16000
+      }
+    }
+  ],
+  "overlapping_times_not_summed": true
+}

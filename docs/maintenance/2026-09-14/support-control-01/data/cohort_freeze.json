@@ -1,0 +1,60 @@
+{
+  "protocol": "SC-V1",
+  "frozen_utc": "2026-09-14T12:15:27.396583+00:00",
+  "roles": {
+    "discovery": {
+      "sequences": [
+        "07",
+        "10"
+      ],
+      "selected": 45,
+      "counts": {
+        "confuser": 25,
+        "ambiguous_positive": 3,
+        "low_overlap": 17,
+        "ordinary": 0
+      },
+      "adequate": false,
+      "candidate_count": 4399,
+      "pooled_selection_independently_verified": true
+    },
+    "confirmation": {
+      "sequences": [
+        "08"
+      ],
+      "selected": 100,
+      "counts": {
+        "confuser": 25,
+        "ambiguous_positive": 25,
+        "low_overlap": 25,
+        "ordinary": 25
+      },
+      "adequate": true,
+      "candidate_count": 11545,
+      "pooled_selection_independently_verified": true
+    }
+  },
+  "adequate": false,
+  "hypotheses_generated_before_freeze": 0,
+  "hashes": {
+    "confirmation_inputs.json": "e5a0b4efee922c8a028010e80964cbaabac3e58474c2f5fed8f2666d3f021582",
+    "discovery_inputs.json": "08c6f9f9b92c4a4d5dddaf96af863bbf13249201aedaf11293a737bb55e3828e"
+  },
+  "evaluator_hashes": {
+    "confirmation_evaluator.json": "857571e44b43d7bcf0de64f3f5a35ce7d03924f36ac7c132cffa29229f0fc3c1",
+    "discovery_evaluator.json": "3302de37a9df76f8bf5e2f05708280e5fc0e7b29d679d9c9fa1b5e0ce29d0260"
+  },
+  "protocol_sha256": "0b2dc17669061c4173e0cb83b7dbf15cee3a243086398fd1bcb74def8b9527db",
+  "source_hashes": {
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/prepare_support_control.py": "cbe91f1deae02a56994e067bddc1ea9db17b82d31b5c8b391a7213054164ef86",
+    "/mnt/e/githouse/RAP-SLAM/scripts/hl2_data_bridge.py": "e2d9d018e35eb46998f24dbbd5779403bb7a65cbf372174913d8d6e2fc2ce5b6",
+    "/mnt/e/githouse/RAP-SLAM/scripts/validate_hl_v2_data.py": "efa2612eb26fdd9f57c1f31cf86a064d3f2c0f93aee118e96daf2ce62a8e1362",
+    "/mnt/e/githouse/RAP-SLAM/scripts/hl1_cohort_audit.py": "fd967ae3728aaad8e8f5c016052f5bd12fc36e71468db0717f56d5445fcb84ec",
+    "/mnt/e/githouse/RAP-SLAM/scripts/hl0_preflight.py": "4c9b043501062e56f5c17ed520dfa4e28c0a000228f74f5bc70b512c6876d50f",
+    "/mnt/e/githouse/RAP-SLAM/rap_slam/rap_backend.py": "552fe044167b2490ee5a5d390c659a3707fbfc0a31108b6f15bd579623fe90f3",
+    "/mnt/e/githouse/RAP-SLAM/rap_slam/odometry.py": "677ec6d410358ba30cfc3a1e3c022753b5f955d214a5d7888439070d17f547c1",
+    "/mnt/e/githouse/RAP-SLAM/rap_slam/keyframes.py": "9478b5b041690ee92c78187767125a8a1ec487da4846f670ff5143f8bfa7820b",
+    "/mnt/e/githouse/RAP-SLAM/rap_slam/scan_context.py": "f06ae0d5d9bdf3b2e1de38d0dfcef389329ba8614b6470d4897e9608b125a45c",
+    "/mnt/e/githouse/RAP-SLAM/rap_slam/real_dataset.py": "ecb438df719e5e61632163d6a620fca114f80f7fce920147a3a8234ea52684d1"
+  }
+}

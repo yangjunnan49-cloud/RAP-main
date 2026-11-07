@@ -1,0 +1,58 @@
+{
+  "scope": "post-hoc observed-development ICP baseline, no gate or graph claim",
+  "sequences": {
+    "00": {
+      "native_successes": 49,
+      "refined_successes": 51,
+      "strict_gains": [
+        "00_386_2514",
+        "00_976_3835",
+        "00_405_2502",
+        "00_435_2540"
+      ],
+      "strict_losses": [
+        "00_214_1656",
+        "00_187_1621"
+      ],
+      "native_clipped_error": 1.472846082266669,
+      "refined_clipped_error": 1.4967619575002544,
+      "by_stratum": {
+        "ambiguous_positive": {
+          "native": 21,
+          "refined": 21
+        },
+        "low_overlap": {
+          "native": 3,
+          "refined": 6
+        },
+        "ordinary": {
+          "native": 25,
+          "refined": 24
+        }
+      }
+    },
+    "08": {
+      "native_successes": 30,
+      "refined_successes": 30,
+      "strict_gains": [],
+      "strict_losses": [],
+      "native_clipped_error": 1.5799304227352056,
+      "refined_clipped_error": 1.5953184772363074,
+      "by_stratum": {
+        "ambiguous_positive": {
+          "native": 12,
+          "refined": 12
+        },
+        "low_overlap": {
+          "native": 3,
+          "refined": 3
+        },
+        "ordinary": {
+          "native": 15,
+          "refined": 15
+        }
+      }
+    }
+  },
+  "decision": "NO_LOCAL_REFINEMENT_FEASIBILITY_SIGNAL"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "P_full1",
+  "arm": "P",
+  "path": "full",
+  "rep": 1,
+  "loss": 198.48916069256828,
+  "terms": {
+    "translation": 191.91284799809245,
+    "rotation": 6.553030262800471,
+    "shape": 0.023282431675369218
+  },
+  "factor": 0.0009765625,
+  "parameters_unchanged_byteexact": true,
+  "optimizer_calls": 0,
+  "hook_modules": [
+    "transformer_layers.10.global_qkv_proj",
+    "transformer_layers.10.global_out_proj",
+    "transformer_layers.11.global_qkv_proj",
+    "transformer_layers.11.global_out_proj"
+  ],
+  "rank_linear_extra_calls": 4
+}

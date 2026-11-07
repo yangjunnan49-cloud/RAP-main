@@ -1,0 +1,57 @@
+{
+  "utc": "2026-10-21T07:26:46.1043849+00:00",
+  "checks": [
+    {
+      "scope": "overlap_validation_20261021",
+      "passed": true,
+      "mismatches": [],
+      "sealed_entries": 181
+    },
+    {
+      "scope": "guard_hardening_20261021",
+      "passed": true,
+      "mismatches": [],
+      "sealed_entries": 83
+    },
+    {
+      "scope": "native_stability_review_20261021",
+      "passed": true,
+      "mismatches": [],
+      "sealed_entries": 11
+    },
+    {
+      "scope": "boundary_contract_20261021",
+      "passed": true,
+      "mismatches": [],
+      "sealed_entries": 6
+    }
+  ],
+  "repository_copies": [
+    {
+      "bytes": 789109,
+      "directory": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-21\\p0-validation-01"
+    },
+    {
+      "bytes": 390599,
+      "directory": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-21\\guard-hardening-01"
+    },
+    {
+      "bytes": 398078,
+      "directory": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-21\\native-stability-review-01"
+    },
+    {
+      "bytes": 394448,
+      "directory": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-21\\boundary-contract-01"
+    }
+  ],
+  "all_sealed_entries_match": true,
+  "new_bytes_at_snapshot": 42468524,
+  "old_dossier_bytes": 140458966,
+  "combined_bytes_at_snapshot": 182927490,
+  "new_cap_bytes": 67108864,
+  "combined_cap_bytes": 268435456,
+  "growth_pass": true,
+  "late_documentary_bytes_additional": true,
+  "no_numeric_payload": true,
+  "original_caps_unchanged": true
+}

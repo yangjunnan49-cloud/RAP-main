@@ -1,0 +1,408 @@
+{
+  "cases": [
+    {
+      "case": "normal",
+      "receipt": {
+        "mode": "normal",
+        "native": {
+          "pid": 407,
+          "wait_status": 0,
+          "exit_code": 0,
+          "peak_RSS_bytes": 18178048,
+          "user_seconds": 0.003574,
+          "system_seconds": 0.003574
+        },
+        "reason": null,
+        "termination_requested": false,
+        "observed_bytes": {
+          "2": 10,
+          "3": 10
+        },
+        "stored_bytes": {
+          "2": 10,
+          "3": 10
+        },
+        "discarded_observed_bytes": {
+          "2": 0,
+          "3": 0
+        },
+        "EOF_observed": {
+          "2": true,
+          "3": true
+        },
+        "wall_seconds": 0.017660877987509593,
+        "admitted": true,
+        "full_intended_flood_output_claim": false,
+        "journal_cap": 2048,
+        "terminal_reserved_bytes": 1024,
+        "cooperating_file_envelope": 3072
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 152,
+          "sha256": "0a474a78727e35c710794743f529fdc53be1191daa76c39ab073143f032aa65c"
+        },
+        {
+          "path": "exit.json",
+          "bytes": 555,
+          "sha256": "30ae88025fba4d053c30e4a23c85cca5d297b25885345a5092152e3e8b1b84c4"
+        }
+      ]
+    },
+    {
+      "case": "stdout_overflow",
+      "receipt": {
+        "mode": "stdout_overflow",
+        "native": {
+          "pid": 408,
+          "wait_status": 0,
+          "exit_code": 0,
+          "peak_RSS_bytes": 18178048,
+          "user_seconds": 0.004606,
+          "system_seconds": 0.002303
+        },
+        "reason": "log_overflow",
+        "termination_requested": true,
+        "observed_bytes": {
+          "2": 4096,
+          "3": 0
+        },
+        "stored_bytes": {
+          "2": 128,
+          "3": 0
+        },
+        "discarded_observed_bytes": {
+          "2": 3968,
+          "3": 0
+        },
+        "EOF_observed": {
+          "2": true,
+          "3": true
+        },
+        "wall_seconds": 0.01844912499655038,
+        "admitted": false,
+        "full_intended_flood_output_claim": false,
+        "journal_cap": 2048,
+        "terminal_reserved_bytes": 1024,
+        "cooperating_file_envelope": 3072
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 269,
+          "sha256": "d6d2f1c2e3c08d1faa4f42aa32d1d803f220142138b0017aee8e650b8bff35e8"
+        },
+        {
+          "path": "exit.json",
+          "bytes": 577,
+          "sha256": "9316a1a55283bee51e259ce7017567e634ee728ebcdaeef2a76ea0c5712123a0"
+        }
+      ]
+    },
+    {
+      "case": "stderr_overflow",
+      "receipt": {
+        "mode": "stderr_overflow",
+        "native": {
+          "pid": 409,
+          "wait_status": 15,
+          "exit_code": -15,
+          "peak_RSS_bytes": 18178048,
+          "user_seconds": 0.006906,
+          "system_seconds": 0.0
+        },
+        "reason": "log_overflow",
+        "termination_requested": true,
+        "observed_bytes": {
+          "2": 0,
+          "3": 4096
+        },
+        "stored_bytes": {
+          "2": 0,
+          "3": 128
+        },
+        "discarded_observed_bytes": {
+          "2": 0,
+          "3": 3968
+        },
+        "EOF_observed": {
+          "2": true,
+          "3": true
+        },
+        "wall_seconds": 0.02202216800651513,
+        "admitted": false,
+        "full_intended_flood_output_claim": false,
+        "journal_cap": 2048,
+        "terminal_reserved_bytes": 1024,
+        "cooperating_file_envelope": 3072
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 269,
+          "sha256": "9187c9f3c3a8682c6799e66abdd6551fbbf749f0e431589c0942f4bca86db672"
+        },
+        {
+          "path": "exit.json",
+          "bytes": 575,
+          "sha256": "4d404fefb28d42cc2a708a308d7f89fd3f3d47f501ef8fc5498b62dd7a77ebbf"
+        }
+      ]
+    },
+    {
+      "case": "both_flood",
+      "receipt": {
+        "mode": "both_flood",
+        "native": {
+          "pid": 410,
+          "wait_status": 0,
+          "exit_code": 0,
+          "peak_RSS_bytes": 18178048,
+          "user_seconds": 0.006755,
+          "system_seconds": 0.0
+        },
+        "reason": "log_overflow",
+        "termination_requested": false,
+        "observed_bytes": {
+          "2": 8192,
+          "3": 8192
+        },
+        "stored_bytes": {
+          "2": 128,
+          "3": 128
+        },
+        "discarded_observed_bytes": {
+          "2": 8064,
+          "3": 8064
+        },
+        "EOF_observed": {
+          "2": true,
+          "3": true
+        },
+        "wall_seconds": 0.022055256995372474,
+        "admitted": false,
+        "full_intended_flood_output_claim": false,
+        "journal_cap": 2048,
+        "terminal_reserved_bytes": 1024,
+        "cooperating_file_envelope": 3072
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 402,
+          "sha256": "089814aadfcacdf60e637d0f23d18fa32d36438b6eadd233ef3d841ad7c8686d"
+        },
+        {
+          "path": "exit.json",
+          "bytes": 577,
+          "sha256": "6618133406c33140981a160d6afe6794e8fa6ea7d52af14478677024016289e9"
+        }
+      ]
+    },
+    {
+      "case": "nonzero",
+      "receipt": {
+        "mode": "nonzero",
+        "native": {
+          "pid": 411,
+          "wait_status": 1792,
+          "exit_code": 7,
+          "peak_RSS_bytes": 18178048,
+          "user_seconds": 0.006594,
+          "system_seconds": 0.0
+        },
+        "reason": "nonzero_exit",
+        "termination_requested": false,
+        "observed_bytes": {
+          "2": 0,
+          "3": 14
+        },
+        "stored_bytes": {
+          "2": 0,
+          "3": 14
+        },
+        "discarded_observed_bytes": {
+          "2": 0,
+          "3": 0
+        },
+        "EOF_observed": {
+          "2": true,
+          "3": true
+        },
+        "wall_seconds": 0.020436079998034984,
+        "admitted": false,
+        "full_intended_flood_output_claim": false,
+        "journal_cap": 2048,
+        "terminal_reserved_bytes": 1024,
+        "cooperating_file_envelope": 3072
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 142,
+          "sha256": "2dc3e68138cc1ab20c56a058384556b34f701bb742b5abbf7936b40425471245"
+        },
+        {
+          "path": "exit.json",
+          "bytes": 563,
+          "sha256": "97acf27ea6d029ae644f638642497bb3b80e9825904f45cb03602c0a002cf314"
+        }
+      ]
+    },
+    {
+      "case": "timeout",
+      "receipt": {
+        "mode": "timeout",
+        "native": {
+          "pid": 412,
+          "wait_status": 15,
+          "exit_code": -15,
+          "peak_RSS_bytes": 18178048,
+          "user_seconds": 0.005737,
+          "system_seconds": 0.0
+        },
+        "reason": "timeout",
+        "termination_requested": true,
+        "observed_bytes": {
+          "2": 0,
+          "3": 0
+        },
+        "stored_bytes": {
+          "2": 0,
+          "3": 0
+        },
+        "discarded_observed_bytes": {
+          "2": 0,
+          "3": 0
+        },
+        "EOF_observed": {
+          "2": true,
+          "3": true
+        },
+        "wall_seconds": 0.2665179969917517,
+        "admitted": false,
+        "full_intended_flood_output_claim": false,
+        "journal_cap": 2048,
+        "terminal_reserved_bytes": 1024,
+        "cooperating_file_envelope": 3072
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 123,
+          "sha256": "daf1cda8271410c27aa501661a0fed264cf42e2bfdfff269f712eb491b6a1bc5"
+        },
+        {
+          "path": "exit.json",
+          "bytes": 553,
+          "sha256": "7a16c23e27bd9c6650ec510310805005d6ef2726dca68ee938e9f6896d16c381"
+        }
+      ]
+    },
+    {
+      "case": "empty",
+      "receipt": {
+        "mode": "empty",
+        "native": {
+          "pid": 413,
+          "wait_status": 0,
+          "exit_code": 0,
+          "peak_RSS_bytes": 18178048,
+          "user_seconds": 0.007155,
+          "system_seconds": 0.0
+        },
+        "reason": null,
+        "termination_requested": false,
+        "observed_bytes": {
+          "2": 0,
+          "3": 0
+        },
+        "stored_bytes": {
+          "2": 0,
+          "3": 0
+        },
+        "discarded_observed_bytes": {
+          "2": 0,
+          "3": 0
+        },
+        "EOF_observed": {
+          "2": true,
+          "3": true
+        },
+        "wall_seconds": 0.017635350988712162,
+        "admitted": true,
+        "full_intended_flood_output_claim": false,
+        "journal_cap": 2048,
+        "terminal_reserved_bytes": 1024,
+        "cooperating_file_envelope": 3072
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 121,
+          "sha256": "192b85720b8ef3c0ec6e1113b71235e2c27e886f70d648f2cece0dd60a1886aa"
+        },
+        {
+          "path": "exit.json",
+          "bytes": 545,
+          "sha256": "af1b97b7e07fae3f99f5ab4b0b48a08e855f518ea48dcb8e71abf42f33cd077f"
+        }
+      ]
+    },
+    {
+      "case": "binary",
+      "receipt": {
+        "mode": "binary",
+        "native": {
+          "pid": 414,
+          "wait_status": 0,
+          "exit_code": 0,
+          "peak_RSS_bytes": 18178048,
+          "user_seconds": 0.006893,
+          "system_seconds": 0.0
+        },
+        "reason": null,
+        "termination_requested": false,
+        "observed_bytes": {
+          "2": 3,
+          "3": 0
+        },
+        "stored_bytes": {
+          "2": 3,
+          "3": 0
+        },
+        "discarded_observed_bytes": {
+          "2": 0,
+          "3": 0
+        },
+        "EOF_observed": {
+          "2": true,
+          "3": true
+        },
+        "wall_seconds": 0.02095308300340548,
+        "admitted": true,
+        "full_intended_flood_output_claim": false,
+        "journal_cap": 2048,
+        "terminal_reserved_bytes": 1024,
+        "cooperating_file_envelope": 3072
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 130,
+          "sha256": "f9e2cb7596bcb8b2769886723ff84f30c4c80d555539d1914ec447877257fe41"
+        },
+        {
+          "path": "exit.json",
+          "bytes": 545,
+          "sha256": "a0639083e0ea25874d809355526adfb92743fade4781f8aa0001d0f5b7756637"
+        }
+      ]
+    }
+  ],
+  "inner_children": 8,
+  "all_native_exits_and_RSS": true,
+  "nested_wall_seconds_not_added_to_parent": true,
+  "old_model_archive_or_fit_calls": 0
+}

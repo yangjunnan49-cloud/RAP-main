@@ -1,0 +1,5 @@
+# Retained preflight failure and a mechanical binding revision
+
+The first admitted preflight fails before importing NumPy/matplotlib or loading an array: POSIX Path.name does not split a Windows backslash path. Its frozen runtime, source binding, FAILURE, worker/runner exits and host receipt remain unchanged in runtime/run01. The watcher observes the nonzero exit and cleans up normally; no rendering, model or reference evaluation occurs.
+
+Prepare runtime02/run02 only, parsing the bound Windows manifest paths with PureWindowsPath.name. This is an input-name adaptation, not an alternate environment/input/transform/render algorithm or a scientific retry. Compare the source AST after removing that import/basename-expression difference; all remaining worker AST must match. Preserve all ten original input identities, protocol,90s/512MiB/8MiB/12GiB gates and the original07:23:19UTC900s origin. The first admitted preflight branch stays failed. The owner-authorized artifact work permits this routine implementation correction under the same account; no old failure or numeric cap is reset. Another failure ends the visualization work for this window.

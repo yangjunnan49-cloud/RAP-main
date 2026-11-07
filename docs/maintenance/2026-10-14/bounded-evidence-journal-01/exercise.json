@@ -1,0 +1,383 @@
+{
+  "cases": [
+    {
+      "case": "normal",
+      "expected_exception": null,
+      "observation": {
+        "cap": 512,
+        "status": 1,
+        "reserved_body_bytes": 52,
+        "actual_body_bytes": 52,
+        "complete_records": 4,
+        "channel_charged": {
+          "1": 8,
+          "2": 8,
+          "3": 8,
+          "4": 8
+        },
+        "closed": true
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 132,
+          "sha256": "7ed7f6717524d66d2cdbf4eae94020aba9a8867af17fb32b87c91d808186687d"
+        }
+      ]
+    },
+    {
+      "case": "stdout_overflow",
+      "expected_exception": "BufferError",
+      "observation": {
+        "cap": 512,
+        "status": 2,
+        "reserved_body_bytes": 0,
+        "actual_body_bytes": 0,
+        "complete_records": 0,
+        "channel_charged": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "closed": true
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 80,
+          "sha256": "b1703eb2a6a258e3c01917b0069fdd3a595aaa1cd60305dfeb644064688e8779"
+        }
+      ]
+    },
+    {
+      "case": "stderr_overflow",
+      "expected_exception": "BufferError",
+      "observation": {
+        "cap": 512,
+        "status": 2,
+        "reserved_body_bytes": 0,
+        "actual_body_bytes": 0,
+        "complete_records": 0,
+        "channel_charged": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "closed": true
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 80,
+          "sha256": "b1703eb2a6a258e3c01917b0069fdd3a595aaa1cd60305dfeb644064688e8779"
+        }
+      ]
+    },
+    {
+      "case": "metadata_overflow",
+      "expected_exception": "BufferError",
+      "observation": {
+        "cap": 512,
+        "status": 2,
+        "reserved_body_bytes": 0,
+        "actual_body_bytes": 0,
+        "complete_records": 0,
+        "channel_charged": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "closed": true
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 80,
+          "sha256": "b1703eb2a6a258e3c01917b0069fdd3a595aaa1cd60305dfeb644064688e8779"
+        }
+      ]
+    },
+    {
+      "case": "global_cap",
+      "expected_exception": "BufferError",
+      "observation": {
+        "cap": 100,
+        "status": 2,
+        "reserved_body_bytes": 0,
+        "actual_body_bytes": 0,
+        "complete_records": 0,
+        "channel_charged": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "closed": true
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 80,
+          "sha256": "9e78ca9d711694d35c1a807060ccbb40441e0ec1509a8a3ec8084cac2229c786"
+        }
+      ]
+    },
+    {
+      "case": "collision",
+      "expected_exception": "FileExistsError",
+      "observation": null,
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 11,
+          "sha256": "4a756874b22139408e6116b11e9df7c06c63d7926688227a1b812ee063441fb3"
+        }
+      ]
+    },
+    {
+      "case": "short_write",
+      "expected_exception": "OSError",
+      "observation": {
+        "cap": 512,
+        "status": 3,
+        "reserved_body_bytes": 30,
+        "actual_body_bytes": 3,
+        "complete_records": 0,
+        "channel_charged": {
+          "1": 25,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "closed": true
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 83,
+          "sha256": "4ee18791144641e5f7c44e9c1d14b72807f396759b51e63a37e8dfe174d9d6f3"
+        }
+      ]
+    },
+    {
+      "case": "corruption",
+      "expected_exception": null,
+      "observation": {
+        "cap": 512,
+        "status": 1,
+        "reserved_body_bytes": 18,
+        "actual_body_bytes": 18,
+        "complete_records": 1,
+        "channel_charged": {
+          "1": 13,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "closed": true
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 98,
+          "sha256": "9378391c20d20a2ae4c66965d82671c1cf3bc17241baccf25e3863cab3660473"
+        },
+        {
+          "path": "invalid_copy.rdj",
+          "bytes": 98,
+          "sha256": "2e034f9e6540f70bee3506f9519b224ed64f1eb8a059b08b29787289a4fe77de"
+        }
+      ]
+    },
+    {
+      "case": "truncated_footer",
+      "expected_exception": null,
+      "observation": {
+        "cap": 512,
+        "status": 1,
+        "reserved_body_bytes": 18,
+        "actual_body_bytes": 18,
+        "complete_records": 1,
+        "channel_charged": {
+          "1": 13,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "closed": true
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 98,
+          "sha256": "9378391c20d20a2ae4c66965d82671c1cf3bc17241baccf25e3863cab3660473"
+        },
+        {
+          "path": "invalid_copy.rdj",
+          "bytes": 97,
+          "sha256": "e29cb4ee8a3a1c53650ef3c89cbd9c485896f84591ffc072d18829c9ce51efa9"
+        }
+      ]
+    },
+    {
+      "case": "external_file",
+      "expected_exception": null,
+      "observation": {
+        "cap": 512,
+        "status": 1,
+        "reserved_body_bytes": 18,
+        "actual_body_bytes": 18,
+        "complete_records": 1,
+        "channel_charged": {
+          "1": 13,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "closed": true
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 98,
+          "sha256": "9378391c20d20a2ae4c66965d82671c1cf3bc17241baccf25e3863cab3660473"
+        },
+        {
+          "path": "out_of_band.bin",
+          "bytes": 576,
+          "sha256": "552785e4f806f40d8d2daada943a3489e2ec8351ef77324b1927951c55d5bf41"
+        }
+      ]
+    },
+    {
+      "case": "invalid_type",
+      "expected_exception": "ValueError",
+      "observation": {
+        "cap": 512,
+        "status": 4,
+        "reserved_body_bytes": 0,
+        "actual_body_bytes": 0,
+        "complete_records": 0,
+        "channel_charged": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "closed": true
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 80,
+          "sha256": "882e59ef9ae1fdbf8ab346d73665cd6ac9a24cef6a57b705ccfcfe4fdafa55b2"
+        }
+      ]
+    },
+    {
+      "case": "after_close",
+      "expected_exception": "RuntimeError",
+      "observation": {
+        "cap": 512,
+        "status": 1,
+        "reserved_body_bytes": 18,
+        "actual_body_bytes": 18,
+        "complete_records": 1,
+        "channel_charged": {
+          "1": 13,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "closed": true
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 98,
+          "sha256": "9378391c20d20a2ae4c66965d82671c1cf3bc17241baccf25e3863cab3660473"
+        }
+      ]
+    },
+    {
+      "case": "exact_fill",
+      "expected_exception": null,
+      "observation": {
+        "cap": 256,
+        "status": 1,
+        "reserved_body_bytes": 176,
+        "actual_body_bytes": 176,
+        "complete_records": 1,
+        "channel_charged": {
+          "1": 171,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "closed": true
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 256,
+          "sha256": "f9ae9755c236582833f08f2595083501c253509beacca00ab4fb337e377233bf"
+        }
+      ]
+    },
+    {
+      "case": "concurrent_open",
+      "expected_exception": "FileExistsError",
+      "observation": {
+        "cap": 512,
+        "status": 1,
+        "reserved_body_bytes": 16,
+        "actual_body_bytes": 16,
+        "complete_records": 1,
+        "channel_charged": {
+          "1": 11,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "closed": true
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 96,
+          "sha256": "945268e5d0c9bc057760e125f7240b89dbc1bf86e12d3bc2cfd174a0970cd9f2"
+        }
+      ]
+    },
+    {
+      "case": "invalid_channel",
+      "expected_exception": "ValueError",
+      "observation": {
+        "cap": 512,
+        "status": 4,
+        "reserved_body_bytes": 0,
+        "actual_body_bytes": 0,
+        "complete_records": 0,
+        "channel_charged": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "closed": true
+      },
+      "files": [
+        {
+          "path": "evidence.rdj",
+          "bytes": 80,
+          "sha256": "882e59ef9ae1fdbf8ab346d73665cd6ac9a24cef6a57b705ccfcfe4fdafa55b2"
+        }
+      ]
+    }
+  ],
+  "all15_cases_retained": true,
+  "old_payloads_or_models_used": false
+}

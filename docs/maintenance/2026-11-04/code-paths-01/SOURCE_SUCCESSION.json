@@ -1,0 +1,99 @@
+{
+  "changed_existing_sources": [
+    {
+      "root": "rap-main",
+      "path": "demo.py",
+      "before_sha256": "92a34db93d4ea2c0b0b60e3577a49ef75518d549756153b944f237fa4a4c8b65",
+      "before_bytes": 56008,
+      "before": "before/rap-main/demo.py",
+      "after_sha256": "672877200858e18a3e664557d568e0520eeb289f6ac6f15854c0990222c95d88",
+      "after_bytes": 56169
+    },
+    {
+      "root": "rap-main",
+      "path": "sample.py",
+      "before_sha256": "d7e3a7ec9c99a8c4f19ce40c6d4dab0ac71684f4f7cdce9ef4428ca3997ed8ad",
+      "before_bytes": 10830,
+      "before": "before/rap-main/sample.py",
+      "after_sha256": "5317afaaec443ccc70a77e027ada1ba505c5bda906fe8554824d1eae455c1b18",
+      "after_bytes": 10836
+    },
+    {
+      "root": "rap-slam",
+      "path": "rap_slam/rap_backend.py",
+      "before_sha256": "552fe044167b2490ee5a5d390c659a3707fbfc0a31108b6f15bd579623fe90f3",
+      "before_bytes": 24732,
+      "before": "before/rap-slam/rap_slam/rap_backend.py",
+      "after_sha256": "f6c0c38f39d7135476501290376119a914ae4b90d348c441fd3e783c7632fb83",
+      "after_bytes": 25450
+    },
+    {
+      "root": "rap-slam",
+      "path": "scripts/run_pipeline.py",
+      "before_sha256": "843214775071664a5fb0bce8a95a7e4bb681fdd75f67e93180888fa7729e7cda",
+      "before_bytes": 25551,
+      "before": "before/rap-slam/scripts/run_pipeline.py",
+      "after_sha256": "8401eafba763f42ab4c5fa27b413a2c49cc4d87b3a2690e6c0bd75122b86ced6",
+      "after_bytes": 17609
+    }
+  ],
+  "added_source_config_files": [
+    {
+      "root": "rap-main",
+      "path": "rap_runtime/__init__.py",
+      "bytes": 83,
+      "sha256": "dab9e597a7cc98bf266c0dac25e5c6594da86ee0c967e0abe397da8748fb6923"
+    },
+    {
+      "root": "rap-main",
+      "path": "rap_runtime/launch.py",
+      "bytes": 10505,
+      "sha256": "d07c674e0024a44b0f58a66fb7075b50e7377b95035be831ec1213d76bdb9d21"
+    },
+    {
+      "root": "rap-main",
+      "path": "rap_runtime/paths.py",
+      "bytes": 3210,
+      "sha256": "33b274f21f4b6d2731ba80f3778762630a9360a0d0f5beff1af4b9385c1c6b67"
+    },
+    {
+      "root": "rap-main",
+      "path": "scripts/maintenance/index_code_entries.py",
+      "bytes": 5682,
+      "sha256": "687bfb01c9a021696a5d34ccfb2accfdc61bbb68752f411f5fe609d38541bcff"
+    },
+    {
+      "root": "rap-main",
+      "path": "scripts/maintenance/render_current_state.py",
+      "bytes": 3692,
+      "sha256": "2d7661dd9319d5f2708b426909e3a5e2735713cc5f7a06cf52dd2b959d04f437"
+    },
+    {
+      "root": "rap-main",
+      "path": "scripts/run.py",
+      "bytes": 294,
+      "sha256": "0306a1d55ccd71cc22b1e8bc8577976393f7fc2a73d38e8b1065aeea1b14887c"
+    },
+    {
+      "root": "rap-main",
+      "path": "tests/test_runtime_paths.py",
+      "bytes": 9396,
+      "sha256": "7026aacf47b5408a218af81f10ce7446a23d76ec863efc4979f155915f137086"
+    },
+    {
+      "root": "rap-slam",
+      "path": "rap_slam/cli.py",
+      "bytes": 9185,
+      "sha256": "9319ec07f88570e9763ce49ee307dc45f6d0ac5dbe713b06872ce4db02adcc85"
+    },
+    {
+      "root": "rap-slam",
+      "path": "rap_slam/runtime_paths.py",
+      "bytes": 3899,
+      "sha256": "a35b6e3629c5ff69cabc6516ea07b26731cab4944a7b6ae19934477ce85ac266"
+    }
+  ],
+  "other_baseline_sources_sha256_unchanged": 883,
+  "historical_source_digest_gaps_retained": 5,
+  "historical_AGENTS_version_gaps_retained": 1
+}

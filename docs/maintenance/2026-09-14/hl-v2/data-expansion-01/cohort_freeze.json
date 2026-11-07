@@ -1,0 +1,107 @@
+{
+  "protocol": "HL-V2",
+  "frozen_utc": "2026-09-14T08:07:43.116519+00:00",
+  "roles": {
+    "discovery": [
+      "00"
+    ],
+    "confirmation": [
+      "02"
+    ]
+  },
+  "hypotheses_generated_before_freeze": 0,
+  "counts": [
+    {
+      "sequence": "00",
+      "frames": 4541,
+      "keyframes": 670,
+      "candidates": 15064,
+      "supported_candidates": 14989,
+      "strata": [
+        {
+          "stratum": "confuser",
+          "population": 11800,
+          "supported": 11746,
+          "selected": 25
+        },
+        {
+          "stratum": "ambiguous_positive",
+          "population": 150,
+          "supported": 143,
+          "selected": 25
+        },
+        {
+          "stratum": "low_overlap",
+          "population": 923,
+          "supported": 922,
+          "selected": 25
+        },
+        {
+          "stratum": "ordinary",
+          "population": 759,
+          "supported": 754,
+          "selected": 25
+        }
+      ],
+      "selected": 100,
+      "adequate": true,
+      "headroom": true,
+      "wall_s": 248.8745108129806,
+      "hypotheses": 0,
+      "source_sha256": "e2d9d018e35eb46998f24dbbd5779403bb7a65cbf372174913d8d6e2fc2ce5b6"
+    },
+    {
+      "sequence": "02",
+      "frames": 4661,
+      "keyframes": 812,
+      "candidates": 16660,
+      "supported_candidates": 16616,
+      "strata": [
+        {
+          "stratum": "confuser",
+          "population": 14734,
+          "supported": 14690,
+          "selected": 25
+        },
+        {
+          "stratum": "ambiguous_positive",
+          "population": 61,
+          "supported": 61,
+          "selected": 25
+        },
+        {
+          "stratum": "low_overlap",
+          "population": 485,
+          "supported": 485,
+          "selected": 25
+        },
+        {
+          "stratum": "ordinary",
+          "population": 102,
+          "supported": 102,
+          "selected": 25
+        }
+      ],
+      "selected": 100,
+      "adequate": true,
+      "headroom": true,
+      "wall_s": 306.9041825149907,
+      "hypotheses": 0,
+      "source_sha256": "e2d9d018e35eb46998f24dbbd5779403bb7a65cbf372174913d8d6e2fc2ce5b6"
+    }
+  ],
+  "hashes": {
+    "confirmation_inputs.json": "07c68692a66c661e7ab495bc04f5b4eb12c5f4988f4879eddfea809fbd269c14",
+    "discovery_inputs.json": "932e4f3d9006b9c15d06c47411139fab404b14c3bfdfd80e4e662c2f1fb0170f"
+  },
+  "evaluator_hashes": {
+    "confirmation_evaluator.json": "ce48039cb59b64f8116a0f513f2e8f87c092f6a13bd5d871236c37922b8512d0",
+    "discovery_evaluator.json": "d3e182aaf60078ddabf01947ee61982c9d3e97df46f214f35fa03f322d60ec8d"
+  },
+  "source_hashes": {
+    "/mnt/e/githouse/RAP-SLAM/scripts/hl2_data_bridge.py": "e2d9d018e35eb46998f24dbbd5779403bb7a65cbf372174913d8d6e2fc2ce5b6",
+    "/mnt/e/githouse/RAP-SLAM/scripts/validate_hl_v2_data.py": "efa2612eb26fdd9f57c1f31cf86a064d3f2c0f93aee118e96daf2ce62a8e1362"
+  },
+  "protocol_sha256": "40b78bd8dd9d688a932c14191382ce6563ce681cad9f6a9aa035497c154d2184",
+  "preflight_order": "First ten round-robin stratum samples:3confuser,3ambiguous,2low,2ordinary"
+}

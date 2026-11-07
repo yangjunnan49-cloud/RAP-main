@@ -1,0 +1,8 @@
+{
+  "operation": "long-path regression fixture cleanup",
+  "actual_long_path_round_trip_passed": true,
+  "failure": "TemporaryDirectory used a normal Windows path for cleanup and left the deep generated fixture directory nonempty",
+  "correction": "清理自建测试目录也使用扩展绝对路径；先核对解析路径位于本阶段、目录名和生成内容，再清理。",
+  "source_originals_or_package_modified": false,
+  "failed_fixture": "delivery-test-8jgs6dke"
+}

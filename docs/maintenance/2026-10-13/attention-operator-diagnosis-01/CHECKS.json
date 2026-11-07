@@ -1,0 +1,357 @@
+{
+  "passed": true,
+  "validation": {
+    "passed": true,
+    "records": [
+      {
+        "name": "V_default1",
+        "explicit_Q_query_rows": 512,
+        "rounded_softmax_Q_max_delta": 4.5299530029296875e-06,
+        "outside_one_fp16_ULP": 15105,
+        "scope": "sampled Q derivative, not complete raw/QK-norm/K/V derivative"
+      },
+      {
+        "name": "V_default2",
+        "explicit_Q_query_rows": 512,
+        "rounded_softmax_Q_max_delta": 4.5299530029296875e-06,
+        "outside_one_fp16_ULP": 15105,
+        "scope": "sampled Q derivative, not complete raw/QK-norm/K/V derivative"
+      },
+      {
+        "name": "V_math1",
+        "explicit_Q_query_rows": 512,
+        "rounded_softmax_Q_max_delta": 0.0,
+        "outside_one_fp16_ULP": 0,
+        "scope": "sampled Q derivative, not complete raw/QK-norm/K/V derivative"
+      },
+      {
+        "name": "V_math2",
+        "explicit_Q_query_rows": 512,
+        "rounded_softmax_Q_max_delta": 0.0,
+        "outside_one_fp16_ULP": 0,
+        "scope": "sampled Q derivative, not complete raw/QK-norm/K/V derivative"
+      },
+      {
+        "name": "P_default1",
+        "explicit_Q_query_rows": 512,
+        "rounded_softmax_Q_max_delta": 3.2186508178710938e-06,
+        "outside_one_fp16_ULP": 11262,
+        "scope": "sampled Q derivative, not complete raw/QK-norm/K/V derivative"
+      },
+      {
+        "name": "P_default2",
+        "explicit_Q_query_rows": 512,
+        "rounded_softmax_Q_max_delta": 3.2186508178710938e-06,
+        "outside_one_fp16_ULP": 11262,
+        "scope": "sampled Q derivative, not complete raw/QK-norm/K/V derivative"
+      },
+      {
+        "name": "P_math1",
+        "explicit_Q_query_rows": 512,
+        "rounded_softmax_Q_max_delta": 5.960464477539063e-08,
+        "outside_one_fp16_ULP": 0,
+        "scope": "sampled Q derivative, not complete raw/QK-norm/K/V derivative"
+      },
+      {
+        "name": "P_math2",
+        "explicit_Q_query_rows": 512,
+        "rounded_softmax_Q_max_delta": 5.960464477539063e-08,
+        "outside_one_fp16_ULP": 0,
+        "scope": "sampled Q derivative, not complete raw/QK-norm/K/V derivative"
+      }
+    ],
+    "pairs": [
+      {
+        "arm": "V",
+        "backend": "default",
+        "values": {
+          "output": {
+            "byte_equal": true,
+            "different": 0,
+            "max_abs": 0.0
+          },
+          "raw_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "max_abs": 0.0
+          },
+          "normalized_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "max_abs": 0.0
+          }
+        }
+      },
+      {
+        "arm": "V",
+        "backend": "math",
+        "values": {
+          "output": {
+            "byte_equal": true,
+            "different": 0,
+            "max_abs": 0.0
+          },
+          "raw_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "max_abs": 0.0
+          },
+          "normalized_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "max_abs": 0.0
+          }
+        }
+      },
+      {
+        "arm": "P",
+        "backend": "default",
+        "values": {
+          "output": {
+            "byte_equal": true,
+            "different": 0,
+            "max_abs": 0.0
+          },
+          "raw_gradient": {
+            "byte_equal": false,
+            "different": 2,
+            "max_abs": 5.960464477539063e-08
+          },
+          "normalized_gradient": {
+            "byte_equal": false,
+            "different": 13,
+            "max_abs": 5.960464477539063e-08
+          }
+        }
+      },
+      {
+        "arm": "P",
+        "backend": "math",
+        "values": {
+          "output": {
+            "byte_equal": true,
+            "different": 0,
+            "max_abs": 0.0
+          },
+          "raw_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "max_abs": 0.0
+          },
+          "normalized_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "max_abs": 0.0
+          }
+        }
+      }
+    ],
+    "dispatch_records": [
+      {
+        "name": "V_default1",
+        "arm": "V",
+        "backend": "default",
+        "rep": 1,
+        "wall_seconds": 2.4956865929998457,
+        "dispatched_ATen_names": [
+          "aten::_scaled_dot_product_flash_attention",
+          "aten::_scaled_dot_product_flash_attention_backward",
+          "aten::scaled_dot_product_attention"
+        ],
+        "archive_forward_max_delta": 0.0,
+        "heads": 8,
+        "head_dim": 64
+      },
+      {
+        "name": "V_default2",
+        "arm": "V",
+        "backend": "default",
+        "rep": 2,
+        "wall_seconds": 2.1749331559985876,
+        "dispatched_ATen_names": [],
+        "archive_forward_max_delta": 0.0,
+        "heads": 8,
+        "head_dim": 64
+      },
+      {
+        "name": "V_math1",
+        "arm": "V",
+        "backend": "math",
+        "rep": 1,
+        "wall_seconds": 2.6923815100017237,
+        "dispatched_ATen_names": [
+          "aten::_scaled_dot_product_attention_math",
+          "aten::scaled_dot_product_attention"
+        ],
+        "archive_forward_max_delta": 0.00390625,
+        "heads": 8,
+        "head_dim": 64
+      },
+      {
+        "name": "V_math2",
+        "arm": "V",
+        "backend": "math",
+        "rep": 2,
+        "wall_seconds": 2.5977493280006456,
+        "dispatched_ATen_names": [],
+        "archive_forward_max_delta": 0.00390625,
+        "heads": 8,
+        "head_dim": 64
+      },
+      {
+        "name": "P_default1",
+        "arm": "P",
+        "backend": "default",
+        "rep": 1,
+        "wall_seconds": 2.384891843998048,
+        "dispatched_ATen_names": [
+          "aten::_scaled_dot_product_flash_attention",
+          "aten::_scaled_dot_product_flash_attention_backward",
+          "aten::scaled_dot_product_attention"
+        ],
+        "archive_forward_max_delta": 0.0,
+        "heads": 8,
+        "head_dim": 64
+      },
+      {
+        "name": "P_default2",
+        "arm": "P",
+        "backend": "default",
+        "rep": 2,
+        "wall_seconds": 2.3488431830046466,
+        "dispatched_ATen_names": [],
+        "archive_forward_max_delta": 0.0,
+        "heads": 8,
+        "head_dim": 64
+      },
+      {
+        "name": "P_math1",
+        "arm": "P",
+        "backend": "math",
+        "rep": 1,
+        "wall_seconds": 2.4474894309969386,
+        "dispatched_ATen_names": [
+          "aten::_scaled_dot_product_attention_math",
+          "aten::scaled_dot_product_attention"
+        ],
+        "archive_forward_max_delta": 0.00390625,
+        "heads": 8,
+        "head_dim": 64
+      },
+      {
+        "name": "P_math2",
+        "arm": "P",
+        "backend": "math",
+        "rep": 2,
+        "wall_seconds": 2.365318727999693,
+        "dispatched_ATen_names": [],
+        "archive_forward_max_delta": 0.00390625,
+        "heads": 8,
+        "head_dim": 64
+      }
+    ],
+    "independent_artifact_census": true,
+    "independent_full_attention_backward": false,
+    "unique_whole_model_cause_proved": false,
+    "optimizer_calls": 0
+  },
+  "input_binding": {
+    "passed": true,
+    "archived_raw_projection_GO_exact": true,
+    "all_normalized_inputs_exact": true,
+    "records": [
+      {
+        "arm": "V",
+        "backend": "default",
+        "normalized_inputs_byteexact": true,
+        "components": [
+          {
+            "component": "Q",
+            "different": 0,
+            "max_abs": 0.0
+          },
+          {
+            "component": "K",
+            "different": 0,
+            "max_abs": 0.0
+          },
+          {
+            "component": "V",
+            "different": 0,
+            "max_abs": 0.0
+          }
+        ]
+      },
+      {
+        "arm": "V",
+        "backend": "math",
+        "normalized_inputs_byteexact": true,
+        "components": [
+          {
+            "component": "Q",
+            "different": 0,
+            "max_abs": 0.0
+          },
+          {
+            "component": "K",
+            "different": 0,
+            "max_abs": 0.0
+          },
+          {
+            "component": "V",
+            "different": 0,
+            "max_abs": 0.0
+          }
+        ]
+      },
+      {
+        "arm": "P",
+        "backend": "default",
+        "normalized_inputs_byteexact": true,
+        "components": [
+          {
+            "component": "Q",
+            "different": 13,
+            "max_abs": 5.960464477539063e-08
+          },
+          {
+            "component": "K",
+            "different": 0,
+            "max_abs": 0.0
+          },
+          {
+            "component": "V",
+            "different": 0,
+            "max_abs": 0.0
+          }
+        ]
+      },
+      {
+        "arm": "P",
+        "backend": "math",
+        "normalized_inputs_byteexact": true,
+        "components": [
+          {
+            "component": "Q",
+            "different": 0,
+            "max_abs": 0.0
+          },
+          {
+            "component": "K",
+            "different": 0,
+            "max_abs": 0.0
+          },
+          {
+            "component": "V",
+            "different": 0,
+            "max_abs": 0.0
+          }
+        ]
+      }
+    ],
+    "operator_reruns": 0
+  },
+  "science_caps_passed": true,
+  "old_NOC4_INCOMPLETE_preserved": true,
+  "unique_whole_model_cause": false
+}

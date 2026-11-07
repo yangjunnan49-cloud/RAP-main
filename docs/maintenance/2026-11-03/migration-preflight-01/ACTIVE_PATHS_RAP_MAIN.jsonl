@@ -1,0 +1,5 @@
+{"type":"begin","data":{"path":{"text":"build_p3d.sh"}}}
+{"type":"match","data":{"path":{"text":"build_p3d.sh"},"lines":{"text":"source /root/miniconda3/bin/activate rap-inference\n"},"line_number":3,"absolute_offset":19,"submatches":[{"match":{"text":"/root/miniconda3"},"start":7,"end":23}]}}
+{"type":"match","data":{"path":{"text":"build_p3d.sh"},"lines":{"text":"export CUDA_HOME=/usr/local/cuda-12.8\n"},"line_number":5,"absolute_offset":103,"submatches":[{"match":{"text":"/usr/local/cuda"},"start":17,"end":32}]}}
+{"type":"end","data":{"path":{"text":"build_p3d.sh"},"binary_offset":null,"stats":{"elapsed":{"secs":0,"nanos":79800,"human":"0.000080s"},"searches":1,"searches_with_match":1,"bytes_searched":392,"bytes_printed":521,"matched_lines":2,"matches":2}}}
+{"data":{"elapsed_total":{"human":"0.009643s","nanos":9643000,"secs":0},"stats":{"bytes_printed":521,"bytes_searched":1087216,"elapsed":{"human":"0.003253s","nanos":3253200,"secs":0},"matched_lines":2,"matches":2,"searches":66,"searches_with_match":1}},"type":"summary"}

@@ -1,0 +1,10 @@
+{
+  "attempt": "audit_source.py",
+  "exit_code": 1,
+  "error": "SyntaxError parsing config/RAP_inference.yaml as Python at defaults:",
+  "cause": "The static helper did not distinguish configuration snapshots from Python source",
+  "project_source_executed": false,
+  "numerical_work_executed": false,
+  "repair": "audit_source02.py parses .py files only; original helper retained",
+  "cap_reset": false
+}

@@ -1,0 +1,62 @@
+{
+  "decision": "CONGRUENT_SYNTHETIC_GEOMETRY_CEILING_RECOVERED_NO_LEARNING_CONTEXT_EFFICACY_IDENTIFIABLE",
+  "control_conjunction": true,
+  "metrics": [
+    {
+      "part": 1,
+      "t_m": 2.919967023717726e-14,
+      "R_deg": 1.1565490743030575e-13,
+      "all1000_point_fit_max_residual_m": 8.570921750106208e-14,
+      "control_gate": true
+    },
+    {
+      "part": 2,
+      "t_m": 1.111357821183184e-14,
+      "R_deg": 1.1621360772038147e-13,
+      "all1000_point_fit_max_residual_m": 8.348877145181177e-14,
+      "control_gate": true
+    }
+  ],
+  "support": [
+    {
+      "part": 1,
+      "direction": "forward",
+      "valid": true,
+      "ambiguity": 0,
+      "candidate_count": 1000,
+      "firstmax": 5.970944574469912e-13,
+      "maxdelta": 1.4210854715202004e-14
+    },
+    {
+      "part": 1,
+      "direction": "reverse",
+      "valid": true,
+      "ambiguity": 0,
+      "candidate_count": 1000,
+      "firstmax": 5.970944574469912e-13,
+      "maxdelta": 1.4210854715202004e-14
+    },
+    {
+      "part": 2,
+      "direction": "forward",
+      "valid": true,
+      "ambiguity": 0,
+      "candidate_count": 1000,
+      "firstmax": 5.073497658968734e-13,
+      "maxdelta": 1.4210854715202004e-14
+    },
+    {
+      "part": 2,
+      "direction": "reverse",
+      "valid": true,
+      "ambiguity": 0,
+      "candidate_count": 1000,
+      "firstmax": 5.073497658968734e-13,
+      "maxdelta": 7.105427357601002e-15
+    }
+  ],
+  "one_exposed_exactly_congruent_scene": true,
+  "no_descriptor_or_RAP_inputs": true,
+  "not_real_physical_or_system_baseline": true,
+  "stop_fixture_as_RAP_context_efficacy_test": true
+}

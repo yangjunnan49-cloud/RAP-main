@@ -1,0 +1,51 @@
+{
+  "utc": "2026-10-10T14:30:59.4712374Z",
+  "memory": {
+    "CommittedBytes": 62641430528,
+    "CommitLimit": 96467255296,
+    "AvailableBytes": 11687825408
+  },
+  "processes": [
+    {
+      "ProcessId": 18820,
+      "ParentProcessId": 14472,
+      "Name": "NVIDIA Overlay.exe",
+      "ExecutablePath": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
+      "CommandLine": "\"C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe\"",
+      "CreationDate": "2026-09-16T09:35:11.803562+08:00"
+    },
+    {
+      "ProcessId": 21788,
+      "ParentProcessId": 18820,
+      "Name": "NVIDIA Overlay.exe",
+      "ExecutablePath": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
+      "CommandLine": "\"C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe\" --type=gpu-process --no-sandbox --start-stack-profiler --user-data-dir=\"C:\\Users\\AAA\\AppData\\Local\\NVIDIA Corporation\\NVIDIA Overlay\\CefCache\" --gpu-preferences=UAAAAAAAAADgAQAMAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --field-trial-handle=2868,i,13368004537962148533,18101300285095970636,262144 --variations-seed-version --enable-logging=handle --log-file=2892 --mojo-platform-channel-handle=2852 /prefetch:2",
+      "CreationDate": "2026-09-16T09:35:13.482401+08:00"
+    },
+    {
+      "ProcessId": 21304,
+      "ParentProcessId": 18820,
+      "Name": "NVIDIA Overlay.exe",
+      "ExecutablePath": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
+      "CommandLine": "\"C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe\" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --start-stack-profiler --user-data-dir=\"C:\\Users\\AAA\\AppData\\Local\\NVIDIA Corporation\\NVIDIA Overlay\\CefCache\" --field-trial-handle=2716,i,13368004537962148533,18101300285095970636,262144 --variations-seed-version --enable-logging=handle --log-file=3064 --mojo-platform-channel-handle=3044 /prefetch:11",
+      "CreationDate": "2026-09-16T09:35:13.500503+08:00"
+    },
+    {
+      "ProcessId": 22624,
+      "ParentProcessId": 18820,
+      "Name": "NVIDIA Overlay.exe",
+      "ExecutablePath": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
+      "CommandLine": "\"C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe\" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --user-data-dir=\"C:\\Users\\AAA\\AppData\\Local\\NVIDIA Corporation\\NVIDIA Overlay\\CefCache\" --field-trial-handle=3112,i,13368004537962148533,18101300285095970636,262144 --variations-seed-version --enable-logging=handle --log-file=3124 --mojo-platform-channel-handle=3120 /prefetch:13",
+      "CreationDate": "2026-09-16T09:35:13.575769+08:00"
+    },
+    {
+      "ProcessId": 23352,
+      "ParentProcessId": 18820,
+      "Name": "NVIDIA Overlay.exe",
+      "ExecutablePath": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
+      "CommandLine": "\"C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe\" --type=renderer --start-stack-profiler --user-data-dir=\"C:\\Users\\AAA\\AppData\\Local\\NVIDIA Corporation\\NVIDIA Overlay\\CefCache\" --no-sandbox --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1789489841192477 --launch-time-ticks=32672660623 --field-trial-handle=4196,i,13368004537962148533,18101300285095970636,262144 --variations-seed-version --enable-logging=handle --log-file=5116 --mojo-platform-channel-handle=5084 /prefetch:1",
+      "CreationDate": "2026-09-16T09:35:13.855048+08:00"
+    }
+  ],
+  "cad": []
+}

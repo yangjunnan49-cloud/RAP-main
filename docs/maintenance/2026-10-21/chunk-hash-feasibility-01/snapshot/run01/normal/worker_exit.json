@@ -1,0 +1,230 @@
+{
+  "success": true,
+  "error": null,
+  "elapsed": 0.5351559779956006,
+  "checks": [
+    {
+      "name": "C",
+      "passed": true,
+      "nbytes": 262144,
+      "shape": [
+        128,
+        256
+      ],
+      "scratch_peak_bytes": 1092,
+      "sha256": "46a7aca6860b2d26f1433556ead94e52a2b7ed558bd0ab73aa2f9d35d346b05c",
+      "secondary": "available_or_not_requested"
+    },
+    {
+      "name": "Fortran",
+      "passed": true,
+      "nbytes": 262144,
+      "shape": [
+        128,
+        256
+      ],
+      "scratch_peak_bytes": 525873,
+      "sha256": "46a7aca6860b2d26f1433556ead94e52a2b7ed558bd0ab73aa2f9d35d346b05c",
+      "secondary": "available_or_not_requested"
+    },
+    {
+      "name": "transpose",
+      "passed": true,
+      "nbytes": 262144,
+      "shape": [
+        256,
+        128
+      ],
+      "scratch_peak_bytes": 525873,
+      "sha256": "a7ff73a368b07447d772db3a9b1133614ce3ddb5865e31b4d802f931a3cc776e",
+      "secondary": "available_or_not_requested"
+    },
+    {
+      "name": "reverse",
+      "passed": true,
+      "nbytes": 262144,
+      "shape": [
+        128,
+        256
+      ],
+      "scratch_peak_bytes": 265852,
+      "sha256": "f601e403af6bc88f9f95b8231d6d1c69ffe9c9b4ae2529410cddd3c0c830902d",
+      "secondary": "available_or_not_requested"
+    },
+    {
+      "name": "stride",
+      "passed": true,
+      "nbytes": 44032,
+      "shape": [
+        43,
+        128
+      ],
+      "scratch_peak_bytes": 89649,
+      "sha256": "61cac03de9a1545d4abdf86bb446b99a54b312033a0c47a4adf791c537f22193",
+      "secondary": "available_or_not_requested"
+    },
+    {
+      "name": "big_endian",
+      "passed": true,
+      "nbytes": 262144,
+      "shape": [
+        128,
+        256
+      ],
+      "scratch_peak_bytes": 1092,
+      "sha256": "46327a496abe3fbfa58af39cce2b9d9ec7a509aead3b2e28e8663777807c883a",
+      "secondary": "available_or_not_requested"
+    },
+    {
+      "name": "big_endian_strided",
+      "passed": true,
+      "nbytes": 131072,
+      "shape": [
+        64,
+        256
+      ],
+      "scratch_peak_bytes": 263761,
+      "sha256": "ab4af61681f6e92979630020b68ca9f0e9dba6cd2320ff0d8c0a0710479fd835",
+      "secondary": "available_or_not_requested"
+    },
+    {
+      "name": "empty",
+      "passed": true,
+      "nbytes": 0,
+      "shape": [
+        0,
+        3
+      ],
+      "scratch_peak_bytes": 596,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "secondary": "available_or_not_requested"
+    },
+    {
+      "name": "scalar",
+      "passed": true,
+      "nbytes": 8,
+      "shape": [],
+      "scratch_peak_bytes": 932,
+      "sha256": "3e10a43778297c121ed0ac6548e7da2e81b020867cb7cede04de84f408b825a3",
+      "secondary": "available_or_not_requested"
+    },
+    {
+      "name": "integer",
+      "passed": true,
+      "nbytes": 800,
+      "shape": [
+        100
+      ],
+      "scratch_peak_bytes": 1012,
+      "sha256": "96bdba67cd0b5e6dc0f9e399f66b17eae627eac812d0620119e87687d789546a",
+      "secondary": "available_or_not_requested"
+    },
+    {
+      "name": "boolean",
+      "passed": true,
+      "nbytes": 2,
+      "shape": [
+        2
+      ],
+      "scratch_peak_bytes": 980,
+      "sha256": "47dc540c94ceb704a23875c11273e16bb0b8a87aed84de911f2133568115f254",
+      "secondary": "available_or_not_requested"
+    },
+    {
+      "name": "N1_size_contiguous",
+      "passed": true,
+      "nbytes": 20186568,
+      "shape": [
+        841107,
+        3
+      ],
+      "scratch_peak_bytes": 1156,
+      "sha256": "1744f8c4134323b97e50069851081b9cb8216406e6764f8cb9ffd86c50ca07a6",
+      "secondary": "OMITTED_OVER_1MIB"
+    },
+    {
+      "name": "N1_size_Fortran",
+      "passed": true,
+      "nbytes": 20186568,
+      "shape": [
+        841107,
+        3
+      ],
+      "scratch_peak_bytes": 3146897,
+      "sha256": "1744f8c4134323b97e50069851081b9cb8216406e6764f8cb9ffd86c50ca07a6",
+      "secondary": "OMITTED_OVER_1MIB"
+    },
+    {
+      "name": "N1_size_reverse",
+      "passed": true,
+      "nbytes": 20186568,
+      "shape": [
+        841107,
+        3
+      ],
+      "scratch_peak_bytes": 2100953,
+      "sha256": "a9c57ea1e20a42997cc7e1d9fbf9374144ea975bfa0803fcbb21dac22c43ba29",
+      "secondary": "OMITTED_OVER_1MIB"
+    },
+    {
+      "name": "original16MiB_cap_still_rejects",
+      "passed": true,
+      "nbytes": 20186568
+    },
+    {
+      "name": "64MiB_C",
+      "passed": true,
+      "nbytes": 67108864,
+      "shape": [
+        8192,
+        1024
+      ],
+      "scratch_peak_bytes": 1292,
+      "sha256": "3b6a07d0d404fab4e23b6d34bc6696a6a312dd92821332385e5af7c01c421351",
+      "secondary": "available_or_not_requested"
+    },
+    {
+      "name": "64MiB_transpose",
+      "passed": true,
+      "nbytes": 67108864,
+      "shape": [
+        1024,
+        8192
+      ],
+      "scratch_peak_bytes": 3146897,
+      "sha256": "3b6a07d0d404fab4e23b6d34bc6696a6a312dd92821332385e5af7c01c421351",
+      "secondary": "available_or_not_requested"
+    },
+    {
+      "name": "small_multiset_scratch",
+      "passed": true,
+      "nbytes": 12000,
+      "shape": [
+        1000,
+        3
+      ],
+      "scratch_peak_bytes": 166870,
+      "sha256": "79f08fbaf2064bbef9c63477bc07d002d0ed3ce58a91bc01b6d972f1c4e394b7",
+      "secondary": "available_or_not_requested"
+    },
+    {
+      "name": "small_multiset_row_order_secondary_only",
+      "passed": true
+    },
+    {
+      "name": "over64MiB_source_rejected",
+      "passed": true
+    },
+    {
+      "name": "object_dtype_rejected",
+      "passed": true
+    }
+  ],
+  "count": 21,
+  "raw_reads": 0,
+  "GT_reads": 0,
+  "SLAM_native_imports": 0,
+  "numpy_imported": true,
+  "new_predictions": 0,
+  "max_rss_bytes": 118693888
+}

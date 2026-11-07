@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "trials": 100,
+  "max_absolute_matrix_deltas": {
+    "pose": 1.687538997430238e-14,
+    "local_relation": 7.716050021144838e-15,
+    "permutation": 1.5987211554602254e-14,
+    "common_gauge": 7.061018436615996e-14,
+    "singleton": 7.105427357601002e-15
+  },
+  "scope": "Synthetic exact-motion equation audit only; no model inference, accuracy or memory claim.",
+  "tested": [
+    "scale and per-scan centering reconstruction",
+    "nontrivial rotations and translations",
+    "unequal point counts",
+    "scan permutation",
+    "common gauge invariance",
+    "singleton reduction",
+    "within-group relative poses"
+  ],
+  "untested": [
+    "noisy local motion",
+    "dynamics and scan distortion",
+    "conditioning shift",
+    "actual sampling hook",
+    "final endpoint versus projected state",
+    "GPU resources",
+    "real registration outcomes"
+  ],
+  "source_hashes": {
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/check_group_motion_geometry.py": "ebc341f1a471993d1839f24726194a511ebfd3d8b1b0a998c5fe358c29bd768e",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/sampler.py": "6166a9dfd75ab721af64edf7bea99004acbad642c94d310dba55e849e7a4cf25",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/procrustes.py": "cb8f6bc040eef491e149bfdb82ec29da4c7865925e8cb6730b9f72b109c5cfe1",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/modeling.py": "d0d766d6f8b24d04150e5b2e009b54c6496bc3d8ae34a27e2abfcda07f610257",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/flow_model/layer.py": "e8e7caabe1da47b8c8aefea0db58ec5ffb910be8fc01b7a541ca6fec345618e8",
+    "/mnt/e/githouse/RAP-SLAM/rap_slam/rap_backend.py": "552fe044167b2490ee5a5d390c659a3707fbfc0a31108b6f15bd579623fe90f3"
+  }
+}

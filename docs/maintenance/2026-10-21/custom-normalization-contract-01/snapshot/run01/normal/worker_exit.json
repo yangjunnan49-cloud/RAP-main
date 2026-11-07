@@ -1,0 +1,99 @@
+{
+  "success": true,
+  "error": null,
+  "checks": [
+    {
+      "name": "all_points_all_references",
+      "coordinate_scale": 1e-06,
+      "left_gauge": 0,
+      "passed": true
+    },
+    {
+      "name": "all_points_all_references",
+      "coordinate_scale": 1e-06,
+      "left_gauge": 1,
+      "passed": true
+    },
+    {
+      "name": "all_points_all_references",
+      "coordinate_scale": 1.0,
+      "left_gauge": 0,
+      "passed": true
+    },
+    {
+      "name": "all_points_all_references",
+      "coordinate_scale": 1.0,
+      "left_gauge": 1,
+      "passed": true
+    },
+    {
+      "name": "all_points_all_references",
+      "coordinate_scale": 1000000.0,
+      "left_gauge": 0,
+      "passed": true
+    },
+    {
+      "name": "all_points_all_references",
+      "coordinate_scale": 1000000.0,
+      "left_gauge": 1,
+      "passed": true
+    },
+    {
+      "name": "empty_views",
+      "passed": true
+    },
+    {
+      "name": "empty_view",
+      "passed": true
+    },
+    {
+      "name": "nonfinite_points",
+      "passed": true
+    },
+    {
+      "name": "zero_spread",
+      "passed": true
+    },
+    {
+      "name": "per_view_scale_metadata",
+      "passed": true
+    },
+    {
+      "name": "zero_shared_scale",
+      "passed": true
+    },
+    {
+      "name": "missing_view",
+      "passed": true
+    },
+    {
+      "name": "nonrigid_prediction",
+      "passed": true
+    },
+    {
+      "name": "reflected_prediction",
+      "passed": true
+    },
+    {
+      "name": "homogeneous_row",
+      "passed": true
+    },
+    {
+      "name": "nonfinite_prediction",
+      "passed": true
+    }
+  ],
+  "count": 17,
+  "scalar_coordinate_comparisons": 9882,
+  "normalized_roundtrip_comparisons": 1647,
+  "max_error_budget_ratio": "0.0000802757186509732952788678133491028485399533488977767468095990",
+  "elapsed": 0.04756440100027248,
+  "max_RSS_bytes": 16809984,
+  "raw_file_decodes": 0,
+  "GT_reads": 0,
+  "model_calls": 0,
+  "registration_solver_calls": 0,
+  "actual_RAP_interface_authenticated": false,
+  "canonical_normalization": false,
+  "synthetic_oracle_only": true
+}

@@ -1,0 +1,250 @@
+{
+  "status": "BOUNDED_READ_ONLY_EVIDENCE_REVIEW_PASSED",
+  "review_date": "2026-10-12 Asia/Shanghai",
+  "delivery_checks": [
+    {
+      "folder": "2026-10-10/native-output-capability-01",
+      "entries": 103,
+      "passed": true
+    },
+    {
+      "folder": "2026-10-10/native-noise-robustness-01",
+      "entries": 188,
+      "passed": true
+    },
+    {
+      "folder": "2026-10-10/native-pose-objective-fit-01",
+      "entries": 53,
+      "passed": true
+    },
+    {
+      "folder": "2026-10-10/native-pose-objective-fit-01/delivery-correction-01",
+      "entries": 5,
+      "passed": true
+    },
+    {
+      "folder": "2026-10-10/rigid-control-conditioning-01",
+      "entries": 37,
+      "passed": true
+    },
+    {
+      "folder": "2026-10-10/wsl-runtime-recovery-01",
+      "entries": 40,
+      "passed": true
+    },
+    {
+      "folder": "2026-10-10/native-conditioned-comparison-01",
+      "entries": 60,
+      "passed": true
+    },
+    {
+      "folder": "2026-10-10/native-conditioned-comparison-01/attempt-02",
+      "entries": 86,
+      "passed": true
+    },
+    {
+      "folder": "2026-10-09/measured-map-reoptimization-01",
+      "entries": 35,
+      "passed": true
+    },
+    {
+      "folder": "2026-10-09/shared-plane-map-pilot-01",
+      "entries": 42,
+      "passed": true
+    },
+    {
+      "folder": "2026-10-09/structural-holdout-map-pilot-01",
+      "entries": 37,
+      "passed": true
+    },
+    {
+      "folder": "2026-10-09/cross-visit-map-pilot-01",
+      "entries": 42,
+      "passed": true
+    },
+    {
+      "folder": "2026-10-09/rotation-protected-map-pilot-01",
+      "entries": 39,
+      "passed": true
+    },
+    {
+      "folder": "2026-10-10/membership-formation-diagnosis-01",
+      "entries": 56,
+      "passed": true
+    }
+  ],
+  "unique_hashed_files": 1107,
+  "unique_local_hashed_files": 1105,
+  "separate_WSL_source_files": 2,
+  "identity_references": 1278,
+  "unique_hashed_bytes": 675952923.0,
+  "benchmark_source_entries": 71,
+  "benchmark_trajectory_binding_entries": 144,
+  "NOC4_attempt02_freeze_entries": 204,
+  "benchmark_complete_runs": 36,
+  "benchmark_original_independent_validation": {
+    "passed": true,
+    "checks": [
+      "historical source/input identities",
+      "36 complete pipelines",
+      "exact frames/config/candidate completion/edge binding",
+      "proper finite poses",
+      "independent anchored alignment",
+      "explicit independent KITTI segments",
+      "all repeat and cohort statistics"
+    ],
+    "total_segment_records": 44388,
+    "max_ate_delta": 6.328271240363392E-14,
+    "max_segment_delta": 2.183004736586126E-14
+  },
+  "arithmetic_recount": [
+    {
+      "model": "RAP-SLAM",
+      "cohort": "00/05/06",
+      "metrics": {
+        "ter": {
+          "mean": 0.38871841553195435,
+          "population_std": 1.7202106607154541E-12
+        },
+        "ate": {
+          "mean": 1.4606634934899942,
+          "population_std": 1.2765293964702215E-11
+        }
+      },
+      "best_single_rep": 1
+    },
+    {
+      "model": "RAP-SLAM",
+      "cohort": "07/09/10",
+      "metrics": {
+        "ter": {
+          "mean": 0.5056151062197854,
+          "population_std": 1.9929540297875093E-13
+        },
+        "ate": {
+          "mean": 0.7214798200736537,
+          "population_std": 1.0353576275410716E-13
+        }
+      },
+      "best_single_rep": 3
+    },
+    {
+      "model": "RAP-SLAM",
+      "cohort": "all6",
+      "metrics": {
+        "ter": {
+          "mean": 0.4471667608758699,
+          "population_std": 8.315783627377137E-13
+        },
+        "ate": {
+          "mean": 1.0910716567818242,
+          "population_std": 6.403402665497511E-12
+        }
+      },
+      "best_single_rep": 1
+    },
+    {
+      "model": "KISS-SLAM",
+      "cohort": "00/05/06",
+      "metrics": {
+        "ter": {
+          "mean": 0.47267157863990694,
+          "population_std": 1.353311020865207E-06
+        },
+        "ate": {
+          "mean": 0.6352964254581096,
+          "population_std": 1.7694522889037167E-06
+        }
+      },
+      "best_single_rep": 3
+    },
+    {
+      "model": "KISS-SLAM",
+      "cohort": "07/09/10",
+      "metrics": {
+        "ter": {
+          "mean": 0.48455626143773184,
+          "population_std": 1.8972109725762924E-09
+        },
+        "ate": {
+          "mean": 0.7640809626217832,
+          "population_std": 3.208987943956948E-09
+        }
+      },
+      "best_single_rep": 1
+    },
+    {
+      "model": "KISS-SLAM",
+      "cohort": "all6",
+      "metrics": {
+        "ter": {
+          "mean": 0.47861392003881936,
+          "population_std": 6.757335121839638E-07
+        },
+        "ate": {
+          "mean": 0.6996886940399464,
+          "population_std": 8.834316793045605E-07
+        }
+      },
+      "best_single_rep": 3
+    }
+  ],
+  "per_sequence_recount": [
+    {
+      "sequence": "00",
+      "RAP_ter": 0.5181706832191854,
+      "KISS_ter": 0.5752718429466156,
+      "RAP_ATE": 2.754436970433218,
+      "KISS_ATE": 0.9165132679381367
+    },
+    {
+      "sequence": "05",
+      "RAP_ter": 0.3204730242601089,
+      "KISS_ter": 0.5172504808542542,
+      "RAP_ATE": 1.2946993617125968,
+      "KISS_ATE": 0.6610349358294875
+    },
+    {
+      "sequence": "06",
+      "RAP_ter": 0.32751153911656883,
+      "KISS_ter": 0.3254924121188512,
+      "RAP_ATE": 0.3328541483241685,
+      "KISS_ATE": 0.3283410726067048
+    },
+    {
+      "sequence": "07",
+      "RAP_ter": 0.3946732934450241,
+      "KISS_ter": 0.3865634112707445,
+      "RAP_ATE": 0.32640040655626357,
+      "KISS_ATE": 0.3153713552884907
+    },
+    {
+      "sequence": "09",
+      "RAP_ter": 0.5936521193637493,
+      "KISS_ter": 0.542062701790261,
+      "RAP_ATE": 1.0745232483242313,
+      "KISS_ATE": 1.2591105997236915
+    },
+    {
+      "sequence": "10",
+      "RAP_ter": 0.5285199058505831,
+      "KISS_ter": 0.52504267125219,
+      "RAP_ATE": 0.7635158053404663,
+      "KISS_ATE": 0.7177609328531674
+    }
+  ],
+  "NOC4_current_status": {
+    "stage": "audited_stop",
+    "utc": "2026-10-10T22:41:02.393194+08:00",
+    "status": "AUDITED_NATIVE_PREFLIGHT_STOP_WITH_REPLAY_MISMATCH",
+    "decision": "PROBE_LOSS_INCREASE_AND_P_REPLAY_MISMATCH",
+    "scientific_comparison_complete": false,
+    "keep_INCOMPLETE": true,
+    "fit_updates": 0,
+    "optimizer_probe_calls": 4,
+    "retained_probe_updates": 0
+  },
+  "review_wall_seconds": 1.9321447,
+  "review_attempt_note": "Initial review stopped at Windows mapping of a Linux-only source path before emitting review results. Helper now uses a separately observed WSL source-hash receipt. No historical source, scientific array, gate or seal was repaired.",
+  "scope": "SHA256/file identity checks and arithmetic from stored scalar results only; no fresh trajectory metric, raw preprocessing, descriptor, neural, backward, optimizer or physical reference replay. No all-history audit or new resource-cap certification."
+}

@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "decision": "LOCAL_09_CONSISTENT_CROSS_VISIT_DISCREPANCY",
+  "utc": "2026-10-05T08:21:26.322405+00:00",
+  "scans": 265,
+  "matched_prior_endpoints": 98,
+  "local_controls": 190,
+  "directed_distances": 3040000,
+  "max_distance_delta": 3.220756994437579e-13,
+  "independent_checks": [
+    "freeze/stage/seal",
+    "all clouds and 98 prior endpoints",
+    "full absolute file/index/time chain",
+    "independent calibration/relative poses",
+    "every brute-force NN distance",
+    "all metrics/component errors/aggregates/gates",
+    "resources and final integrity"
+  ],
+  "total_wall_s": 62.74821364716627,
+  "validator_wall_s": 38.211610740981996,
+  "peak_rss_gib": 0.3376274108886719,
+  "artifact_bytes_before_report": 37763402
+}

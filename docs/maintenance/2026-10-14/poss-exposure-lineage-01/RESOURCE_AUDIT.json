@@ -1,0 +1,137 @@
+{
+  "passed": true,
+  "receipts": [
+    {
+      "stage": "freeze",
+      "child": {
+        "success": false,
+        "error": "FileNotFoundError(2, 'No such file or directory')",
+        "full_resource_capture": true,
+        "wall_seconds": 0.24676304901367985,
+        "peak_RSS_bytes": 18022400,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 6250,
+        "raw_or_reference_pose_numeric_values_parsed": false,
+        "model_calls": 0,
+        "optimizer_calls": 0
+      },
+      "Windows": {
+        "exit_code": 1,
+        "utc_end": "2026-10-14T01:56:43.2381378Z",
+        "wall_seconds": 0.8402239,
+        "host_memory_observations": 1,
+        "minimum_observed_headroom_bytes": 70090981376.0
+      },
+      "launch": {
+        "pid": 29304,
+        "utc_start": "2026-10-14T01:56:42.3979139Z",
+        "script": "scripts/maintenance/poss_exposure_lineage.py",
+        "stage": "freeze",
+        "headroom_before_bytes": 70132060160
+      }
+    },
+    {
+      "stage": "freeze02",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 7.29225025899359,
+        "peak_RSS_bytes": 19832832,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 126177,
+        "raw_or_reference_pose_numeric_values_parsed": false,
+        "model_calls": 0,
+        "optimizer_calls": 0
+      },
+      "Windows": {
+        "exit_code": 0,
+        "utc_end": "2026-10-14T01:58:02.6304640Z",
+        "wall_seconds": 10.2074241,
+        "host_memory_observations": 13,
+        "minimum_observed_headroom_bytes": 69853110272.0
+      },
+      "launch": {
+        "pid": 57104,
+        "utc_start": "2026-10-14T01:57:52.4230399Z",
+        "script": "scripts/maintenance/poss_exposure_lineage.py",
+        "stage": "freeze02",
+        "headroom_before_bytes": 71693848576
+      }
+    },
+    {
+      "stage": "census",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 37.15785391398822,
+        "peak_RSS_bytes": 80023552,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 1011080,
+        "raw_or_reference_pose_numeric_values_parsed": false,
+        "model_calls": 0,
+        "optimizer_calls": 0
+      },
+      "Windows": {
+        "exit_code": 0,
+        "utc_end": "2026-10-14T02:00:00.5052666Z",
+        "wall_seconds": 39.8628314,
+        "host_memory_observations": 51,
+        "minimum_observed_headroom_bytes": 70028832768.0
+      },
+      "launch": {
+        "pid": 33384,
+        "utc_start": "2026-10-14T01:59:20.6424352Z",
+        "script": "scripts/maintenance/poss_exposure_lineage.py",
+        "stage": "census",
+        "headroom_before_bytes": 71670620160
+      }
+    },
+    {
+      "stage": "validate",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 27.032424096978502,
+        "peak_RSS_bytes": 80482304,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 1020305,
+        "raw_or_reference_pose_numeric_values_parsed": false,
+        "model_calls": 0,
+        "optimizer_calls": 0
+      },
+      "Windows": {
+        "exit_code": 0,
+        "utc_end": "2026-10-14T02:01:09.8722961Z",
+        "wall_seconds": 29.5717524,
+        "host_memory_observations": 38,
+        "minimum_observed_headroom_bytes": 69968805888.0
+      },
+      "launch": {
+        "pid": 13268,
+        "utc_start": "2026-10-14T02:00:40.3005437Z",
+        "script": "scripts/maintenance/poss_exposure_lineage.py",
+        "stage": "validate",
+        "headroom_before_bytes": 71536590848
+      }
+    }
+  ],
+  "attempts": 4,
+  "success": 3,
+  "retained_prefreeze_missing_rg_failure": 1,
+  "Windows_seconds_including_startup_imports": 80.4822318,
+  "child_seconds_after_time_bootstrap": 71.72929131897399,
+  "peak_RSS_bytes": 80482304,
+  "GPU_bytes": 0,
+  "logging_retries": 0,
+  "logging_gaps": 0,
+  "original_caps_unchanged": true,
+  "ordinary_preparation_RSS_unknown": true,
+  "stdlib_closure_separate": true
+}

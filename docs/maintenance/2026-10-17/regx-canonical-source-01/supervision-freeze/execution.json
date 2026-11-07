@@ -1,0 +1,82 @@
+{
+  "stage": "freeze",
+  "utc": "2026-10-17T12:34:22.3193956Z",
+  "native_exit_code": 0,
+  "child_pid": 47764,
+  "error": null,
+  "enclosing_seconds": 1.3263801,
+  "previous_enclosing_seconds": 0.0,
+  "running_queries": [
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 2875392,
+      "working_set": 2875392,
+      "peak_commit": 528384
+    },
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 47054848,
+      "working_set": 47054848,
+      "peak_commit": 13316096
+    },
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 88670208,
+      "working_set": 88670208,
+      "peak_commit": 28360704
+    },
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 97132544,
+      "working_set": 97132544,
+      "peak_commit": 33394688
+    }
+  ],
+  "final_queries": [
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 106680320,
+      "working_set": 176128,
+      "peak_commit": 40546304
+    },
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 106680320,
+      "working_set": 176128,
+      "peak_commit": 40546304
+    }
+  ],
+  "running_query_gaps": 0,
+  "final_child_OS_peak_known": true,
+  "child_peak_cap_bytes": 536870912,
+  "observer_to_snapshot": {
+    "success": true,
+    "error": 0,
+    "error_relevant": false,
+    "structure_bytes": 72,
+    "peak_working_set": 176214016,
+    "working_set": 176214016,
+    "peak_commit": 82198528
+  },
+  "observer_full_lifetime_peak": "UNKNOWN",
+  "ordinary_preparation_RSS": "UNKNOWN",
+  "all_native_process_tree_claim": false
+}

@@ -1,0 +1,183 @@
+{
+  "states": [
+    {
+      "status": "COMPLETE_INTERFACE_ONLY",
+      "next": "No automatic model/efficacy; normalization/shared-scale/prediction recovery and external-reference separation remain a distinct interface question",
+      "not_pending": true,
+      "efficacy_claim": false,
+      "charged_seconds": 22.614594,
+      "replay_completed_stages": false,
+      "evidence": [
+        {
+          "sha256": "A7A444E7021FD101E8A60A511D801AF90EDBBF230D89D86F3F236D6E181FBFA3",
+          "path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-16\\regx-interface-contract-01\\NUMERIC_REPORT.md"
+        },
+        {
+          "sha256": "72E15A2259789BF84821F5939A9E8D79B865B38AD85E8F1F40C218D6ADEE6119",
+          "path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-16\\regx-interface-contract-01\\NUMERIC_CHECKS.json"
+        },
+        {
+          "sha256": "CD2F86D6CF5E4301698F404BA9BC87663C7FF09CE25D1161FC9D075675C7725B",
+          "path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-16\\regx-interface-contract-01\\NUMERIC_COSTS.json"
+        },
+        {
+          "sha256": "E2905CE26F7B7C46077828D5C909D29402C626162EAA1E1C0DE0705147D6F598",
+          "path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-16\\regx-interface-contract-01\\ADOPTION_DECISION_CN.md"
+        }
+      ],
+      "cap_seconds": 900,
+      "historical_only": [
+        "RUNBOOK_CN.md",
+        "STATUS",
+        "REPORT.md",
+        "INCOMPLETE"
+      ],
+      "completed": "2026-10-17T12:24:32Z",
+      "id": "C0_CUSTOM_20261016"
+    },
+    {
+      "K_mean_ATE": 0.69899171236,
+      "protections_failed": [
+        "07ter",
+        "10rer"
+      ],
+      "next": "Not RAP novelty or stable online10Hz/fullCLI qualification",
+      "replay_completed_stages": false,
+      "K_mean_ter": 0.478490321918,
+      "efficacy_claim": "G/K aggregate raw-core comparison only",
+      "charged_seconds": 6762.0941485,
+      "G_mean_ATE": 0.648334140963,
+      "RAP_calls": 0,
+      "shared_scope": "Original R0+S1",
+      "id": "S1_RAW_CORE_20261020",
+      "evidence": [
+        {
+          "sha256": "44775DF468A85EB6D04EA1E50EE84D8ACEB27BA6932CD713FAC0BB8A809DAA59",
+          "path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-20\\raw-input-contract-01\\CURRENT_HANDOFF.md"
+        },
+        {
+          "sha256": "5C459147B07E30B1592428E44700F8DBC6AE2519DE6C49617AEA6408DF634775",
+          "path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-20\\raw-input-contract-01\\COSTS_FINAL.json"
+        }
+      ],
+      "G_mean_ter": 0.446953334008,
+      "cap_seconds": 7200,
+      "status": "COMPLETE_MIXED_PROTECTION_FAIL"
+    },
+    {
+      "cap_seconds": 9000,
+      "validation_scope": "P0_VALIDATION_20261021",
+      "status": "RAW_COMPLETE_BUDGET_FAIL",
+      "replay_completed_stages": false,
+      "id": "P0_CAPTURE_20261021",
+      "next": "Original cap failure retained",
+      "charged_before_close": 9316.8147729
+    },
+    {
+      "G_time_reduction_percent": 12.646940431469423,
+      "K_time_reduction_percent": 18.615027401116436,
+      "evidence": [
+        {
+          "sha256": "8EB8EE15B9877D5A451D5D8A24D64F6D3AE215D14F84AA0F6059BF089D210832",
+          "path": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-21\\y\\outputs\\overlap_validation_20261021\\RESULTS02.json"
+        },
+        {
+          "sha256": "C289B230F73587CD2AEBDA60225579964F6CEBCEE957F0DAEC5937A9E90CAAEE",
+          "path": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-21\\y\\outputs\\overlap_validation_20261021\\STATUS.json"
+        },
+        {
+          "sha256": "0C630DCA7A83D279A02813F0D6E5984D4A38B684336C3C88F344A689F407901C",
+          "path": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-21\\y\\outputs\\overlap_validation_20261021\\COSTS_FINAL.json"
+        }
+      ],
+      "independent_segments": 88776,
+      "frame_occurrences": 147552,
+      "G_failed_pairs": [
+        "r1_06"
+      ],
+      "efficacy_claim": false,
+      "id": "P0_VALIDATION_20261021",
+      "next": "Closed; no queue/threshold/seed/repeat rescue",
+      "K_failed_pairs": [
+        "r1_00",
+        "r2_09"
+      ],
+      "cells": 72,
+      "promote": false,
+      "status": "COMPLETE_CLOSED_EQUIVALENCE_FAIL"
+    },
+    {
+      "status": "CLOSED_INCOMPLETE_ARRAY_CAPTURE_CAP",
+      "frontend_complete": 1101,
+      "old_array_cap": 16777216,
+      "replay_completed_frontend": false,
+      "next": "Retained incomplete; N2 is a separately admitted format",
+      "charged_seconds": 925.7894816,
+      "native_packet_prefix": 834,
+      "evidence": [
+        {
+          "sha256": "3800DCDDBAEBEAC68DCF0C36EC3C8911050B168BDC6870C9DB45323F3BAA9E91",
+          "path": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-21\\y\\outputs\\native_stability_control_20261021\\COSTS_FINAL.json"
+        },
+        {
+          "sha256": "C5260EF0D635B2A8AE0023685FB49770C52D5111539FD928F5614F0E930214FC",
+          "path": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-21\\y\\outputs\\native_stability_control_20261021\\PARTIAL_AUDIT.json"
+        }
+      ],
+      "cap_seconds": 1800,
+      "native2_launched": false,
+      "id": "N1_NATIVE_20261021"
+    },
+    {
+      "first_difference_frame": 564,
+      "equal_prior_events": 6340,
+      "next": "Does not explain historical4.31mm or qualify P0; no further real-native retries this owner window",
+      "evidence": [
+        {
+          "sha256": "98F23422A2987DE179240CD3DA82304096742CE2A9C65C9CC7C138F1F4B7C094",
+          "path": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-21\\y\\outputs\\native_stability_stream_20261021\\RESULTS.json"
+        },
+        {
+          "sha256": "E6B5E6B408EAB93FD90D02724F00569EC092769A367A17A162A640CFAA1B16CF",
+          "path": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-21\\y\\outputs\\native_stability_stream_20261021\\FIRST_ICP_EVIDENCE.json"
+        },
+        {
+          "sha256": "B3BE6AC3B875B2BA888CF7ACCF877DE936011E0D3D609A43F3B241B48B357CD8",
+          "path": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-21\\y\\outputs\\native_stability_stream_20261021\\COSTS_FINAL.json"
+        }
+      ],
+      "efficacy_claim": false,
+      "RAP_calls": 0,
+      "coarse_translation_element_max_m": 2.7066136674136487E-06,
+      "event_rows": 24830,
+      "id": "N2_STREAM_NATIVE_20261021",
+      "cause": "UNKNOWN",
+      "first_boundary": "ICP output",
+      "native_frame_calls": 2202,
+      "status": "COMPLETE_DIAGNOSTIC_ONLY"
+    }
+  ],
+  "checks_sha256": "C491F2D544054A606BB247FDCC169A8A8C2403770F67F7110DF8E1EB610D7172",
+  "synthetic_prerequisites": {
+    "initial_byte_signature_controls": 21,
+    "stub_assertions": 120,
+    "host_loss_controls": 6,
+    "external_watchdog_integration_cases": 9,
+    "chunk_hash_controls": 21
+  },
+  "RAP_increment_established": false,
+  "interpretation": "Latest completed phase receipts/seal govern over preserved preparation or historical next-step paragraphs; do not use mtime alone or spend unconsumed old caps as new payload authorization",
+  "limits": [
+    "No old retired-family rescue",
+    "No automatic model/fit/efficacy after C0",
+    "No default/production/install/Git/outreach/scheduler/goal-status change",
+    "No automatic quota-reset continuation"
+  ],
+  "observed_utc": "2026-10-21T14:05:09.9050356+00:00",
+  "defaults_changed": false,
+  "owner_continuation": "ACTIVE_UNTIL_ACTUAL_BOUNDARY",
+  "manuscript": "PAUSED_BY_AUTHORITATIVE_SCOPE",
+  "original_research_goal": "UNRESOLVED",
+  "current_reset_id": 1792606845,
+  "status": "CURRENT_FACT_INDEX_NOT_EXECUTION_AUTHORIZATION"
+}

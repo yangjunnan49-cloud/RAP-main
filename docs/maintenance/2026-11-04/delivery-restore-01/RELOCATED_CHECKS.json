@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "observed_utc": "2026-11-05T00:43:28.931098+00:00",
+  "cases": [
+    {
+      "task": "sample",
+      "exit_code": 0,
+      "required_path_count": 4,
+      "required_paths_all_in_new_workspace": true,
+      "numerical_modules_loaded": [],
+      "model_or_child_task_execution": false
+    },
+    {
+      "task": "demo",
+      "exit_code": 0,
+      "required_path_count": 5,
+      "required_paths_all_in_new_workspace": true,
+      "numerical_modules_loaded": [],
+      "model_or_child_task_execution": false
+    },
+    {
+      "task": "features",
+      "exit_code": 0,
+      "required_path_count": 3,
+      "required_paths_all_in_new_workspace": true,
+      "numerical_modules_loaded": [],
+      "model_or_child_task_execution": false
+    },
+    {
+      "task": "slam",
+      "exit_code": 0,
+      "required_path_count": 2,
+      "required_paths_all_in_new_workspace": true,
+      "numerical_modules_loaded": [],
+      "model_or_child_task_execution": false
+    },
+    {
+      "task": "evaluate",
+      "exit_code": 0,
+      "required_path_count": 4,
+      "required_paths_all_in_new_workspace": true,
+      "numerical_modules_loaded": [],
+      "model_or_child_task_execution": false
+    }
+  ],
+  "restored_standard_library_tests": [
+    {
+      "file": "test_runtime_paths.py",
+      "exit_code": 0,
+      "summary": "checks_from_other_cwd) ... ok\ntest_sample_demo_features_use_absolute_paths (__main__.RuntimeTests.test_sample_demo_features_use_absolute_paths) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.591s\n\nOK\n"
+    },
+    {
+      "file": "test_environment_tools.py",
+      "exit_code": 0,
+      "summary": "tes_paths) ... ok\ntest_metadata_refuses_site_initialization_mode (__main__.EnvironmentToolsTests.test_metadata_refuses_site_initialization_mode) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.759s\n\nOK\n"
+    }
+  ],
+  "different_working_directory": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-11-04\\delivery-restore-01",
+  "all_runtime_required_paths_relocated": true,
+  "original_source_runtime_paths_used": false,
+  "outputs_created": false,
+  "model_data_format_or_GPU_IO_validated": false,
+  "training_or_scientific_execution": false,
+  "restored_git_read_only_checks": [
+    {
+      "root": "rap-main",
+      "head": "4055d929c594b0033aafc6eed339c910369eef55",
+      "repository_root_is_restored_tree": true,
+      "index_sha256_unchanged": "7ce412ad4b16aea661ed9d28c486b0aefc38fa6f9f6ebcd6709a157d661b6f31",
+      "network_hooks_filters_status_or_commits_run": false
+    },
+    {
+      "root": "rap-slam",
+      "head": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6",
+      "repository_root_is_restored_tree": true,
+      "index_sha256_unchanged": "e6e89b0d357db3ae5dc621b742acbc3c24a723be6a820d09e336c6c6cb02bf2a",
+      "network_hooks_filters_status_or_commits_run": false
+    }
+  ]
+}

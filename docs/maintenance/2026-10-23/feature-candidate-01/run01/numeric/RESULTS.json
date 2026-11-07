@@ -1,0 +1,148 @@
+{
+  "passed": true,
+  "controls": [
+    {
+      "case": "positive_agreement",
+      "points_tensor": false,
+      "keypoints": "default",
+      "passed": true
+    },
+    {
+      "case": "exception_fallback",
+      "points_tensor": false,
+      "keypoints": "default",
+      "original_secondary_error": true,
+      "candidate_zero_rejected": true,
+      "passed": true
+    },
+    {
+      "case": "positive_agreement",
+      "points_tensor": false,
+      "keypoints": "numpy",
+      "passed": true
+    },
+    {
+      "case": "exception_fallback",
+      "points_tensor": false,
+      "keypoints": "numpy",
+      "original_secondary_error": true,
+      "candidate_zero_rejected": true,
+      "passed": true
+    },
+    {
+      "case": "positive_agreement",
+      "points_tensor": false,
+      "keypoints": "tensor",
+      "passed": true
+    },
+    {
+      "case": "exception_fallback",
+      "points_tensor": false,
+      "keypoints": "tensor",
+      "original_secondary_error": false,
+      "candidate_zero_rejected": true,
+      "passed": true
+    },
+    {
+      "case": "positive_agreement",
+      "points_tensor": true,
+      "keypoints": "default",
+      "passed": true
+    },
+    {
+      "case": "exception_fallback",
+      "points_tensor": true,
+      "keypoints": "default",
+      "original_secondary_error": false,
+      "candidate_zero_rejected": true,
+      "passed": true
+    },
+    {
+      "case": "positive_agreement",
+      "points_tensor": true,
+      "keypoints": "numpy",
+      "passed": true
+    },
+    {
+      "case": "exception_fallback",
+      "points_tensor": true,
+      "keypoints": "numpy",
+      "original_secondary_error": true,
+      "candidate_zero_rejected": true,
+      "passed": true
+    },
+    {
+      "case": "positive_agreement",
+      "points_tensor": true,
+      "keypoints": "tensor",
+      "passed": true
+    },
+    {
+      "case": "exception_fallback",
+      "points_tensor": true,
+      "keypoints": "tensor",
+      "original_secondary_error": false,
+      "candidate_zero_rejected": true,
+      "passed": true
+    },
+    {
+      "case": "empty_unchanged_rejected",
+      "tensor": false,
+      "passed": true
+    },
+    {
+      "case": "empty_unchanged_rejected",
+      "tensor": true,
+      "passed": true
+    },
+    {
+      "case": "descriptor_reject_zero",
+      "passed": true
+    },
+    {
+      "case": "descriptor_reject_nan",
+      "passed": true
+    },
+    {
+      "case": "descriptor_reject_infinity",
+      "passed": true
+    },
+    {
+      "case": "descriptor_reject_wrong_rows",
+      "passed": true
+    },
+    {
+      "case": "descriptor_reject_wrong_channels",
+      "passed": true
+    },
+    {
+      "case": "descriptor_reject_batched",
+      "passed": true
+    },
+    {
+      "case": "input_reject_batched",
+      "passed": true
+    },
+    {
+      "case": "input_reject_nonfinite",
+      "passed": true
+    },
+    {
+      "case": "input_reject_wrong_xyz",
+      "passed": true
+    }
+  ],
+  "control_count": 23,
+  "wrapper_calls": {
+    "original": 14,
+    "candidate": 14
+  },
+  "stub_calls": 24,
+  "warnings": 12,
+  "CUDA_initialized": false,
+  "actual_neural_models": 0,
+  "production_unchanged": true,
+  "candidate_installed": false,
+  "strict_guard_installed": false,
+  "limitation": "Zero fallback is still descriptor failure; invalid and batched input excluded; no model/checkpoint-quality or physical-efficacy claim"
+}

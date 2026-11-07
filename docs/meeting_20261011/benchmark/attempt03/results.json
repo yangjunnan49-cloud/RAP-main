@@ -1,0 +1,1556 @@
+{
+  "rows": [
+    {
+      "name": "r01-00-RAP-SLAM",
+      "rep": 1,
+      "sequence": "00",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 242.7837759519971,
+      "resource": {
+        "complete": true,
+        "wall_s": 235.87848199700238,
+        "rss_bytes": 15012728832,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.5181706832178032,
+      "rer": 0.17831248591466348,
+      "ate": 2.754436970368334,
+      "loops": 12,
+      "frames": 4541,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r01-00-RAP-SLAM/optimized_poses.txt",
+      "sha256": "d972f00ed2e277684d0705e8bd278f3fb089c3e54bb1bd5e6fb87cebb8af3ff5",
+      "segment_count": 3283,
+      "independent_ate_delta": 3.4638958368304884e-14,
+      "independent_segment_delta": 4.526206951013974e-15
+    },
+    {
+      "name": "r01-00-KISS-SLAM",
+      "rep": 1,
+      "sequence": "00",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 157.57123894300457,
+      "resource": {
+        "complete": true,
+        "wall_s": 157.2675972060024,
+        "rss_bytes": 1109680128,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.5752722805246745,
+      "rer": 0.15641900633994224,
+      "ate": 0.9165107333425176,
+      "loops": null,
+      "frames": 4541,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r01-00-KISS-SLAM/slam_output/2026-10-11_09-53-35/00_poses_kitti.txt",
+      "sha256": "2287c43f75314a6f361a5c42a2a69e6593510aab50c2ed077d02e532b2566886",
+      "segment_count": 3283,
+      "independent_ate_delta": 7.549516567451064e-15,
+      "independent_segment_delta": 3.821982064600854e-15
+    },
+    {
+      "name": "r01-05-RAP-SLAM",
+      "rep": 1,
+      "sequence": "05",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 172.64873704300408,
+      "resource": {
+        "complete": true,
+        "wall_s": 168.585194649997,
+        "rss_bytes": 10458365952,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.32047302425306945,
+      "rer": 0.1209507427362505,
+      "ate": 1.2946993617302067,
+      "loops": 12,
+      "frames": 2761,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r01-05-RAP-SLAM/optimized_poses.txt",
+      "sha256": "fedd6e6cef2958d8ae26115e16d44d45135cb5f9cefa2a32d9abf1d570743de7",
+      "segment_count": 1806,
+      "independent_ate_delta": 4.440892098500626e-15,
+      "independent_segment_delta": 6.511455667734291e-15
+    },
+    {
+      "name": "r01-05-KISS-SLAM",
+      "rep": 1,
+      "sequence": "05",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 93.58327802499844,
+      "resource": {
+        "complete": true,
+        "wall_s": 93.39090705200215,
+        "rss_bytes": 1092780032,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.5172529484238784,
+      "rer": 0.21329732823745026,
+      "ate": 0.6610388612100104,
+      "loops": null,
+      "frames": 2761,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r01-05-KISS-SLAM/slam_output/2026-10-11_09-58-07/05_poses_kitti.txt",
+      "sha256": "02bc9b2e75a1df114ae3a448d0be3955fbb77a22f3a356d03862227e6ddf3554",
+      "segment_count": 1806,
+      "independent_ate_delta": 4.7406523151494184e-14,
+      "independent_segment_delta": 2.9934042712013303e-15
+    },
+    {
+      "name": "r01-06-RAP-SLAM",
+      "rep": 1,
+      "sequence": "06",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 93.20497824499762,
+      "resource": {
+        "complete": true,
+        "wall_s": 88.81103850599902,
+        "rss_bytes": 5977575424,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.3275115391179888,
+      "rer": 0.07123892064181582,
+      "ate": 0.33285414832418164,
+      "loops": 12,
+      "frames": 1101,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r01-06-RAP-SLAM/optimized_poses.txt",
+      "sha256": "d8988ae644ddc4bc674d6b1a6e262cb571c82872d6717c0ad2fae2f4d829b356",
+      "segment_count": 570,
+      "independent_ate_delta": 7.216449660063518e-16,
+      "independent_segment_delta": 9.532233502692038e-15
+    },
+    {
+      "name": "r01-06-KISS-SLAM",
+      "rep": 1,
+      "sequence": "06",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 44.842611410000245,
+      "resource": {
+        "complete": true,
+        "wall_s": 44.67703903300571,
+        "rss_bytes": 1082413056,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.325492461048942,
+      "rer": 0.07186557457489601,
+      "ate": 0.32834103730668196,
+      "loops": null,
+      "frames": 1101,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r01-06-KISS-SLAM/slam_output/2026-10-11_10-00-30/06_poses_kitti.txt",
+      "sha256": "5b56b9e419d29304a21989dcd257ce9431b81d90ae65b68dc99aa9cc2fd08d97",
+      "segment_count": 570,
+      "independent_ate_delta": 3.608224830031759e-15,
+      "independent_segment_delta": 8.085747715369344e-15
+    },
+    {
+      "name": "r01-07-RAP-SLAM",
+      "rep": 1,
+      "sequence": "07",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 78.11985816500237,
+      "resource": {
+        "complete": true,
+        "wall_s": 74.08380355400004,
+        "rss_bytes": 5881241600,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.3946732934450241,
+      "rer": 0.15153919295505927,
+      "ate": 0.32640040655629005,
+      "loops": 12,
+      "frames": 1101,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r01-07-RAP-SLAM/optimized_poses.txt",
+      "sha256": "21df4051952e540147e1d8ace6714576fbd0c33097e73ce9d1dd6f1cf1df3960",
+      "segment_count": 317,
+      "independent_ate_delta": 5.312417172831374e-14,
+      "independent_segment_delta": 4.717831214671314e-15
+    },
+    {
+      "name": "r01-07-KISS-SLAM",
+      "rep": 1,
+      "sequence": "07",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 36.0373819959932,
+      "resource": {
+        "complete": true,
+        "wall_s": 35.860996597999474,
+        "rss_bytes": 1070546944,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.3865634056233595,
+      "rer": 0.1612954702844793,
+      "ate": 0.3153713453981994,
+      "loops": null,
+      "frames": 1101,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r01-07-KISS-SLAM/slam_output/2026-10-11_10-02-29/07_poses_kitti.txt",
+      "sha256": "e359f92bd6dea1351485ba9ad3c98ca3bee0e111d396672e6e9c67cffc6e225c",
+      "segment_count": 317,
+      "independent_ate_delta": 1.5709655798445965e-14,
+      "independent_segment_delta": 1.0915019871282367e-14
+    },
+    {
+      "name": "r01-09-RAP-SLAM",
+      "rep": 1,
+      "sequence": "09",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 115.90508500300348,
+      "resource": {
+        "complete": true,
+        "wall_s": 111.30531968500145,
+        "rss_bytes": 8122179584,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.5936521193637122,
+      "rer": 0.10693808813798496,
+      "ate": 1.074523248323893,
+      "loops": 10,
+      "frames": 1591,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r01-09-RAP-SLAM/optimized_poses.txt",
+      "sha256": "f448a66d055263e53ef16b3d9bbf9d17e8bb6701e6763cafad1108ec0d2ae7be",
+      "segment_count": 958,
+      "independent_ate_delta": 4.551914400963142e-14,
+      "independent_segment_delta": 6.708870672135535e-15
+    },
+    {
+      "name": "r01-09-KISS-SLAM",
+      "rep": 1,
+      "sequence": "09",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 58.28735596099432,
+      "resource": {
+        "complete": true,
+        "wall_s": 58.12715048099926,
+        "rss_bytes": 1106391040,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.5420627017902834,
+      "rer": 0.1338718403037681,
+      "ate": 1.2591105997237309,
+      "loops": null,
+      "frames": 1591,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r01-09-KISS-SLAM/slam_output/2026-10-11_10-05-27/09_poses_kitti.txt",
+      "sha256": "200b591960ba693b3f1bec5cb0270c6373dafbdafe43901d125aa58f6377b641",
+      "segment_count": 958,
+      "independent_ate_delta": 4.440892098500626e-16,
+      "independent_segment_delta": 3.4821092474821187e-15
+    },
+    {
+      "name": "r01-10-RAP-SLAM",
+      "rep": 1,
+      "sequence": "10",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 83.05188424900552,
+      "resource": {
+        "complete": true,
+        "wall_s": 77.92097886199917,
+        "rss_bytes": 6629273600,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.5285199058506712,
+      "rer": 0.20463188019853923,
+      "ate": 0.763515805340429,
+      "loops": 0,
+      "frames": 1201,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r01-10-RAP-SLAM/optimized_poses.txt",
+      "sha256": "2a47d1507a61ed3a622861b97d78de0b4583da7527aa3a2fc938ff7f9768eb16",
+      "segment_count": 464,
+      "independent_ate_delta": 7.882583474838611e-15,
+      "independent_segment_delta": 1.8198977210209105e-15
+    },
+    {
+      "name": "r01-10-KISS-SLAM",
+      "rep": 1,
+      "sequence": "10",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 39.04324879300111,
+      "resource": {
+        "complete": true,
+        "wall_s": 38.89197613099532,
+        "rss_bytes": 975745024,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.5250426712520769,
+      "rer": 0.19145189993323644,
+      "ate": 0.7177609328531029,
+      "loops": null,
+      "frames": 1201,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r01-10-KISS-SLAM/slam_output/2026-10-11_10-07-35/10_poses_kitti.txt",
+      "sha256": "47ed3fb1e60f0cc8c76ac8baf2fc7be6f7bb1c9584c90134e522f68b209a91c2",
+      "segment_count": 464,
+      "independent_ate_delta": 2.6756374893466273e-14,
+      "independent_segment_delta": 2.0062076999671774e-15
+    },
+    {
+      "name": "r02-00-RAP-SLAM",
+      "rep": 2,
+      "sequence": "00",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 256.86060370599444,
+      "resource": {
+        "complete": true,
+        "wall_s": 250.32313948999945,
+        "rss_bytes": 15037984768,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.5181706832247082,
+      "rer": 0.17831248442739894,
+      "ate": 2.75443697048132,
+      "loops": 12,
+      "frames": 4541,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r02-00-RAP-SLAM/optimized_poses.txt",
+      "sha256": "8e352e94cac9c8d2a4f7829f67962a31251ffab57676e2c6f1a60c13d54c0e7f",
+      "segment_count": 3283,
+      "independent_ate_delta": 2.0872192862952943e-14,
+      "independent_segment_delta": 3.475582011590577e-15
+    },
+    {
+      "name": "r02-00-KISS-SLAM",
+      "rep": 2,
+      "sequence": "00",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 184.42227984400233,
+      "resource": {
+        "complete": true,
+        "wall_s": 184.25171424700238,
+        "rss_bytes": 1105600512,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.5752715540556242,
+      "rer": 0.1564188850248797,
+      "ate": 0.9165140777068969,
+      "loops": null,
+      "frames": 4541,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r02-00-KISS-SLAM/slam_output/2026-10-11_10-14-58/00_poses_kitti.txt",
+      "sha256": "9e32d96a395203e46965fdc30f2e80e8925193e48647b84a9a62f7852baf75ca",
+      "segment_count": 3283,
+      "independent_ate_delta": 6.217248937900877e-15,
+      "independent_segment_delta": 4.614898076855077e-15
+    },
+    {
+      "name": "r02-05-RAP-SLAM",
+      "rep": 2,
+      "sequence": "05",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 177.32320196399814,
+      "resource": {
+        "complete": true,
+        "wall_s": 172.8836674359991,
+        "rss_bytes": 10486210560,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.32047302425614316,
+      "rer": 0.12095074219470375,
+      "ate": 1.2946993617110203,
+      "loops": 12,
+      "frames": 2761,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r02-05-RAP-SLAM/optimized_poses.txt",
+      "sha256": "b44f1131029f92a4dd34742cfa27861a3864fd5695738d5ed89dc8644bc15db6",
+      "segment_count": 1806,
+      "independent_ate_delta": 5.306866057708248e-14,
+      "independent_segment_delta": 6.511455667734291e-15
+    },
+    {
+      "name": "r02-05-KISS-SLAM",
+      "rep": 2,
+      "sequence": "05",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 89.85270612000022,
+      "resource": {
+        "complete": true,
+        "wall_s": 89.67019257299398,
+        "rss_bytes": 1092063232,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.5172535202771354,
+      "rer": 0.21329760553142127,
+      "ate": 0.6610398703946315,
+      "loops": null,
+      "frames": 2761,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r02-05-KISS-SLAM/slam_output/2026-10-11_10-19-33/05_poses_kitti.txt",
+      "sha256": "c4dcc95e62c64e259a509274cbbe10a8daec82f0e115012127fd7146e4c9bf01",
+      "segment_count": 1806,
+      "independent_ate_delta": 3.6637359812630166e-15,
+      "independent_segment_delta": 4.722679631261398e-15
+    },
+    {
+      "name": "r02-06-RAP-SLAM",
+      "rep": 2,
+      "sequence": "06",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 92.96562500100117,
+      "resource": {
+        "complete": true,
+        "wall_s": 88.90135895199637,
+        "rss_bytes": 5982928896,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.3275115391167286,
+      "rer": 0.07123892064181582,
+      "ate": 0.33285414832417926,
+      "loops": 12,
+      "frames": 1101,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r02-06-RAP-SLAM/optimized_poses.txt",
+      "sha256": "a6ed9c4aba8d5500055e0ec44bdbc4c4f6b2052e6f4df49fc73d74ce73386d70",
+      "segment_count": 570,
+      "independent_ate_delta": 4.324318680914985e-14,
+      "independent_segment_delta": 9.532233502692038e-15
+    },
+    {
+      "name": "r02-06-KISS-SLAM",
+      "rep": 2,
+      "sequence": "06",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 44.684914662000665,
+      "resource": {
+        "complete": true,
+        "wall_s": 44.527780194002844,
+        "rss_bytes": 1085419520,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.32549244830851426,
+      "rer": 0.07186558058961919,
+      "ate": 0.32834104505727674,
+      "loops": null,
+      "frames": 1101,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r02-06-KISS-SLAM/slam_output/2026-10-11_10-21-57/06_poses_kitti.txt",
+      "sha256": "b777b0c294524423dee56c9eeaed274cd1ea08210b1b40c75db2190aef843489",
+      "segment_count": 570,
+      "independent_ate_delta": 2.55351295663786e-15,
+      "independent_segment_delta": 7.346966849323565e-15
+    },
+    {
+      "name": "r02-07-RAP-SLAM",
+      "rep": 2,
+      "sequence": "07",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 82.04890747200261,
+      "resource": {
+        "complete": true,
+        "wall_s": 77.87585581500025,
+        "rss_bytes": 5930328064,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.3946732934450241,
+      "rer": 0.15153919295505927,
+      "ate": 0.3264004065562106,
+      "loops": 12,
+      "frames": 1101,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r02-07-RAP-SLAM/optimized_poses.txt",
+      "sha256": "dee6284c3856b0c9fa96260ed956d9cb54ba93492265d26b0938198329d41a04",
+      "segment_count": 317,
+      "independent_ate_delta": 2.7533531010703882e-14,
+      "independent_segment_delta": 4.717831214671314e-15
+    },
+    {
+      "name": "r02-07-KISS-SLAM",
+      "rep": 2,
+      "sequence": "07",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 35.09216435699636,
+      "resource": {
+        "complete": true,
+        "wall_s": 34.90896509199956,
+        "rss_bytes": 1070669824,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.38656340912738585,
+      "rer": 0.1612954704386461,
+      "ate": 0.31537135213087536,
+      "loops": null,
+      "frames": 1101,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r02-07-KISS-SLAM/slam_output/2026-10-11_10-24-01/07_poses_kitti.txt",
+      "sha256": "8423d0340f707b5fc86db70dba89a17e29ae1a743410ec9a266f1e3a7bd15218",
+      "segment_count": 317,
+      "independent_ate_delta": 2.9753977059954195e-14,
+      "independent_segment_delta": 2.183004736586126e-14
+    },
+    {
+      "name": "r02-09-RAP-SLAM",
+      "rep": 2,
+      "sequence": "09",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 121.80557173700072,
+      "resource": {
+        "complete": true,
+        "wall_s": 117.69109003400081,
+        "rss_bytes": 8075911168,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.5936521193643,
+      "rer": 0.10693808813798496,
+      "ate": 1.0745232483241771,
+      "loops": 10,
+      "frames": 1591,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r02-09-RAP-SLAM/optimized_poses.txt",
+      "sha256": "cd966a502b063e8fa4e1965e6789f96543abdc17cce58fd9707ce507defbee9f",
+      "segment_count": 958,
+      "independent_ate_delta": 6.328271240363392e-14,
+      "independent_segment_delta": 6.708870672135535e-15
+    },
+    {
+      "name": "r02-09-KISS-SLAM",
+      "rep": 2,
+      "sequence": "09",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 57.79366383199522,
+      "resource": {
+        "complete": true,
+        "wall_s": 57.62908273500216,
+        "rss_bytes": 1106231296,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.5420627017902582,
+      "rer": 0.1338718403036775,
+      "ate": 1.2591105997237162,
+      "loops": null,
+      "frames": 1591,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r02-09-KISS-SLAM/slam_output/2026-10-11_10-27-06/09_poses_kitti.txt",
+      "sha256": "921ce2f69c188e3687da0c69022250e2c48fc4624ace63e858036dd37e60123c",
+      "segment_count": 958,
+      "independent_ate_delta": 2.886579864025407e-15,
+      "independent_segment_delta": 2.563901815735934e-15
+    },
+    {
+      "name": "r02-10-RAP-SLAM",
+      "rep": 2,
+      "sequence": "10",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 85.65653334799572,
+      "resource": {
+        "complete": true,
+        "wall_s": 81.10842940300063,
+        "rss_bytes": 6643220480,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.5285199058507378,
+      "rer": 0.20463188019853923,
+      "ate": 0.7635158053405177,
+      "loops": 0,
+      "frames": 1201,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r02-10-RAP-SLAM/optimized_poses.txt",
+      "sha256": "821021a66fd0416f37b195561e3e2b96c8ae103fb8a23fb3bf6e9df5d7115363",
+      "segment_count": 464,
+      "independent_ate_delta": 3.6637359812630166e-15,
+      "independent_segment_delta": 1.8198977210209105e-15
+    },
+    {
+      "name": "r02-10-KISS-SLAM",
+      "rep": 2,
+      "sequence": "10",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 39.094463052999345,
+      "resource": {
+        "complete": true,
+        "wall_s": 38.90120214600029,
+        "rss_bytes": 976396288,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.5250426712522435,
+      "rer": 0.19145189993288975,
+      "ate": 0.7177609328532087,
+      "loops": null,
+      "frames": 1201,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r02-10-KISS-SLAM/slam_output/2026-10-11_10-29-19/10_poses_kitti.txt",
+      "sha256": "2371079ea992e37de51ca27021714692896fb86c8516903c01726cd033e22233",
+      "segment_count": 464,
+      "independent_ate_delta": 1.554312234475219e-14,
+      "independent_segment_delta": 5.885703725203072e-15
+    },
+    {
+      "name": "r03-00-RAP-SLAM",
+      "rep": 3,
+      "sequence": "00",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 249.46307359699858,
+      "resource": {
+        "complete": true,
+        "wall_s": 241.32162359300128,
+        "rss_bytes": 15297425408,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.5181706832150449,
+      "rer": 0.1783124867016736,
+      "ate": 2.75443697045,
+      "loops": 12,
+      "frames": 4541,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r03-00-RAP-SLAM/optimized_poses.txt",
+      "sha256": "374671c32d178770e464a004a683d2dff44f1de381fdf8f6cdea22825560ec4a",
+      "segment_count": 3283,
+      "independent_ate_delta": 3.5083047578154947e-14,
+      "independent_segment_delta": 4.526206951013974e-15
+    },
+    {
+      "name": "r03-00-KISS-SLAM",
+      "rep": 3,
+      "sequence": "00",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 160.26348023100581,
+      "resource": {
+        "complete": true,
+        "wall_s": 160.04949786700308,
+        "rss_bytes": 1101631488,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.5752716942595482,
+      "rer": 0.15641888760618794,
+      "ate": 0.9165149927649958,
+      "loops": null,
+      "frames": 4541,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r03-00-KISS-SLAM/slam_output/2026-10-11_10-36-12/00_poses_kitti.txt",
+      "sha256": "ba9e3078d6a6d138dbd42bb1fc7632ba436e643abc629a768458db9708691b3c",
+      "segment_count": 3283,
+      "independent_ate_delta": 1.8984813721090177e-14,
+      "independent_segment_delta": 4.131284615620234e-15
+    },
+    {
+      "name": "r03-05-RAP-SLAM",
+      "rep": 3,
+      "sequence": "05",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 163.47010339799454,
+      "resource": {
+        "complete": true,
+        "wall_s": 158.9837101939993,
+        "rss_bytes": 10481020928,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.3204730242711139,
+      "rer": 0.12095074169149644,
+      "ate": 1.2946993616965634,
+      "loops": 12,
+      "frames": 2761,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r03-05-RAP-SLAM/optimized_poses.txt",
+      "sha256": "4b5192c56ed22d6cf91c6f0ace2f4fc2a06c871b5ccdf975b6b39adbdf3055a0",
+      "segment_count": 1806,
+      "independent_ate_delta": 2.398081733190338e-14,
+      "independent_segment_delta": 6.511455667734291e-15
+    },
+    {
+      "name": "r03-05-KISS-SLAM",
+      "rep": 3,
+      "sequence": "05",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 91.35023330400145,
+      "resource": {
+        "complete": true,
+        "wall_s": 91.16929805700056,
+        "rss_bytes": 1092513792,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.5172449738617486,
+      "rer": 0.2132935192479588,
+      "ate": 0.6610260758838203,
+      "loops": null,
+      "frames": 2761,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r03-05-KISS-SLAM/slam_output/2026-10-11_10-40-42/05_poses_kitti.txt",
+      "sha256": "5feb81ccfe1eccc3d39021d8b9d05b465af8e6610a910ee33cfbdaf937cc0e63",
+      "segment_count": 1806,
+      "independent_ate_delta": 4.141131881851834e-14,
+      "independent_segment_delta": 5.4139771008335225e-15
+    },
+    {
+      "name": "r03-06-RAP-SLAM",
+      "rep": 3,
+      "sequence": "06",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 91.456010367001,
+      "resource": {
+        "complete": true,
+        "wall_s": 86.91816789299628,
+        "rss_bytes": 5983854592,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.3275115391149891,
+      "rer": 0.07123892064181582,
+      "ate": 0.33285414832414456,
+      "loops": 12,
+      "frames": 1101,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r03-06-RAP-SLAM/optimized_poses.txt",
+      "sha256": "fdaaaf0fa1e098945680f0f68165d067982863095379cd4d9ada3ce7541db861",
+      "segment_count": 570,
+      "independent_ate_delta": 1.432187701766452e-14,
+      "independent_segment_delta": 9.532233502692038e-15
+    },
+    {
+      "name": "r03-06-KISS-SLAM",
+      "rep": 3,
+      "sequence": "06",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 44.24075914800051,
+      "resource": {
+        "complete": true,
+        "wall_s": 44.065732827999454,
+        "rss_bytes": 1071779840,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.32549232699909736,
+      "rer": 0.07186559270451619,
+      "ate": 0.32834113545615556,
+      "loops": null,
+      "frames": 1101,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r03-06-KISS-SLAM/slam_output/2026-10-11_10-43-09/06_poses_kitti.txt",
+      "sha256": "8126c8fecf94dcb941d8ea7386f1d57cfa7108b20bbb2d4a6a3a8758d1520a87",
+      "segment_count": 570,
+      "independent_ate_delta": 2.9531932455029164e-14,
+      "independent_segment_delta": 7.347106186243388e-15
+    },
+    {
+      "name": "r03-07-RAP-SLAM",
+      "rep": 3,
+      "sequence": "07",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 82.5530214199971,
+      "resource": {
+        "complete": true,
+        "wall_s": 76.92452331299864,
+        "rss_bytes": 5882548224,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.3946732934450241,
+      "rer": 0.15153919295505927,
+      "ate": 0.32640040655629005,
+      "loops": 12,
+      "frames": 1101,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r03-07-RAP-SLAM/optimized_poses.txt",
+      "sha256": "21df4051952e540147e1d8ace6714576fbd0c33097e73ce9d1dd6f1cf1df3960",
+      "segment_count": 317,
+      "independent_ate_delta": 5.312417172831374e-14,
+      "independent_segment_delta": 4.717831214671314e-15
+    },
+    {
+      "name": "r03-07-KISS-SLAM",
+      "rep": 3,
+      "sequence": "07",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 36.97231841900066,
+      "resource": {
+        "complete": true,
+        "wall_s": 36.76016931299819,
+        "rss_bytes": 1070563328,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.3865634190614883,
+      "rer": 0.1612954776084929,
+      "ate": 0.31537136833639734,
+      "loops": null,
+      "frames": 1101,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r03-07-KISS-SLAM/slam_output/2026-10-11_10-45-19/07_poses_kitti.txt",
+      "sha256": "5dc9269c424423f8fa4e907bdb6fbe23a069c36a476d14f8353758a983275c4d",
+      "segment_count": 317,
+      "independent_ate_delta": 5.295763827461997e-14,
+      "independent_segment_delta": 2.279931479070088e-15
+    },
+    {
+      "name": "r03-09-RAP-SLAM",
+      "rep": 3,
+      "sequence": "09",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 117.51773676899757,
+      "resource": {
+        "complete": true,
+        "wall_s": 112.63302664100047,
+        "rss_bytes": 8084713472,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.5936521193632356,
+      "rer": 0.1069380881362782,
+      "ate": 1.074523248324624,
+      "loops": 10,
+      "frames": 1591,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r03-09-RAP-SLAM/optimized_poses.txt",
+      "sha256": "48a02f32a3cf9ddbace475c2710838503c61841a810fdd2ed18801c55b832ff1",
+      "segment_count": 958,
+      "independent_ate_delta": 5.906386491005833e-14,
+      "independent_segment_delta": 6.708870672135535e-15
+    },
+    {
+      "name": "r03-09-KISS-SLAM",
+      "rep": 3,
+      "sequence": "09",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 57.221252455994545,
+      "resource": {
+        "complete": true,
+        "wall_s": 57.05976412399468,
+        "rss_bytes": 1106493440,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.5420627017902413,
+      "rer": 0.13387184030415128,
+      "ate": 1.2591105997236276,
+      "loops": null,
+      "frames": 1591,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r03-09-KISS-SLAM/slam_output/2026-10-11_10-48-27/09_poses_kitti.txt",
+      "sha256": "1db3fa12c511f62a3979dfaa0ef211cbdd7bd226e60683306cd7166ffff7dd2d",
+      "segment_count": 958,
+      "independent_ate_delta": 4.618527782440651e-14,
+      "independent_segment_delta": 3.89335644886829e-15
+    },
+    {
+      "name": "r03-10-RAP-SLAM",
+      "rep": 3,
+      "sequence": "10",
+      "model": "RAP-SLAM",
+      "exit": 0,
+      "wall_s": 79.10782583599939,
+      "resource": {
+        "complete": true,
+        "wall_s": 73.81466605600144,
+        "rss_bytes": 6664577024,
+        "gpu_allocated_bytes": 4785265152,
+        "gpu_reserved_bytes": 9661579264
+      },
+      "ter": 0.5285199058503403,
+      "rer": 0.20463188019853923,
+      "ate": 0.7635158053404522,
+      "loops": 0,
+      "frames": 1201,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r03-10-RAP-SLAM/optimized_poses.txt",
+      "sha256": "9398ef4ba281b125c6a67f9a04446a1a5a3353a5b9dda971a90ea16b143d034d",
+      "segment_count": 464,
+      "independent_ate_delta": 7.549516567451064e-15,
+      "independent_segment_delta": 1.8198977210209105e-15
+    },
+    {
+      "name": "r03-10-KISS-SLAM",
+      "rep": 3,
+      "sequence": "10",
+      "model": "KISS-SLAM",
+      "exit": 0,
+      "wall_s": 39.223865779000334,
+      "resource": {
+        "complete": true,
+        "wall_s": 39.01884376799717,
+        "rss_bytes": 976072704,
+        "gpu_allocated_bytes": 0,
+        "gpu_reserved_bytes": 0
+      },
+      "ter": 0.5250426712522493,
+      "rer": 0.19145189993296255,
+      "ate": 0.7177609328531908,
+      "loops": null,
+      "frames": 1201,
+      "source": "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/r03-10-KISS-SLAM/slam_output/2026-10-11_10-50-37/10_poses_kitti.txt",
+      "sha256": "a48fc50e950758e096de42e4621459d0580ef2376160fe4e63c82a2ec1e737ac",
+      "segment_count": 464,
+      "independent_ate_delta": 1.6986412276764895e-14,
+      "independent_segment_delta": 5.885703301686598e-15
+    }
+  ],
+  "statistics": {
+    "RAP-SLAM": {
+      "00": {
+        "ter": {
+          "values": [
+            0.5181706832178032,
+            0.5181706832247082,
+            0.5181706832150449
+          ],
+          "mean": 0.5181706832191854,
+          "std": 4.064278200155872e-12,
+          "min": 0.5181706832150449
+        },
+        "rer": {
+          "values": [
+            0.17831248591466348,
+            0.17831248442739894,
+            0.1783124867016736
+          ],
+          "mean": 0.17831248568124533,
+          "std": 9.43025034774794e-10,
+          "min": 0.17831248442739894
+        },
+        "ate": {
+          "values": [
+            2.754436970368334,
+            2.75443697048132,
+            2.75443697045
+          ],
+          "mean": 2.754436970433218,
+          "std": 4.762837155070805e-11,
+          "min": 2.754436970368334
+        }
+      },
+      "05": {
+        "ter": {
+          "values": [
+            0.32047302425306945,
+            0.32047302425614316,
+            0.3204730242711139
+          ],
+          "mean": 0.3204730242601089,
+          "std": 7.882281762178587e-12,
+          "min": 0.32047302425306945
+        },
+        "rer": {
+          "values": [
+            0.1209507427362505,
+            0.12095074219470375,
+            0.12095074169149644
+          ],
+          "mean": 0.12095074220748357,
+          "std": 4.2661477920541054e-10,
+          "min": 0.12095074169149644
+        },
+        "ate": {
+          "values": [
+            1.2946993617302067,
+            1.2946993617110203,
+            1.2946993616965634
+          ],
+          "mean": 1.2946993617125968,
+          "std": 1.3779988791938945e-11,
+          "min": 1.2946993616965634
+        }
+      },
+      "06": {
+        "ter": {
+          "values": [
+            0.3275115391179888,
+            0.3275115391167286,
+            0.3275115391149891
+          ],
+          "mean": 0.32751153911656883,
+          "std": 1.2298265762111603e-12,
+          "min": 0.3275115391149891
+        },
+        "rer": {
+          "values": [
+            0.07123892064181582,
+            0.07123892064181582,
+            0.07123892064181582
+          ],
+          "mean": 0.07123892064181582,
+          "std": 0.0,
+          "min": 0.07123892064181582
+        },
+        "ate": {
+          "values": [
+            0.33285414832418164,
+            0.33285414832417926,
+            0.33285414832414456
+          ],
+          "mean": 0.3328541483241685,
+          "std": 1.694578855578478e-14,
+          "min": 0.33285414832414456
+        }
+      },
+      "07": {
+        "ter": {
+          "values": [
+            0.3946732934450241,
+            0.3946732934450241,
+            0.3946732934450241
+          ],
+          "mean": 0.3946732934450241,
+          "std": 0.0,
+          "min": 0.3946732934450241
+        },
+        "rer": {
+          "values": [
+            0.15153919295505927,
+            0.15153919295505927,
+            0.15153919295505927
+          ],
+          "mean": 0.15153919295505927,
+          "std": 0.0,
+          "min": 0.15153919295505927
+        },
+        "ate": {
+          "values": [
+            0.32640040655629005,
+            0.3264004065562106,
+            0.32640040655629005
+          ],
+          "mean": 0.32640040655626357,
+          "std": 3.7446705139608035e-14,
+          "min": 0.3264004065562106
+        }
+      },
+      "09": {
+        "ter": {
+          "values": [
+            0.5936521193637122,
+            0.5936521193643,
+            0.5936521193632356
+          ],
+          "mean": 0.5936521193637493,
+          "std": 4.3531638097074424e-13,
+          "min": 0.5936521193632356
+        },
+        "rer": {
+          "values": [
+            0.10693808813798496,
+            0.10693808813798496,
+            0.1069380881362782
+          ],
+          "mean": 0.10693808813741605,
+          "std": 8.045742544164533e-13,
+          "min": 0.1069380881362782
+        },
+        "ate": {
+          "values": [
+            1.074523248323893,
+            1.0745232483241771,
+            1.074523248324624
+          ],
+          "mean": 1.0745232483242313,
+          "std": 3.00963230723496e-13,
+          "min": 1.074523248323893
+        }
+      },
+      "10": {
+        "ter": {
+          "values": [
+            0.5285199058506712,
+            0.5285199058507378,
+            0.5285199058503403
+          ],
+          "mean": 0.5285199058505831,
+          "std": 1.7385588018896943e-13,
+          "min": 0.5285199058503403
+        },
+        "rer": {
+          "values": [
+            0.20463188019853923,
+            0.20463188019853923,
+            0.20463188019853923
+          ],
+          "mean": 0.20463188019853926,
+          "std": 2.7755575615628914e-17,
+          "min": 0.20463188019853923
+        },
+        "ate": {
+          "values": [
+            0.763515805340429,
+            0.7635158053405177,
+            0.7635158053404522
+          ],
+          "mean": 0.7635158053404663,
+          "std": 3.756176175698999e-14,
+          "min": 0.763515805340429
+        }
+      }
+    },
+    "KISS-SLAM": {
+      "00": {
+        "ter": {
+          "values": [
+            0.5752722805246745,
+            0.5752715540556242,
+            0.5752716942595482
+          ],
+          "mean": 0.5752718429466156,
+          "std": 3.146640571232837e-07,
+          "min": 0.5752715540556242
+        },
+        "rer": {
+          "values": [
+            0.15641900633994224,
+            0.1564188850248797,
+            0.15641888760618794
+          ],
+          "mean": 0.15641892632366997,
+          "std": 5.6589861640508876e-08,
+          "min": 0.1564188850248797
+        },
+        "ate": {
+          "values": [
+            0.9165107333425176,
+            0.9165140777068969,
+            0.9165149927649958
+          ],
+          "mean": 0.9165132679381367,
+          "std": 1.830749217395241e-06,
+          "min": 0.9165107333425176
+        }
+      },
+      "05": {
+        "ter": {
+          "values": [
+            0.5172529484238784,
+            0.5172535202771354,
+            0.5172449738617486
+          ],
+          "mean": 0.5172504808542542,
+          "std": 3.90102370144679e-06,
+          "min": 0.5172449738617486
+        },
+        "rer": {
+          "values": [
+            0.21329732823745026,
+            0.21329760553142127,
+            0.2132935192479588
+          ],
+          "mean": 0.21329615100561009,
+          "std": 1.864373753300551e-06,
+          "min": 0.2132935192479588
+        },
+        "ate": {
+          "values": [
+            0.6610388612100104,
+            0.6610398703946315,
+            0.6610260758838203
+          ],
+          "mean": 0.6610349358294875,
+          "std": 6.278460072221226e-06,
+          "min": 0.6610260758838203
+        }
+      },
+      "06": {
+        "ter": {
+          "values": [
+            0.325492461048942,
+            0.32549244830851426,
+            0.32549232699909736
+          ],
+          "mean": 0.3254924121188512,
+          "std": 6.041307250729302e-08,
+          "min": 0.32549232699909736
+        },
+        "rer": {
+          "values": [
+            0.07186557457489601,
+            0.07186558058961919,
+            0.07186559270451619
+          ],
+          "mean": 0.07186558262301046,
+          "std": 7.539752074883791e-09,
+          "min": 0.07186557457489601
+        },
+        "ate": {
+          "values": [
+            0.32834103730668196,
+            0.32834104505727674,
+            0.32834113545615556
+          ],
+          "mean": 0.3283410726067048,
+          "std": 4.4553772980695484e-08,
+          "min": 0.32834103730668196
+        }
+      },
+      "07": {
+        "ter": {
+          "values": [
+            0.3865634056233595,
+            0.38656340912738585,
+            0.3865634190614883
+          ],
+          "mean": 0.3865634112707445,
+          "std": 5.691591231630268e-09,
+          "min": 0.3865634056233595
+        },
+        "rer": {
+          "values": [
+            0.1612954702844793,
+            0.1612954704386461,
+            0.1612954776084929
+          ],
+          "mean": 0.1612954727772061,
+          "std": 3.4168153723132656e-09,
+          "min": 0.1612954702844793
+        },
+        "ate": {
+          "values": [
+            0.3153713453981994,
+            0.31537135213087536,
+            0.31537136833639734
+          ],
+          "mean": 0.3153713552884907,
+          "std": 9.62698056784041e-09,
+          "min": 0.3153713453981994
+        }
+      },
+      "09": {
+        "ter": {
+          "values": [
+            0.5420627017902834,
+            0.5420627017902582,
+            0.5420627017902413
+          ],
+          "mean": 0.542062701790261,
+          "std": 1.7289800362447314e-14,
+          "min": 0.5420627017902413
+        },
+        "rer": {
+          "values": [
+            0.1338718403037681,
+            0.1338718403036775,
+            0.13387184030415128
+          ],
+          "mean": 0.13387184030386562,
+          "std": 2.0534606863204205e-13,
+          "min": 0.1338718403036775
+        },
+        "ate": {
+          "values": [
+            1.2591105997237309,
+            1.2591105997237162,
+            1.2591105997236276
+          ],
+          "mean": 1.2591105997236915,
+          "std": 4.5612739776374606e-14,
+          "min": 1.2591105997236276
+        }
+      },
+      "10": {
+        "ter": {
+          "values": [
+            0.5250426712520769,
+            0.5250426712522435,
+            0.5250426712522493
+          ],
+          "mean": 0.52504267125219,
+          "std": 7.99276535597098e-14,
+          "min": 0.5250426712520769
+        },
+        "rer": {
+          "values": [
+            0.19145189993323644,
+            0.19145189993288975,
+            0.19145189993296255
+          ],
+          "mean": 0.19145189993302958,
+          "std": 1.4926279864343416e-13,
+          "min": 0.19145189993288975
+        },
+        "ate": {
+          "values": [
+            0.7177609328531029,
+            0.7177609328532087,
+            0.7177609328531908
+          ],
+          "mean": 0.7177609328531674,
+          "std": 4.6224270402551894e-14,
+          "min": 0.7177609328531029
+        }
+      }
+    }
+  },
+  "cohorts": {
+    "RAP-SLAM": {
+      "00/05/06": {
+        "repetitions": [
+          {
+            "rep": 1,
+            "ter": 0.38871841552962055,
+            "rer": 0.12350071643090993,
+            "ate": 1.4606634934742406
+          },
+          {
+            "rep": 2,
+            "ter": 0.3887184155325267,
+            "rer": 0.1235007157546395,
+            "ate": 1.4606634935055063
+          },
+          {
+            "rep": 3,
+            "ter": 0.38871841553371594,
+            "rer": 0.12350071634499528,
+            "ate": 1.4606634934902358
+          }
+        ],
+        "best_single_rep": {
+          "rep": 1,
+          "ter": 0.38871841552962055,
+          "rer": 0.12350071643090993,
+          "ate": 1.4606634934742406
+        },
+        "summary": {
+          "ter": {
+            "mean": 0.38871841553195435,
+            "std": 1.7202106607154541e-12
+          },
+          "rer": {
+            "mean": 0.12350071617684823,
+            "std": 3.005999490786478e-10
+          },
+          "ate": {
+            "mean": 1.4606634934899942,
+            "std": 1.2765293964702215e-11
+          }
+        }
+      },
+      "07/09/10": {
+        "repetitions": [
+          {
+            "rep": 1,
+            "ter": 0.5056151062198025,
+            "rer": 0.15436972043052782,
+            "ate": 0.7214798200735372
+          },
+          {
+            "rep": 2,
+            "ter": 0.5056151062200206,
+            "rer": 0.15436972043052782,
+            "ate": 0.7214798200736352
+          },
+          {
+            "rep": 3,
+            "ter": 0.5056151062195333,
+            "rer": 0.15436972042995892,
+            "ate": 0.7214798200737887
+          }
+        ],
+        "best_single_rep": {
+          "rep": 3,
+          "ter": 0.5056151062195333,
+          "rer": 0.15436972042995892,
+          "ate": 0.7214798200737887
+        },
+        "summary": {
+          "ter": {
+            "mean": 0.5056151062197854,
+            "std": 1.9929540297875093e-13
+          },
+          "rer": {
+            "mean": 0.15436972043033817,
+            "std": 2.6818487668535355e-13
+          },
+          "ate": {
+            "mean": 0.7214798200736537,
+            "std": 1.0353576275410716e-13
+          }
+        }
+      },
+      "all6": {
+        "repetitions": [
+          {
+            "rep": 1,
+            "ter": 0.44716676087471147,
+            "rer": 0.13893521843071888,
+            "ate": 1.0910716567738892
+          },
+          {
+            "rep": 2,
+            "ter": 0.44716676087627366,
+            "rer": 0.13893521809258366,
+            "ate": 1.0910716567895709
+          },
+          {
+            "rep": 3,
+            "ter": 0.4471667608766246,
+            "rer": 0.1389352183874771,
+            "ate": 1.0910716567820125
+          }
+        ],
+        "best_single_rep": {
+          "rep": 1,
+          "ter": 0.44716676087471147,
+          "rer": 0.13893521843071888,
+          "ate": 1.0910716567738892
+        },
+        "summary": {
+          "ter": {
+            "mean": 0.4471667608758699,
+            "std": 8.315783627377137e-13
+          },
+          "rer": {
+            "mean": 0.13893521830359323,
+            "std": 1.5024698800366637e-10
+          },
+          "ate": {
+            "mean": 1.0910716567818242,
+            "std": 6.403402665497511e-12
+          }
+        }
+      }
+    },
+    "KISS-SLAM": {
+      "00/05/06": {
+        "repetitions": [
+          {
+            "rep": 1,
+            "ter": 0.47267256333249824,
+            "rer": 0.1471939697174295,
+            "ate": 0.6352968772864033
+          },
+          {
+            "rep": 2,
+            "ter": 0.4726725075470913,
+            "rer": 0.1471940237153067,
+            "ate": 0.6352983310529351
+          },
+          {
+            "rep": 3,
+            "ter": 0.47266966504013136,
+            "rer": 0.14719266651955432,
+            "ate": 0.6352940680349906
+          }
+        ],
+        "best_single_rep": {
+          "rep": 3,
+          "ter": 0.47266966504013136,
+          "rer": 0.14719266651955432,
+          "ate": 0.6352940680349906
+        },
+        "summary": {
+          "ter": {
+            "mean": 0.47267157863990694,
+            "std": 1.353311020865207e-06
+          },
+          "rer": {
+            "mean": 0.1471935533174302,
+            "std": 6.274481636822953e-07
+          },
+          "ate": {
+            "mean": 0.6352964254581096,
+            "std": 1.7694522889037167e-06
+          }
+        }
+      },
+      "07/09/10": {
+        "repetitions": [
+          {
+            "rep": 1,
+            "ter": 0.48455625955523995,
+            "rer": 0.16220640350716128,
+            "ate": 0.764080959325011
+          },
+          {
+            "rep": 2,
+            "ter": 0.48455626072329583,
+            "rer": 0.16220640355840446,
+            "ate": 0.7640809615692667
+          },
+          {
+            "rep": 3,
+            "ter": 0.4845562640346596,
+            "rer": 0.16220640594853555,
+            "ate": 0.764080966971072
+          }
+        ],
+        "best_single_rep": {
+          "rep": 1,
+          "ter": 0.48455625955523995,
+          "rer": 0.16220640350716128,
+          "ate": 0.764080959325011
+        },
+        "summary": {
+          "ter": {
+            "mean": 0.48455626143773184,
+            "std": 1.8972109725762924e-09
+          },
+          "rer": {
+            "mean": 0.16220640433803377,
+            "std": 1.1389888707100423e-09
+          },
+          "ate": {
+            "mean": 0.7640809626217832,
+            "std": 3.208987943956948e-09
+          }
+        }
+      },
+      "all6": {
+        "repetitions": [
+          {
+            "rep": 1,
+            "ter": 0.4786144114438691,
+            "rer": 0.15470018661229537,
+            "ate": 0.6996889183057071
+          },
+          {
+            "rep": 2,
+            "ter": 0.4786143841351935,
+            "rer": 0.15470021363685557,
+            "ate": 0.6996896463111009
+          },
+          {
+            "rep": 3,
+            "ter": 0.4786129645373955,
+            "rer": 0.15469953623404492,
+            "ate": 0.6996875175030312
+          }
+        ],
+        "best_single_rep": {
+          "rep": 3,
+          "ter": 0.4786129645373955,
+          "rer": 0.15469953623404492,
+          "ate": 0.6996875175030312
+        },
+        "summary": {
+          "ter": {
+            "mean": 0.47861392003881936,
+            "std": 6.757335121839638e-07
+          },
+          "rer": {
+            "mean": 0.15469997882773195,
+            "std": 3.131554039821686e-07
+          },
+          "ate": {
+            "mean": 0.6996886940399464,
+            "std": 8.834316793045605e-07
+          }
+        }
+      }
+    }
+  },
+  "evaluation_wall_s": 133.1280090559958,
+  "complete_runs": 36,
+  "independent_metrics_validated": true,
+  "scope": "fresh complete fixed-pipeline repeats; no tuning or new scientific method"
+}

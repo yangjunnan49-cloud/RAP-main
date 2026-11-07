@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-23T02:03:19.0835298+00:00",
+  "reason": "The backend bodies have a local from rectified_point_flow.procrustes import. Importing the package would execute unrelated utils initializers or depend on an implicit sys.path. Route this local import to the exact AST-bound fit function in an isolated process module namespace.",
+  "first_preflight_status": "PASS, standard-library compile/source checks only",
+  "numerical_cases_before_change": 0,
+  "fixture_math_budget_source_functions_unchanged": true,
+  "new_route": "run02",
+  "scope_origin_unchanged": "2026-10-23T01:57:06Z",
+  "cap_reset": false
+}

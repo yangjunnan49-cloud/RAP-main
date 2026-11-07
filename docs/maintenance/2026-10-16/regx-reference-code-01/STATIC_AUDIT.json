@@ -1,0 +1,51 @@
+{
+  "status": "VALIDATED_PINNED_VIEWER_AUGMENTATION_REFERENCE_DIRECTION_DOC_CONFLICT",
+  "file_SHA256": "8380f618823b3fe12a90b38ad13046f053b981665143a26423b5f96c9949f360",
+  "Git_blob_SHA1": "ae4e2057737ae377fbb8850959c2afb2f60aff1b",
+  "body_bytes": 39678,
+  "body_cap_margin": 25858,
+  "source_lines": 869,
+  "function_spans": {
+    "get": [
+      96,
+      110
+    ],
+    "_render": [
+      602,
+      735
+    ],
+    "predict_from_transforms": [
+      216,
+      242
+    ],
+    "edge_errors": [
+      245,
+      278
+    ],
+    "overlap_matrix": [
+      281,
+      287
+    ]
+  },
+  "exact_citations": {
+    "614": "world = [cache.get(scene_dir / f, budget) for f in files]",
+    "618": "T = np.asarray(t[\"transformation_matrix\"], dtype=np.float64)",
+    "619": "inputs.append((T[:3, :3] @ p.T).T + T[:3, 3])",
+    "235": "anchor = np.linalg.inv(P[0] @ T[0])",
+    "240": "M = anchor @ (Pi @ Ti)",
+    "255": "T = [np.linalg.inv(np.asarray(inp[\"transformation_matrix\"], dtype=np.float64))",
+    "264": "if max(M[i, j], M[j, i]) < threshold:",
+    "268": "gt_rel = np.linalg.inv(T[i]) @ T[j]",
+    "269": "pr_rel = np.linalg.inv(pred[i]) @ pred[j]",
+    "640": "scene_scale = float((np.vstack(world).max(0) - np.vstack(world).min(0)).max())"
+  },
+  "AST_only": true,
+  "downloaded_code_executed": false,
+  "point_or_pose_values_decoded": false,
+  "source_role": "PLY loaded as world; JSON T applied world->perturbed view; inverse T used as reference pose",
+  "README_conflict": "B1 pinned README151 describes input->world; viewer615-619 and255 use opposite direction",
+  "canonical_batch_runtime_identity": "NOT AUTHENTICATED BY VIEWER",
+  "physical_alignment_truth": "NOT INDEPENDENTLY AUTHENTICATED",
+  "efficacy_admission": false,
+  "dossier_bytes_before_report": 74565
+}

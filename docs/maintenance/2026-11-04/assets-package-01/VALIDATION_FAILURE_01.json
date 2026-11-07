@@ -1,0 +1,11 @@
+{
+  "action": "Initial A5 source inventory",
+  "exit_code": 1,
+  "failure": "Original A1 identity coverage assertion",
+  "cause": "The A1 HASHES file also contains reparse metadata rows; the first check compared those to regular-file identities only.",
+  "observed_missing_examples": "Existing latest LX_SYMLINK entries, already collected in the separate links list",
+  "correction": "Compare the original identity set against the union of regular files and separately retained link identities; continue never following links.",
+  "raw_data_or_experiment_assets_modified": false,
+  "packages_written": false,
+  "original_capture_script": "attempt01/capture_assets.py"
+}

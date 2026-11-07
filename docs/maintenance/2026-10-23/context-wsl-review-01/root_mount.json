@@ -1,0 +1,15 @@
+{
+  "arguments": [
+    "-d",
+    "Ubuntu-24.04",
+    "--exec",
+    "/usr/bin/findmnt",
+    "-no",
+    "SOURCE,FSTYPE,TARGET",
+    "/"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.1240974,
+  "stdout": "/dev/sdd ext4   /\n",
+  "stderr": "wsl: 检测到 localhost 代理配置，但未镜像到 WSL。NAT 模式下的 WSL 不支持 localhost 代理。\r\n"
+}

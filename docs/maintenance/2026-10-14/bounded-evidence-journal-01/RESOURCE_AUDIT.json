@@ -1,0 +1,99 @@
+{
+  "passed": true,
+  "receipts": [
+    {
+      "stage": "freeze",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 1.4663861430017278,
+        "peak_RSS_bytes": 18640896,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 41926,
+        "old_archive_or_model_or_fit_calls": 0
+      },
+      "Windows": {
+        "exit_code": 0,
+        "utc_end": "2026-10-14T14:23:30.3409179Z",
+        "wall_seconds": 3.9512094,
+        "host_memory_observations": 5,
+        "minimum_observed_headroom_bytes": 35376185344.0
+      },
+      "launch": {
+        "pid": 9856,
+        "utc_start": "2026-10-14T14:23:26.3897085Z",
+        "script": "scripts/maintenance/evidence_journal_control.py",
+        "stage": "freeze",
+        "headroom_before_bytes": 36914089984
+      }
+    },
+    {
+      "stage": "exercise",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 2.730303193005966,
+        "peak_RSS_bytes": 18685952,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 54755,
+        "old_archive_or_model_or_fit_calls": 0
+      },
+      "Windows": {
+        "exit_code": 0,
+        "utc_end": "2026-10-14T14:23:41.3787590Z",
+        "wall_seconds": 3.9577156,
+        "host_memory_observations": 5,
+        "minimum_observed_headroom_bytes": 35256008704.0
+      },
+      "launch": {
+        "pid": 67872,
+        "utc_start": "2026-10-14T14:23:37.4210434Z",
+        "script": "scripts/maintenance/evidence_journal_control.py",
+        "stage": "exercise",
+        "headroom_before_bytes": 35314917376
+      }
+    },
+    {
+      "stage": "validate",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 0.6506848870194517,
+        "peak_RSS_bytes": 17596416,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 60180,
+        "old_archive_or_model_or_fit_calls": 0
+      },
+      "Windows": {
+        "exit_code": 0,
+        "utc_end": "2026-10-14T14:23:52.1838817Z",
+        "wall_seconds": 1.5869226,
+        "host_memory_observations": 2,
+        "minimum_observed_headroom_bytes": 35266367488.0
+      },
+      "launch": {
+        "pid": 67176,
+        "utc_start": "2026-10-14T14:23:50.5969591Z",
+        "script": "scripts/maintenance/evidence_journal_control.py",
+        "stage": "validate",
+        "headroom_before_bytes": 35281645568
+      }
+    }
+  ],
+  "attempts": 3,
+  "successes": 3,
+  "Windows_seconds_including_startup_imports": 9.4958476,
+  "child_seconds_after_time_bootstrap": 4.8473742230271455,
+  "peak_RSS_bytes": 18685952,
+  "GPU_bytes": 0,
+  "logging_retries": 0,
+  "logging_gaps": 0,
+  "ordinary_preparation_RSS_unknown": true,
+  "stdlib_closure_separate": true
+}

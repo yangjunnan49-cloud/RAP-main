@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "real_dataset_GT_reads": 0,
+  "real_predictions_decoded": 0,
+  "metric_rows": [
+    {
+      "key": "exact",
+      "sequence": "00",
+      "mode": "G",
+      "scheduler": "S",
+      "repeat": 1,
+      "ate": 8.191342305606779e-14,
+      "ter": 0.0,
+      "rer": 0.0,
+      "segments": 448,
+      "frames": 1001,
+      "worker_seconds": 1.0,
+      "RSS_bytes": 1024,
+      "fine_seconds": 0.0,
+      "closures": 0,
+      "local_maps": 1,
+      "frame_service_time": {
+        "median": 0.001,
+        "p95": 0.001,
+        "p99": 0.001,
+        "maximum": 0.001,
+        "over100ms": 0
+      },
+      "frontend_reference_max": 0.0
+    },
+    {
+      "key": "scaled",
+      "sequence": "00",
+      "mode": "G",
+      "scheduler": "S",
+      "repeat": 1,
+      "ate": 0.28896319401829995,
+      "ter": 0.09990657419216625,
+      "rer": 0.0,
+      "segments": 448,
+      "frames": 1001,
+      "worker_seconds": 1.0,
+      "RSS_bytes": 1024,
+      "fine_seconds": 0.0,
+      "closures": 0,
+      "local_maps": 1,
+      "frame_service_time": {
+        "median": 0.001,
+        "p95": 0.001,
+        "p99": 0.001,
+        "maximum": 0.001,
+        "over100ms": 0
+      },
+      "frontend_reference_max": 0.0
+    }
+  ],
+  "independent_segments": 896,
+  "maximum_metric_delta": 8.191342305606779e-14,
+  "corrupt_seal_rejected": true,
+  "fixture_count_admission_stub": 72,
+  "actual_fixture_cells": 2
+}

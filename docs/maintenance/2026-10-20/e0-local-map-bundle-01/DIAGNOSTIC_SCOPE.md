@@ -1,0 +1,11 @@
+# Post-outcome finite fine-graph contract diagnosis
+
+LMB0's complete original conjunction failed, despite large00/05 ATE reductions. Preserve that negative and its original gates. ALL_SIX_EXTENSION_PLAN is not admitted. No real-data optimizer, new retrieval, loop, weight or candidate is authorized by this diagnostic.
+
+One finite stage compares the already sealed before_fine/M arrays to E0/B using unchanged metrics. These are post-hoc explanatory outcomes, not a promoted method arm. Then execute one known synthetic three-map native fine_grained_optimization call. Source code fixes vertex id_-1 at each interval; the documented task describes fixing coarse keyposes. Use explicit raw-frame memberships with anchors0/3/6, unit relative translations and coarse positions0/3.3/6.0. Test preservation of those anchor positions under the unchanged native implementation. Record the output and deviations; no favourable fixture substitution or threshold tuning. This tests an explicit interface contract, not reference correctness or the scientific cause of00 drift.
+
+Reconstruct actual coarse anchor poses from each first directly integrated scan and the exact cached E0 relative transform. Check that reconstruction against every frame in the map body, rather than matching graph nodes to GT or rounded g2o values. Measure native fine-output displacement at those recovered anchors. This identifies an implementation property independently of accuracy outcomes. Inherited voxel lineage remains conservative, not per-return exactness.
+
+Freeze the diagnostic source/scope and original bank/source identities before the stage. Use the same installed KISS runtime for the synthetic call and established independent Horn/segment equations for metrics. Count this stage, including its nested process, within the unchanged LMB0 cumulative1800s/4GiB/128MiB/GPU0 scope; no cap reset. Full host launch guard remains12GiB.
+
+A source-contract violation could justify a separately frozen engineering correction after this diagnosis; it cannot repair the original result retroactively. No corrected real trajectory or all-six payload is executed by this stage. A lower residual, partial ATE gain or documented prior art alone does not establish RAP increment.

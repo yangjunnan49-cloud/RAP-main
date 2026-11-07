@@ -1,0 +1,37 @@
+{
+  "accounts_overlap_not_sum": true,
+  "scopes": [
+    {
+      "seconds": 1170.4299216,
+      "id": "LOCAL_CLEARANCE",
+      "cap_pass": true,
+      "cap_seconds": 1200,
+      "status": "LOCAL_TASK_SOURCE_CLEARANCE_COMPLETE"
+    },
+    {
+      "cap_pass": true,
+      "status": "COMPLETE_LIMITED_SOURCE_ROLE",
+      "id": "PPR1",
+      "body_bytes": 4777213,
+      "seconds": 413.3386372,
+      "cap_seconds": 1200
+    },
+    {
+      "cap_pass": true,
+      "status": "CLOSED_FAILED_TLS_NO_BODY_NO_RETRY",
+      "id": "PSH1",
+      "body_bytes": 0,
+      "seconds": 256.0215605,
+      "cap_seconds": 900
+    },
+    {
+      "cap_pass": true,
+      "status": "CLOSED_FAILED_TCP_CONNECT_TIMEOUT_ZERO_BODY_NO_RETRY",
+      "id": "RCM1",
+      "body_bytes": 0,
+      "seconds": 376.5047239,
+      "cap_seconds": 1200
+    }
+  ],
+  "utc": "2026-10-26T02:46:01.6456948+00:00"
+}

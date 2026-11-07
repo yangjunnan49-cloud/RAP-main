@@ -1,0 +1,257 @@
+{
+  "utc": "2026-10-13T01:23:05.487025+00:00",
+  "passed": true,
+  "scientific_children": 8,
+  "combined_seconds": 116.71916701300142,
+  "peak_RSS_bytes": 3063087104,
+  "peak_GPU_allocated_bytes": 616103936,
+  "peak_GPU_reserved_bytes": 656408576,
+  "full_child_and_Windows_exits": true,
+  "imports_included_in_scientific_time": true,
+  "logging_retries": 0,
+  "logging_gaps": 0,
+  "receipts": [
+    {
+      "stage": "freeze",
+      "child": {
+        "utc": "2026-10-13T01:15:17.119409+00:00",
+        "success": false,
+        "error": "FileNotFoundError(2, 'No such file or directory')",
+        "full_resource_capture": true,
+        "wall_seconds": 1.436026484996546,
+        "peak_RSS_bytes": 23252992,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 16213,
+        "optimizer_calls": 0,
+        "imports_included_in_time": true
+      },
+      "host": {
+        "exit_code": 1,
+        "utc_end": "2026-10-13T01:15:16.9231805Z",
+        "wall_seconds": 3.9743159,
+        "host_memory_observations": 5,
+        "minimum_observed_headroom_bytes": 96428105728.0
+      },
+      "launch": {
+        "pid": 12008,
+        "utc_start": "2026-10-13T01:15:12.9488646Z",
+        "script": "scripts/maintenance/native_backward_reproducibility_attempt02.py",
+        "stage": "freeze",
+        "headroom_before_bytes": 97920946176
+      }
+    },
+    {
+      "stage": "freeze02",
+      "child": {
+        "utc": "2026-10-13T01:15:59.679406+00:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 7.010733577000792,
+        "peak_RSS_bytes": 23506944,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 182732,
+        "optimizer_calls": 0,
+        "imports_included_in_time": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:15:59.9587026Z",
+        "wall_seconds": 9.3951107,
+        "host_memory_observations": 12,
+        "minimum_observed_headroom_bytes": 96086343680.0
+      },
+      "launch": {
+        "pid": 34424,
+        "utc_start": "2026-10-13T01:15:50.5635919Z",
+        "script": "scripts/maintenance/native_backward_reproducibility_attempt02.py",
+        "stage": "freeze02",
+        "headroom_before_bytes": 97689419776
+      }
+    },
+    {
+      "stage": "mode",
+      "child": {
+        "utc": "2026-10-13T01:16:55.097856+00:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 11.221438303997274,
+        "peak_RSS_bytes": 1849860096,
+        "peak_GPU_allocated_bytes": 344709632,
+        "peak_GPU_reserved_bytes": 360710144,
+        "artifact_bytes": 216176,
+        "optimizer_calls": 0,
+        "imports_included_in_time": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:16:55.6421434Z",
+        "wall_seconds": 14.122832,
+        "host_memory_observations": 18,
+        "minimum_observed_headroom_bytes": 92520857600.0
+      },
+      "launch": {
+        "pid": 7432,
+        "utc_start": "2026-10-13T01:16:41.5193114Z",
+        "script": "scripts/maintenance/native_backward_reproducibility_attempt02.py",
+        "stage": "mode",
+        "headroom_before_bytes": 96405544960
+      }
+    },
+    {
+      "stage": "validate_mode",
+      "child": {
+        "utc": "2026-10-13T01:17:58.701554+00:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 2.9454426399970544,
+        "peak_RSS_bytes": 40566784,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 218665,
+        "optimizer_calls": 0,
+        "imports_included_in_time": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:17:58.8313186Z",
+        "wall_seconds": 5.5314945,
+        "host_memory_observations": 7,
+        "minimum_observed_headroom_bytes": 95963856896.0
+      },
+      "launch": {
+        "pid": 9096,
+        "utc_start": "2026-10-13T01:17:53.2998241Z",
+        "script": "scripts/maintenance/native_backward_reproducibility_attempt02.py",
+        "stage": "validate_mode",
+        "headroom_before_bytes": 97760432128
+      }
+    },
+    {
+      "stage": "diagnose",
+      "child": {
+        "utc": "2026-10-13T01:19:59.512061+00:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 57.040447413004586,
+        "peak_RSS_bytes": 3063087104,
+        "peak_GPU_allocated_bytes": 616103936,
+        "peak_GPU_reserved_bytes": 656408576,
+        "artifact_bytes": 433335461,
+        "optimizer_calls": 0,
+        "imports_included_in_time": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:20:01.6580683Z",
+        "wall_seconds": 62.4680159,
+        "host_memory_observations": 80,
+        "minimum_observed_headroom_bytes": 89850712064.0
+      },
+      "launch": {
+        "pid": 36280,
+        "utc_start": "2026-10-13T01:18:59.1900524Z",
+        "script": "scripts/maintenance/native_backward_reproducibility_attempt02.py",
+        "stage": "diagnose",
+        "headroom_before_bytes": 97454145536
+      }
+    },
+    {
+      "stage": "validate",
+      "child": {
+        "utc": "2026-10-13T01:21:26.262265+00:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 25.166954683001677,
+        "peak_RSS_bytes": 430039040,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 433365047,
+        "optimizer_calls": 0,
+        "imports_included_in_time": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:21:27.2976767Z",
+        "wall_seconds": 28.9050385,
+        "host_memory_observations": 37,
+        "minimum_observed_headroom_bytes": 95178510336.0
+      },
+      "launch": {
+        "pid": 40172,
+        "utc_start": "2026-10-13T01:20:58.3926382Z",
+        "script": "scripts/maintenance/native_backward_reproducibility_attempt02.py",
+        "stage": "validate",
+        "headroom_before_bytes": 97504882688
+      }
+    },
+    {
+      "stage": "previous_freeze",
+      "child": {
+        "utc": "2026-10-12T15:17:24.195970+00:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 2.6302608940022765,
+        "peak_RSS_bytes": 23379968,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 135582,
+        "optimizer_calls": 0,
+        "imports_included_in_time": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-12T15:17:23.4892073Z",
+        "wall_seconds": 3.1089062,
+        "host_memory_observations": 4,
+        "minimum_observed_headroom_bytes": 95868551168.0
+      },
+      "launch": {
+        "pid": 35564,
+        "utc_start": "2026-10-12T15:17:20.3803011Z",
+        "script": "scripts/maintenance/native_backward_reproducibility.py",
+        "stage": "freeze",
+        "headroom_before_bytes": 95928811520
+      }
+    },
+    {
+      "stage": "previous_diagnose",
+      "child": {
+        "utc": "2026-10-12T15:17:34.041728+00:00",
+        "success": false,
+        "error": "AssertionError()",
+        "full_resource_capture": true,
+        "wall_seconds": 9.267863017001218,
+        "peak_RSS_bytes": 1851101184,
+        "peak_GPU_allocated_bytes": 345082880,
+        "peak_GPU_reserved_bytes": 360710144,
+        "artifact_bytes": 139409,
+        "optimizer_calls": 0,
+        "imports_included_in_time": true
+      },
+      "host": {
+        "exit_code": 1,
+        "utc_end": "2026-10-12T15:17:35.4183867Z",
+        "wall_seconds": 11.6544629,
+        "host_memory_observations": 15,
+        "minimum_observed_headroom_bytes": 92930609152.0
+      },
+      "launch": {
+        "pid": 3564,
+        "utc_start": "2026-10-12T15:17:23.7639238Z",
+        "script": "scripts/maintenance/native_backward_reproducibility.py",
+        "stage": "diagnose",
+        "headroom_before_bytes": 95927803904
+      }
+    }
+  ],
+  "old_gaps_and_caps_unchanged": true,
+  "bookkeeping_separate": true
+}

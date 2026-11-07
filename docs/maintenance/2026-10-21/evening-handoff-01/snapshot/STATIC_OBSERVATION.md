@@ -1,0 +1,9 @@
+# Static observations to avoid repeating an already implemented two-part path
+
+Read the exact files in SOURCE_POINTERS.json. No Python/model/feature/fit/inference or real data was executed for this observation.
+
+RAP-SLAM rap_backend.py:_normalize_parts uses the largest part as primary, a shared scale1.5times that part's maximum centered absolute coordinate, and returns float32cond plus per-part offsets. CN1's maximum-over-all-centered-views scale is a different CUSTOM convention. It is not certified canonical by the recent synthetic pass. In exact algebra the nonprimary offset expression reduces to its own original point mean; floating operation ordering and float32rounding are not validated here.
+
+The actual register call passes batch[pointclouds] as source and predicted endpoint as target to fit_transformations. procrustes.py:solve_procrustes explicitly forms the source-to-target rigid fit. The backend then constructs original-scan-to-registered T_parts with rotation R_i and translation s*t_i-R_i*c_i, and returns inverse(T_parts[0])*T_parts[1]. Under the stated shared-scale rigid conventions, this relative expression is algebraically consistent with CN1's N_r^-1*A_r^-1*A_i*N_i. This is an inference from the read source and algebra, not a tested runtime equivalence, reference-authentication result, N-way adapter or new defect claim.
+
+Therefore do not rebuild a generic two-part recovery routine on the assumption the backend lacks one. The meaningful remaining interface questions are the exact custom/N-way public batch representation, primary/anchor and feature conventions, actual returned tensor semantics/precision, and external-reference separation through the full called path. The older C0 default-folder hazard and lack of physical/canonical authentication remain; recent source observations do not erase them or reopen a model/efficacy stage.

@@ -1,0 +1,69 @@
+{
+  "utc": "2026-10-29T01:18:26.208017+00:00",
+  "research": "UNRESOLVED",
+  "manuscript": "PAUSED",
+  "ER1": {
+    "images": 273,
+    "pairs": 200,
+    "camera5DoF_outputs": 30,
+    "00_outputs": 30,
+    "08_outputs": 0,
+    "R5_direction15_all200": 23,
+    "refit_overall_gain": false
+  },
+  "SD1": {
+    "pairs": 200,
+    "at_least8_depth_hypotheses": 24,
+    "00": 22,
+    "08": 2,
+    "actual_correspondence_authenticated": false,
+    "rank_controls_before_real_points": "NOT_MET",
+    "rank_controls_later_audit": "4_PASS",
+    "old_failed_control_exit": "NOT_RECORDED"
+  },
+  "PR1": {
+    "pairs": 200,
+    "numerical_metric_camera_outputs": 17,
+    "00_outputs": 17,
+    "08_outputs": 0,
+    "no_evidence": 183,
+    "R5_t2_all200": 17,
+    "mean_rotation_deg_available17": 0.6233317339196243,
+    "mean_translation_m_available17": 0.6641574928437658,
+    "controls": 23,
+    "independent_Decimal60_reference_solves": 200,
+    "independent_scalar_projection_checks": 1129,
+    "physical_scale_or_corrected_LiDAR_equivalence_authenticated": false
+  },
+  "MR1": {
+    "old_missing_proposal_IDs": 64,
+    "PnP_outputs_on_those_IDs": 0,
+    "old_correct_accepted_IDs_in_PnP_outputs": 15,
+    "old_correct_rejected_IDs_in_PnP_outputs": 2,
+    "additional_output_IDs_beyond_ER1": 0,
+    "no_operational_fusion_or_absence_veto": true
+  },
+  "PT1": {
+    "actual_initializers": 17,
+    "all_pair_slots": 200,
+    "source_kernel_cases": 68,
+    "raw_point_occurrences": 4059861,
+    "Decimal60_scalar_checks": 1632,
+    "float64_shift_condition_byte_equal": 33,
+    "float64_shift_cases": 34,
+    "max_float64_shift_condition_delta": 7.105427357601002e-15,
+    "float32_shift_condition_byte_equal": 0,
+    "float32_shift_cases": 34,
+    "max_float32_shift_condition_delta": 5.960464477539063e-08,
+    "conditional_centering_erasure_not_full_pipeline_or_model_invariance": true,
+    "model_calls": 0
+  },
+  "new_RAP_training": false,
+  "old_SR1_four_noise_failures_and_HFIT0_2GiB_stop_unchanged": true,
+  "new_WSLEncoder_or_package_or_environment_change": false,
+  "new_WSL_start": false,
+  "next_strong_geometry_runtime_or_model_payload_frozen_or_launched": false,
+  "pending_owned_worker": false,
+  "new_scientific_scope_after_reset_admitted": false,
+  "scheduler_or_goal_status_changed": false
+}

@@ -1,0 +1,955 @@
+{
+  "files": {
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/BOOKKEEPING.json": "2ab0a341b046e4abeb82643d32f9b65077e58205228ead1425b4e84418a292f6",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/CHECKS.json": "1dfcf6f3f5f2285e690aead8aeebebbd85ba6a2971a5ba3b691d0e0b45f9b2d1",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/FINAL_IDENTITY_CHECK.json": "aa926399cc3ece97e6887b7c71d4030454936abe3766c6712b6101800d8eee1f",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/NEXT_ROUND_PLAN.md": "13c1c53f6d30417e1e3e69d58b58a4a2a9e0a8287534b2d624b937a090acc6f4",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/PROTOCOL.md": "75b69e5d64c1a4e1bc28b3b065134a69dacbfbae3ced07c150308b1e72dc0553",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/REPORT.md": "13e5553bdb6318739cd148236efe3941ce252057bd70354ed4f61fe27db66f38",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/RESOURCE_AUDIT.json": "aa2621f4a630eb57be83fee1a2ce684ec75c14bf28199a47a8c07ce4992c4320",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/STATUS.json": "7757e32c98d2bf0ab2acf54a20c758dcba1803a3c91439ba97e322b313a90e4e",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/audit_seal.json": "1c1b958a37f5c4abf2918e4f95d1cca8c17eedee05ac87a2db7c0a513b61a1f9",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/contract_audit.json": "a792c8755156f76b487aa73b6065df419efd1736e4559af14724a0dfd94fa926",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/freeze.json": "cb8b56bb46b00476270a96bdba44667fdd9513159a70fae6dab9187b73fe687b",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/source_snapshot/closure_close_physical_comparison_contract.py": "e2b6959f2d2d6ccbe3bcee38161754c94c9424f75d5af63c48c4bd73b4cd24e2",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/source_snapshot/layout02_physical_comparison_contract.py": "8b1910b7196eb825235a76916c1a002538705ab3effa2e14adde501ef72784e8",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/source_snapshot/layout02_validate_physical_comparison_contract.py": "af6f15fd0da50bd8f8377ffe1bc8866b8138145f04b10b4abe72f4e9db79267c",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/source_snapshot/physical_comparison_layout02.py": "ddc019a5b04ac7fcdaed52c20dd7b407c7ae04b11f2dd90431cd20c3e867ac1e",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/audit/child_exit.json": "ff939f11193ce2332cf92fc96ce5e3ffea3e48b94c00248941294a9a4a1e8dfc",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/audit/exit.json": "bc466b59c743c6f58cf30cc7dac35a31023bb53565077374e6f9630a8de4a2a6",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/audit/host_memory.jsonl": "928bcbecdd4b029e20e1e47a4b96aedeba82257f86253dfd9d46629eb7ed7cf8",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/audit/launch.json": "2ea0177afe3f8da081efd8bb48edeecfd919510651f0216a2ab2bdbda12bdcf9",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/audit/logging_retry.jsonl": "adbad6294440c9c308f53718f034a3295f2db47c58a28e8dcec47953edd3bb2c",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/audit/stderr.log": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/audit/stdout.log": "13c7bf055f08b6f00a186a786318ff6f48da0cbf1a4bc23334e7961b42e4e8ef",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/bind/child_exit.json": "3969661aff831adcf558da39f8e4dacba3babf1b9adce497a2eaeeede675cf33",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/bind/exit.json": "7ef01b1a49da5e30b638f13cfbac38013b63b3ee18bf6b4d53c8e0b90309529c",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/bind/host_memory.jsonl": "5f7c9b2838b76aff863f6c3c6e2f6dea506e7cda47592fe953448b51abb5d528",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/bind/launch.json": "d6bb57adac7f533bd55b5342ced1697e901bcc606a7f92b600bb93cf3034b775",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/bind/stderr.log": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/bind/stdout.log": "9acadd2e8b113c4b47378d4363ae45e172fe9d6c2a298cae541aaecd4df9258d",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/host_latest.json": "38093a005f060cda7943377f60e7c100306a538ac1eb359ead3fdcc4a4a13e90",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/validate/child_exit.json": "4f40ecf60c69d47da8cbf5a593e55df77e0bdf776633ee5f8ee187924d78a670",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/validate/exit.json": "56a73838ef29ae3d45bc9117d23a9e1e6013d9dd23e4b983b52be48e1b31a3b5",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/validate/host_memory.jsonl": "e920895d4232adc717aa18cca2f51e86e9785ab38b9f4e00e49ad222748e2933",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/validate/launch.json": "3dbde9a811e45bdea818b36b34495adf81b74e6d7f1d2f329aa630665386382c",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/validate/stderr.log": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/supervision/validate/stdout.log": "ba5abb63b127ffcf375a43223c3d26ab24a54ae2787cd82809aefcdaefcdfcce",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/validation.json": "4764f055d671ad7da497c74bcb4efc3f0cdb4e7c23677a520ee3d8ca20237a1c",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/07_000002.npz": "5e04da2b6c1a80d86e0a913865df83e9b8d429944b5fe95787f9acc7dd6875fa",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/07_000002.npz": "4c646349d117fbf977e7399b421deed2d34d42a82ed032bbb70a255c849f2634",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/07_000101.npz": "7ae31baf9548fcb7038eddff1ddcb7954c4b9818c38b95cc7d6ce83458a34007",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/07_000101.npz": "b2aef6a0f7e490d34da490f623c61fbd233950b76912b0d65fa96865a38c25a1",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/07_000201.npz": "a4871e9f3fbef94169209846612d1e648c7a583dea9586be9212397e51e7a1f9",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/07_000201.npz": "455794648f9840fde7eb9c06096f3b261bbb1aeac0902c577433e0c76fcf8b61",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/07_000301.npz": "a839d26cc18e749f62dee47b75e5ad3efd2afb66bd83b19e52d53a929ce1f98c",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/07_000301.npz": "a79c40a002d57d2764a2ac538c85a4084241e2cf836167f932182d9b27f5ab31",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/07_000401.npz": "83de72b09acc26cdb4a3414141e3c738cb593727724a30fd8f07503cbc8d5b0f",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/07_000401.npz": "a74b64a185a8d6e700867a726642749e6c903be905ddc71edbdd40690351317a",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/07_000501.npz": "8820a490b77be859c1c069f08e753d44c9ad0ae542af3a5a877f992e3bd1d7eb",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/07_000501.npz": "4eb9e9785eb64744f234ca45829ea20b545a0a69a84f6737c93efeb7476ca3cb",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/07_000600.npz": "edbd03a9a9e60ed1ca1e644ac53eacdf7ceb86d3fd0d5c3d8d6fcba148c938f3",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/07_000600.npz": "9df6d81144e15d19e1fe4f09a8f08d86987f7794fe0533e1c3fef729f279e159",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/07_000700.npz": "7cbfe4c69fc6005f4e482e4796755f757fb95ece448a71fb4a95897c17cc7a83",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/07_000700.npz": "130c727a11226b7105fe46eb702ecf3821837b3f259cc7a9e8b9abf8a1d59e96",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/07_000800.npz": "3ff3f32a1b7a01a45b2d1039a9192f81d40d69c78be878de3614baadd8acd570",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/07_000800.npz": "ffe35e3a602008b6b57640129ecabcc09c0cffd5acbd40ed8127cfd18204cf52",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/07_000900.npz": "01073eeecbcc239137ebc4685c23d61b18448d1dcf1d505fdf56ffdcfe3aea48",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/07_000900.npz": "47f5e6965f61675bc6e5e809eb6d75a7aca1e6c0b24e38fe5cf71416b4ac995e",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/07_001000.npz": "c385eb85692feef432b6d4d42990e28e74392c67dac52f1d861c968dc351a4fb",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/07_001000.npz": "88ab0ff16b25bc8cb44ad22391873b1604a986e00093cba30ccb73ef1f91f3b0",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/07_001100.npz": "5e596d7b0c02098ba74191e67a53ed9ad3e8bf3ed3d46a6769514f996d786931",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/07_001100.npz": "1ef319556babd8b7fa7a4d100a788009ae141d3ed67aae6c09c25fe106ad775a",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/08_000002.npz": "d015617d5eeba88073a2945c03e7d4fe06649f66458fd675a4c6143e09af0c8c",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/08_000002.npz": "51c52b3e7f561ed8204c36e423be0f058a2aabb4fd147447c9338661f7b619f0",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/08_000371.npz": "aba20b26895423bc10f0101bd87a104ae3e55e3da95dd9aa002bc4367f263095",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/08_000371.npz": "e318d264ba9e57e76e6b09bbdc7bea5466dcc25226c3c45a14c7d28c6b70901e",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/08_000741.npz": "418dbd88dcd0180771651548285d7a79f316c4711a35ee606b5b78960899ef93",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/08_000741.npz": "b0503f5592885d9c9ca36cd757fe717a6a7300165b5f74c2ee99436b2d6e9d2e",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/08_001111.npz": "8a8a3dd0bd59b67aa63a4ca6343a517349ba3f14dbd897defce74973421bf8a4",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/08_001111.npz": "6a13ac6d6c0c6278e974bc13cbf84d2488291dc3ee7297eae95403915a34796e",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/08_001481.npz": "309cce30d96b6552e4fea3270a296f46e29d1eacfe61ae9238b362515e3554b3",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/08_001481.npz": "0a752a446b43cf876a3b28d1bd333ef799c4030b76031035c426013d85d59073",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/08_001851.npz": "30a7abcc7e38923615781af16f2923dd24e1f155412e8fc2267d2fa2ad59dbe1",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/08_001851.npz": "6a183f703aa9dc9d79ff50c7b7ef95fbc82da2962b7a0cce515624c46af0a40c",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/08_002220.npz": "8aa9057b8e9c95a54e16c606fee049ddfb6a5a86fbfd7f60fcb58b795649306d",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/08_002220.npz": "1bc292dc70e38afe833c0a36e2dcbc441a3b6f0d36ac9fdc2463f082779d7ea2",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/08_002590.npz": "861ccdcacf819efaf344771b5f24b64f63e2b562271dc366cca4179f8b223733",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/08_002590.npz": "28888d25efbf66088b243c43fc47e294caf36bf96396f1aa8dcfbbe42abb42f2",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/08_002960.npz": "5c99aafed30ff09716d1aad08677d405ab5d1942b96f814231c39dd7a379b603",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/08_002960.npz": "d2201f4f47c6b0489c0c217eddb64bb7c28aeaa824082770a6c7c1765d9530bb",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/08_003330.npz": "eb8d2187f424e384d63ddb4f967920b47d3fd3717ca6f58c6e67a29a095acefd",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/08_003330.npz": "066c068434f66dbbe515d6ac5253098aa4d4f23fdf24045f03bba1702d914995",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/08_003700.npz": "09a318b183dfff5d5902249f515d5c1e2e24a988805120f30a7bca9c538217ab",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/08_003700.npz": "0872f4618d45fa8cc13c5dd86a24f7c87103be4c771ad82a9588f327bc70e92c",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/08_004070.npz": "aa3b365e8a4e13a9bf5094ad046b55f8b346dee606039e2afeea3b1168e452ac",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/08_004070.npz": "e43a078f17af6b94b485f1c766160355828fab0cb59596d19668b809a44b3437",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/09_000002.npz": "bf74954ccdcf1a72abd536c041d17918d8be76de3cf5b0f6f1658b328c75d28f",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/09_000002.npz": "b538ef8b5eed74036d0af45f395a318325b3bf6d21764b7360053e313d566883",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/09_000146.npz": "0d6d7b01cd849b2e20fb84c3e48d906f514628d363c7c289bdb35387fb6200de",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/09_000146.npz": "59d1e02056295bc957af5658f729918d66e55140b83e10e8013316d1da5c60ad",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/09_000290.npz": "f4d47e64f71f22e14a3bfe7b5226ec094caa02682968ba0805c93d0cf00aee5a",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/09_000290.npz": "821cc70e2c55799306ddd9290043dea16922986e9db94f208846d3c9c2c36ab8",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/09_000435.npz": "8016bac859dd411ed66d81b3a8d822f497b232cea05cbceb4c1ad391da3bfba6",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/09_000435.npz": "31963fc844f8daeae1136a29e08137515dcf143cc5ab4b5f072643545a6d31de",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/09_000579.npz": "3eda54194a44cc399084e23c51738b8ea2134d92a56266db9dccf63460086872",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/09_000579.npz": "d4671790820062ea7c3c50d29efaf0af8ea7ab3233c62cc27e8488ae2aea7754",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/09_000723.npz": "707cc0e203a3dd6bec9a60db10490d8bde25180bf01a88229bb1a9b33f6bedeb",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/09_000723.npz": "43b62f3f5403f51c19d1233344e366938de45504d6cbea119a8688b12cc74da5",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/09_000868.npz": "4987b8c418bafc1bedd03d898fcfde1d4d67eaf3765d8568ae97472be293c2c6",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/09_000868.npz": "af69eb2b658ad4ac664e487f9afa3fa16e476fe48ac3c582717267f2409c544d",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/09_001012.npz": "9585d5588d71d475d38ecb5e44993113ee809e064dab1b46cf70204387f06e51",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/09_001012.npz": "150275346f78083da8b7d5949b36b552e5ee7dece09e2962f629c9e0dcc659bc",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/09_001156.npz": "99fbd01991d8fd74c023353937f12ba73a739e74bcf7a92330bca62a9b83abc7",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/09_001156.npz": "d0d6423c1336f510ca538b55ffd409aa494909490689a8409ede0f5c572c10bd",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/09_001301.npz": "e1da2c7ba6d98c8db11f287a78b955e79bbb95f56072cc1c327d30ef32c928da",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/09_001301.npz": "e0c151124938ec728b6ac0b06597b239f8f461bf63115790a144c93b9ff84384",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/09_001445.npz": "1404f562b42d951d011edc30bb54f3374c0a00bfeed057fc0d24359490a24f77",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/09_001445.npz": "7a0c69abf553a9a4d2099443882038cb19814a9b875582fabc7cd6967d08848f",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/09_001590.npz": "24b0ffe1e37bab66911ee2590a8a66c4b8d035ad0ae9d2b2ad6b08624e517a2d",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/09_001590.npz": "b917424eb2e656d08dcc57135853a3b4e59cace4d30e35d86b490a3cd338f9c8",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/10_000002.npz": "547602d8820497c18af05e036b7cae85f6eea72cbb5a224d3dfb751909970e8e",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/10_000002.npz": "26ff2b76918f6cc4f9df5770e2e1e9342cf32906f15115052572e072dcc84453",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/10_000110.npz": "d0934d5cdb0fa2a0874eb38f01a0b3e53b2d793ff3ea055f2375abcb49e67a7b",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/10_000110.npz": "b463455196179d6f6aaeaf8bcfa8a86a5002633dfd139904cf538f01740e0017",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/10_000219.npz": "55ee2e95c574d894dbc440e651261433713ce68e6b3960679e18a8f8508b5f30",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/10_000219.npz": "094689c9d344a45fbb028324e6d036421c748b24e19221736e08be240f6fe7b9",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/10_000328.npz": "ae35a121e8cd7aa84e10e85e68ecb730b8e72eb74347d16c78e7607e9082042a",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/10_000328.npz": "6fad498c5f42f7f0f783dfb7a35d0ebb19cbbc0be55a7fd8f6eb95605ba330c9",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/10_000437.npz": "cb1abeee44e192d36dfc1b33ae0fd19a62386e36af42f226f2de3ee3956f911d",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/10_000437.npz": "00eb4db41232146b47b76ad84a760c56efa957e9b30dd926ea2c30d66ec04dfd",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/10_000546.npz": "c13e947c36fd02af75d711c0fc2a8d50a245d842775108f2ed421e4d546f558a",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/10_000546.npz": "ef0f884b89f1ee794976bf42e793468b28f699651b9f2040793bbdb849b45f15",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/10_000655.npz": "b55013f64e2a8f5de7fbbeb0abaeca30b69336a606f02d2b41ec6d3bd5506560",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/10_000655.npz": "37d3f415bee5143dbd5eb9e328ed09166c76ee72d60ae54bf9aafe8f9b047ea6",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/10_000764.npz": "47d285d3c2091d87685219dfb053704c4ea79da3452043009739d908ec5a515e",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/10_000764.npz": "8d23645159e878af50a486a23e8a0a16ef1a878f589670f18a599ce042a06d4b",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/10_000873.npz": "02d8b1f500b6e768702acb06303d3a1f1ca83344a32a18160d117a6866e312c6",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/10_000873.npz": "5e4a7fdfd50e3d4288d9e3f16391162c2947fb7a6864fe6cce5b13763ba71134",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/10_000982.npz": "aa410f523776128a3e4ae872f72d954458df6ce7b2d2405b890a47368b965c90",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/10_000982.npz": "3f0b2ad5ead5596bfa9734b0d35384286a21560eb8f66d0e9f834ebf9e1e81b5",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/10_001091.npz": "a4e7c5d39b139fbddd2aa4dee4476eb18367599ead4af332f2bb24023aa1de89",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/10_001091.npz": "f6ea1b8163bb88bba7815dda4e2a776a40537bf039a69bdcd7ddce4377d5a32f",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/10_001200.npz": "6fc7f87ad9545ba2207222abd4ef38c8b7e9b666437c5b2d79a95acd159e10b6",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/10_001200.npz": "2f504c203a075c09b1db67e1fd008dbe3207c122fb59d360e6f810cc1cbe0650",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/layout-attempt-02/DELIVERY_SEAL.json": "5742e1a05b0a559a61c5c6f628063ca103a8e48c9f0aeb506d340266012aadf7",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/bounded-native-residual-feasibility-01/OWNER_SCOPE.md": "2d9006186e325f9c2ea04fbcbe04f999ec98f5834b1d61617ecb38ccf3c1311b",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/bounded-native-residual-feasibility-01/PROTOCOL.md": "de33498b0dd6e45c4e9482f816f7b6b135a7dfd9fc0029b56936c10b56e3e8ad",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/bounded_native_residual_feasibility.py": "379d07f0cb82d77b2f2e48122bd1da2981498da71d15f56afb9ed565c38a797e",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/validate_bounded_native_residual.py": "0bac134fa115878771ed5eeff2f2d3271c0d29945a1cabd3d89e715216dd909e",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/physical_source_role_feasibility.py": "5eeda21006f54ef0c918decb46c59d924e370028e82aad4e007dc9e288375d82",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/invoke_mgr_supervised_wsl.ps1": "0973f7173b0d8a0f3a1fb6a3d4e19118121a13150260fbaf00bcde5b9c1eb899",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/rlp2_full_bank.py": "c5cae0d84e8faf17ff57b759e618f9bf144530076ed824ea23e43b2110639c81",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/rlp2_evaluate.py": "39fb9ad63bbc52e2d8ea3e66ba0b2f4056b6f34a6bd2205a97383b988a297b65"
+  },
+  "repositories": {
+    "main": {
+      "head": "4055d929c594b0033aafc6eed339c910369eef55",
+      "branch": "codex/meeting-20260930",
+      "tracked_status": [
+        "M .gitignore",
+        " M AGENTS.md"
+      ]
+    },
+    "slam": {
+      "head": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6",
+      "branch": "codex/e0-f1-20260926",
+      "tracked_status": [
+        "M rap_slam/loop_closure.py",
+        " M rap_slam/odometry.py",
+        " M rap_slam/pose_graph.py",
+        " M rap_slam/rap_backend.py",
+        " M rap_slam/real_dataset.py",
+        " M scripts/build_s1_features.py",
+        " M scripts/eval_map_consistency.py",
+        " M scripts/eval_paper_metrics.py",
+        " M scripts/run_pipeline.py"
+      ]
+    }
+  },
+  "rows": [
+    {
+      "seq": "07",
+      "t": 2,
+      "ids": [
+        1,
+        2,
+        0
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3488950574,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000001.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000002.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000000.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 101,
+      "ids": [
+        100,
+        101,
+        99
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2040007442,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000100.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000101.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000099.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 201,
+      "ids": [
+        200,
+        201,
+        199
+      ],
+      "role": "exposed_evaluation",
+      "seed": 769783896,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000200.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000201.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000199.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 301,
+      "ids": [
+        300,
+        301,
+        299
+      ],
+      "role": "exposed_evaluation",
+      "seed": 336306444,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000300.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000301.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000299.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 401,
+      "ids": [
+        400,
+        401,
+        399
+      ],
+      "role": "exposed_evaluation",
+      "seed": 805597497,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000400.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000401.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000399.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 501,
+      "ids": [
+        500,
+        501,
+        499
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3555828987,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000500.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000501.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000499.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 600,
+      "ids": [
+        599,
+        600,
+        598
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1038598751,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000599.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000600.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000598.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 700,
+      "ids": [
+        699,
+        700,
+        698
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2088066623,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000699.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000700.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000698.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 800,
+      "ids": [
+        799,
+        800,
+        798
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3367119890,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000799.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000800.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000798.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 900,
+      "ids": [
+        899,
+        900,
+        898
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2277331870,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000899.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000900.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000898.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 1000,
+      "ids": [
+        999,
+        1000,
+        998
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3131037266,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000999.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/001000.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000998.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 1100,
+      "ids": [
+        1099,
+        1100,
+        1098
+      ],
+      "role": "exposed_evaluation",
+      "seed": 985389326,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/001099.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/001100.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/001098.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 2,
+      "ids": [
+        1,
+        2,
+        0
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2097929070,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000001.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000002.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000000.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 371,
+      "ids": [
+        370,
+        371,
+        369
+      ],
+      "role": "exposed_evaluation",
+      "seed": 307401827,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000370.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000371.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000369.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 741,
+      "ids": [
+        740,
+        741,
+        739
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1983141702,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000740.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000741.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000739.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 1111,
+      "ids": [
+        1110,
+        1111,
+        1109
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2039171189,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001110.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001111.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001109.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 1481,
+      "ids": [
+        1480,
+        1481,
+        1479
+      ],
+      "role": "exposed_evaluation",
+      "seed": 288433903,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001480.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001481.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001479.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 1851,
+      "ids": [
+        1850,
+        1851,
+        1849
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1804460244,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001850.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001851.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001849.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 2220,
+      "ids": [
+        2219,
+        2220,
+        2218
+      ],
+      "role": "exposed_evaluation",
+      "seed": 424127400,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002219.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002220.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002218.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 2590,
+      "ids": [
+        2589,
+        2590,
+        2588
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3305096318,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002589.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002590.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002588.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 2960,
+      "ids": [
+        2959,
+        2960,
+        2958
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3321861496,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002959.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002960.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002958.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 3330,
+      "ids": [
+        3329,
+        3330,
+        3328
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3138550040,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/003329.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/003330.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/003328.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 3700,
+      "ids": [
+        3699,
+        3700,
+        3698
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1301919933,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/003699.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/003700.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/003698.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 4070,
+      "ids": [
+        4069,
+        4070,
+        4068
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2136102819,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/004069.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/004070.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/004068.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 2,
+      "ids": [
+        1,
+        2,
+        0
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2786567535,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000001.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000002.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000000.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 146,
+      "ids": [
+        145,
+        146,
+        144
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3170720429,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000145.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000146.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000144.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 290,
+      "ids": [
+        289,
+        290,
+        288
+      ],
+      "role": "exposed_evaluation",
+      "seed": 937753644,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000289.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000290.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000288.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 435,
+      "ids": [
+        434,
+        435,
+        433
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1775836787,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000434.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000435.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000433.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 579,
+      "ids": [
+        578,
+        579,
+        577
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1386698536,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000578.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000579.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000577.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 723,
+      "ids": [
+        722,
+        723,
+        721
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1477785197,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000722.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000723.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000721.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 868,
+      "ids": [
+        867,
+        868,
+        866
+      ],
+      "role": "exposed_evaluation",
+      "seed": 4283361014,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000867.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000868.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000866.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 1012,
+      "ids": [
+        1011,
+        1012,
+        1010
+      ],
+      "role": "exposed_evaluation",
+      "seed": 845574053,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001011.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001012.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001010.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 1156,
+      "ids": [
+        1155,
+        1156,
+        1154
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2299696034,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001155.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001156.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001154.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 1301,
+      "ids": [
+        1300,
+        1301,
+        1299
+      ],
+      "role": "exposed_evaluation",
+      "seed": 4035632209,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001300.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001301.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001299.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 1445,
+      "ids": [
+        1444,
+        1445,
+        1443
+      ],
+      "role": "exposed_evaluation",
+      "seed": 401249025,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001444.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001445.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001443.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 1590,
+      "ids": [
+        1589,
+        1590,
+        1588
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3875919538,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001589.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001590.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001588.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 2,
+      "ids": [
+        1,
+        2,
+        0
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3869584036,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000001.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000002.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000000.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 110,
+      "ids": [
+        109,
+        110,
+        108
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1069972399,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000109.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000110.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000108.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 219,
+      "ids": [
+        218,
+        219,
+        217
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3889651008,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000218.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000219.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000217.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 328,
+      "ids": [
+        327,
+        328,
+        326
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2088248745,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000327.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000328.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000326.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 437,
+      "ids": [
+        436,
+        437,
+        435
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1039878307,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000436.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000437.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000435.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 546,
+      "ids": [
+        545,
+        546,
+        544
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3776061901,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000545.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000546.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000544.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 655,
+      "ids": [
+        654,
+        655,
+        653
+      ],
+      "role": "exposed_evaluation",
+      "seed": 4209392315,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000654.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000655.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000653.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 764,
+      "ids": [
+        763,
+        764,
+        762
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1710533382,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000763.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000764.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000762.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 873,
+      "ids": [
+        872,
+        873,
+        871
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2320141871,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000872.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000873.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000871.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 982,
+      "ids": [
+        981,
+        982,
+        980
+      ],
+      "role": "exposed_evaluation",
+      "seed": 226313297,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000981.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000982.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000980.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 1091,
+      "ids": [
+        1090,
+        1091,
+        1089
+      ],
+      "role": "exposed_evaluation",
+      "seed": 338403488,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/001090.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/001091.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/001089.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 1200,
+      "ids": [
+        1199,
+        1200,
+        1198
+      ],
+      "role": "exposed_evaluation",
+      "seed": 738789515,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/001199.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/001200.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/001198.bin"
+      ]
+    }
+  ],
+  "translation_component_bound_m": 0.05,
+  "rotation_component_bound_deg": 0.2,
+  "translation_norm_bound_m": 0.08660254037844387,
+  "rotation_norm_bound_deg": 0.34641016151377546,
+  "optimistic_numerical_allowance": [
+    1e-09,
+    1e-07
+  ],
+  "caps": {
+    "Windows_seconds": 900,
+    "RSS_bytes": 536870912,
+    "GPU_bytes": 0,
+    "dossier_bytes": 33554432
+  },
+  "old_source_failures_and_scientific_stops_unchanged": true
+}

@@ -1,0 +1,286 @@
+{
+  "passed": true,
+  "children": 9,
+  "successful": 8,
+  "retained_validation_failures": 1,
+  "full_child_RSS_and_time_records": true,
+  "windows_exit_records": 9,
+  "all_windows_exits_captured": true,
+  "payload_wall_seconds": 108.28191637499731,
+  "peak_RSS_bytes": 120557568,
+  "artifact_bytes_before_closing_metadata": 40609395,
+  "windows_process_wall_seconds": 126.8121495,
+  "logging_retry_records": 0,
+  "latest_pointer_gap_records": 0,
+  "minimum_observed_headroom_bytes": 96363810816.0,
+  "CPU_only": true,
+  "GPU_calls": 0,
+  "setup_full_RSS_unknown": true,
+  "payload_time_excludes_imports_WSL_startup_design_final_bookkeeping": true,
+  "RSS_includes_imports": true,
+  "old_gaps_and_caps_not_amended": true,
+  "approval_service_nonexecution": 1,
+  "receipts": [
+    {
+      "stage": "freeze",
+      "child": {
+        "utc": "2026-10-12T18:03:12.408273+08:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 8.097667781999917,
+        "peak_RSS_bytes": 86626304,
+        "artifact_bytes": 453823,
+        "optimizer_neural_graph_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-12T10:03:11.290369Z",
+        "wall_seconds": 10.2630541,
+        "host_memory_observations": 13,
+        "minimum_observed_headroom_bytes": 98806968320.0
+      },
+      "launch": {
+        "pid": 38968,
+        "utc_start": "2026-10-12T10:03:01.0273149Z",
+        "script": "scripts/maintenance/reference_physical_consistency.py",
+        "stage": "freeze",
+        "headroom_before_bytes": 99813052416
+      },
+      "host_observations": 13,
+      "minimum_observed_headroom_bytes": 98806968320.0
+    },
+    {
+      "stage": "preflight",
+      "child": {
+        "utc": "2026-10-12T18:03:33.636121+08:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 7.625207196999327,
+        "peak_RSS_bytes": 86638592,
+        "artifact_bytes": 794928,
+        "optimizer_neural_graph_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-12T10:03:33.070877Z",
+        "wall_seconds": 8.5943584,
+        "host_memory_observations": 11,
+        "minimum_observed_headroom_bytes": 99222978560.0
+      },
+      "launch": {
+        "pid": 11144,
+        "utc_start": "2026-10-12T10:03:24.4765186Z",
+        "script": "scripts/maintenance/reference_physical_consistency.py",
+        "stage": "preflight",
+        "headroom_before_bytes": 99294806016
+      },
+      "host_observations": 11,
+      "minimum_observed_headroom_bytes": 99222978560.0
+    },
+    {
+      "stage": "validate_preflight",
+      "child": {
+        "utc": "2026-10-12T18:03:50.043501+08:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 7.181077212999298,
+        "peak_RSS_bytes": 88420352,
+        "artifact_bytes": 798083,
+        "optimizer_neural_graph_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-12T10:03:49.1977061Z",
+        "wall_seconds": 7.8779508,
+        "host_memory_observations": 10,
+        "minimum_observed_headroom_bytes": 99244060672.0
+      },
+      "launch": {
+        "pid": 38288,
+        "utc_start": "2026-10-12T10:03:41.3197553Z",
+        "script": "scripts/maintenance/reference_physical_consistency.py",
+        "stage": "validate_preflight",
+        "headroom_before_bytes": 99330023424
+      },
+      "host_observations": 10,
+      "minimum_observed_headroom_bytes": 99244060672.0
+    },
+    {
+      "stage": "bank",
+      "child": {
+        "utc": "2026-10-12T18:04:10.009448+08:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 7.6775530529994285,
+        "peak_RSS_bytes": 100761600,
+        "artifact_bytes": 6230706,
+        "optimizer_neural_graph_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-12T10:04:09.147644Z",
+        "wall_seconds": 8.6188588,
+        "host_memory_observations": 11,
+        "minimum_observed_headroom_bytes": 99262566400.0
+      },
+      "launch": {
+        "pid": 38552,
+        "utc_start": "2026-10-12T10:04:00.5287852Z",
+        "script": "scripts/maintenance/reference_physical_consistency.py",
+        "stage": "bank",
+        "headroom_before_bytes": 99315863552
+      },
+      "host_observations": 11,
+      "minimum_observed_headroom_bytes": 99262566400.0
+    },
+    {
+      "stage": "evaluate",
+      "child": {
+        "utc": "2026-10-12T18:04:29.504942+08:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 9.77600072200039,
+        "peak_RSS_bytes": 99258368,
+        "artifact_bytes": 40112715,
+        "optimizer_neural_graph_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-12T10:04:30.30401Z",
+        "wall_seconds": 11.7502116,
+        "host_memory_observations": 15,
+        "minimum_observed_headroom_bytes": 99194839040.0
+      },
+      "launch": {
+        "pid": 39836,
+        "utc_start": "2026-10-12T10:04:18.5537984Z",
+        "script": "scripts/maintenance/reference_physical_consistency.py",
+        "stage": "evaluate",
+        "headroom_before_bytes": 99281326080
+      },
+      "host_observations": 15,
+      "minimum_observed_headroom_bytes": 99194839040.0
+    },
+    {
+      "stage": "validate",
+      "child": {
+        "utc": "2026-10-12T18:04:58.944871+08:00",
+        "success": false,
+        "error": "AssertionError(('local_envelope', 1.594708720631388e-08, 1e-08))",
+        "full_resource_capture": true,
+        "wall_seconds": 13.375612563999312,
+        "peak_RSS_bytes": 120557568,
+        "artifact_bytes": 40117899,
+        "optimizer_neural_graph_calls": 0
+      },
+      "host": {
+        "exit_code": 1,
+        "utc_end": "2026-10-12T10:04:58.8571279Z",
+        "wall_seconds": 14.841556,
+        "host_memory_observations": 19,
+        "minimum_observed_headroom_bytes": 99154931712.0
+      },
+      "launch": {
+        "pid": 7552,
+        "utc_start": "2026-10-12T10:04:44.0155719Z",
+        "script": "scripts/maintenance/reference_physical_consistency.py",
+        "stage": "validate",
+        "headroom_before_bytes": 99313618944
+      },
+      "host_observations": 19,
+      "minimum_observed_headroom_bytes": 99154931712.0
+    },
+    {
+      "stage": "freeze02",
+      "child": {
+        "utc": "2026-10-12T22:04:13.020582+08:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 19.95911895399695,
+        "peak_RSS_bytes": 86454272,
+        "artifact_bytes": 40154512,
+        "optimizer_neural_graph_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-12T14:04:11.7011485Z",
+        "wall_seconds": 23.4229193,
+        "host_memory_observations": 30,
+        "minimum_observed_headroom_bytes": 96924049408.0
+      },
+      "launch": {
+        "pid": 34576,
+        "utc_start": "2026-10-12T14:03:48.2782292Z",
+        "script": "scripts/maintenance/reference_physical_validation_attempt02.py",
+        "stage": "freeze02",
+        "headroom_before_bytes": 98850865152
+      },
+      "host_observations": 30,
+      "minimum_observed_headroom_bytes": 96924049408.0
+    },
+    {
+      "stage": "validate_preflight02",
+      "child": {
+        "utc": "2026-10-12T22:04:39.149442+08:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 8.046102955002425,
+        "peak_RSS_bytes": 90898432,
+        "artifact_bytes": 40159655,
+        "optimizer_neural_graph_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-12T14:04:38.156515Z",
+        "wall_seconds": 10.971888,
+        "host_memory_observations": 14,
+        "minimum_observed_headroom_bytes": 96363810816.0
+      },
+      "launch": {
+        "pid": 32080,
+        "utc_start": "2026-10-12T14:04:27.184627Z",
+        "script": "scripts/maintenance/reference_physical_validation_attempt02.py",
+        "stage": "validate_preflight02",
+        "headroom_before_bytes": 97192247296
+      },
+      "host_observations": 14,
+      "minimum_observed_headroom_bytes": 96363810816.0
+    },
+    {
+      "stage": "validate02",
+      "child": {
+        "utc": "2026-10-12T22:05:41.396772+08:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 26.543575935000263,
+        "peak_RSS_bytes": 119193600,
+        "artifact_bytes": 40170892,
+        "optimizer_neural_graph_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-12T14:05:40.8922492Z",
+        "wall_seconds": 30.4713525,
+        "host_memory_observations": 39,
+        "minimum_observed_headroom_bytes": 96432390144.0
+      },
+      "launch": {
+        "pid": 38948,
+        "utc_start": "2026-10-12T14:05:10.4208967Z",
+        "script": "scripts/maintenance/reference_physical_validation_attempt02.py",
+        "stage": "validate02",
+        "headroom_before_bytes": 97409462272
+      },
+      "host_observations": 39,
+      "minimum_observed_headroom_bytes": 96432390144.0
+    }
+  ]
+}

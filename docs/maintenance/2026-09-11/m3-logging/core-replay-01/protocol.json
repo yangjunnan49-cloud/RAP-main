@@ -1,0 +1,17 @@
+{
+  "frontend": "frozen saved odometry and keyframes",
+  "budget": 12,
+  "loop_method": "both",
+  "proximity_m": 15,
+  "temporal_separation": 200,
+  "sc_threshold": 0.25,
+  "sc_shortlist": 10,
+  "seed_per_sequence": 42,
+  "generations": 1,
+  "overlap_min": 0.7,
+  "mean_dist_max": 2.5,
+  "pgo": "relfloor+Huber",
+  "nms": 0,
+  "source_preprocessing": "minimum range 1.5m, no KITTI205",
+  "limitation": "Saved frontend frame binding assumes historical complete config range. This is not a full end-to-end rerun or independent calibration sample."
+}

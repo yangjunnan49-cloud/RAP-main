@@ -1,0 +1,21 @@
+{
+  "valid_resource_observations": 65,
+  "maximum_headroom_bytes": 8673792000.0,
+  "minimum_headroom_bytes": 8091230208.0,
+  "required_bytes": 12884901888,
+  "guard_passes": 0,
+  "last_resource_observation": {
+    "utc": "2026-10-17T06:09:14.0146474Z",
+    "committed_bytes": 129113673728,
+    "commit_limit_bytes": 137269444608,
+    "headroom_bytes": 8155770880,
+    "required_bytes": 12884901888
+  },
+  "source_note": "Two initial native CIM reads plus all valid observer rows, unique by actual UTC; no post-reset CIM read",
+  "C0_numeric_launches": 0,
+  "C0_python_syntax_runtime": "UNTESTED",
+  "original_C0_charged_seconds": 2.1993678,
+  "original_C0_remaining_seconds": 897.8006322,
+  "observer_preparation_full_lifetime_RSS": "UNKNOWN",
+  "all_native_process_tree_memory_certified": false
+}

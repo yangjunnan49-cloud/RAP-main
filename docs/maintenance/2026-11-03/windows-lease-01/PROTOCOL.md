@@ -1,0 +1,9 @@
+# WLC1 bounded immutable Windows lease regression controls
+
+The original SSC1 mutable-mailbox access failure warrants a small functional check of its replacement before future real work. This scope changes no completed scientific receipt or result. Origin2026-11-03T04:52:00Z, inclusive900s/reserve120s, harness120s, CPU only, child RSS512MiB, total dossier16MiB. Real system commitment >=12GiB and query<=2s are retained. No arrays/data/model/network/WSL/GPU/training.
+
+Use a copy of the already exercised immutable-mailbox host. Require at least one observed nonce exchange before accepting a child RESULT. Existing successful real stages all have >=1 exchange; their source and receipts remain untouched. Successful exit without the required exchange is a negative fixture, not scientific success.
+
+Predeclare cases: normal valid exchange exits0/result; exit0/result without lease is refused; valid exchange then nonzero7 is refused; valid exchange and no RESULT is refused; valid exchange then blocking30s is stopped by the external heartbeat within5s; request serial2 instead of1 is stopped within5s; source hash mismatch prevents any child launch; intentionally unattainable commitment-headroom preflight prevents any child launch. The last condition is a stronger synthetic refusal fixture, not a claim of actual resource shortage. Preserve every expected refusal's stdout/stderr/ownership receipt.
+
+Harness launches each case serially and inspects exit/RESULT/owned-child-reaped evidence. These controls exercise the changed transport and critical stop paths; they do not prove OS isolation, complete transient-peak coverage or every Windows filesystem behavior. No other guard feature or resource cap is weakened. Failure of a required control stops this scope; do not rerun real numerical work in this test.

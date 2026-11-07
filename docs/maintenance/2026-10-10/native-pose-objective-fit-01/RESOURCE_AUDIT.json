@@ -1,0 +1,54 @@
+{
+  "stages": [
+    {
+      "stage": "freeze",
+      "success": true,
+      "utc": "2026-10-10T03:14:13.337218+00:00",
+      "wall_seconds": 2.8082394141238183,
+      "peak_RSS_bytes": 543338496,
+      "peak_GPU_allocated_bytes": 0,
+      "peak_GPU_reserved_bytes": 0,
+      "artifact_bytes": 82492
+    },
+    {
+      "stage": "math_noise_control",
+      "success": true,
+      "utc": "2026-10-10T03:15:15.510110+00:00",
+      "wall_seconds": 53.30185241694562,
+      "peak_RSS_bytes": 1845690368,
+      "peak_GPU_allocated_bytes": 17630208,
+      "peak_GPU_reserved_bytes": 23068672,
+      "artifact_bytes": 1664171
+    },
+    {
+      "stage": "validate_control",
+      "success": true,
+      "utc": "2026-10-10T03:15:52.804186+00:00",
+      "wall_seconds": 2.680238770088181,
+      "peak_RSS_bytes": 542986240,
+      "peak_GPU_allocated_bytes": 0,
+      "peak_GPU_reserved_bytes": 0,
+      "artifact_bytes": 1665305
+    }
+  ],
+  "combined_recorded_wall_seconds": 58.79033060115762,
+  "peak_RSS_bytes": 1845690368,
+  "peak_GPU_allocated_bytes": 17630208,
+  "peak_GPU_reserved_bytes": 23068672,
+  "all_attempted_RSS_captured": true,
+  "all_failed_stages_counted": true,
+  "limits": {
+    "wall_seconds": 1800,
+    "GPU_bytes": 3221225472,
+    "RSS_bytes": 4294967296,
+    "artifact_bytes": 536870912
+  },
+  "all_recorded_caps_pass": true,
+  "exclusions": [
+    "module imports",
+    "WSL startup",
+    "design/docs",
+    "final identity/seal bookkeeping"
+  ],
+  "production_latency": false
+}

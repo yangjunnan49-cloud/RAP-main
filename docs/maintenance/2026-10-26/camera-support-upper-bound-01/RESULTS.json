@@ -1,0 +1,41 @@
+{
+  "utc": "2026-10-26T06:49:58.981079+00:00",
+  "passed": true,
+  "decision": "REFERENCE_CONDITIONED_FORWARD_DEPTH_UPPER_BOUND_ONLY",
+  "complete_pairs": 200,
+  "directional_records": 400,
+  "unique_source_scans": 273,
+  "summaries": [
+    {
+      "sequence": "00",
+      "directions": 200,
+      "point_occurrences": 24094914,
+      "joint_positive_occurrences": 6863649,
+      "directions_with_zero_numerical_upper": 26,
+      "fraction_min": 0.0,
+      "fraction_median": 0.4162673283383255,
+      "fraction_max": 0.5195944021081119,
+      "near_plane_occurrences": 0
+    },
+    {
+      "sequence": "08",
+      "directions": 200,
+      "point_occurrences": 24647255,
+      "joint_positive_occurrences": 5440594,
+      "directions_with_zero_numerical_upper": 59,
+      "fraction_min": 0.0,
+      "fraction_median": 0.18489745564761434,
+      "fraction_max": 0.5091397256243334,
+      "near_plane_occurrences": 0
+    }
+  ],
+  "independent_affine_route_all_occurrences": true,
+  "Decimal_points": 6400,
+  "max_Decimal_depth_delta": "5.5708724734217784534448915725879381000140711E-14",
+  "actual_image_support_or_information_established": false,
+  "pose_accuracy_metric_or_candidate_selection": false,
+  "model_forward_backward_optimizer_calls": 0,
+  "image_or_network_calls": 0,
+  "reference_role": "Exposed local supplied KITTI camera reference; no physical authentication",
+  "elapsed_seconds": 11.625
+}

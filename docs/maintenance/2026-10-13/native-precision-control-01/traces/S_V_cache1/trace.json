@@ -1,0 +1,31 @@
+{
+  "name": "S_V_cache1",
+  "condition": "S",
+  "arm": "V",
+  "path": "cache",
+  "rep": 1,
+  "loss": 7.229944003483979e-06,
+  "terms": {
+    "velocity": 7.229944003483979e-06
+  },
+  "linear_dtypes": {
+    "transformer_layers.10.global_qkv_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    },
+    "transformer_layers.10.global_out_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    },
+    "transformer_layers.11.global_qkv_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    },
+    "transformer_layers.11.global_out_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    }
+  },
+  "dispatched_ATen_names": [],
+  "factor": 1024.0
+}

@@ -1,0 +1,38 @@
+{
+  "reason": "PowerShell unsuffixed 0xcbf43926 is signed Int32; the correct CRC UInt32 3421780262 was compared to a negative value",
+  "original_control_failed_before_directory_parse_or_local_byte_scan": true,
+  "original_sources_and_failed_exit_preserved": true,
+  "worker_replacements": [
+    [
+      "0xcbf43926",
+      "3421780262L"
+    ],
+    [
+      "'original_archive_inventory_control.ps1'",
+      "'original_archive_inventory_control_attempt02.ps1'"
+    ],
+    [
+      "'validate_original_archive_inventory.py'",
+      "'validate_original_archive_inventory_attempt02.py'"
+    ],
+    [
+      "'local_bindings.json'",
+      "'local_bindings02.json'"
+    ],
+    [
+      "'inventory.json'",
+      "'inventory02.json'"
+    ]
+  ],
+  "controller_replacements": [
+    "inventory stage route to inventory02",
+    "worker path to attempt02"
+  ],
+  "validator_replacements": [
+    "binding route to local_bindings02",
+    "inventory route to inventory02"
+  ],
+  "CRC_algorithm_and_comparison_predicates_unchanged": true,
+  "no_new_HTTP_request": true,
+  "original_600s_cap_shared": true
+}

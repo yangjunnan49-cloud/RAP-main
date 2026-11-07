@@ -1,0 +1,5 @@
+{
+  "utc": "2026-10-07T00:54:00.301423+00:00",
+  "error": "AssertionError(('08_384_634', 0, 'D', 24.78940956880208))",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/e/githouse/RAP-main/scripts/maintenance/validate_raw_association_decoder.py\", line 303, in <module>\n    try:globals()[args.stage]()\n  File \"/mnt/e/githouse/RAP-main/scripts/maintenance/validate_raw_association_decoder.py\", line 211, in bank\n    error=float(np.max(np.abs(T-z['T'][ai,k])));max_pose=max(max_pose,error);assert error<1e-7,(key,k,ARMS[ai],error)\nAssertionError: ('08_384_634', 0, 'D', 24.78940956880208)\n"
+}

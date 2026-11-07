@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "positive_routing",
+      "tensor": false,
+      "provided_keypoints": false,
+      "passed": true
+    },
+    {
+      "case": "positive_routing",
+      "tensor": false,
+      "provided_keypoints": true,
+      "passed": true
+    },
+    {
+      "case": "positive_routing",
+      "tensor": true,
+      "provided_keypoints": false,
+      "passed": true
+    },
+    {
+      "case": "positive_routing",
+      "tensor": true,
+      "provided_keypoints": true,
+      "passed": true
+    },
+    {
+      "case": "numpy_model_exception",
+      "passed": true,
+      "observed": "AttributeError in fallback keypoints.dim masks the synthetic original RuntimeError",
+      "production_bug_confirmed": true
+    },
+    {
+      "case": "tensor_model_exception",
+      "passed": true,
+      "observed": "Source returns zeros; isolated strict boundary rejects",
+      "fallback_is_not_descriptor_success": true
+    },
+    {
+      "case": "empty_input",
+      "tensor": false,
+      "passed": true,
+      "observed_shape": [
+        0
+      ],
+      "not_admitted_as_model_input": true
+    },
+    {
+      "case": "empty_input",
+      "tensor": true,
+      "passed": true,
+      "observed_shape": [
+        0
+      ],
+      "not_admitted_as_model_input": true
+    },
+    {
+      "case": "strict_reject_nonfinite",
+      "passed": true
+    },
+    {
+      "case": "strict_reject_shape",
+      "passed": true
+    }
+  ],
+  "case_count": 10,
+  "source_wrapper_calls": 8,
+  "synthetic_stub_calls": 6,
+  "actual_feature_model_or_RAP_calls": 0,
+  "confirmed_numpy_fallback_bug": true,
+  "source_file_unchanged": true,
+  "strict_boundary_is_uninstalled": true,
+  "CUDA_initialized": false
+}

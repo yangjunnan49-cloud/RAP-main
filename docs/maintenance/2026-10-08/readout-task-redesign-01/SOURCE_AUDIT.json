@@ -1,0 +1,67 @@
+{
+  "kind": "Read-only interpretation/source audit; not an experimental freeze",
+  "utc": "2026-10-08T02:38:49.5241700Z",
+  "prior_RLP1_sealed_study_files_checked": 62,
+  "prior_RLP1_study_mismatches": 0,
+  "historical_mutable_handoff_entries": [
+    "E:\\githouse\\RAP-main\\AGENTS.md",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-08\\PHASE_RECORD.md"
+  ],
+  "files": {
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-08\\readout-pilot-01\\REPORT.md": "9a0cf2bcbee30b80f610da21531fe4ec60472f9521a3fedc0a53f0c69b97256e",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-08\\readout-pilot-01\\PROTOCOL.md": "267a2bc945a60a2e99e2bfe34f7637c55f5c822ecf63dcd39a8116700968175f",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-08\\readout-pilot-01\\STATUS.json": "9b09f1fce0632947e0895b65e8daaaa354c21447975e4885279e2d34baa601c3",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-08\\readout-pilot-01\\NEXT_ROUND_PLAN.md": "3600b8b835aab88e1db3d18207fd551b867ba4ddef77cac7bc9f02aaea4d5c8e",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-08\\readout-pilot-01\\RESOURCE_LOG.json": "7c43b700b6201085d4dfba69505a1324b091243e1a81798dc057bf4bf43f59e5",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-08\\readout-pilot-01\\DELIVERY_SEAL.json": "e395d6e529e9209d70cba21e164d8ad15834de54a49bf869bfddaaa1b5774767",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-08\\readout-pilot-01\\engineering-preflight\\attempt-03\\validation.json": "055a24dbab7bebc0a4ffd3e42e10784f5b72e0ba643965870c6b39933423a2a9",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-08\\readout-pilot-01\\engineering-preflight\\attempt-03\\validation_seal.json": "b6124f7beaa427b44c70f5d242801c605ecbfb50445c064013f18eb0b198cc61",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-08\\readout-pilot-01\\prerequisite-stop-audit\\validation.json": "073d0198175b631d4f8c4fb78e59591b8da3747c54bf3c8f3abe16d07f51ee0c",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-08\\readout-pilot-01\\prerequisite-stop-audit\\validation_seal.json": "74aca845f0f2a8094794ac9963dd0fefff661e392033d702d401127b1ade007b",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-08\\readout-pilot-01\\source_staging\\measured_point_readout.py": "34d7c742eb7001f7ba0b97cc90df9f346bd6083110014c6266bdd3099eb5f162",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-07\\readout-supervision-design-01\\REPORT.md": "17c5d9ed7b43bd2b10732d7d173993afa39371f120c38820eebbed4f83daea23",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-07\\readout-supervision-design-01\\TRAINING_ANNEX_DRAFT.md": "465bc790f97fb604dcae4e153f183a421512ee087bd3d3b1880a1710dfbbccfb",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-07\\readout-supervision-design-01\\WINDOW_MANIFEST_DRAFT.json": "160b2bbdfa482ed8b9aa200892810189b0cd08ea7460dd7a3747926f85ec80aa",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-07\\joint-token-preflight-01\\bank_seal.json": "d844d20b98da2812f3a12eaf86ee9e175ffcbe364f820438fd19df14572533b1",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-07\\learned-measurement-design-01\\REPORT.md": "267f05e659354fccbc3b880af36b971cc14e3175f6937ede80d5d73bf160d48c",
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-07\\measurement-interface-reassessment-01\\RESEARCH_REPORT.md": "a146ac4f4a02fdef6d5c8f1039f7fb5ffa29f8b3b404f6c6bea7e64059e34714"
+  },
+  "primary_sources": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Wang_Deep_Closest_Point_Learning_Representations_for_Point_Cloud_Registration_ICCV_2019_paper.html",
+      "claim": "Soft matching and differentiable SVD prior art",
+      "accessed": "2026-10-08"
+    },
+    {
+      "url": "https://github.com/WangYueFt/dcp/blob/master/main.py",
+      "claim": "Authors training code explicitly uses rotation and translation losses",
+      "accessed": "2026-10-08",
+      "revision_pinned": false
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Yew_RPM-Net_Robust_Point_Matching_Using_Learned_Features_CVPR_2020_paper.html",
+      "claim": "Soft assignment and partial-visibility registration prior art",
+      "accessed": "2026-10-08"
+    },
+    {
+      "url": "https://github.com/yewzijian/RPMNet/blob/master/src/models/rpmnet.py",
+      "claim": "Authors implementation uses soft-weighted reference coordinates and rigid solve",
+      "accessed": "2026-10-08",
+      "revision_pinned": false
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Qin_Geometric_Transformer_for_Fast_and_Robust_Point_Cloud_Registration_CVPR_2022_paper.html",
+      "claim": "Patch-overlap matching prior art",
+      "accessed": "2026-10-08"
+    },
+    {
+      "url": "https://www.cvlibs.net/datasets/kitti/eval_odometry.php",
+      "claim": "Official short-segment GPS/OXTS GT bias caveat and 100-800m system evaluation",
+      "accessed": "2026-10-08"
+    }
+  ],
+  "publication_pdf_fetch_failures": "Publisher PDF open/find attempts returned internal errors; primary landing pages and authors code supplied the cited claims",
+  "no_new_experimental_outputs": true,
+  "no_external_code_or_checkpoint_acquisition": true,
+  "no_execution_time_claim": true
+}

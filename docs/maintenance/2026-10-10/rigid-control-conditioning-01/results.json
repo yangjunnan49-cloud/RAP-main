@@ -1,0 +1,110 @@
+{
+  "records": [
+    {
+      "case": "RAW_DIRECT",
+      "errors": [
+        {
+          "part": 1,
+          "t_m": 3.28339087029104e-10,
+          "R_deg": 2.3912916861768264e-09
+        },
+        {
+          "part": 2,
+          "t_m": 1.919268942296556e-10,
+          "R_deg": 8.057920933220632e-10
+        }
+      ],
+      "final_cost": 1.0852365309712094e-16,
+      "scaled_gradient_max": 9.697990394334313e-09,
+      "tests": {
+        "pose": true,
+        "stationarity": true,
+        "proper": true,
+        "finite_cost": true
+      },
+      "passed": true,
+      "iterations": 12,
+      "closure_evaluations": 14
+    },
+    {
+      "case": "RAW_DECODE",
+      "errors": [
+        {
+          "part": 1,
+          "t_m": 3.2834147889314425e-10,
+          "R_deg": 2.39129708968446e-09
+        },
+        {
+          "part": 2,
+          "t_m": 1.9192947767660423e-10,
+          "R_deg": 8.057976959740931e-10
+        }
+      ],
+      "final_cost": 1.0852449096910756e-16,
+      "scaled_gradient_max": 9.698034213216796e-09,
+      "tests": {
+        "pose": true,
+        "stationarity": true,
+        "proper": true,
+        "finite_cost": true
+      },
+      "passed": true,
+      "iterations": 12,
+      "closure_evaluations": 14
+    },
+    {
+      "case": "SCALED_DIRECT",
+      "errors": [
+        {
+          "part": 1,
+          "t_m": 5.394319182825288e-12,
+          "R_deg": 4.0442298214778645e-12
+        },
+        {
+          "part": 2,
+          "t_m": 3.1497418395502254e-12,
+          "R_deg": 9.912925816863673e-12
+        }
+      ],
+      "final_cost": 9.235919839029717e-21,
+      "scaled_gradient_max": 9.846123916190663e-11,
+      "tests": {
+        "pose": true,
+        "stationarity": true,
+        "proper": true,
+        "finite_cost": true
+      },
+      "passed": true,
+      "iterations": 4,
+      "closure_evaluations": 6
+    },
+    {
+      "case": "SCALED_DECODE",
+      "errors": [
+        {
+          "part": 1,
+          "t_m": 5.395229902516714e-12,
+          "R_deg": 4.048729174105458e-12
+        },
+        {
+          "part": 2,
+          "t_m": 3.1531057450627916e-12,
+          "R_deg": 9.892210385332352e-12
+        }
+      ],
+      "final_cost": 9.245034622536238e-21,
+      "scaled_gradient_max": 9.848344362239919e-11,
+      "tests": {
+        "pose": true,
+        "stationarity": true,
+        "proper": true,
+        "finite_cost": true
+      },
+      "passed": true,
+      "iterations": 4,
+      "closure_evaluations": 6
+    }
+  ],
+  "primary_conjunction": true,
+  "decision": "FIXED_ANCHOR_METRIC_CONTROL_FEASIBLE"
+}

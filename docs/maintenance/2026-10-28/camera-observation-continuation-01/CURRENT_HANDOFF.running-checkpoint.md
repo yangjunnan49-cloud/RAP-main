@@ -1,0 +1,11 @@
+# Actual image observations now available
+
+Owner explicitly provides C:/Users/AAA/Downloads/data_odometry_gray.zip as the completed requested download. IA1 complete full archive SHA25694963792b9c48e37191583ba44608304713ae018a38735133f1435665f3ada12,23166524501bytes/87215index entries, all273 exact required camera0 members. IP1 extracts all273 original PNGs/71725068bytes under image-packet-verification-01/images, all ZIP CRC/chunk CRC/full grayscale decodes PASS. Actual dimensions00=1241x376/157frames,08=1226x370/116frames. Shared P0..P3 values exactly equal old local records; times byteexact4541/4071rows. New archive lacks Tr: old extrinsic role remains old, not newly authenticated.
+
+IA1 original sandbox CIM preflight failure occurred before any content worker; successful permission correction keeps original origin/caps and sole content attempt, all receipts retained. IA1 closes240.8381401/900s, IP1 closes184.2337003/1200s. No missing/subset/pose rescue. Full reports/seals are in their exact scope folders.
+
+VR1 finds cv2 absent in rap-inference; VC1 confirms no cv2 in the other three known WSL interpreters. Bundled Windows also lacks cv2/scipy/skimage. WSL initialStopped restored. No package installed into any existing environment. OCM1 separately authorized exact PyPI JSON read completes1GET/850147bytes/200/EOF,307.6335679/900s. Metadata identifies5.0.0.93 compatible with bundled Python3.12.14/NumPy2.3.5.
+
+Owner separately authorizes one fixed43,825,962byte wheel/SHA256829717b6a95554f273e49e357cee3b3a2a26b6f4842fbc1bed2b45bdd8f87e0e and isolated project-local no-dependency installation/API check. Read vision-runtime-install-01 actual stage receipts: action RUNNING at this checkpoint, do not infer success or rerun it. That answer explicitly excludes image algorithms, models and training. A new image-method scope requires prospective complete-cohort protocol and actual admission after compatible APIs exist. Never execute the old payload or a failed package stage blindly.
+
+Current55%/ordinaryTRUE/reset1793169166 followed2026-10-28 03:49:06UTC is not exhaustion. Original research UNRESOLVED/manuscript PAUSED, all old SR1/native/joint/equivalence/provenance failures/caps unchanged. No automatic reset resume, scheduler/goal-status action. Future result files supersede this RUNNING pointer only with their actual receipts.

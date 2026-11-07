@@ -1,0 +1,3 @@
+# Owner continuation / fixed-prefix derivative control
+
+Owner continuation “新的一天，请继续推进” plus autonomous multi-round authorization supports this distinct derivative control after FPC0 S/D both retained all four P direction gaps. Preserve those completed failures and all old NOC4/NBR/CCR stops/INCOMPLETE/seals/unknowns. New control evaluates the entire trainable tail at promoted precision around original exact parameter values, with a fixed archived upstream prefix. No historical gate repair or whole-native-function equivalence, no optimizer/retained updates/functional step/fit/new noise/real/nearby/trajectory. No production/default/backbone/reference/manuscript/install/acquisition/restart/commit/Git sync; both original HEADs/branches/two-nine tracked dirty sets remain.

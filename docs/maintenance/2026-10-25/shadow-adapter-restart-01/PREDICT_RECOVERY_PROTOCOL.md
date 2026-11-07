@@ -1,0 +1,7 @@
+# SR1 additive prediction recovery after external supervisor timeout
+
+The first predict invocation was killed by the outer 300 s tool limit after writing 42 complete case directories (U 17, V 17, P fit00 plus eval00..06). No prediction execution manifest, prediction seal, child-exit receipt, FAILURE_predict record or evaluation exists. The matching Windows/Python scientific process is no longer present. This is retained as an external-supervisor interruption, not a numerical pass and not evidence of a model/resource failure.
+
+Recovery is additive and does not modify the frozen SR1 runner or any old experiment. Before any new forward, record the recovery runner/protocol identities, exact expected arm/noise order and SHA256 of every existing prediction file. Require exactly the observed 42 complete directories and exactly nine missing P eval07..15 cases; reject extra, missing or malformed completed cases. Do not rerun or replace an existing case and do not compute pose metrics from the partial bank.
+
+Load the same strict two instances and sealed P20 state, run only the nine missing cases with the unchanged sampler, restore promoted initialization, then write the ordinary 51-case execution manifest and prediction seal. The existing independent evaluator must subsequently re-read and validate every array and all 51 cases before metrics. No case, noise, arm, threshold or iteration selection is introduced. The interrupted 300 s remains included in the experiment's time/resource accounting; no old cap or failure is amended.

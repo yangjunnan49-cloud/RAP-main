@@ -1,0 +1,6899 @@
+{
+  "passed": true,
+  "archives": [
+    {
+      "checkpoint": "rap_model_12.ckpt",
+      "checkpoint_sha256": "0C5B9F20EE4DFE2345C3CD47DD0632A3D807A3DA69C7653900A755CD06564200",
+      "top_keys": [
+        "MixedPrecision",
+        "callbacks",
+        "epoch",
+        "global_step",
+        "loops",
+        "lr_schedulers",
+        "optimizer_states",
+        "pytorch-lightning_version",
+        "rng_state",
+        "state_dict"
+      ],
+      "state_tensors": 344,
+      "state_elements": 85576192,
+      "state": {
+        "flow_model.anchor_part_emb.weight": {
+          "shape": [
+            2,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "0",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.encoding_manager.emb_proj.weight": {
+          "shape": [
+            512,
+            179
+          ],
+          "stride": [
+            179,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 91648,
+          "storage": "1",
+          "storage_elements": 91648,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.encoding_manager.emb_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "2",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.self_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "3",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.self_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "4",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.self_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "5",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.self_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "6",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.self_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "7",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.self_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "8",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.self_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "9",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.self_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "10",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.self_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "11",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.self_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "12",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.self_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "13",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.global_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "14",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.global_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "15",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.global_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "16",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.global_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "17",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.global_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "18",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.global_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "19",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.global_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "20",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.global_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "21",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.global_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "22",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.global_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "23",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.global_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "24",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.ff_norm.weight": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "25",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.ff_norm.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "26",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.ff.net.0.proj.weight": {
+          "shape": [
+            4096,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 2097152,
+          "storage": "27",
+          "storage_elements": 2097152,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.ff.net.0.proj.bias": {
+          "shape": [
+            4096
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 4096,
+          "storage": "28",
+          "storage_elements": 4096,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.ff.net.2.weight": {
+          "shape": [
+            512,
+            2048
+          ],
+          "stride": [
+            2048,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1048576,
+          "storage": "29",
+          "storage_elements": 1048576,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.0.ff.net.2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "30",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.self_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "31",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.self_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "32",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.self_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "33",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.self_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "34",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.self_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "35",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.self_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "36",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.self_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "37",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.self_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "38",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.self_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "39",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.self_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "40",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.self_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "41",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.global_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "42",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.global_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "43",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.global_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "44",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.global_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "45",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.global_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "46",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.global_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "47",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.global_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "48",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.global_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "49",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.global_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "50",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.global_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "51",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.global_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "52",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.ff_norm.weight": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "53",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.ff_norm.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "54",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.ff.net.0.proj.weight": {
+          "shape": [
+            4096,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 2097152,
+          "storage": "55",
+          "storage_elements": 2097152,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.ff.net.0.proj.bias": {
+          "shape": [
+            4096
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 4096,
+          "storage": "56",
+          "storage_elements": 4096,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.ff.net.2.weight": {
+          "shape": [
+            512,
+            2048
+          ],
+          "stride": [
+            2048,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1048576,
+          "storage": "57",
+          "storage_elements": 1048576,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.1.ff.net.2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "58",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.self_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "59",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.self_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "60",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.self_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "61",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.self_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "62",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.self_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "63",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.self_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "64",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.self_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "65",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.self_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "66",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.self_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "67",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.self_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "68",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.self_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "69",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.global_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "70",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.global_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "71",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.global_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "72",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.global_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "73",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.global_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "74",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.global_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "75",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.global_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "76",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.global_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "77",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.global_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "78",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.global_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "79",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.global_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "80",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.ff_norm.weight": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "81",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.ff_norm.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "82",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.ff.net.0.proj.weight": {
+          "shape": [
+            4096,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 2097152,
+          "storage": "83",
+          "storage_elements": 2097152,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.ff.net.0.proj.bias": {
+          "shape": [
+            4096
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 4096,
+          "storage": "84",
+          "storage_elements": 4096,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.ff.net.2.weight": {
+          "shape": [
+            512,
+            2048
+          ],
+          "stride": [
+            2048,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1048576,
+          "storage": "85",
+          "storage_elements": 1048576,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.2.ff.net.2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "86",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.self_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "87",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.self_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "88",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.self_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "89",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.self_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "90",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.self_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "91",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.self_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "92",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.self_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "93",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.self_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "94",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.self_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "95",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.self_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "96",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.self_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "97",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.global_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "98",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.global_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "99",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.global_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "100",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.global_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "101",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.global_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "102",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.global_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "103",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.global_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "104",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.global_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "105",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.global_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "106",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.global_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "107",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.global_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "108",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.ff_norm.weight": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "109",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.ff_norm.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "110",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.ff.net.0.proj.weight": {
+          "shape": [
+            4096,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 2097152,
+          "storage": "111",
+          "storage_elements": 2097152,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.ff.net.0.proj.bias": {
+          "shape": [
+            4096
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 4096,
+          "storage": "112",
+          "storage_elements": 4096,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.ff.net.2.weight": {
+          "shape": [
+            512,
+            2048
+          ],
+          "stride": [
+            2048,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1048576,
+          "storage": "113",
+          "storage_elements": 1048576,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.3.ff.net.2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "114",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.self_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "115",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.self_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "116",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.self_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "117",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.self_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "118",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.self_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "119",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.self_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "120",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.self_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "121",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.self_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "122",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.self_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "123",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.self_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "124",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.self_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "125",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.global_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "126",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.global_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "127",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.global_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "128",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.global_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "129",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.global_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "130",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.global_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "131",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.global_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "132",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.global_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "133",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.global_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "134",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.global_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "135",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.global_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "136",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.ff_norm.weight": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "137",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.ff_norm.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "138",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.ff.net.0.proj.weight": {
+          "shape": [
+            4096,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 2097152,
+          "storage": "139",
+          "storage_elements": 2097152,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.ff.net.0.proj.bias": {
+          "shape": [
+            4096
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 4096,
+          "storage": "140",
+          "storage_elements": 4096,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.ff.net.2.weight": {
+          "shape": [
+            512,
+            2048
+          ],
+          "stride": [
+            2048,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1048576,
+          "storage": "141",
+          "storage_elements": 1048576,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.4.ff.net.2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "142",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.self_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "143",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.self_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "144",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.self_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "145",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.self_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "146",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.self_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "147",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.self_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "148",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.self_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "149",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.self_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "150",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.self_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "151",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.self_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "152",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.self_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "153",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.global_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "154",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.global_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "155",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.global_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "156",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.global_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "157",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.global_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "158",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.global_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "159",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.global_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "160",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.global_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "161",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.global_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "162",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.global_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "163",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.global_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "164",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.ff_norm.weight": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "165",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.ff_norm.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "166",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.ff.net.0.proj.weight": {
+          "shape": [
+            4096,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 2097152,
+          "storage": "167",
+          "storage_elements": 2097152,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.ff.net.0.proj.bias": {
+          "shape": [
+            4096
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 4096,
+          "storage": "168",
+          "storage_elements": 4096,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.ff.net.2.weight": {
+          "shape": [
+            512,
+            2048
+          ],
+          "stride": [
+            2048,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1048576,
+          "storage": "169",
+          "storage_elements": 1048576,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.5.ff.net.2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "170",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.self_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "171",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.self_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "172",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.self_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "173",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.self_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "174",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.self_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "175",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.self_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "176",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.self_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "177",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.self_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "178",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.self_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "179",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.self_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "180",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.self_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "181",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.global_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "182",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.global_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "183",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.global_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "184",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.global_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "185",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.global_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "186",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.global_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "187",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.global_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "188",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.global_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "189",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.global_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "190",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.global_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "191",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.global_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "192",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.ff_norm.weight": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "193",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.ff_norm.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "194",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.ff.net.0.proj.weight": {
+          "shape": [
+            4096,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 2097152,
+          "storage": "195",
+          "storage_elements": 2097152,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.ff.net.0.proj.bias": {
+          "shape": [
+            4096
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 4096,
+          "storage": "196",
+          "storage_elements": 4096,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.ff.net.2.weight": {
+          "shape": [
+            512,
+            2048
+          ],
+          "stride": [
+            2048,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1048576,
+          "storage": "197",
+          "storage_elements": 1048576,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.6.ff.net.2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "198",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.self_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "199",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.self_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "200",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.self_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "201",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.self_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "202",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.self_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "203",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.self_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "204",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.self_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "205",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.self_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "206",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.self_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "207",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.self_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "208",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.self_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "209",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.global_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "210",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.global_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "211",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.global_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "212",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.global_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "213",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.global_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "214",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.global_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "215",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.global_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "216",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.global_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "217",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.global_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "218",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.global_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "219",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.global_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "220",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.ff_norm.weight": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "221",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.ff_norm.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "222",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.ff.net.0.proj.weight": {
+          "shape": [
+            4096,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 2097152,
+          "storage": "223",
+          "storage_elements": 2097152,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.ff.net.0.proj.bias": {
+          "shape": [
+            4096
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 4096,
+          "storage": "224",
+          "storage_elements": 4096,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.ff.net.2.weight": {
+          "shape": [
+            512,
+            2048
+          ],
+          "stride": [
+            2048,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1048576,
+          "storage": "225",
+          "storage_elements": 1048576,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.7.ff.net.2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "226",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.self_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "227",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.self_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "228",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.self_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "229",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.self_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "230",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.self_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "231",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.self_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "232",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.self_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "233",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.self_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "234",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.self_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "235",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.self_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "236",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.self_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "237",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.global_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "238",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.global_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "239",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.global_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "240",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.global_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "241",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.global_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "242",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.global_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "243",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.global_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "244",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.global_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "245",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.global_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "246",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.global_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "247",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.global_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "248",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.ff_norm.weight": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "249",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.ff_norm.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "250",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.ff.net.0.proj.weight": {
+          "shape": [
+            4096,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 2097152,
+          "storage": "251",
+          "storage_elements": 2097152,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.ff.net.0.proj.bias": {
+          "shape": [
+            4096
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 4096,
+          "storage": "252",
+          "storage_elements": 4096,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.ff.net.2.weight": {
+          "shape": [
+            512,
+            2048
+          ],
+          "stride": [
+            2048,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1048576,
+          "storage": "253",
+          "storage_elements": 1048576,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.8.ff.net.2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "254",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.self_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "255",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.self_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "256",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.self_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "257",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.self_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "258",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.self_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "259",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.self_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "260",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.self_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "261",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.self_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "262",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.self_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "263",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.self_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "264",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.self_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "265",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.global_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "266",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.global_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "267",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.global_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "268",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.global_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "269",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.global_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "270",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.global_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "271",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.global_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "272",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.global_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "273",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.global_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "274",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.global_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "275",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.global_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "276",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.ff_norm.weight": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "277",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.ff_norm.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "278",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.ff.net.0.proj.weight": {
+          "shape": [
+            4096,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 2097152,
+          "storage": "279",
+          "storage_elements": 2097152,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.ff.net.0.proj.bias": {
+          "shape": [
+            4096
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 4096,
+          "storage": "280",
+          "storage_elements": 4096,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.ff.net.2.weight": {
+          "shape": [
+            512,
+            2048
+          ],
+          "stride": [
+            2048,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1048576,
+          "storage": "281",
+          "storage_elements": 1048576,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.9.ff.net.2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "282",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.self_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "283",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.self_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "284",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.self_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "285",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.self_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "286",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.self_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "287",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.self_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "288",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.self_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "289",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.self_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "290",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.self_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "291",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.self_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "292",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.self_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "293",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.global_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "294",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.global_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "295",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.global_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "296",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.global_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "297",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.global_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "298",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.global_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "299",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.global_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "300",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.global_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "301",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.global_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "302",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.global_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "303",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.global_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "304",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.ff_norm.weight": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "305",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.ff_norm.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "306",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.ff.net.0.proj.weight": {
+          "shape": [
+            4096,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 2097152,
+          "storage": "307",
+          "storage_elements": 2097152,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.ff.net.0.proj.bias": {
+          "shape": [
+            4096
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 4096,
+          "storage": "308",
+          "storage_elements": 4096,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.ff.net.2.weight": {
+          "shape": [
+            512,
+            2048
+          ],
+          "stride": [
+            2048,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1048576,
+          "storage": "309",
+          "storage_elements": 1048576,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.10.ff.net.2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "310",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.self_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "311",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.self_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "312",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.self_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "313",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.self_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "314",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.self_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "315",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.self_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "316",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.self_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "317",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.self_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "318",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.self_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "319",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.self_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "320",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.self_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "321",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.global_prenorm.timestep_embedder.linear_1.weight": {
+          "shape": [
+            512,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "322",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.global_prenorm.timestep_embedder.linear_1.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "323",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.global_prenorm.timestep_embedder.linear_2.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "324",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.global_prenorm.timestep_embedder.linear_2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "325",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.global_prenorm.linear.weight": {
+          "shape": [
+            1024,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 524288,
+          "storage": "326",
+          "storage_elements": 524288,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.global_prenorm.linear.bias": {
+          "shape": [
+            1024
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1024,
+          "storage": "327",
+          "storage_elements": 1024,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.global_qkv_proj.weight": {
+          "shape": [
+            1536,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 786432,
+          "storage": "328",
+          "storage_elements": 786432,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.global_out_proj.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "329",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.global_out_proj.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "330",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.global_q_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "331",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.global_k_norm.gamma": {
+          "shape": [
+            8,
+            64
+          ],
+          "stride": [
+            64,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "332",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.ff_norm.weight": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "333",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.ff_norm.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "334",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.ff.net.0.proj.weight": {
+          "shape": [
+            4096,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 2097152,
+          "storage": "335",
+          "storage_elements": 2097152,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.ff.net.0.proj.bias": {
+          "shape": [
+            4096
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 4096,
+          "storage": "336",
+          "storage_elements": 4096,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.ff.net.2.weight": {
+          "shape": [
+            512,
+            2048
+          ],
+          "stride": [
+            2048,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1048576,
+          "storage": "337",
+          "storage_elements": 1048576,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.transformer_layers.11.ff.net.2.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "338",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.final_mlp.0.weight": {
+          "shape": [
+            512,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 262144,
+          "storage": "339",
+          "storage_elements": 262144,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.final_mlp.0.bias": {
+          "shape": [
+            512
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "340",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.final_mlp.2.weight": {
+          "shape": [
+            256,
+            512
+          ],
+          "stride": [
+            512,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 131072,
+          "storage": "341",
+          "storage_elements": 131072,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.final_mlp.2.bias": {
+          "shape": [
+            256
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 256,
+          "storage": "342",
+          "storage_elements": 256,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        },
+        "flow_model.final_mlp.4.weight": {
+          "shape": [
+            3,
+            256
+          ],
+          "stride": [
+            256,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 768,
+          "storage": "343",
+          "storage_elements": 768,
+          "storage_offset": 0,
+          "serialized_location": "cuda:0"
+        }
+      },
+      "unpickling": false,
+      "values_decoded": false
+    },
+    {
+      "checkpoint": "mini_spinnet_t.pth",
+      "checkpoint_sha256": "DAF910B6E2A79C4346A6EF8EEB18B56FFC15B552CC82AF091B8B6C0A18116EEF",
+      "top_keys": [
+        "Desc.conv_net.ops.0.bias",
+        "Desc.conv_net.ops.0.weight",
+        "Desc.conv_net.ops.1.num_batches_tracked",
+        "Desc.conv_net.ops.1.running_mean",
+        "Desc.conv_net.ops.1.running_var",
+        "Desc.conv_net.ops.10.num_batches_tracked",
+        "Desc.conv_net.ops.10.running_mean",
+        "Desc.conv_net.ops.10.running_var",
+        "Desc.conv_net.ops.12.bias",
+        "Desc.conv_net.ops.12.weight",
+        "Desc.conv_net.ops.13.num_batches_tracked",
+        "Desc.conv_net.ops.13.running_mean",
+        "Desc.conv_net.ops.13.running_var",
+        "Desc.conv_net.ops.15.bias",
+        "Desc.conv_net.ops.15.weight",
+        "Desc.conv_net.ops.16.num_batches_tracked",
+        "Desc.conv_net.ops.16.running_mean",
+        "Desc.conv_net.ops.16.running_var",
+        "Desc.conv_net.ops.18.bias",
+        "Desc.conv_net.ops.18.weight",
+        "Desc.conv_net.ops.19.num_batches_tracked",
+        "Desc.conv_net.ops.19.running_mean",
+        "Desc.conv_net.ops.19.running_var",
+        "Desc.conv_net.ops.21.bias",
+        "Desc.conv_net.ops.21.weight",
+        "Desc.conv_net.ops.3.bias",
+        "Desc.conv_net.ops.3.weight",
+        "Desc.conv_net.ops.4.num_batches_tracked",
+        "Desc.conv_net.ops.4.running_mean",
+        "Desc.conv_net.ops.4.running_var",
+        "Desc.conv_net.ops.6.bias",
+        "Desc.conv_net.ops.6.weight",
+        "Desc.conv_net.ops.7.num_batches_tracked",
+        "Desc.conv_net.ops.7.running_mean",
+        "Desc.conv_net.ops.7.running_var",
+        "Desc.conv_net.ops.9.bias",
+        "Desc.conv_net.ops.9.weight",
+        "Desc.pnt_layer.0.bias",
+        "Desc.pnt_layer.0.weight",
+        "Desc.pnt_layer.1.bias",
+        "Desc.pnt_layer.1.num_batches_tracked",
+        "Desc.pnt_layer.1.running_mean",
+        "Desc.pnt_layer.1.running_var",
+        "Desc.pnt_layer.1.weight",
+        "Desc.pool_layer.0.bias",
+        "Desc.pool_layer.0.weight",
+        "Desc.pool_layer.1.bias",
+        "Desc.pool_layer.1.num_batches_tracked",
+        "Desc.pool_layer.1.running_mean",
+        "Desc.pool_layer.1.running_var",
+        "Desc.pool_layer.1.weight",
+        "Desc.pool_layer.3.bias",
+        "Desc.pool_layer.3.weight",
+        "Desc.pool_layer.4.bias",
+        "Desc.pool_layer.4.num_batches_tracked",
+        "Desc.pool_layer.4.running_mean",
+        "Desc.pool_layer.4.running_var",
+        "Desc.pool_layer.4.weight",
+        "Pose.conv.ops.0.bias",
+        "Pose.conv.ops.0.weight",
+        "Pose.conv.ops.1.num_batches_tracked",
+        "Pose.conv.ops.1.running_mean",
+        "Pose.conv.ops.1.running_var",
+        "Pose.conv.ops.10.num_batches_tracked",
+        "Pose.conv.ops.10.running_mean",
+        "Pose.conv.ops.10.running_var",
+        "Pose.conv.ops.12.bias",
+        "Pose.conv.ops.12.weight",
+        "Pose.conv.ops.13.num_batches_tracked",
+        "Pose.conv.ops.13.running_mean",
+        "Pose.conv.ops.13.running_var",
+        "Pose.conv.ops.15.bias",
+        "Pose.conv.ops.15.weight",
+        "Pose.conv.ops.16.num_batches_tracked",
+        "Pose.conv.ops.16.running_mean",
+        "Pose.conv.ops.16.running_var",
+        "Pose.conv.ops.18.bias",
+        "Pose.conv.ops.18.weight",
+        "Pose.conv.ops.19.num_batches_tracked",
+        "Pose.conv.ops.19.running_mean",
+        "Pose.conv.ops.19.running_var",
+        "Pose.conv.ops.21.bias",
+        "Pose.conv.ops.21.weight",
+        "Pose.conv.ops.22.num_batches_tracked",
+        "Pose.conv.ops.22.running_mean",
+        "Pose.conv.ops.22.running_var",
+        "Pose.conv.ops.24.bias",
+        "Pose.conv.ops.24.weight",
+        "Pose.conv.ops.25.num_batches_tracked",
+        "Pose.conv.ops.25.running_mean",
+        "Pose.conv.ops.25.running_var",
+        "Pose.conv.ops.27.bias",
+        "Pose.conv.ops.27.weight",
+        "Pose.conv.ops.3.bias",
+        "Pose.conv.ops.3.weight",
+        "Pose.conv.ops.4.num_batches_tracked",
+        "Pose.conv.ops.4.running_mean",
+        "Pose.conv.ops.4.running_var",
+        "Pose.conv.ops.6.bias",
+        "Pose.conv.ops.6.weight",
+        "Pose.conv.ops.7.num_batches_tracked",
+        "Pose.conv.ops.7.running_mean",
+        "Pose.conv.ops.7.running_var",
+        "Pose.conv.ops.9.bias",
+        "Pose.conv.ops.9.weight"
+      ],
+      "state_tensors": 105,
+      "state_elements": 909996,
+      "state": {
+        "Desc.pnt_layer.0.weight": {
+          "shape": [
+            16,
+            3,
+            1,
+            1
+          ],
+          "stride": [
+            3,
+            1,
+            3,
+            3
+          ],
+          "dtype": "torch.float32",
+          "elements": 48,
+          "storage": "0",
+          "storage_elements": 48,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pnt_layer.0.bias": {
+          "shape": [
+            16
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 16,
+          "storage": "1",
+          "storage_elements": 16,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pnt_layer.1.weight": {
+          "shape": [
+            16
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 16,
+          "storage": "2",
+          "storage_elements": 16,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pnt_layer.1.bias": {
+          "shape": [
+            16
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 16,
+          "storage": "3",
+          "storage_elements": 16,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pnt_layer.1.running_mean": {
+          "shape": [
+            16
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 16,
+          "storage": "4",
+          "storage_elements": 16,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pnt_layer.1.running_var": {
+          "shape": [
+            16
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 16,
+          "storage": "5",
+          "storage_elements": 16,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pnt_layer.1.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "6",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pool_layer.0.weight": {
+          "shape": [
+            16,
+            32,
+            1,
+            1
+          ],
+          "stride": [
+            32,
+            1,
+            1,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 512,
+          "storage": "7",
+          "storage_elements": 512,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pool_layer.0.bias": {
+          "shape": [
+            16
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 16,
+          "storage": "8",
+          "storage_elements": 16,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pool_layer.1.weight": {
+          "shape": [
+            16
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 16,
+          "storage": "9",
+          "storage_elements": 16,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pool_layer.1.bias": {
+          "shape": [
+            16
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 16,
+          "storage": "10",
+          "storage_elements": 16,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pool_layer.1.running_mean": {
+          "shape": [
+            16
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 16,
+          "storage": "11",
+          "storage_elements": 16,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pool_layer.1.running_var": {
+          "shape": [
+            16
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 16,
+          "storage": "12",
+          "storage_elements": 16,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pool_layer.1.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "13",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pool_layer.3.weight": {
+          "shape": [
+            1,
+            16,
+            1,
+            1
+          ],
+          "stride": [
+            16,
+            1,
+            1,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 16,
+          "storage": "14",
+          "storage_elements": 16,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pool_layer.3.bias": {
+          "shape": [
+            1
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1,
+          "storage": "15",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pool_layer.4.weight": {
+          "shape": [
+            1
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1,
+          "storage": "16",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pool_layer.4.bias": {
+          "shape": [
+            1
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1,
+          "storage": "17",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pool_layer.4.running_mean": {
+          "shape": [
+            1
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1,
+          "storage": "18",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pool_layer.4.running_var": {
+          "shape": [
+            1
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 1,
+          "storage": "19",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.pool_layer.4.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "20",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.0.weight": {
+          "shape": [
+            64,
+            16,
+            3,
+            3,
+            3
+          ],
+          "stride": [
+            432,
+            27,
+            9,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 27648,
+          "storage": "21",
+          "storage_elements": 27648,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.0.bias": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "22",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.1.running_mean": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "23",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.1.running_var": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "24",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.1.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "25",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.3.weight": {
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "stride": [
+            576,
+            9,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 36864,
+          "storage": "26",
+          "storage_elements": 36864,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.3.bias": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "27",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.4.running_mean": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "28",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.4.running_var": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "29",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.4.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "30",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.6.weight": {
+          "shape": [
+            128,
+            64,
+            3,
+            3
+          ],
+          "stride": [
+            576,
+            9,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 73728,
+          "storage": "31",
+          "storage_elements": 73728,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.6.bias": {
+          "shape": [
+            128
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 128,
+          "storage": "32",
+          "storage_elements": 128,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.7.running_mean": {
+          "shape": [
+            128
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 128,
+          "storage": "33",
+          "storage_elements": 128,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.7.running_var": {
+          "shape": [
+            128
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 128,
+          "storage": "34",
+          "storage_elements": 128,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.7.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "35",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.9.weight": {
+          "shape": [
+            128,
+            128,
+            3,
+            3
+          ],
+          "stride": [
+            1152,
+            9,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 147456,
+          "storage": "36",
+          "storage_elements": 147456,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.9.bias": {
+          "shape": [
+            128
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 128,
+          "storage": "37",
+          "storage_elements": 128,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.10.running_mean": {
+          "shape": [
+            128
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 128,
+          "storage": "38",
+          "storage_elements": 128,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.10.running_var": {
+          "shape": [
+            128
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 128,
+          "storage": "39",
+          "storage_elements": 128,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.10.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "40",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.12.weight": {
+          "shape": [
+            64,
+            128,
+            3,
+            3
+          ],
+          "stride": [
+            1152,
+            9,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 73728,
+          "storage": "41",
+          "storage_elements": 73728,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.12.bias": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "42",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.13.running_mean": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "43",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.13.running_var": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "44",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.13.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "45",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.15.weight": {
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "stride": [
+            576,
+            9,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 36864,
+          "storage": "46",
+          "storage_elements": 36864,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.15.bias": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "47",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.16.running_mean": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "48",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.16.running_var": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "49",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.16.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "50",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.18.weight": {
+          "shape": [
+            32,
+            64,
+            3,
+            3
+          ],
+          "stride": [
+            576,
+            9,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 18432,
+          "storage": "51",
+          "storage_elements": 18432,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.18.bias": {
+          "shape": [
+            32
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 32,
+          "storage": "52",
+          "storage_elements": 32,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.19.running_mean": {
+          "shape": [
+            32
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 32,
+          "storage": "53",
+          "storage_elements": 32,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.19.running_var": {
+          "shape": [
+            32
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 32,
+          "storage": "54",
+          "storage_elements": 32,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.19.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "55",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.21.weight": {
+          "shape": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "stride": [
+            288,
+            9,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 9216,
+          "storage": "56",
+          "storage_elements": 9216,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Desc.conv_net.ops.21.bias": {
+          "shape": [
+            32
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 32,
+          "storage": "57",
+          "storage_elements": 32,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.0.weight": {
+          "shape": [
+            32,
+            32,
+            3,
+            3,
+            3
+          ],
+          "stride": [
+            864,
+            27,
+            9,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 27648,
+          "storage": "58",
+          "storage_elements": 27648,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.0.bias": {
+          "shape": [
+            32
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 32,
+          "storage": "59",
+          "storage_elements": 32,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.1.running_mean": {
+          "shape": [
+            32
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 32,
+          "storage": "60",
+          "storage_elements": 32,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.1.running_var": {
+          "shape": [
+            32
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 32,
+          "storage": "61",
+          "storage_elements": 32,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.1.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "62",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.3.weight": {
+          "shape": [
+            64,
+            32,
+            3,
+            3,
+            3
+          ],
+          "stride": [
+            864,
+            27,
+            9,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 55296,
+          "storage": "63",
+          "storage_elements": 55296,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.3.bias": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "64",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.4.running_mean": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "65",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.4.running_var": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "66",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.4.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "67",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.6.weight": {
+          "shape": [
+            64,
+            64,
+            3,
+            1,
+            3
+          ],
+          "stride": [
+            576,
+            9,
+            3,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 36864,
+          "storage": "68",
+          "storage_elements": 36864,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.6.bias": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "69",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.7.running_mean": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "70",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.7.running_var": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "71",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.7.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "72",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.9.weight": {
+          "shape": [
+            128,
+            64,
+            3,
+            1,
+            3
+          ],
+          "stride": [
+            576,
+            9,
+            3,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 73728,
+          "storage": "73",
+          "storage_elements": 73728,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.9.bias": {
+          "shape": [
+            128
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 128,
+          "storage": "74",
+          "storage_elements": 128,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.10.running_mean": {
+          "shape": [
+            128
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 128,
+          "storage": "75",
+          "storage_elements": 128,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.10.running_var": {
+          "shape": [
+            128
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 128,
+          "storage": "76",
+          "storage_elements": 128,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.10.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "77",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.12.weight": {
+          "shape": [
+            128,
+            128,
+            3,
+            1,
+            3
+          ],
+          "stride": [
+            1152,
+            9,
+            3,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 147456,
+          "storage": "78",
+          "storage_elements": 147456,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.12.bias": {
+          "shape": [
+            128
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 128,
+          "storage": "79",
+          "storage_elements": 128,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.13.running_mean": {
+          "shape": [
+            128
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 128,
+          "storage": "80",
+          "storage_elements": 128,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.13.running_var": {
+          "shape": [
+            128
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 128,
+          "storage": "81",
+          "storage_elements": 128,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.13.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "82",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.15.weight": {
+          "shape": [
+            64,
+            128,
+            3,
+            1,
+            3
+          ],
+          "stride": [
+            1152,
+            9,
+            3,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 73728,
+          "storage": "83",
+          "storage_elements": 73728,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.15.bias": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "84",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.16.running_mean": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "85",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.16.running_var": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "86",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.16.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "87",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.18.weight": {
+          "shape": [
+            64,
+            64,
+            3,
+            1,
+            3
+          ],
+          "stride": [
+            576,
+            9,
+            3,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 36864,
+          "storage": "88",
+          "storage_elements": 36864,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.18.bias": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "89",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.19.running_mean": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "90",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.19.running_var": {
+          "shape": [
+            64
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 64,
+          "storage": "91",
+          "storage_elements": 64,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.19.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "92",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.21.weight": {
+          "shape": [
+            32,
+            64,
+            3,
+            1,
+            3
+          ],
+          "stride": [
+            576,
+            9,
+            3,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 18432,
+          "storage": "93",
+          "storage_elements": 18432,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.21.bias": {
+          "shape": [
+            32
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 32,
+          "storage": "94",
+          "storage_elements": 32,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.22.running_mean": {
+          "shape": [
+            32
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 32,
+          "storage": "95",
+          "storage_elements": 32,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.22.running_var": {
+          "shape": [
+            32
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 32,
+          "storage": "96",
+          "storage_elements": 32,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.22.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "97",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.24.weight": {
+          "shape": [
+            32,
+            32,
+            3,
+            1,
+            3
+          ],
+          "stride": [
+            288,
+            9,
+            3,
+            3,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 9216,
+          "storage": "98",
+          "storage_elements": 9216,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.24.bias": {
+          "shape": [
+            32
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 32,
+          "storage": "99",
+          "storage_elements": 32,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.25.running_mean": {
+          "shape": [
+            32
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 32,
+          "storage": "100",
+          "storage_elements": 32,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.25.running_var": {
+          "shape": [
+            32
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 32,
+          "storage": "101",
+          "storage_elements": 32,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.25.num_batches_tracked": {
+          "shape": [],
+          "stride": [],
+          "dtype": "torch.int64",
+          "elements": 1,
+          "storage": "102",
+          "storage_elements": 1,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.27.weight": {
+          "shape": [
+            20,
+            32,
+            2,
+            1,
+            2
+          ],
+          "stride": [
+            128,
+            4,
+            2,
+            2,
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 2560,
+          "storage": "103",
+          "storage_elements": 2560,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        },
+        "Pose.conv.ops.27.bias": {
+          "shape": [
+            20
+          ],
+          "stride": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "elements": 20,
+          "storage": "104",
+          "storage_elements": 20,
+          "storage_offset": 0,
+          "serialized_location": "cpu"
+        }
+      },
+      "unpickling": false,
+      "values_decoded": false
+    }
+  ],
+  "controls": 12,
+  "class_execution": false,
+  "tensor_values_decoded": false
+}

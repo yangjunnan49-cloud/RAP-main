@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "case-000",
+      "RAP_seal": "case-000_RAP_SEAL.json",
+      "ICP_controls": 1
+    },
+    {
+      "case": "case-001",
+      "RAP_seal": "case-001_RAP_SEAL.json",
+      "ICP_controls": 2
+    }
+  ],
+  "captures": [
+    {
+      "case": "case-000",
+      "cond": {
+        "file": "case-000_cond.npy",
+        "shape": [
+          8000,
+          3
+        ],
+        "dtype": "float32",
+        "sha256": "E07C5F4B4A11D00052726FA8FA1DF62E46DF1EF1CA7A78FD316E246B91AAB7D7"
+      },
+      "endpoint": {
+        "file": "case-000_endpoint.npy",
+        "shape": [
+          8000,
+          3
+        ],
+        "dtype": "float32",
+        "sha256": "37CD6DABBF72A6DC6386D0F569ECDA5150BA0D74A7D2B0249744C48294B78DB7"
+      },
+      "counts": [
+        4000,
+        4000
+      ],
+      "primary": 0,
+      "fields": [
+        "anchor_indices",
+        "cu_seqlens",
+        "features",
+        "pointclouds",
+        "pointclouds_gt",
+        "points_per_part",
+        "scales"
+      ],
+      "endpoint_dtype": "torch.float32"
+    },
+    {
+      "case": "case-001",
+      "cond": {
+        "file": "case-001_cond.npy",
+        "shape": [
+          12000,
+          3
+        ],
+        "dtype": "float32",
+        "sha256": "775E18D5C6F8BA4F5B9C74AD037D0CB164D9A2BDD396858702396C5158329B62"
+      },
+      "endpoint": {
+        "file": "case-001_endpoint.npy",
+        "shape": [
+          12000,
+          3
+        ],
+        "dtype": "float32",
+        "sha256": "67FA7B38153F220C0AB7676ADA0CA63C432AA1C9C134119ACD821B38F04E70D6"
+      },
+      "counts": [
+        4000,
+        4000,
+        4000
+      ],
+      "primary": 0,
+      "fields": [
+        "anchor_indices",
+        "cu_seqlens",
+        "features",
+        "pointclouds",
+        "pointclouds_gt",
+        "points_per_part",
+        "scales"
+      ],
+      "endpoint_dtype": "torch.float32"
+    }
+  ],
+  "counters": {
+    "point_occurrences_decoded": 56557,
+    "point_occurrences_submitted": 56557,
+    "public_reader_attempted": true,
+    "public_reader_completed": true,
+    "backend_constructor_attempts": 1,
+    "backend_constructor_completed": true,
+    "feature_calls_attempted": 5,
+    "feature_calls_completed": 5,
+    "descriptor_forward_attempts": 5,
+    "descriptor_forward_completed": 5,
+    "RAP_calls_attempted": 2,
+    "RAP_calls_completed": 2,
+    "flow_forward_attempts": 10,
+    "flow_forward_completed": 10,
+    "ICP_calls_completed": 3,
+    "private_reference_reads": 0,
+    "original_torch_load_calls": 0
+  },
+  "public_access": {
+    "public_access": [
+      "INDEX.json",
+      "case-000/manifest.json",
+      "case-000/v00.xyz64",
+      "case-000/v01.xyz64",
+      "case-001/manifest.json",
+      "case-001/v00.xyz64",
+      "case-001/v01.xyz64",
+      "case-001/v02.xyz64"
+    ],
+    "point_occurrences": 56557,
+    "case_point_counts": [
+      22622,
+      33935
+    ],
+    "private_reads_requested": false,
+    "cooperating_interface_only": true
+  },
+  "GPU": {
+    "name": "NVIDIA GeForce RTX 5070",
+    "driver": "610.62",
+    "free_MiB": 9466,
+    "used_MiB": 2479,
+    "total_MiB": 12227,
+    "required_free_MiB": 9216
+  },
+  "peak_torch_allocated_bytes": 4785265152,
+  "peak_torch_reserved_bytes": 6222249984,
+  "private_reference_evaluation": false,
+  "physical_efficacy_claim": false,
+  "speed_comparison_qualified": false,
+  "candidate_installed": false
+}

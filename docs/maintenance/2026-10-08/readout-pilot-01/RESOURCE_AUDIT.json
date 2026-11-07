@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-08",
+  "recorded_process_stages": 11,
+  "recorded_compute_s": 115.32903792662546,
+  "enclosing_first_recorded_start_to_last_validation_s": 711.3864335,
+  "enclosing_interval_includes_implementation_idle_and_waits": true,
+  "first_recorded_start_utc": "2026-10-08T10:07:50.6135665+08:00",
+  "last_validation_resource_utc": "2026-10-08T10:19:42.0000000+08:00",
+  "peak_allocated_gpu_gib": 1.3868770599365234,
+  "peak_process_rss_gib": 2.688793182373047,
+  "artifact_bytes_before_closure_ledgers": 207982364.0,
+  "compute_cap_s": 3600,
+  "gpu_cap_gib": 3,
+  "rss_cap_gib": 4,
+  "artifact_cap_bytes": 4294967296,
+  "caps_passed": true,
+  "cost_boundary": "Process counters exclude WSL launch and final ledger serialization. Enclosing interval is conservative and is not an inference benchmark. No fitting occurred.",
+  "frozen_source_rechecks": [
+    {
+      "stage": "engineering-preflight",
+      "entries": 123,
+      "mismatches": 0
+    },
+    {
+      "stage": "engineering-preflight/attempt-02",
+      "entries": 126,
+      "mismatches": 0
+    },
+    {
+      "stage": "engineering-preflight/attempt-03",
+      "entries": 130,
+      "mismatches": 0
+    },
+    {
+      "stage": "weak-label-preflight",
+      "entries": 121,
+      "mismatches": 0
+    },
+    {
+      "stage": "prerequisite-stop-audit",
+      "entries": 130,
+      "mismatches": 0
+    }
+  ],
+  "DS0_16_sources_unchanged": true,
+  "TR0_20_bank_files_unchanged": true
+}

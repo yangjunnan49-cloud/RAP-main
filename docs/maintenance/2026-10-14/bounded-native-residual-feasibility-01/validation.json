@@ -1,0 +1,119 @@
+{
+  "passed": true,
+  "decision": "BOUNDED_NATIVE_BASE_FAMILY_CANNOT_MEET_STRONG_CONTROL_GATES",
+  "all48_rows_and132_errors_verified": true,
+  "independent_error_max_delta": 1.6402157410055906e-13,
+  "all_bound_and_control_conjunctions_verified": true,
+  "optimistic_family_not_achieved_predictions": true,
+  "summary": {
+    "decision": "BOUNDED_NATIVE_BASE_FAMILY_CANNOT_MEET_STRONG_CONTROL_GATES",
+    "all_necessary_conditions_possible": false,
+    "comparisons": {
+      "G3": {
+        "windows": 48,
+        "optimistic_paired_median_gain": [
+          0.07815624573926067,
+          0.2212235816594496
+        ],
+        "optimistic_median_error": [
+          0.009505757964062111,
+          0.0
+        ],
+        "control_median_error": [
+          0.09711549898170921,
+          0.2389677237559496
+        ],
+        "required_paired_margins": [
+          0.005,
+          0.01
+        ],
+        "paired_gain_possible": true,
+        "cohort_ratio_possible": true,
+        "sequence_safety": {
+          "07": {
+            "optimistic_mean_regression": [
+              -0.04924165356888514,
+              -0.2834845359727615
+            ],
+            "possible": true
+          },
+          "08": {
+            "optimistic_mean_regression": [
+              -0.0790720949894286,
+              -0.1715026740806543
+            ],
+            "possible": true
+          },
+          "09": {
+            "optimistic_mean_regression": [
+              -0.10357466336971372,
+              -0.22544816400806314
+            ],
+            "possible": true
+          },
+          "10": {
+            "optimistic_mean_regression": [
+              -0.08868724607775118,
+              -0.26838487572628805
+            ],
+            "possible": true
+          }
+        },
+        "all_necessary_conditions_possible": true
+      },
+      "KISS": {
+        "windows": 36,
+        "optimistic_paired_median_gain": [
+          0.00527803709660721,
+          0.04351481245919725
+        ],
+        "optimistic_median_error": [
+          0.01272043376433999,
+          0.0
+        ],
+        "control_median_error": [
+          0.022371427300951218,
+          0.049555058876469174
+        ],
+        "required_paired_margins": [
+          0.002,
+          0.005
+        ],
+        "paired_gain_possible": true,
+        "cohort_ratio_possible": true,
+        "sequence_safety": {
+          "07": {
+            "optimistic_mean_regression": [
+              0.026818046315922064,
+              -0.04838620840364983
+            ],
+            "possible": false
+          },
+          "09": {
+            "optimistic_mean_regression": [
+              0.014340754670100313,
+              -0.04678158233530428
+            ],
+            "possible": false
+          },
+          "10": {
+            "optimistic_mean_regression": [
+              -0.0268760174689238,
+              -0.11819038357796624
+            ],
+            "possible": true
+          }
+        },
+        "all_necessary_conditions_possible": false
+      }
+    },
+    "no_head_fit_or_achieved_prediction": true,
+    "units": [
+      "translation_m",
+      "rotation_deg"
+    ]
+  },
+  "head_fits": 0,
+  "backwards": 0,
+  "physical_truth_or_new_system_claim": false
+}

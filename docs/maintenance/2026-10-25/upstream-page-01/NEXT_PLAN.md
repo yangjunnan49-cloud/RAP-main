@@ -1,0 +1,9 @@
+# After PP1: prospective source decision, no pending task
+
+This round is closed at the owner's request before quota exhaustion. The single project page was authorized and completed; its authorization does not extend to linked objects. Do not restart it, follow links, download archives/papers/raw scans/poses/weights, infer a new until-quota window, or resume automatically after reset.
+
+If the owner later requests more progress, first identify an original already authorized local acquisition/reference/readme record or prepare a new exact-object proposal for the appropriate upstream record. The current HTML mentions readme.txt without an explicit readme anchor in the extracted link set; do not guess a download URL or obtain an entire dataset to locate it. The creation-paper reference is arXiv2310.16542, not an authorization to acquire its page/PDF. No new permission question is left pending by this closeout.
+
+The required evidence is still the exact mapping and preprocessing from upstream acquisition/returns to the three RegX derivative files, their common-world/reference construction/quality and sensor/time/frame conventions. Source quality alone would not create a reserved independent cohort or establish this local checkpoint's exclusion. Keep already exposed augmentations and outcome histories exposed; scene/file/view/point/coordinate counts retain their distinct meanings.
+
+After an actual source record, review its limited role and the useful mechanism/common-input strong-control question before any separate efficacy protocol. Generic joint registration, more roundtrips/interface prototypes, shared-pose cycle closure or a different name for a retired construction do not supply new physical evidence or originality. No real model/benchmark/fit/metric payload is admitted here. Research UNRESOLVED/manuscript PAUSED and all old caps/failures/reference/default/production/install/Git/outreach/scheduler/goal-status boundaries remain.

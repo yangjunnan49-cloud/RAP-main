@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "decision": "EXCLUSIVE_PAYLOAD_UPPER_BOUND_VALID_EXTERNAL_WRITES_REQUIRE_SEPARATE_RECONCILIATION",
+  "fixtures": [
+    {
+      "name": "exact_success",
+      "passed": true,
+      "reserved": 7,
+      "actual_bytes": 7,
+      "all_files": [
+        {
+          "path": "a.bin",
+          "bytes": 4,
+          "sha256": "88d4266fd4e6338d13b845fcf289579d209c897823b9217da3e161936f031589"
+        },
+        {
+          "path": "sub/b.bin",
+          "bytes": 3,
+          "sha256": "d4ffe8e9ee0b48eba716706123a7187f32eae3bdcb0e7763e41e533267bd8a53"
+        }
+      ],
+      "upper_bound_applies": true
+    },
+    {
+      "name": "short_write",
+      "passed": true,
+      "reserved": 8,
+      "actual_bytes": 3,
+      "all_files": [
+        {
+          "path": "a.bin",
+          "bytes": 3,
+          "sha256": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+        }
+      ],
+      "upper_bound_applies": true
+    },
+    {
+      "name": "duplicate_refusal",
+      "passed": true,
+      "reserved": 8,
+      "actual_bytes": 4,
+      "all_files": [
+        {
+          "path": "a.bin",
+          "bytes": 4,
+          "sha256": "88d4266fd4e6338d13b845fcf289579d209c897823b9217da3e161936f031589"
+        }
+      ],
+      "upper_bound_applies": true
+    },
+    {
+      "name": "budget_refusal",
+      "passed": true,
+      "reserved": 4,
+      "actual_bytes": 4,
+      "all_files": [
+        {
+          "path": "a.bin",
+          "bytes": 4,
+          "sha256": "88d4266fd4e6338d13b845fcf289579d209c897823b9217da3e161936f031589"
+        }
+      ],
+      "upper_bound_applies": true
+    },
+    {
+      "name": "path_refusal",
+      "passed": true,
+      "reserved": 0,
+      "actual_bytes": 0,
+      "all_files": [],
+      "upper_bound_applies": true
+    },
+    {
+      "name": "two_retained_failures",
+      "passed": true,
+      "reserved": 18,
+      "actual_bytes": 9,
+      "all_files": [
+        {
+          "path": "a.bin",
+          "bytes": 2,
+          "sha256": "fb8e20fc2e4c3f248c60c39bd652f3c1347298bb977b8b4d5903b85055620603"
+        },
+        {
+          "path": "c.bin",
+          "bytes": 2,
+          "sha256": "769a4e6d0003189c7e96c5d9b7e810a0d11c3a12832527ec94b0f86d277f51ca"
+        },
+        {
+          "path": "sub/b.bin",
+          "bytes": 5,
+          "sha256": "36bbe50ed96841d10443bcb670d6554f0a34b761be67ec9c4a8ad2c0c44ca42c"
+        }
+      ],
+      "upper_bound_applies": true
+    },
+    {
+      "name": "untracked_external_negative",
+      "passed": true,
+      "reserved": 4,
+      "actual_bytes": 16,
+      "all_files": [
+        {
+          "path": "a.bin",
+          "bytes": 4,
+          "sha256": "88d4266fd4e6338d13b845fcf289579d209c897823b9217da3e161936f031589"
+        },
+        {
+          "path": "external.bin",
+          "bytes": 12,
+          "sha256": "2a33349e7e606a8ad2e30e3c84521f9377450cf09083e162e0a9b1480ce0f972"
+        }
+      ],
+      "upper_bound_applies": false
+    }
+  ],
+  "independent_source_files": 2166,
+  "independent_source_bytes": 1459341665,
+  "all_source_hashes_and_lengths_match": true,
+  "filesystem_and_metadata_sums_exact": true,
+  "external_untracked_negative_detected": true,
+  "whole_new_dossier_cap_safety_not_proven": true,
+  "archive_retry_or_codec_or_model_GT_calls": 0,
+  "performance_scope": "observer sums only; not end-to-end archive speedup"
+}

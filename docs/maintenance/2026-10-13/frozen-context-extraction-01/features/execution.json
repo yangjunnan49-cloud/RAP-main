@@ -1,0 +1,65 @@
+{
+  "records": [
+    {
+      "noise": "fit_00",
+      "layout": "J_joint",
+      "perturbation": "only_nonanchor_x_add_[.125,-.0625,.03125]",
+      "tau": 1.0,
+      "prefix_layers": 10
+    },
+    {
+      "noise": "fit_00",
+      "layout": "I_separated",
+      "perturbation": "only_nonanchor_x_add_[.125,-.0625,.03125]",
+      "tau": 1.0,
+      "prefix_layers": 10
+    },
+    {
+      "noise": "eval_00",
+      "layout": "J_joint",
+      "perturbation": "only_nonanchor_x_add_[.125,-.0625,.03125]",
+      "tau": 1.0,
+      "prefix_layers": 10
+    },
+    {
+      "noise": "eval_00",
+      "layout": "I_separated",
+      "perturbation": "only_nonanchor_x_add_[.125,-.0625,.03125]",
+      "tau": 1.0,
+      "prefix_layers": 10
+    }
+  ],
+  "strict_checkpoint": {
+    "strict": true,
+    "keys": 344,
+    "weights_only": true,
+    "allowed": [
+      "builtins.dict",
+      "builtins.int",
+      "builtins.list",
+      "collections.defaultdict",
+      "numpy._core.multiarray._reconstruct",
+      "numpy.dtype",
+      "numpy.ndarray",
+      "omegaconf.base.ContainerMetadata",
+      "omegaconf.base.Metadata",
+      "omegaconf.listconfig.ListConfig",
+      "omegaconf.nodes.AnyNode",
+      "typing.Any"
+    ],
+    "descriptor_loaded": false
+  },
+  "prefix_helper_calls": 12,
+  "full_FP32_flow_forwards": 4,
+  "native_backwards": 0,
+  "head_backwards": 0,
+  "optimizer_calls": 0,
+  "retained_updates": 0,
+  "source_sampler_calls": 0,
+  "truth_target_arrays_loaded": false,
+  "model_values_modes_attention_flags_hooks_restored": true,
+  "original_initialized_trainables": 443904,
+  "parameter_updates": 0,
+  "original_native_FP16_equivalence": false,
+  "fixture_independent_scenes": 1
+}

@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-07T11:39:05.453320+00:00",
+  "stages": {
+    "freeze": {
+      "wall_s": 20.64570743893273,
+      "peak_rss_bytes": null
+    },
+    "bank": {
+      "wall_s": 185.03119657188654,
+      "peak_rss_bytes": 97587200
+    },
+    "bank_validation": {
+      "wall_s": 328.6964705688879,
+      "peak_rss_bytes": 124100608
+    },
+    "evaluation": {
+      "wall_s": 19.245095467893407,
+      "peak_rss_bytes": 122970112
+    },
+    "evaluation_validation": {
+      "wall_s": 40.89431665302254,
+      "peak_rss_bytes": 116994048
+    }
+  },
+  "total_wall_s": 594.5127867006231,
+  "peak_rss_bytes": 124100608,
+  "artifact_bytes": 48156295,
+  "per_stage_cpu_cap_s": 3600,
+  "rss_cap_bytes": 4294967296,
+  "artifact_cap_bytes": 524288000
+}

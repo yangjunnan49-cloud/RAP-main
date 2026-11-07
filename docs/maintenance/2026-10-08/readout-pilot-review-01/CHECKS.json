@@ -1,0 +1,56 @@
+{
+  "kind": "read_only_task_review",
+  "date": "2026-10-08",
+  "previous_thread_id": "01a113b8-b101-73c1-ac2e-799472f5900a",
+  "previous_thread_title": "规划RAP下一步提升方向",
+  "ds0_delivery_before_handoff_update": {"entries": 15, "mismatches": 0},
+  "ds0_source_snapshot": {"entries": 16, "mismatches": 0},
+  "tr0_bank": {"files": 20, "mismatches": 0},
+  "tr0_validation_seal": {"freeze_matches": true, "bank_seal_matches": true, "validation_matches": true},
+  "draft_windows": {"total": 204, "fit": 144, "development": 12, "exposed_evaluation": 48, "unique_sequence_frame_paths": 612, "duplicate_paths": 0, "count_rule_failures": 0},
+  "preflight_overlaps": [
+    {"sequence": "00", "draft_t": 199, "role": "fit", "shared_frame_ids": [198, 199]},
+    {"sequence": "06", "draft_t": 201, "role": "development", "shared_frame_ids": [199, 200]},
+    {"sequence": "07", "draft_t": 201, "role": "exposed_evaluation", "shared_frame_ids": [199, 200]}
+  ],
+  "seed_correction": {
+    "draft": "little-endian",
+    "sealed_LMF1_TR0_source": "big-endian",
+    "source_sha256": "02af5e8d4518740362a14bb12a447ffb4ed615f6e2f402bfede0abbdcf2f9b2b",
+    "source_matches_both_freezes": true,
+    "preflight_t": 200,
+    "big_endian_seeds": {"00": 721294808, "05": 1717843090, "06": 1644359845, "07": 2246292046},
+    "matches_TR0_frozen_integer_seeds": true,
+    "previous_sealed_annex_edited": false
+  },
+  "kiss_references": {
+    "frozen_odom_and_source_hashes_checked": 6,
+    "mismatches": 0,
+    "primary_windows_covered": 36,
+    "source_rows": {"07": 1101, "09": 1591, "10": 1201},
+    "odom_rows": {"07": 1101, "09": 1591, "10": 1201},
+    "missing_endpoint_ids": 0,
+    "numeric_odometry_used": false
+  },
+  "git": {
+    "main_head": "4055d929c594b0033aafc6eed339c910369eef55",
+    "main_branch": "codex/meeting-20260930",
+    "main_tracked_dirty_before": 2,
+    "main_untracked_groups_before": 3,
+    "slam_head": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6",
+    "slam_branch": "codex/e0-f1-20260926",
+    "slam_tracked_dirty_before": 9,
+    "slam_untracked_groups_before": 30,
+    "git_sync": false
+  },
+  "M0_archive_manifest_hash_matches": true,
+  "M0_archive_payload_rehashed": false,
+  "raw_cloud_payload_read": false,
+  "numeric_GT_pose_values_read": false,
+  "relative_GT_or_labels_generated": false,
+  "model_or_checkpoint_loaded": false,
+  "new_inference": false,
+  "training": false,
+  "GT_error_computed": false,
+  "experiment_executed": false
+}

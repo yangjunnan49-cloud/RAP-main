@@ -1,0 +1,3380 @@
+{
+  "files": {
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/BOOKKEEPING.json": "e876cc7357746523594ec0bddad6a21ab40d0c67132c3219ae8817562f696eae",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/CHECKS.json": "a3b36cf0bf45dc6a47ac82fd957e1c0d49ec3f37db5b4ad225cac35a3b5e897d",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/FINAL_IDENTITY_CHECK.json": "2dcd3023e4ebad5c178b4bf94fd330e6246984235f409fafe18a5e79e611bada",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/NEXT_ROUND_PLAN.md": "9033b4487fd7eff7a20cc0ce920eb3437d54607b18bb3e18992784f18a9d1725",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/OWNER_SCOPE.md": "4203823c80089d6d30ada9f611ff6f1228011f5bfed9fe7ec25bbfaa09189436",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/PROTOCOL.md": "82440420cef8754dd8ca9fc134b83b0689efe6b26b3fd6f284426b47a0a94a7c",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/REPORT.md": "c10afc1b363e8d19ee4e29b6f34ec5be3b3e7e18f4612ca6bd7931dacb49d6b9",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/RESOURCE_AUDIT.json": "9e10b031854e5990230e171c64f9bd021775459260ddb05b5b2ab56aa1aba2dd",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/STATUS.json": "28aeda5b19389e63fd31f5712d684c901a95c92e2ddcda09355616ea308b6e14",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/freeze.json": "1af74dd64ddfed341b134a11ec02bb4b62da1a0c8b273ad579ca5f6ef9ee01a7",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/inventory.json": "f1cb94312cad12a21cad317006840c7fda79c2fcc49e2fbc036729b2f99dbe5a",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/inventory_seal.json": "ba420934baf13abb0a44f69ed5f8222d0fa65aaa9d1d9bc17c0f881d24c94ab8",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/scan_metadata.json": "d5c4995cb1e88fdb3fb7d238ad7dcdb43f941cb212c7aba719597dd5c7757dbd",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/source_snapshot/closure_close_physical_source_roles.py": "c75397deb6aea5dec8bef6d500e89daadcb74c5646a871fa8d96c09f60df7dc9",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/source_snapshot/main_embedding.py": "367f92a980076a62cc5561bbc9264b31766d54278cce1b949c477819abc9253d",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/source_snapshot/main_handoff_source.py": "41c9fb0a757ab27bd2a6573c5ae9c1da0c7e1a12e9262f90b4c15eef3c7d9338",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/source_snapshot/main_invoke_mgr_supervised_wsl.ps1": "0973f7173b0d8a0f3a1fb6a3d4e19118121a13150260fbaf00bcde5b9c1eb899",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/source_snapshot/main_physical_source_role_feasibility.py": "5eeda21006f54ef0c918decb46c59d924e370028e82aad4e007dc9e288375d82",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/source_snapshot/main_point_cloud_dit.py": "dd095019f78cc0bfac6bef767061ec6a5a02244874bc32723dd78510f9e6f974",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/source_snapshot/main_validate_physical_source_roles.py": "a57dca9ba7aa6cf02911e97a72f5ae2eecd58ec8b6896f31f24a41c6b6881dfe",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/source_snapshot/slam_odometry.py": "39509e8bf4b4acd12d45a98f253dd7640e58523f0aa646489193999c18c45b80",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/source_snapshot/slam_rap_backend.py": "552fe044167b2490ee5a5d390c659a3707fbfc0a31108b6f15bd579623fe90f3",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/source_snapshot/slam_real_dataset.py": "ecb438df719e5e61632163d6a620fca114f80f7fce920147a3a8234ea52684d1",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/freeze/child_exit.json": "55d014c73b830c1d8f7252373e88c8ecb672fcb6838c3a40ec8a41c4637c1a23",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/freeze/exit.json": "61e2fa6461cc14807077b94b4ec38bf372cba66f8dedbe9c665587f274f2a2a1",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/freeze/host_memory.jsonl": "fda9bedab9617cfa9447041fcc8c592b0e0db013baf973e53eddc6136f949118",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/freeze/launch.json": "41478e8923a000ac214777230e754decb415081e905c2ef4c47c1a2066962a31",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/freeze/stderr.log": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/freeze/stdout.log": "20345d54423397e618203daaa410c20d825c7687882cead6029ec16fff3e3282",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/host_latest.json": "6b8e39f36687a257574b52485cf31a2dc90899ff1a3e95736021d2688909597d",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/inventory/child_exit.json": "5d0bfa6a7d1cbaad5fd239ffd7fb0257d3b9607c2aa6d80d573501a2ecbc1e79",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/inventory/exit.json": "7ad2f13a2879ebf5b1180a1f300c79f55b68090dda6a8462f55d2283352c35dd",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/inventory/host_memory.jsonl": "590009298876cd0bb7f1b55cb505466c0fcbb4a6b65dcb8c67d8d45d4db7efe9",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/inventory/launch.json": "0f603a5870b211ff7d99d066df78562ef2a6067ffbffd23c33ae92af0d7ef7a7",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/inventory/stderr.log": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/inventory/stdout.log": "c98f309c6f0d9a6847cd1ce5fec633c446ea5355bfdcb3038e1dc8930fc37cd6",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/validate/child_exit.json": "db7d49deaf1fceb8d155004c713bd5525f4caf9e3c7cc139deb1d319452119c5",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/validate/exit.json": "f2ee38841061b2426134a2e7aa4a39fe738614e054df369a979b5ebead2c341b",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/validate/host_memory.jsonl": "0430db9735bc7da0c47bb1b23aa4a47c81d78a4ac00a04a9c4bde0b8f1647f91",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/validate/launch.json": "350ed6db9c4a7f3f0c439a244389f902ae4666b5878bf198904af58527bc219b",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/validate/stderr.log": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/supervision/validate/stdout.log": "68ab5c7663fa446ba8dae62068001bac3a11a9641e315efaaa60c93c587144f5",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/validation.json": "94cac3ff5beabbbb768243a65f8e87563225078dbbbae804279a58818ddf84cc",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-source-role-feasibility-01/DELIVERY_SEAL.json": "3c7e950faac9d4be4f0775399c545e21bf8080a4c6bdce51ef82c23a84ea574f",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/PROTOCOL.md": "435348103645f25ada169476173a14e2ba027ddd69534d102a32d99ec7512f56",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-14/physical-comparison-contract-01/OWNER_SCOPE.md": "667225634a361bea868b4ed78f6a797110cf5b2bb4e2981651add4c0ec9b5c5b",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/physical_comparison_contract.py": "52764b3850593812f718fc2d0be4c1c42fc5828b9d5e1e02fd05d2f435376989",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/validate_physical_comparison_contract.py": "80f5d6f05d0554b7ea97a66a44b38a6b141ab6b604e9fd300a0c617f08dde3d5",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/physical_source_role_feasibility.py": "5eeda21006f54ef0c918decb46c59d924e370028e82aad4e007dc9e288375d82",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/invoke_mgr_supervised_wsl.ps1": "0973f7173b0d8a0f3a1fb6a3d4e19118121a13150260fbaf00bcde5b9c1eb899",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/REPORT.md": "bf1680dcb16cda23b4c7aa706bf510e62c98c274745a2394005e9c65cec3a39b",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/STATUS.json": "4a9aaf23051a6c6d44e67be70703758408ef3961682bd691cc0fefbff0f26171",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/motion-readout-reassessment-01/REPORT.md": "d4d3d128a963d0a759a3cf3a4af97249707a52631786f0d356f953cc9c52beea",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-11/full-poss-01/REPORT.md": "4b418cc54bdffebeda64f6ad7a86d95e1c42cf9690442e775fe2c0b2435aa9da",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-11/full-poss-01/input_manifest.json": "cea0385cb0369624083b36cd6250c60e99ca3fb5721cc15e16df884195d32a0e",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-11/full-poss-01/pipeline/source_frames.json": "8735c3f79fedf0688bdde15a324a63b7c3fa560e938f1fd7355150914e7bfb09",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-11/full-poss-01/pipeline/summary.json": "f32725cdd17c47a0cd7665001c3806c1a963224a4ebc81732cd319e8309858d2",
+    "/mnt/e/githouse/RAP-SLAM/data/poss/dataset/poses/00.txt": "5b08665c5b70cbb6b9ad2e72719b34acdb829ed8def853ca89077a7895a66513",
+    "/mnt/e/githouse/RAP-SLAM/data/poss/dataset/sequences/00/calib.txt": "50453826d281659e521c8e52a780da0a99411db7513051c9ded6d3b390c4fe01",
+    "/mnt/e/githouse/RAP-SLAM/data/poss/dataset/sequences/00/times.txt": "68189290152a9e1676a9d28492d5cede43be752633cca0442a3b76ae08a4a491",
+    "/mnt/e/githouse/RAP-SLAM/data/poss/dataset/sequences/00/calib_readme.txt": "54bc887d099e5bfdc8d27e41d688f8763c3674955b9bcb10e6d527f0c40e0902",
+    "/mnt/e/githouse/RAP-SLAM/rap_slam/real_dataset.py": "ecb438df719e5e61632163d6a620fca114f80f7fce920147a3a8234ea52684d1",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/rlp2_full_bank.py": "c5cae0d84e8faf17ff57b759e618f9bf144530076ed824ea23e43b2110639c81",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/rlp2_pose_targets.py": "0b3ea2ce0429dcbb46eb803793c80756fb37749b52e16853e82e08fa6abd11dd",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/freeze.json": "9b147701ff98775375cb9abf009f984b21db573958a962c008c38f76426e2dfd",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank.json": "94c24884224a3ca26fcc3865d302ea6e728c594a75e62cdfa6636e720802306f",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank_seal.json": "9970fc75602c1c3af1b8cf6017686c1e3655ecefaec4eaaffa42e5b0a1efb1a8",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/validation.json": "529750e9b57a2d5fd61cc4a1dc623255a20686d8bf181bd393f5d048f91a85a7",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/freeze.json": "8a5ec9fb87e09143d87c367ad2df2197790c6bd5fe462168d7cf0da32b70dad9",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank.json": "00e3f6863fbe96163a2552bb6fdfdd220bca4ebd3389098235bde6f5f92a12a1",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank_seal.json": "1888c4e787c35dae851f9f614b3ac4cb7e6df7d93c187baf71b751f0e9ba92f5",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/validation.json": "41fc7f0f6adc66d56ae6bf4a327a1b30e264c0e4560017dfaa0b8f62db52b248"
+  },
+  "repositories": {
+    "main": {
+      "head": "4055d929c594b0033aafc6eed339c910369eef55",
+      "branch": "codex/meeting-20260930",
+      "tracked_status": [
+        "M .gitignore",
+        " M AGENTS.md"
+      ]
+    },
+    "slam": {
+      "head": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6",
+      "branch": "codex/e0-f1-20260926",
+      "tracked_status": [
+        "M rap_slam/loop_closure.py",
+        " M rap_slam/odometry.py",
+        " M rap_slam/pose_graph.py",
+        " M rap_slam/rap_backend.py",
+        " M rap_slam/real_dataset.py",
+        " M scripts/build_s1_features.py",
+        " M scripts/eval_map_consistency.py",
+        " M scripts/eval_paper_metrics.py",
+        " M scripts/run_pipeline.py"
+      ]
+    }
+  },
+  "rows": [
+    {
+      "seq": "00",
+      "t": 2,
+      "ids": [
+        1,
+        2,
+        0
+      ],
+      "role": "fit",
+      "seed": 850873755,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000001.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000002.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000000.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 199,
+      "ids": [
+        198,
+        199,
+        197
+      ],
+      "role": "fit",
+      "seed": 2381913824,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000198.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000199.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000197.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 396,
+      "ids": [
+        395,
+        396,
+        394
+      ],
+      "role": "fit",
+      "seed": 85578940,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000395.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000396.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000394.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 593,
+      "ids": [
+        592,
+        593,
+        591
+      ],
+      "role": "fit",
+      "seed": 1210014110,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000592.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000593.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000591.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 791,
+      "ids": [
+        790,
+        791,
+        789
+      ],
+      "role": "fit",
+      "seed": 3808807507,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000790.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000791.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000789.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 988,
+      "ids": [
+        987,
+        988,
+        986
+      ],
+      "role": "fit",
+      "seed": 1434999704,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000987.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000988.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/000986.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 1185,
+      "ids": [
+        1184,
+        1185,
+        1183
+      ],
+      "role": "fit",
+      "seed": 775698264,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/001184.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/001185.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/001183.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 1383,
+      "ids": [
+        1382,
+        1383,
+        1381
+      ],
+      "role": "fit",
+      "seed": 3815551107,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/001382.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/001383.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/001381.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 1580,
+      "ids": [
+        1579,
+        1580,
+        1578
+      ],
+      "role": "fit",
+      "seed": 1456963222,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/001579.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/001580.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/001578.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 1777,
+      "ids": [
+        1776,
+        1777,
+        1775
+      ],
+      "role": "fit",
+      "seed": 991812732,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/001776.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/001777.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/001775.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 1975,
+      "ids": [
+        1974,
+        1975,
+        1973
+      ],
+      "role": "fit",
+      "seed": 3908704227,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/001974.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/001975.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/001973.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 2172,
+      "ids": [
+        2171,
+        2172,
+        2170
+      ],
+      "role": "fit",
+      "seed": 1875490433,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002171.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002172.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002170.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 2369,
+      "ids": [
+        2368,
+        2369,
+        2367
+      ],
+      "role": "fit",
+      "seed": 1683307379,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002368.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002369.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002367.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 2566,
+      "ids": [
+        2565,
+        2566,
+        2564
+      ],
+      "role": "fit",
+      "seed": 3897631892,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002565.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002566.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002564.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 2764,
+      "ids": [
+        2763,
+        2764,
+        2762
+      ],
+      "role": "fit",
+      "seed": 1448927047,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002763.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002764.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002762.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 2961,
+      "ids": [
+        2960,
+        2961,
+        2959
+      ],
+      "role": "fit",
+      "seed": 2508435040,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002960.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002961.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002959.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 3158,
+      "ids": [
+        3157,
+        3158,
+        3156
+      ],
+      "role": "fit",
+      "seed": 4186658501,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003157.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003158.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003156.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 3356,
+      "ids": [
+        3355,
+        3356,
+        3354
+      ],
+      "role": "fit",
+      "seed": 2584357754,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003355.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003356.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003354.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 3553,
+      "ids": [
+        3552,
+        3553,
+        3551
+      ],
+      "role": "fit",
+      "seed": 2782913644,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003552.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003553.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003551.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 3750,
+      "ids": [
+        3749,
+        3750,
+        3748
+      ],
+      "role": "fit",
+      "seed": 3760813582,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003749.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003750.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003748.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 3948,
+      "ids": [
+        3947,
+        3948,
+        3946
+      ],
+      "role": "fit",
+      "seed": 649434969,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003947.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003948.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003946.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 4145,
+      "ids": [
+        4144,
+        4145,
+        4143
+      ],
+      "role": "fit",
+      "seed": 1701676683,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/004144.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/004145.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/004143.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 4342,
+      "ids": [
+        4341,
+        4342,
+        4340
+      ],
+      "role": "fit",
+      "seed": 3618749450,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/004341.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/004342.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/004340.bin"
+      ]
+    },
+    {
+      "seq": "00",
+      "t": 4540,
+      "ids": [
+        4539,
+        4540,
+        4538
+      ],
+      "role": "fit",
+      "seed": 370026378,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/004539.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/004540.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/004538.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 2,
+      "ids": [
+        1,
+        2,
+        0
+      ],
+      "role": "fit",
+      "seed": 2975794975,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000001.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000002.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000000.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 49,
+      "ids": [
+        48,
+        49,
+        47
+      ],
+      "role": "fit",
+      "seed": 2395887624,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000048.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000049.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000047.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 97,
+      "ids": [
+        96,
+        97,
+        95
+      ],
+      "role": "fit",
+      "seed": 1919510728,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000096.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000097.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000095.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 145,
+      "ids": [
+        144,
+        145,
+        143
+      ],
+      "role": "fit",
+      "seed": 253605356,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000144.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000145.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000143.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 192,
+      "ids": [
+        191,
+        192,
+        190
+      ],
+      "role": "fit",
+      "seed": 2968833761,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000191.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000192.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000190.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 240,
+      "ids": [
+        239,
+        240,
+        238
+      ],
+      "role": "fit",
+      "seed": 247149916,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000239.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000240.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000238.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 288,
+      "ids": [
+        287,
+        288,
+        286
+      ],
+      "role": "fit",
+      "seed": 852624545,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000287.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000288.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000286.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 336,
+      "ids": [
+        335,
+        336,
+        334
+      ],
+      "role": "fit",
+      "seed": 3610489553,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000335.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000336.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000334.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 383,
+      "ids": [
+        382,
+        383,
+        381
+      ],
+      "role": "fit",
+      "seed": 2164560045,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000382.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000383.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000381.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 431,
+      "ids": [
+        430,
+        431,
+        429
+      ],
+      "role": "fit",
+      "seed": 1440894324,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000430.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000431.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000429.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 479,
+      "ids": [
+        478,
+        479,
+        477
+      ],
+      "role": "fit",
+      "seed": 3436102127,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000478.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000479.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000477.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 527,
+      "ids": [
+        526,
+        527,
+        525
+      ],
+      "role": "fit",
+      "seed": 901356887,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000526.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000527.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000525.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 574,
+      "ids": [
+        573,
+        574,
+        572
+      ],
+      "role": "fit",
+      "seed": 3664771113,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000573.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000574.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000572.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 622,
+      "ids": [
+        621,
+        622,
+        620
+      ],
+      "role": "fit",
+      "seed": 635755846,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000621.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000622.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000620.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 670,
+      "ids": [
+        669,
+        670,
+        668
+      ],
+      "role": "fit",
+      "seed": 658676414,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000669.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000670.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000668.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 718,
+      "ids": [
+        717,
+        718,
+        716
+      ],
+      "role": "fit",
+      "seed": 826670401,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000717.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000718.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000716.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 765,
+      "ids": [
+        764,
+        765,
+        763
+      ],
+      "role": "fit",
+      "seed": 758046767,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000764.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000765.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000763.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 813,
+      "ids": [
+        812,
+        813,
+        811
+      ],
+      "role": "fit",
+      "seed": 2013167803,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000812.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000813.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000811.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 861,
+      "ids": [
+        860,
+        861,
+        859
+      ],
+      "role": "fit",
+      "seed": 2765127713,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000860.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000861.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000859.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 909,
+      "ids": [
+        908,
+        909,
+        907
+      ],
+      "role": "fit",
+      "seed": 269416463,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000908.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000909.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000907.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 956,
+      "ids": [
+        955,
+        956,
+        954
+      ],
+      "role": "fit",
+      "seed": 2219884052,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000955.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000956.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/000954.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 1004,
+      "ids": [
+        1003,
+        1004,
+        1002
+      ],
+      "role": "fit",
+      "seed": 2351208043,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/001003.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/001004.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/001002.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 1052,
+      "ids": [
+        1051,
+        1052,
+        1050
+      ],
+      "role": "fit",
+      "seed": 3490697169,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/001051.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/001052.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/001050.bin"
+      ]
+    },
+    {
+      "seq": "01",
+      "t": 1100,
+      "ids": [
+        1099,
+        1100,
+        1098
+      ],
+      "role": "fit",
+      "seed": 3276874668,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/001099.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/001100.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/01/velodyne/001098.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 2,
+      "ids": [
+        1,
+        2,
+        0
+      ],
+      "role": "fit",
+      "seed": 1447341491,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/000001.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/000002.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/000000.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 204,
+      "ids": [
+        203,
+        204,
+        202
+      ],
+      "role": "fit",
+      "seed": 3995259077,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/000203.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/000204.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/000202.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 407,
+      "ids": [
+        406,
+        407,
+        405
+      ],
+      "role": "fit",
+      "seed": 1131053454,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/000406.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/000407.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/000405.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 609,
+      "ids": [
+        608,
+        609,
+        607
+      ],
+      "role": "fit",
+      "seed": 2640106143,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/000608.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/000609.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/000607.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 812,
+      "ids": [
+        811,
+        812,
+        810
+      ],
+      "role": "fit",
+      "seed": 1071687429,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/000811.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/000812.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/000810.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 1014,
+      "ids": [
+        1013,
+        1014,
+        1012
+      ],
+      "role": "fit",
+      "seed": 3351427819,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/001013.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/001014.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/001012.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 1217,
+      "ids": [
+        1216,
+        1217,
+        1215
+      ],
+      "role": "fit",
+      "seed": 4274212345,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/001216.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/001217.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/001215.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 1419,
+      "ids": [
+        1418,
+        1419,
+        1417
+      ],
+      "role": "fit",
+      "seed": 3802554424,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/001418.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/001419.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/001417.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 1622,
+      "ids": [
+        1621,
+        1622,
+        1620
+      ],
+      "role": "fit",
+      "seed": 2814325146,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/001621.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/001622.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/001620.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 1824,
+      "ids": [
+        1823,
+        1824,
+        1822
+      ],
+      "role": "fit",
+      "seed": 1233160334,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/001823.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/001824.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/001822.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 2027,
+      "ids": [
+        2026,
+        2027,
+        2025
+      ],
+      "role": "fit",
+      "seed": 3201326621,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/002026.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/002027.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/002025.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 2229,
+      "ids": [
+        2228,
+        2229,
+        2227
+      ],
+      "role": "fit",
+      "seed": 3280609479,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/002228.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/002229.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/002227.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 2432,
+      "ids": [
+        2431,
+        2432,
+        2430
+      ],
+      "role": "fit",
+      "seed": 768236698,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/002431.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/002432.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/002430.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 2634,
+      "ids": [
+        2633,
+        2634,
+        2632
+      ],
+      "role": "fit",
+      "seed": 2655717174,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/002633.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/002634.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/002632.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 2837,
+      "ids": [
+        2836,
+        2837,
+        2835
+      ],
+      "role": "fit",
+      "seed": 2047637438,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/002836.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/002837.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/002835.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 3039,
+      "ids": [
+        3038,
+        3039,
+        3037
+      ],
+      "role": "fit",
+      "seed": 3865985760,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/003038.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/003039.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/003037.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 3242,
+      "ids": [
+        3241,
+        3242,
+        3240
+      ],
+      "role": "fit",
+      "seed": 2726644113,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/003241.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/003242.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/003240.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 3444,
+      "ids": [
+        3443,
+        3444,
+        3442
+      ],
+      "role": "fit",
+      "seed": 2259759286,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/003443.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/003444.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/003442.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 3647,
+      "ids": [
+        3646,
+        3647,
+        3645
+      ],
+      "role": "fit",
+      "seed": 2340331405,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/003646.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/003647.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/003645.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 3849,
+      "ids": [
+        3848,
+        3849,
+        3847
+      ],
+      "role": "fit",
+      "seed": 263634318,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/003848.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/003849.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/003847.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 4052,
+      "ids": [
+        4051,
+        4052,
+        4050
+      ],
+      "role": "fit",
+      "seed": 1650898078,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/004051.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/004052.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/004050.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 4254,
+      "ids": [
+        4253,
+        4254,
+        4252
+      ],
+      "role": "fit",
+      "seed": 1554699896,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/004253.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/004254.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/004252.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 4457,
+      "ids": [
+        4456,
+        4457,
+        4455
+      ],
+      "role": "fit",
+      "seed": 37668443,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/004456.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/004457.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/004455.bin"
+      ]
+    },
+    {
+      "seq": "02",
+      "t": 4660,
+      "ids": [
+        4659,
+        4660,
+        4658
+      ],
+      "role": "fit",
+      "seed": 157360146,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/004659.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/004660.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/02/velodyne/004658.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 2,
+      "ids": [
+        1,
+        2,
+        0
+      ],
+      "role": "fit",
+      "seed": 1909338186,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000001.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000002.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000000.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 36,
+      "ids": [
+        35,
+        36,
+        34
+      ],
+      "role": "fit",
+      "seed": 1652102601,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000035.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000036.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000034.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 71,
+      "ids": [
+        70,
+        71,
+        69
+      ],
+      "role": "fit",
+      "seed": 1130190794,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000070.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000071.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000069.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 106,
+      "ids": [
+        105,
+        106,
+        104
+      ],
+      "role": "fit",
+      "seed": 1118587614,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000105.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000106.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000104.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 140,
+      "ids": [
+        139,
+        140,
+        138
+      ],
+      "role": "fit",
+      "seed": 3769739549,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000139.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000140.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000138.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 175,
+      "ids": [
+        174,
+        175,
+        173
+      ],
+      "role": "fit",
+      "seed": 394472843,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000174.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000175.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000173.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 210,
+      "ids": [
+        209,
+        210,
+        208
+      ],
+      "role": "fit",
+      "seed": 4129509549,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000209.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000210.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000208.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 244,
+      "ids": [
+        243,
+        244,
+        242
+      ],
+      "role": "fit",
+      "seed": 3444583982,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000243.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000244.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000242.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 279,
+      "ids": [
+        278,
+        279,
+        277
+      ],
+      "role": "fit",
+      "seed": 3500262899,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000278.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000279.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000277.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 314,
+      "ids": [
+        313,
+        314,
+        312
+      ],
+      "role": "fit",
+      "seed": 265466243,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000313.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000314.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000312.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 348,
+      "ids": [
+        347,
+        348,
+        346
+      ],
+      "role": "fit",
+      "seed": 1694789708,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000347.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000348.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000346.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 383,
+      "ids": [
+        382,
+        383,
+        381
+      ],
+      "role": "fit",
+      "seed": 1412329540,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000382.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000383.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000381.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 418,
+      "ids": [
+        417,
+        418,
+        416
+      ],
+      "role": "fit",
+      "seed": 647960615,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000417.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000418.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000416.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 453,
+      "ids": [
+        452,
+        453,
+        451
+      ],
+      "role": "fit",
+      "seed": 2068680612,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000452.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000453.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000451.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 487,
+      "ids": [
+        486,
+        487,
+        485
+      ],
+      "role": "fit",
+      "seed": 3736993911,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000486.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000487.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000485.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 522,
+      "ids": [
+        521,
+        522,
+        520
+      ],
+      "role": "fit",
+      "seed": 3021852311,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000521.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000522.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000520.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 557,
+      "ids": [
+        556,
+        557,
+        555
+      ],
+      "role": "fit",
+      "seed": 2798545105,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000556.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000557.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000555.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 591,
+      "ids": [
+        590,
+        591,
+        589
+      ],
+      "role": "fit",
+      "seed": 2696673245,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000590.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000591.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000589.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 626,
+      "ids": [
+        625,
+        626,
+        624
+      ],
+      "role": "fit",
+      "seed": 3057317895,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000625.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000626.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000624.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 661,
+      "ids": [
+        660,
+        661,
+        659
+      ],
+      "role": "fit",
+      "seed": 3653673558,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000660.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000661.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000659.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 695,
+      "ids": [
+        694,
+        695,
+        693
+      ],
+      "role": "fit",
+      "seed": 1420104221,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000694.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000695.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000693.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 730,
+      "ids": [
+        729,
+        730,
+        728
+      ],
+      "role": "fit",
+      "seed": 1499370981,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000729.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000730.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000728.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 765,
+      "ids": [
+        764,
+        765,
+        763
+      ],
+      "role": "fit",
+      "seed": 4104334634,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000764.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000765.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000763.bin"
+      ]
+    },
+    {
+      "seq": "03",
+      "t": 800,
+      "ids": [
+        799,
+        800,
+        798
+      ],
+      "role": "fit",
+      "seed": 2943330845,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000799.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000800.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/03/velodyne/000798.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 2,
+      "ids": [
+        1,
+        2,
+        0
+      ],
+      "role": "fit",
+      "seed": 3503958286,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000001.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000002.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000000.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 13,
+      "ids": [
+        12,
+        13,
+        11
+      ],
+      "role": "fit",
+      "seed": 2309067401,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000012.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000013.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000011.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 25,
+      "ids": [
+        24,
+        25,
+        23
+      ],
+      "role": "fit",
+      "seed": 302541900,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000024.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000025.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000023.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 36,
+      "ids": [
+        35,
+        36,
+        34
+      ],
+      "role": "fit",
+      "seed": 358510244,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000035.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000036.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000034.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 48,
+      "ids": [
+        47,
+        48,
+        46
+      ],
+      "role": "fit",
+      "seed": 2752366456,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000047.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000048.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000046.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 60,
+      "ids": [
+        59,
+        60,
+        58
+      ],
+      "role": "fit",
+      "seed": 1438191772,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000059.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000060.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000058.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 71,
+      "ids": [
+        70,
+        71,
+        69
+      ],
+      "role": "fit",
+      "seed": 1738507399,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000070.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000071.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000069.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 83,
+      "ids": [
+        82,
+        83,
+        81
+      ],
+      "role": "fit",
+      "seed": 3160217162,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000082.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000083.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000081.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 95,
+      "ids": [
+        94,
+        95,
+        93
+      ],
+      "role": "fit",
+      "seed": 2676916106,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000094.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000095.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000093.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 106,
+      "ids": [
+        105,
+        106,
+        104
+      ],
+      "role": "fit",
+      "seed": 1213285791,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000105.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000106.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000104.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 118,
+      "ids": [
+        117,
+        118,
+        116
+      ],
+      "role": "fit",
+      "seed": 24575275,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000117.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000118.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000116.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 130,
+      "ids": [
+        129,
+        130,
+        128
+      ],
+      "role": "fit",
+      "seed": 1875311550,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000129.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000130.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000128.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 141,
+      "ids": [
+        140,
+        141,
+        139
+      ],
+      "role": "fit",
+      "seed": 1008702974,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000140.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000141.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000139.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 153,
+      "ids": [
+        152,
+        153,
+        151
+      ],
+      "role": "fit",
+      "seed": 3815502814,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000152.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000153.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000151.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 165,
+      "ids": [
+        164,
+        165,
+        163
+      ],
+      "role": "fit",
+      "seed": 1767766090,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000164.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000165.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000163.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 176,
+      "ids": [
+        175,
+        176,
+        174
+      ],
+      "role": "fit",
+      "seed": 551092581,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000175.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000176.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000174.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 188,
+      "ids": [
+        187,
+        188,
+        186
+      ],
+      "role": "fit",
+      "seed": 2459725533,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000187.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000188.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000186.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 200,
+      "ids": [
+        199,
+        200,
+        198
+      ],
+      "role": "fit",
+      "seed": 2292467005,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000199.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000200.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000198.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 211,
+      "ids": [
+        210,
+        211,
+        209
+      ],
+      "role": "fit",
+      "seed": 189901149,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000210.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000211.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000209.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 223,
+      "ids": [
+        222,
+        223,
+        221
+      ],
+      "role": "fit",
+      "seed": 337133666,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000222.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000223.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000221.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 235,
+      "ids": [
+        234,
+        235,
+        233
+      ],
+      "role": "fit",
+      "seed": 98259085,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000234.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000235.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000233.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 246,
+      "ids": [
+        245,
+        246,
+        244
+      ],
+      "role": "fit",
+      "seed": 3987031556,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000245.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000246.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000244.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 258,
+      "ids": [
+        257,
+        258,
+        256
+      ],
+      "role": "fit",
+      "seed": 3707666773,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000257.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000258.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000256.bin"
+      ]
+    },
+    {
+      "seq": "04",
+      "t": 270,
+      "ids": [
+        269,
+        270,
+        268
+      ],
+      "role": "fit",
+      "seed": 3455800428,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000269.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000270.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/04/velodyne/000268.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 2,
+      "ids": [
+        1,
+        2,
+        0
+      ],
+      "role": "fit",
+      "seed": 989002949,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000001.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000002.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000000.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 121,
+      "ids": [
+        120,
+        121,
+        119
+      ],
+      "role": "fit",
+      "seed": 2267687640,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000120.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000121.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000119.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 241,
+      "ids": [
+        240,
+        241,
+        239
+      ],
+      "role": "fit",
+      "seed": 2590662426,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000240.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000241.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000239.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 361,
+      "ids": [
+        360,
+        361,
+        359
+      ],
+      "role": "fit",
+      "seed": 1596236387,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000360.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000361.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000359.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 481,
+      "ids": [
+        480,
+        481,
+        479
+      ],
+      "role": "fit",
+      "seed": 1932389842,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000480.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000481.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000479.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 601,
+      "ids": [
+        600,
+        601,
+        599
+      ],
+      "role": "fit",
+      "seed": 297540988,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000600.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000601.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000599.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 721,
+      "ids": [
+        720,
+        721,
+        719
+      ],
+      "role": "fit",
+      "seed": 2999712563,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000720.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000721.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000719.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 841,
+      "ids": [
+        840,
+        841,
+        839
+      ],
+      "role": "fit",
+      "seed": 3833688224,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000840.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000841.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000839.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 961,
+      "ids": [
+        960,
+        961,
+        959
+      ],
+      "role": "fit",
+      "seed": 14832321,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000960.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000961.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000959.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 1081,
+      "ids": [
+        1080,
+        1081,
+        1079
+      ],
+      "role": "fit",
+      "seed": 3091591878,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001080.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001081.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001079.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 1201,
+      "ids": [
+        1200,
+        1201,
+        1199
+      ],
+      "role": "fit",
+      "seed": 3888303405,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001200.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001201.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001199.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 1321,
+      "ids": [
+        1320,
+        1321,
+        1319
+      ],
+      "role": "fit",
+      "seed": 1868477742,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001320.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001321.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001319.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 1440,
+      "ids": [
+        1439,
+        1440,
+        1438
+      ],
+      "role": "fit",
+      "seed": 221197827,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001439.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001440.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001438.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 1560,
+      "ids": [
+        1559,
+        1560,
+        1558
+      ],
+      "role": "fit",
+      "seed": 3779707384,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001559.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001560.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001558.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 1680,
+      "ids": [
+        1679,
+        1680,
+        1678
+      ],
+      "role": "fit",
+      "seed": 1468691486,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001679.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001680.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001678.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 1800,
+      "ids": [
+        1799,
+        1800,
+        1798
+      ],
+      "role": "fit",
+      "seed": 88396125,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001799.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001800.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001798.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 1920,
+      "ids": [
+        1919,
+        1920,
+        1918
+      ],
+      "role": "fit",
+      "seed": 400183516,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001919.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001920.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001918.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 2040,
+      "ids": [
+        2039,
+        2040,
+        2038
+      ],
+      "role": "fit",
+      "seed": 2629242646,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002039.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002040.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002038.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 2160,
+      "ids": [
+        2159,
+        2160,
+        2158
+      ],
+      "role": "fit",
+      "seed": 3147497256,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002159.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002160.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002158.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 2280,
+      "ids": [
+        2279,
+        2280,
+        2278
+      ],
+      "role": "fit",
+      "seed": 236984115,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002279.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002280.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002278.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 2400,
+      "ids": [
+        2399,
+        2400,
+        2398
+      ],
+      "role": "fit",
+      "seed": 1490413997,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002399.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002400.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002398.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 2520,
+      "ids": [
+        2519,
+        2520,
+        2518
+      ],
+      "role": "fit",
+      "seed": 1437323805,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002519.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002520.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002518.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 2640,
+      "ids": [
+        2639,
+        2640,
+        2638
+      ],
+      "role": "fit",
+      "seed": 2420170715,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002639.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002640.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002638.bin"
+      ]
+    },
+    {
+      "seq": "05",
+      "t": 2760,
+      "ids": [
+        2759,
+        2760,
+        2758
+      ],
+      "role": "fit",
+      "seed": 3258273,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002759.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002760.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/002758.bin"
+      ]
+    },
+    {
+      "seq": "06",
+      "t": 2,
+      "ids": [
+        1,
+        2,
+        0
+      ],
+      "role": "development",
+      "seed": 3249449991,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000001.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000002.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000000.bin"
+      ]
+    },
+    {
+      "seq": "06",
+      "t": 101,
+      "ids": [
+        100,
+        101,
+        99
+      ],
+      "role": "development",
+      "seed": 1925724255,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000100.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000101.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000099.bin"
+      ]
+    },
+    {
+      "seq": "06",
+      "t": 201,
+      "ids": [
+        200,
+        201,
+        199
+      ],
+      "role": "development",
+      "seed": 3297478261,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000200.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000201.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000199.bin"
+      ]
+    },
+    {
+      "seq": "06",
+      "t": 301,
+      "ids": [
+        300,
+        301,
+        299
+      ],
+      "role": "development",
+      "seed": 1337422327,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000300.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000301.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000299.bin"
+      ]
+    },
+    {
+      "seq": "06",
+      "t": 401,
+      "ids": [
+        400,
+        401,
+        399
+      ],
+      "role": "development",
+      "seed": 862822605,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000400.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000401.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000399.bin"
+      ]
+    },
+    {
+      "seq": "06",
+      "t": 501,
+      "ids": [
+        500,
+        501,
+        499
+      ],
+      "role": "development",
+      "seed": 2166556759,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000500.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000501.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000499.bin"
+      ]
+    },
+    {
+      "seq": "06",
+      "t": 600,
+      "ids": [
+        599,
+        600,
+        598
+      ],
+      "role": "development",
+      "seed": 2244453937,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000599.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000600.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000598.bin"
+      ]
+    },
+    {
+      "seq": "06",
+      "t": 700,
+      "ids": [
+        699,
+        700,
+        698
+      ],
+      "role": "development",
+      "seed": 1546805420,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000699.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000700.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000698.bin"
+      ]
+    },
+    {
+      "seq": "06",
+      "t": 800,
+      "ids": [
+        799,
+        800,
+        798
+      ],
+      "role": "development",
+      "seed": 1453984353,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000799.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000800.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000798.bin"
+      ]
+    },
+    {
+      "seq": "06",
+      "t": 900,
+      "ids": [
+        899,
+        900,
+        898
+      ],
+      "role": "development",
+      "seed": 3310701437,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000899.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000900.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000898.bin"
+      ]
+    },
+    {
+      "seq": "06",
+      "t": 1000,
+      "ids": [
+        999,
+        1000,
+        998
+      ],
+      "role": "development",
+      "seed": 626850481,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000999.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/001000.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000998.bin"
+      ]
+    },
+    {
+      "seq": "06",
+      "t": 1100,
+      "ids": [
+        1099,
+        1100,
+        1098
+      ],
+      "role": "development",
+      "seed": 347678934,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/001099.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/001100.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/001098.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 2,
+      "ids": [
+        1,
+        2,
+        0
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3488950574,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000001.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000002.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000000.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 101,
+      "ids": [
+        100,
+        101,
+        99
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2040007442,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000100.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000101.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000099.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 201,
+      "ids": [
+        200,
+        201,
+        199
+      ],
+      "role": "exposed_evaluation",
+      "seed": 769783896,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000200.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000201.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000199.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 301,
+      "ids": [
+        300,
+        301,
+        299
+      ],
+      "role": "exposed_evaluation",
+      "seed": 336306444,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000300.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000301.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000299.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 401,
+      "ids": [
+        400,
+        401,
+        399
+      ],
+      "role": "exposed_evaluation",
+      "seed": 805597497,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000400.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000401.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000399.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 501,
+      "ids": [
+        500,
+        501,
+        499
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3555828987,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000500.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000501.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000499.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 600,
+      "ids": [
+        599,
+        600,
+        598
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1038598751,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000599.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000600.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000598.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 700,
+      "ids": [
+        699,
+        700,
+        698
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2088066623,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000699.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000700.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000698.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 800,
+      "ids": [
+        799,
+        800,
+        798
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3367119890,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000799.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000800.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000798.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 900,
+      "ids": [
+        899,
+        900,
+        898
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2277331870,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000899.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000900.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000898.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 1000,
+      "ids": [
+        999,
+        1000,
+        998
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3131037266,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000999.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/001000.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/000998.bin"
+      ]
+    },
+    {
+      "seq": "07",
+      "t": 1100,
+      "ids": [
+        1099,
+        1100,
+        1098
+      ],
+      "role": "exposed_evaluation",
+      "seed": 985389326,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/001099.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/001100.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/velodyne/001098.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 2,
+      "ids": [
+        1,
+        2,
+        0
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2097929070,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000001.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000002.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000000.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 371,
+      "ids": [
+        370,
+        371,
+        369
+      ],
+      "role": "exposed_evaluation",
+      "seed": 307401827,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000370.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000371.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000369.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 741,
+      "ids": [
+        740,
+        741,
+        739
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1983141702,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000740.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000741.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/000739.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 1111,
+      "ids": [
+        1110,
+        1111,
+        1109
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2039171189,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001110.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001111.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001109.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 1481,
+      "ids": [
+        1480,
+        1481,
+        1479
+      ],
+      "role": "exposed_evaluation",
+      "seed": 288433903,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001480.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001481.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001479.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 1851,
+      "ids": [
+        1850,
+        1851,
+        1849
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1804460244,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001850.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001851.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/001849.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 2220,
+      "ids": [
+        2219,
+        2220,
+        2218
+      ],
+      "role": "exposed_evaluation",
+      "seed": 424127400,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002219.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002220.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002218.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 2590,
+      "ids": [
+        2589,
+        2590,
+        2588
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3305096318,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002589.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002590.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002588.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 2960,
+      "ids": [
+        2959,
+        2960,
+        2958
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3321861496,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002959.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002960.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/002958.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 3330,
+      "ids": [
+        3329,
+        3330,
+        3328
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3138550040,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/003329.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/003330.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/003328.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 3700,
+      "ids": [
+        3699,
+        3700,
+        3698
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1301919933,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/003699.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/003700.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/003698.bin"
+      ]
+    },
+    {
+      "seq": "08",
+      "t": 4070,
+      "ids": [
+        4069,
+        4070,
+        4068
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2136102819,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/004069.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/004070.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/08/velodyne/004068.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 2,
+      "ids": [
+        1,
+        2,
+        0
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2786567535,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000001.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000002.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000000.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 146,
+      "ids": [
+        145,
+        146,
+        144
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3170720429,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000145.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000146.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000144.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 290,
+      "ids": [
+        289,
+        290,
+        288
+      ],
+      "role": "exposed_evaluation",
+      "seed": 937753644,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000289.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000290.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000288.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 435,
+      "ids": [
+        434,
+        435,
+        433
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1775836787,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000434.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000435.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000433.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 579,
+      "ids": [
+        578,
+        579,
+        577
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1386698536,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000578.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000579.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000577.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 723,
+      "ids": [
+        722,
+        723,
+        721
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1477785197,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000722.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000723.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000721.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 868,
+      "ids": [
+        867,
+        868,
+        866
+      ],
+      "role": "exposed_evaluation",
+      "seed": 4283361014,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000867.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000868.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/000866.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 1012,
+      "ids": [
+        1011,
+        1012,
+        1010
+      ],
+      "role": "exposed_evaluation",
+      "seed": 845574053,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001011.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001012.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001010.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 1156,
+      "ids": [
+        1155,
+        1156,
+        1154
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2299696034,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001155.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001156.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001154.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 1301,
+      "ids": [
+        1300,
+        1301,
+        1299
+      ],
+      "role": "exposed_evaluation",
+      "seed": 4035632209,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001300.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001301.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001299.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 1445,
+      "ids": [
+        1444,
+        1445,
+        1443
+      ],
+      "role": "exposed_evaluation",
+      "seed": 401249025,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001444.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001445.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001443.bin"
+      ]
+    },
+    {
+      "seq": "09",
+      "t": 1590,
+      "ids": [
+        1589,
+        1590,
+        1588
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3875919538,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001589.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001590.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/velodyne/001588.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 2,
+      "ids": [
+        1,
+        2,
+        0
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3869584036,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000001.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000002.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000000.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 110,
+      "ids": [
+        109,
+        110,
+        108
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1069972399,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000109.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000110.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000108.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 219,
+      "ids": [
+        218,
+        219,
+        217
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3889651008,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000218.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000219.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000217.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 328,
+      "ids": [
+        327,
+        328,
+        326
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2088248745,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000327.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000328.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000326.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 437,
+      "ids": [
+        436,
+        437,
+        435
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1039878307,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000436.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000437.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000435.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 546,
+      "ids": [
+        545,
+        546,
+        544
+      ],
+      "role": "exposed_evaluation",
+      "seed": 3776061901,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000545.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000546.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000544.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 655,
+      "ids": [
+        654,
+        655,
+        653
+      ],
+      "role": "exposed_evaluation",
+      "seed": 4209392315,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000654.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000655.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000653.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 764,
+      "ids": [
+        763,
+        764,
+        762
+      ],
+      "role": "exposed_evaluation",
+      "seed": 1710533382,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000763.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000764.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000762.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 873,
+      "ids": [
+        872,
+        873,
+        871
+      ],
+      "role": "exposed_evaluation",
+      "seed": 2320141871,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000872.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000873.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000871.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 982,
+      "ids": [
+        981,
+        982,
+        980
+      ],
+      "role": "exposed_evaluation",
+      "seed": 226313297,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000981.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000982.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/000980.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 1091,
+      "ids": [
+        1090,
+        1091,
+        1089
+      ],
+      "role": "exposed_evaluation",
+      "seed": 338403488,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/001090.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/001091.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/001089.bin"
+      ]
+    },
+    {
+      "seq": "10",
+      "t": 1200,
+      "ids": [
+        1199,
+        1200,
+        1198
+      ],
+      "role": "exposed_evaluation",
+      "seed": 738789515,
+      "paths": [
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/001199.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/001200.bin",
+        "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/velodyne/001198.bin"
+      ]
+    }
+  ],
+  "caps": {
+    "Windows_seconds": 900,
+    "RSS_bytes": 536870912,
+    "GPU_bytes": 0,
+    "dossier_bytes": 33554432
+  },
+  "following_candidate": {
+    "base": "J_pose",
+    "translation_component_m": 0.05,
+    "rotation_component_deg": 0.2,
+    "nonlinearity": "tanh"
+  },
+  "no_numerical_source_replay": true
+}

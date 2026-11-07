@@ -1,0 +1,217 @@
+{
+  "kind": "CLOSED_SCOPE_INDEX_NOT_ACCOUNT_BOUNDARY",
+  "scopes": [
+    {
+      "scope": "continuation-02",
+      "SHA256": "7E8DCFE569C56DB46E388FE1E138D0CAAEC902F29D6B5790AB337EFB056F19B3",
+      "receipt": {
+        "cap_seconds": 600,
+        "new_scope_only": true,
+        "status": "PASS",
+        "elapsed_seconds": 81.6821546,
+        "old_documentary_gap_not_excluded": true
+      }
+    },
+    {
+      "scope": "feature-candidate-01",
+      "SHA256": "1F41EE75F5A040D2C6F9C6B22A7B8A2F445A4A4E715224D98B3C8D6F7A6C4048",
+      "receipt": {
+        "elapsed_seconds": 151.986891,
+        "budget_status": "PASS",
+        "cap_seconds": 900,
+        "scientific_status": "CANDIDATE_SYNTHETIC_CONTROLS_PASS",
+        "old_caps_reset": false,
+        "production_installed": false
+      }
+    },
+    {
+      "scope": "checkpoint-binding-01",
+      "SHA256": "5D3A8F2E93D61465A5080B6CE54BCCFD5E39BD915D78525DA3A83470DF851D0E",
+      "receipt": {
+        "scientific_status": "INCOMPLETE_SAFE_CONTAINER_ADMISSION",
+        "model_constructor_attempts": 0,
+        "cap_seconds": 1200,
+        "elapsed_seconds": 252.3339563,
+        "checkpoints_safe_loaded": 0,
+        "budget_status": "PASS",
+        "unsafe_fallback": false,
+        "old_caps_reset": false
+      }
+    },
+    {
+      "scope": "checkpoint-archive-01",
+      "SHA256": "11CE92F4499427D2CCDE9876065C00DD1D12A293499A6A65DBACBF2705B06274",
+      "receipt": {
+        "status": "NONEXECUTING_ARCHIVE_CENSUS_COMPLETE",
+        "old_caps_reset": false,
+        "elapsed_seconds": 91.424962,
+        "cap_seconds": 900,
+        "unpickling": false,
+        "budget_status": "PASS"
+      }
+    },
+    {
+      "scope": "checkpoint-structure-01",
+      "SHA256": "707410933C7ABEB23F3195E6ABF13500471C9CF4E2D7723F243DA402642989AD",
+      "receipt": {
+        "elapsed_seconds": 368.9233586,
+        "old_caps_reset": false,
+        "status": "STATE_METADATA_AND_ARCHITECTURE_STRUCTURE_PASS",
+        "checkpoint_loads": 0,
+        "forward_calls": 0,
+        "budget_status": "PASS",
+        "cap_seconds": 1800
+      }
+    },
+    {
+      "scope": "tensor-transfer-01",
+      "SHA256": "5BF91FA6D6B563DDB489859C0E4200251808931897F16FB68C825553F585E901",
+      "receipt": {
+        "status": "CLOSED_CANONICAL_STRIDE_GATE_FAIL",
+        "retry_allowed": false,
+        "cap_seconds": 1500,
+        "loaded_state_counter": 344,
+        "budget_status": "PASS",
+        "forward_calls": 0,
+        "elapsed_seconds": 296.652461,
+        "unpickle_calls": 0,
+        "old_caps_reset": false
+      }
+    },
+    {
+      "scope": "public-reader-01",
+      "SHA256": "914A99973040B7B2AAAEF427714000DBE17AA41A7CCBD5403B51DEFE1956C01F",
+      "receipt": {
+        "elapsed_seconds": 254.7643035,
+        "status": "NEW_PUBLIC_READER_FUNCTIONAL_PASS",
+        "synthetic_controls": 38,
+        "old_caps_reset": false,
+        "cap_seconds": 1200,
+        "C0_stages_invoked": 0,
+        "model_calls": 0,
+        "private_requests": 0,
+        "budget_status": "PASS",
+        "real_public_point_occurrences": 56557
+      }
+    },
+    {
+      "scope": "singleton-layout-01",
+      "SHA256": "302B4DAE250B4F261638D2BD643AE0F687BBB1F24538DA1E06243EE76CFDA6F6",
+      "receipt": {
+        "status": "SYNTHETIC_LAYOUT_FEASIBILITY_PASS",
+        "elapsed_seconds": 216.7262257,
+        "TT1_retried": false,
+        "old_caps_reset": false,
+        "cap_seconds": 900,
+        "budget_status": "PASS",
+        "inference_admitted": false,
+        "actual_weight_reads": 0
+      }
+    },
+    {
+      "scope": "inference-semantics-01",
+      "SHA256": "E025368432A2E2D7F8F478F2EA52AE21C8B72F812E9A4BDF89F1CA8F3F62E65B",
+      "receipt": {
+        "elapsed_seconds": 128.4702554,
+        "controls": 43,
+        "real_point_reads": 0,
+        "actual_neural_models": 0,
+        "status": "SOURCE_SYNTHETIC_INFERENCE_SEMANTICS_PASS",
+        "cap_seconds": 1200,
+        "budget_status": "PASS",
+        "reference_reads": 0,
+        "old_caps_reset": false
+      }
+    },
+    {
+      "scope": "delivery-audit-02",
+      "SHA256": "B9AF9774B657FAE82EE06C1BFF72FB21948C38B8C4823A5C89FCB57A1DA10BED",
+      "receipt": {
+        "source_code_files": 78,
+        "budget_status": "PASS",
+        "numeric_imports": false,
+        "status": "INDEPENDENT_DELIVERY_AND_PLATFORM_AUDIT_PASS",
+        "old_caps_reset": false,
+        "new_payload_entries": 746,
+        "old_payload_entries": 291,
+        "elapsed_seconds": 315.454355,
+        "cap_seconds": 1200
+      }
+    },
+    {
+      "scope": "account-boundary-02",
+      "SHA256": "92251744C5236468A7D41A7BDD2484A0B3CEC13FDE9E16A8B5C4CDBB25275108",
+      "receipt": {
+        "elapsed_seconds": 85.3230486,
+        "old_caps_reset": false,
+        "actual_boundary_observed": false,
+        "saved_observations": 7,
+        "status": "ACCOUNT_CLASSIFIER_CONTRACT_PASS",
+        "cap_seconds": 600,
+        "controls": 20,
+        "budget_status": "PASS"
+      }
+    },
+    {
+      "scope": "handoff-02",
+      "SHA256": "047F4A25D25C054F48DE9B9CD6ACB3897D2DEAF4250E2BC5AF369E1A5B72608F",
+      "receipt": {
+        "actual_boundary_observed": false,
+        "budget_status": "PASS",
+        "elapsed_seconds": 165.6453451,
+        "status": "PRE_BOUNDARY_CLOSED_SCOPE_ZIP_VERIFIED",
+        "ZIP_members": 1109,
+        "pending_numerical_work": false,
+        "old_caps_reset": false,
+        "cap_seconds": 900
+      }
+    },
+    {
+      "scope": "reference-counterexample-01",
+      "SHA256": "9579AD25397CAE30D4B9258FC664FB6DA1FE8A6080DE0DD138CBE59211B4358E",
+      "receipt": {
+        "old_caps_reset": false,
+        "physical_efficacy_admitted": false,
+        "actual_data_reads": 0,
+        "status": "DOCUMENTARY_EXACT_COUNTEREXAMPLE_COMPLETE",
+        "elapsed_seconds": 69.6189325,
+        "model_calls": 0,
+        "cap_seconds": 600,
+        "budget_status": "PASS"
+      }
+    },
+    {
+      "scope": "account-ledger-01",
+      "SHA256": "A3CBB52E7A391052FFE486C6788CEE5F44351FD29FB81166A5333AEFEE069002",
+      "receipt": {
+        "actual_account_setting_mutations": 0,
+        "old_caps_reset": false,
+        "cap_seconds": 450,
+        "status": "TERMINAL_LEDGER_POLICY_PASS",
+        "controls": 7,
+        "budget_status": "PASS",
+        "elapsed_seconds": 62.8179047
+      }
+    },
+    {
+      "scope": "pre-boundary-02",
+      "SHA256": "B24A3BA34EF998B67882D05C0B427063CBBADBF18E9067911FDD4B4FECC09BE4",
+      "receipt": {
+        "elapsed_seconds": 67.790243,
+        "actual_exhaustion_observed": false,
+        "status": "PRE_BOUNDARY_DOC_CHECK_COMPLETE",
+        "budget_status": "PASS",
+        "cap_seconds": 300,
+        "ordinaryUsageAllowed": true,
+        "old_caps_reset": false,
+        "numerical_work_pending": false,
+        "last_observed_usedPercent": 91
+      }
+    }
+  ],
+  "scope_count": 15,
+  "no_pending_payload": true,
+  "no_automatic_resume": true,
+  "original_research": "UNRESOLVED",
+  "manuscript": "PAUSED"
+}

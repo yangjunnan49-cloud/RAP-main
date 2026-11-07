@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "union_exact": true,
+  "support_raw_search_exact": true,
+  "strata_exact": true,
+  "sampling_exact": true,
+  "GT_free_inputs": true,
+  "sc_max_delta": 1.7191381762593494e-08,
+  "bruteforce_examples": [
+    {
+      "stratum": "confuser",
+      "source_i": 384,
+      "source_j": 850,
+      "overlap": 0.0
+    },
+    {
+      "stratum": "confuser",
+      "source_i": 127,
+      "source_j": 442,
+      "overlap": 0.0
+    },
+    {
+      "stratum": "ambiguous_positive",
+      "source_i": 43,
+      "source_j": 987,
+      "overlap": 0.336625
+    },
+    {
+      "stratum": "ambiguous_positive",
+      "source_i": 29,
+      "source_j": 1018,
+      "overlap": 0.61025
+    },
+    {
+      "stratum": "low_overlap",
+      "source_i": 95,
+      "source_j": 1063,
+      "overlap": 0.113125
+    },
+    {
+      "stratum": "low_overlap",
+      "source_i": 43,
+      "source_j": 977,
+      "overlap": 0.27275
+    }
+  ]
+}

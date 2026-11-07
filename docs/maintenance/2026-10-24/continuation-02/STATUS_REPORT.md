@@ -1,0 +1,11 @@
+# Second October24 continuation: deliverable and next dependency
+
+The new owner authorization is explicit; the initial observation is4%/ordinaryTRUE/reset1792844337 at07:18:58UTC. Recovery verifies seven prior closed cost hashes and both original delivery packages. The previous window has no verified ordinary-disabled/quota-review-failure receipt; its boundary is correctly UNOBSERVED, not reconstructed as exhaustion.
+
+RC2 completes a22-source/14-citation role/sampling-unit review,276.351109/1200s. It identifies one scene, three source files and two augmentation records; all downstream point/view/coordinate counts retain their occurrence meanings. It produces a concrete original-record evidence specification and conditional common-input G/P/J/W comparison decision. No physical-reference/independent-cohort/mechanism admission or actual model work follows.
+
+OV1 makes completed public outputs visually reviewable,327.188249/900s inclusive. Two original failures are retained: an outer status-string overload before any host/worker, then a preflight Windows-path basename error before NumPy/array loading. The new frozen path-only revision retains all other worker AST, inputs, environment, numeric/rendering rules, limits and original origin. Its preflight and first render succeed; both PNGs pass visual inspection. No successful stage/model replay or data-driven selection occurs.
+
+No independent physical-reference/acquisition/untouched-cohort record is presently identified in the reviewed evidence. The owner was asked for any newly authorized local source path; until one is supplied, another real efficacy runner is unjustified. Evidence sufficiency and quota exhaustion are different decisions. Current ordinary-allowed observations are never reported as an account stop. No automatic reset resumption or scheduler/goal-status change.
+
+The immutable earlier evidence/pose ZIPs remain available. New figures and source-decision package are additive; no earlier failed/result/cost/seal bytes are rewritten. CURRENT_HANDOFF.md links the active evidence and carries exact limits. Original research UNRESOLVED/manuscript PAUSED; WSL initialStopped restored, E VHD/backup/Junction retained.

@@ -1,0 +1,63 @@
+{
+  "descriptor_queries": 4000,
+  "complete_pairs": 2,
+  "records": [
+    {
+      "part": 1,
+      "direction": "part_to_anchor",
+      "query_points": 1000,
+      "nearest_ties": 6,
+      "unique_first_indices": 997,
+      "max_first_descriptor_distance": 0.0,
+      "min_second_descriptor_distance": 0.0
+    },
+    {
+      "part": 1,
+      "direction": "anchor_to_part",
+      "query_points": 1000,
+      "nearest_ties": 6,
+      "unique_first_indices": 997,
+      "max_first_descriptor_distance": 0.0,
+      "min_second_descriptor_distance": 0.0
+    },
+    {
+      "part": 2,
+      "direction": "part_to_anchor",
+      "query_points": 1000,
+      "nearest_ties": 6,
+      "unique_first_indices": 997,
+      "max_first_descriptor_distance": 0.0,
+      "min_second_descriptor_distance": 0.0
+    },
+    {
+      "part": 2,
+      "direction": "anchor_to_part",
+      "query_points": 1000,
+      "nearest_ties": 6,
+      "unique_first_indices": 997,
+      "max_first_descriptor_distance": 0.0,
+      "min_second_descriptor_distance": 0.0
+    }
+  ],
+  "support": [
+    {
+      "part": 1,
+      "all1000_used": false,
+      "mutual_all1000": false,
+      "full_support_and_no_ambiguity": false
+    },
+    {
+      "part": 2,
+      "all1000_used": false,
+      "mutual_all1000": false,
+      "full_support_and_no_ambiguity": false
+    }
+  ],
+  "all_support": false,
+  "truth_target_loaded": false,
+  "no_index_or_GT_matching": true,
+  "model_calls": 0,
+  "optimizer_calls": 0,
+  "retained_updates": 0,
+  "HFIT_partial_predictions_used": false
+}

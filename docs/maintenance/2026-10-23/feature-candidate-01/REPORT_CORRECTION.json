@@ -1,0 +1,9 @@
+{
+  "supersedes_only": "REPORT.md sentence claiming four original NumPy-keypoint secondary-error paths",
+  "correct_count": 3,
+  "exact_controls": ["NumPy points/default keypoints", "NumPy points/NumPy keypoints", "Tensor points/NumPy keypoints"],
+  "original_results_unchanged": true,
+  "evidence": "run01/numeric/RESULTS.json original_secondary_error fields",
+  "control_total_unchanged": 23,
+  "numeric_replay": false
+}

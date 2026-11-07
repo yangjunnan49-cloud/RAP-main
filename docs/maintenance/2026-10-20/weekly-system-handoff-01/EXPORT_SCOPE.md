@@ -1,0 +1,5 @@
+# Portable trajectory delivery
+
+Export the already-sealed complete B/G trajectories for all six sequences in standard twelve-number-per-row pose text. Include LiDAR world poses and KITTI camera-conjugated poses, preserving every source frame and available source timestamp. Do not align using GT, interpolate, optimize, select a mode by sequence or modify original predictions. Include exact source/pose/calibration hashes, scalar metrics and a plain-language experimental-status README; no GT coordinate file is distributed. ZIP is local only, no publishing or external transfer.
+
+Independent roundtrip parses each written file, checks complete shape and <=1e-8 matrix difference, and verifies camera-to-LiDAR inverse conversion. Record max errors and file counts. Bind exporter source and this scope before writing. This is documentary serialization within the SAME delivery300s/2GiB/64MiB output envelope, original12GiB host guard, zero GPU; no new scientific budget or model/solver call. Existing scientific seals remain immutable.

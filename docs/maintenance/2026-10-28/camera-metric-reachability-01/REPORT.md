@@ -1,0 +1,9 @@
+# MR1 complete categorical result: no new missing-proposal ID covered by PnP
+
+All200 pair IDs and all native-N partitions/strata are retained. PR1's17 camera-metric outputs comprise15 historically correct-accepted00 IDs and two correct-rejected00 IDs. None is in the old64 missing-correct-proposal IDs (00:23;08:41), and none is a selection-miss ID. All17 were already ER1 camera5DoF output IDs. This is an exposed ID join, not a direct pose-metric comparison with old native-N/corrected-LiDAR geometry.
+
+PR1 has14 in the pre-frozen camera R5/d15 bin;13 overlap ER1's23 and one does not. That extra bin ID is historically correct-rejected, not proposal-unavailable. A post-hoc union would be an oracle set calculation using supplied-reference errors, not an operational fusion rule. Do not construct a selector from it or declare RAP gain.
+
+The depth observations produce metric-camera estimates for a limited already-supported00 region, not new coverage of the original missing-proposal failure.27/40 old correct-accepted IDs also lack PnP output (8 of23 in00,all17 in08); absence is not a safe rejection rule. Both camera methods fail to supply08 evidence in this cohort. All200/no-evidence/confuser and exact frame/metric roles remain.
+
+No new point, pixel, pose solver/model/training or angle/error metric was computed. This result does not justify automatic RAP training/coupling or parameter/model/subset rescue. Retain the ordinary-camera engineering deliverables and complete a source-level public raw-input/frame/API admission review before any integration. In raw coordinates, supplied extrinsics permit the declared affine action Tr_j^-1*Tcam*Tr_i; the old point-dependent correction is not a constant SE3, and the existing custom normalization contract is not authentication of a canonical RAP input/output API. Review existing real backend source, not a new unrelated normalization prototype. ResearchUNRESOLVED/manuscriptPAUSED; all old failures/caps remain.

@@ -1,0 +1,13 @@
+# EIA1 evidence source and coverage census
+
+Fixed before census output. Consume the PTA1 input manifest, common-raw input/preparation manifests, prior FLG1/GCP2/MCV1 group identities and source files; do not consume PGC1 partial predictions. No point arrays, image arrays, supplied pose values, nearest-neighbor queries, model or solver calls.
+
+For each of all 200 pairs, enumerate the two endpoint identities and exactly endpoint-10 and endpoint-1 as possible causal additional scans. These offsets are metadata witnesses only, not a proposed temporal scoring rule; do not tune them or infer efficacy from file existence. Record whether each witness also occurs in the entire 273-scan generation input set. Presence outside that set proves only a new acquisition index relative to this input bank, not statistical independence, static correspondence, physical place identity, or novelty versus HL/C4/C5/C6. Record duplicate witnesses explicitly.
+
+Probe only the two bound sequence roots and corresponding RAP-SLAM data roots for OXTS, timestamps_start/end, calibration/source/archive manifests, per-point timestamps and raw-drive directory identifiers. List root directory names for E:/githouse/Datasets and RAP-SLAM/data; do not claim a full-machine absence. Check already registered actual-image packet manifest entries without decoding PNGs. Preserve all NO_EVIDENCE.
+
+Use the previous complete-group output files solely to bind development diagnostic groups (oldunique27, missing64, oldwrong9 and currentwrong8) after source metadata have been emitted and sealed. Report group sizes and overlap; they are not disjoint samples, unseen confirmation, or independent sessions. No experimental outcome is inferred from coverage.
+
+Admission requires an actual evidence source, traceable coordinate/time meaning, target coverage, and a concrete mechanism that can distinguish a coherent wrong association counterexample using information absent from candidate generation. Matching the same observations twice, a local rank statistic, a finite bank with no rival, or another copy of the same reference does not qualify. A proposed new external OXTS prior must also document whether it shares the supplied reference's generating process before being called independent.
+
+Documentary census limits: 200 pairs, the fixed metadata paths and <=400 witness endpoints per offset, 64 MiB dossier, original EIA1 scope deadline. Each result file records exact paths, byte hashes, UTC and source bindings. This stage does not admit raw numerical or image inference. Source preparation failures remain in AUTHORITY.md and are not numerical failures.

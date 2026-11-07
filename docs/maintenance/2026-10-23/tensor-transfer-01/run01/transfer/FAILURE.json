@@ -1,0 +1,12 @@
+{
+  "error": "ValueError('noncontiguous_stride')",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-23/tensor-transfer-01/runtime/worker.py\", line 93, in <module>\n    raw=z.read(member);decoded[key]=decode(raw,meta,record['sha256'],torch);hashes[key]=record['sha256']\n  File \"/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-23/tensor-transfer-01/runtime/tensor_candidate.py\", line 16, in decode\n    if stride!=list(reversed(expected)):raise ValueError('noncontiguous_stride')\nValueError: noncontiguous_stride\n",
+  "counters": {
+    "architectures_constructed": 2,
+    "checkpoint_unpickle_calls": 0,
+    "forward_attempts": 0,
+    "loaded_state_tensors": 344,
+    "point_reads": 0,
+    "reference_reads": 0
+  }
+}

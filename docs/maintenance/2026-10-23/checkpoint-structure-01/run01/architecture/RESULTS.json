@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "model": "RAP",
+      "actual_state_tensors": 344,
+      "checkpoint_state_tensors": 344,
+      "parameters": 85576192,
+      "missing": [],
+      "unexpected": [],
+      "mismatches": [],
+      "structural_match": true
+    },
+    {
+      "model": "miniSpinNet",
+      "actual_state_tensors": 58,
+      "checkpoint_state_tensors": 58,
+      "parameters": 425187,
+      "missing": [],
+      "unexpected": [],
+      "mismatches": [],
+      "structural_match": true
+    }
+  ],
+  "torch_version": "2.7.0+cu128",
+  "counters": {
+    "architectures_constructed": 2,
+    "checkpoint_load_calls": 0,
+    "forward_attempts": 0,
+    "point_reads": 0,
+    "private_reference_reads": 0
+  },
+  "CUDA_initialized": false,
+  "claim": "Key/shape/dtype compatibility only; values, load success and efficacy unproved"
+}

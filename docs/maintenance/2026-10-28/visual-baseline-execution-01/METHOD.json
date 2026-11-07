@@ -1,0 +1,39 @@
+{
+  "sift": {
+    "nfeatures": 2048,
+    "nOctaveLayers": 3,
+    "contrastThreshold": 0.04,
+    "edgeThreshold": 10,
+    "sigma": 1.6
+  },
+  "ratio": 0.75,
+  "minimum_matches": 8,
+  "prob": 0.999,
+  "threshold_px": 1.0,
+  "maxIters": 2000,
+  "rotation_validity_tolerance": 1e-06,
+  "reference_validity_tolerance": 1e-05,
+  "reference_translation_epsilon_m": 1e-09,
+  "rotation_bins_deg": [
+    5,
+    10
+  ],
+  "direction_bins_deg": [
+    15,
+    30
+  ],
+  "scope_origin_utc": "2026-10-28T06:48:18+00:00",
+  "whole_scope_seconds": 5400,
+  "closure_reserve_seconds": 180,
+  "dossier_bytes": 1073741824,
+  "stage_seconds": {
+    "controls": 60,
+    "features": 300,
+    "predict": 300,
+    "evaluate": 120,
+    "audit": 180
+  },
+  "child_peak_bytes": 1073741824,
+  "headroom_bytes": 12884901888,
+  "query_seconds": 2
+}

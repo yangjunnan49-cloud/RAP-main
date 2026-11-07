@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "source_delta_files_fresh_byte_checked": 1072,
+  "delta_logical_bytes": 186134097,
+  "delta_unique_objects": 833,
+  "delta_unique_payload_bytes": 144164228,
+  "delta_volumes": [
+    {
+      "name": "payload-0001.tar",
+      "bytes": 144814080,
+      "sha256": "d35a8e56f59d93de2661193298f146bcfd6740dd778de239ef040a8d4333b479",
+      "objects": 833
+    }
+  ],
+  "independent_readback": {
+    "passed": true,
+    "source_files": 1072,
+    "unique_objects_verified": 833,
+    "volumes_verified": 1,
+    "logical_bytes": 186134097,
+    "unique_payload_bytes": 144164228,
+    "links_recreated": false,
+    "server_restore_validated": false
+  },
+  "project_manifest_sha256": "711bd1798c01955e9169d950808ebe5e973ca000e058cea2ab618f885da23b1c",
+  "final_A7_control_overlay_pending": true
+}

@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "identity_checks": 1219,
+  "experiments": {
+    "dense-propagation-screen-01": {
+      "stage": "VALIDATED",
+      "decision": "NO_FIXED_INTERPOLATION_SIGNAL",
+      "validation_passed": true
+    },
+    "joint-loop-oracle-01": {
+      "stage": "VALIDATED",
+      "decision": "MATERIAL_CURRENT_EDGE_JOINT_HEADROOM",
+      "validation_passed": true
+    },
+    "geotransformer-feasibility-01": {
+      "stage": "VALIDATED",
+      "decision": "PASS_ISOLATED_SYNTHETIC_FEASIBILITY",
+      "validation_passed": true
+    },
+    "online-geotransformer-01": {
+      "stage": "VALIDATED",
+      "decision": "NO_MATERIAL_COMMON_GATE_SYSTEM_SIGNAL",
+      "validation_passed": true
+    },
+    "online-geometry-consistency-01": {
+      "stage": "VALIDATED",
+      "decision": "SHARED_09_GEOMETRY_LABEL_DISCREPANCY",
+      "validation_passed": true
+    }
+  },
+  "global_packages_still_absent": {
+    "easydict": true,
+    "einops": true,
+    "ipdb": true,
+    "geotransformer": true
+  },
+  "heads": {
+    "RAP-main": "4055d929c594b0033aafc6eed339c910369eef55",
+    "RAP-SLAM": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6"
+  },
+  "utc": "2026-10-05T04:09:22.885511+00:00"
+}

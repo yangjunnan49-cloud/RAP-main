@@ -1,0 +1,3 @@
+# NOC4 retry handoff
+
+AUDITED_NATIVE_PREFLIGHT_STOP_WITH_REPLAY_MISMATCH; PROBE_LOSS_INCREASE_AND_P_REPLAY_MISMATCH. Read REPORT/NEXT_ROUND_PLAN/PROTOCOL/OWNER_SCOPE/STATUS/CHECKS/RESOURCE_AUDIT/SUPERVISED_RESOURCE_AUDIT/DELIVERY_SEAL; original204-entry freeze and execution-stop-audit-01 scope/freeze/validation/seal. Four restored optimizer probes, zero retained updates/fits/predictions/real windows. Available artifact audit passes; original full-forward P replay validation fails and comparison remains INCOMPLETE. All failures/sources/old identities remain. Next DESIGN_ONLY; no exact numerical rescue.

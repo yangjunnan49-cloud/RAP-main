@@ -1,0 +1,34 @@
+{
+  "prestart_guard_stops": 1,
+  "numeric_child_attempts": 0,
+  "source_snapshot_entries_match": 9,
+  "goal_complete": false,
+  "ordinary_preparation_RSS": "UNKNOWN",
+  "remaining_combined_enclosing_budget_seconds": 897.8006322,
+  "prior_seals": {
+    "continuation-handoff-09/DELIVERY_SEAL.json": {
+      "entries": 14,
+      "matches": true
+    },
+    "continuation-handoff-09/ACCOUNT_STOP_SEAL.json": {
+      "entries": 2,
+      "matches": true
+    },
+    "regx-reference-code-01/DELIVERY_SEAL.json": {
+      "entries": 30,
+      "matches": true
+    },
+    "regx-reference-package-01/DELIVERY_SEAL.json": {
+      "entries": 59,
+      "matches": true
+    }
+  },
+  "Python_syntax_and_runtime": "UNTESTED",
+  "payload_outputs": [],
+  "source_bindings_match": 19,
+  "original_repositories_match": true,
+  "account_exhaustion_observed": false,
+  "initial_prestart_enclosing_seconds": 2.1993678,
+  "status": "PREPARATION_ONLY_NOT_NUMERIC_VALIDATION",
+  "native_sibling_bookkeeping_failure_retained": true
+}

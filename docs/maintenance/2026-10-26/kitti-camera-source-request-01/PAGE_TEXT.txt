@@ -1,0 +1,1177 @@
+The KITTI Vision Benchmark Suite
+Important note: On September 7, 2026, the KITTI and KITTI-360 servers had to be restored to the backed-up state of August 7, 2026. Results within this period have to be resubmitted.
+The KITTI Vision Benchmark Suite
+A project of Karlsruhe Institute of Technology
+and
+Toyota Technological Institute at Chicago
+home
+setup
+stereo
+Stereo 2012
+Stereo 2015
+flow
+Flow 2012
+Flow 2015
+sceneflow
+depth
+Depth Completion
+Depth Prediction
+odometry
+object
+2d object
+3d object
+bird's eye view
+tracking
+multi-object tracking
+multi-object tracking and segmentation
+segmenting and tracking every pixel
+road
+semantics
+pixel-level
+instance-level
+raw data
+submit results
+A. Geiger |
+P. Lenz |
+C. Stiller |
+R. Urtasun
+Log in
+Visual Odometry / SLAM Evaluation 2012
+The odometry benchmark consists of 22 stereo sequences, saved in loss less png format: We provide 11 sequences (00-10) with ground truth trajectories for training and 11 sequences (11-21) without ground truth for evaluation. For this benchmark you may provide results using monocular or stereo visual odometry, laser-based SLAM or algorithms that combine visual and LIDAR information. The only restriction we impose is that your method is fully automatic (e.g., no manual loop-closure tagging is allowed) and that the same parameter set is used for all sequences. A development kit provides details about the data format.
+Download odometry data set (grayscale, 22 GB)
+Download odometry data set (color, 65 GB)
+Download odometry data set (velodyne laser data, 80 GB)
+Download odometry data set (calibration files, 1 MB)
+Download odometry ground truth poses (4 MB)
+Download odometry development kit (1 MB)
+Lee Clement and his group (University of Toronto) have written some python tools for loading and parsing the KITTI raw and odometry datasets
+From all test sequences, our evaluation computes translational and rotational errors for all possible subsequences of length (100,...,800) meters. The evaluation table below ranks methods according to the average of those values, where errors are measured in percent (for translation) and in degrees per meter (for rotation). A more detailed comparison for different trajectory lengths and driving speeds can be found in the plots underneath. Note: On 03.10.2013 we have changed the evaluated sequence lengths from (5,10,50,100,...,400) to (100,200,...,800) due to the fact that the GPS/OXTS ground truth error for very small sub-sequences was large and hence biased the evaluation results. Now the averages below take into account longer sequences and provide a better indication of the true performance. Please consider reporting these number for all future submissions. The last leaderboard right before the changes can be found here!
+Important Policy Update: As more and more non-published work and re-implementations of existing work is submitted to KITTI, we have established a new policy: from now on, only submissions with significant novelty that are leading to a peer-reviewed paper in a conference or journal are allowed. Minor modifications of existing algorithms or student research projects are not allowed. Such work must be evaluated on a split of the training set. To ensure that our policy is adopted, new users must detail their status, describe their work and specify the targeted venue during registration. Furthermore, we will regularly delete all entries that are 6 months old but are still anonymous or do not have a paper associated with them. For conferences, 6 month is enough to determine if a paper has been accepted and to add the bibliography information. For longer review cycles, you need to resubmit your results.
+Additional information used by the methods
+Stereo: Method uses left and right (stereo) images
+Laser Points: Method uses point clouds from Velodyne laser scanner
+Loop Closure Detection: This method is a SLAM method that detects loop closures
+Additional training data: Use of additional data sources for training (see details)
+Method
+Setting
+Code
+Translation
+Rotation
+Runtime
+Environment
+1
+SOFT2
+0.53 %
+0.0009 [deg/m]
+0.1 s
+4 cores @ 2.5 Ghz (C/C++)
+I. Cvišić, I. Marković and I. Petrović: SOFT2: Stereo Visual Odometry for Road Vehicles Based on a Point-to-Epipolar-Line Metric. IEEE Transactions on Robotics 2022.
+I. Cvišić, I. Marković and I. Petrović: Enhanced calibration of camera setups for high-performance visual odometry. Robotics and Autonomous Systems 2022.
+I. Cvišić, I. Marković and I. Petrović: Recalibrating the KITTI Dataset Camera Setup for Improved Odometry Accuracy. European Conference on Mobile Robots (ECMR) 2021.
+2
+V-LOAM
+0.54 %
+0.0013 [deg/m]
+0.1 s
+2 cores @ 2.5 Ghz (C/C++)
+J. Zhang and S. Singh: Visual-lidar Odometry and Mapping: Low drift,
+Robust, and Fast. IEEE International Conference on Robotics and
+Automation(ICRA) 2015.
+3
+LOAM
+0.55 %
+0.0013 [deg/m]
+0.1 s
+2 cores @ 2.5 Ghz (C/C++)
+J. Zhang and S. Singh: LOAM: Lidar Odometry and Mapping in Real-
+time. Robotics: Science and Systems Conference
+(RSS) 2014.
+4
+TVL-SLAM+
+0.56 %
+0.0015 [deg/m]
+0.3 s
+1 core @ 3.0 Ghz (C/C++)
+C. Chou and C. Chou: Efficient and Accurate Tightly-Coupled
+Visual-Lidar SLAM. IEEE Transactions on Intelligent
+Transportation Systems 2021.
+5
+Traj-LIO
+0.57 %
+0.0015 [deg/m]
+0.1 s
+4 cores @ 2.5 Ghz (C/C++)
+X. Zheng and J. Zhu: Traj-LIO: A Resilient Multi-LiDAR Multi-IMU
+State Estimator Through Sparse Gaussian Process. arXiv preprint arXiv:2402.09189 2024.
+6
+CT-ICP2
+code
+0.58 %
+0.0012 [deg/m]
+0.06 s
+1 core @ 3.5 Ghz (C/C++)
+P. Dellenbach, J. Deschaud, B. Jacquet and F. Goulette: CT-ICP: Real-time Elastic LiDAR Odometry
+with Loop Closure. 2022 International Conference on
+Robotics and Automation (ICRA) 2022.
+7
+Traj-LO
+code
+0.58 %
+0.0014 [deg/m]
+0.1 s
+4 cores @ 3.5 Ghz (C/C++)
+X. Zheng and J. Zhu: Traj-LO: In Defense of LiDAR-Only
+Odometry Using an Effective Continuous-Time
+Trajectory. IEEE Robotics and Automation Letters 2024.
+8
+AKF-LIO
+code
+0.59 %
+0.0014 [deg/m]
+0.02 s
+4 cores @ >3.5 Ghz (C/C++)
+X. Xie, R. Geng, J. Ma and B. Zhou: AKF-LIO: LiDAR-Inertial Odometry with
+Gaussian Map by Adaptive Kalman Filter. arXiv preprint arXiv:2503.06891 2025.
+9
+GLIM
+0.59 %
+0.0015 [deg/m]
+0.1 s
+GPU @ 2.5 Ghz (C/C++)
+K. Koide, M. Yokozuka, S. Oishi and A. Banno: Globally Consistent 3D LiDAR Mapping with GPU-accelerated GICP Matching Cost Factors. IEEE Robotics and Automation Letters 2021.
+10
+universal-slam
+code
+0.59 %
+0.0014 [deg/m]
+0.04 s
+1 core @ 2.5 Ghz (C/C++)
+R. Zhang, S. Huang, D. Chang, S. Liu, M. Hu and X. Qin: Universal LiDAR Odometry and Mapping With
+Dual Channel Descriptor. IEEE Transactions on Intelligent
+Transportation Systems 2025.
+11
+CT-ICP
+code
+0.59 %
+0.0014 [deg/m]
+0.06 s
+1 core @ 3.5 Ghz (C/C++)
+P. Dellenbach, J. Deschaud, B. Jacquet and F. Goulette: CT-ICP: Real-time Elastic LiDAR Odometry
+with Loop Closure. 2022 International Conference on
+Robotics and Automation (ICRA) 2022.
+12
+SDV-LOAM
+code
+0.60 %
+0.0015 [deg/m]
+0.06 s
+1 core @ 2.5 Ghz (C/C++)
+Z. Yuan, Q. Wang, K. Cheng, T. Hao and X. Yang: SDV-LOAM: Semi-Direct Visual-LiDAR
+Odometry and Mapping. IEEE Transactions on Pattern Analysis
+and Machine Intelligence 2023.
+13
+MagneticPillars++
+0.60 %
+0.0018 [deg/m]
+0.06 s
+GPU @ >3.5 Ghz (Python)
+K. Fischer, M. Simon, S. Milz and P. Maeder: MagneticPillars++: Efficient LiDAR
+Odometry Via Deep Frame-To-Keyframe Point Cloud
+Registration. Applied Artificial Intelligence 2025.
+14
+CELLmap
+0.61 %
+0.0017 [deg/m]
+0.1 s
+8 core @ 2.5 Ghz (C/C++)
+Y. Duan, X. Zhang, Y. Li, G. You, X. Chu, J. Ji and Y. Zhang: CELLmap: Enhancing LiDAR SLAM through
+Elastic and Lightweight Spherical Map
+Representation. arXiv preprint arXiv:2409.19597 2024.
+15
+KISS-ICP
+code
+0.61 %
+0.0017 [deg/m]
+0.05 s
+1 core @ 4.5 Ghz (Python/C++)
+I. Vizzo, T. Guadagnino, B. Mersch, L. Wiesmann, J. Behley and C. Stachniss: KISS-ICP: In Defense of Point-to-
+Point ICP -- Simple, Accurate, and Robust
+Registration If Done the Right Way. IEEE Robotics and Automation
+Letters (RA-L) 2023.
+16
+MOLA-LO
+code
+0.62 %
+0.0017 [deg/m]
+0.05 s
+4 cores @ 3.0 Ghz (C/C++)
+J. Blanco-Claraco: A flexible framework for accurate LiDAR
+odometry, map manipulation, and localization. The International Journal of Robotics
+Research 2025.
+17
+SiMpLE
+code
+0.62 %
+0.0015 [deg/m]
+0.35 s
+>8 cores @ 2.5 Ghz (C/C++)
+V. Bhandari, T. Phillips and P. McAree: Minimal configuration point cloud
+odometry and mapping. The International Journal of
+Robotics Research 0.
+18
+SLAMLab
+code
+0.63 %
+0.0013 [deg/m]
+0.1 s
+>8 cores @ >3.5 Ghz (C/C++)
+19
+PIN-SLAM
+code
+0.64 %
+0.0015 [deg/m]
+0.1 s
+GPU @ >3.5 Ghz (Python)
+Y. Pan, X. Zhong, L. Wiesmann, T. Posewsky, J. Behley and C. Stachniss: PIN-SLAM: LiDAR SLAM Using a Point-Based
+Implicit Neural Representation for Achieving Global
+Map Consistency. IEEE Transactions on Robotics (TRO) 2024.
+20
+filter-reg
+0.65 %
+0.0016 [deg/m]
+0.01 s
+GPU @ 2.6 Ghz (C/C++)
+X. Zheng and J. Zhu: ECTLO: Effective Continuous-Time Odometry
+Using Range Image for LiDAR with Small FoV. IEEE/RSJ International Conference on
+Intelligent Robots and Systems (IROS) 2023.
+21
+SOFT-SLAM
+0.65 %
+0.0014 [deg/m]
+0.1 s
+2 cores @ 2.5 Ghz (C/C++)
+I. Cvišić, J. Ćesić, I. Marković and I. Petrović: SOFT-SLAM: Computationally Efficient Stereo Visual SLAM for Autonomous UAVs. Journal of Field Robotics 2017.
+22
+MULLS
+code
+0.65 %
+0.0019 [deg/m]
+0.08 s
+4 cores @ 2.2 Ghz (C/C++)
+Y. Pan, P. Xiao, Y. He, Z. Shao and Z. Li: MULLS: Versatile LiDAR SLAM via Multi-
+metric Linear Least Square. IEEE International Conference on Robotics
+and Automation (ICRA) 2021. .
+23
+retro-slam
+code
+0.66 %
+0.0016 [deg/m]
+0.05 s
+>8 cores @ 3.0 Ghz (C/C++)
+S. Gupta, N. Trekel, L. Wiesmann and C. Stachniss: Improving Map Consistency in Graph-Based LiDAR SLAM Through Information-Aware Odometry and Retroactive Loop Closure. 2026.
+24
+VGMM-LO
+0.66 %
+0.0015 [deg/m]
+0.05 s
+GPU @ 1.0 Ghz (Python)
+25
+ELO
+0.68 %
+0.0021 [deg/m]
+0.005 s
+GPU @ 2.6 Ghz (C/C++)(0.027s Jetson AGX)
+X. Zheng and J. Zhu: Efficient LiDAR Odometry for Autonomous
+Driving. IEEE Robotics and Automation Letters(RA-
+L) 2021.
+26
+IMLS-SLAM
+0.69 %
+0.0018 [deg/m]
+1.25 s
+1 core @ >3.5 Ghz (C/C++)
+J. Deschaud: IMLS-SLAM: Scan-to-Model Matching Based
+on 3D Data. 2018 IEEE International Conference on
+Robotics and Automation (ICRA) 2018.
+27
+MC2SLAM
+0.69 %
+0.0016 [deg/m]
+0.1 s
+4 cores @ 2.5 Ghz (C/C++)
+F. Neuhaus, T. Koss, R. Kohnen and D. Paulus: MC2SLAM: Real-Time Inertial Lidar
+Odometry
+using Two-Scan Motion Compensation. German Conference on Pattern
+Recognition 2018.
+28
+Onion-LO
+code
+0.69 %
+0.0017 [deg/m]
+0.04 s
+>8 cores @ 2.5 Ghz (C/C++)
+X. Cheng, K. Geng, Z. Liu, T. Ma and Y. Sun: Onion-LO: Why Does LiDAR Odometry Fail
+Across Different LiDAR Types and Scenarios?. IEEE Robotics and Automation Letters 2025.
+29
+ISC-LOAM
+code
+0.72 %
+0.0022 [deg/m]
+0.1 s
+4 cores @ 3.0 Ghz (C/C++)
+H. Wang, C. Wang and L. Xie: Intensity scan context: Coding intensity
+and geometry relations for loop closure detection. 2020 IEEE International Conference on
+Robotics and Automation (ICRA) 2020.
+30
+FLOAM
+code
+0.72 %
+0.0022 [deg/m]
+0.1 s
+1 core @ 2.5 Ghz (C/C++)
+H. Wang, C. Wang, C. Chen and L. Xie: F-LOAM : Fast LiDAR Odometry and
+Mapping. 2021 IEEE/RSJ International
+Conference on Intelligent Robots and Systems
+(IROS) 2021.
+31
+PSF-LO
+0.82 %
+0.0032 [deg/m]
+0.2s
+4 cores @ 3.2 GHz
+G. Chen, B. Wang, X. Wang, H. Deng, B. Wang and S. Zhang: PSF-LO: Parameterized
+Semantic Features Based Lidar Odometry. 2021
+IEEE International Conference on Robotics and
+Automation (ICRA) 2021.
+32
+RADVO
+0.82 %
+0.0018 [deg/m]
+0.07 s
+1 core @ 3.0 Ghz (C/C++)
+P. Bénet and A. Guinamard: Robust and Accurate Deterministic Visual Odometry. Proceedings of the 33rd International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2020) 2020.
+33
+LG-SLAM
+0.82 %
+0.0020 [deg/m]
+0.2 s
+4 cores @ 2.5 Ghz (C/C++)
+K. Lenac, J. Ćesić, I. Marković and I. Petrović: Exactly sparse delayed state filter on
+Lie groups for long-term pose graph SLAM. The International Journal of Robotics
+Research 2018.
+34
+RotRocc+
+0.83 %
+0.0026 [deg/m]
+0.25 s
+2 cores @ 2.0 Ghz (C/C++)
+M. Buczko and V. Willert: Flow-Decoupled Normalized Reprojection
+Error for Visual Odometry. 19th IEEE Intelligent Transportation
+Systems Conference (ITSC) 2016.
+M. Buczko, V. Willert, J. Schwehr and J. Adamy: Self-Validation for Automotive Visual
+Odometry. IEEE Intelligent Vehicles Symposium
+(IV) 2018.
+M. Buczko: Automotive Visual Odometry. 2018.
+35
+AMBA-VO
+0.84 %
+0.0021 [deg/m]
+0.1 s
+1 core @ 2.5 Ghz (C/C++)
+36
+LIMO2_GP
+code
+0.84 %
+0.0022 [deg/m]
+0.2 s
+2 cores @ 2.5 Ghz (C/C++)
+J. Graeter, A. Wilczynski and M. Lauer: LIMO: Lidar-Monocular Visual Odometry. arXiv preprint arXiv:1807.07524 2018.
+37
+CAE-LO
+code
+0.86 %
+0.0025 [deg/m]
+2 s
+8 cores @ 3.5 Ghz (Python)
+D. Yin, Q. Zhang, J. Liu, X. Liang, Y. Wang, J. Maanpää, H. Ma, J. Hyyppä and R. Chen: CAE-LO: LiDAR Odometry Leveraging Fully
+Unsupervised Convolutional Auto-Encoder for
+Interest Point Detection and Feature Description. 2020.
+38
+GDVO
+0.86 %
+0.0031 [deg/m]
+0.09 s
+1 core @ >3.5 Ghz (C/C++)
+J. Zhu: Image Gradient-based Joint Direct Visual Odometry for
+Stereo Camera. International Joint Conference on Artificial Intelligence,
+IJCAI 2017.
+39
+LIMO2
+code
+0.86 %
+0.0022 [deg/m]
+0.2 s
+2 cores @ 2.5 Ghz (C/C++)
+J. Graeter, A. Wilczynski and M. Lauer: LIMO: Lidar-Monocular Visual Odometry. arXiv preprint arXiv:1807.07524 2018.
+40
+CPFG-slam
+0.87 %
+0.0025 [deg/m]
+0.03 s
+4 cores @ 2.5 Ghz (C/C++)
+K. Ji and T. Huiyan Chen: CPFG-SLAM:a robust Simultaneous Localization
+and Mapping based on LIDAR in off-road environment. IEEE Intelligent Vehicles Symposium (IV) 2018.
+41
+SOFT
+0.88 %
+0.0022 [deg/m]
+0.1 s
+2 cores @ 2.5 Ghz (C/C++)
+I. Cvišić and I. Petrović: Stereo odometry based on careful feature selection and tracking. European Conference on Mobile Robots (ECMR) 2015.
+42
+RotRocc
+0.88 %
+0.0025 [deg/m]
+0.3 s
+2 cores @ 2.0 Ghz (C/C++)
+M. Buczko and V. Willert: Flow-Decoupled Normalized Reprojection Error for Visual Odometry. 19th IEEE Intelligent Transportation Systems Conference (ITSC) 2016.
+43
+D3VO
+0.88 %
+0.0021 [deg/m]
+0.1 s
+1 core @ 2.5 Ghz (C/C++)
+N. Yang, L. Stumberg, R. Wang and D. Cremers: D3VO: Deep Depth, Deep Pose and Deep
+Uncertainty for Monocular Visual Odometry. The IEEE Conference on Computer Vision
+and Pattern Recognition (CVPR) 2020.
+44
+PNDT LO
+0.89 %
+0.0030 [deg/m]
+0.2 s
+8 cores @ 3.5 Ghz (C/C++)
+H. Hong and B. Lee: Probabilistic normal distributions
+transform representation for accurate 3d point
+cloud registration. IEEE/RSJ International Conference
+on Intelligent Robots and Systems (IROS) 2017.
+45
+DVSO
+0.90 %
+0.0021 [deg/m]
+0.1 s
+GPU @ 2.5 Ghz (C/C++)
+N. Yang, R. Wang, J. Stueckler and D. Cremers: Deep Virtual Stereo Odometry: Leveraging
+Deep Depth Prediction for Monocular Direct Sparse
+Odometry. European Conference on Computer
+Vision (ECCV) 2018.
+46
+LIMO
+code
+0.93 %
+0.0026 [deg/m]
+0.2 s
+2 cores @ 2.5 Ghz (C/C++)
+J. Graeter, A. Wilczynski and M. Lauer: LIMO: Lidar-Monocular Visual Odometry. ArXiv e-prints 2018.
+47
+Stereo DSO
+0.93 %
+0.0020 [deg/m]
+0.1 s
+1 core @ 3.4 Ghz (C/C++)
+R. Wang, M. Schw\"orer and D. Cremers: Stereo dso: Large-scale direct sparse
+visual odometry with stereo cameras. International Conference on Computer
+Vision (ICCV), Venice, Italy 2017.
+48
+IsaacElbrusGPUSLAM
+0.94 %
+0.0019 [deg/m]
+0.007 s
+Jetson AGX
+A. Korovko, D. Robustov, D. Slepichev, E. Vendrovsky and S. Volodarskiy: Realtime Stereo Visual Odometry. .
+49
+OV2SLAM
+code
+0.94 %
+0.0023 [deg/m]
+0.01 s
+1 core @ 2.5 Ghz (C/C++)
+M. Ferrera, A. Eudes, J. Moras, M. Sanfourche and G. Le Besnerais: OV2SLAM : A Fully Online and Versatile Visual SLAM for Real-Time Applications. IEEE Robotics and Automation Letters 2021.
+50
+OV2SLAM
+code
+0.98 %
+0.0023 [deg/m]
+0.01 s
+8 cores @ 3.0 Ghz (C/C++)
+M. Ferrera, A. Eudes, J. Moras, M. Sanfourche and G. Le Besnerais: OV2SLAM : A Fully Online and Versatile Visual SLAM for Real-Time Applications. IEEE Robotics and Automation Letters 2021.
+51
+ROCC
+0.98 %
+0.0028 [deg/m]
+0.3 s
+2 cores @ 2.0 Ghz (C/C++)
+M. Buczko and V. Willert: How to Distinguish Inliers from Outliers in Visual Odometry for High-speed Automotive Applications. IEEE Intelligent Vehicles Symposium (IV) 2016.
+52
+IsaacElbrusSLAM
+0.99 %
+0.0020 [deg/m]
+0.008 s
+3 cores @ 3.3 Ghz (C/C++)
+A. Korovko, D. Robustov, D. Slepichev, E. Vendrovsky and S. Volodarskiy: Realtime Stereo Visual Odometry. .
+53
+SuMa-MOS
+code
+0.99 %
+0.0033 [deg/m]
+0.1s
+1 core @ 2.5 Ghz (C/C++)
+X. Chen, S. Li, B. Mersch, L. Wiesmann, J. Gall, J. Behley and C. Stachniss: Moving Object Segmentation in 3D LiDAR
+Data: A Learning-based Approach Exploiting
+Sequential Data. IEEE Robotics and Automation Letters
+(RA-L) 2021.
+54
+SuMa++
+code
+1.06 %
+0.0034 [deg/m]
+0.1 s
+1 core @ 3.5 Ghz (C/C++)
+X. Chen, A. Milioto, E. Palazzolo, P. Gigu\`ere, J. Behley and C. Stachniss: SuMa++: Efficient LiDAR-based Semantic
+SLAM. IEEE/RSJ International Conference on
+Intelligent Robots and Systems (IROS) 2019.
+55
+ULF-ESGVI
+1.07 %
+0.0036 [deg/m]
+0.3 s
+GPU and CPU @ 2.2 Ghz (Python + C/C++)
+D. Yoon, H. Zhang, M. Gridseth, H. Thomas and T. Barfoot: Unsupervised Learning of Lidar Features for Use in a Probabilistic Trajectory Estimator. IEEE Robotics and Automation Letters (RAL) 2021.
+56
+cv4xv1-sc
+1.09 %
+0.0029 [deg/m]
+0.145 s
+GPU @ 3.5 Ghz (C/C++)
+M. Persson, T. Piccini, R. Mester and M. Felsberg: Robust Stereo Visual Odometry from
+Monocular Techniques. IEEE Intelligent Vehicles Symposium 2015.
+57
+VINS-Fusion
+code
+1.09 %
+0.0033 [deg/m]
+0.1s
+1 core @ 3.0 Ghz (C/C++)
+T. Qin, J. Pan, S. Cao and S. Shen: A General Optimization-based Framework
+for Local Odometry Estimation with Multiple
+Sensors. 2019.
+58
+MonoROCC
+1.11 %
+0.0028 [deg/m]
+1 s
+2 cores @ 2.0 Ghz (C/C++)
+M. Buczko and V. Willert: Monocular Outlier Detection for Visual Odometry. IEEE Intelligent Vehicles Symposium (IV) 2017.
+59
+DEMO
+1.14 %
+0.0049 [deg/m]
+0.1 s
+2 cores @ 2.5 Ghz (C/C++)
+J. Zhang, M. Kaess and S. Singh: Real-time Depth Enhanced Monocular Odometry. IEEE/RSJ International Conference on
+Intelligent Robots and Systems (IROS) 2014.
+60
+ORB-SLAM2
+code
+1.15 %
+0.0027 [deg/m]
+0.06 s
+2 cores @ >3.5 Ghz (C/C++)
+R. Mur-Artal and J. Tard\'os: ORB-SLAM2: an Open-Source
+SLAM System for Monocular, Stereo and
+RGB-D Cameras. IEEE Transactions on Robotics 2017.
+61
+IV-SLAM
+code
+1.17 %
+0.0025 [deg/m]
+0.1 s
+GPU @ 2.5 Ghz (C/C++)
+S. Rabiee and J. Biswas: IV-SLAM: Introspective Vision for Simultaneous Localization and Mapping. Conference on Robot Learning (CoRL) 2020.
+62
+NOTF
+1.17 %
+0.0035 [deg/m]
+0.45 s
+1 core @ 3.0 Ghz (C/C++)
+J. Deigmoeller and J. Eggert: Stereo Visual Odometry without Temporal Filtering. German Conference on Pattern Recognition (GCPR) 2016.
+63
+S-PTAM
+code
+1.19 %
+0.0025 [deg/m]
+0.03 s
+4 cores @ 3.0 Ghz (C/C++)
+T. Pire, T. Fischer, G. Castro, P. De Crist\'oforis, J. Civera and J. Jacobo Berlles: S-PTAM: Stereo Parallel
+Tracking and Mapping. Robotics and Autonomous
+Systems (RAS) 2017.
+T. Pire, T. Fischer, J. Civera, P. Crist\'{o}foris and J. Jacobo-Berlles: Stereo parallel tracking and
+mapping for robot localization. IROS 2015.
+64
+S-LSD-SLAM
+code
+1.20 %
+0.0033 [deg/m]
+0.07 s
+1 core @ 3.5 Ghz (C/C++)
+J. Engel, J. St\"uckler and D. Cremers: Large-Scale Direct SLAM with Stereo Cameras. Int.~Conf.~on Intelligent Robot Systems (IROS) 2015.
+65
+VoBa
+1.22 %
+0.0029 [deg/m]
+0.1 s
+1 core @ 2.0 Ghz (C/C++)
+J. Tardif, M. George, M. Laverne, A. Kelly and A. Stentz: A new approach to vision-aided inertial navigation. 2010 IEEE/RSJ International Conference on
+Intelligent Robots and
+Systems, October 18-22, 2010, Taipei, Taiwan 2010.
+66
+STEAM-L WNOJ
+1.22 %
+0.0058 [deg/m]
+0.2 s
+1 core @ 2.5 Ghz (C/C++)
+T. Tang, D. Yoon and T. Barfoot: A White-Noise-On-Jerk Motion Prior for
+Continuous-Time Trajectory Estimation on SE (3). arXiv preprint arXiv:1809.06518 2018.
+67
+LiViOdo
+1.22 %
+0.0042 [deg/m]
+0.5 s
+1 core @ 2.5 Ghz (C/C++)
+J. Graeter, A. Wilczynski and M. Lauer: LIMO: Lidar-Monocular Visual Odometry. ArXiv e-prints 2018.
+68
+SLUP
+1.25 %
+0.0041 [deg/m]
+0.17 s
+4 cores @ 3.3 Ghz (C/C++)
+X. Qu, B. Soheilian and N. Paparoditis: Landmark based localization in urban
+environment. ISPRS Journal of Photogrammetry and
+Remote Sensing 2017.
+69
+STEAM-L
+1.26 %
+0.0061 [deg/m]
+0.2 s
+1 core @ 2.5 Ghz (C/C++)
+T. Tang, D. Yoon, F. Pomerleau and T. Barfoot: Learning a Bias Correction for Lidar-
+only Motion Estimation. 15th Conference on Computer and Robot
+Vision (CRV) 2018.
+70
+FRVO
+1.26 %
+0.0038 [deg/m]
+0.03 s
+1 core @ 3.5 Ghz (C/C++)
+W. Meiqing, L. Siew-Kei and S. Thambipillai: A Framework for Fast and Robust Visual Odometry. IEEE Transaction on Intelligent Transportation Systems 2017.
+71
+JFBVO-FM
+1.28 %
+0.0010 [deg/m]
+0.1 s
+1 core @ 3.4 Ghz (C/C++)
+R. Sardana, V. Karar and S. Poddar: Improving visual odometry pipeline with feedback from forward and backward motion estimates. Machine Vision and Applications 2023.
+72
+MFI
+1.30 %
+0.0030 [deg/m]
+0.1 s
+1 core @ 2.2 Ghz (C/C++)
+H. Badino, A. Yamamoto and T. Kanade: Visual Odometry by Multi-frame Feature Integration. First International Workshop on Computer Vision for Autonomous Driving at ICCV 2013.
+73
+TLBBA
+1.36 %
+0.0038 [deg/m]
+0.1 s
+1 Core @2.8GHz (C/C++)
+W. Lu, Z. Xiang and J. Liu: High-performance visual odometry with two-
+stage local binocular BA and GPU. Intelligent Vehicles Symposium (IV),
+2013 IEEE 2013.
+74
+2FO-CC
+code
+1.37 %
+0.0035 [deg/m]
+0.1 s
+1 core @ 3.0 Ghz (C/C++)
+I. Krešo and S. Šegvić: Improving the Egomotion Estimation by
+Correcting the Calibration Bias. VISAPP 2015.
+75
+SALO
+1.37 %
+0.0051 [deg/m]
+0.6 s
+1 core @ 2.5 Ghz (C/C++)
+D. Kovalenko, M. Korobkin and A. Minin: Sensor Aware Lidar Odometry. 2019 European Conference on Mobile Robots (ECMR) 2019.
+76
+SuMa
+1.39 %
+0.0034 [deg/m]
+0.1 s
+1 core @ 3.5 Ghz (C/C++)
+J. Behley and C. Stachniss: Efficient Surfel-Based SLAM using 3D Laser Range Data in Urban Environments. Robotics: Science and Systems (RSS) 2018.
+77
+ProSLAM
+code
+1.39 %
+0.0035 [deg/m]
+0.02 s
+1 core @ 3.0 Ghz (C/C++)
+D. Schlegel, M. Colosi and G. Grisetti: ProSLAM: Graph SLAM from a
+Programmer's Perspective. ArXiv e-prints 2017.
+78
+ESVO
+1.42 %
+0.0048 [deg/m]
+1 s
+1 core @ 2.5 Ghz (C/C++)
+H. Nguyen, T. Nguyen, C. Tran, K. Phung and Q. Nguyen: A novel translation estimation for
+essential matrix based stereo visual odometry. 2021 15th International Conference on
+Ubiquitous Information Management and
+Communication (IMCOM) 2021.
+79
+JFBVO
+1.43 %
+0.0038 [deg/m]
+0.05 s
+1 core @ 3.4 Ghz (C/C++)
+R. Sardana, R. Kottath, V. Karar and S. Poddar: Joint Forward-Backward Visual
+Odometry for Stereo Cameras. Proceedings of the Advances in
+Robotics 2019 2019.
+80
+StereoSFM
+code
+1.51 %
+0.0042 [deg/m]
+0.02 s
+2 cores @ 2.5 Ghz (C/C++)
+H. Badino and T. Kanade: A Head-Wearable Short-Baseline Stereo System for the Simultaneous Estimation of Structure and Motion. IAPR Conference on Machine Vision Application 2011.
+81
+SSLAM
+code
+1.57 %
+0.0044 [deg/m]
+0.5 s
+8 cores @ 3.5 Ghz (C/C++)
+F. Bellavia, M. Fanfani, F. Pazzaglia and C. Colombo: Robust Selective Stereo SLAM without Loop Closure and Bundle Adjustment. ICIAP 2013 2013.
+F. Bellavia, M. Fanfani and C. Colombo: Selective visual odometry for accurate AUV localization. Autonomous Robots 2015.
+M. Fanfani, F. Bellavia and C. Colombo: Accurate Keyframe Selection and Keypoint Tracking for Robust Visual Odometry. Machine Vision and Applications 2016.
+82
+Stereo-RIVO
+1.61 %
+0.0025 [deg/m]
+0.07 s
+4 cores @ 2.5 Ghz (Matlab)
+R. Erfan Salehi: Stereo-RIVO: Stereo-Robust Indirect Visual Odometry. Expert Systems with Applications 2023.
+83
+VOLDOR
+code
+1.65 %
+0.0050 [deg/m]
+0.1 s
+GPU
+Z. Min, Y. Yang and E. Dunn: VOLDOR: Visual Odometry From Log-Logistic
+Dense Optical Flow Residuals. IEEE/CVF Conference on Computer
+Vision and Pattern Recognition (CVPR) 2020.
+84
+eVO
+1.76 %
+0.0036 [deg/m]
+0.05 s
+2 cores @ 2.0 Ghz (C/C++)
+M. Sanfourche, V. Vittori and G. Besnerais: eVO: A realtime embedded stereo odometry for MAV applications. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2013.
+85
+Stereo DWO
+code
+1.76 %
+0.0026 [deg/m]
+0.1 s
+4 cores @ 2.5 Ghz (C/C++)
+J. Huai, C. Toth and D. Grejner-Brzezinska: Stereo-inertial odometry using nonlinear optimization. Proceedings of the 27th International Technical Meeting of The Satellite Division of the Institute of Navigation (ION GNSS+ 2015) 2015.
+86
+BVO
+1.76 %
+0.0036 [deg/m]
+0.1 s
+1 core @ 2.5GHz (Python)
+F. Pereira, J. Luft, G. Ilha, A. Sofiatti and A. Susin: Backward Motion for Estimation Enhancement in Sparse Visual Odometry. 2017 Workshop of Computer Vision (WVC) 2017.
+87
+3DOF-SLAM
+code
+1.89 %
+0.0083 [deg/m]
+0.02 s
+1 core @ 2.5 Ghz (C/C++)
+M. Dimitrievski., D. Hamme., P. Veelaert. and W. Philips.: Robust Matching of Occupancy Maps for Odometry in Autonomous Vehicles. Proceedings of the 11th Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications - Volume 3: VISAPP, (VISIGRAPP 2016) 2016.
+88
+EfficientLO-Net
+code
+1.92 %
+0.0052 [deg/m]
+0.03 s
+1 core @ 2.5 Ghz (C/C++)
+G. Wang, X. Wu, S. Jiang, Z. Liu and H. Wang: Efficient 3D Deep LiDAR Odometry. arXiv preprint arXiv:2111.02135 2021.
+89
+D6DVO
+2.04 %
+0.0051 [deg/m]
+0.03 s
+1 core @ 2.5 Ghz (C/C++)
+A. Comport, E. Malis and P. Rives: Accurate Quadrifocal Tracking for Robust 3D Visual Odometry. ICRA 2007.
+M. Meilland, A. Comport and P. Rives: Dense visual mapping of large scale environments for real-time localisation. ICRA 2011.
+90
+PMO / PbT-M2
+2.05 %
+0.0051 [deg/m]
+1 s
+1 core @ 2.5 Ghz (Python + C/C++)
+N. Fanani, A. Stuerck, M. Ochs, H. Bradler and R. Mester: Predictive monocular odometry (PMO): What is possible without RANSAC and multiframe bundle adjustment?. Image and Vision Computing 2017.
+91
+GFM
+code
+2.12 %
+0.0056 [deg/m]
+0.03 s
+2 cores @ 1.5 Ghz (C/C++)
+Y. Zhao and P. Vela: Good Feature Matching: Towards Accurate,
+Robust VO/VSLAM with Low Latency. submitted to IEEE Transactions on
+Robotics 2019.
+92
+SSLAM-HR
+code
+2.14 %
+0.0059 [deg/m]
+0.5 s
+8 cores @ 3.5 Ghz (C/C++)
+F. Bellavia, M. Fanfani, F. Pazzaglia and C. Colombo: Robust Selective Stereo SLAM without Loop Closure and Bundle Adjustment. ICIAP 2013 2013.
+F. Bellavia, M. Fanfani and C. Colombo: Selective visual odometry for accurate AUV localization. Autonomous Robots 2015.
+M. Fanfani, F. Bellavia and C. Colombo: Accurate Keyframe Selection and Keypoint Tracking for Robust Visual Odometry. Machine Vision and Applications 2016.
+93
+FTMVO
+2.24 %
+0.0049 [deg/m]
+0.11 s
+1 core @ 2.5 Ghz (C/C++)
+H. Mirabdollah and B. Mertsching: Fast Techniques for Monocular Visual
+Odometry . Proceeding of 37th
+German Conference on Pattern Recognition (GCPR)
+2015 .
+94
+PbT-M1
+2.38 %
+0.0053 [deg/m]
+1 s
+1 core @ 2.5 Ghz (Python + C/C++)
+N. Fanani, M. Ochs, H. Bradler and R. Mester: Keypoint trajectory estimation using propagation based tracking. Intelligent Vehicles Symposium (IV) 2016.
+N. Fanani, A. Stuerck, M. Barnada and R. Mester: Multimodal scale estimation for monocular visual odometry. Intelligent Vehicles Symposium (IV) 2017.
+95
+FLVIS
+code
+2.42 %
+0.0057 [deg/m]
+0.05 s
+2 cores @ 2.5 Ghz (C/C++)
+S. Chen, C. Wen, Y. Zou and W. Chen: Stereo visual inertial pose estimation based on feedforward-feedback loops. arXiv preprint arXiv:2007.02250 2020.
+96
+VISO2-S
+code
+2.44 %
+0.0114 [deg/m]
+0.05 s
+1 core @ 2.5 Ghz (C/C++)
+A. Geiger, J. Ziegler and C. Stiller: StereoScan: Dense 3d Reconstruction in
+Real-time. IV 2011.
+97
+MLM-SFM
+2.54 %
+0.0057 [deg/m]
+0.03 s
+5 cores @ 2.5 Ghz (C/C++)
+S. Song and M. Chandraker: Robust Scale Estimation in Real-Time
+Monocular SFM for Autonomous Driving. CVPR 2014.
+S. Song, M. Chandraker and C. Guest: Parallel, Real-time Monocular Visual
+Odometry. ICRA 2013.
+98
+GT_VO3pt
+2.54 %
+0.0078 [deg/m]
+1.26 s
+1 core @ 2.5 Ghz (C/C++)
+C. Beall, B. Lawrence, V. Ila and F. Dellaert: 3D reconstruction of underwater structures. IROS 2010.
+99
+RMCPE+GP
+2.55 %
+0.0086 [deg/m]
+0.39 s
+1 core @ 2.5 Ghz (C/C++)
+M. Mirabdollah and B. Mertsching: On the Second Order Statistics of
+Essential Matrix Elements. Proceeding of 36th German Conference
+on Pattern Recognition 2014.
+100
+KLTVO
+2.63 %
+0.0042 [deg/m]
+0.1 s
+1 core @ 3.0 Ghz (C/C++)
+N. Dias and G. Laureano: Accurate Stereo Visual Odometry Based on
+Keypoint Selection. 2019 Latin American Robotics Symposium
+(LARS), 2019 Brazilian Symposium on Robotics
+(SBR) and 2019 Workshop on Robotics in Education
+(WRE) 2019.
+101
+VO3pt
+2.69 %
+0.0068 [deg/m]
+0.56 s
+1 core @ 2.0 Ghz (C/C++)
+P. Alcantarilla: Vision Based Localization: From Humanoid Robots to Visually Impaired People. 2011.
+P. Alcantarilla, J. Yebes, J. Almazán and L. Bergasa: On Combining Visual SLAM and Dense Scene Flow to Increase the Robustness of Localization and Mapping in Dynamic Environments. ICRA 2012.
+102
+TGVO
+2.94 %
+0.0077 [deg/m]
+0.06 s
+1 core @ 2.5 Ghz (C/C++)
+B. Kitt, A. Geiger and H. Lategahn: Visual Odometry based on Stereo Image Sequences
+with RANSAC-based Outlier Rejection Scheme. IV 2010.
+103
+VO3ptLBA
+3.13 %
+0.0104 [deg/m]
+0.57 s
+1 core @ 2.0 Ghz (C/C++)
+P. Alcantarilla: Vision Based Localization: From Humanoid Robots to Visually Impaired People. 2011.
+P. Alcantarilla, J. Yebes, J. Almazán and L. Bergasa: On Combining Visual SLAM and Dense Scene Flow to Increase the Robustness of Localization and Mapping in Dynamic Environments. ICRA 2012.
+104
+KD-SLAM
+code
+3.25 %
+0.0046 [deg/m]
+1e-2 s
+1 core @ 1.0 Ghz (C/C++)
+G. Grisetti: KD-SLAM: One KD-Tree to deskew them all. 2026.
+105
+PLSVO
+3.26 %
+0.0095 [deg/m]
+0.20 s
+2 cores @ 2.5 Ghz (C/C++)
+R. Gomez-Ojeda and J. Gonzalez- Jimenez: Robust Stereo Visual Odometry through a
+Probabilistic Combination of Points and Line
+Segments. Robotics and Automation (ICRA), 2016
+IEEE International Conference on 2016.
+106
+BLF
+3.49 %
+0.0128 [deg/m]
+0.7 s
+1 core @ 2.5 Ghz (C/C++)
+M. Velas, M. Spanel, M. Hradis and A. Herout: CNN for IMU Assisted Odometry
+Estimation using Velodyne LiDAR. ArXiv e-prints 2017.
+107
+CFORB
+3.73 %
+0.0107 [deg/m]
+0.9 s
+8 cores @ 3.0 Ghz (C/C++)
+D. Mankowitz and E. Rivlin: CFORB: Circular FREAK-ORB Visual Odometry. arXiv preprint arXiv:1506.05257 2015.
+108
+DeepCLR
+code
+3.83 %
+0.0104 [deg/m]
+0.05 s
+GPU @ 1.0 Ghz (Python)
+M. Horn, N. Engel, V. Belagiannis, M. Buchholz and K. Dietmayer: DeepCLR: Correspondence-Less Architecture for Deep End-to-End Point Cloud Registration. 2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC) 2020.
+109
+VOFS
+3.94 %
+0.0099 [deg/m]
+0.51 s
+1 core @ 2.0 Ghz (C/C++)
+M. Kaess, K. Ni and F. Dellaert: Flow separation for fast and robust stereo odometry. ICRA 2009.
+P. Alcantarilla, L. Bergasa and F. Dellaert: Visual Odometry priors for robust EKF-SLAM. ICRA 2010.
+110
+VOFSLBA
+4.17 %
+0.0112 [deg/m]
+0.52 s
+1 core @ 2.0 Ghz (C/C++)
+M. Kaess, K. Ni and F. Dellaert: Flow separation for fast and robust stereo odometry. ICRA 2009.
+P. Alcantarilla, L. Bergasa and F. Dellaert: Visual Odometry priors for robust EKF-SLAM. ICRA 2010.
+111
+CUDA-EgoMotion
+4.36 %
+0.0052 [deg/m]
+.001 s
+GPU @ 2.5 Ghz (Matlab)
+A. Aguilar-González, M. Arias- Estrada, F. Berry and J. Osuna-Coutiño: The Fastest Visual Ego-motion Algorithm
+in the West. Microprocessors and Microsystems 2019.
+112
+BCC
+4.59 %
+0.0175 [deg/m]
+1 s
+1 core @ 2.5 Ghz (C/C++)
+M. Velas, M. Spanel, M. Hradis and A. Herout: CNN for IMU Assisted Odometry
+Estimation using Velodyne LiDAR. ArXiv e-prints 2017.
+113
+D3DLO
+5.40 %
+0.0154 [deg/m]
+0.1 s
+GPU @ 2.5 Ghz (Python)
+P. Adis, N. Horst and M. Wien: D3DLO: Deep 3D LiDAR Odometry. 2021.
+114
+EB3DTE+RJMCM
+5.45 %
+0.0274 [deg/m]
+1 s
+1 core @ 2.5 Ghz (Matlab)
+Z. Boukhers, K. Shirahama and M. Grzegorzek: Example-based 3D Trajectory
+Extraction of Objects from 2D Videos. Circuits and Systems for Videos
+Technology (TCSVT), IEEE Transaction on 2017.
+Z. Boukhers, K. Shirahama and M. Grzegorzek: Less restrictive camera odometry estimation
+from monocular camera. Multimedia Tools and Applications 2017.
+115
+LTMVO
+7.40 %
+0.0142 [deg/m]
+0.1 s
+1 core @ 2.5 Ghz (C/C++)
+Y. Zou, P. Ji, Q. Tran, J. Huang and M. Chandraker: Learning Monocular Visual Odometry via
+Self-Supervised Long-Term Modeling. ECCV 2020.
+116
+VISO2-M + GP
+7.46 %
+0.0245 [deg/m]
+0.15 s
+1 core @ 2.5 Ghz (C/C++)
+A. Geiger, J. Ziegler and C. Stiller: StereoScan: Dense 3d Reconstruction in
+Real-time. IV 2011.
+S. Song and M. Chandraker: Robust Scale Estimation in Real-Time
+Monocular SFM for Autonomous Driving. CVPR 2014.
+117
+PAVO
+code
+8.04 %
+0.0167 [deg/m]
+0.02 s
+GPU @ 2.5 Ghz (Python)
+Anonymous: Point-Aware Self-Supervised
+Visual Odometry with Rotation-Decoupled Pose
+Learning. 2026.
+118
+BLO
+9.21 %
+0.0163 [deg/m]
+0.1 s
+1 core @ 2.5 Ghz (C/C++)
+M. Velas, M. Spanel, M. Hradis and A. Herout: CNN for IMU Assisted Odometry
+Estimation using Velodyne LiDAR. ArXiv e-prints 2017.
+119
+UDQN-VO
+10.55 %
+0.0169 [deg/m]
+1 s
+1 core @ 2.5 Ghz (Python + C/C++)
+120
+VISO2-M
+code
+11.94 %
+0.0234 [deg/m]
+0.1 s
+1 core @ 2.5 Ghz (C/C++)
+A. Geiger, J. Ziegler and C. Stiller: StereoScan: Dense 3d Reconstruction in
+Real-time. IV 2011.
+121
+MonoDepth2
+code
+12.59 %
+0.0312 [deg/m]
+1 s
+1 core @ 2.5 Ghz (C/C++)
+C. Godard, O. Mac Aodha, M. Firman and G. Brostow: Digging into self-supervised monocular
+depth estimation. ICCV 2019.
+122
+SMD-LVO
+code
+13.25 %
+0.0097 [deg/m]
+0.03 s
+GPU @ 2.5 Ghz (Python)
+I. Slinko, A. Vorontsova, F. Konokhov, O. Barinova and A. Konushin: Scene Motion Decomposition for
+Learnable Visual Odometry. 2019.
+123
+SC-SfMLearner (cs+k)
+code
+13.69 %
+0.0355 [deg/m]
+0.01 s
+1 core @ 2.5 Ghz (C/C++)
+J. Bian, Z. Li, N. Wang, H. Zhan, C. Shen, M. Cheng and I. Reid: Unsupervised scale-consistent depth and
+ego-motion learning from monocular video. NeurIPS 2019.
+124
+CC
+code
+16.06 %
+0.0320 [deg/m]
+0.1 s
+1 core @ 2.5 Ghz (C/C++)
+A. Ranjan, V. Jampani, L. Balles, K. Kim, D. Sun, J. Wulff and M. Black: Competitive collaboration: Joint
+unsupervised learning of depth, camera motion,
+optical flow and motion segmentation. CVPR 2019.
+125
+OABA
+20.95 %
+0.0135 [deg/m]
+0.5 s
+1 core @ 3.5 Ghz (C/C++)
+D. Frost, O. Kähler and D. Murray: Object-Aware Bundle Adjustment for
+Correcting Monocular Scale Drift. Proceedings of the International
+Conference on Robotics and Automation (ICRA) 2012.
+126
+SC-SfMLearner (k)
+code
+21.47 %
+0.0425 [deg/m]
+0.01 s
+1 core @ 2.5 Ghz (C/C++)
+J. Bian, Z. Li, N. Wang, H. Zhan, C. Shen, M. Cheng and I. Reid: Unsupervised scale-consistent depth and
+ego-motion learning from monocular video. NeurIPS 2019.
+127
+SLL
+90.05 %
+0.2645 [deg/m]
+0.1 s
+1 core @ 2.5 Ghz (C/C++)
+Y. Zhou, H. Fan, S. Gao, Y. Yang, X. Zhang, J. Li and Y. Guo: Retrieval and Localization with
+Observation Constraints. CoRR 2021.
+Table as LaTeX | Only published Methods
+Related Datasets
+CMU Visual Localization Data Set: Dataset collected using the Navlab 11 equipped with IMU, GPS, Lidars and cameras.
+NYU RGB-D Dataset: Indoor dataset captured with a Microsoft Kinect that provides semantic labels.
+TUM RGB-D Dataset: Indoor dataset captured with Microsoft Kinect and high-accuracy motion capturing.
+New College Dataset: 30 GB of data for 6 D.O.F. navigation and mapping (metric or topological) using vision and/or laser.
+The Rawseeds Project: Indoor and outdoor datasets with GPS, odometry, stereo, omnicam and laser measurements for visual, laser-based, omnidirectional, sonar and multi-sensor SLAM evaluation.
+Victoria Park Sequence: Widely used sequence for evaluating laser-based SLAM. Trees serve as landmarks, detection code is included.
+Malaga Dataset 2009 and Malaga Dataset 2013: Dataset with GPS, Cameras and 3D laser information, recorded in the city of Malaga, Spain.
+Ford Campus Vision and Lidar Dataset: Dataset collected by a Ford F-250 pickup, equipped with IMU, Velodyne and Ladybug.
+Citation
+When using this dataset in your research, we will be happy if you cite us:
+@inproceedings{Geiger2012CVPR,
+author = {Andreas Geiger and Philip Lenz and Raquel Urtasun},
+title = {Are we ready for Autonomous Driving? The KITTI Vision Benchmark Suite},
+booktitle = {Conference on Computer Vision and Pattern Recognition (CVPR)},
+year = {2012}
+}
+© 2026 | Privacy Policy | Terms of Service | Imprint | csstemplates

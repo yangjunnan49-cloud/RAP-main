@@ -1,0 +1,99 @@
+{
+  "records": [
+    {
+      "name": "fit_00_helper1",
+      "noise": "fit_00",
+      "method": "helper",
+      "rep": 1
+    },
+    {
+      "name": "fit_00_helper2",
+      "noise": "fit_00",
+      "method": "helper",
+      "rep": 2
+    },
+    {
+      "name": "fit_00_hook1",
+      "noise": "fit_00",
+      "method": "hook",
+      "rep": 1
+    },
+    {
+      "name": "fit_00_hook2",
+      "noise": "fit_00",
+      "method": "hook",
+      "rep": 2
+    },
+    {
+      "name": "eval_00_helper1",
+      "noise": "eval_00",
+      "method": "helper",
+      "rep": 1
+    },
+    {
+      "name": "eval_00_helper2",
+      "noise": "eval_00",
+      "method": "helper",
+      "rep": 2
+    },
+    {
+      "name": "eval_00_hook1",
+      "noise": "eval_00",
+      "method": "hook",
+      "rep": 1
+    },
+    {
+      "name": "eval_00_hook2",
+      "noise": "eval_00",
+      "method": "hook",
+      "rep": 2
+    }
+  ],
+  "counts": {
+    "helper_prefix_calls": 20,
+    "full_FP32_forward_calls": 20,
+    "double_tail_calls": 40,
+    "time_constant_promotions": 160
+  },
+  "strict_checkpoint": {
+    "strict": true,
+    "keys": 344,
+    "weights_only": true,
+    "allowed": [
+      "builtins.dict",
+      "builtins.int",
+      "builtins.list",
+      "collections.defaultdict",
+      "numpy._core.multiarray._reconstruct",
+      "numpy.dtype",
+      "numpy.ndarray",
+      "omegaconf.base.ContainerMetadata",
+      "omegaconf.base.Metadata",
+      "omegaconf.listconfig.ListConfig",
+      "omegaconf.nodes.AnyNode",
+      "typing.Any"
+    ],
+    "descriptor_loaded": false
+  },
+  "nominal_trainables": 443904,
+  "checkpoint_source_model": {
+    "steps": 5,
+    "sampler": "euler",
+    "rigidity_forcing": true
+  },
+  "observation_fields": [
+    "points",
+    "features",
+    "cond",
+    "scale",
+    "centers",
+    "counts"
+  ],
+  "no_truth_target_arrays_loaded": true,
+  "no_losses_or_metrics": true,
+  "backwards": 0,
+  "optimizer_calls": 0,
+  "retained_updates": 0,
+  "source_sampler_and_flags_and_values_restored": true,
+  "original_native_equivalence": false
+}

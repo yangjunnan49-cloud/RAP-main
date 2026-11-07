@@ -1,0 +1,326 @@
+{
+  "passed": true,
+  "completed_utc": "2026-11-06T03:49:48.143861+00:00",
+  "directory": "/root/autodl-fs/rap-transfer-20261106/A8-environment-20261106",
+  "files": [
+    {
+      "path": "ENVIRONMENT_READY.json",
+      "bytes": 602,
+      "sha256": "6b5a91bf93a90d6550afbc176d83ee491e106a20377237ab79635080c6e4ec26"
+    },
+    {
+      "path": "GTSAM_INSTALLED_BYTE_CHECKS.json",
+      "bytes": 181,
+      "sha256": "b01a006fe4cdf4663a1ee310be575a24b4cf2579ccc8ff957712cd2702ca7d3d"
+    },
+    {
+      "path": "GTSAM_METADATA_REPAIR.json",
+      "bytes": 20949,
+      "sha256": "f416fb13d762a9dfc0ed28fc7e2220b325d45c47acf2cbc30bbe28a2cd8c9274"
+    },
+    {
+      "path": "GTSAM_ORIGINAL_INPUT.json",
+      "bytes": 8452,
+      "sha256": "9fa425abd8cc24c1501c4bc7b860445bac945488c272815c3314740c121a1f64"
+    },
+    {
+      "path": "PROFILE_02_INPUT.json",
+      "bytes": 296,
+      "sha256": "580b9f1b6265b11f67f1d96f2faab7c9f6b390d66cd374104807c7638b5c4dee"
+    },
+    {
+      "path": "PYTORCH3D_BUILD_INPUT.json",
+      "bytes": 490,
+      "sha256": "8a47278c9043431980703757567739709ccb1f9b12d478597baaea6f08b99a57"
+    },
+    {
+      "path": "PYTORCH3D_WHEEL.json",
+      "bytes": 292,
+      "sha256": "25af667518a406409506dfe0418b355c054aa78c55a183c25f0f80f54f1259af"
+    },
+    {
+      "path": "TARGET_GPU.json",
+      "bytes": 150,
+      "sha256": "fd97ce4ca33af28890ebc29583629074f1c1170bce2944a951769066eddb59eb"
+    },
+    {
+      "path": "TORCH_RANGED_DOWNLOAD.json",
+      "bytes": 464,
+      "sha256": "de50456544ed695a5db881c177e4ad3d112bf2f6332c82f9c22f27d4c47729a0"
+    },
+    {
+      "path": "TORCH_WHEEL_SOURCE.json",
+      "bytes": 286,
+      "sha256": "fc3c465eccc3e90252dac40f5bf9d2d3f075a97a6680d966f0094eead54dcb5b"
+    },
+    {
+      "path": "downloads/torch-2.7.0+cu128-cp310-cp310-manylinux_2_28_x86_64.whl",
+      "bytes": 1097790941,
+      "sha256": "ac1849553ee673dfafb44c610c60cb60a2890f0e117f43599a526cf777eb8b8c"
+    },
+    {
+      "path": "environment-inputs/build-tools-02.txt",
+      "bytes": 191,
+      "sha256": "22989d3960d0e27ee789a061e74973934265432844132bb5ed47773078ed5c88"
+    },
+    {
+      "path": "environment-inputs/core.txt",
+      "bytes": 430,
+      "sha256": "48b4a9888452dcd4a7d1c64208d7fb35b2ad4ee26068c0433cb9fa42bb633abc"
+    },
+    {
+      "path": "environment-inputs/gtsam-derived.txt",
+      "bytes": 186,
+      "sha256": "ba9dcf8cbfd753a204115f4a7e957a0b4f99ffdd55b1b1409c0105d79d021ac9"
+    },
+    {
+      "path": "environment-inputs/gtsam-original.txt",
+      "bytes": 90,
+      "sha256": "d85b53e1a8cb31e85f1fb2cb6a80822bdf51e6ec0b082149c1de1d7bb844a883"
+    },
+    {
+      "path": "environment-inputs/observed-rap.constraints.txt",
+      "bytes": 3794,
+      "sha256": "853a7a2b7a8932e593f093251cee690ab11adf3f5916c7f1171e51ecb92b6424"
+    },
+    {
+      "path": "environment-inputs/resolved-profile-02.txt",
+      "bytes": 13328,
+      "sha256": "58a5f5c7a2468636bfe13b8cf1ddac8c16b212575541c28b140328fe65df24fb"
+    },
+    {
+      "path": "environment-inputs/slam.txt",
+      "bytes": 151,
+      "sha256": "fbd8eec1aeb6a4fb174b4526e6858e39f922252a09b7d53370b84aa1cad77eae"
+    },
+    {
+      "path": "gtsam-derived-wheel/gtsam-4.2-cp310-cp310-manylinux2014_x86_64.whl",
+      "bytes": 21788730,
+      "sha256": "29385d4c0bcf58d02990f9e8e67abe282fe021c3fc7f44b4584107a1f10db140"
+    },
+    {
+      "path": "gtsam-original-wheel/gtsam-4.2-cp310-cp310-manylinux2014_x86_64.whl",
+      "bytes": 21788738,
+      "sha256": "979b7c886724ac403d5c323613fd9800c8ac7ab224e2909faa8b266e5de742b2"
+    },
+    {
+      "path": "logs/ENVIRONMENT_FIXES.md",
+      "bytes": 2604,
+      "sha256": "cfc3e25c004a5f15cda93c266cee8e5c13764c10974a81d9659d0d4aab7c7607"
+    },
+    {
+      "path": "logs/finish_environment.py",
+      "bytes": 4925,
+      "sha256": "334b2085203b04128b96d3cda951ee335529477c2b96e331b3a23d5955dbe027"
+    },
+    {
+      "path": "logs/pip-freeze.log",
+      "bytes": 3610,
+      "sha256": "4cc8b7fec6cc64a7bf8888a495e8e6b210a699d39ef7d45addc2a8d9842d20c8"
+    },
+    {
+      "path": "logs/profiles-install-report.json",
+      "bytes": 1910192,
+      "sha256": "ea934f4aa78ed2b32b51a4bd1895859578b1c73a4080559f3b5ed7cbae10cef1"
+    },
+    {
+      "path": "logs/pytorch3d-install-report.json",
+      "bytes": 2346,
+      "sha256": "693994043ba25e385af812ed82c24409bac22f2b0917a1c905b5d8c39b60e791"
+    },
+    {
+      "path": "logs/repair_gtsam_metadata.py",
+      "bytes": 3861,
+      "sha256": "a4eed97f7dde1f18b25861e09f752c4594419b472b5bc50f78cff9ced72d48f6"
+    },
+    {
+      "path": "logs/torch-install-report.json",
+      "bytes": 220573,
+      "sha256": "ca6e3722fd60d5522288bed968fecdfe526136ed68a98559af023a3dcad2657c"
+    },
+    {
+      "path": "pytorch3d-local-source.tar.gz",
+      "bytes": 36385526,
+      "sha256": "3c7076b9007e1994234e3461081c5394dbfe75966192fe258e336322869fe77d"
+    },
+    {
+      "path": "wheelhouse/pytorch3d-0.7.9-cp310-cp310-linux_x86_64.whl",
+      "bytes": 3875684,
+      "sha256": "8079fa8296a71dcd7adb3f4437e46b879e6a8451efc3cba15ffac98428756251"
+    },
+    {
+      "path": "conda-meta/_libgcc_mutex-0.1-main.json",
+      "bytes": 1011,
+      "sha256": "3b993cbcd7f219eb74eb51c3f0e26618ed108bf87515931d4429bb6edf05a5fb"
+    },
+    {
+      "path": "conda-meta/_openmp_mutex-5.1-52_gnu.json",
+      "bytes": 1036,
+      "sha256": "681c67373cadc3dd522c1617df835303f0037ab4dea77c0ebb032971d1883a91"
+    },
+    {
+      "path": "conda-meta/bzip2-1.0.8-h5eee18b_6.json",
+      "bytes": 8129,
+      "sha256": "d0a0812292bbe3e90e9b1f0dbfe96ced956ff323911671d3df22e2b71dde0e5b"
+    },
+    {
+      "path": "conda-meta/ca-certificates-2026.10.20-h59cdc77_1.json",
+      "bytes": 1727,
+      "sha256": "0caa249356ca98d911ba35dcb037ffb9b3cda942ffe08e8d8ae4a564a2ad133d"
+    },
+    {
+      "path": "conda-meta/history",
+      "bytes": 3277,
+      "sha256": "c454f284bdd4dfaf4437949435a5b1e0dbc47f337fcbad4c215331de4e9732b5"
+    },
+    {
+      "path": "conda-meta/ld_impl_linux-64-2.44-h9e0c5a2_3.json",
+      "bytes": 2088,
+      "sha256": "c19369710fdb119ba8bfe9fa982bbdb53c4d91bd8788465589277197666a23f0"
+    },
+    {
+      "path": "conda-meta/libexpat-2.10.0-h7354ed3_0.json",
+      "bytes": 5738,
+      "sha256": "af6ce655d40277e86a046782e997af81c79709bf8a89034d9fccbb557feb8d2a"
+    },
+    {
+      "path": "conda-meta/libffi-3.4.8-h06d3fd0_3.json",
+      "bytes": 5887,
+      "sha256": "a6462146825437434629c46003baca34a8a3e35bfc88f9c55a379d435fa74aff"
+    },
+    {
+      "path": "conda-meta/libgcc-15.2.0-h69a1729_8.json",
+      "bytes": 5304,
+      "sha256": "583a02e61451bf328a52d8db6f5a519f252da35a2ed4cf8a27357f86df99ed7a"
+    },
+    {
+      "path": "conda-meta/libgcc-ng-15.2.0-h166f726_8.json",
+      "bytes": 1139,
+      "sha256": "c0327a1c444a645b1aa177c6cc8c79fda72bfc86444c08669f860ce6203eafb5"
+    },
+    {
+      "path": "conda-meta/libnsl-2.0.0-h5eee18b_0.json",
+      "bytes": 4847,
+      "sha256": "c561e10453fc8aa664d48ff9e14f7b26b118236f93824828b6f4733bc886415d"
+    },
+    {
+      "path": "conda-meta/libstdcxx-15.2.0-h39759b7_8.json",
+      "bytes": 2382,
+      "sha256": "5d115ff780c0bf4889f75f583f6ca4946222905bcd73c075a50516592fbd19d8"
+    },
+    {
+      "path": "conda-meta/libuuid-1.41.5-h5eee18b_0.json",
+      "bytes": 3158,
+      "sha256": "b02d8c5b9569a06be96de3e295baed789df1648a4ba665b2dace7a7974e58da1"
+    },
+    {
+      "path": "conda-meta/libxcb-1.17.0-h9b100fa_0.json",
+      "bytes": 49484,
+      "sha256": "fb189200a24ef952e50ee96ef8ce6299c49540b6aa7f4e483d529b031816692d"
+    },
+    {
+      "path": "conda-meta/libzlib-1.3.2-h47b2149_0.json",
+      "bytes": 1655,
+      "sha256": "1e4189bb946bff2e9f5a4140e9dbe37142ba22cf766e8b9309f7fc4d708bc7d2"
+    },
+    {
+      "path": "conda-meta/ncurses-6.6-hfaaeb4e_0.json",
+      "bytes": 975843,
+      "sha256": "417b36adc00e6308a02382bbb02302def28b7d432a93ba6e24e57ca80d51f9d5"
+    },
+    {
+      "path": "conda-meta/openssl-3.5.9-h1b28b03_0.json",
+      "bytes": 57509,
+      "sha256": "9ce9428dfbac18283217d33a5d4dda2f412a8adf42f81c13c5263a27351608a0"
+    },
+    {
+      "path": "conda-meta/packaging-26.3-py310h06a4308_0.json",
+      "bytes": 22480,
+      "sha256": "69b5e06c6acb83346dcd1c0500a8e00caba0ec3531b0ea822c0c8666ca6d9d58"
+    },
+    {
+      "path": "conda-meta/pip-26.2.2-pyhc872135_0.json",
+      "bytes": 296643,
+      "sha256": "8a50ecf98f1f3d6a70e304eb3a48da3793c13c3826668e70a53af93dbd8c7faa"
+    },
+    {
+      "path": "conda-meta/pthread-stubs-0.3-h47b2149_2.json",
+      "bytes": 1775,
+      "sha256": "d6f1bf36f028b67e9ed7e0d191bb5359abfbad341b96f96f1db34c5acc874169"
+    },
+    {
+      "path": "conda-meta/python-3.10.20-h17756b0_1.json",
+      "bytes": 803033,
+      "sha256": "d1fad9cd3094dae266f4c863a93563f00d746f308e688e13e6d115d39a5dc547"
+    },
+    {
+      "path": "conda-meta/readline-8.3-hc2a1206_0.json",
+      "bytes": 11245,
+      "sha256": "5d8cdd6371d8c089a69b10d39307d4be75a95fedf984f8a725afc3676a5d03b1"
+    },
+    {
+      "path": "conda-meta/setuptools-84.2.1-py310h06a4308_0.json",
+      "bytes": 259564,
+      "sha256": "d1514a8f1c785e27adec425dc365360c6da15d74f14497a2ba57f1ebd1cd133a"
+    },
+    {
+      "path": "conda-meta/sqlite-3.53.4-h795bf6d_0.json",
+      "bytes": 3985,
+      "sha256": "cc6f07de01812e78d51678bd68d8e59f3fa225bb60237d50ec99581d05938913"
+    },
+    {
+      "path": "conda-meta/tk-8.6.15-h54e0aa7_0.json",
+      "bytes": 181075,
+      "sha256": "4d8e7a71d4839cba852980a849174ce7a898f8a6ff1a7a5983ded5917fb7369f"
+    },
+    {
+      "path": "conda-meta/tzdata-2026c-he532380_0.json",
+      "bytes": 212337,
+      "sha256": "5f790f1745e15ff5738750e2adaef5ebf4fba4a18c91419826dccc1d6544e5f3"
+    },
+    {
+      "path": "conda-meta/wheel-0.48.0-py310h06a4308_0.json",
+      "bytes": 16342,
+      "sha256": "173a7a7766c673c90154917c9259ba288dc0303bb364794fbe89d222e5edcfb7"
+    },
+    {
+      "path": "conda-meta/xorg-libx11-1.8.14-h65de747_0.json",
+      "bytes": 82489,
+      "sha256": "06d15389ca94f362b73f593ab712ecdc84495678e46e662fdf3e51fa000403f0"
+    },
+    {
+      "path": "conda-meta/xorg-libxau-1.0.12-h9b100fa_0.json",
+      "bytes": 2846,
+      "sha256": "c197349689e776add4fd0401115677dbc58058b5ac42f8eeb75dfb1cc8ef3480"
+    },
+    {
+      "path": "conda-meta/xorg-libxdmcp-1.1.5-h9b100fa_0.json",
+      "bytes": 2868,
+      "sha256": "bd7fd28d50e171dacf5b6a29e4eb7a22c6af03ca1a8eb5df7a6ecfec69c4832c"
+    },
+    {
+      "path": "conda-meta/xorg-xorgproto-2025.1-h47b2149_0.json",
+      "bytes": 90700,
+      "sha256": "0496f9afe48c305e57e82b614df0865be63c0b52158d948fe52a7e60a86c92b6"
+    },
+    {
+      "path": "conda-meta/xz-5.8.4-h140a991_0.json",
+      "bytes": 93894,
+      "sha256": "f8a7f23dd9be3c7616a641da41862c7c2645fab96d33da6f3e2680b81bbeba9c"
+    },
+    {
+      "path": "conda-meta/zlib-1.3.2-h47b2149_0.json",
+      "bytes": 2924,
+      "sha256": "73982f671d265a84bbc63343296315bfafeb5cf9e49475bf0130feb622e910c5"
+    },
+    {
+      "path": "CONDA_EXPLICIT.txt",
+      "bytes": 4313,
+      "sha256": "60cd17baa22c925b18d47f987546ca0dbef08215eccecb70c48c5065a68794fa"
+    }
+  ],
+  "all_copied_bytes_read_back": true,
+  "complete_offline_wheelhouse": false,
+  "CUDA_toolkit_driver_or_whole_OS_image_exported": false,
+  "training_or_resume_validated": false
+}

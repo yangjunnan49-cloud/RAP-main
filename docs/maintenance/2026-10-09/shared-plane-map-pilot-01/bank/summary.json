@@ -1,0 +1,1757 @@
+{
+  "00-200-s2": {
+    "window": "00-200",
+    "scale": 2.0,
+    "features": {
+      "features": 10,
+      "candidate_voxels": 1761,
+      "rejected": {
+        "support": 1642,
+        "plane": 109
+      },
+      "per_scan_training_points": [
+        32,
+        69,
+        69,
+        74,
+        84,
+        63,
+        54,
+        6
+      ],
+      "representation_valid": false
+    },
+    "traces": {},
+    "corrections": {},
+    "probes": {},
+    "costs": {}
+  },
+  "00-200-s4": {
+    "window": "00-200",
+    "scale": 4.0,
+    "features": {
+      "features": 23,
+      "candidate_voxels": 655,
+      "rejected": {
+        "support": 508,
+        "plane": 124
+      },
+      "per_scan_training_points": [
+        272,
+        290,
+        227,
+        226,
+        262,
+        327,
+        290,
+        187
+      ],
+      "representation_valid": true
+    },
+    "traces": {
+      "G": [
+        {
+          "iteration": 0,
+          "before": 0.10285894196809685,
+          "after": 0.0917519688880975,
+          "accepted_scale": 1.0,
+          "gradient_inf": 2.3177693077053414,
+          "normalized_hessian_min": 0.0005688956565200403,
+          "normalized_hessian_max": 3.5785602511692702
+        },
+        {
+          "iteration": 1,
+          "before": 0.0917519688880975,
+          "after": 0.09102647241663808,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.518829011363746,
+          "normalized_hessian_min": 0.0005813158758479246,
+          "normalized_hessian_max": 3.5990789061568518
+        },
+        {
+          "iteration": 2,
+          "before": 0.09102647241663808,
+          "after": 0.09059154381615141,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.35973510237255035,
+          "normalized_hessian_min": 0.000588172407255101,
+          "normalized_hessian_max": 3.617477415016776
+        },
+        {
+          "iteration": 3,
+          "before": 0.09059154381615141,
+          "after": 0.09031744225751202,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.23099905120800718,
+          "normalized_hessian_min": 0.0005966297047178891,
+          "normalized_hessian_max": 3.649559521073005
+        },
+        {
+          "iteration": 4,
+          "before": 0.09031744225751202,
+          "after": 0.09014479444439304,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.13002220654336644,
+          "normalized_hessian_min": 0.0006039315990993985,
+          "normalized_hessian_max": 3.6938943727271156
+        },
+        {
+          "iteration": 5,
+          "before": 0.09014479444439304,
+          "after": 0.0900337036367397,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.08851584312990503,
+          "normalized_hessian_min": 0.0006094054857522035,
+          "normalized_hessian_max": 3.748183305682381
+        },
+        {
+          "iteration": 6,
+          "before": 0.0900337036367397,
+          "after": 0.0899587263413802,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.051624611258895614,
+          "normalized_hessian_min": 0.0006156958797788896,
+          "normalized_hessian_max": 3.7970665127520773
+        },
+        {
+          "iteration": 7,
+          "before": 0.0899587263413802,
+          "after": 0.08990785945913858,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.025278126854368237,
+          "normalized_hessian_min": 0.0006225005238165095,
+          "normalized_hessian_max": 3.8426227475715353
+        },
+        {
+          "iteration": 8,
+          "before": 0.08990785945913858,
+          "after": 0.08987785414019779,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.01446160793833822,
+          "normalized_hessian_min": 0.0006299592472763865,
+          "normalized_hessian_max": 3.8870838454450367
+        },
+        {
+          "iteration": 9,
+          "before": 0.08987785414019779,
+          "after": 0.08986477665670585,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.006184373787010777,
+          "normalized_hessian_min": 0.0006372728746127107,
+          "normalized_hessian_max": 3.928175107464844
+        },
+        {
+          "iteration": 10,
+          "before": 0.08986477665670585,
+          "after": 0.08985875195304385,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0032079735207569144,
+          "normalized_hessian_min": 0.0006415829305493466,
+          "normalized_hessian_max": 3.9578535131632746
+        },
+        {
+          "iteration": 11,
+          "before": 0.08985875195304385,
+          "after": 0.08985593249481838,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0026413572448581307,
+          "normalized_hessian_min": 0.0006440562310210196,
+          "normalized_hessian_max": 3.9789103008281805
+        },
+        {
+          "iteration": 12,
+          "before": 0.08985593249481838,
+          "after": 0.08985460703989351,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.002005292274397552,
+          "normalized_hessian_min": 0.0006455229261117855,
+          "normalized_hessian_max": 3.993684532004309
+        },
+        {
+          "iteration": 13,
+          "before": 0.08985460703989351,
+          "after": 0.08985398341849844,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0014541678121862273,
+          "normalized_hessian_min": 0.0006464278619523813,
+          "normalized_hessian_max": 4.003971835685501
+        },
+        {
+          "iteration": 14,
+          "before": 0.08985398341849844,
+          "after": 0.08985369008796638,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0010289119882157943,
+          "normalized_hessian_min": 0.0006470054577959502,
+          "normalized_hessian_max": 4.011098253069999
+        },
+        {
+          "iteration": 15,
+          "before": 0.08985369008796638,
+          "after": 0.08985355218421562,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0007180939621740517,
+          "normalized_hessian_min": 0.0006473835257336792,
+          "normalized_hessian_max": 4.016018069693692
+        },
+        {
+          "iteration": 16,
+          "before": 0.08985355218421562,
+          "after": 0.0898534873812867,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0004972634346117472,
+          "normalized_hessian_min": 0.0006476352757796885,
+          "normalized_hessian_max": 4.019406583281748
+        },
+        {
+          "iteration": 17,
+          "before": 0.0898534873812867,
+          "after": 0.08985345694047714,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0003427938456352919,
+          "normalized_hessian_min": 0.0006478047785229367,
+          "normalized_hessian_max": 4.021736636358358
+        },
+        {
+          "iteration": 18,
+          "before": 0.08985345694047714,
+          "after": 0.08985344264487884,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0002356913018812662,
+          "normalized_hessian_min": 0.0006479196940917136,
+          "normalized_hessian_max": 4.023337048572632
+        },
+        {
+          "iteration": 19,
+          "before": 0.08985344264487884,
+          "after": 0.08985343593265659,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.00016180557952970298,
+          "normalized_hessian_min": 0.0006479979301785403,
+          "normalized_hessian_max": 4.02443543481601
+        },
+        {
+          "iteration": 20,
+          "before": 0.08985343593265659,
+          "after": 0.08985343278148228,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.00011098365540249122,
+          "normalized_hessian_min": 0.0006480513293213672,
+          "normalized_hessian_max": 4.025188857696915
+        },
+        {
+          "iteration": 21,
+          "before": 0.08985343278148228,
+          "after": 0.08985343130224074,
+          "accepted_scale": 1.0,
+          "gradient_inf": 7.608535619721413e-05,
+          "normalized_hessian_min": 0.0006480878313967995,
+          "normalized_hessian_max": 4.025705458965822
+        },
+        {
+          "iteration": 22,
+          "before": 0.08985343130224074,
+          "after": 0.08985343060789121,
+          "accepted_scale": 1.0,
+          "gradient_inf": 5.214509940927592e-05,
+          "normalized_hessian_min": 0.0006481128055498759,
+          "normalized_hessian_max": 4.0260595833689115
+        },
+        {
+          "iteration": 23,
+          "before": 0.08985343060789121,
+          "after": 0.08985343028198306,
+          "accepted_scale": 1.0,
+          "gradient_inf": 3.573147832876267e-05,
+          "normalized_hessian_min": 0.0006481299015735044,
+          "normalized_hessian_max": 4.026302286558909
+        }
+      ],
+      "P": [
+        {
+          "iteration": 0,
+          "before": 0.10285894196809685,
+          "after": 0.10142107435957655,
+          "accepted_scale": 1.0,
+          "gradient_inf": 2.3177693077053414,
+          "normalized_hessian_min": 0.017717711139209197,
+          "normalized_hessian_max": 2.0686259300421175
+        },
+        {
+          "iteration": 1,
+          "before": 0.10142107435957655,
+          "after": 0.10142090815213864,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0071154448551589145,
+          "normalized_hessian_min": 0.017717485812783235,
+          "normalized_hessian_max": 2.0686290595370624
+        },
+        {
+          "iteration": 2,
+          "before": 0.10142090815213864,
+          "after": 0.10142090800330167,
+          "accepted_scale": 1.0,
+          "gradient_inf": 6.48328356898098e-05,
+          "normalized_hessian_min": 0.017717509488505517,
+          "normalized_hessian_max": 2.0686287145128066
+        },
+        {
+          "iteration": 3,
+          "before": 0.10142090800330167,
+          "after": 0.10142090800310254,
+          "accepted_scale": 1.0,
+          "gradient_inf": 2.2525539731810262e-06,
+          "normalized_hessian_min": 0.01771751060295073,
+          "normalized_hessian_max": 2.068628698408861
+        },
+        {
+          "iteration": 4,
+          "before": 0.10142090800310254,
+          "after": 0.10142090800310191,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.484975183049471e-08,
+          "normalized_hessian_min": 0.017717510645458855,
+          "normalized_hessian_max": 2.068628697766731
+        },
+        {
+          "iteration": 5,
+          "before": 0.10142090800310191,
+          "after": 0.10142090800310247,
+          "accepted_scale": 1.0,
+          "gradient_inf": 5.510637057781764e-09,
+          "normalized_hessian_min": 0.017717510646984343,
+          "normalized_hessian_max": 2.068628697742386
+        },
+        {
+          "iteration": 6,
+          "before": 0.10142090800310247,
+          "after": 0.10142090800310104,
+          "accepted_scale": 1.0,
+          "gradient_inf": 2.8925961625958507e-10,
+          "normalized_hessian_min": 0.017717510647037773,
+          "normalized_hessian_max": 2.068628697741486
+        },
+        {
+          "iteration": 7,
+          "before": 0.10142090800310104,
+          "after": 0.10142090800310179,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.4787282509587385e-11,
+          "normalized_hessian_min": 0.017717510647039907,
+          "normalized_hessian_max": 2.068628697741455
+        },
+        {
+          "iteration": 8,
+          "before": 0.10142090800310179,
+          "after": 0.1014209080031011,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.0039191700172978e-12,
+          "normalized_hessian_min": 0.017717510647039997,
+          "normalized_hessian_max": 2.068628697741454
+        },
+        {
+          "iteration": 9,
+          "before": 0.1014209080031011,
+          "after": 0.10142090800310168,
+          "accepted_scale": 1.0,
+          "gradient_inf": 7.567002580088911e-13,
+          "normalized_hessian_min": 0.01771751064704066,
+          "normalized_hessian_max": 2.068628697741451
+        },
+        {
+          "iteration": 10,
+          "before": 0.10142090800310168,
+          "after": 0.10142090800310187,
+          "accepted_scale": 1.0,
+          "gradient_inf": 5.603295605283165e-13,
+          "normalized_hessian_min": 0.01771751064703982,
+          "normalized_hessian_max": 2.068628697741452
+        },
+        {
+          "iteration": 11,
+          "before": 0.10142090800310187,
+          "after": 0.10142090800310227,
+          "accepted_scale": 1.0,
+          "gradient_inf": 2.3214763444912023e-13,
+          "normalized_hessian_min": 0.017717510647040104,
+          "normalized_hessian_max": 2.068628697741451
+        },
+        {
+          "iteration": 12,
+          "before": 0.10142090800310227,
+          "after": 0.10142090800310252,
+          "accepted_scale": 1.0,
+          "gradient_inf": 4.981015599980765e-13,
+          "normalized_hessian_min": 0.0177175106470407,
+          "normalized_hessian_max": 2.0686286977414516
+        },
+        {
+          "iteration": 13,
+          "before": 0.10142090800310252,
+          "after": 0.10142090800310238,
+          "accepted_scale": 1.0,
+          "gradient_inf": 2.822186928597148e-13,
+          "normalized_hessian_min": 0.01771751064704035,
+          "normalized_hessian_max": 2.0686286977414516
+        },
+        {
+          "iteration": 14,
+          "before": 0.10142090800310238,
+          "after": 0.10142090800310276,
+          "accepted_scale": 1.0,
+          "gradient_inf": 4.995448499300892e-13,
+          "normalized_hessian_min": 0.017717510647039886,
+          "normalized_hessian_max": 2.068628697741452
+        },
+        {
+          "iteration": 15,
+          "before": 0.10142090800310276,
+          "after": 0.10142090800310255,
+          "accepted_scale": 1.0,
+          "gradient_inf": 3.020084182736582e-13,
+          "normalized_hessian_min": 0.01771751064704058,
+          "normalized_hessian_max": 2.068628697741451
+        },
+        {
+          "iteration": 16,
+          "before": 0.10142090800310255,
+          "after": 0.10142090800310183,
+          "accepted_scale": 1.0,
+          "gradient_inf": 4.984901380566953e-13,
+          "normalized_hessian_min": 0.017717510647040358,
+          "normalized_hessian_max": 2.0686286977414516
+        },
+        {
+          "iteration": 17,
+          "before": 0.10142090800310183,
+          "after": 0.1014209080031022,
+          "accepted_scale": 1.0,
+          "gradient_inf": 2.6384450180216845e-13,
+          "normalized_hessian_min": 0.017717510647040167,
+          "normalized_hessian_max": 2.068628697741452
+        },
+        {
+          "iteration": 18,
+          "before": 0.1014209080031022,
+          "after": 0.10142090800310233,
+          "accepted_scale": 1.0,
+          "gradient_inf": 5.000444502911705e-13,
+          "normalized_hessian_min": 0.017717510647040375,
+          "normalized_hessian_max": 2.0686286977414516
+        },
+        {
+          "iteration": 19,
+          "before": 0.10142090800310233,
+          "after": 0.10142090800310188,
+          "accepted_scale": 1.0,
+          "gradient_inf": 2.4280577548552174e-13,
+          "normalized_hessian_min": 0.017717510647040864,
+          "normalized_hessian_max": 2.068628697741453
+        },
+        {
+          "iteration": 20,
+          "before": 0.10142090800310188,
+          "after": 0.10142090800310198,
+          "accepted_scale": 1.0,
+          "gradient_inf": 2.6401103525586223e-13,
+          "normalized_hessian_min": 0.017717510647039966,
+          "normalized_hessian_max": 2.068628697741453
+        },
+        {
+          "iteration": 21,
+          "before": 0.10142090800310198,
+          "after": 0.10142090800310165,
+          "accepted_scale": 1.0,
+          "gradient_inf": 4.997668945350142e-13,
+          "normalized_hessian_min": 0.017717510647040028,
+          "normalized_hessian_max": 2.068628697741451
+        },
+        {
+          "iteration": 22,
+          "before": 0.10142090800310165,
+          "after": 0.10142090800310126,
+          "accepted_scale": 1.0,
+          "gradient_inf": 2.6209590053838383e-13,
+          "normalized_hessian_min": 0.017717510647039716,
+          "normalized_hessian_max": 2.068628697741451
+        },
+        {
+          "iteration": 23,
+          "before": 0.10142090800310126,
+          "after": 0.10142090800310241,
+          "accepted_scale": 1.0,
+          "gradient_inf": 4.979350265443827e-13,
+          "normalized_hessian_min": 0.017717510647039924,
+          "normalized_hessian_max": 2.068628697741452
+        }
+      ]
+    },
+    "corrections": {
+      "G": {
+        "max_translation_m": 2.1504377740868414,
+        "max_rotation_deg": 1.943803144261739,
+        "valid": false
+      },
+      "P": {
+        "max_translation_m": 0.01089216868300495,
+        "max_rotation_deg": 0.009103932220227168,
+        "valid": true
+      }
+    },
+    "probes": {
+      "O": {
+        "odd_point_rms_m": 0.06268519229016323,
+        "odd_point_count": 2063,
+        "per_scan_odd_point_count": [
+          260,
+          298,
+          234,
+          229,
+          261,
+          319,
+          282,
+          180
+        ],
+        "leave_one_scan_out_rms_m": 0.05308179651679571,
+        "leave_one_scan_out_records": 119,
+        "training_feature_count": 23
+      },
+      "G": {
+        "odd_point_rms_m": 0.0604624994524562,
+        "odd_point_count": 2063,
+        "per_scan_odd_point_count": [
+          260,
+          298,
+          234,
+          229,
+          261,
+          319,
+          282,
+          180
+        ],
+        "leave_one_scan_out_rms_m": 0.048106223059095836,
+        "leave_one_scan_out_records": 119,
+        "training_feature_count": 23
+      },
+      "P": {
+        "odd_point_rms_m": 0.062295251870960446,
+        "odd_point_count": 2063,
+        "per_scan_odd_point_count": [
+          260,
+          298,
+          234,
+          229,
+          261,
+          319,
+          282,
+          180
+        ],
+        "leave_one_scan_out_rms_m": 0.05232934929875211,
+        "leave_one_scan_out_records": 119,
+        "training_feature_count": 23
+      }
+    },
+    "costs": {
+      "O": {
+        "geometry": 0.10285894196809685,
+        "combined": 0.10285894196809685
+      },
+      "G": {
+        "geometry": 0.08985343028198306,
+        "combined": 35.32958237552246
+      },
+      "P": {
+        "geometry": 0.10051061454603838,
+        "combined": 0.10142090800310241
+      }
+    }
+  },
+  "00-800-s2": {
+    "window": "00-800",
+    "scale": 2.0,
+    "features": {
+      "features": 10,
+      "candidate_voxels": 2185,
+      "rejected": {
+        "support": 2123,
+        "plane": 52
+      },
+      "per_scan_training_points": [
+        28,
+        26,
+        57,
+        120,
+        105,
+        111,
+        94,
+        98
+      ],
+      "representation_valid": false
+    },
+    "traces": {},
+    "corrections": {},
+    "probes": {},
+    "costs": {}
+  },
+  "00-800-s4": {
+    "window": "00-800",
+    "scale": 4.0,
+    "features": {
+      "features": 38,
+      "candidate_voxels": 739,
+      "rejected": {
+        "support": 580,
+        "plane": 121
+      },
+      "per_scan_training_points": [
+        433,
+        431,
+        492,
+        542,
+        422,
+        259,
+        239,
+        193
+      ],
+      "representation_valid": true
+    },
+    "traces": {
+      "G": [
+        {
+          "iteration": 0,
+          "before": 0.17702060350331408,
+          "after": 0.17080121376954036,
+          "accepted_scale": 1.0,
+          "gradient_inf": 3.113914778914132,
+          "normalized_hessian_min": 0.014078009659058173,
+          "normalized_hessian_max": 2.6739889951545495
+        },
+        {
+          "iteration": 1,
+          "before": 0.17080121376954036,
+          "after": 0.17010843607531334,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.0528716988273383,
+          "normalized_hessian_min": 0.01410434924303767,
+          "normalized_hessian_max": 2.6520661596101016
+        },
+        {
+          "iteration": 2,
+          "before": 0.17010843607531334,
+          "after": 0.16938829626490873,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.9326028514286523,
+          "normalized_hessian_min": 0.014146995059002809,
+          "normalized_hessian_max": 2.644883475311697
+        },
+        {
+          "iteration": 3,
+          "before": 0.16938829626490873,
+          "after": 0.1688125964273823,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.7733868562089183,
+          "normalized_hessian_min": 0.014222597806052603,
+          "normalized_hessian_max": 2.631019623387126
+        },
+        {
+          "iteration": 4,
+          "before": 0.1688125964273823,
+          "after": 0.1683772132478853,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.6191535998982651,
+          "normalized_hessian_min": 0.014320269865048895,
+          "normalized_hessian_max": 2.613150670705574
+        },
+        {
+          "iteration": 5,
+          "before": 0.1683772132478853,
+          "after": 0.16806435378459986,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.4762415861509455,
+          "normalized_hessian_min": 0.014430836749258689,
+          "normalized_hessian_max": 2.597155841954333
+        },
+        {
+          "iteration": 6,
+          "before": 0.16806435378459986,
+          "after": 0.16785045796347497,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.3486478096311651,
+          "normalized_hessian_min": 0.014546081745184155,
+          "normalized_hessian_max": 2.5925285218051597
+        },
+        {
+          "iteration": 7,
+          "before": 0.16785045796347497,
+          "after": 0.16770813125691605,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.24057637629796297,
+          "normalized_hessian_min": 0.014659586398953697,
+          "normalized_hessian_max": 2.609428174016877
+        },
+        {
+          "iteration": 8,
+          "before": 0.16770813125691605,
+          "after": 0.1676051995094764,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.16221506414239495,
+          "normalized_hessian_min": 0.014764257984642048,
+          "normalized_hessian_max": 2.648480828683311
+        },
+        {
+          "iteration": 9,
+          "before": 0.1676051995094764,
+          "after": 0.16752999804627403,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.1361119622745332,
+          "normalized_hessian_min": 0.014830127635852468,
+          "normalized_hessian_max": 2.6756292135258093
+        },
+        {
+          "iteration": 10,
+          "before": 0.16752999804627403,
+          "after": 0.1674765581334305,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.10572729931033414,
+          "normalized_hessian_min": 0.014884919076005969,
+          "normalized_hessian_max": 2.6984355254335997
+        },
+        {
+          "iteration": 11,
+          "before": 0.1674765581334305,
+          "after": 0.16744003986675832,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.07838305215058192,
+          "normalized_hessian_min": 0.014934853336993141,
+          "normalized_hessian_max": 2.7199077261290805
+        },
+        {
+          "iteration": 12,
+          "before": 0.16744003986675832,
+          "after": 0.1674163723826156,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.05542351935564407,
+          "normalized_hessian_min": 0.014981317536712101,
+          "normalized_hessian_max": 2.740850916445461
+        },
+        {
+          "iteration": 13,
+          "before": 0.1674163723826156,
+          "after": 0.16740211752854725,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.038137833150409604,
+          "normalized_hessian_min": 0.015024679052568822,
+          "normalized_hessian_max": 2.7614925995671245
+        },
+        {
+          "iteration": 14,
+          "before": 0.16740211752854725,
+          "after": 0.16739440618083767,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.024072241107936213,
+          "normalized_hessian_min": 0.015065121882674795,
+          "normalized_hessian_max": 2.782010880178764
+        },
+        {
+          "iteration": 15,
+          "before": 0.16739440618083767,
+          "after": 0.1673908930159706,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.012557016898278171,
+          "normalized_hessian_min": 0.015102796886884104,
+          "normalized_hessian_max": 2.8026546101001384
+        },
+        {
+          "iteration": 16,
+          "before": 0.1673908930159706,
+          "after": 0.1673898625898006,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.005415930904760885,
+          "normalized_hessian_min": 0.01513784329000099,
+          "normalized_hessian_max": 2.823782135223518
+        },
+        {
+          "iteration": 17,
+          "before": 0.1673898625898006,
+          "after": 0.16738967380647482,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.004008150005359416,
+          "normalized_hessian_min": 0.015163232253147923,
+          "normalized_hessian_max": 2.841462834418121
+        },
+        {
+          "iteration": 18,
+          "before": 0.16738967380647482,
+          "after": 0.16738963411414892,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0016440377072857383,
+          "normalized_hessian_min": 0.015174107375804585,
+          "normalized_hessian_max": 2.8510551382819065
+        },
+        {
+          "iteration": 19,
+          "before": 0.16738963411414892,
+          "after": 0.16738962576672833,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0007539134168532558,
+          "normalized_hessian_min": 0.015179185110956313,
+          "normalized_hessian_max": 2.8558838450245743
+        },
+        {
+          "iteration": 20,
+          "before": 0.16738962576672833,
+          "after": 0.1673896240154033,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.00034214523929691884,
+          "normalized_hessian_min": 0.015181500659433087,
+          "normalized_hessian_max": 2.8581454757674063
+        },
+        {
+          "iteration": 21,
+          "before": 0.1673896240154033,
+          "after": 0.16738962364842053,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0001564694665671485,
+          "normalized_hessian_min": 0.015182560595001627,
+          "normalized_hessian_max": 2.8591909192378413
+        },
+        {
+          "iteration": 22,
+          "before": 0.16738962364842053,
+          "after": 0.167389623571567,
+          "accepted_scale": 1.0,
+          "gradient_inf": 7.153756315808382e-05,
+          "normalized_hessian_min": 0.015183045319949693,
+          "normalized_hessian_max": 2.8596710330205886
+        },
+        {
+          "iteration": 23,
+          "before": 0.167389623571567,
+          "after": 0.16738962355547674,
+          "accepted_scale": 1.0,
+          "gradient_inf": 3.2724897303698555e-05,
+          "normalized_hessian_min": 0.015183267069333671,
+          "normalized_hessian_max": 2.859891070049396
+        }
+      ],
+      "P": [
+        {
+          "iteration": 0,
+          "before": 0.17702060350331408,
+          "after": 0.17582333206659764,
+          "accepted_scale": 1.0,
+          "gradient_inf": 3.113914778914132,
+          "normalized_hessian_min": 0.01726083890615089,
+          "normalized_hessian_max": 2.036582965881036
+        },
+        {
+          "iteration": 1,
+          "before": 0.17582333206659764,
+          "after": 0.17582301457849867,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.016270826970611996,
+          "normalized_hessian_min": 0.01725894598101053,
+          "normalized_hessian_max": 2.0366385126228512
+        },
+        {
+          "iteration": 2,
+          "before": 0.17582301457849867,
+          "after": 0.17582301401544453,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0003934871258269579,
+          "normalized_hessian_min": 0.017258886550056144,
+          "normalized_hessian_max": 2.036639525455436
+        },
+        {
+          "iteration": 3,
+          "before": 0.17582301401544453,
+          "after": 0.17582301401408137,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.7262952348578997e-05,
+          "normalized_hessian_min": 0.017258883797925086,
+          "normalized_hessian_max": 2.036639562572335
+        },
+        {
+          "iteration": 4,
+          "before": 0.17582301401408137,
+          "after": 0.17582301401407888,
+          "accepted_scale": 1.0,
+          "gradient_inf": 8.283889314092407e-07,
+          "normalized_hessian_min": 0.017258883662494947,
+          "normalized_hessian_max": 2.036639564229735
+        },
+        {
+          "iteration": 5,
+          "before": 0.17582301401407888,
+          "after": 0.1758230140140786,
+          "accepted_scale": 1.0,
+          "gradient_inf": 4.096757429128406e-08,
+          "normalized_hessian_min": 0.01725888365573863,
+          "normalized_hessian_max": 2.036639564310338
+        },
+        {
+          "iteration": 6,
+          "before": 0.1758230140140786,
+          "after": 0.1758230140140775,
+          "accepted_scale": 1.0,
+          "gradient_inf": 2.0498753805497927e-09,
+          "normalized_hessian_min": 0.01725888365540069,
+          "normalized_hessian_max": 2.03663956431438
+        },
+        {
+          "iteration": 7,
+          "before": 0.1758230140140775,
+          "after": 0.175823014014079,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.0323070176454507e-10,
+          "normalized_hessian_min": 0.017258883655384267,
+          "normalized_hessian_max": 2.0366395643145854
+        },
+        {
+          "iteration": 8,
+          "before": 0.175823014014079,
+          "after": 0.17582301401407802,
+          "accepted_scale": 1.0,
+          "gradient_inf": 5.1292858849194545e-12,
+          "normalized_hessian_min": 0.017258883655382876,
+          "normalized_hessian_max": 2.036639564314593
+        },
+        {
+          "iteration": 9,
+          "before": 0.17582301401407802,
+          "after": 0.1758230140140777,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.0935696792557792e-12,
+          "normalized_hessian_min": 0.017258883655382178,
+          "normalized_hessian_max": 2.036639564314595
+        },
+        {
+          "iteration": 10,
+          "before": 0.1758230140140777,
+          "after": 0.17582301401407857,
+          "accepted_scale": 1.0,
+          "gradient_inf": 2.5605628728442298e-12,
+          "normalized_hessian_min": 0.0172588836553832,
+          "normalized_hessian_max": 2.0366395643145947
+        },
+        {
+          "iteration": 11,
+          "before": 0.17582301401407857,
+          "after": 0.17582301401407774,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.109445868507919e-12,
+          "normalized_hessian_min": 0.01725888365538391,
+          "normalized_hessian_max": 2.0366395643145956
+        },
+        {
+          "iteration": 12,
+          "before": 0.17582301401407774,
+          "after": 0.1758230140140777,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.130540105975797e-12,
+          "normalized_hessian_min": 0.017258883655383653,
+          "normalized_hessian_max": 2.036639564314595
+        },
+        {
+          "iteration": 13,
+          "before": 0.1758230140140777,
+          "after": 0.17582301401407704,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.1974865543606938e-12,
+          "normalized_hessian_min": 0.017258883655383753,
+          "normalized_hessian_max": 2.0366395643145956
+        },
+        {
+          "iteration": 14,
+          "before": 0.17582301401407704,
+          "after": 0.1758230140140778,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.1423084700368236e-12,
+          "normalized_hessian_min": 0.01725888365538431,
+          "normalized_hessian_max": 2.0366395643145956
+        },
+        {
+          "iteration": 15,
+          "before": 0.1758230140140778,
+          "after": 0.17582301401407768,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.1974865543606938e-12,
+          "normalized_hessian_min": 0.017258883655382598,
+          "normalized_hessian_max": 2.0366395643145956
+        },
+        {
+          "iteration": 16,
+          "before": 0.17582301401407768,
+          "after": 0.17582301401407743,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.1404210908949608e-12,
+          "normalized_hessian_min": 0.01725888365538437,
+          "normalized_hessian_max": 2.036639564314595
+        },
+        {
+          "iteration": 17,
+          "before": 0.17582301401407743,
+          "after": 0.17582301401407724,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.198596777385319e-12,
+          "normalized_hessian_min": 0.01725888365538364,
+          "normalized_hessian_max": 2.036639564314595
+        },
+        {
+          "iteration": 18,
+          "before": 0.17582301401407724,
+          "after": 0.1758230140140777,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.1400880239875733e-12,
+          "normalized_hessian_min": 0.017258883655384034,
+          "normalized_hessian_max": 2.036639564314595
+        },
+        {
+          "iteration": 19,
+          "before": 0.1758230140140777,
+          "after": 0.175823014014077,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.1971534874533063e-12,
+          "normalized_hessian_min": 0.017258883655383445,
+          "normalized_hessian_max": 2.036639564314596
+        },
+        {
+          "iteration": 20,
+          "before": 0.175823014014077,
+          "after": 0.1758230140140776,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.142419492339286e-12,
+          "normalized_hessian_min": 0.01725888365538391,
+          "normalized_hessian_max": 2.0366395643145956
+        },
+        {
+          "iteration": 21,
+          "before": 0.1758230140140776,
+          "after": 0.1758230140140772,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.198818821990244e-12,
+          "normalized_hessian_min": 0.017258883655382678,
+          "normalized_hessian_max": 2.036639564314595
+        },
+        {
+          "iteration": 22,
+          "before": 0.1758230140140772,
+          "after": 0.17582301401407757,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.1400880239875733e-12,
+          "normalized_hessian_min": 0.01725888365538423,
+          "normalized_hessian_max": 2.0366395643145956
+        },
+        {
+          "iteration": 23,
+          "before": 0.17582301401407757,
+          "after": 0.17582301401407718,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.1987077996877815e-12,
+          "normalized_hessian_min": 0.017258883655382393,
+          "normalized_hessian_max": 2.036639564314596
+        }
+      ]
+    },
+    "corrections": {
+      "G": {
+        "max_translation_m": 3.4752050227154414,
+        "max_rotation_deg": 0.278742686784667,
+        "valid": false
+      },
+      "P": {
+        "max_translation_m": 0.008890954982982287,
+        "max_rotation_deg": 0.018288080197818943,
+        "valid": true
+      }
+    },
+    "probes": {
+      "O": {
+        "odd_point_rms_m": 0.07889935049611674,
+        "odd_point_count": 2930,
+        "per_scan_odd_point_count": [
+          409,
+          416,
+          480,
+          542,
+          415,
+          246,
+          228,
+          194
+        ],
+        "leave_one_scan_out_rms_m": 0.0653362663173813,
+        "leave_one_scan_out_records": 201,
+        "training_feature_count": 38
+      },
+      "G": {
+        "odd_point_rms_m": 0.07800800759797044,
+        "odd_point_count": 2930,
+        "per_scan_odd_point_count": [
+          409,
+          416,
+          480,
+          542,
+          415,
+          246,
+          228,
+          194
+        ],
+        "leave_one_scan_out_rms_m": 0.06248387342402128,
+        "leave_one_scan_out_records": 201,
+        "training_feature_count": 38
+      },
+      "P": {
+        "odd_point_rms_m": 0.0786598362379269,
+        "odd_point_count": 2930,
+        "per_scan_odd_point_count": [
+          409,
+          416,
+          480,
+          542,
+          415,
+          246,
+          228,
+          194
+        ],
+        "leave_one_scan_out_rms_m": 0.06477976659868133,
+        "leave_one_scan_out_records": 201,
+        "training_feature_count": 38
+      }
+    },
+    "costs": {
+      "O": {
+        "geometry": 0.17702060350331408,
+        "combined": 0.17702060350331408
+      },
+      "G": {
+        "geometry": 0.16738962355547674,
+        "combined": 206.05631273377304
+      },
+      "P": {
+        "geometry": 0.17500210628464843,
+        "combined": 0.17582301401407718
+      }
+    }
+  },
+  "05-200-s2": {
+    "window": "05-200",
+    "scale": 2.0,
+    "features": {
+      "features": 2,
+      "candidate_voxels": 2377,
+      "rejected": {
+        "support": 2311,
+        "plane": 64
+      },
+      "per_scan_training_points": [
+        7,
+        6,
+        10,
+        15,
+        16,
+        15,
+        11,
+        7
+      ],
+      "representation_valid": false
+    },
+    "traces": {},
+    "corrections": {},
+    "probes": {},
+    "costs": {}
+  },
+  "05-200-s4": {
+    "window": "05-200",
+    "scale": 4.0,
+    "features": {
+      "features": 25,
+      "candidate_voxels": 878,
+      "rejected": {
+        "support": 714,
+        "plane": 139
+      },
+      "per_scan_training_points": [
+        247,
+        289,
+        279,
+        181,
+        168,
+        162,
+        142,
+        91
+      ],
+      "representation_valid": false
+    },
+    "traces": {},
+    "corrections": {},
+    "probes": {},
+    "costs": {}
+  },
+  "06-200-s2": {
+    "window": "06-200",
+    "scale": 2.0,
+    "features": {
+      "features": 0,
+      "candidate_voxels": 3386,
+      "rejected": {
+        "support": 3384,
+        "plane": 2
+      },
+      "per_scan_training_points": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "representation_valid": false
+    },
+    "traces": {},
+    "corrections": {},
+    "probes": {},
+    "costs": {}
+  },
+  "06-200-s4": {
+    "window": "06-200",
+    "scale": 4.0,
+    "features": {
+      "features": 50,
+      "candidate_voxels": 1160,
+      "rejected": {
+        "support": 1005,
+        "plane": 105
+      },
+      "per_scan_training_points": [
+        363,
+        451,
+        530,
+        557,
+        492,
+        477,
+        418,
+        367
+      ],
+      "representation_valid": true
+    },
+    "traces": {
+      "G": [
+        {
+          "iteration": 0,
+          "before": 0.21394508367542425,
+          "after": 0.21297881716204095,
+          "accepted_scale": 0.5,
+          "gradient_inf": 0.8764889589925305,
+          "normalized_hessian_min": 0.000559690606465472,
+          "normalized_hessian_max": 3.5028754680232574
+        },
+        {
+          "iteration": 1,
+          "before": 0.21297881716204095,
+          "after": 0.2128315705558315,
+          "accepted_scale": 0.5,
+          "gradient_inf": 0.8901666498964718,
+          "normalized_hessian_min": 0.000564868481089336,
+          "normalized_hessian_max": 3.4870697079085624
+        },
+        {
+          "iteration": 2,
+          "before": 0.2128315705558315,
+          "after": 0.21207344742464812,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.8511239690107673,
+          "normalized_hessian_min": 0.0005631355664085395,
+          "normalized_hessian_max": 3.4744197489633275
+        },
+        {
+          "iteration": 3,
+          "before": 0.21207344742464812,
+          "after": 0.2105599734052533,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.5460716310206795,
+          "normalized_hessian_min": 0.0005501839050018339,
+          "normalized_hessian_max": 3.460970411265142
+        },
+        {
+          "iteration": 4,
+          "before": 0.2105599734052533,
+          "after": 0.21009549962307272,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.21185356070766803,
+          "normalized_hessian_min": 0.0005377956407331169,
+          "normalized_hessian_max": 3.474994466227279
+        },
+        {
+          "iteration": 5,
+          "before": 0.21009549962307272,
+          "after": 0.210013248685004,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.06333464065670849,
+          "normalized_hessian_min": 0.0005286091928856373,
+          "normalized_hessian_max": 3.4922840471751555
+        },
+        {
+          "iteration": 6,
+          "before": 0.210013248685004,
+          "after": 0.20999888494493796,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.004659842105356787,
+          "normalized_hessian_min": 0.0005262696426248581,
+          "normalized_hessian_max": 3.5030902972649582
+        },
+        {
+          "iteration": 7,
+          "before": 0.20999888494493796,
+          "after": 0.20999229911534212,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0016756071284815717,
+          "normalized_hessian_min": 0.0005256523786597633,
+          "normalized_hessian_max": 3.506626809795892
+        },
+        {
+          "iteration": 8,
+          "before": 0.20999229911534212,
+          "after": 0.2099891208211021,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0009701922814310399,
+          "normalized_hessian_min": 0.0005253005939358364,
+          "normalized_hessian_max": 3.5080350451989997
+        },
+        {
+          "iteration": 9,
+          "before": 0.2099891208211021,
+          "after": 0.20998756213649583,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.000680610462562195,
+          "normalized_hessian_min": 0.0005249896619465693,
+          "normalized_hessian_max": 3.5085718613211068
+        },
+        {
+          "iteration": 10,
+          "before": 0.20998756213649583,
+          "after": 0.20998679356074249,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0004966149383150154,
+          "normalized_hessian_min": 0.0005247097593356676,
+          "normalized_hessian_max": 3.508759557535716
+        },
+        {
+          "iteration": 11,
+          "before": 0.20998679356074249,
+          "after": 0.20998641388801204,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0003573865988696634,
+          "normalized_hessian_min": 0.0005244731076239925,
+          "normalized_hessian_max": 3.5088131230068504
+        },
+        {
+          "iteration": 12,
+          "before": 0.20998641388801204,
+          "after": 0.2099862262212626,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0002550889997758876,
+          "normalized_hessian_min": 0.0005242836754410299,
+          "normalized_hessian_max": 3.5088186210308696
+        },
+        {
+          "iteration": 13,
+          "before": 0.2099862262212626,
+          "after": 0.20998613344456685,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.00018113026866110188,
+          "normalized_hessian_min": 0.0005241378489877768,
+          "normalized_hessian_max": 3.5088093717603086
+        },
+        {
+          "iteration": 14,
+          "before": 0.20998613344456685,
+          "after": 0.20998608757696957,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.00012818356750465137,
+          "normalized_hessian_min": 0.0005240285849760876,
+          "normalized_hessian_max": 3.508797561606476
+        },
+        {
+          "iteration": 15,
+          "before": 0.20998608757696957,
+          "after": 0.20998606490068042,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.051514287575918e-05,
+          "normalized_hessian_min": 0.000523948236320024,
+          "normalized_hessian_max": 3.5087871337988683
+        },
+        {
+          "iteration": 16,
+          "before": 0.20998606490068042,
+          "after": 0.20998605368995837,
+          "accepted_scale": 1.0,
+          "gradient_inf": 6.382406141687558e-05,
+          "normalized_hessian_min": 0.0005238899192507111,
+          "normalized_hessian_max": 3.5087789653564787
+        },
+        {
+          "iteration": 17,
+          "before": 0.20998605368995837,
+          "after": 0.2099860481476458,
+          "accepted_scale": 1.0,
+          "gradient_inf": 4.496089003543091e-05,
+          "normalized_hessian_min": 0.0005238479806231618,
+          "normalized_hessian_max": 3.5087729002698893
+        },
+        {
+          "iteration": 18,
+          "before": 0.2099860481476458,
+          "after": 0.20998604540767782,
+          "accepted_scale": 1.0,
+          "gradient_inf": 3.165279825088213e-05,
+          "normalized_hessian_min": 0.0005238180162911224,
+          "normalized_hessian_max": 3.5087685164570313
+        },
+        {
+          "iteration": 19,
+          "before": 0.20998604540767782,
+          "after": 0.20998604405311974,
+          "accepted_scale": 1.0,
+          "gradient_inf": 2.2274489522633445e-05,
+          "normalized_hessian_min": 0.0005237967061066359,
+          "normalized_hessian_max": 3.5087653923695035
+        },
+        {
+          "iteration": 20,
+          "before": 0.20998604405311974,
+          "after": 0.20998604338346824,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.5670481234193734e-05,
+          "normalized_hessian_min": 0.0005237816003951643,
+          "normalized_hessian_max": 3.5087631826516166
+        },
+        {
+          "iteration": 21,
+          "before": 0.20998604338346824,
+          "after": 0.20998604305241478,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.102239231796226e-05,
+          "normalized_hessian_min": 0.000523770917782697,
+          "normalized_hessian_max": 3.5087616257683103
+        },
+        {
+          "iteration": 22,
+          "before": 0.20998604305241478,
+          "after": 0.20998604288875175,
+          "accepted_scale": 1.0,
+          "gradient_inf": 7.752021130985609e-06,
+          "normalized_hessian_min": 0.0005237633757491952,
+          "normalized_hessian_max": 3.508760530963623
+        },
+        {
+          "iteration": 23,
+          "before": 0.20998604288875175,
+          "after": 0.2099860428078435,
+          "accepted_scale": 1.0,
+          "gradient_inf": 5.451516300949977e-06,
+          "normalized_hessian_min": 0.000523758057328995,
+          "normalized_hessian_max": 3.5087597617575543
+        }
+      ],
+      "P": [
+        {
+          "iteration": 0,
+          "before": 0.21394508367542425,
+          "after": 0.21342838628409314,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.8764889589925305,
+          "normalized_hessian_min": 0.016857473716187517,
+          "normalized_hessian_max": 2.117505233419147
+        },
+        {
+          "iteration": 1,
+          "before": 0.21342838628409314,
+          "after": 0.2134277712307853,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.012002282239108375,
+          "normalized_hessian_min": 0.016857809359765205,
+          "normalized_hessian_max": 2.1175043836377023
+        },
+        {
+          "iteration": 2,
+          "before": 0.2134277712307853,
+          "after": 0.2134277697447,
+          "accepted_scale": 1.0,
+          "gradient_inf": 0.0005909309443298261,
+          "normalized_hessian_min": 0.01685782035530509,
+          "normalized_hessian_max": 2.1175043777217275
+        },
+        {
+          "iteration": 3,
+          "before": 0.2134277697447,
+          "after": 0.21342776974099711,
+          "accepted_scale": 1.0,
+          "gradient_inf": 2.989875349335147e-05,
+          "normalized_hessian_min": 0.016857820882961186,
+          "normalized_hessian_max": 2.1175043774725
+        },
+        {
+          "iteration": 4,
+          "before": 0.21342776974099711,
+          "after": 0.21342776974098743,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.4922807689554674e-06,
+          "normalized_hessian_min": 0.01685782090980576,
+          "normalized_hessian_max": 2.117504377457549
+        },
+        {
+          "iteration": 5,
+          "before": 0.21342776974098743,
+          "after": 0.2134277697409879,
+          "accepted_scale": 1.0,
+          "gradient_inf": 7.4243665326712e-08,
+          "normalized_hessian_min": 0.01685782091118236,
+          "normalized_hessian_max": 2.1175043774566915
+        },
+        {
+          "iteration": 6,
+          "before": 0.2134277697409879,
+          "after": 0.21342776974098843,
+          "accepted_scale": 1.0,
+          "gradient_inf": 3.6965881466954897e-09,
+          "normalized_hessian_min": 0.016857820911252493,
+          "normalized_hessian_max": 2.117504377456643
+        },
+        {
+          "iteration": 7,
+          "before": 0.21342776974098843,
+          "after": 0.2134277697409884,
+          "accepted_scale": 1.0,
+          "gradient_inf": 1.8433232717995907e-10,
+          "normalized_hessian_min": 0.016857820911255757,
+          "normalized_hessian_max": 2.1175043774566418
+        },
+        {
+          "iteration": 8,
+          "before": 0.2134277697409884,
+          "after": 0.21342776974098868,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.179212945298332e-12,
+          "normalized_hessian_min": 0.016857820911256212,
+          "normalized_hessian_max": 2.1175043774566404
+        },
+        {
+          "iteration": 9,
+          "before": 0.21342776974098868,
+          "after": 0.2134277697409869,
+          "accepted_scale": 1.0,
+          "gradient_inf": 4.557187960330111e-13,
+          "normalized_hessian_min": 0.016857820911256257,
+          "normalized_hessian_max": 2.1175043774566413
+        },
+        {
+          "iteration": 10,
+          "before": 0.2134277697409869,
+          "after": 0.2134277697409882,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.53421369631613e-14,
+          "normalized_hessian_min": 0.0168578209112563,
+          "normalized_hessian_max": 2.1175043774566404
+        },
+        {
+          "iteration": 11,
+          "before": 0.2134277697409882,
+          "after": 0.21342776974098765,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.536306206509026e-14,
+          "normalized_hessian_min": 0.01685782091125637,
+          "normalized_hessian_max": 2.117504377456642
+        },
+        {
+          "iteration": 12,
+          "before": 0.21342776974098765,
+          "after": 0.21342776974098746,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.709594239737385e-14,
+          "normalized_hessian_min": 0.016857820911255778,
+          "normalized_hessian_max": 2.1175043774566418
+        },
+        {
+          "iteration": 13,
+          "before": 0.21342776974098746,
+          "after": 0.21342776974098743,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.532056133992883e-14,
+          "normalized_hessian_min": 0.016857820911256254,
+          "normalized_hessian_max": 2.117504377456642
+        },
+        {
+          "iteration": 14,
+          "before": 0.21342776974098743,
+          "after": 0.2134277697409876,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.532110344101508e-14,
+          "normalized_hessian_min": 0.01685782091125608,
+          "normalized_hessian_max": 2.117504377456643
+        },
+        {
+          "iteration": 15,
+          "before": 0.2134277697409876,
+          "after": 0.2134277697409874,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.534658219206849e-14,
+          "normalized_hessian_min": 0.0168578209112557,
+          "normalized_hessian_max": 2.1175043774566418
+        },
+        {
+          "iteration": 16,
+          "before": 0.2134277697409874,
+          "after": 0.2134277697409876,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.532327184536005e-14,
+          "normalized_hessian_min": 0.016857820911256337,
+          "normalized_hessian_max": 2.117504377456642
+        },
+        {
+          "iteration": 17,
+          "before": 0.2134277697409876,
+          "after": 0.2134277697409874,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.534679903250298e-14,
+          "normalized_hessian_min": 0.016857820911256174,
+          "normalized_hessian_max": 2.1175043774566404
+        },
+        {
+          "iteration": 18,
+          "before": 0.2134277697409874,
+          "after": 0.21342776974098798,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.532381394644629e-14,
+          "normalized_hessian_min": 0.01685782091125628,
+          "normalized_hessian_max": 2.1175043774566427
+        },
+        {
+          "iteration": 19,
+          "before": 0.21342776974098798,
+          "after": 0.21342776974098776,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.534669061228573e-14,
+          "normalized_hessian_min": 0.016857820911256233,
+          "normalized_hessian_max": 2.1175043774566413
+        },
+        {
+          "iteration": 20,
+          "before": 0.21342776974098776,
+          "after": 0.2134277697409876,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.534972637836869e-14,
+          "normalized_hessian_min": 0.01685782091125624,
+          "normalized_hessian_max": 2.1175043774566427
+        },
+        {
+          "iteration": 21,
+          "before": 0.2134277697409876,
+          "after": 0.2134277697409874,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.534658219206849e-14,
+          "normalized_hessian_min": 0.016857820911256295,
+          "normalized_hessian_max": 2.1175043774566427
+        },
+        {
+          "iteration": 22,
+          "before": 0.2134277697409874,
+          "after": 0.21342776974098754,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.532327184536005e-14,
+          "normalized_hessian_min": 0.016857820911255893,
+          "normalized_hessian_max": 2.11750437745664
+        },
+        {
+          "iteration": 23,
+          "before": 0.21342776974098754,
+          "after": 0.21342776974098765,
+          "accepted_scale": 1.0,
+          "gradient_inf": 9.534766639424097e-14,
+          "normalized_hessian_min": 0.016857820911256382,
+          "normalized_hessian_max": 2.1175043774566435
+        }
+      ]
+    },
+    "corrections": {
+      "G": {
+        "max_translation_m": 1.1949614867785152,
+        "max_rotation_deg": 3.015636748210832,
+        "valid": false
+      },
+      "P": {
+        "max_translation_m": 0.013114829828801012,
+        "max_rotation_deg": 0.017770620840283184,
+        "valid": true
+      }
+    },
+    "probes": {
+      "O": {
+        "odd_point_rms_m": 0.07734819095106467,
+        "odd_point_count": 3613,
+        "per_scan_odd_point_count": [
+          353,
+          447,
+          524,
+          550,
+          496,
+          468,
+          412,
+          363
+        ],
+        "leave_one_scan_out_rms_m": 0.06989755816153442,
+        "leave_one_scan_out_records": 299,
+        "training_feature_count": 50
+      },
+      "G": {
+        "odd_point_rms_m": 0.07739035009819407,
+        "odd_point_count": 3613,
+        "per_scan_odd_point_count": [
+          353,
+          447,
+          524,
+          550,
+          496,
+          468,
+          412,
+          363
+        ],
+        "leave_one_scan_out_rms_m": 0.06898147368932843,
+        "leave_one_scan_out_records": 299,
+        "training_feature_count": 50
+      },
+      "P": {
+        "odd_point_rms_m": 0.07732888536405827,
+        "odd_point_count": 3613,
+        "per_scan_odd_point_count": [
+          353,
+          447,
+          524,
+          550,
+          496,
+          468,
+          412,
+          363
+        ],
+        "leave_one_scan_out_rms_m": 0.06970357454334361,
+        "leave_one_scan_out_records": 299,
+        "training_feature_count": 50
+      }
+    },
+    "costs": {
+      "O": {
+        "geometry": 0.21394508367542425,
+        "combined": 0.21394508367542425
+      },
+      "G": {
+        "geometry": 0.2099860428078435,
+        "combined": 48.724096477450956
+      },
+      "P": {
+        "geometry": 0.21309115441797052,
+        "combined": 0.21342776974098765
+      }
+    }
+  }
+}

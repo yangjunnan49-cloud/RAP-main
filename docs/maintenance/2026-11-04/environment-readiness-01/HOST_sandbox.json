@@ -1,0 +1,34 @@
+{
+  "observed_utc": "2026-11-04T03:23:18.341185+00:00",
+  "label": "sandbox",
+  "linux_distribution_start_requested": false,
+  "commands": [
+    {
+      "argv": [
+        "wsl.exe",
+        "--list",
+        "--verbose"
+      ],
+      "exit_code": 4294967295,
+      "stdout": "拒绝访问。 \r\n错误代码: Wsl/E_ACCESSDENIED\r\n",
+      "stdout_base64": "0mLdfr+L7pUCMCAADQAKABmV74vjTgF4OgAgAFcAcwBsAC8ARQBfAEEAQwBDAEUAUwBTAEQARQBOAEkARQBEAA0ACgA=",
+      "stderr": "",
+      "stderr_base64": ""
+    },
+    {
+      "argv": [
+        "wsl.exe",
+        "--list",
+        "--running",
+        "--quiet"
+      ],
+      "exit_code": 4294967295,
+      "stdout": "拒绝访问。 \r\n错误代码: Wsl/E_ACCESSDENIED\r\n",
+      "stdout_base64": "0mLdfr+L7pUCMCAADQAKABmV74vjTgF4OgAgAFcAcwBsAC8ARQBfAEEAQwBDAEUAUwBTAEQARQBOAEkARQBEAA0ACgA=",
+      "stderr": "",
+      "stderr_base64": ""
+    }
+  ],
+  "distributions_registry": [],
+  "registry_error": "PermissionError(13, '拒绝访问。', None, 5, None)"
+}

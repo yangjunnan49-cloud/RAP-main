@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "count": 12,
+  "controls": [
+    {
+      "case": "memo_and_list_identity",
+      "passed": true
+    },
+    {
+      "case": "dict_values",
+      "passed": true
+    },
+    {
+      "case": "GLOBAL_REDUCE_BUILD_remain_symbols",
+      "passed": true
+    },
+    {
+      "case": "synthetic_tensor_storage_metadata",
+      "passed": true
+    },
+    {
+      "case": "reject_missing_memo",
+      "passed": true
+    },
+    {
+      "case": "reject_trailing",
+      "passed": true
+    },
+    {
+      "case": "reject_extra_stack",
+      "passed": true
+    },
+    {
+      "case": "reject_duplicate_key",
+      "passed": true
+    },
+    {
+      "case": "reject_unsupported_extension",
+      "passed": true
+    },
+    {
+      "case": "reject_truncated",
+      "passed": true
+    },
+    {
+      "case": "reject_wrong_bytes",
+      "passed": true
+    },
+    {
+      "case": "reject_missing_storage",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "receipts": [
+    {
+      "stage": "freeze",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 29.655699477007147,
+        "peak_RSS_bytes": 20094976,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 387863,
+        "imports_included": true,
+        "optimizer_calls": 0,
+        "neural_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T14:53:16.7055819Z",
+        "wall_seconds": 34.311299,
+        "host_memory_observations": 44,
+        "minimum_observed_headroom_bytes": 72535613440.0
+      },
+      "launch": {
+        "pid": 49160,
+        "utc_start": "2026-10-13T14:52:42.3942829Z",
+        "script": "scripts/maintenance/shadow_prefix_storage_codec.py",
+        "stage": "freeze",
+        "headroom_before_bytes": 74354749440
+      }
+    },
+    {
+      "stage": "encode",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 114.35515353600204,
+        "peak_RSS_bytes": 123146240,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 267296669,
+        "imports_included": true,
+        "optimizer_calls": 0,
+        "neural_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T14:56:33.2975918Z",
+        "wall_seconds": 121.8981202,
+        "host_memory_observations": 157,
+        "minimum_observed_headroom_bytes": 72383455232.0
+      },
+      "launch": {
+        "pid": 37556,
+        "utc_start": "2026-10-13T14:54:31.3994716Z",
+        "script": "scripts/maintenance/shadow_prefix_storage_codec.py",
+        "stage": "encode",
+        "headroom_before_bytes": 74219696128
+      }
+    },
+    {
+      "stage": "validate",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 79.50578872200276,
+        "peak_RSS_bytes": 90013696,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 267347756,
+        "imports_included": true,
+        "optimizer_calls": 0,
+        "neural_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T14:58:20.3089892Z",
+        "wall_seconds": 86.0687671,
+        "host_memory_observations": 111,
+        "minimum_observed_headroom_bytes": 72042037248.0
+      },
+      "launch": {
+        "pid": 48736,
+        "utc_start": "2026-10-13T14:56:54.2402221Z",
+        "script": "scripts/maintenance/shadow_prefix_storage_codec.py",
+        "stage": "validate",
+        "headroom_before_bytes": 72651665408
+      }
+    }
+  ],
+  "scientific_child_seconds_including_imports": 223.51664173501194,
+  "peak_RSS_bytes": 123146240,
+  "GPU_bytes": 0,
+  "logging_retries": 0,
+  "logging_gaps": 0,
+  "old_caps_and_failures_unchanged": true,
+  "ordinary_setup_RSS_unknown": true,
+  "closing_identity_bookkeeping_separate": true
+}

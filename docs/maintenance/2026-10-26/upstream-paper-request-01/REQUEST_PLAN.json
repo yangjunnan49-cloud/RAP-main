@@ -1,0 +1,41 @@
+{
+  "id": "PPR1",
+  "status": "PREPARED_AWAITING_EXACT_OWNER_AUTHORIZATION",
+  "scope": "Read the original ParisLuco3D creation-paper abstract and PDF as source evidence; no dataset or benchmark payload",
+  "published_pointer": "docs/maintenance/2026-10-25/upstream-page-01/PAGE_LINKS.json",
+  "objects": [
+    {
+      "url": "https://arxiv.org/abs/2310.16542",
+      "role": "Original paper identity/version and stated task/acquisition scope",
+      "accepted_mime": ["text/html", "application/xhtml+xml"],
+      "delivered_body_cap_bytes": 262144
+    },
+    {
+      "url": "https://arxiv.org/pdf/2310.16542.pdf",
+      "role": "Original acquisition, alignment/reference, calibration, timing and quality statements",
+      "accepted_mime": ["application/pdf"],
+      "delivered_body_cap_bytes": 8388608
+    }
+  ],
+  "allowed_host": "arxiv.org",
+  "allowed_https_paths": ["/abs/2310.16542", "/pdf/2310.16542.pdf", "/pdf/2310.16542"],
+  "redirects": "Only necessary HTTPS redirects among these exact paths for the corresponding abstract/PDF object, no host/path expansion",
+  "method": "GET",
+  "max_total_requests_including_redirects": 4,
+  "max_application_delivered_body_bytes_all_responses": 8650752,
+  "worker_wall_seconds": 90,
+  "complete_transport_attempt_wall_seconds": 180,
+  "source_read_scope_wall_seconds_including_preparation_all_attempts_analysis_delivery": 1200,
+  "worker_peak_working_set_bytes": 268435456,
+  "local_source_dossier_cap_bytes": 16777216,
+  "fresh_host_commit_headroom_min_bytes": 12884901888,
+  "fresh_query_roundtrip_max_seconds": 2,
+  "retries": 0,
+  "request_encoding": "identity",
+  "cookies_credentials_scripts": "No Cookie/Authorization header, cookie reuse, credentials or downloaded-script execution",
+  "followed_links_or_other_objects": 0,
+  "not_authorized": ["Data-share access", "readme URL guessing", "raw scans", "poses", "weights", "code/package installation", "outreach", "model inference", "training", "new pose metrics", "PDF embedded-link traversal"],
+  "evidence_acceptance": "Successful MIME/status, exact admitted byte count, EOF and SHA256; capped/failed prefixes remain inadmissible evidence",
+  "interpretation": "May establish upstream paper statements only. Exact RegX derivative crosswalk, local checkpoint membership and independent cohort remain unknown unless the acquired text explicitly supplies the required binding. Paper receipt never automatically admits efficacy work.",
+  "existing_requirement": "docs/maintenance/2026-10-14/continuation-handoff-05/AUTHENTICATION_DEPENDENCIES.md: Before external retrieval, the owner must separately authorize the source, objects, storage/network/compute envelope and permitted read/verification task."
+}

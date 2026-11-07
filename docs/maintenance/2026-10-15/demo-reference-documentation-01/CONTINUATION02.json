@@ -1,0 +1,41 @@
+{
+  "resume_only_after_retained_two_requests": true,
+  "files": [
+    {
+      "bytes": 7385,
+      "sha256": "97a1549036ab8d1a5a72c62825a8fa9af261d78efc8516b9a3058084ceb81aa3",
+      "path": "scripts\\maintenance\\demo_reference_documents_attempt02.ps1"
+    },
+    {
+      "bytes": 3590,
+      "sha256": "abf24bdb23bf602c7785060847c7bf388cc2420e83a7184d269d38ea8eb8e611",
+      "path": "scripts\\maintenance\\demo_reference_documents_control_attempt02.ps1"
+    },
+    {
+      "bytes": 618,
+      "sha256": "655f00253593f7bb71031ba00cb003d225224d03c5a53dadd6fb028ba2cd2ff0",
+      "path": "docs\\maintenance\\2026-10-15\\demo-reference-documentation-01\\receipt-00.json"
+    },
+    {
+      "bytes": 1259,
+      "sha256": "b293696493f07df827a9d2fe2c2e09b9842584b7c2882338b20022bc7b282311",
+      "path": "docs\\maintenance\\2026-10-15\\demo-reference-documentation-01\\receipt-01.json"
+    },
+    {
+      "bytes": 19255,
+      "sha256": "906a09e17f9b584a72728ebee630b3a48500fa971a4fdbb25966fa859d01a5b0",
+      "path": "docs\\maintenance\\2026-10-15\\demo-reference-documentation-01\\response-01.body"
+    }
+  ],
+  "changes": [
+    "route Stage to observe02",
+    "load retained original receipt ledger and body total",
+    "skip already retained first two metadata requests",
+    "new worker/controller source paths"
+  ],
+  "all_receipts_share_original_cap": true,
+  "reason": "Original worker attempted assignment to read-only PowerShell HOME after acquiring and retaining the author HTML; no HOME value was changed",
+  "original_source_freeze_failure_exit_preserved": true,
+  "previous_body_bytes": 19255,
+  "no_replay_of_Bonn_or_author_HTML": true
+}

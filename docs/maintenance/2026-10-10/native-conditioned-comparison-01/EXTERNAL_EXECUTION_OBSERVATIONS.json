@@ -1,0 +1,20 @@
+{
+  "scope": "Observed execution-tool results and persistent partial markers; missing measurements remain null",
+  "observations": [
+    {"stage": "foreground_preflight_after_thread_fix", "exit_code": 1, "external_wall_seconds": 9.9015845, "complete_resource_record": false, "peak_RSS_bytes": null, "peak_GPU_bytes": null, "numerical_probe_directory_written": false},
+    {"stage": "hidden_persistent_log_preflight", "exit_code": null, "external_wall_seconds": null, "complete_resource_record": false, "peak_RSS_bytes": null, "peak_GPU_bytes": null, "launch_identity": "LAUNCH_preflight_retry.json", "observed_process_later_absent": true, "probe_directory_empty": true, "exit_marker_available": false},
+    {"stage": "read_only_strict_checkpoint_diagnostic", "exit_code": 0, "external_wall_seconds": 13.5182456, "complete_resource_record": false, "strict_keys": 344, "weights_only": true, "optimizer_calls": 0},
+    {"stage": "foreground_preflight_existing_directory_refusal", "exit_code": 1, "external_wall_seconds": 8.358125, "after_import_resource_row_in_original_ledger": true, "original_failure_file_preserved_by_exclusive_create": true, "optimizer_calls": 0},
+    {"stage": "read_only_prefix_tail_diagnostic", "exit_code": 1, "external_wall_seconds": 11.6010971, "complete_resource_record": false, "observed_at_model_load_RSS_KiB": 1805892, "prefix_returned": true, "tail_returned": false, "optimizer_calls": 0},
+    {"stage": "read_only_module_hook_diagnostic", "exit_code": 1, "external_wall_seconds": 14.462151, "complete_resource_record": false, "partial_resource_markers": "execution_diagnosis_progress.jsonl", "last_module_entry": "final_mlp.0", "optimizer_calls": 0},
+    {"stage": "standalone_IEEE_float32_matrix_diagnostic", "exit_code": 0, "external_wall_seconds": 2.7786067, "complete_resource_record": false, "shape": [3000, 512, 256], "RAP_model_used": false, "optimizer_calls": 0},
+    {"stage": "same_frozen_MLP0_random_input_diagnostic", "exit_code": 0, "external_wall_seconds": 10.8666046, "complete_resource_record": false, "input_shape": [3000, 512], "weight_shape": [512, 512], "weights_changed": false, "optimizer_calls": 0},
+    {"stage": "read_only_synchronized_block_diagnostic", "exit_code": 1, "external_wall_seconds": 9.8006118, "complete_resource_record": false, "partial_resource_markers": "execution_diagnosis_sync.jsonl", "last_marker": "imports_complete", "optimizer_calls": 0},
+    {"stage": "CPU_available_artifact_stop_audit", "exit_code": 0, "external_wall_seconds": 9.3363819, "complete_after_import_resource_record": "validation_execution_stop.json", "GPU_used": false, "optimizer_calls": 0}
+  ],
+  "all_attempt_wall_accounting_complete": false,
+  "all_attempt_peak_resource_accounting_complete": false,
+  "root_cause": "unresolved; exit locations vary; no unique cause identified",
+  "scientific_gate_result": "not executed",
+  "no_training_or_parameter_probe_rescue": true
+}

@@ -1,0 +1,5 @@
+# Owner continuation / bounded retained-update shadow pilot
+
+Owner said “请继续推进”, retaining autonomous multi-round project authorization. After ADR0 activated derivatives and SAR0 source sampler/cast/extraction prerequisites passed and sealed, authorize this distinct small shadow conditioning pilot. This supersedes SAR0 DESIGN_ONLY only for the bounded new function/exposure/update/evaluation scope below. Original NOC4 native fp16/FP32/AdamW/400-update comparison remains INCOMPLETE with all failed gates; no old rate/step/scale/init/noise/gate rescue. All prior controls/seals/markers/geometry stops/09 physical unknown remain.
+
+Retained updates are explicitly allowed only in isolated double shadow-tail artifacts on the exposed synthetic fixture, not production/default/backbone/checkpoint files. Forty actual manual gradient updates (20 per unchanged V/P arm),0 optimizer API calls, no nearby/real/system trajectory or fresh scene claim. No new noise draw, acquisition/install/process restart, official reference/edge/manuscript change, commit/Git sync. Original HEADs/branches/two-nine dirty sets retained.

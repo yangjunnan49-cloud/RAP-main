@@ -1,0 +1,7 @@
+# Next numerical preparation, not an automatic experiment
+
+The complete image packet and compatible isolated classical runtime are now available. Source/installation dependency is resolved; do not repeat acquisition or installation. Existing image-algorithm exclusion belonged to the installation/API scope; this record itself admits no new numerical payload.
+
+Next preparation: turn camera-visual-baseline-01/DRAFT_METHOD.md into a complete reviewable prediction/control/evaluation implementation and prospectively freeze all273 PNG hashes,200pair order, new-archiveP0 intrinsics, isolated-runtime identity, supplied-reference evaluation-only role and resources. Preserve conventional fixed settings and all no-evidence records. Functional controls must establish camera_i->camera_j direction, unit translation/scale ambiguity, nondegenerate calibrated geometry and insufficient-match fallback before real images. Complete reference-free predictions must be sealed before any pose-reference evaluation.
+
+The task estimates camera rotation and unit translation direction, not metric translation or old corrected-LiDAR native-N outputs. All200cases and full denominators remain; actual CF1 zeros are not a rejection rule. No training, RAP increment, physical/generalization or production/system benefit follows from API readiness. Current97%/ordinaryTRUE/reset1793169166 followed04:44:10UTC is not exhaustion; no automatic reset continuation or pending background worker. This additive plan is outside the earlier delivery seal and does not alter its bytes.

@@ -1,0 +1,9 @@
+# RA1 reference admission decision
+
+All 19 original C0 source identities and all eight public files (1,358,570 bytes) still match. The private reference hash matches, but its values were not decoded. Existing consumer requests contain exactly INDEX, two manifests and five XYZ files; this is cooperative separation rather than OS isolation. Both existing cases are exposed and must be retained. Existing local RAP/miniSpinNet weights were byte-hashed only; their current identities are in CHECKS.json, without any claim about pretraining exclusion.
+
+Physical efficacy comparison is **NOT ADMITTED**: author world-coordinate claims and custom inverse augmentations do not independently authenticate real-world alignment accuracy. No novel mechanism/adequate new scientific cohort follows from the interface tests. Default loader-generated internal references remain unsuitable as external truth.
+
+A separate real-model public-only **operability** scope can now be defined to authenticate the actual learned call's input/output routing and descriptor failure behavior on both already exposed C0 public cases. It must use direct backend calls, reject silent invalid/zero descriptors, record exact shared preprocessed arrays, include a matched geometry operability control, seal outputs, and avoid private-reference reads or pose-accuracy metrics. Such a scope does not qualify an algorithmic comparison or justify an efficacy/speed claim; a strong scientific baseline and physical-reference protocol would still be required later. No inference, feature extraction, point-coordinate decode or source fit ran in RA1.
+
+Existing P0/N1/N2/C0/CN1 results, all old retired families/budgets/stops and manuscript PAUSED / research UNRESOLVED remain. No acquisition, installation, production/default, Git, outreach, scheduler or goal-status change.

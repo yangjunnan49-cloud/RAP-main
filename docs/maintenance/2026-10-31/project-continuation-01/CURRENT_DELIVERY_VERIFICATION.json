@@ -1,0 +1,128 @@
+{
+  "passed": true,
+  "utc": "2026-10-31T01:03:51.513589+00:00",
+  "delivery_entries_verified": 40,
+  "archives_CRC_verified": 5,
+  "source_program_hashes_verified": true,
+  "owned_unique_identities": 15,
+  "owned_exit_receipts": [
+    {
+      "pid": 160484,
+      "program": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\work\\portable_graph\\controls.py",
+      "exit_code": 0,
+      "reaped": true
+    },
+    {
+      "pid": 150332,
+      "program": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\work\\portable_graph\\prepare.py",
+      "exit_code": 1,
+      "reaped": true
+    },
+    {
+      "pid": 157796,
+      "program": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\work\\portable_graph_io\\cold_io.py",
+      "exit_code": 0,
+      "reaped": true
+    },
+    {
+      "pid": 160668,
+      "program": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\work\\portable_graph_io\\predict.py",
+      "exit_code": 1,
+      "reaped": true
+    },
+    {
+      "pid": 144204,
+      "program": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\work\\portable_graph_io\\prepare.py",
+      "exit_code": 0,
+      "reaped": true
+    },
+    {
+      "pid": 155980,
+      "program": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\work\\portable_graph_cold\\cold_full.py",
+      "exit_code": 0,
+      "reaped": true
+    },
+    {
+      "pid": 159928,
+      "program": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\work\\portable_graph_cold\\predict.py",
+      "exit_code": 1,
+      "reaped": true
+    },
+    {
+      "pid": 160800,
+      "program": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\work\\reference_gate\\audit.py",
+      "exit_code": 0,
+      "reaped": true
+    },
+    {
+      "pid": 140404,
+      "program": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\work\\reference_gate\\controls.py",
+      "exit_code": 0,
+      "reaped": true
+    },
+    {
+      "pid": 153164,
+      "program": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\work\\reference_gate\\diagnose.py",
+      "exit_code": 0,
+      "reaped": true
+    },
+    {
+      "pid": 155856,
+      "program": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\work\\correspondence_score\\controls.py",
+      "exit_code": 0,
+      "reaped": true
+    },
+    {
+      "pid": 156416,
+      "program": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\work\\correspondence_score\\evaluate.py",
+      "exit_code": 1,
+      "reaped": true
+    },
+    {
+      "pid": 158304,
+      "program": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\work\\correspondence_score\\predict.py",
+      "exit_code": 0,
+      "reaped": true
+    },
+    {
+      "pid": 158624,
+      "program": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\work\\correspondence_score_evalio\\audit.py",
+      "exit_code": 0,
+      "reaped": true
+    },
+    {
+      "pid": 153952,
+      "program": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\work\\correspondence_score_evalio\\evaluate.py",
+      "exit_code": 0,
+      "reaped": true
+    }
+  ],
+  "not_global_process_absence_certificate": true,
+  "AGENTS_exact_backup_and_suffix_verified": true,
+  "verified": [
+    {
+      "directory": "MAC׼��_2026-10-31",
+      "entries": 3,
+      "seal_sha256": "242c4717c3932d271bfb44abbf2fdda67184e17b91ef4e8bc2fc4a37201ed7ff"
+    },
+    {
+      "directory": "portable_graph_20261031",
+      "entries": 12,
+      "seal_sha256": "06471f640ac9b65d56b4aa7d6c5175a4f47b0526163a0179ad1c45a7454e647c"
+    },
+    {
+      "directory": "reference_gate_20261031",
+      "entries": 7,
+      "seal_sha256": "48f5e990ab4e6b65cee14d080043e9caa43e5a58d80d988a89627b9f77568c93"
+    },
+    {
+      "directory": "correspondence_score_20261031",
+      "entries": 11,
+      "seal_sha256": "08dae74cf65d43780c30136adef315c229daa2ff55cbdaa7a54bd6114d38cb1c"
+    }
+  ],
+  "verifier_sha256": "1f6544244fb4237232626a7d51dfaa5dd37d5f1ec229d403a438485bd945b0cd",
+  "read_only": true,
+  "no_numerical_reexecution": true,
+  "mutable_account_status_excluded": true
+}

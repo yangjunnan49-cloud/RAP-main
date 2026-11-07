@@ -1,0 +1,32 @@
+{
+  "protocol": "F2-V1",
+  "decision": "NO_DEVELOPMENT_MECHANISM_SIGNAL",
+  "sequence_signals": {
+    "00": false,
+    "08": false
+  },
+  "conditions": {
+    "00": {
+      "C1_vs_N_recall_3pp": false,
+      "C1_vs_N_error_5pct": false,
+      "C2_vs_F_recall_3pp": false,
+      "C2_vs_F_error_5pct": true,
+      "C3_vs_P_recall_3pp": false,
+      "C3_vs_P_error_5pct": false,
+      "C4_no_more_incorrect_than_N": false,
+      "C4_ordinary_loss_2pp": false
+    },
+    "08": {
+      "C1_vs_N_recall_3pp": false,
+      "C1_vs_N_error_5pct": false,
+      "C2_vs_F_recall_3pp": true,
+      "C2_vs_F_error_5pct": true,
+      "C3_vs_P_recall_3pp": false,
+      "C3_vs_P_error_5pct": false,
+      "C4_no_more_incorrect_than_N": true,
+      "C4_ordinary_loss_2pp": true
+    },
+    "C5_engineering": true
+  },
+  "scope": "Observed development cohorts only; a signal licenses only a separately frozen fresh-confirmation protocol; no production/default change; HL/SC/PG stops and manuscript pause persist"
+}

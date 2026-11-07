@@ -1,0 +1,7 @@
+# Serialization-only delivery repair within original OC1 account
+
+run01's worker fails at final JSON serialization after the numerical loop/export stage, because NumPy2 retains float32 scalar arithmetic. Its failure, truncated RESULTS.json, source freeze and all files remain untouched. This is a delivery failure, not an observed numeric-gate rejection or model failure. Do not parse the truncated file as a valid PASS.
+
+The run01 verification process/branch is closed. A mechanical delivery repair in runtime02 changes only write(): explicitly convert supported NumPy scalar types to identical Python values and serialize completely before opening the exclusive output. Numeric functions, arrays, normalization, singular-value computation, source/representation gates, fixture/case counts and tolerances remain AST-identical. Model/source fit is never replayed. New run02 output is separate; old runtime/source binding is preserved.
+
+This clarifies the original stop as prohibiting numerical tuning/model retry, neither of which is performed by this delivery repair. All failures, repair/preparation/verification/closure are charged to the same original900s UTC/monotonic origin with180s reserve. No new budget, cap reset or changed threshold. If repair verification fails or reserve is reached, end this verification scope incomplete. A final PASS requires new complete valid output and successful supervisor/worker exits, with the initial failure still reported.

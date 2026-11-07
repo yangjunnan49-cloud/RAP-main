@@ -1,0 +1,3 @@
+# Next distinct question — DESIGN_ONLY
+
+Preserve this complete repeatability and directional census without any fixed-step or threshold rescue. If repeatability passes but parameter-direction checks fail, first distinguish finite-precision forward resolution from analytical derivative failure with separately frozen precision/control and independent local equations; no functional step or fit yet. If both pass, a separately scoped functional-step policy is still prerequisite to learning. Original NOC4 loss increases/stops remain; no old AdamW/rate/step/noise/init rescue. No next protocol/runner/freeze/backward/optimizer/fit executed by NMR0.

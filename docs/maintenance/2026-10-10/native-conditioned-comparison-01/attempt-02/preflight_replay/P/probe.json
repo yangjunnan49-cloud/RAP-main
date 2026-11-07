@@ -1,0 +1,164 @@
+{
+  "arm": "P",
+  "loss_before": 198.48916069256828,
+  "loss_after": 385.3649103165252,
+  "gradient_norm": 30983.090416346207,
+  "gradient_groups": {
+    "A": 0.0,
+    "B": 864.6771214212403,
+    "MLP": 30971.022347077516
+  },
+  "gradient_parameters": {
+    "transformer_layers.10.global_qkv_proj.A": {
+      "finite": true,
+      "nonzero": 0,
+      "size": 4096
+    },
+    "transformer_layers.10.global_qkv_proj.B": {
+      "finite": true,
+      "nonzero": 8747,
+      "size": 12288
+    },
+    "transformer_layers.10.global_out_proj.A": {
+      "finite": true,
+      "nonzero": 0,
+      "size": 4096
+    },
+    "transformer_layers.10.global_out_proj.B": {
+      "finite": true,
+      "nonzero": 4096,
+      "size": 4096
+    },
+    "transformer_layers.11.global_qkv_proj.A": {
+      "finite": true,
+      "nonzero": 0,
+      "size": 4096
+    },
+    "transformer_layers.11.global_qkv_proj.B": {
+      "finite": true,
+      "nonzero": 11264,
+      "size": 12288
+    },
+    "transformer_layers.11.global_out_proj.A": {
+      "finite": true,
+      "nonzero": 0,
+      "size": 4096
+    },
+    "transformer_layers.11.global_out_proj.B": {
+      "finite": true,
+      "nonzero": 4096,
+      "size": 4096
+    },
+    "final_mlp.0.weight": {
+      "finite": true,
+      "nonzero": 262144,
+      "size": 262144
+    },
+    "final_mlp.0.bias": {
+      "finite": true,
+      "nonzero": 512,
+      "size": 512
+    },
+    "final_mlp.2.weight": {
+      "finite": true,
+      "nonzero": 131072,
+      "size": 131072
+    },
+    "final_mlp.2.bias": {
+      "finite": true,
+      "nonzero": 256,
+      "size": 256
+    },
+    "final_mlp.4.weight": {
+      "finite": true,
+      "nonzero": 768,
+      "size": 768
+    }
+  },
+  "clip1_counterfactual": 3.2275669940026874e-05,
+  "clipping_applied": false,
+  "backward_multiplier": 0.0009765625,
+  "analytic": 979.94921875,
+  "finite_difference": 980.013986533919,
+  "FD_delta": 0.06476778391902371,
+  "parameter_changes": {
+    "norms": {
+      "A": 0.0,
+      "B": 0.016793710772835847,
+      "MLP": 0.06282936331611834
+    },
+    "parameters": {
+      "transformer_layers.10.global_qkv_proj.A": {
+        "nonzero": 0,
+        "max_abs": 0.0
+      },
+      "transformer_layers.10.global_qkv_proj.B": {
+        "nonzero": 8747,
+        "max_abs": 0.00010000001202570274
+      },
+      "transformer_layers.10.global_out_proj.A": {
+        "nonzero": 0,
+        "max_abs": 0.0
+      },
+      "transformer_layers.10.global_out_proj.B": {
+        "nonzero": 4096,
+        "max_abs": 0.00010000001202570274
+      },
+      "transformer_layers.11.global_qkv_proj.A": {
+        "nonzero": 0,
+        "max_abs": 0.0
+      },
+      "transformer_layers.11.global_qkv_proj.B": {
+        "nonzero": 11264,
+        "max_abs": 0.00010000001202570274
+      },
+      "transformer_layers.11.global_out_proj.A": {
+        "nonzero": 0,
+        "max_abs": 0.0
+      },
+      "transformer_layers.11.global_out_proj.B": {
+        "nonzero": 4096,
+        "max_abs": 0.00010000001202570274
+      },
+      "final_mlp.0.weight": {
+        "nonzero": 262144,
+        "max_abs": 0.00010000169277191162
+      },
+      "final_mlp.0.bias": {
+        "nonzero": 512,
+        "max_abs": 0.00010000169277191162
+      },
+      "final_mlp.2.weight": {
+        "nonzero": 131072,
+        "max_abs": 0.00010001659393310547
+      },
+      "final_mlp.2.bias": {
+        "nonzero": 256,
+        "max_abs": 0.00010000169277191162
+      },
+      "final_mlp.4.weight": {
+        "nonzero": 768,
+        "max_abs": 0.00010000169277191162
+      }
+    },
+    "max_abs": 0.00010001659393310547
+  },
+  "tests": {
+    "finite_gradient": true,
+    "A_zero_at_B0": true,
+    "each_B_active": true,
+    "MLP_active": true,
+    "output_weight_FD": true,
+    "each_B_changes": true,
+    "MLP_changes": true,
+    "A_unchanged": true,
+    "finite_step": true,
+    "bounded_step": true,
+    "loss_decreases": false
+  },
+  "passed": false,
+  "optimizer_probe_calls": 1,
+  "retained_updates": 0,
+  "parameters_restored_byteexact": true,
+  "forward": "full"
+}

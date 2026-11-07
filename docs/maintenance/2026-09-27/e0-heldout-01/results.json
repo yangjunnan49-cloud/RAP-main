@@ -1,0 +1,119 @@
+{
+  "sequences": {
+    "07": {
+      "O": {
+        "ter": 0.5400256971326179,
+        "rer": 0.3200980177496049,
+        "ate": 0.3598114716103636,
+        "unaligned_ape": 0.9965942966488589,
+        "odom_ter": 0.5321147728050497,
+        "odom_ate": 0.3841345190295439,
+        "attempted_loops": 12,
+        "accepted_loops": 12,
+        "strict_correct": 12,
+        "strict_incorrect": 0
+      },
+      "A": {
+        "ter": 0.39467329344502744,
+        "rer": 0.15153919295428842,
+        "ate": 0.3264004065562283,
+        "unaligned_ape": 0.6497247515948599,
+        "odom_ter": 0.38382288241403756,
+        "odom_ate": 0.36658012604126317,
+        "attempted_loops": 12,
+        "accepted_loops": 12,
+        "strict_correct": 12,
+        "strict_incorrect": 0
+      },
+      "KISS": {
+        "ter": 0.3865634175869737,
+        "rer": 0.16129547739524344,
+        "ate": 0.31537136744529026,
+        "unaligned_ape": 0.5391598209339373
+      }
+    },
+    "09": {
+      "O": {
+        "ter": 0.9811190813867554,
+        "rer": 0.40407433035964857,
+        "ate": 1.470336327090903,
+        "unaligned_ape": 7.382087645483352,
+        "odom_ter": 0.9147874892289237,
+        "odom_ate": 1.5471633988761497,
+        "attempted_loops": 12,
+        "accepted_loops": 10,
+        "strict_correct": 0,
+        "strict_incorrect": 10
+      },
+      "A": {
+        "ter": 0.5936521193786989,
+        "rer": 0.10693808812179226,
+        "ate": 1.0745232483242684,
+        "unaligned_ape": 2.063914166585685,
+        "odom_ter": 0.5194440387012946,
+        "odom_ate": 1.2040994034395953,
+        "attempted_loops": 12,
+        "accepted_loops": 10,
+        "strict_correct": 0,
+        "strict_incorrect": 10
+      },
+      "KISS": {
+        "ter": 0.5420627017900976,
+        "rer": 0.13387184030391727,
+        "ate": 1.2591105997237493,
+        "unaligned_ape": 2.979143980874569
+      }
+    },
+    "10": {
+      "O": {
+        "ter": 1.357440531608422,
+        "rer": 0.5235101455922548,
+        "ate": 1.8228176686226047,
+        "unaligned_ape": 12.643972368295247,
+        "odom_ter": 1.357440531608459,
+        "odom_ate": 1.8228176686225868,
+        "attempted_loops": 11,
+        "accepted_loops": 0,
+        "strict_correct": 0,
+        "strict_incorrect": 0
+      },
+      "A": {
+        "ter": 0.5285199058506692,
+        "rer": 0.20463188019850978,
+        "ate": 0.763515805340429,
+        "unaligned_ape": 2.38376313459836,
+        "odom_ter": 0.5285199058506876,
+        "odom_ate": 0.7635158053405667,
+        "attempted_loops": 11,
+        "accepted_loops": 0,
+        "strict_correct": 0,
+        "strict_incorrect": 0
+      },
+      "KISS": {
+        "ter": 0.5250426712521665,
+        "rer": 0.19145189993362421,
+        "ate": 0.7177609328530286,
+        "unaligned_ape": 2.880893840155386
+      }
+    }
+  },
+  "means": {
+    "O": {
+      "ter": 0.9595284367092652,
+      "rer": 0.41589416456716943,
+      "ate": 1.2176551557746238
+    },
+    "A": {
+      "ter": 0.5056151062247985,
+      "rer": 0.1543697204248635,
+      "ate": 0.7214798200736419
+    },
+    "KISS": {
+      "ter": 0.4845562635430793,
+      "rer": 0.16220640587759497,
+      "ate": 0.7640809666740228
+    }
+  },
+  "decision": "HELDOUT_TRANSFER",
+  "scope": "07/09/10 held out from E0 arm selection, earlier data/odometry exposure declared; not novelty or training-domain confirmation"
+}

@@ -1,0 +1,154 @@
+usage: run_pipeline.py [-h] [--map MAP] [--rap-root RAP_ROOT]
+                       [--output OUTPUT] [--n-poses N_POSES] [--radius RADIUS]
+                       [--center CENTER CENTER] [--sensor-range SENSOR_RANGE]
+                       [--points-range POINTS_RANGE POINTS_RANGE]
+                       [--noise-sigma NOISE_SIGMA] [--seed SEED]
+                       [--kf-trans KF_TRANS] [--kf-rot KF_ROT]
+                       [--loop-dist LOOP_DIST] [--loop-sep LOOP_SEP]
+                       [--max-candidates MAX_CANDIDATES]
+                       [--loop-method {proximity,sc,both}]
+                       [--sc-dist-thresh SC_DIST_THRESH]
+                       [--sc-max-radius SC_MAX_RADIUS] [--sc-rings SC_RINGS]
+                       [--sc-sectors SC_SECTORS] [--sc-shortlist SC_SHORTLIST]
+                       [--rap-steps RAP_STEPS]
+                       [--rap-max-points RAP_MAX_POINTS]
+                       [--rap-voxel RAP_VOXEL]
+                       [--trans-consistency TRANS_CONSISTENCY]
+                       [--rot-consistency ROT_CONSISTENCY]
+                       [--min-overlap MIN_OVERLAP]
+                       [--max-mean-dist MAX_MEAN_DIST]
+                       [--multigen-k MULTIGEN_K]
+                       [--min-overlap-min MIN_OVERLAP_MIN]
+                       [--max-disp-r MAX_DISP_R]
+                       [--gate-mode {heuristic,conformal}]
+                       [--gate-model GATE_MODEL]
+                       [--loop-weighting {fixed,adaptive,relfloor}]
+                       [--relfloor-ref RELFLOOR_REF]
+                       [--relfloor-cap RELFLOOR_CAP]
+                       [--loop-nms-width LOOP_NMS_WIDTH]
+                       [--robust-kernel {none,huber,dcs}] [--huber-k HUBER_K]
+                       [--dcs-phi DCS_PHI] [--no-rap-features]
+                       [--force-regenerate] [--skip-loop-closure]
+                       [--source {sim,real,spires}] [--real-root REAL_ROOT]
+                       [--real-seq REAL_SEQ] [--real-start REAL_START]
+                       [--real-end REAL_END] [--real-stride REAL_STRIDE]
+                       [--real-apply-calib] [--apply-kitti-205]
+                       [--no-apply-kitti-205] [--spires-root SPIRES_ROOT]
+                       [--spires-seq SPIRES_SEQ] [--spires-start SPIRES_START]
+                       [--spires-end SPIRES_END] [--allow-odom-fallback]
+                       [--odom-max-range ODOM_MAX_RANGE]
+                       [--odom-min-range ODOM_MIN_RANGE]
+                       [--odom-voxel ODOM_VOXEL] [--deskew]
+                       [--rap-ckpt RAP_CKPT] [--spinnet-ckpt SPINNET_CKPT]
+
+RAP-SLAM offline SLAM pipeline
+
+options:
+  -h, --help            show this help message and exit
+  --map MAP
+  --rap-root RAP_ROOT
+  --output OUTPUT
+  --n-poses N_POSES
+  --radius RADIUS
+  --center CENTER CENTER
+  --sensor-range SENSOR_RANGE
+  --points-range POINTS_RANGE POINTS_RANGE
+  --noise-sigma NOISE_SIGMA
+  --seed SEED
+  --kf-trans KF_TRANS   keyframe translation threshold (m)
+  --kf-rot KF_ROT       keyframe rotation threshold (deg)
+  --loop-dist LOOP_DIST
+                        loop candidate distance threshold (m)
+  --loop-sep LOOP_SEP   loop candidate min scan separation
+  --max-candidates MAX_CANDIDATES
+  --loop-method {proximity,sc,both}
+                        loop-candidate retrieval: odometry proximity, Scan
+                        Context global place recognition, or both merged
+  --sc-dist-thresh SC_DIST_THRESH
+                        Scan Context distance acceptance threshold
+  --sc-max-radius SC_MAX_RADIUS
+  --sc-rings SC_RINGS
+  --sc-sectors SC_SECTORS
+  --sc-shortlist SC_SHORTLIST
+                        ring-key shortlist size per query
+  --rap-steps RAP_STEPS
+                        RAP inference sampling steps
+  --rap-max-points RAP_MAX_POINTS
+  --rap-voxel RAP_VOXEL
+  --trans-consistency TRANS_CONSISTENCY
+  --rot-consistency ROT_CONSISTENCY
+  --min-overlap MIN_OVERLAP
+  --max-mean-dist MAX_MEAN_DIST
+                        loop acceptance: max mean symmetric NN distance (m); 0
+                        disables
+  --multigen-k MULTIGEN_K
+                        RAP generations per candidate; >1 switches the gate to
+                        cross-generation consistency (overlap_min, disp_r)
+  --min-overlap-min MIN_OVERLAP_MIN
+                        multigen gate: min overlap across generations
+  --max-disp-r MAX_DISP_R
+                        multigen gate: max inter-generation rotation
+                        dispersion (deg); catches bistable yaw flips
+  --gate-mode {heuristic,conformal}
+                        conformal = ConformalGate A1
+                        (data/conformal_gate/A1.json) decides acceptance from
+                        overlap+mean_dist
+  --gate-model GATE_MODEL
+                        explicit ConformalGate JSON path (overrides the
+                        default A1 model when --gate-mode conformal)
+  --loop-weighting {fixed,adaptive,relfloor}
+                        fixed: uniform loop sigmas; adaptive: absolute sigmas
+                        from mean_dist; relfloor: loosen only edges sloppier
+                        than --relfloor-ref (cross-dataset safe)
+  --relfloor-ref RELFLOOR_REF
+                        reference RAP mean_dist (m) for relfloor weighting
+  --relfloor-cap RELFLOOR_CAP
+                        max sigma loosening factor for relfloor weighting
+  --loop-nms-width LOOP_NMS_WIDTH
+                        (i,j)-space NMS width (scans) on accepted loop edges
+                        before PGO; 0 = off. Live default is 10 (dense same-
+                        site clusters); offline is budget-capped, so off keeps
+                        the golden regressions bit-exact
+  --robust-kernel {none,huber,dcs}
+                        robust mEstimator on loop edges
+  --huber-k HUBER_K
+  --dcs-phi DCS_PHI
+  --no-rap-features     disable miniSpinNet features (zero features)
+  --force-regenerate
+  --skip-loop-closure
+  --source {sim,real,spires}
+                        sim = simulated sequence from an aggregated map; real
+                        = KITTI-format dataset segment; spires = Oxford Spires
+                        (Hesai QT64) sequence
+  --real-root REAL_ROOT
+                        dataset root with dataset/poses and dataset/sequences
+  --real-seq REAL_SEQ
+  --real-start REAL_START
+  --real-end REAL_END
+  --real-stride REAL_STRIDE
+  --real-apply-calib    apply Tr velo<->cam conversion (KITTI convention; POSS
+                        poses are already in the LiDAR/world frame)
+  --apply-kitti-205     apply the 0.205-deg HDL-64 intrinsic vertical-angle
+                        correction (CT-ICP/MULLS/Traj-LO KITTI convention);
+                        only legal together with --real-apply-calib
+  --no-apply-kitti-205  disable the 0.205-deg correction (pre-meeting default)
+  --spires-root SPIRES_ROOT
+                        root with sequences/<seq>/raw/lidar-clouds/*.pcd and
+                        gt/<seq>.txt
+  --spires-seq SPIRES_SEQ
+  --spires-start SPIRES_START
+  --spires-end SPIRES_END
+  --allow-odom-fallback
+                        Explicitly permit Open3D if KISS-ICP initialization
+                        fails
+  --odom-max-range ODOM_MAX_RANGE
+  --odom-min-range ODOM_MIN_RANGE
+  --odom-voxel ODOM_VOXEL
+  --deskew              synthesize per-point azimuth timestamps and enable
+                        KISS-ICP motion compensation (real spinning-LiDAR
+                        scans only; simulated scans have no distortion)
+  --rap-ckpt RAP_CKPT   RAP checkpoint (default: weights
+                        root/rap_model_12.ckpt)
+  --spinnet-ckpt SPINNET_CKPT
+                        miniSpinNet checkpoint (default: weights
+                        root/mini_spinnet_t.pth)

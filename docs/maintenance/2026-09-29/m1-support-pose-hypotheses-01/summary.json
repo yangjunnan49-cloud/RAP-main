@@ -1,0 +1,73 @@
+{
+  "decision": "NO_SUPPORT_HYPOTHESIS_HEADROOM",
+  "primary_pairs": 41,
+  "primary_new_strict": 4,
+  "primary_new_interior": 2,
+  "groups": {
+    "00_unavailable": {
+      "pairs": 23,
+      "support_strict": 6,
+      "support_interior": 1,
+      "all_oracle_strict": 6
+    },
+    "00_available": {
+      "pairs": 52,
+      "support_strict": 52,
+      "support_interior": 46,
+      "all_oracle_strict": 52
+    },
+    "00_ordinary": {
+      "pairs": 25,
+      "native_oracle_strict": 25,
+      "all_oracle_strict": 25
+    },
+    "00_confuser": {
+      "pairs": 25,
+      "native_oracle_strict": 0,
+      "all_oracle_strict": 0
+    },
+    "00_low_overlap": {
+      "pairs": 25,
+      "native_oracle_strict": 5,
+      "all_oracle_strict": 9
+    },
+    "00_ambiguous_positive": {
+      "pairs": 25,
+      "native_oracle_strict": 22,
+      "all_oracle_strict": 24
+    },
+    "08_unavailable": {
+      "pairs": 41,
+      "support_strict": 4,
+      "support_interior": 2,
+      "all_oracle_strict": 4
+    },
+    "08_available": {
+      "pairs": 34,
+      "support_strict": 34,
+      "support_interior": 31,
+      "all_oracle_strict": 34
+    },
+    "08_ordinary": {
+      "pairs": 25,
+      "native_oracle_strict": 15,
+      "all_oracle_strict": 15
+    },
+    "08_confuser": {
+      "pairs": 25,
+      "native_oracle_strict": 0,
+      "all_oracle_strict": 0
+    },
+    "08_low_overlap": {
+      "pairs": 25,
+      "native_oracle_strict": 6,
+      "all_oracle_strict": 8
+    },
+    "08_ambiguous_positive": {
+      "pairs": 25,
+      "native_oracle_strict": 13,
+      "all_oracle_strict": 15
+    }
+  },
+  "bank_sha256": "be4df51cede277a9e1165ff48487cd5e1573d0de217ab40ad61821210a624b6e"
+}

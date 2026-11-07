@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "complete_images": 273,
+  "images_bytes": 71725068,
+  "archive_sha256_from_IA1": "94963792b9c48e37191583ba44608304713ae018a38735133f1435665f3ada12",
+  "archive_stat_and_index_unchanged": true,
+  "all_ZIP_CRC_PNG_chunks_full_pixel_decodes_pass": true,
+  "dimensions": [
+    {
+      "sequence": "00",
+      "width": 1241,
+      "height": 376,
+      "count": 157
+    },
+    {
+      "sequence": "08",
+      "width": 1226,
+      "height": 370,
+      "count": 116
+    }
+  ],
+  "associations": [
+    {
+      "sequence": "00",
+      "archive_calib_sha256": "7cfc9ab047da6bd829d669e31b2a0d72c278d084fa0c02f2f0320795d51a5d01",
+      "local_calib_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "projection_keys_compared_exact_Decimal": [
+        "P0",
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "projection_entries_equal": true,
+      "archive_only_keys": [],
+      "local_only_keys": [
+        "Tr"
+      ],
+      "Tr_supplied_by_new_archive": false,
+      "archive_times_sha256": "99a2899466cdc28dd292b4856d214a8b0aab035b91b02bb6afcb4ff363e7d421",
+      "local_times_sha256": "99a2899466cdc28dd292b4856d214a8b0aab035b91b02bb6afcb4ff363e7d421",
+      "timestamp_bytes_equal": true,
+      "timestamp_rows_equal_exact_Decimal": true,
+      "timestamp_rows": 4541,
+      "selected_IDs_in_range": true
+    },
+    {
+      "sequence": "08",
+      "archive_calib_sha256": "4abedb688d60249c36353b9893570f993ebfdc5ef7938f52f3a7b9e1edbfffb1",
+      "local_calib_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "projection_keys_compared_exact_Decimal": [
+        "P0",
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "projection_entries_equal": true,
+      "archive_only_keys": [],
+      "local_only_keys": [
+        "Tr"
+      ],
+      "Tr_supplied_by_new_archive": false,
+      "archive_times_sha256": "65359db9033c8716d2150c90c6fabc6f93db640531d3370e3eb7056d82590e9f",
+      "local_times_sha256": "65359db9033c8716d2150c90c6fabc6f93db640531d3370e3eb7056d82590e9f",
+      "timestamp_bytes_equal": true,
+      "timestamp_rows_equal_exact_Decimal": true,
+      "timestamp_rows": 4071,
+      "selected_IDs_in_range": true
+    }
+  ],
+  "source_role": "Owner-provided archive and supplied-record consistency; no independent physical calibration or prior extraction certification",
+  "pose_reference_reads": 0,
+  "models_features_solvers": 0,
+  "elapsed_seconds": 1.6869999999180436
+}

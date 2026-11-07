@@ -1,0 +1,16 @@
+{
+  "observed_utc": "2026-11-04T03:50:47.963600+00:00",
+  "source": "/root/build_pytorch3d.sh",
+  "files": [
+    {
+      "source": "/root/build_pytorch3d.sh",
+      "copy": "linux-preservation/build-evidence/root/build_pytorch3d.sh",
+      "bytes": 313,
+      "sha256": "a55c6b1c68686e8fb5e16716dee859d0829df75100e6f5d46c9abcaf7989e278"
+    }
+  ],
+  "executed": false,
+  "script_text": "#!/bin/bash\nset -e\nsource /root/miniconda3/bin/activate rap-inference\nexport TORCH_CUDA_ARCH_LIST=12.0\nexport CUDA_HOME=/usr/local/cuda-12.8\nexport FORCE_CUDA=1\nexport MAX_JOBS=2\npip install -v --no-build-isolation git+https://github.com/facebookresearch/pytorch3d.git@stable 2>&1 | tee /root/pytorch3d_build.log\n",
+  "full_commit_candidates": [],
+  "correction_to_first_build_scan": "The first scan handled .log files only and incorrectly labelled this existing .sh file NOT_PRESENT. Its actual bytes are now preserved."
+}

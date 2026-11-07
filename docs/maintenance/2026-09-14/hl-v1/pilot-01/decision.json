@@ -1,0 +1,131 @@
+{
+  "protocol": "HL-V1",
+  "decision": "INCONCLUSIVE",
+  "reason": "Both sequences fail fixed total and per-stratum cohort minima before inference",
+  "H1": "NOT EVALUATED",
+  "H2": "NOT EVALUATED",
+  "hypotheses": 0,
+  "training": "NOT STARTED",
+  "completed_utc": "2026-09-14T06:31:57.5703084Z",
+  "sequences": [
+    {
+      "sequence": "05",
+      "candidates": 457,
+      "sc": 65,
+      "proximity": 448,
+      "supported_candidates": 25,
+      "selected": 16,
+      "strata": [
+        {
+          "stratum": "confuser",
+          "population": 8,
+          "supported": 1,
+          "selected": 1,
+          "reasons": {
+            "unsupported": 7,
+            "selected": 1
+          }
+        },
+        {
+          "stratum": "ambiguous_positive",
+          "population": 0,
+          "supported": 0,
+          "selected": 0,
+          "reasons": {}
+        },
+        {
+          "stratum": "low_overlap",
+          "population": 1,
+          "supported": 0,
+          "selected": 0,
+          "reasons": {
+            "unsupported": 1
+          }
+        },
+        {
+          "stratum": "ordinary",
+          "population": 422,
+          "supported": 24,
+          "selected": 15,
+          "reasons": {
+            "unsupported": 398,
+            "selected": 15,
+            "query_cap": 9
+          }
+        }
+      ],
+      "exclusions": {
+        "unsupported": 406,
+        "selected": 16,
+        "overlap_gap": 26,
+        "query_cap": 9
+      },
+      "adequate": false,
+      "decision": "INCONCLUSIVE",
+      "H1": "NOT EVALUATED",
+      "H2": "NOT EVALUATED",
+      "generations": 0,
+      "elapsed_wall_s": 17.847350622992963,
+      "gpu_inference_s": 0.0,
+      "completed_utc": "2026-09-14T10:43:52.049016+08:00"
+    },
+    {
+      "sequence": "06",
+      "candidates": 445,
+      "sc": 28,
+      "proximity": 445,
+      "supported_candidates": 0,
+      "selected": 0,
+      "strata": [
+        {
+          "stratum": "confuser",
+          "population": 0,
+          "supported": 0,
+          "selected": 0,
+          "reasons": {}
+        },
+        {
+          "stratum": "ambiguous_positive",
+          "population": 0,
+          "supported": 0,
+          "selected": 0,
+          "reasons": {}
+        },
+        {
+          "stratum": "low_overlap",
+          "population": 0,
+          "supported": 0,
+          "selected": 0,
+          "reasons": {}
+        },
+        {
+          "stratum": "ordinary",
+          "population": 445,
+          "supported": 0,
+          "selected": 0,
+          "reasons": {
+            "unsupported": 445
+          }
+        }
+      ],
+      "exclusions": {
+        "unsupported": 445
+      },
+      "adequate": false,
+      "decision": "INCONCLUSIVE",
+      "H1": "NOT EVALUATED",
+      "H2": "NOT EVALUATED",
+      "generations": 0,
+      "elapsed_wall_s": 10.579635066038463,
+      "gpu_inference_s": 0.0,
+      "completed_utc": "2026-09-14T10:47:08.476507+08:00"
+    }
+  ],
+  "source_sha256": {
+    "E:/githouse/RAP-SLAM/scripts/hl1_cohort_audit.py": "fd967ae3728aaad8e8f5c016052f5bd12fc36e71468db0717f56d5445fcb84ec",
+    "E:/githouse/RAP-SLAM/scripts/validate_hl1_cohort.py": "a7abdc43f65bebaea119773e168d9be5fc33aea030f9c8fb8a4f7652df485fb2"
+  },
+  "discovery_freeze_verified": true,
+  "validation": "Independent candidate/support/sampling, scalar SC, brute-force overlap and visual audit passed; no membership changes",
+  "next": "Bounded real repeated-route data inventory and prospective expansion annex; no silent HL-V1 amendment"
+}

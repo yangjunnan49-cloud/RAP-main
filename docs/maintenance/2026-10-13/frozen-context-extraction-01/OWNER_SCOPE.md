@@ -1,0 +1,3 @@
+# FCE0 owner autonomous continuation
+
+Continue distinct frozen-feature residual prerequisites after immutable-storage checks. Authorize one target-free source/extraction/context-isolation study on the existing exposed synthetic fixture and only fit00/eval00 tau1. No retained fit, original HFIT0 bank retry, missing prediction, GT pose metric, trajectory, production or real expansion. This independent feature interface does not assume original NOC4 native backward repair or physical geometry headroom. Retired CCR0/SGC0/MGR0 families/09 unknown/old negative and INCOMPLETE states remain. No install/acquisition/restart/default/backbone/reference/manuscript/commit/Git sync.

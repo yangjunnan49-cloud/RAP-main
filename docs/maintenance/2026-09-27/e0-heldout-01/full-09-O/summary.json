@@ -1,0 +1,185 @@
+{
+  "config": {
+    "map": "/mnt/e/githouse/RAP-main/demo_example_data/map_kitti/kitti00.ply",
+    "rap_root": "/mnt/e/githouse/RAP-main",
+    "output": "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-27/e0-heldout-01/full-09-O",
+    "n_poses": 100,
+    "radius": 80.0,
+    "center": [
+      250.0,
+      -30.0
+    ],
+    "sensor_range": 50.0,
+    "points_range": [
+      2000,
+      4000
+    ],
+    "noise_sigma": 0.05,
+    "seed": 42,
+    "kf_trans": 6.0,
+    "kf_rot": 12.0,
+    "loop_dist": 15.0,
+    "loop_sep": 200,
+    "max_candidates": 12,
+    "loop_method": "both",
+    "sc_dist_thresh": 0.25,
+    "sc_max_radius": 80.0,
+    "sc_rings": 20,
+    "sc_sectors": 60,
+    "sc_shortlist": 10,
+    "rap_steps": 5,
+    "rap_max_points": 4000,
+    "rap_voxel": 0.4,
+    "trans_consistency": 5.0,
+    "rot_consistency": 25.0,
+    "min_overlap": 0.7,
+    "max_mean_dist": 2.5,
+    "multigen_k": 1,
+    "min_overlap_min": 0.4,
+    "max_disp_r": 30.0,
+    "gate_mode": "heuristic",
+    "gate_model": null,
+    "loop_weighting": "relfloor",
+    "relfloor_ref": 1.0,
+    "relfloor_cap": 3.0,
+    "loop_nms_width": 0.0,
+    "robust_kernel": "huber",
+    "huber_k": 1.0,
+    "dcs_phi": 10.0,
+    "no_rap_features": false,
+    "force_regenerate": false,
+    "skip_loop_closure": false,
+    "source": "real",
+    "real_root": "/mnt/e/githouse/Datasets/data_odometry_velodyne",
+    "real_seq": "09",
+    "real_start": 0,
+    "real_end": 1590,
+    "real_stride": 1,
+    "real_apply_calib": true,
+    "apply_kitti_205": false,
+    "spires_root": "/mnt/e/githouse/Datasets/oxford_spires",
+    "spires_seq": "2024-03-12-keble-college-02",
+    "spires_start": 0,
+    "spires_end": null,
+    "allow_odom_fallback": false,
+    "odom_max_range": 80.0,
+    "odom_min_range": 1.5,
+    "odom_voxel": 0.8,
+    "deskew": false
+  },
+  "run_id": "ac4b094a-2c71-4924-ae3a-b089aeee5b0c",
+  "verification_counts": {
+    "started": 0,
+    "accepted": 10,
+    "rejected": 2,
+    "failed": 0
+  },
+  "n_scans": 1591,
+  "n_keyframes": 266,
+  "odometry_backend": "kiss-icp",
+  "n_loop_candidates": 12,
+  "loop_method": "both",
+  "n_loops_accepted": 10,
+  "accepted_loops": [
+    {
+      "i": 28,
+      "j": 1590,
+      "overlap": 0.878,
+      "gt_trans_err": 4.141,
+      "gt_rot_err_deg": 0.4
+    },
+    {
+      "i": 28,
+      "j": 1588,
+      "overlap": 0.852,
+      "gt_trans_err": 4.119,
+      "gt_rot_err_deg": 0.29
+    },
+    {
+      "i": 16,
+      "j": 1579,
+      "overlap": 0.856,
+      "gt_trans_err": 3.909,
+      "gt_rot_err_deg": 0.23
+    },
+    {
+      "i": 0,
+      "j": 1570,
+      "overlap": 0.807,
+      "gt_trans_err": 3.676,
+      "gt_rot_err_deg": 0.29
+    },
+    {
+      "i": 0,
+      "j": 1579,
+      "overlap": 0.891,
+      "gt_trans_err": 3.789,
+      "gt_rot_err_deg": 0.21
+    },
+    {
+      "i": 16,
+      "j": 1588,
+      "overlap": 0.908,
+      "gt_trans_err": 4.05,
+      "gt_rot_err_deg": 0.17
+    },
+    {
+      "i": 16,
+      "j": 1590,
+      "overlap": 0.891,
+      "gt_trans_err": 4.069,
+      "gt_rot_err_deg": 0.35
+    },
+    {
+      "i": 28,
+      "j": 1579,
+      "overlap": 0.735,
+      "gt_trans_err": 3.919,
+      "gt_rot_err_deg": 0.38
+    },
+    {
+      "i": 16,
+      "j": 1570,
+      "overlap": 0.781,
+      "gt_trans_err": 3.764,
+      "gt_rot_err_deg": 0.15
+    },
+    {
+      "i": 0,
+      "j": 1562,
+      "overlap": 0.711,
+      "gt_trans_err": 3.649,
+      "gt_rot_err_deg": 0.19
+    }
+  ],
+  "metrics": {
+    "odometry": {
+      "ape_rmse": 6.882341256384408,
+      "ape_mean": 5.676408071212017,
+      "ape_max": 12.82309473275391,
+      "ape_std": 3.8916593605311847,
+      "rpe_rmse": 0.023489766459747062,
+      "rpe_mean": 0.020672233695687752,
+      "rpe_max": 0.1101207592277592,
+      "rpe_std": 0.0111547246655545
+    },
+    "optimized": {
+      "ape_rmse": 7.382087635466487,
+      "ape_mean": 6.088992677110706,
+      "ape_max": 13.668052771269176,
+      "ape_std": 4.173653799226688,
+      "rpe_rmse": 0.023551398342441198,
+      "rpe_mean": 0.020711899852473955,
+      "rpe_max": 0.11012075922775931,
+      "rpe_std": 0.011210957514210437
+    }
+  },
+  "timings_s": {
+    "sequence": 18.72,
+    "odometry": 33.92,
+    "loop_closure": 21.81,
+    "pgo": 0.06,
+    "evaluation": 19.71
+  },
+  "total_runtime_s": 94.25
+}

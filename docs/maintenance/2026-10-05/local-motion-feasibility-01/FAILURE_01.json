@@ -1,0 +1,9 @@
+{
+  "stage": "local first repeated pipeline, after two exact native replays",
+  "error": "AttributeError: 'float' object has no attribute 'max'",
+  "cause": "array/scalar max aggregation in original runner",
+  "gt_files_read": false,
+  "native_replay_max_delta": 0.0,
+  "partial_outputs": "bank/; immutable original freeze and scripts preserved",
+  "retry": "separately frozen v2 in attempt-02, unchanged method/gates"
+}

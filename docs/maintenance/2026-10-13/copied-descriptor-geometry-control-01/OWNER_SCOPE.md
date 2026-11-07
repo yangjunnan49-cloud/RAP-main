@@ -1,0 +1,3 @@
+# CDG0 distinct baseline ceiling continuation
+
+After FHR0 derivatives pass, scope one complete target-free copied-descriptor correspondence/geometry control on all original synthetic OBS points/features. No head fitting, model/native gradient, HFIT0 partial prediction use or original comparison retry. Seal all four full-direction correspondence tables and two geometric poses before new exposed-fixture truth errors. This asks whether a non-learning method already solves this numerical fixture; it is not a real-data efficacy or physical baseline. Preserve all old stops/markers/seals/reference/heads/branches/dirty work/unknowns; no production/install/acquisition/restart/manuscript/commit/Git sync.

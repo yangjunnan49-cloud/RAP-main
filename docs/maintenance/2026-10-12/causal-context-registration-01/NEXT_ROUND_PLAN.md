@@ -1,0 +1,3 @@
+# Next distinct question
+
+Stop this exact three-frame/source-ID context construction; no history/cap/radius/normal/FGR/selector/initializer/gate rescue or dependent residual/graph. A distinct independent question is the preserved NOC4 P-backward replay mismatch: inspect the old frozen source/arrays, then prospectively scope target-free restored/no-retained-update upstream/per-parameter reproducibility diagnosis. It must not tune the old learning rate, step scale, noise, initialization or loss-decrease gates, and must preserve original failed probes. This is not an assumption that backward is repaired. No new native protocol or execution is supplied by CCR0 closure.

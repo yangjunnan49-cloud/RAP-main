@@ -1,0 +1,3 @@
+# LCP0 distinct artifact-only continuation
+
+Owner “继续推进” continues autonomous staged work. After LPC0 matrix reconstruction passes, scope one complete lossless representation of all576 immutable HFIT0 available-delivery files, including every original failure/marker/partial trace/log/fit artifact. Verify full original ZIP serialization and independently reconstruct every original file byte-for-byte. No model, gradient, fitting, GT metrics, missing14 P cases, partial scientific admission, original-cap change or original HFIT0 scientific retry. This changes only a separate evidence representation; preserve every original source file and failed scientific state. No production/reference/install/acquisition/process restart/manuscript/commit/Git sync.

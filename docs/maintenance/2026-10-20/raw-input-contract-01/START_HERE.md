@@ -1,0 +1,11 @@
+# Complete fresh-raw trajectory-core delivery — 2026-10-21
+
+Read REPORT.md and results06.json for all36 cells/all6/three repeats; OPERATIONAL_RESULTS for measured cost; FINAL_NATIVE_CHECKS for655 Windows file hashes/45ZIP members. raw_core_GK_36_poses_20261020.zip contains36 standard unaligned LiDAR trajectories, configurations, tested components and README. Original DELIVERY_SEAL remains unchanged. COSTS_FINAL includes delivery/native validation and the supplementary timing analysis, all failures and conservative missing-run05 enclosing upper bound under the same7200s.
+
+G/K six-sequence means: ATE0.648334140963/0.698991712360m, ter0.446953334008/0.478490321918%, rer0.137614939278/0.154807851974deg100m. Mean ATE improves7.2472%; mean ter improves6.5909%. Average owner objective passes; individual protection07ter/10rer FAIL. G ATE is worse on06/07/10. On00, average Gter0.573657038 versus K0.574511281, but first Kter0.572991223 is better than G; K repeatSD0.001316409percentage points exceeds the mean advantage. Never claim each sequence/repeat is nonworse. Three process repeats are exposed development scenes, not independent generalization.
+
+New complete raw-core evidence supersedes only the earlier absence of a fresh raw trajectory-core run. It is not a new RAP increment or replacement for October11 native CLI benchmarks with full map/occupancy side-products. No default/install/production/reference/model/paper/Git/outreach/scheduler/goal-status action. Historical failed scopes and INCOMPLETE markers remain historical, not current STATUS.json.
+
+G measured11.391FPS versus K27.092, p99 frame137.363ms versus69.420ms. No stable online10Hz claim. timing_analysis02/REPORT.md uses all36 traces with zero-IPC ideal FIFO assumptions; its first hand-fixture expected queue count error and failed stage remain in TIMING_FIXTURE_CORRECTION/old timing_analysis. It is scheduling arithmetic, not measured parallel speedup.
+
+Account transition: owner explicitly continued onOct21; actual new0%/true/reset1792563859 at01:24:26UTC. Last previous-window observation97%/true/reset1792523562, no100% observed. This is not an exhaustion record or automatic reset resume. Original research objective unresolved.

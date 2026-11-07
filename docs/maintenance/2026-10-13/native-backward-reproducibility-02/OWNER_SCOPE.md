@@ -1,0 +1,5 @@
+# Owner scope — NBR0 mode-inventory repair and diagnosis
+
+On2026-10-13 the owner said "新的一天，请继续推进". This explicitly resumes the project at the sealed NBR0 prerequisite stop and authorizes the separately frozen exact mode-inventory repair recommended in its NEXT_ROUND_PLAN, followed by the unchanged eight-trace zero-optimizer diagnosis and independent artifact validation. No repeated permission is needed for these reversible isolated operations. Yesterday's finite allowance stop is not a scientific repair or a grant to resume automatically; today's message supplies fresh execution authorization.
+
+Preserve every old helper/dossier/seal/failure/INCOMPLETE marker, including the original NBR0 mode assertion and NOC4 loss-increase/P mismatch. No old context rescue, optimizer fitting, step/rate/scale/noise/init/backend/precision sweep, new physical data, trajectory, production/default/backbone/reference/manuscript/install/config/process restart/commit/Git synchronization. Only new isolated main maintenance helpers/docs and mutable root/daily handoffs change.

@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-22T01:22:22.4550977+00:00",
+  "scope": "Targeted verification of final handoff, N2 delivery including ZIP, and CN1 delivery",
+  "seals": [
+    {
+      "scope": "evening_handoff_20261021",
+      "seal_sha256": "FBE4A5A195DB6C8FB4CA2860ABC15CEC76D9D21F132F28DD879BB97E078A55F7",
+      "checked_entries": 7,
+      "passed": true
+    },
+    {
+      "scope": "native_stability_stream_20261021",
+      "seal_sha256": "E868D3967A2E7F9C18368AFAECEA7CF1146AE4E78B70661ED0B20DFC26E6FE9D",
+      "checked_entries": 252,
+      "passed": true
+    },
+    {
+      "scope": "custom_normalization_contract_20261021",
+      "seal_sha256": "1E52697DA4DEC491023ADCC6101194C9349FCBBED8BDDE63395187C0427FE028",
+      "checked_entries": 16,
+      "passed": true
+    }
+  ],
+  "numerical_reruns": 0,
+  "original_boundary_copies_exact": true,
+  "previous_1005_entry_audit_not_repeated": true,
+  "current_process_snapshot_taken": false,
+  "historical_scoped_process_snapshot": "0 matches at pre-boundary check; not a global/current process certification"
+}

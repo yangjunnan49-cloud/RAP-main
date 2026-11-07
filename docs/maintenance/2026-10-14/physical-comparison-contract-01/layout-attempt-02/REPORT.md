@@ -1,0 +1,15 @@
+# PCC0 current physical comparison contract / layout02
+
+All78 frozen identities and original available files match. Independent validator checks408 complete existing NPZ hashes/9360 literal NPY headers and 4170 additional raw filename-size records. No numeric point/pose/feature values parsed. Inherited scientific validators and all old model/solver outcomes are not replayed.
+
+Original PCC0 froze72 identities then failed before numeric payload because the new auditor expected flat tokens. Source and NPY headers both establish the actual(3,1000,512) layout. Original source/freeze/failure/receipts/INCOMPLETE remain immutable. This separate prospectively frozen attempt derives executable sources with exactly two token-shape AST list changes and one output-route constant per driver/independent validator; actual arrays/headers are unchanged. No scientific bounds/data/metric gate/cap changed.
+
+All204 old windows retain144 fit/12 development/48 exposed evaluation roles and612 distinct raw paths. Complete same-point G3 references exist for48 evaluation windows and KISS for36 matched07/09/10 endpoints. Stored unadapted J_pose exists for every window; D/I/J can share it, but that comparison is incremental information conditional on a joint base. Old full-flow tokens are not FCE0 first10 FP32 features; FHR0 derivatives do not cover a new head/normalizer/bound. Equal full-pipeline work is not established.
+
+POSS local/prior exposed scan counts and exact intervals: {"POSS_local_scans": 4170, "POSS_prior_exposed_scans": 1419, "POSS_prior_exposed_IDs": [3850, 5268], "POSS_current_IDs": [3850, 9500]}. POSS metadata alone does not supply checkpoint/site exclusion or new independent confirmation. Sibling KITTI matching names/sizes are not raw-byte identity or separate acquisition. No new complete independent confirmation source is established.
+
+Only next admitted question: a separately frozen optimistic mathematical feasibility census for the explicitly NEW component-bounded right-body residual(v_i<=.05m,w_i<=.2deg) around the common stored native pose. The entire family must be capable of meeting strong G3/KISS paired margins before a head is implemented. These are not bounds on old FHR0 outputs. A failed necessary condition stops this family without radius/initializer rescue or fitting; passing it still proves no learnability/efficacy.
+
+Five total supervised CPU attempts/four successes/one retained source-layout failure: Windows123.315084300s including startup/imports, child114.584414362s after bootstrap;512MiB RSS/GPU0/32MiB combined dossier/original900s caps pass; full child/Windows exits and host observations,2 logging retries/0 gaps. Preparation/diagnostic RSS unknown and final stdlib closure separate.
+
+RLP2/CCR0/MGR0/GSG0 scientific stops, five historical NOC4/NBR/HFIT/LCP markers,09 unknown/official references/latest2026-10-11 system result and original HEADs/branches/two-nine dirty sets persist. No new model, backward, fit, trajectory, physical/system/novelty claim or production/install/acquisition/restart/commit/Git sync.

@@ -1,0 +1,285 @@
+{
+  "training_chain_validated": false,
+  "training_calls_performed": 0,
+  "model_instances_created": 0,
+  "maintained_entry_files_examined": 6,
+  "fit_calls_in_maintained_entries": [],
+  "source_references": [
+    {
+      "asset": "rap-main:rectified_point_flow/modeling.py",
+      "bytes": 36712,
+      "sha256": "d0d766d6f8b24d04150e5b2e009b54c6496bc3d8ae34a27e2abfcda07f610257",
+      "symbols": {
+        "_compute_flow_target": [
+          {
+            "line": 186,
+            "end_line": 201
+          }
+        ],
+        "loss": [
+          {
+            "line": 284,
+            "end_line": 302
+          }
+        ],
+        "training_step": [
+          {
+            "line": 304,
+            "end_line": 309
+          }
+        ],
+        "validation_step": [
+          {
+            "line": 311,
+            "end_line": 331
+          }
+        ],
+        "on_save_checkpoint": [
+          {
+            "line": 756,
+            "end_line": 758
+          }
+        ],
+        "on_load_checkpoint": [
+          {
+            "line": 760,
+            "end_line": 765
+          }
+        ],
+        "configure_optimizers": [
+          {
+            "line": 767,
+            "end_line": 777
+          }
+        ]
+      }
+    },
+    {
+      "asset": "rap-main:rectified_point_flow/data/datamodule.py",
+      "bytes": 28772,
+      "sha256": "c5a3d69f75e61692968aed363d7e288bb1df7fa4c32007dc867885854d886f07",
+      "symbols": {
+        "DynamicBatchSampler": [
+          {
+            "line": 59,
+            "end_line": 165
+          }
+        ],
+        "RandomSampledDataset": [
+          {
+            "line": 204,
+            "end_line": 256
+          }
+        ],
+        "set_epoch": [
+          {
+            "line": 91,
+            "end_line": 93
+          },
+          {
+            "line": 245,
+            "end_line": 250
+          }
+        ],
+        "setup": [
+          {
+            "line": 427,
+            "end_line": 566
+          }
+        ],
+        "on_train_epoch_start": [
+          {
+            "line": 568,
+            "end_line": 581
+          }
+        ],
+        "train_dataloader": [
+          {
+            "line": 583,
+            "end_line": 598
+          }
+        ]
+      }
+    },
+    {
+      "asset": "rap-main:rectified_point_flow/data/dataset.py",
+      "bytes": 47795,
+      "sha256": "6f0e85e01b8f6e555a403cdd242cade1e32c0d2170c95e871bff5f6a4d7383cb",
+      "symbols": {
+        "_determine_split_type": [
+          {
+            "line": 122,
+            "end_line": 251
+          }
+        ]
+      }
+    },
+    {
+      "asset": "rap-main:rectified_point_flow/utils/checkpoint.py",
+      "bytes": 3372,
+      "sha256": "3b6423cf273d2f471d82bbced635806816d12f5e8e818478842c6e2ef2b54c24",
+      "symbols": {
+        "load_checkpoint_for_module": [
+          {
+            "line": 13,
+            "end_line": 61
+          }
+        ],
+        "get_rng_state": [
+          {
+            "line": 75,
+            "end_line": 82
+          }
+        ],
+        "set_rng_state": [
+          {
+            "line": 84,
+            "end_line": 98
+          }
+        ]
+      }
+    },
+    {
+      "asset": "rap-main:rectified_point_flow/utils/training.py",
+      "bytes": 2496,
+      "sha256": "e65495638b4b9be993ab4092997bd6a1ed86669c0a3acca26a7e6cf014e38017",
+      "symbols": {
+        "setup_wandb_resume": [
+          {
+            "line": 29,
+            "end_line": 38
+          }
+        ],
+        "setup_loggers": [
+          {
+            "line": 41,
+            "end_line": 47
+          }
+        ]
+      }
+    },
+    {
+      "asset": "rap-main:rectified_point_flow/utils/optimizers.py",
+      "bytes": 2268,
+      "sha256": "48bc165bb9036348c908ccb9503f1756ccf4803927c7490e105e8716af84a71b",
+      "symbols": {
+        "build_muon_with_aux_adam": [
+          {
+            "line": 25,
+            "end_line": 48
+          }
+        ]
+      }
+    },
+    {
+      "asset": "rap-main:sample.py",
+      "bytes": 10836,
+      "sha256": "5317afaaec443ccc70a77e027ada1ba505c5bda906fe8554824d1eae455c1b18",
+      "symbols": {}
+    },
+    {
+      "asset": "rap-main:config/RAP_inference.yaml",
+      "bytes": 1767,
+      "sha256": "1ccff9bf9f86c44a50a479f542302c4895673abd9d5b85c63d4ea69d0d09ce13",
+      "symbols": {}
+    },
+    {
+      "asset": "rap-main:config/trainer/main.yaml",
+      "bytes": 754,
+      "sha256": "fbdd4dd4a7fc37025f162c2aa55617ad21723f3e0c79586b9dcd15907671704e",
+      "symbols": {}
+    },
+    {
+      "asset": "rap-main:config/data/data_tmp.yaml",
+      "bytes": 801,
+      "sha256": "00d4a6b40d8da7631291e72be42f64962c985fb2e74dc51375ea47dc2b06b002",
+      "symbols": {}
+    },
+    {
+      "asset": "rap-main:config/loggers/wandb.yaml",
+      "bytes": 189,
+      "sha256": "abd60f90201ddbc82e5f2487dcef55adbfdf9cd35f2d9824aa3d34334fd33883",
+      "symbols": {}
+    },
+    {
+      "asset": "rap-main:config/model/optimizer/muon.yaml",
+      "bytes": 151,
+      "sha256": "ad2c4b1b1c10773a30c1b531e702ca9b7039c4cc41c9c60261a5755dc0c11c4a",
+      "symbols": {}
+    }
+  ],
+  "findings": [
+    {
+      "id": "TRAIN_ENTRY_MISSING",
+      "state": "BLOCKS_TRAINING_READINESS",
+      "evidence": [
+        "six maintained entry files have no fit calls",
+        "sample.py executes trainer.test with checkpointing disabled"
+      ]
+    },
+    {
+      "id": "TRAIN_ROOT_CONFIG_NOT_ADMITTED",
+      "state": "BLOCKS_TRAINING_READINESS",
+      "evidence": [
+        "no maintained training root config",
+        "your_dataset_name placeholders",
+        "experiment_name interpolation required"
+      ]
+    },
+    {
+      "id": "DATA_SPLIT_ADMISSION_PENDING_A5",
+      "state": "BLOCKS_DATA_SPECIFIC_TRAINING",
+      "evidence": [
+        "standard/random fallback exists",
+        "data provenance, membership, leakage and counts not examined in A4"
+      ]
+    },
+    {
+      "id": "MUON_MISSING_UNPINNED",
+      "state": "CONFIRMED_MISSING_DEFAULT_TRAINING_DEPENDENCY",
+      "evidence": [
+        "CPU_PROBE.json: muon_training_dependency ModuleNotFoundError",
+        "Git source in old installer is unpinned"
+      ]
+    },
+    {
+      "id": "WARM_START_NOT_RESUME",
+      "state": "IMPLEMENTATION_AND_VALIDATION_REQUIRED",
+      "evidence": [
+        "checkpoint helper extracts state_dict only",
+        "no Trainer.fit ckpt_path entry",
+        "W&B ID is not optimizer/step restoration"
+      ]
+    },
+    {
+      "id": "SAMPLER_EPOCH_AND_DDP",
+      "state": "STATIC_RISK_NOT_RUNTIME_FAILURE_CLAIM",
+      "evidence": [
+        "custom rank sharding",
+        "default seed=0 and drop_last=True",
+        "RandomSampledDataset update occurs in custom DataModule epoch hook",
+        "Lightning itself updates samplers; full interaction untested"
+      ]
+    },
+    {
+      "id": "CHECKPOINT_MONITOR_TIMING",
+      "state": "STATIC_RISK_REQUIRES_VALIDATION",
+      "evidence": [
+        "validation every 10 epochs",
+        "save-on-train-epoch-end monitor configuration",
+        "tiny fixture may yield zero batches with drop_last"
+      ]
+    },
+    {
+      "id": "EXACT_RESUME_AND_TARGET",
+      "state": "NOT_VALIDATED",
+      "evidence": [
+        "RNG hooks exist",
+        "no tested worker/rank/sampler resume contract",
+        "no GPU/model/training or clean rebuild execution in A4"
+      ]
+    }
+  ],
+  "automatic_training_or_scientific_route_resumption_authorized": false,
+  "separate_implementation_scope": "Dedicated training entry and root config; explicit fresh/warm-start/resume; data admission; pinned optimizer; optimizer/checkpoint/resume engineering validation"
+}

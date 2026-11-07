@@ -1,0 +1,5 @@
+# Owner scope — MGR0
+
+Owner said "继续执行下一轮", then "请继续" after the SGC0 result and its measured-registration plan. This authorizes the distinct bounded CPU measurement study below: existing API verification, prospective numerical freeze, count-selected pilot, conditional all58 admitted-loop measurements, independent validation, and conditional unchanged-graph comparison. It supersedes DESIGN_ONLY only for this protocol. No repeated owner approval is needed within these bounds.
+
+Do not change the retired SGC0 allocation, shared-plane/MF/PFG constructions, RAP backbone/defaults, admissions or reference. New isolated main maintenance sources/docs/mutable handoffs only. No model/checkpoint load, descriptor/native inference, neural gradients/training, new retrieval/admission, install/acquisition, persistent environment/configuration/process restart, production/manuscript edit, commit or Git sync. Native NOC4 stays INCOMPLETE with P replay prerequisite. Frozen residual-head work remains DESIGN_ONLY.

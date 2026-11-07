@@ -1,0 +1,75 @@
+{
+  "passed_available_attempts": true,
+  "scientific_children": 2,
+  "failed": 1,
+  "successful": 1,
+  "combined_seconds_including_imports": 11.898123911003495,
+  "peak_RSS_bytes": 1851101184,
+  "peak_GPU_allocated_bytes": 345082880,
+  "peak_GPU_reserved_bytes": 360710144,
+  "full_child_and_Windows_exits": true,
+  "receipts": [
+    {
+      "stage": "freeze",
+      "child": {
+        "utc": "2026-10-12T15:17:24.195970+00:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 2.6302608940022765,
+        "peak_RSS_bytes": 23379968,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 135582,
+        "optimizer_calls": 0,
+        "imports_included_in_time": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-12T15:17:23.4892073Z",
+        "wall_seconds": 3.1089062,
+        "host_memory_observations": 4,
+        "minimum_observed_headroom_bytes": 95868551168.0
+      },
+      "launch": {
+        "pid": 35564,
+        "utc_start": "2026-10-12T15:17:20.3803011Z",
+        "script": "scripts/maintenance/native_backward_reproducibility.py",
+        "stage": "freeze",
+        "headroom_before_bytes": 95928811520
+      }
+    },
+    {
+      "stage": "diagnose",
+      "child": {
+        "utc": "2026-10-12T15:17:34.041728+00:00",
+        "success": false,
+        "error": "AssertionError()",
+        "full_resource_capture": true,
+        "wall_seconds": 9.267863017001218,
+        "peak_RSS_bytes": 1851101184,
+        "peak_GPU_allocated_bytes": 345082880,
+        "peak_GPU_reserved_bytes": 360710144,
+        "artifact_bytes": 139409,
+        "optimizer_calls": 0,
+        "imports_included_in_time": true
+      },
+      "host": {
+        "exit_code": 1,
+        "utc_end": "2026-10-12T15:17:35.4183867Z",
+        "wall_seconds": 11.6544629,
+        "host_memory_observations": 15,
+        "minimum_observed_headroom_bytes": 92930609152.0
+      },
+      "launch": {
+        "pid": 3564,
+        "utc_start": "2026-10-12T15:17:23.7639238Z",
+        "script": "scripts/maintenance/native_backward_reproducibility.py",
+        "stage": "diagnose",
+        "headroom_before_bytes": 95927803904
+      }
+    }
+  ],
+  "old_gaps_and_caps_unchanged": true,
+  "setup_full_RSS_unknown": true
+}

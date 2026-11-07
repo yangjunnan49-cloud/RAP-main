@@ -1,0 +1,169 @@
+{
+  "passed": true,
+  "frozen_identities": 16,
+  "cases": 15,
+  "results": [
+    {
+      "case": "normal",
+      "single_file_sealed": true,
+      "single_file_admitted": true,
+      "bytes": 132,
+      "cap": 512,
+      "charged": 52,
+      "actual": 52,
+      "namespace_complete": true,
+      "whole_namespace_admitted": true
+    },
+    {
+      "case": "stdout_overflow",
+      "single_file_sealed": true,
+      "single_file_admitted": false,
+      "bytes": 80,
+      "cap": 512,
+      "charged": 0,
+      "actual": 0,
+      "namespace_complete": true,
+      "whole_namespace_admitted": false
+    },
+    {
+      "case": "stderr_overflow",
+      "single_file_sealed": true,
+      "single_file_admitted": false,
+      "bytes": 80,
+      "cap": 512,
+      "charged": 0,
+      "actual": 0,
+      "namespace_complete": true,
+      "whole_namespace_admitted": false
+    },
+    {
+      "case": "metadata_overflow",
+      "single_file_sealed": true,
+      "single_file_admitted": false,
+      "bytes": 80,
+      "cap": 512,
+      "charged": 0,
+      "actual": 0,
+      "namespace_complete": true,
+      "whole_namespace_admitted": false
+    },
+    {
+      "case": "global_cap",
+      "single_file_sealed": true,
+      "single_file_admitted": false,
+      "bytes": 80,
+      "cap": 100,
+      "charged": 0,
+      "actual": 0,
+      "namespace_complete": true,
+      "whole_namespace_admitted": false
+    },
+    {
+      "case": "collision",
+      "collision_preserved": true
+    },
+    {
+      "case": "short_write",
+      "single_file_sealed": true,
+      "single_file_admitted": false,
+      "bytes": 83,
+      "cap": 512,
+      "charged": 30,
+      "actual": 3,
+      "namespace_complete": true,
+      "whole_namespace_admitted": false
+    },
+    {
+      "case": "corruption",
+      "single_file_sealed": true,
+      "single_file_admitted": true,
+      "bytes": 98,
+      "cap": 512,
+      "charged": 18,
+      "actual": 18,
+      "namespace_complete": false,
+      "whole_namespace_admitted": false
+    },
+    {
+      "case": "truncated_footer",
+      "single_file_sealed": true,
+      "single_file_admitted": true,
+      "bytes": 98,
+      "cap": 512,
+      "charged": 18,
+      "actual": 18,
+      "namespace_complete": false,
+      "whole_namespace_admitted": false
+    },
+    {
+      "case": "external_file",
+      "single_file_sealed": true,
+      "single_file_admitted": true,
+      "bytes": 98,
+      "cap": 512,
+      "charged": 18,
+      "actual": 18,
+      "namespace_complete": false,
+      "whole_namespace_admitted": false
+    },
+    {
+      "case": "invalid_type",
+      "single_file_sealed": true,
+      "single_file_admitted": false,
+      "bytes": 80,
+      "cap": 512,
+      "charged": 0,
+      "actual": 0,
+      "namespace_complete": true,
+      "whole_namespace_admitted": false
+    },
+    {
+      "case": "after_close",
+      "single_file_sealed": true,
+      "single_file_admitted": true,
+      "bytes": 98,
+      "cap": 512,
+      "charged": 18,
+      "actual": 18,
+      "namespace_complete": true,
+      "whole_namespace_admitted": true
+    },
+    {
+      "case": "exact_fill",
+      "single_file_sealed": true,
+      "single_file_admitted": true,
+      "bytes": 256,
+      "cap": 256,
+      "charged": 176,
+      "actual": 176,
+      "namespace_complete": true,
+      "whole_namespace_admitted": true
+    },
+    {
+      "case": "concurrent_open",
+      "single_file_sealed": true,
+      "single_file_admitted": true,
+      "bytes": 96,
+      "cap": 512,
+      "charged": 16,
+      "actual": 16,
+      "namespace_complete": true,
+      "whole_namespace_admitted": true
+    },
+    {
+      "case": "invalid_channel",
+      "single_file_sealed": true,
+      "single_file_admitted": false,
+      "bytes": 80,
+      "cap": 512,
+      "charged": 0,
+      "actual": 0,
+      "namespace_complete": true,
+      "whole_namespace_admitted": false
+    }
+  ],
+  "single_cooperating_file_bound_verified": true,
+  "arbitrary_external_writer_cap_guarantee": false,
+  "production_or_supervisor_integration": false,
+  "old_archive_or_fit_retry": false
+}

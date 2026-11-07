@@ -1,0 +1,5 @@
+# Preserve the failed metadata collection, then finish the first CUDA check
+
+run01/capability fails on importlib.metadata.version('einops') before importing Torch or initializing CUDA. Original worker/freeze/exit/failure remain unchanged. GPU preflight9554MiB free passes the unchanged9216MiB threshold; Windows resources pass. Missing optional distribution metadata was incorrectly allowed to abort inventory collection. The inspected actual transformer/tail source imports Torch/diffusers, not einops.
+
+New runtime02/run02 catches PackageNotFoundError and records MISSING for the exact inventory item. No install or hidden missing dependency. Actual Torch/NumPy imports and all original CUDA checks/gates still fail normally if unavailable. All remaining worker AST, resource caps, original03:51:02UTC origin and environment remain unchanged. This is a metadata collection correction before the first CUDA probe, not a native-model/scientific retry or environment fallback. Original failure stays failed. Another execution failure closes this assessment. The rejected patch-format tool call made no file changes and is included in elapsed preparation time.

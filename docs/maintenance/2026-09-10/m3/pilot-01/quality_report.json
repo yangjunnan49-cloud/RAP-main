@@ -1,0 +1,156 @@
+{
+  "status": "passed",
+  "measurements": 48,
+  "physical_pairs": 24,
+  "labels_all": {
+    "dangerous": 23,
+    "safe": 25
+  },
+  "labels_selected": {
+    "dangerous": 11,
+    "safe": 13
+  },
+  "split_label_counts": {
+    "fit": {
+      "dangerous": 3,
+      "safe": 6
+    },
+    "calibration": {
+      "dangerous": 5,
+      "safe": 5
+    },
+    "test": {
+      "dangerous": 3,
+      "safe": 2
+    }
+  },
+  "missing_sc_margin": 0,
+  "legacy_mixing_comparison": [
+    {
+      "pair": "kitti02_false|1609|2215",
+      "selected_generation": 1,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_false|748|1932",
+      "selected_generation": 1,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_false|1477|2225",
+      "selected_generation": 0,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_false|813|1597",
+      "selected_generation": 1,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_false|753|1912",
+      "selected_generation": 0,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_false|1527|2210",
+      "selected_generation": 0,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_false|1507|2215",
+      "selected_generation": 1,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_false|753|1944",
+      "selected_generation": 1,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_false|1502|2270",
+      "selected_generation": 0,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_false|1532|2215",
+      "selected_generation": 0,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_false|813|1603",
+      "selected_generation": 1,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_true|1918|4500",
+      "selected_generation": 1,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_true|1039|4275",
+      "selected_generation": 1,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_true|966|4230",
+      "selected_generation": 0,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_true|1878|4465",
+      "selected_generation": 1,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_true|2004|3402",
+      "selected_generation": 0,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_true|937|4213",
+      "selected_generation": 0,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_true|3366|4605",
+      "selected_generation": 0,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "kitti02_true|1928|4520",
+      "selected_generation": 1,
+      "mixed_metric_would_differ": true
+    },
+    {
+      "pair": "kitti02_true|1893|4470",
+      "selected_generation": 1,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "poss_true|0|1394",
+      "selected_generation": 1,
+      "mixed_metric_would_differ": false
+    },
+    {
+      "pair": "poss_true|0|1415",
+      "selected_generation": 0,
+      "mixed_metric_would_differ": true
+    },
+    {
+      "pair": "kitti06_off|133|963",
+      "selected_generation": 1,
+      "mixed_metric_would_differ": true
+    },
+    {
+      "pair": "kitti06_off|128|958",
+      "selected_generation": 0,
+      "mixed_metric_would_differ": true
+    }
+  ],
+  "heuristic_selected_confusion": {
+    "dangerous:reject": 11,
+    "safe:accept": 13
+  },
+  "limitation": "Case-control pilot with correlated physical sites; group split excludes identical/reversed pairs only. No calibration model fit or population guarantee.",
+  "next": "Expand predeclared physical-site/sequence groups before statistical model fitting; retain selected generation only as the unit per pair"
+}

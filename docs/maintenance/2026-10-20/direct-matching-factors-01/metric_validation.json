@@ -1,0 +1,71 @@
+{
+  "utc": "2026-10-20T03:54:36.348776+00:00",
+  "passed": true,
+  "independent_segments": 15267,
+  "maximum_metric_delta": 7.040201754904274e-14,
+  "tests": {
+    "B_ATE_gain_5pct": false,
+    "00_B_ATE_improves": false,
+    "00_B_ATE_harm5pct": true,
+    "00_B_ter_harm": true,
+    "00_B_rer_harm": true,
+    "05_B_ATE_improves": true,
+    "05_B_ATE_harm5pct": true,
+    "05_B_ter_harm": true,
+    "05_B_rer_harm": true,
+    "Q_ATE_gain_5pct": false,
+    "00_Q_ATE_improves": false,
+    "00_Q_ATE_harm5pct": true,
+    "00_Q_ter_harm": true,
+    "00_Q_rer_harm": true,
+    "05_Q_ATE_improves": true,
+    "05_Q_ATE_harm5pct": true,
+    "05_Q_ter_harm": true,
+    "05_Q_rer_harm": true,
+    "B_mean_ter_nonworse": false,
+    "B_mean_rer_nonworse": false
+  },
+  "scientific_gate_passed": false,
+  "rows": {
+    "00": {
+      "B": {
+        "ate": 2.754436964371665,
+        "ter": 0.5181706833745718,
+        "rer": 0.17831248378861939,
+        "segments": 3283
+      },
+      "Q": {
+        "ate": 2.746673546831789,
+        "ter": 0.5195134264529708,
+        "rer": 0.17790196846385234,
+        "segments": 3283
+      },
+      "D": {
+        "ate": 2.7674556966423354,
+        "ter": 0.5219511699286008,
+        "rer": 0.1781748519951929,
+        "segments": 3283
+      }
+    },
+    "05": {
+      "B": {
+        "ate": 1.2946993632801826,
+        "ter": 0.32047302400984234,
+        "rer": 0.12095075248918295,
+        "segments": 1806
+      },
+      "Q": {
+        "ate": 1.2965519841386528,
+        "ter": 0.32129439872393195,
+        "rer": 0.12136511335072234,
+        "segments": 1806
+      },
+      "D": {
+        "ate": 1.2908708046767987,
+        "ter": 0.32273262177824386,
+        "rer": 0.12365535178901946,
+        "segments": 1806
+      }
+    }
+  }
+}

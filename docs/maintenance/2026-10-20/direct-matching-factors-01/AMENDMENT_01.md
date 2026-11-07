@@ -1,0 +1,9 @@
+# Instrumentation-only validation amendment
+
+The original full-bank validator was interrupted deliberately with SIGINT, after verifying its exact owned PID427/cmdline. It retained FAILURE_validate_bank.json, original immutable source/freeze, full native resource receipt and Windows exit1. Windows wall1002.0574736s remains charged. The traceback confirms it was in pathlib.stat inside the per-chunk dossier guard, not a numerical assertion. No reference metric had been read. The complete prediction bank is reused byte-for-byte; no optimizer is rerun.
+
+One bounded three-call measurement of the same guard took0.176262607s, full observed RSS16416768bytes; enclosing tool wall0.4695439s is conservatively charged separately. The owned interruption tool wall0.2472227s is also charged. Neither is a claim of observer/full-native-tree peak completeness.
+
+Validation02 substitutes an explicitly identical brute-force neighbour function with only its per-chunk r.cap() replaced by a direct ru_maxrss bound. Full dossier/headroom checks remain at stage entry/exit and after each complete loop. During a loop the scientific validator writes no outputs; the supervisor only appends its bounded host log. Mathematical operations, arrays, chunks, every query, tolerances, gate, inputs, source/prediction identities and the original1800s cumulative budget are unchanged. A textual source-equivalence assertion checks that guard substitution is the sole function difference. The original frozen validator file is not edited. A separate supplement freezes the new driver and this amendment before it runs.
+
+This is a retained implementation/instrumentation failure and bounded exact validation replay, not a scientific negative or an extended cap. No success or complete comparison is claimed until all validators finish.

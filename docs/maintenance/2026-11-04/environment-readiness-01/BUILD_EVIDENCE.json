@@ -1,0 +1,48 @@
+{
+  "observed_utc": "2026-11-04T03:49:41.047163+00:00",
+  "files": [
+    {
+      "source": "/root/pytorch3d_build.log",
+      "copy": "linux-preservation/build-evidence/root/pytorch3d_build.log",
+      "bytes": 1677,
+      "sha256": "1cf51f256a2a3aa85c92679abb6953c2ac01a8cad49a7fec11784809ef0d0639"
+    },
+    {
+      "source": "/root/pytorch3d_build2.log",
+      "copy": "linux-preservation/build-evidence/root/pytorch3d_build2.log",
+      "bytes": 243554,
+      "sha256": "1bf9eb6404f1bfd49cf7b6a4adf54ca0c7039947a7350d2dc34fa34eeda89109"
+    }
+  ],
+  "log_checks": [
+    {
+      "path": "/root/build_pytorch3d.sh",
+      "state": "NOT_PRESENT"
+    },
+    {
+      "path": "/root/pytorch3d_build.log",
+      "bytes": 1677,
+      "commit_candidates": [],
+      "cuda_arch_flags": [],
+      "torch_cuda_mentions": []
+    },
+    {
+      "path": "/root/pytorch3d_build2.log",
+      "bytes": 243554,
+      "commit_candidates": [],
+      "cuda_arch_flags": [
+        "compute_120",
+        "sm_120"
+      ],
+      "torch_cuda_mentions": [
+        "cuda-12.8"
+      ]
+    },
+    {
+      "path": "/root/pytorch3d_build3.log",
+      "state": "NOT_PRESENT"
+    }
+  ],
+  "directory_candidates": [],
+  "commit_candidates": []
+}

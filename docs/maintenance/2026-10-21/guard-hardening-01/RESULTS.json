@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "cap_seconds": 360,
+  "scope_seconds": 166.4385485,
+  "OS_isolation_certified": false,
+  "cases": [
+    {
+      "child": {
+        "success": true,
+        "error": null,
+        "elapsed": 0.7809287309937645,
+        "accepted_leases": 2,
+        "last_accepted_reply_monotonic": 99376.861964133,
+        "stop_monotonic": null,
+        "stop_after_last_accepted_reply": null,
+        "peak_RSS_bytes": 15990784,
+        "synthetic": true,
+        "GT_reads": 0
+      },
+      "case": "normal",
+      "passed": true
+    },
+    {
+      "child": {
+        "success": false,
+        "error": "owned_stop_signal",
+        "elapsed": 1.2427788960048929,
+        "accepted_leases": 3,
+        "last_accepted_reply_monotonic": 99378.557700814,
+        "stop_monotonic": 99378.750406353,
+        "stop_after_last_accepted_reply": 0.19270553901151288,
+        "peak_RSS_bytes": 16220160,
+        "synthetic": true,
+        "GT_reads": 0
+      },
+      "case": "host_deadline",
+      "passed": true
+    },
+    {
+      "child": {
+        "success": false,
+        "error": "linux_or_host_elapsed_deadline",
+        "elapsed": 0.9155677450035,
+        "accepted_leases": 2,
+        "last_accepted_reply_monotonic": 99379.939884379,
+        "stop_monotonic": 99380.18404514,
+        "stop_after_last_accepted_reply": 0.24416076100897044,
+        "peak_RSS_bytes": 16248832,
+        "synthetic": true,
+        "GT_reads": 0
+      },
+      "case": "linux_deadline",
+      "passed": true
+    },
+    {
+      "child": {
+        "success": false,
+        "error": "host_lease_expired",
+        "elapsed": 2.7284212880040286,
+        "accepted_leases": 2,
+        "last_accepted_reply_monotonic": 99381.473528858,
+        "stop_monotonic": 99383.535525891,
+        "stop_after_last_accepted_reply": 2.0619970330008073,
+        "peak_RSS_bytes": 16138240,
+        "synthetic": true,
+        "GT_reads": 0
+      },
+      "case": "observer_loss",
+      "passed": true
+    },
+    {
+      "child": {
+        "success": false,
+        "error": "nonce_or_sequence_mismatch",
+        "elapsed": 0.6692324059986277,
+        "accepted_leases": 1,
+        "last_accepted_reply_monotonic": 99384.394596011,
+        "stop_monotonic": 99384.740250118,
+        "stop_after_last_accepted_reply": 0.3456541070045205,
+        "peak_RSS_bytes": 16191488,
+        "synthetic": true,
+        "GT_reads": 0
+      },
+      "case": "bad_nonce",
+      "passed": true
+    },
+    {
+      "child": {
+        "success": false,
+        "error": "owned_stop_signal",
+        "elapsed": 1.1072770839964505,
+        "accepted_leases": 2,
+        "last_accepted_reply_monotonic": 99386.045564597,
+        "stop_monotonic": 99386.430216034,
+        "stop_after_last_accepted_reply": 0.3846514369943179,
+        "peak_RSS_bytes": 16322560,
+        "synthetic": true,
+        "GT_reads": 0
+      },
+      "case": "identity_rejection",
+      "passed": true
+    }
+  ],
+  "original_P0_equivalence": "FAIL_RETAINED",
+  "scientific_payloads": 0
+}

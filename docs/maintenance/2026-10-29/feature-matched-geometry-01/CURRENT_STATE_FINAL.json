@@ -1,0 +1,47 @@
+{
+  "status": "COMPLETE",
+  "flow_candidate_screen": {
+    "unique_by_sequence": {
+      "00": 21,
+      "08": 6
+    },
+    "required_each_sequence": 5,
+    "passed": true
+  },
+  "safe_system_screen": {
+    "correct_accepted_delta": 0,
+    "new_wrong_accepted_IDs": [],
+    "per_sequence_nondecreasing": true,
+    "passed": false
+  },
+  "fixed_gate_J_oracle_ceiling": 37,
+  "fixed_gate_selector_headroom": 0,
+  "RAP_unique_feasible_IDs": [],
+  "research": "UNRESOLVED",
+  "manuscript": "PAUSED",
+  "source_and_stage_seal_entries_verified": 2566,
+  "source_counts": [
+    {
+      "freeze": "SOURCE_FREEZE.json",
+      "verified": 14
+    },
+    {
+      "freeze": "PLOT_FREEZE.json",
+      "verified": 16
+    },
+    {
+      "freeze": "ALIASING_FREEZE.json",
+      "verified": 17
+    },
+    {
+      "freeze": "CASE_FREEZE.json",
+      "verified": 17
+    }
+  ],
+  "owned_original_identities_checked": 14,
+  "owned_original_live_matches": 0,
+  "WSL_initialStopped_restored": true,
+  "no_new_descriptors_model_GPU_training": true,
+  "no_production_default_Git_history_changes": true,
+  "close_utc": "2026-10-29T07:29:05.896495+00:00"
+}

@@ -1,0 +1,62 @@
+{
+  "utc": "2026-10-12T14:24:00.979501+00:00",
+  "passed": true,
+  "selected_delivery_entries": 615,
+  "delivery_seals": 4,
+  "benchmark_sources": 71,
+  "trajectory_bindings": 144,
+  "stored36_run_grid_complete": true,
+  "stored_scalar_arithmetic": {
+    "RAP-SLAM": {
+      "ter": {
+        "stored_row_mean": 0.44716676087586993,
+        "three_complete_cohort_means": [
+          0.44716676087471147,
+          0.44716676087627366,
+          0.4471667608766246
+        ],
+        "population_std_across_three_cohort_means": 8.315783619142493e-13
+      },
+      "ate": {
+        "stored_row_mean": 1.091071656781824,
+        "three_complete_cohort_means": [
+          1.091071656773889,
+          1.0910716567895709,
+          1.0910716567820125
+        ],
+        "population_std_across_three_cohort_means": 6.403494383642802e-12
+      }
+    },
+    "KISS-SLAM": {
+      "ter": {
+        "stored_row_mean": 0.4786139200388194,
+        "three_complete_cohort_means": [
+          0.47861441144386907,
+          0.4786143841351936,
+          0.4786129645373955
+        ],
+        "population_std_across_three_cohort_means": 6.75733512183216e-07
+      },
+      "ate": {
+        "stored_row_mean": 0.6996886940399465,
+        "three_complete_cohort_means": [
+          0.6996889183057072,
+          0.6996896463111009,
+          0.6996875175030312
+        ],
+        "population_std_across_three_cohort_means": 8.834316793139551e-07
+      }
+    }
+  },
+  "RPC0_complete_physical_cause_unresolved": true,
+  "native_NOC4_INCOMPLETE_preserved": true,
+  "source_links_and_anchors_checked": true,
+  "original_repositories_preserved": true,
+  "new_numerical_or_raw_replay": false,
+  "new_model_neural_optimizer_graph_trajectory_calls": 0,
+  "install_config_process_mutation": false,
+  "commit_or_sync": false,
+  "bookkeeping_wall_seconds_before_delivery_seal": 9.193973744000687,
+  "bookkeeping_RSS_observed_before_delivery_seal_bytes": 24399872,
+  "no_historical_scientific_budget_amendment": true
+}

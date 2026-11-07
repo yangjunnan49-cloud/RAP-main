@@ -1,0 +1,53 @@
+{
+  "frozen_utc": "2026-09-15T01:22:59.421423+00:00",
+  "protocol": "PG-V1",
+  "discovery": "exact observed HL-V2 KITTI00 membership",
+  "confirmation": {
+    "sequence": "09",
+    "frames": 1591,
+    "keyframes": 266,
+    "candidates": 4612,
+    "supported_candidates": 4563,
+    "strata": [
+      {
+        "stratum": "confuser",
+        "population": 4412,
+        "supported": 4385,
+        "selected": 25
+      },
+      {
+        "stratum": "ambiguous_positive",
+        "population": 0,
+        "supported": 0,
+        "selected": 0
+      },
+      {
+        "stratum": "low_overlap",
+        "population": 0,
+        "supported": 0,
+        "selected": 0
+      },
+      {
+        "stratum": "ordinary",
+        "population": 0,
+        "supported": 0,
+        "selected": 0
+      }
+    ],
+    "selected": 25,
+    "adequate": false,
+    "headroom": false,
+    "wall_s": 105.91246336797485,
+    "hypotheses": 0,
+    "source_sha256": "e2d9d018e35eb46998f24dbbd5779403bb7a65cbf372174913d8d6e2fc2ce5b6"
+  },
+  "input_hashes": {
+    "confirmation_inputs.json": "be7f986c14842b7b5cca03a2970cfa510b7e24707f241480da96ca593adb58c9",
+    "discovery_inputs.json": "932e4f3d9006b9c15d06c47411139fab404b14c3bfdfd80e4e662c2f1fb0170f"
+  },
+  "evaluator_hashes": {
+    "confirmation_evaluator.json": "26917408d76aeb5343891c973ced84d93853424bd1858c0bc6322e5c49f2c456",
+    "discovery_evaluator.json": "d3e182aaf60078ddabf01947ee61982c9d3e97df46f214f35fa03f322d60ec8d"
+  },
+  "new_outcomes": 0
+}

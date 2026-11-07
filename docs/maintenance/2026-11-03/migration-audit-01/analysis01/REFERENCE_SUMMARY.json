@@ -1,0 +1,32 @@
+{
+  "finished_utc": "2026-11-03T07:04:24.282192+00:00",
+  "seconds": 20.75,
+  "reference_edges": 55997,
+  "target_status": {
+    "target_in_inventory": 2599,
+    "external_target_exists": 290,
+    "linux_runtime_or_unmounted_path": 830,
+    "missing_path_under_audited_root": 10612,
+    "dynamic_or_example_path": 14,
+    "external_target_missing_or_inaccessible": 30,
+    "match_at_recorded_resolution": 41234,
+    "recorded_path_unresolved_but_exact_bytes_preserved": 353,
+    "recorded_current_bytes_differ_no_exact_copy_in_scope": 3,
+    "recorded_path_differs_but_exact_bytes_preserved": 26,
+    "recorded_path_unresolved_no_exact_copy_in_scope": 6
+  },
+  "source_roles": {
+    "current": 64,
+    "historical_or_artifact": 13960,
+    "optional_or_tool": 351,
+    "historical_manifest": 41622
+  },
+  "current_review_edges": 23,
+  "authority_files": 107,
+  "skips": {
+    "PGC1 opaque preservation; no semantic inspection": 1394
+  },
+  "external_unique_paths": 102,
+  "project_asset_discovery_closed": false,
+  "limit": "Static text/manifest path audit; constructed runtime paths and Linux filesystem internals require A3/A4. No partial PGC1 output interpreted."
+}

@@ -1,0 +1,13 @@
+{
+  "stage": "VALIDATED",
+  "updated_local_date": "2026-09-30",
+  "scope": "E0 A six-sequence full-system metric opportunity audit",
+  "cohort": ["00", "05", "06", "07", "09", "10"],
+  "preflight": {"attempted_candidates": 71, "accepted_edges": 58, "sequence_10_attempted": 11, "sequence_10_accepted": 0},
+  "freeze": "freeze.json: 62 source/input identities frozen before bank",
+  "bank_seal": "bank_seal.json: 77 GT-free files sealed; 71 candidate attempts, 58 accepted edges; all six baseline replays agree with saved E0 within 1e-5",
+  "validation": "validation.json: passed 7 check groups; 32.57s audit wall, maximum stage peak RSS 0.104GiB; INCOMPLETE removed",
+  "artifact_seal": "artifact_hashes.json: final report, handoff, evaluator and bank files",
+  "next_action": "Read REPORT.md and NEXT_ROUND_PLAN.md. If continuing research, create a separately frozen fixed dense-pose propagation screen. Do not rerun or edit this audit bank.",
+  "do_not_infer": ["retrieval recall from verification log", "independent confirmation on 07/09/10", "RAP method gain from evaluator-only diagnostics"]
+}

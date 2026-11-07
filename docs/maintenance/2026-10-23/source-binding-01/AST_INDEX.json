@@ -1,0 +1,2746 @@
+[
+  {
+    "source": "E:\\githouse\\RAP-SLAM\\rap_slam\\rap_backend.py",
+    "sha256": "552fe044167b2490ee5a5d390c659a3707fbfc0a31108b6f15bd579623fe90f3",
+    "functions": [
+      {
+        "name": "_setup_rap_imports",
+        "first_line": 37,
+        "last_line": 47,
+        "literal_subscripts": []
+      },
+      {
+        "name": "__init__",
+        "first_line": 53,
+        "last_line": 121,
+        "literal_subscripts": []
+      },
+      {
+        "name": "preprocess",
+        "first_line": 127,
+        "last_line": 163,
+        "literal_subscripts": [
+          {
+            "expression": "result['features']",
+            "line": 160,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "_normalize_parts",
+        "first_line": 170,
+        "last_line": 210,
+        "literal_subscripts": []
+      },
+      {
+        "name": "register",
+        "first_line": 216,
+        "last_line": 303,
+        "literal_subscripts": [
+          {
+            "expression": "diag['T_parts']",
+            "line": 300,
+            "context": "Store"
+          },
+          {
+            "expression": "diag['ds_a']",
+            "line": 301,
+            "context": "Store"
+          },
+          {
+            "expression": "diag['ds_b']",
+            "line": 302,
+            "context": "Store"
+          },
+          {
+            "expression": "result['end_point_trajectory']",
+            "line": 265,
+            "context": "Load"
+          },
+          {
+            "expression": "batch['pointclouds']",
+            "line": 268,
+            "context": "Load"
+          },
+          {
+            "expression": "batch['points_per_part']",
+            "line": 268,
+            "context": "Load"
+          },
+          {
+            "expression": "batch['cu_seqlens']",
+            "line": 266,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "register_consistent",
+        "first_line": 308,
+        "last_line": 353,
+        "literal_subscripts": [
+          {
+            "expression": "diag['t_inference']",
+            "line": 329,
+            "context": "Load"
+          },
+          {
+            "expression": "diag['t_total']",
+            "line": 330,
+            "context": "Load"
+          },
+          {
+            "expression": "diag['overlap_ratio']",
+            "line": 327,
+            "context": "Load"
+          },
+          {
+            "expression": "diag['mean_dist']",
+            "line": 328,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "register_multi",
+        "first_line": 359,
+        "last_line": 445,
+        "literal_subscripts": [
+          {
+            "expression": "result['end_point_trajectory']",
+            "line": 419,
+            "context": "Load"
+          },
+          {
+            "expression": "batch['pointclouds']",
+            "line": 422,
+            "context": "Load"
+          },
+          {
+            "expression": "batch['points_per_part']",
+            "line": 422,
+            "context": "Load"
+          },
+          {
+            "expression": "batch['cu_seqlens']",
+            "line": 420,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "extract_features",
+        "first_line": 453,
+        "last_line": 525,
+        "literal_subscripts": [
+          {
+            "expression": "batch['pointclouds']",
+            "line": 493,
+            "context": "Load"
+          },
+          {
+            "expression": "batch['pointclouds']",
+            "line": 495,
+            "context": "Load"
+          },
+          {
+            "expression": "batch['features']",
+            "line": 496,
+            "context": "Load"
+          },
+          {
+            "expression": "batch['scales']",
+            "line": 498,
+            "context": "Load"
+          },
+          {
+            "expression": "batch['anchor_indices']",
+            "line": 499,
+            "context": "Load"
+          },
+          {
+            "expression": "batch['cu_seqlens']",
+            "line": 500,
+            "context": "Load"
+          },
+          {
+            "expression": "batch['cu_seqlens']",
+            "line": 501,
+            "context": "Load"
+          },
+          {
+            "expression": "out['transformer_features']",
+            "line": 504,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "_alignment_metrics",
+        "first_line": 528,
+        "last_line": 551,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_overlap_ratio",
+        "first_line": 554,
+        "last_line": 557,
+        "literal_subscripts": []
+      }
+    ]
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\demo.py",
+    "sha256": "92a34db93d4ea2c0b0b60e3577a49ef75518d549756153b944f237fa4a4c8b65",
+    "functions": [
+      {
+        "name": "get_time",
+        "first_line": 51,
+        "last_line": 58,
+        "literal_subscripts": []
+      },
+      {
+        "name": "download_and_extract_weights",
+        "first_line": 66,
+        "last_line": 105,
+        "literal_subscripts": []
+      },
+      {
+        "name": "process_point_clouds",
+        "first_line": 108,
+        "last_line": 359,
+        "literal_subscripts": [
+          {
+            "expression": "part_result['sampled_points']",
+            "line": 349,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "visualize_with_toggle",
+        "first_line": 362,
+        "last_line": 458,
+        "literal_subscripts": [
+          {
+            "expression": "state['show_registered']",
+            "line": 396,
+            "context": "Store"
+          },
+          {
+            "expression": "state['show_registered']",
+            "line": 409,
+            "context": "Load"
+          },
+          {
+            "expression": "state['show_registered']",
+            "line": 396,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "main",
+        "first_line": 461,
+        "last_line": 1111,
+        "literal_subscripts": []
+      },
+      {
+        "name": "toggle_view",
+        "first_line": 395,
+        "last_line": 418,
+        "literal_subscripts": [
+          {
+            "expression": "state['show_registered']",
+            "line": 396,
+            "context": "Store"
+          },
+          {
+            "expression": "state['show_registered']",
+            "line": 409,
+            "context": "Load"
+          },
+          {
+            "expression": "state['show_registered']",
+            "line": 396,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "key_callback",
+        "first_line": 420,
+        "last_line": 424,
+        "literal_subscripts": []
+      },
+      {
+        "name": "show_progress",
+        "first_line": 84,
+        "last_line": 88,
+        "literal_subscripts": []
+      },
+      {
+        "name": "__init__",
+        "first_line": 171,
+        "last_line": 173,
+        "literal_subscripts": []
+      },
+      {
+        "name": "extract_features",
+        "first_line": 175,
+        "last_line": 189,
+        "literal_subscripts": []
+      }
+    ]
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\rectified_point_flow\\data\\dataset.py",
+    "sha256": "6f0e85e01b8f6e555a403cdd242cade1e32c0d2170c95e871bff5f6a4d7383cb",
+    "functions": [
+      {
+        "name": "_load_point_cloud_from_h5",
+        "first_line": 17,
+        "last_line": 37,
+        "literal_subscripts": [
+          {
+            "expression": "sub_grp['vertices']",
+            "line": 20,
+            "context": "Load"
+          },
+          {
+            "expression": "sub_grp['features']",
+            "line": 27,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "_load_point_cloud_from_ply",
+        "first_line": 39,
+        "last_line": 67,
+        "literal_subscripts": [
+          {
+            "expression": "ply_data['vertices']",
+            "line": 43,
+            "context": "Load"
+          },
+          {
+            "expression": "ply_data['vertex_normals']",
+            "line": 44,
+            "context": "Load"
+          },
+          {
+            "expression": "ply_data['faces']",
+            "line": 45,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "_determine_split_type",
+        "first_line": 122,
+        "last_line": 251,
+        "literal_subscripts": [
+          {
+            "expression": "h5['data_split']",
+            "line": 199,
+            "context": "Load"
+          },
+          {
+            "expression": "h5['data_split']",
+            "line": 204,
+            "context": "Load"
+          },
+          {
+            "expression": "h5['data_split']",
+            "line": 228,
+            "context": "Load"
+          },
+          {
+            "expression": "h5['data_split']",
+            "line": 214,
+            "context": "Load"
+          },
+          {
+            "expression": "h5['data_split']",
+            "line": 238,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "_detect_h5_file_in_folder",
+        "first_line": 253,
+        "last_line": 275,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_validate_h5_structure",
+        "first_line": 277,
+        "last_line": 296,
+        "literal_subscripts": [
+          {
+            "expression": "h5['data_split']",
+            "line": 286,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "__init__",
+        "first_line": 298,
+        "last_line": 397,
+        "literal_subscripts": []
+      },
+      {
+        "name": "__len__",
+        "first_line": 399,
+        "last_line": 400,
+        "literal_subscripts": []
+      },
+      {
+        "name": "estimate_num_points",
+        "first_line": 402,
+        "last_line": 409,
+        "literal_subscripts": []
+      },
+      {
+        "name": "__getitem__",
+        "first_line": 411,
+        "last_line": 455,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_get_h5_file",
+        "first_line": 457,
+        "last_line": 460,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_build_fragment_list",
+        "first_line": 462,
+        "last_line": 642,
+        "literal_subscripts": [
+          {
+            "expression": "h5['num_points']",
+            "line": 598,
+            "context": "Load"
+          },
+          {
+            "expression": "h5['data_split']",
+            "line": 567,
+            "context": "Load"
+          },
+          {
+            "expression": "h5['num_points']",
+            "line": 601,
+            "context": "Load"
+          },
+          {
+            "expression": "h5['data_split']",
+            "line": 575,
+            "context": "Load"
+          },
+          {
+            "expression": "h5['data_split']",
+            "line": 586,
+            "context": "Load"
+          },
+          {
+            "expression": "h5['num_points']",
+            "line": 607,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "_load_from_h5",
+        "first_line": 644,
+        "last_line": 661,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_load_from_folder",
+        "first_line": 663,
+        "last_line": 680,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_sample_points",
+        "first_line": 682,
+        "last_line": 714,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_make_y_up",
+        "first_line": 717,
+        "last_line": 735,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_transform",
+        "first_line": 739,
+        "last_line": 911,
+        "literal_subscripts": [
+          {
+            "expression": "data['pointclouds_gt']",
+            "line": 742,
+            "context": "Load"
+          },
+          {
+            "expression": "data['pointclouds_normals_gt']",
+            "line": 743,
+            "context": "Load"
+          },
+          {
+            "expression": "data['num_parts']",
+            "line": 745,
+            "context": "Load"
+          },
+          {
+            "expression": "results['dataset_name']",
+            "line": 886,
+            "context": "Store"
+          },
+          {
+            "expression": "results['data_path']",
+            "line": 887,
+            "context": "Store"
+          },
+          {
+            "expression": "data['name']",
+            "line": 887,
+            "context": "Load"
+          },
+          {
+            "expression": "results['num_parts']",
+            "line": 888,
+            "context": "Store"
+          },
+          {
+            "expression": "results['pointclouds']",
+            "line": 889,
+            "context": "Store"
+          },
+          {
+            "expression": "results['pointclouds_gt']",
+            "line": 890,
+            "context": "Store"
+          },
+          {
+            "expression": "results['pointclouds_normals']",
+            "line": 891,
+            "context": "Store"
+          },
+          {
+            "expression": "results['pointclouds_normals_gt']",
+            "line": 892,
+            "context": "Store"
+          },
+          {
+            "expression": "results['rotations']",
+            "line": 893,
+            "context": "Store"
+          },
+          {
+            "expression": "results['translations']",
+            "line": 894,
+            "context": "Store"
+          },
+          {
+            "expression": "results['points_per_part']",
+            "line": 895,
+            "context": "Store"
+          },
+          {
+            "expression": "results['part_indices']",
+            "line": 896,
+            "context": "Store"
+          },
+          {
+            "expression": "results['scales']",
+            "line": 897,
+            "context": "Store"
+          },
+          {
+            "expression": "results['anchor_parts']",
+            "line": 898,
+            "context": "Store"
+          },
+          {
+            "expression": "results['anchor_indices']",
+            "line": 899,
+            "context": "Store"
+          },
+          {
+            "expression": "results['init_rotation']",
+            "line": 900,
+            "context": "Store"
+          },
+          {
+            "expression": "results['is_pre_sampled']",
+            "line": 901,
+            "context": "Store"
+          },
+          {
+            "expression": "results['part_filenames']",
+            "line": 902,
+            "context": "Store"
+          },
+          {
+            "expression": "results['global_rotation']",
+            "line": 904,
+            "context": "Store"
+          },
+          {
+            "expression": "results['global_translation']",
+            "line": 905,
+            "context": "Store"
+          },
+          {
+            "expression": "results['features']",
+            "line": 909,
+            "context": "Store"
+          }
+        ]
+      },
+      {
+        "name": "__del__",
+        "first_line": 913,
+        "last_line": 916,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_proc_part",
+        "first_line": 805,
+        "last_line": 834,
+        "literal_subscripts": []
+      }
+    ]
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\rectified_point_flow\\procrustes.py",
+    "sha256": "cb8f6bc040eef491e149bfdb82ec29da4c7865925e8cb6730b9f72b109c5cfe1",
+    "functions": [
+      {
+        "name": "solve_procrustes",
+        "first_line": 6,
+        "last_line": 37,
+        "literal_subscripts": []
+      },
+      {
+        "name": "fit_transformations",
+        "first_line": 40,
+        "last_line": 84,
+        "literal_subscripts": []
+      },
+      {
+        "name": "rigidify_prediction_with_procrustes",
+        "first_line": 86,
+        "last_line": 118,
+        "literal_subscripts": []
+      }
+    ]
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\sample.py",
+    "sha256": "d7e3a7ec9c99a8c4f19ce40c6d4dab0ac71684f4f7cdce9ef4428ca3997ed8ad",
+    "functions": [
+      {
+        "name": "get_time",
+        "first_line": 30,
+        "last_line": 37,
+        "literal_subscripts": []
+      },
+      {
+        "name": "setup",
+        "first_line": 40,
+        "last_line": 73,
+        "literal_subscripts": []
+      },
+      {
+        "name": "main",
+        "first_line": 77,
+        "last_line": 222,
+        "literal_subscripts": [
+          {
+            "expression": "batch['cu_seqlens_batch']",
+            "line": 106,
+            "context": "Load"
+          },
+          {
+            "expression": "outputs['generation_times']",
+            "line": 141,
+            "context": "Load"
+          },
+          {
+            "expression": "batch['points_per_part']",
+            "line": 111,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "__init__",
+        "first_line": 95,
+        "last_line": 99,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_get_batch_size",
+        "first_line": 101,
+        "last_line": 117,
+        "literal_subscripts": [
+          {
+            "expression": "batch['cu_seqlens_batch']",
+            "line": 106,
+            "context": "Load"
+          },
+          {
+            "expression": "batch['points_per_part']",
+            "line": 111,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "on_test_batch_start",
+        "first_line": 119,
+        "last_line": 121,
+        "literal_subscripts": []
+      },
+      {
+        "name": "on_test_batch_end",
+        "first_line": 123,
+        "last_line": 162,
+        "literal_subscripts": [
+          {
+            "expression": "outputs['generation_times']",
+            "line": 141,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "on_test_end",
+        "first_line": 164,
+        "last_line": 198,
+        "literal_subscripts": []
+      }
+    ]
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\rectified_point_flow\\modeling.py",
+    "sha256": "d0d766d6f8b24d04150e5b2e009b54c6496bc3d8ae34a27e2abfcda07f610257",
+    "functions": [
+      {
+        "name": "get_time",
+        "first_line": 21,
+        "last_line": 28,
+        "literal_subscripts": []
+      },
+      {
+        "name": "compute_linearity",
+        "first_line": 31,
+        "last_line": 48,
+        "literal_subscripts": []
+      },
+      {
+        "name": "__init__",
+        "first_line": 53,
+        "last_line": 123,
+        "literal_subscripts": []
+      },
+      {
+        "name": "on_train_epoch_start",
+        "first_line": 125,
+        "last_line": 126,
+        "literal_subscripts": []
+      },
+      {
+        "name": "on_validation_epoch_start",
+        "first_line": 128,
+        "last_line": 129,
+        "literal_subscripts": []
+      },
+      {
+        "name": "on_test_epoch_start",
+        "first_line": 131,
+        "last_line": 132,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_sample_timesteps",
+        "first_line": 134,
+        "last_line": 166,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_encode",
+        "first_line": 168,
+        "last_line": 184,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_compute_flow_target",
+        "first_line": 186,
+        "last_line": 201,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_prepare_data",
+        "first_line": 203,
+        "last_line": 231,
+        "literal_subscripts": [
+          {
+            "expression": "data_dict['pointclouds_gt']",
+            "line": 211,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['pointclouds']",
+            "line": 212,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['features']",
+            "line": 213,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['scales']",
+            "line": 214,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['anchor_indices']",
+            "line": 215,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['points_per_part']",
+            "line": 216,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['cu_seqlens']",
+            "line": 224,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "forward",
+        "first_line": 233,
+        "last_line": 281,
+        "literal_subscripts": []
+      },
+      {
+        "name": "loss",
+        "first_line": 284,
+        "last_line": 302,
+        "literal_subscripts": [
+          {
+            "expression": "output_dict['v_pred']",
+            "line": 286,
+            "context": "Load"
+          },
+          {
+            "expression": "output_dict['v_t']",
+            "line": 287,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "training_step",
+        "first_line": 304,
+        "last_line": 309,
+        "literal_subscripts": [
+          {
+            "expression": "loss_dict['loss']",
+            "line": 309,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "validation_step",
+        "first_line": 311,
+        "last_line": 331,
+        "literal_subscripts": [
+          {
+            "expression": "data_dict['scales']",
+            "line": 319,
+            "context": "Store"
+          },
+          {
+            "expression": "output_dict['scales']",
+            "line": 319,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['pointclouds']",
+            "line": 320,
+            "context": "Store"
+          },
+          {
+            "expression": "output_dict['cond']",
+            "line": 320,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['pointclouds_gt']",
+            "line": 321,
+            "context": "Store"
+          },
+          {
+            "expression": "output_dict['x_0']",
+            "line": 321,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['cu_seqlens_batch']",
+            "line": 322,
+            "context": "Store"
+          },
+          {
+            "expression": "output_dict['cu_seqlens_batch']",
+            "line": 322,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['cu_seqlens_part']",
+            "line": 323,
+            "context": "Store"
+          },
+          {
+            "expression": "output_dict['cu_seqlens_part']",
+            "line": 323,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['points_per_part']",
+            "line": 324,
+            "context": "Store"
+          },
+          {
+            "expression": "output_dict['points_per_part']",
+            "line": 324,
+            "context": "Load"
+          },
+          {
+            "expression": "loss_dict['loss']",
+            "line": 331,
+            "context": "Load"
+          },
+          {
+            "expression": "output_dict['latent_features']",
+            "line": 315,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['dataset_name']",
+            "line": 327,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['num_parts']",
+            "line": 328,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "test_step",
+        "first_line": 333,
+        "last_line": 630,
+        "literal_subscripts": [
+          {
+            "expression": "data_dict['points_per_part']",
+            "line": 349,
+            "context": "Load"
+          },
+          {
+            "expression": "sample_result['transformer_features']",
+            "line": 371,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['scales']",
+            "line": 380,
+            "context": "Store"
+          },
+          {
+            "expression": "output_dict['scales']",
+            "line": 380,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['pointclouds']",
+            "line": 381,
+            "context": "Store"
+          },
+          {
+            "expression": "output_dict['cond']",
+            "line": 381,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['pointclouds_gt']",
+            "line": 382,
+            "context": "Store"
+          },
+          {
+            "expression": "output_dict['x_0']",
+            "line": 382,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['cu_seqlens_batch']",
+            "line": 383,
+            "context": "Store"
+          },
+          {
+            "expression": "output_dict['cu_seqlens_batch']",
+            "line": 383,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['cu_seqlens_part']",
+            "line": 384,
+            "context": "Store"
+          },
+          {
+            "expression": "output_dict['cu_seqlens_part']",
+            "line": 384,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['points_per_part']",
+            "line": 385,
+            "context": "Store"
+          },
+          {
+            "expression": "output_dict['points_per_part']",
+            "line": 385,
+            "context": "Load"
+          },
+          {
+            "expression": "output_dict['latent_features']",
+            "line": 358,
+            "context": "Load"
+          },
+          {
+            "expression": "sample_result['trajectory']",
+            "line": 363,
+            "context": "Load"
+          },
+          {
+            "expression": "sample_result['trajectory']['end_point_trajectory']",
+            "line": 365,
+            "context": "Load"
+          },
+          {
+            "expression": "sample_result['trajectory']['trajectory']",
+            "line": 366,
+            "context": "Load"
+          },
+          {
+            "expression": "sample_result['trajectory']",
+            "line": 369,
+            "context": "Load"
+          },
+          {
+            "expression": "output_dict['cond']",
+            "line": 390,
+            "context": "Load"
+          },
+          {
+            "expression": "output_dict['cu_seqlens_batch']",
+            "line": 390,
+            "context": "Load"
+          },
+          {
+            "expression": "output_dict['cu_seqlens_batch']",
+            "line": 554,
+            "context": "Load"
+          },
+          {
+            "expression": "result['overlap_ratio_at_1%']",
+            "line": 598,
+            "context": "Load"
+          },
+          {
+            "expression": "sample_result['trajectory']",
+            "line": 365,
+            "context": "Load"
+          },
+          {
+            "expression": "sample_result['trajectory']",
+            "line": 366,
+            "context": "Load"
+          },
+          {
+            "expression": "result['rigidity_rmse (m)']",
+            "line": 518,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['dataset_name']",
+            "line": 408,
+            "context": "Load"
+          },
+          {
+            "expression": "data_dict['num_parts']",
+            "line": 409,
+            "context": "Load"
+          },
+          {
+            "expression": "output_dict['cond']",
+            "line": 478,
+            "context": "Load"
+          },
+          {
+            "expression": "output_dict['cu_seqlens_batch']",
+            "line": 478,
+            "context": "Load"
+          },
+          {
+            "expression": "output_dict['cond']",
+            "line": 483,
+            "context": "Load"
+          },
+          {
+            "expression": "output_dict['cu_seqlens_batch']",
+            "line": 484,
+            "context": "Load"
+          },
+          {
+            "expression": "output_dict['scales']",
+            "line": 484,
+            "context": "Load"
+          },
+          {
+            "expression": "output_dict['cond']",
+            "line": 497,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "sample_rectified_flow",
+        "first_line": 633,
+        "last_line": 741,
+        "literal_subscripts": [
+          {
+            "expression": "result['transformer_features']",
+            "line": 693,
+            "context": "Load"
+          },
+          {
+            "expression": "result['velocity']",
+            "line": 695,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "on_validation_epoch_end",
+        "first_line": 743,
+        "last_line": 746,
+        "literal_subscripts": []
+      },
+      {
+        "name": "on_test_epoch_end",
+        "first_line": 748,
+        "last_line": 754,
+        "literal_subscripts": []
+      },
+      {
+        "name": "on_save_checkpoint",
+        "first_line": 756,
+        "last_line": 758,
+        "literal_subscripts": [
+          {
+            "expression": "checkpoint['rng_state']",
+            "line": 757,
+            "context": "Store"
+          }
+        ]
+      },
+      {
+        "name": "on_load_checkpoint",
+        "first_line": 760,
+        "last_line": 765,
+        "literal_subscripts": [
+          {
+            "expression": "checkpoint['rng_state']",
+            "line": 762,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "configure_optimizers",
+        "first_line": 767,
+        "last_line": 777,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_flow_model_fn",
+        "first_line": 672,
+        "last_line": 708,
+        "literal_subscripts": [
+          {
+            "expression": "result['transformer_features']",
+            "line": 693,
+            "context": "Load"
+          },
+          {
+            "expression": "result['velocity']",
+            "line": 695,
+            "context": "Load"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\rectified_point_flow\\sampler.py",
+    "sha256": "6166a9dfd75ab721af64edf7bea99004acbad642c94d310dba55e849e7a4cf25",
+    "functions": [
+      {
+        "name": "flow_sampler",
+        "first_line": 11,
+        "last_line": 74,
+        "literal_subscripts": []
+      },
+      {
+        "name": "euler_step",
+        "first_line": 79,
+        "last_line": 92,
+        "literal_subscripts": []
+      },
+      {
+        "name": "rk2_step",
+        "first_line": 94,
+        "last_line": 115,
+        "literal_subscripts": []
+      },
+      {
+        "name": "rk4_step",
+        "first_line": 117,
+        "last_line": 149,
+        "literal_subscripts": []
+      },
+      {
+        "name": "get_sampler",
+        "first_line": 154,
+        "last_line": 171,
+        "literal_subscripts": []
+      }
+    ]
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\rectified_point_flow\\data\\datamodule.py",
+    "sha256": "c5a3d69f75e61692968aed363d7e288bb1df7fa4c32007dc867885854d886f07",
+    "functions": [
+      {
+        "name": "worker_init_fn",
+        "first_line": 20,
+        "last_line": 33,
+        "literal_subscripts": []
+      },
+      {
+        "name": "variable_collate_fn",
+        "first_line": 169,
+        "last_line": 201,
+        "literal_subscripts": [
+          {
+            "expression": "out['part_filenames']",
+            "line": 199,
+            "context": "Store"
+          },
+          {
+            "expression": "b['part_filenames']",
+            "line": 199,
+            "context": "Load"
+          },
+          {
+            "expression": "b['pointclouds']",
+            "line": 171,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "__init__",
+        "first_line": 37,
+        "last_line": 41,
+        "literal_subscripts": []
+      },
+      {
+        "name": "estimate_num_points",
+        "first_line": 43,
+        "last_line": 56,
+        "literal_subscripts": []
+      },
+      {
+        "name": "__init__",
+        "first_line": 70,
+        "last_line": 83,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_get_rank_and_size",
+        "first_line": 86,
+        "last_line": 89,
+        "literal_subscripts": []
+      },
+      {
+        "name": "set_epoch",
+        "first_line": 91,
+        "last_line": 93,
+        "literal_subscripts": []
+      },
+      {
+        "name": "__iter__",
+        "first_line": 95,
+        "last_line": 142,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_compute_num_batches",
+        "first_line": 144,
+        "last_line": 156,
+        "literal_subscripts": []
+      },
+      {
+        "name": "__len__",
+        "first_line": 158,
+        "last_line": 165,
+        "literal_subscripts": []
+      },
+      {
+        "name": "__init__",
+        "first_line": 207,
+        "last_line": 226,
+        "literal_subscripts": []
+      },
+      {
+        "name": "estimate_num_points",
+        "first_line": 228,
+        "last_line": 230,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_update_indices",
+        "first_line": 232,
+        "last_line": 243,
+        "literal_subscripts": []
+      },
+      {
+        "name": "set_epoch",
+        "first_line": 245,
+        "last_line": 250,
+        "literal_subscripts": []
+      },
+      {
+        "name": "__len__",
+        "first_line": 252,
+        "last_line": 253,
+        "literal_subscripts": []
+      },
+      {
+        "name": "__getitem__",
+        "first_line": 255,
+        "last_line": 256,
+        "literal_subscripts": []
+      },
+      {
+        "name": "__init__",
+        "first_line": 262,
+        "last_line": 354,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_initialize_dataset_paths",
+        "first_line": 356,
+        "last_line": 425,
+        "literal_subscripts": []
+      },
+      {
+        "name": "setup",
+        "first_line": 427,
+        "last_line": 566,
+        "literal_subscripts": []
+      },
+      {
+        "name": "on_train_epoch_start",
+        "first_line": 568,
+        "last_line": 581,
+        "literal_subscripts": []
+      },
+      {
+        "name": "train_dataloader",
+        "first_line": 583,
+        "last_line": 598,
+        "literal_subscripts": []
+      },
+      {
+        "name": "val_dataloader",
+        "first_line": 601,
+        "last_line": 615,
+        "literal_subscripts": []
+      },
+      {
+        "name": "test_dataloader",
+        "first_line": 618,
+        "last_line": 635,
+        "literal_subscripts": []
+      }
+    ]
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\rectified_point_flow\\utils\\point_clouds.py",
+    "sha256": "f73e1eed46b6a95ab3d3f0e592115f73805aebc453762c1118d087f0d2e970fb",
+    "functions": [
+      {
+        "name": "split_parts",
+        "first_line": 6,
+        "last_line": 67,
+        "literal_subscripts": []
+      },
+      {
+        "name": "ppp_to_ids",
+        "first_line": 70,
+        "last_line": 92,
+        "literal_subscripts": []
+      },
+      {
+        "name": "flatten_valid_parts",
+        "first_line": 95,
+        "last_line": 106,
+        "literal_subscripts": []
+      },
+      {
+        "name": "create_batch_indices",
+        "first_line": 109,
+        "last_line": 151,
+        "literal_subscripts": []
+      },
+      {
+        "name": "create_part_cu_seqlens",
+        "first_line": 153,
+        "last_line": 159,
+        "literal_subscripts": []
+      },
+      {
+        "name": "repeat_by_cu_seqlens",
+        "first_line": 161,
+        "last_line": 184,
+        "literal_subscripts": []
+      }
+    ]
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\rectified_point_flow\\eval\\evaluator.py",
+    "sha256": "dbf29bb960d9acf79a6924ea1f1e164c469780e79a31bb3027726f6b166494e8",
+    "functions": [
+      {
+        "name": "__init__",
+        "first_line": 20,
+        "last_line": 28,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_compute_metrics",
+        "first_line": 30,
+        "last_line": 250,
+        "literal_subscripts": [
+          {
+            "expression": "data['pointclouds']",
+            "line": 38,
+            "context": "Load"
+          },
+          {
+            "expression": "data['pointclouds_gt']",
+            "line": 39,
+            "context": "Load"
+          },
+          {
+            "expression": "data['points_per_part']",
+            "line": 40,
+            "context": "Load"
+          },
+          {
+            "expression": "data['anchor_parts']",
+            "line": 41,
+            "context": "Load"
+          },
+          {
+            "expression": "data['anchor_indices']",
+            "line": 42,
+            "context": "Load"
+          },
+          {
+            "expression": "data['scales']",
+            "line": 43,
+            "context": "Load"
+          },
+          {
+            "expression": "data['rotations']",
+            "line": 44,
+            "context": "Load"
+          },
+          {
+            "expression": "data['translations']",
+            "line": 45,
+            "context": "Load"
+          },
+          {
+            "expression": "data['cu_seqlens_batch']",
+            "line": 46,
+            "context": "Load"
+          },
+          {
+            "expression": "data['cu_seqlens_part']",
+            "line": 47,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "_recall_at_thresholds",
+        "first_line": 253,
+        "last_line": 255,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_combined_recall_at_specific_pairs",
+        "first_line": 258,
+        "last_line": 280,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_save_single_result",
+        "first_line": 284,
+        "last_line": 381,
+        "literal_subscripts": [
+          {
+            "expression": "data['cu_seqlens_batch']",
+            "line": 311,
+            "context": "Load"
+          },
+          {
+            "expression": "data['dataset_name']",
+            "line": 309,
+            "context": "Load"
+          },
+          {
+            "expression": "data['index']",
+            "line": 310,
+            "context": "Load"
+          },
+          {
+            "expression": "data['name']",
+            "line": 322,
+            "context": "Load"
+          },
+          {
+            "expression": "data['name']",
+            "line": 331,
+            "context": "Load"
+          },
+          {
+            "expression": "data['num_parts']",
+            "line": 324,
+            "context": "Load"
+          },
+          {
+            "expression": "data['scales']",
+            "line": 326,
+            "context": "Load"
+          },
+          {
+            "expression": "data['name']",
+            "line": 331,
+            "context": "Load"
+          },
+          {
+            "expression": "data['global_rotation']",
+            "line": 375,
+            "context": "Load"
+          },
+          {
+            "expression": "data['global_translation']",
+            "line": 377,
+            "context": "Load"
+          },
+          {
+            "expression": "data['global_rotation']",
+            "line": 375,
+            "context": "Load"
+          },
+          {
+            "expression": "data['global_translation']",
+            "line": 377,
+            "context": "Load"
+          },
+          {
+            "expression": "data['global_rotation']",
+            "line": 375,
+            "context": "Load"
+          },
+          {
+            "expression": "data['global_translation']",
+            "line": 377,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "_save_transformation_files",
+        "first_line": 383,
+        "last_line": 504,
+        "literal_subscripts": [
+          {
+            "expression": "data['scales']",
+            "line": 442,
+            "context": "Load"
+          },
+          {
+            "expression": "data['rotations']",
+            "line": 423,
+            "context": "Load"
+          },
+          {
+            "expression": "data['translations']",
+            "line": 424,
+            "context": "Load"
+          },
+          {
+            "expression": "data['points_per_part']",
+            "line": 425,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "_save_pointclouds_as_ply",
+        "first_line": 506,
+        "last_line": 589,
+        "literal_subscripts": [
+          {
+            "expression": "data['cu_seqlens_batch']",
+            "line": 538,
+            "context": "Load"
+          },
+          {
+            "expression": "data['scales']",
+            "line": 533,
+            "context": "Load"
+          },
+          {
+            "expression": "data['points_per_part']",
+            "line": 549,
+            "context": "Load"
+          },
+          {
+            "expression": "data['points_per_part']",
+            "line": 554,
+            "context": "Load"
+          },
+          {
+            "expression": "data['points_per_part']",
+            "line": 548,
+            "context": "Load"
+          },
+          {
+            "expression": "data['pointclouds']",
+            "line": 558,
+            "context": "Load"
+          },
+          {
+            "expression": "data['pointclouds']",
+            "line": 559,
+            "context": "Load"
+          },
+          {
+            "expression": "data['pointclouds']",
+            "line": 559,
+            "context": "Load"
+          },
+          {
+            "expression": "data['pointclouds']",
+            "line": 559,
+            "context": "Load"
+          },
+          {
+            "expression": "data['pointclouds']",
+            "line": 542,
+            "context": "Load"
+          },
+          {
+            "expression": "data['pointclouds_gt']",
+            "line": 543,
+            "context": "Load"
+          },
+          {
+            "expression": "data['pointclouds']",
+            "line": 561,
+            "context": "Load"
+          },
+          {
+            "expression": "data['pointclouds_gt']",
+            "line": 562,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "_save_parts_pointclouds",
+        "first_line": 593,
+        "last_line": 684,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_save_merged_input_pointcloud",
+        "first_line": 686,
+        "last_line": 750,
+        "literal_subscripts": [
+          {
+            "expression": "data['cu_seqlens_batch']",
+            "line": 709,
+            "context": "Load"
+          },
+          {
+            "expression": "data['points_per_part']",
+            "line": 717,
+            "context": "Load"
+          },
+          {
+            "expression": "data['pointclouds']",
+            "line": 721,
+            "context": "Load"
+          },
+          {
+            "expression": "data['points_per_part']",
+            "line": 729,
+            "context": "Load"
+          },
+          {
+            "expression": "data['pointclouds']",
+            "line": 722,
+            "context": "Load"
+          },
+          {
+            "expression": "data['pointclouds']",
+            "line": 722,
+            "context": "Load"
+          },
+          {
+            "expression": "data['pointclouds']",
+            "line": 722,
+            "context": "Load"
+          },
+          {
+            "expression": "data['pointclouds']",
+            "line": 713,
+            "context": "Load"
+          },
+          {
+            "expression": "data['pointclouds']",
+            "line": 724,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "_save_merged_pointcloud_steps",
+        "first_line": 752,
+        "last_line": 833,
+        "literal_subscripts": [
+          {
+            "expression": "data['cu_seqlens_batch']",
+            "line": 779,
+            "context": "Load"
+          },
+          {
+            "expression": "data['points_per_part']",
+            "line": 785,
+            "context": "Load"
+          },
+          {
+            "expression": "data['points_per_part']",
+            "line": 789,
+            "context": "Load"
+          },
+          {
+            "expression": "data['points_per_part']",
+            "line": 809,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "run",
+        "first_line": 835,
+        "last_line": 899,
+        "literal_subscripts": [
+          {
+            "expression": "data['points_per_part']",
+            "line": 896,
+            "context": "Load"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\rectified_point_flow\\data\\transform.py",
+    "sha256": "96a7ca142dff2aa8109dd6b17437fd2b3268c801952a1fe24a97aaa08d4eb919",
+    "functions": [
+      {
+        "name": "sample_points_poisson",
+        "first_line": 25,
+        "last_line": 34,
+        "literal_subscripts": []
+      },
+      {
+        "name": "sample_points_uniform",
+        "first_line": 36,
+        "last_line": 44,
+        "literal_subscripts": []
+      },
+      {
+        "name": "center_pcd",
+        "first_line": 46,
+        "last_line": 50,
+        "literal_subscripts": []
+      },
+      {
+        "name": "rotate_pcd",
+        "first_line": 53,
+        "last_line": 62,
+        "literal_subscripts": []
+      },
+      {
+        "name": "rotate_pcd_yaw",
+        "first_line": 65,
+        "last_line": 104,
+        "literal_subscripts": []
+      },
+      {
+        "name": "pad_data",
+        "first_line": 107,
+        "last_line": 113,
+        "literal_subscripts": []
+      }
+    ]
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\dataset_process\\extract_sample_features.py",
+    "sha256": "0d64fb17e9325ca0c7a774a5cdffd2611f181ea6e04b348603f2809495a669d1",
+    "functions": [
+      {
+        "name": "process_from_folders",
+        "first_line": 405,
+        "last_line": 515,
+        "literal_subscripts": [
+          {
+            "expression": "part_result['sampled_points']",
+            "line": 476,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "process_from_hdf5",
+        "first_line": 518,
+        "last_line": 624,
+        "literal_subscripts": [
+          {
+            "expression": "part_result['sampled_points']",
+            "line": 579,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "main",
+        "first_line": 627,
+        "last_line": 807,
+        "literal_subscripts": []
+      },
+      {
+        "name": "__init__",
+        "first_line": 55,
+        "last_line": 83,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_build_model",
+        "first_line": 85,
+        "last_line": 90,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_load_checkpoint",
+        "first_line": 92,
+        "last_line": 99,
+        "literal_subscripts": []
+      },
+      {
+        "name": "extract_features",
+        "first_line": 101,
+        "last_line": 157,
+        "literal_subscripts": [
+          {
+            "expression": "result['desc']",
+            "line": 137,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "__init__",
+        "first_line": 161,
+        "last_line": 179,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_set_sample_seed",
+        "first_line": 181,
+        "last_line": 184,
+        "literal_subscripts": []
+      },
+      {
+        "name": "process_sample",
+        "first_line": 186,
+        "last_line": 402,
+        "literal_subscripts": [
+          {
+            "expression": "feature_result['features']",
+            "line": 395,
+            "context": "Load"
+          },
+          {
+            "expression": "feat_res['features']",
+            "line": 216,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "_to_tensor_with_batch",
+        "first_line": 103,
+        "last_line": 109,
+        "literal_subscripts": []
+      },
+      {
+        "name": "collect_samples",
+        "first_line": 532,
+        "last_line": 536,
+        "literal_subscripts": []
+      }
+    ]
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\dataset_process\\utils\\io_utils.py",
+    "sha256": "5a4af2f1698866df1d9b01706b9ca0c16fffb32902b4e3f83ccc26d2381de3de",
+    "functions": [
+      {
+        "name": "get_dataset_name",
+        "first_line": 93,
+        "last_line": 110,
+        "literal_subscripts": []
+      },
+      {
+        "name": "load_sample_from_folder",
+        "first_line": 112,
+        "last_line": 151,
+        "literal_subscripts": []
+      },
+      {
+        "name": "load_sample_from_hdf5",
+        "first_line": 153,
+        "last_line": 189,
+        "literal_subscripts": [
+          {
+            "expression": "submap_group['vertices']",
+            "line": 177,
+            "context": "Load"
+          },
+          {
+            "expression": "submap_group['normals']",
+            "line": 178,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "save_processed_sample",
+        "first_line": 191,
+        "last_line": 261,
+        "literal_subscripts": [
+          {
+            "expression": "part_result['sampled_points']",
+            "line": 212,
+            "context": "Load"
+          },
+          {
+            "expression": "part_result['sampled_normals']",
+            "line": 213,
+            "context": "Load"
+          },
+          {
+            "expression": "part_result['features']",
+            "line": 214,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "create_metadata_json",
+        "first_line": 263,
+        "last_line": 511,
+        "literal_subscripts": [
+          {
+            "expression": "sample['num_submaps']",
+            "line": 451,
+            "context": "Load"
+          },
+          {
+            "expression": "seq_sum['total_submaps']",
+            "line": 450,
+            "context": "Load"
+          },
+          {
+            "expression": "s['sample_id']",
+            "line": 444,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['dataset']",
+            "line": 314,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['data_root']",
+            "line": 316,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['output_dir']",
+            "line": 318,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['num_samples']",
+            "line": 326,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['sample_count_multiplier']",
+            "line": 328,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['min_frames_per_submap']",
+            "line": 332,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['max_frames_per_submap']",
+            "line": 334,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['min_spatial_threshold']",
+            "line": 336,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['max_spatial_threshold']",
+            "line": 338,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['min_submaps_per_sample']",
+            "line": 340,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['max_submaps_per_sample']",
+            "line": 342,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['voxel_size']",
+            "line": 346,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['downsample_method']",
+            "line": 348,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['num_points_downsample']",
+            "line": 350,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['min_overlap_ratio']",
+            "line": 354,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['max_overlap_ratio']",
+            "line": 356,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['overlap_method']",
+            "line": 358,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['start_frame']",
+            "line": 362,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['end_frame']",
+            "line": 364,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['max_frames_per_sequence']",
+            "line": 366,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['train_ratio']",
+            "line": 370,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['seed']",
+            "line": 392,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['sequences']",
+            "line": 322,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['val_sequences']",
+            "line": 378,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "save_training_sample",
+        "first_line": 513,
+        "last_line": 599,
+        "literal_subscripts": [
+          {
+            "expression": "meta['start_frame']",
+            "line": 570,
+            "context": "Load"
+          },
+          {
+            "expression": "meta['end_frame']",
+            "line": 570,
+            "context": "Load"
+          },
+          {
+            "expression": "meta['pose_matrix']",
+            "line": 583,
+            "context": "Load"
+          },
+          {
+            "expression": "meta['pose_matrix']",
+            "line": 590,
+            "context": "Load"
+          },
+          {
+            "expression": "meta['pose_matrix']",
+            "line": 583,
+            "context": "Load"
+          },
+          {
+            "expression": "meta['pose_matrix']",
+            "line": 593,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "convert_to_hdf5",
+        "first_line": 601,
+        "last_line": 920,
+        "literal_subscripts": [
+          {
+            "expression": "h5_file.attrs['script']",
+            "line": 871,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['timestamp']",
+            "line": 872,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['processed_samples']",
+            "line": 873,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['failed_samples']",
+            "line": 874,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['total_samples']",
+            "line": 875,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['num_points_fps']",
+            "line": 878,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['min_points_per_part']",
+            "line": 879,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['global_seed']",
+            "line": 880,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['remove_outliers']",
+            "line": 881,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['outlier_nb_neighbors']",
+            "line": 882,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['outlier_std_ratio']",
+            "line": 883,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['allocation_method']",
+            "line": 884,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['voxel_size']",
+            "line": 885,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['voxel_ratio']",
+            "line": 886,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['feature_extractor']",
+            "line": 891,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['des_r']",
+            "line": 892,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['checkpoint_path']",
+            "line": 893,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['device']",
+            "line": 894,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['num_points_per_patch']",
+            "line": 895,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['input_path']",
+            "line": 898,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['output_path']",
+            "line": 899,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['save_hdf5']",
+            "line": 904,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['hdf5_only']",
+            "line": 905,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['includes_pose_data']",
+            "line": 910,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['includes_features']",
+            "line": 911,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['includes_normals']",
+            "line": 912,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['dataset_name']",
+            "line": 901,
+            "context": "Store"
+          },
+          {
+            "expression": "h5_file.attrs['hdf5_output_path']",
+            "line": 907,
+            "context": "Store"
+          },
+          {
+            "expression": "split_data['train']",
+            "line": 679,
+            "context": "Load"
+          },
+          {
+            "expression": "split_data['val']",
+            "line": 680,
+            "context": "Load"
+          },
+          {
+            "expression": "h5_file['num_points']",
+            "line": 822,
+            "context": "Load"
+          },
+          {
+            "expression": "num_points_group_dataset['all']",
+            "line": 865,
+            "context": "Del"
+          },
+          {
+            "expression": "split_data['train_random']",
+            "line": 682,
+            "context": "Load"
+          },
+          {
+            "expression": "split_data['val_random']",
+            "line": 683,
+            "context": "Load"
+          },
+          {
+            "expression": "submap_group.attrs['part_name']",
+            "line": 801,
+            "context": "Store"
+          },
+          {
+            "expression": "submap_group.attrs['num_points']",
+            "line": 802,
+            "context": "Store"
+          },
+          {
+            "expression": "split_data['train_sequence']",
+            "line": 685,
+            "context": "Load"
+          },
+          {
+            "expression": "split_data['val_sequence']",
+            "line": 686,
+            "context": "Load"
+          },
+          {
+            "expression": "submap_group.attrs['feature_dim']",
+            "line": 804,
+            "context": "Store"
+          }
+        ]
+      },
+      {
+        "name": "clean_args_for_json",
+        "first_line": 282,
+        "last_line": 303,
+        "literal_subscripts": []
+      },
+      {
+        "name": "reconstruct_command_line",
+        "first_line": 308,
+        "last_line": 394,
+        "literal_subscripts": [
+          {
+            "expression": "args_dict['dataset']",
+            "line": 314,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['data_root']",
+            "line": 316,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['output_dir']",
+            "line": 318,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['num_samples']",
+            "line": 326,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['sample_count_multiplier']",
+            "line": 328,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['min_frames_per_submap']",
+            "line": 332,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['max_frames_per_submap']",
+            "line": 334,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['min_spatial_threshold']",
+            "line": 336,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['max_spatial_threshold']",
+            "line": 338,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['min_submaps_per_sample']",
+            "line": 340,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['max_submaps_per_sample']",
+            "line": 342,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['voxel_size']",
+            "line": 346,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['downsample_method']",
+            "line": 348,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['num_points_downsample']",
+            "line": 350,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['min_overlap_ratio']",
+            "line": 354,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['max_overlap_ratio']",
+            "line": 356,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['overlap_method']",
+            "line": 358,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['start_frame']",
+            "line": 362,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['end_frame']",
+            "line": 364,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['max_frames_per_sequence']",
+            "line": 366,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['train_ratio']",
+            "line": 370,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['seed']",
+            "line": 392,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['sequences']",
+            "line": 322,
+            "context": "Load"
+          },
+          {
+            "expression": "args_dict['val_sequences']",
+            "line": 378,
+            "context": "Load"
+          }
+        ]
+      },
+      {
+        "name": "normalize_path_hdf5",
+        "first_line": 833,
+        "last_line": 839,
+        "literal_subscripts": []
+      }
+    ]
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\dataset_process\\utils\\dataset_utils.py",
+    "sha256": "6047e353c10a22fc64f1cad96f4a98a2dcc42d64c35f65f90c4b9b3e237205a0",
+    "functions": [
+      {
+        "name": "random_downsample_points",
+        "first_line": 21,
+        "last_line": 44,
+        "literal_subscripts": []
+      },
+      {
+        "name": "farthest_point_sampling",
+        "first_line": 47,
+        "last_line": 127,
+        "literal_subscripts": []
+      },
+      {
+        "name": "farthest_point_sampling_with_normals",
+        "first_line": 130,
+        "last_line": 154,
+        "literal_subscripts": []
+      },
+      {
+        "name": "downsample_points",
+        "first_line": 157,
+        "last_line": 231,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_get_voxel_downsample_indices",
+        "first_line": 234,
+        "last_line": 277,
+        "literal_subscripts": []
+      },
+      {
+        "name": "voxel_down_sample_torch",
+        "first_line": 279,
+        "last_line": 322,
+        "literal_subscripts": []
+      },
+      {
+        "name": "estimate_point_normals_open3d",
+        "first_line": 325,
+        "last_line": 358,
+        "literal_subscripts": []
+      },
+      {
+        "name": "transform_points",
+        "first_line": 361,
+        "last_line": 376,
+        "literal_subscripts": []
+      },
+      {
+        "name": "transform_normals",
+        "first_line": 379,
+        "last_line": 407,
+        "literal_subscripts": []
+      },
+      {
+        "name": "voxel_downsample_points",
+        "first_line": 410,
+        "last_line": 426,
+        "literal_subscripts": []
+      },
+      {
+        "name": "voxel_downsample_points_open3d",
+        "first_line": 429,
+        "last_line": 445,
+        "literal_subscripts": []
+      },
+      {
+        "name": "get_pose_center",
+        "first_line": 448,
+        "last_line": 458,
+        "literal_subscripts": []
+      },
+      {
+        "name": "filter_keyframes_by_motion",
+        "first_line": 461,
+        "last_line": 525,
+        "literal_subscripts": []
+      },
+      {
+        "name": "calculate_rotation_angle_between_poses",
+        "first_line": 528,
+        "last_line": 559,
+        "literal_subscripts": []
+      },
+      {
+        "name": "filter_poses_and_data_by_keyframes",
+        "first_line": 562,
+        "last_line": 600,
+        "literal_subscripts": []
+      },
+      {
+        "name": "calculate_point_cloud_overlap_ratio_fast",
+        "first_line": 603,
+        "last_line": 650,
+        "literal_subscripts": []
+      },
+      {
+        "name": "sample_truncated_gaussian",
+        "first_line": 652,
+        "last_line": 679,
+        "literal_subscripts": []
+      },
+      {
+        "name": "deskewing",
+        "first_line": 682,
+        "last_line": 747,
+        "literal_subscripts": []
+      },
+      {
+        "name": "get_global_transformation_matrix",
+        "first_line": 750,
+        "last_line": 770,
+        "literal_subscripts": []
+      },
+      {
+        "name": "save_num_points_to_folder",
+        "first_line": 773,
+        "last_line": 842,
+        "literal_subscripts": [
+          {
+            "expression": "split_num_points['all']",
+            "line": 832,
+            "context": "Store"
+          }
+        ]
+      },
+      {
+        "name": "save_points_to_ply",
+        "first_line": 844,
+        "last_line": 853,
+        "literal_subscripts": []
+      },
+      {
+        "name": "voxelize_points",
+        "first_line": 632,
+        "last_line": 637,
+        "literal_subscripts": []
+      },
+      {
+        "name": "normalize_path",
+        "first_line": 789,
+        "last_line": 797,
+        "literal_subscripts": []
+      }
+    ]
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\rectified_point_flow\\flow_model\\point_cloud_dit.py",
+    "sha256": "dd095019f78cc0bfac6bef767061ec6a5a02244874bc32723dd78510f9e6f974",
+    "functions": [
+      {
+        "name": "__init__",
+        "first_line": 19,
+        "last_line": 117,
+        "literal_subscripts": []
+      },
+      {
+        "name": "_add_anchor_embedding",
+        "first_line": 119,
+        "last_line": 139,
+        "literal_subscripts": []
+      },
+      {
+        "name": "forward",
+        "first_line": 141,
+        "last_line": 191,
+        "literal_subscripts": []
+      }
+    ]
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\config\\RAP_inference.yaml",
+    "sha256": "1ccff9bf9f86c44a50a479f542302c4895673abd9d5b85c63d4ea69d0d09ce13",
+    "functions": []
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\config\\model\\rap_12.yaml",
+    "sha256": "26283fa5ccc2fa2483be653ba0d498058c39390611f8dfd1ca294a5fd6891173",
+    "functions": []
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\config\\data\\data_tmp.yaml",
+    "sha256": "00d4a6b40d8da7631291e72be42f64962c985fb2e74dc51375ea47dc2b06b002",
+    "functions": []
+  },
+  {
+    "source": "E:\\githouse\\RAP-main\\config\\model\\flow_model\\point_cloud_dit_12.yaml",
+    "sha256": "6df19dce55f2d3ab18009d44cb32d6f08e868a0e15921fabc9e12d4c8d95c357",
+    "functions": []
+  },
+  {
+    "source": "E:\\githouse\\RAP-SLAM\\rap_slam\\rap_precision.py",
+    "sha256": "09feea1d7f72c29ae0eaceb28e5675031405560f607c7d1b246f19344ce839a8",
+    "functions": [
+      {
+        "name": "ieee_matmul",
+        "first_line": 15,
+        "last_line": 24,
+        "literal_subscripts": []
+      },
+      {
+        "name": "precise_registration",
+        "first_line": 27,
+        "last_line": 32,
+        "literal_subscripts": []
+      },
+      {
+        "name": "wrapped",
+        "first_line": 29,
+        "last_line": 31,
+        "literal_subscripts": []
+      }
+    ]
+  }
+]

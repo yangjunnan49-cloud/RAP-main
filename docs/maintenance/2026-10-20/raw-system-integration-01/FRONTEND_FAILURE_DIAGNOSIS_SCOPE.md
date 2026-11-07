@@ -1,0 +1,7 @@
+# R0 correspondence failure and finite synthetic runtime diagnosis
+
+R0 stopped after native K00 success and G00 failure, before any new GT numeric access: complete fresh G frontend max matrix-element difference0.5582816188113293 exceeds frozen1e-5. This is not an ATE/RTE or evidence that G efficacy failed. G output arrays were not saved because the original check preceded their serialization; preserve that limitation and original worker/trace/receipts, do not fabricate missing outputs. Planned36 incomplete,1 success/1 failure/34 not launched. No further R0 single-runtime numerical cell or old protection rescue.
+
+Finite diagnosis uses only one fixed synthetic float32 point bank, the exact source-bound0.205 correction and both already-installed runtimes. Record NumPy/Python/native-file identities and intermediate expression dtypes; compare all synthetic corrected bytes. It can establish a runtime arithmetic difference, not uniquely attribute the real0.5583 discrepancy or authenticate physical truth. No real raw replay, registration, GT, fit, parameter search or acquisition. Charge original complete-raw7200s; old failed run519.9071704s and pre-worker3.195105s remain charged. No original LMB cap reset.
+
+Any next implementation must be separately frozen as a distinct two-runtime interface design preserving original E0 runtime and original map runtime. The failed R0 same-runtime portability hypothesis remains failed. No benchmark restart under the old R0 definition or relaxed correspondence/launch guard.

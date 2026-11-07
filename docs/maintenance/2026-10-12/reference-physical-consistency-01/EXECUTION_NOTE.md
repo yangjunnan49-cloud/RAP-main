@@ -1,0 +1,7 @@
+# RPC0 execution notes
+
+Original stages freeze/preflight/validate_preflight/bank/evaluate completed; first validate failed on the unchanged local-envelope tolerance. Scientific outputs and original failed validator snapshot remain immutable. AMENDMENT_01/VALIDATION_AMENDMENT_FREEZE02 bind a validator-only repair; freeze02/validate_preflight02/validate02 completed with their own supervised output directories. Original stage directories are never reused.
+
+The initial freeze02 escalation was not executed because automatic approval review could not complete due to account usage limits. This was a service review failure, not an unsafe-action verdict. No stage directory/child/process was created by that rejected call. After user "请继续", the same approved-scope escalation was retried through automatic review and executed normally. No approval check was bypassed. The between-turn pause is outside all child payload timing; every actual resumed child uses a fresh12GiB launch guard and existing4GiB observed-host guard. No old host observation gap is repaired or backfilled.
+
+One development patch did not match source indentation and changed no file; the corrected patch then applied before freeze. This is source preparation, not a failed scientific payload. Standard-library syntax checks execute no numerical imports and their full setup RSS is not recorded. All nine actual scientific/validation child attempts, including the first validator failure, have full child and Windows launch/exit/host-memory receipts.

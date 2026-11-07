@@ -1,0 +1,9 @@
+# Original packet interruption retained
+
+Original packet worker exited1 after its owning host encountered PermissionError opening REQUEST_CURRENT.json during concurrent replacement. Host forced the exact owned child to exit and reaped it. Original HOST_EXIT and stderr remain unchanged. Host elapsed46.40599999995902s, observed peak54,493,184bytes,131 nonce responses. Failed-child self-reported lifetime peak is unavailable.
+
+135 map files totaling73,108,126bytes remain. Their bytes were hashed before decoding or any accuracy/group inspection. They have no original full-stage seal and are partial artifacts, not a completed study. Integration02 must validate ZIP/array shape/content hashes and copy valid files byte-for-byte; malformed cache stops the continuation. Missing maps alone may be computed. No successful map is regenerated.
+
+Mechanical change: replace the concurrently replaced mutable request mailbox with serial/nonce-named immutable request files, published by rename to a previously nonexistent name. Host reads each immutable request once in serial order. Responses were already immutable. Fresh12GiB/<=2s, RSS and original total clock remain. A new synthetic rapid-exchange control must pass before remaining real inputs. Original controls and failed packet costs are deducted from their original stage caps; the original whole-scope clock is not reset. Parent dossier still has the original256MiB limit, including partials and continuation outputs.
+
+Measurement math, SGBM parameters, source images, calibration, original SIFT hypotheses and all200 membership are unchanged. Native engine is newly instantiated at the same fixed configuration for missing scans; no claim of complete hidden-native-state equivalence to an uninterrupted process is made. Full scalar support audit is still required. No partial coverage or correctness metric was read before this integration decision.

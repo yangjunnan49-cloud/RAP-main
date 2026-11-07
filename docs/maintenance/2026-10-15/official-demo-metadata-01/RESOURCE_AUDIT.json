@@ -1,0 +1,64 @@
+{
+  "attempts": [
+    {
+      "stage": "freeze",
+      "exit_code": 0,
+      "Windows_seconds": 4.7492507,
+      "Linux_child_seconds": 1.7611807149951346,
+      "Linux_RSS_bytes": 23261184,
+      "host_observations": 6
+    },
+    {
+      "stage": "catalog",
+      "exit_code": 0,
+      "Windows_seconds": 23.4538919,
+      "Linux_child_seconds": 22.5262847939739,
+      "Linux_RSS_bytes": 25128960,
+      "host_observations": 30
+    },
+    {
+      "stage": "windows",
+      "exit_code": 1,
+      "Windows_seconds": 2.4115303,
+      "Linux_child_seconds": 1.5114361130108591,
+      "Linux_RSS_bytes": 22937600,
+      "host_observations": 3
+    },
+    {
+      "stage": "windows02",
+      "exit_code": 0,
+      "Windows_seconds": 11.7904016,
+      "Linux_child_seconds": 9.418054181995103,
+      "Linux_RSS_bytes": 23080960,
+      "host_observations": 15
+    },
+    {
+      "stage": "validate",
+      "exit_code": 0,
+      "Windows_seconds": 5.5576834,
+      "Linux_child_seconds": 1.9197987069783267,
+      "Linux_RSS_bytes": 33333248,
+      "host_observations": 7
+    }
+  ],
+  "attempt_count": 5,
+  "successes": 4,
+  "retained_prestart_failures": 1,
+  "retained_transport_failure_requests": 1,
+  "total_Windows_seconds": 47.9627579,
+  "total_Linux_child_seconds": 37.136754510953324,
+  "maximum_Linux_RSS_bytes": 33333248,
+  "GPU_bytes": 0,
+  "nested_Windows_child_peak_bytes": 166621184,
+  "nested_Windows_interval_enclosed_not_added_twice": true,
+  "Windows_observer_full_lifetime_peak": "UNKNOWN",
+  "ordinary_preparation_closure_RSS": "UNKNOWN",
+  "time_includes_startup_imports": true,
+  "all_expected_exit_receipts_present": true,
+  "logging_retries": 0,
+  "acquired_body_bytes": 1273695,
+  "owner_body_cap_bytes": 4194304,
+  "remaining_body_allowance_bytes": 2920609,
+  "all_native_or_process_tree_cap_proven": false,
+  "old_WPC0_NMQ0_gaps_repaired": false
+}

@@ -1,0 +1,62 @@
+{
+  "started_utc": "2026-11-05T00:43:00.903345+00:00",
+  "scope": "A7_PLAN_ITEM_3_LOCAL_FILESYSTEM_LINK_AND_MODE_ACCEPTANCE_ONLY",
+  "events": [
+    {
+      "argv": [
+        "wsl.exe",
+        "--list",
+        "--running",
+        "--quiet"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "wsl.exe",
+        "-d",
+        "Ubuntu-24.04",
+        "--user",
+        "root",
+        "--exec",
+        "/usr/bin/env",
+        "CUDA_VISIBLE_DEVICES=",
+        "WANDB_MODE=disabled",
+        "HF_HUB_OFFLINE=1",
+        "/usr/bin/python3",
+        "-I",
+        "-S",
+        "-B",
+        "/mnt/e/githouse/RAP-main/docs/maintenance/2026-11-04/delivery-restore-01/posix_links.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"passed\": true, \"relative_links\": 25, \"junctions_deferred\": 2, \"POSIX_fixture_passed\": true}\n",
+      "stderr": "wsl: 检测到 localhost 代理配置，但未镜像到 WSL。NAT 模式下的 WSL 不支持 localhost 代理。\r\n"
+    },
+    {
+      "argv": [
+        "wsl.exe",
+        "--terminate",
+        "Ubuntu-24.04"
+      ],
+      "exit_code": 0,
+      "stdout": "操作成功完成。 \r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "wsl.exe",
+        "--list",
+        "--running",
+        "--quiet"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "restored_initial_stopped_state": true,
+  "finished_utc": "2026-11-05T00:43:12.871343+00:00"
+}

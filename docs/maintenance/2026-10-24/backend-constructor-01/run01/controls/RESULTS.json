@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "count": 10,
+  "controls": [
+    {
+      "case": "ordered_route_0",
+      "passed": true
+    },
+    {
+      "case": "ordered_route_1",
+      "passed": true
+    },
+    {
+      "case": "exact_state_format_and_identity",
+      "passed": true
+    },
+    {
+      "case": "reject_unknown_path",
+      "passed": true
+    },
+    {
+      "case": "reject_replay",
+      "passed": true
+    },
+    {
+      "case": "reject_wrong_order",
+      "passed": true
+    },
+    {
+      "case": "reject_positional",
+      "passed": true
+    },
+    {
+      "case": "reject_unexpected_kw",
+      "passed": true
+    },
+    {
+      "case": "reject_different_weights_only",
+      "passed": true
+    },
+    {
+      "case": "reject_unadmitted_device",
+      "passed": true
+    }
+  ],
+  "stdlib_only": true,
+  "actual_weight_reads": 0
+}

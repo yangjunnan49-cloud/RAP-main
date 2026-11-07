@@ -1,0 +1,44 @@
+{
+  "freeze_entries": 147,
+  "NOC0_NOC1_delivery_entries_unchanged": [
+    103,
+    188
+  ],
+  "model_config_checkpoint_identities_unchanged": true,
+  "checkpoint_sha256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200",
+  "trainable_params_per_native_arm": 443904,
+  "control_params": 36,
+  "updates": 400,
+  "real_windows": 0,
+  "nearby_windows": 0,
+  "native_prediction_inferences": 0,
+  "no_target_teacher_cache_at_inference": true,
+  "no_full_optimizer_or_census_replay": true,
+  "validations": [
+    {
+      "passed": true,
+      "control": {
+        "passed": false,
+        "errors": [
+          {
+            "part": 1,
+            "t_m": 0.020441778009423057,
+            "R_deg": 0.008898588289210311
+          },
+          {
+            "part": 2,
+            "t_m": 0.019929126328270257,
+            "R_deg": 0.008613129414314594
+          }
+        ],
+        "affine_forward_max_delta": 2.9802322387695312e-08,
+        "math_preflight_reproduced": true
+      },
+      "wall_seconds": 2.402361216954887,
+      "peak_RSS_bytes": 542986240,
+      "peak_GPU_allocated_bytes": 0,
+      "peak_GPU_reserved_bytes": 0,
+      "artifact_bytes": 1664469
+    }
+  ]
+}

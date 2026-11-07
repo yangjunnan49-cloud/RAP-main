@@ -1,0 +1,15 @@
+{
+  "success": false,
+  "error": "UnpicklingError('Weights only load failed. This file can still be loaded, to do so you have two options, \\x1b[1mdo those steps only if you trust the source of the checkpoint\\x1b[0m. \\n\\t(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.\\n\\t(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.\\n\\tWeightsUnpickler error: Unsupported global: GLOBAL omegaconf.listconfig.ListConfig was not an allowed global by default. Please use `torch.serialization.add_safe_globals([omegaconf.listconfig.ListConfig])` or the `torch.serialization.safe_globals([omegaconf.listconfig.ListConfig])` context manager to allowlist this global if you trust this class/function.\\n\\nCheck the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.')",
+  "elapsed_seconds": 4.655510521999531,
+  "peak_RSS_bytes": 843067392,
+  "data_class": "CB1_existing_CPU_model_initialization_only",
+  "counters": {
+    "checkpoints_safe_loaded": 0,
+    "backend_constructor_attempts": 0,
+    "backend_constructor_completed": false,
+    "neural_forward_calls": 0,
+    "point_reads": 0,
+    "private_reference_reads": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "model": "RAP",
+      "loaded_tensors": 344,
+      "receipt": "RAP_TRANSFER.json",
+      "receipt_sha256": "A766FA4E1C78E7C74FAEF546687F7EFEFF4661EED5EBEF120052061C66E42029",
+      "transfer_tracked_RNG_unchanged": true
+    },
+    {
+      "model": "miniSpinNet",
+      "loaded_tensors": 58,
+      "receipt": "miniSpinNet_TRANSFER.json",
+      "receipt_sha256": "0FC61F500EC7B1C680CA5C2ED03ACC9295B03A3F9EC74B6E65B1382C78937B60",
+      "transfer_tracked_RNG_unchanged": true
+    }
+  ],
+  "counters": {
+    "architectures_constructed": 2,
+    "checkpoint_unpickle_calls": 0,
+    "forward_attempts": 0,
+    "loaded_state_tensors": 402,
+    "point_reads": 0,
+    "reference_reads": 0
+  },
+  "CUDA_initialized": false,
+  "torch_version": "2.7.0+cu128",
+  "numpy_version": "1.26.4",
+  "candidate_installed": false,
+  "claim": "Complete fixed CPU tensor bytes and tracked transfer-RNG invariance only"
+}

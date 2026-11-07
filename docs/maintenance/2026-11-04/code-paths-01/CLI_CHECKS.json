@@ -1,0 +1,146 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "sample-paths",
+      "argv": [
+        "C:\\Users\\AAA\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-11-04\\code-paths-01\\guard_cli.py",
+        "E:\\githouse\\RAP-main\\scripts\\run.py",
+        "sample",
+        "--paths",
+        "E:\\githouse\\RAP-main\\config\\runtime.example.json",
+        "--input",
+        "E:\\githouse\\RAP-main\\demo_example_data\\map_kitti",
+        "--run-id",
+        "a3-path-check-never-executed",
+        "--check"
+      ],
+      "cwd": "E:\\githouse\\RAP-main\\docs",
+      "exit_code": 0,
+      "stdout_sha256": "da46773fb8961ed6d5fa85012132edeecc73998dcb1cbeedf28847aca214ca80",
+      "stderr_sha256": "02fb5564a9c8ff1fb2d2242abc9cbcb524b8b91933794a5b00346f78250c43ee"
+    },
+    {
+      "name": "demo-paths",
+      "argv": [
+        "C:\\Users\\AAA\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-11-04\\code-paths-01\\guard_cli.py",
+        "E:\\githouse\\RAP-main\\scripts\\run.py",
+        "demo",
+        "--paths",
+        "E:\\githouse\\RAP-main\\config\\runtime.example.json",
+        "--input",
+        "E:\\githouse\\RAP-main\\demo_example_data\\map_kitti",
+        "--run-id",
+        "a3-path-check-never-executed",
+        "--check"
+      ],
+      "cwd": "E:\\githouse\\RAP-main\\docs",
+      "exit_code": 0,
+      "stdout_sha256": "0d11a72293d9fb8192472e05213c35226436c4039650105a85fdb095fe23cacf",
+      "stderr_sha256": "02fb5564a9c8ff1fb2d2242abc9cbcb524b8b91933794a5b00346f78250c43ee"
+    },
+    {
+      "name": "features-paths",
+      "argv": [
+        "C:\\Users\\AAA\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-11-04\\code-paths-01\\guard_cli.py",
+        "E:\\githouse\\RAP-main\\scripts\\run.py",
+        "features",
+        "--paths",
+        "E:\\githouse\\RAP-main\\config\\runtime.example.json",
+        "--input",
+        "E:\\githouse\\RAP-main\\demo_example_data\\map_kitti",
+        "--run-id",
+        "a3-path-check-never-executed",
+        "--check"
+      ],
+      "cwd": "E:\\githouse\\RAP-main\\docs",
+      "exit_code": 0,
+      "stdout_sha256": "a1a5db8e70f7d06ef2b3614d0f299ed0353de71c9a52aa27bd2501361c52b211",
+      "stderr_sha256": "02fb5564a9c8ff1fb2d2242abc9cbcb524b8b91933794a5b00346f78250c43ee"
+    },
+    {
+      "name": "sample-missing-default",
+      "argv": [
+        "C:\\Users\\AAA\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-11-04\\code-paths-01\\guard_cli.py",
+        "E:\\githouse\\RAP-main\\scripts\\run.py",
+        "sample",
+        "--input",
+        "E:\\githouse\\RAP-main\\demo_example_data\\map_kitti",
+        "--run-id",
+        "a3-missing-never-executed",
+        "--check"
+      ],
+      "cwd": "E:\\githouse\\RAP-main\\docs",
+      "exit_code": 2,
+      "stdout_sha256": "da4b132548353642194d2fd48456b27778720f677ee113d747e8da0eac4e1da4",
+      "stderr_sha256": "02fb5564a9c8ff1fb2d2242abc9cbcb524b8b91933794a5b00346f78250c43ee"
+    },
+    {
+      "name": "slam-paths",
+      "argv": [
+        "C:\\Users\\AAA\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-11-04\\code-paths-01\\guard_cli.py",
+        "E:\\githouse\\RAP-main\\scripts\\run.py",
+        "slam",
+        "--run-id",
+        "a3-path-check-never-executed",
+        "--check",
+        "--",
+        "--skip-loop-closure"
+      ],
+      "cwd": "E:\\githouse\\RAP-main\\dataset_process",
+      "exit_code": 0,
+      "stdout_sha256": "120a274de946b4d04970bc9c8383eee489624b2fa1b5f90a32a07a6c082090bc",
+      "stderr_sha256": "02fb5564a9c8ff1fb2d2242abc9cbcb524b8b91933794a5b00346f78250c43ee"
+    },
+    {
+      "name": "pipeline-help",
+      "argv": [
+        "C:\\Users\\AAA\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-11-04\\code-paths-01\\guard_cli.py",
+        "E:\\githouse\\RAP-SLAM\\scripts\\run_pipeline.py",
+        "--help"
+      ],
+      "cwd": "E:\\githouse\\RAP-main\\docs",
+      "exit_code": 0,
+      "stdout_sha256": "5a2a2bfaeb7dab2220192a14301be81498ac0060923248233e5f8fe918314721",
+      "stderr_sha256": "02fb5564a9c8ff1fb2d2242abc9cbcb524b8b91933794a5b00346f78250c43ee"
+    },
+    {
+      "name": "pipeline-missing-map",
+      "argv": [
+        "C:\\Users\\AAA\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-11-04\\code-paths-01\\guard_cli.py",
+        "E:\\githouse\\RAP-SLAM\\scripts\\run_pipeline.py",
+        "--skip-loop-closure",
+        "--map",
+        "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-11-04\\code-paths-01\\NO_SUCH_MAP.ply",
+        "--output",
+        "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-11-04\\code-paths-01\\THIS_OUTPUT_MUST_NOT_EXIST"
+      ],
+      "cwd": "E:\\githouse\\RAP-main\\docs",
+      "exit_code": 1,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "b1d931b3296569f108a082056c2ff7c8d2b3e493ba0ae572b53ffdb8d13e7066"
+    }
+  ],
+  "model_or_arrays_loaded": false
+}

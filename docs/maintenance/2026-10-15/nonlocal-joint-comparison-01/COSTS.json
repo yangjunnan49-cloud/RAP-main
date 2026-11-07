@@ -1,0 +1,159 @@
+{
+  "attempts": 9,
+  "successes": 8,
+  "failures": 1,
+  "child_seconds": 115.80492744292133,
+  "Windows_seconds": 137.66523370000002,
+  "peak_Linux_RSS_bytes": 2789040128.0,
+  "PyTorch_GPU_allocated_peak_bytes": 1488649728.0,
+  "PyTorch_GPU_reserved_peak_bytes": 2715811840.0,
+  "failed_Open3D_import_non_PyTorch_GPU_peak": "UNKNOWN",
+  "observer_lifetime_peak": "UNKNOWN",
+  "ordinary_setup_closing_RSS": "UNKNOWN",
+  "receipts": [
+    {
+      "stage": "freeze",
+      "receipt_sha256": "db4ce3406a09cf464aec7547dd470c607f54982e38d8f665635cf20d6a7c7c07",
+      "data": {
+        "success": true,
+        "error": null,
+        "wall_seconds": 8.101024590956513,
+        "peak_RSS_bytes": 39837696,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 944434,
+        "observer_full_lifetime_peak": "UNKNOWN",
+        "ordinary_preparation_RSS": "UNKNOWN",
+        "full_child_exit_retained": true
+      }
+    },
+    {
+      "stage": "geometry",
+      "receipt_sha256": "458f87580dd9b8e4e0449563b01199719e7c3aa409846b443379482d9314abd5",
+      "data": {
+        "success": false,
+        "error": "AssertionError()",
+        "wall_seconds": 5.8141920900088735,
+        "peak_RSS_bytes": 336486400,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 4078007,
+        "observer_full_lifetime_peak": "UNKNOWN",
+        "ordinary_preparation_RSS": "UNKNOWN",
+        "full_child_exit_retained": true
+      }
+    },
+    {
+      "stage": "geometry-cpu02",
+      "receipt_sha256": "35259dd6c727ad7af5706c7c85768ea7d5e77f457135d02f2742ef4ab2dc77b2",
+      "data": {
+        "success": true,
+        "error": null,
+        "wall_seconds": 42.911231767968275,
+        "peak_RSS_bytes": 375132160,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 4825658,
+        "observer_full_lifetime_peak": "UNKNOWN",
+        "ordinary_preparation_RSS": "UNKNOWN",
+        "full_child_exit_retained": true
+      }
+    },
+    {
+      "stage": "independent",
+      "receipt_sha256": "e7f1fa4bc7060cb9f2de49e5e063450b956f443a1ca772feb4165b490b50c54c",
+      "data": {
+        "success": true,
+        "error": null,
+        "wall_seconds": 11.506274612038396,
+        "peak_RSS_bytes": 89452544,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 13321804,
+        "observer_full_lifetime_peak": "UNKNOWN",
+        "ordinary_preparation_RSS": "UNKNOWN",
+        "full_child_exit_retained": true
+      }
+    },
+    {
+      "stage": "metrics",
+      "receipt_sha256": "23923d6a834e1d34d21da207f862af0d3e19a231e05afdb8d29afb46be3534ed",
+      "data": {
+        "success": true,
+        "error": null,
+        "wall_seconds": 5.846867855987512,
+        "peak_RSS_bytes": 41955328,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 13315608,
+        "observer_full_lifetime_peak": "UNKNOWN",
+        "ordinary_preparation_RSS": "UNKNOWN",
+        "full_child_exit_retained": true
+      }
+    },
+    {
+      "stage": "neural",
+      "receipt_sha256": "f6d5cb6ade62c985d341d351fa889a7596a090c71f0ff27f268579f91f497dd7",
+      "data": {
+        "success": true,
+        "error": null,
+        "wall_seconds": 28.880120686953887,
+        "peak_RSS_bytes": 2789040128,
+        "peak_GPU_allocated_bytes": 1488649728,
+        "peak_GPU_reserved_bytes": 2715811840,
+        "artifact_bytes": 13255404,
+        "observer_full_lifetime_peak": "UNKNOWN",
+        "ordinary_preparation_RSS": "UNKNOWN",
+        "full_child_exit_retained": true
+      }
+    },
+    {
+      "stage": "preflight",
+      "receipt_sha256": "f19cf97b7e60adb65832d6c1e9f8a0f0adc14298dcaa063471e43d4a82de0fa9",
+      "data": {
+        "success": true,
+        "error": null,
+        "wall_seconds": 5.323661262984388,
+        "peak_RSS_bytes": 68755456,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 4075791,
+        "observer_full_lifetime_peak": "UNKNOWN",
+        "ordinary_preparation_RSS": "UNKNOWN",
+        "full_child_exit_retained": true
+      }
+    },
+    {
+      "stage": "seal",
+      "receipt_sha256": "f3c4bc2f9fdda2f510ad23aab23f020ce51184acc793600afff5a0a99ee0b16c",
+      "data": {
+        "success": true,
+        "error": null,
+        "wall_seconds": 6.157030481030233,
+        "peak_RSS_bytes": 40202240,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 13265672,
+        "observer_full_lifetime_peak": "UNKNOWN",
+        "ordinary_preparation_RSS": "UNKNOWN",
+        "full_child_exit_retained": true
+      }
+    },
+    {
+      "stage": "validate",
+      "receipt_sha256": "5866f6afa65c854692aa1c88ac7808ecb4cb2124ede0a508c94f619ba22b6d1d",
+      "data": {
+        "success": true,
+        "error": null,
+        "wall_seconds": 1.2645240949932486,
+        "peak_RSS_bytes": 67117056,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 13317277,
+        "observer_full_lifetime_peak": "UNKNOWN",
+        "ordinary_preparation_RSS": "UNKNOWN",
+        "full_child_exit_retained": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "passed": true,
+  "original_wheel": "/root/autodl-tmp/rap-migration-20261106/gtsam-original-wheel/gtsam-4.2-cp310-cp310-manylinux2014_x86_64.whl",
+  "original_sha256": "979b7c886724ac403d5c323613fd9800c8ac7ab224e2909faa8b266e5de742b2",
+  "derived_wheel": "/root/autodl-tmp/rap-migration-20261106/gtsam-derived-wheel/gtsam-4.2-cp310-cp310-manylinux2014_x86_64.whl",
+  "derived_sha256": "29385d4c0bcf58d02990f9e8e67abe282fe021c3fc7f44b4584107a1f10db140",
+  "old_tag": "cp310-cp310-none-manylinux2014_x86_64",
+  "corrected_tag_from_published_filename": "cp310-cp310-manylinux2014_x86_64",
+  "changed_members": [
+    "gtsam-4.2.dist-info/WHEEL",
+    "gtsam-4.2.dist-info/RECORD"
+  ],
+  "all_other_member_bytes_unchanged": true,
+  "unchanged_members": [
+    {
+      "path": "gtsam/__init__.py",
+      "bytes": 1187,
+      "sha256": "6f6bcb81f71684ca8eafa5b2dd84d58c4b165796370cbdea066953105989220d"
+    },
+    {
+      "path": "gtsam/gtsam.cpython-310-x86_64-linux-gnu.so",
+      "bytes": 22447000,
+      "sha256": "0e859c609c5c3576dd8109cc5ac456f086bf45ea3f43674a0fd8316bd973d106"
+    },
+    {
+      "path": "gtsam/gtsfm.py",
+      "bytes": 202,
+      "sha256": "51d9646faa3989493af6ec4191bf3cf96d462dfbb583c892b9994bbbe451534a"
+    },
+    {
+      "path": "gtsam/imuBias.py",
+      "bytes": 209,
+      "sha256": "b73ddb382165dbd88cc9c6c616817eb9dea446c2588c0ec3276449a0a3c5454f"
+    },
+    {
+      "path": "gtsam/noiseModel.py",
+      "bytes": 217,
+      "sha256": "c9b7c81dae2c2d77bbf3f93e0e26fc9d36b0df80515ea10356d4b607d77348ed"
+    },
+    {
+      "path": "gtsam/symbol_shorthand.py",
+      "bytes": 235,
+      "sha256": "8f5f838799d7430f04d0d59124502015db71d19578b3c0d8f9106cbbe6f29e95"
+    },
+    {
+      "path": "gtsam/Data/.gitignore",
+      "bytes": 6,
+      "sha256": "a41dcbdfa6856c6da8afa74cfe2a98a6234a827494f17cd91b15e5fd93d14ad7"
+    },
+    {
+      "path": "gtsam/Data/18pointExample1.txt",
+      "bytes": 1789,
+      "sha256": "4a99d894dd984b3d76d82a59584c6da64df3f4c4ced058ef4aba282f8bdcde65"
+    },
+    {
+      "path": "gtsam/Data/5pointExample1.txt",
+      "bytes": 505,
+      "sha256": "e6132b92bcf43cedfa9202865676735dd607c21e27b2bce0b6294661f59862e2"
+    },
+    {
+      "path": "gtsam/Data/5pointExample2.txt",
+      "bytes": 499,
+      "sha256": "36436297d960ba1ea9a45011c71290103506247fa728822a28fef70ed576f99a"
+    },
+    {
+      "path": "gtsam/Data/Balbianello.out",
+      "bytes": 70747,
+      "sha256": "ac0c2338b12fb15f286e6a7830c81bf7d6c84f3dfb030ce164cc6fbc9fffe7d0"
+    },
+    {
+      "path": "gtsam/Data/HS21.QPS",
+      "bytes": 461,
+      "sha256": "c08c261b8361b00d130d4a45873ad3676b5bf3d3f5890b0fe1ef48c86ddc99d2"
+    },
+    {
+      "path": "gtsam/Data/HS268.QPS",
+      "bytes": 1966,
+      "sha256": "5b0519cc4af9e9356162a28a36ab89ab25f017d3f39231f9664580776a0095d1"
+    },
+    {
+      "path": "gtsam/Data/HS35.QPS",
+      "bytes": 536,
+      "sha256": "f5376f5235a0cbeaadd81e7172c4b2dc5e5570bbac60be31f8b739b043ba204f"
+    },
+    {
+      "path": "gtsam/Data/HS35MOD.QPS",
+      "bytes": 576,
+      "sha256": "ef1f8cf37346f00e9e0c856e7c73231795a7a2f4d871ded19433cde0dcf9966a"
+    },
+    {
+      "path": "gtsam/Data/HS51.QPS",
+      "bytes": 924,
+      "sha256": "9e24eae6fbf333a5b65ad48cd063bdd008f14bd88ef3cbf0b0020aa3c2ec358b"
+    },
+    {
+      "path": "gtsam/Data/HS52.QPS",
+      "bytes": 887,
+      "sha256": "21c9b0824e656f38525bfac21ef79e9921ee9023aaaf068655db2d4031e3bcfa"
+    },
+    {
+      "path": "gtsam/Data/ISAM2_SmartFactorStereo_IMU.txt",
+      "bytes": 26754,
+      "sha256": "5a311ddbc3bf35deb1cade287721b3d7a7eb8e75c9775c520370234ee4949dfd"
+    },
+    {
+      "path": "gtsam/Data/KittiEquivBiasedImu.txt",
+      "bytes": 6648928,
+      "sha256": "90264418a69979eccd6d84eb69560225dff544bf6affe353ea37bb70d4ecf38a"
+    },
+    {
+      "path": "gtsam/Data/KittiEquivBiasedImu_metadata.txt",
+      "bytes": 221,
+      "sha256": "70f51ea40a05f1097484634d60064f16bc1622abcaa872458e555442afa44580"
+    },
+    {
+      "path": "gtsam/Data/KittiGps_converted.txt",
+      "bytes": 42122,
+      "sha256": "aa6f2a1332a40e8cbcd071de650f6b62fc58253e8bef83c8efeb51548dc9102c"
+    },
+    {
+      "path": "gtsam/Data/Klaus3.g2o",
+      "bytes": 1235,
+      "sha256": "28a134d684e53ae7d60cebb4c02a75897f01b561d2958dcdd1d2a07741d9be29"
+    },
+    {
+      "path": "gtsam/Data/Plaza1_.mat",
+      "bytes": 677168,
+      "sha256": "9ccbfec19942eabecfa3206bff983bf708b98d6c7db462d81c55376f92d75847"
+    },
+    {
+      "path": "gtsam/Data/Plaza1_DR.txt",
+      "bytes": 772560,
+      "sha256": "41233e2e97d482c12a6cd074583c15fb47918d015a3d59e90d8b3b3cfba8b09d"
+    },
+    {
+      "path": "gtsam/Data/Plaza1_TD.txt",
+      "bytes": 374074,
+      "sha256": "56b6cdd86327da38143c0f2b2a3e4337908e1d3447c32b2897005ebbd3326be8"
+    },
+    {
+      "path": "gtsam/Data/Plaza2_.mat",
+      "bytes": 296733,
+      "sha256": "72f0abe0fea2050eb5ee1cffc8c43823266a35785b7cdecac4ec5eae727561a2"
+    },
+    {
+      "path": "gtsam/Data/Plaza2_DR.txt",
+      "bytes": 327200,
+      "sha256": "afd63364d0650e90ca1a9f13ceb9105104f52ab6768beb1cdf584ab9aada024e"
+    },
+    {
+      "path": "gtsam/Data/Plaza2_TD.txt",
+      "bytes": 192496,
+      "sha256": "05e884e9e131b805db71bacd345b8606e8d53fe21a6b5a3acbbb4f33d0a68cfd"
+    },
+    {
+      "path": "gtsam/Data/QPExample.QPS",
+      "bytes": 551,
+      "sha256": "de0c6e141099eff3c1b4930fb8d8ed65b42f4cff424cbc2ae8a52dd5e4b85d7b"
+    },
+    {
+      "path": "gtsam/Data/QPTEST.QPS",
+      "bytes": 494,
+      "sha256": "facb80ff5a9a6e2085ccf8b2ab056df23180747c59747e83e0aa8b85583e5d6d"
+    },
+    {
+      "path": "gtsam/Data/VO_calibration.txt",
+      "bytes": 50,
+      "sha256": "205d3e52502db41bcf5fc55cb4b6c0fe23a9348da9197af1b5ae8ce60a98ad10"
+    },
+    {
+      "path": "gtsam/Data/VO_calibration00.txt",
+      "bytes": 50,
+      "sha256": "3ddfb990bab2b301b86c332582ea6425a17a4ef2664957062c8089bf997012e6"
+    },
+    {
+      "path": "gtsam/Data/VO_calibration00s.txt",
+      "bytes": 50,
+      "sha256": "3ddfb990bab2b301b86c332582ea6425a17a4ef2664957062c8089bf997012e6"
+    },
+    {
+      "path": "gtsam/Data/VO_camera_poses00.txt",
+      "bytes": 25825,
+      "sha256": "b3538a08a1efaf1c805a81eeb742e877d3ad1827783ff5f2b4544f350b8b7893"
+    },
+    {
+      "path": "gtsam/Data/VO_camera_poses00s.txt",
+      "bytes": 15053,
+      "sha256": "062c876b63746eb748b069628fbe9144533d904dcec79fe05874db1ffd85dcff"
+    },
+    {
+      "path": "gtsam/Data/VO_camera_poses_large.txt",
+      "bytes": 4949,
+      "sha256": "fb0fbc8d79a424d330a31913c93d49a1be0a0e084734e8f1897793f0ee12369f"
+    },
+    {
+      "path": "gtsam/Data/VO_stereo_factors00.txt",
+      "bytes": 5150539,
+      "sha256": "d05d5e9948676c702c60ce7ed5d7db7c4cbfb4dd2b3f2987e8eacb00000b2e87"
+    },
+    {
+      "path": "gtsam/Data/VO_stereo_factors00s.txt",
+      "bytes": 3030190,
+      "sha256": "e66b9ce0cc4bee456961164a1c9a5e59b229675ef4610f2cc4932391c5a4fd1d"
+    },
+    {
+      "path": "gtsam/Data/VO_stereo_factors_large.txt",
+      "bytes": 461312,
+      "sha256": "cf8ef07229696d5132d6a861ae2bbddf833405f94650a69fd6dc3bd2a611199d"
+    },
+    {
+      "path": "gtsam/Data/dubrovnik-1-1-pre.txt",
+      "bytes": 325,
+      "sha256": "fea608ed1dc1143a94107195b612de3c0cbdd00f20be98f688673d8ce8194fe0"
+    },
+    {
+      "path": "gtsam/Data/dubrovnik-3-7-18-pre.txt",
+      "bytes": 1766,
+      "sha256": "921acc1df66c35dfd8f94f8534e69168ff639511bd47a548e4a1ba1fbde240e1"
+    },
+    {
+      "path": "gtsam/Data/dubrovnik-3-7-pre.txt",
+      "bytes": 1800,
+      "sha256": "e16143478ff45b9e2dd151b2b153fa494455c2355a8381f68169ffa0f9be3fbc"
+    },
+    {
+      "path": "gtsam/Data/example.graph",
+      "bytes": 33069,
+      "sha256": "388ea4254a2f999d63323051d1e11922dbcfa9c0703d180fa38df39ce3f46247"
+    },
+    {
+      "path": "gtsam/Data/example_with_vertices.g2o",
+      "bytes": 847,
+      "sha256": "325855c1a4d33d140d8e746c60dd48274a4982a480cbfd24b883604e75707242"
+    },
+    {
+      "path": "gtsam/Data/imuAndGPSdata.csv",
+      "bytes": 623728,
+      "sha256": "655ffde152b549bbdfa3eeb8083ad87fad04dc8d0e13c8408d76b65e3d7e4502"
+    },
+    {
+      "path": "gtsam/Data/noisyToyGraph.txt",
+      "bytes": 637,
+      "sha256": "9b2d2930cf50b2b2c756172f50c34503c41644e529727bd7a4960f6e785ff859"
+    },
+    {
+      "path": "gtsam/Data/optimizedNoisyToyGraph.txt",
+      "bytes": 635,
+      "sha256": "08f1962a9aff2971151b31e9535df199d83de065a5f194f794e55451f95e4767"
+    },
+    {
+      "path": "gtsam/Data/orientationsNoisyToyGraph.txt",
+      "bytes": 633,
+      "sha256": "bc2ab0aae5cd3d07d639d1725714475bcae25f42300f1d78952c0f71b1abbe40"
+    },
+    {
+      "path": "gtsam/Data/pose2example.txt",
+      "bytes": 1632,
+      "sha256": "578f33a41273d7e7be0bd542e9a6bc8963bbb86c33891f4851d07b633035ec8f"
+    },
+    {
+      "path": "gtsam/Data/pose3Localizationexample.txt",
+      "bytes": 1658,
+      "sha256": "74dceb38b90c2259174a3e2006350b84dda954467cece231f77f3de50e015014"
+    },
+    {
+      "path": "gtsam/Data/pose3example-grid.txt",
+      "bytes": 8482,
+      "sha256": "8b4223efe214fcc2cdcd0cfabfcc8b85e957b8afb9119657477ca8ad96b9208c"
+    },
+    {
+      "path": "gtsam/Data/pose3example-offdiagonal-rewritten.txt",
+      "bytes": 256,
+      "sha256": "4d42830512c9b224aaf441de3ebe98802cd9f5d988f5e03099e61b525960d929"
+    },
+    {
+      "path": "gtsam/Data/pose3example-offdiagonal.txt",
+      "bytes": 471,
+      "sha256": "13311fab15d7c419071d6085c94104484998ec95769e29124f94ef555b37347a"
+    },
+    {
+      "path": "gtsam/Data/pose3example.txt",
+      "bytes": 2282,
+      "sha256": "bd92c6ed222b75769c1301aae1290af66ea6172ac3266b341697980a4976eebb"
+    },
+    {
+      "path": "gtsam/Data/quadraped_imu_data.csv",
+      "bytes": 848654,
+      "sha256": "917cd1bbcfddfdcc8a3c1b48e898b9d0d99161e84f82b5244f19117c5e4fcb83"
+    },
+    {
+      "path": "gtsam/Data/randomGrid3D.xml",
+      "bytes": 126077,
+      "sha256": "02f9de42a983cd8819e3cf5c20464dbcb8a1ee8007e1aa2a3bce2c4f2e36b598"
+    },
+    {
+      "path": "gtsam/Data/simpleGraph10gradIter.txt",
+      "bytes": 2247,
+      "sha256": "c313fb7b8328eae3f19cbb8c828c35b77df73ac73997d0da1a88c0c448fdf8c7"
+    },
+    {
+      "path": "gtsam/Data/sphere2500.txt",
+      "bytes": 618297,
+      "sha256": "4b9418a300e6ec3ec0a4223e13b0febb068d18f9a008ebb59c1b9f262626e552"
+    },
+    {
+      "path": "gtsam/Data/sphere2500_groundtruth.txt",
+      "bytes": 633111,
+      "sha256": "b9cfd29c951586bf9afc09bb8f88bf67b7436e6c988a3e208e126e7d77b4520a"
+    },
+    {
+      "path": "gtsam/Data/sphere_smallnoise.graph",
+      "bytes": 793977,
+      "sha256": "5087ee16e462cdd80d4a1f422df48fdfec8586607180ae78971ace97f31efc09"
+    },
+    {
+      "path": "gtsam/Data/toy3D.xml",
+      "bytes": 6073,
+      "sha256": "c4b8dc844963d569d787260a960de33ddf4fd702f656c55d16eb4288bc897e16"
+    },
+    {
+      "path": "gtsam/Data/toyExample.g2o",
+      "bytes": 869,
+      "sha256": "d3f97f27670fd890c6c53a8c58f0a12e53417a4c7198dcf84d425892eba820b9"
+    },
+    {
+      "path": "gtsam/Data/victoria_park.txt",
+      "bytes": 685277,
+      "sha256": "10596bac625acfe009080748b0ec9993fc9925a93370878c20288a22eeee5253"
+    },
+    {
+      "path": "gtsam/Data/w100.graph",
+      "bytes": 20262,
+      "sha256": "00e68e8ba3985213814862f53a533916a005c2b40d374d840f6d069d91abaa06"
+    },
+    {
+      "path": "gtsam/Data/w10000.graph",
+      "bytes": 4203673,
+      "sha256": "1e88f220bd580a4c2b9fc065358608a53b26b1c30033405990b4cdc83236fc89"
+    },
+    {
+      "path": "gtsam/Data/w20000.txt",
+      "bytes": 1867785,
+      "sha256": "9690b10bc2c7f2cebfb1969dd1643b5813aa3db50b40d98685c36c4eeae69c57"
+    },
+    {
+      "path": "gtsam/Data/Balbianello/BalbianelloMedium-1.jpg",
+      "bytes": 102899,
+      "sha256": "420db7f69ee7a1e2ac24dee66723fed738e8fe90e158fd1a174da3245137fd5a"
+    },
+    {
+      "path": "gtsam/Data/Balbianello/BalbianelloMedium-1.key.gz",
+      "bytes": 332878,
+      "sha256": "4604fbb555d73b0bc3ba0db44d6fbdc6da1e3b775248f305d67f4368ac5dac8c"
+    },
+    {
+      "path": "gtsam/Data/Balbianello/BalbianelloMedium-2.jpg",
+      "bytes": 93154,
+      "sha256": "6aee777d0b0bb76a94d995c19f9322d5296a8303099e772dd620dec61696a341"
+    },
+    {
+      "path": "gtsam/Data/Balbianello/BalbianelloMedium-2.key.gz",
+      "bytes": 281303,
+      "sha256": "34af9960cdd505f5b42321aaf87e96d2de835bcd488ba7b5a6cf56065f9c5f8a"
+    },
+    {
+      "path": "gtsam/Data/Balbianello/BalbianelloMedium-3.jpg",
+      "bytes": 102182,
+      "sha256": "979269582e53d847deebcbd038fca9e0d56e183142059802594502a005ef2b0d"
+    },
+    {
+      "path": "gtsam/Data/Balbianello/BalbianelloMedium-3.key.gz",
+      "bytes": 296236,
+      "sha256": "c8d31ccaac1908e8fd146fbaa9743dc61263a4cd77e5c4c125894e5011b4ae74"
+    },
+    {
+      "path": "gtsam/Data/Balbianello/BalbianelloMedium-4.jpg",
+      "bytes": 96414,
+      "sha256": "6b6b0420f2078031e31cf4db8627b7e4cbb099d33c72cc3c033944e9b7ca458d"
+    },
+    {
+      "path": "gtsam/Data/Balbianello/BalbianelloMedium-4.key.gz",
+      "bytes": 283418,
+      "sha256": "3fab6edc9980d0d2a570561d8187334ce1f3f48455cf6da31eca1f517f98eb56"
+    },
+    {
+      "path": "gtsam/Data/Balbianello/BalbianelloMedium-5.jpg",
+      "bytes": 85882,
+      "sha256": "af87dafcfa6dfcbd108c524e5b1f91e15fe983537a2f9fb032705c61c498a236"
+    },
+    {
+      "path": "gtsam/Data/Balbianello/BalbianelloMedium-5.key.gz",
+      "bytes": 241361,
+      "sha256": "e2f783af145d2c7f24d43221823d7df38322b59ee7016a170d64d6c97baeecb8"
+    },
+    {
+      "path": "gtsam/examples/CustomFactorExample.py",
+      "bytes": 6263,
+      "sha256": "21e27166b04d635207660dcaab59fb92cc7eadd3e55017145bee8e8dd5cc3e84"
+    },
+    {
+      "path": "gtsam/examples/DogLegOptimizerExample.py",
+      "bytes": 4094,
+      "sha256": "fe099ce2c83cde3d2ca2cd9b8edb17715a225b8877ecfbc4be443f3fa8e64db2"
+    },
+    {
+      "path": "gtsam/examples/GPSFactorExample.py",
+      "bytes": 1764,
+      "sha256": "856157f23e84f7f7017844d56932b1663f79d762483f34c2838774180903384e"
+    },
+    {
+      "path": "gtsam/examples/IMUKittiExampleGPS.py",
+      "bytes": 14632,
+      "sha256": "c5602e2c40505f6ae100c0c8068b820ceaf5dd63d96582e4f304576d62580d7e"
+    },
+    {
+      "path": "gtsam/examples/ImuFactorExample.py",
+      "bytes": 8618,
+      "sha256": "a49ebc97d32bf74901894697cc477471ec032afac2460ae1387ed0fbada30449"
+    },
+    {
+      "path": "gtsam/examples/ImuFactorISAM2Example.py",
+      "bytes": 5724,
+      "sha256": "1bd1d2ded1c0a77a6531fba516db31135991e3aef0497969a0d0fc1a36ea6f23"
+    },
+    {
+      "path": "gtsam/examples/OdometryExample.py",
+      "bytes": 2629,
+      "sha256": "57ebbfdc4feddbbbd92cd48660f504df4f97a7ec94cbf50563f35b65332ed797"
+    },
+    {
+      "path": "gtsam/examples/PlanarManipulatorExample.py",
+      "bytes": 11286,
+      "sha256": "4cb59a5cce45ce885268a0354ddaea272dc7e6f1e474112b579a8e52e4b0010d"
+    },
+    {
+      "path": "gtsam/examples/PlanarSLAMExample.py",
+      "bytes": 3697,
+      "sha256": "884f40f8577561c18b1d250f5e5ce547db385177021aa285b453db5db2fb9a6b"
+    },
+    {
+      "path": "gtsam/examples/Pose2ISAM2Example.py",
+      "bytes": 8088,
+      "sha256": "bde10c8870d783598fd3b71e29dafcf4c79e80900ea9abb68a26fbc8aaafa360"
+    },
+    {
+      "path": "gtsam/examples/Pose2SLAMExample.py",
+      "bytes": 4173,
+      "sha256": "ffdb10f6d60b1ef92e05330b6825b1fd98e0a2c48226ab42dac801f6efa8421b"
+    },
+    {
+      "path": "gtsam/examples/Pose2SLAMExample_g2o.py",
+      "bytes": 3258,
+      "sha256": "1fa7d02d1a27069726c084bc49b0fc0d2aafe0ceb62c2d8bc25529d5a131b339"
+    },
+    {
+      "path": "gtsam/examples/Pose2SLAMExample_lago.py",
+      "bytes": 2327,
+      "sha256": "c1d9891a24f7999a175b550c7cc33ccd21998eb75598a65c1a0025f6d3cec8f8"
+    },
+    {
+      "path": "gtsam/examples/Pose3ISAM2Example.py",
+      "bytes": 9664,
+      "sha256": "a5348046bf7b4a953da282932bcaa005621d086b5ca1a8e37b6e55ebb062cb21"
+    },
+    {
+      "path": "gtsam/examples/Pose3SLAMExample_g2o.py",
+      "bytes": 2555,
+      "sha256": "89e8b6503f0bee8f5791238b987cbc70023788f7156d804f3beceb6926eafc27"
+    },
+    {
+      "path": "gtsam/examples/Pose3SLAMExample_initializePose3Chordal.py",
+      "bytes": 1071,
+      "sha256": "d12817ec296b4730016c2aad34ddd9a9a091f76a7fb8eb46a142738b0b187ce4"
+    },
+    {
+      "path": "gtsam/examples/PreintegrationExample.py",
+      "bytes": 6207,
+      "sha256": "e30f06d10ee345e840f017830226526552f4e4faad5fd46124fc71e3f272c785"
+    },
+    {
+      "path": "gtsam/examples/SFMExample.py",
+      "bytes": 5240,
+      "sha256": "1bd9ac43ee6cb2229ae4b86195dda086bf4c868d8e6e59ede6f297a19cf4ae30"
+    },
+    {
+      "path": "gtsam/examples/SFMExample_bal.py",
+      "bytes": 4529,
+      "sha256": "a8ba893aecf86e61b62908f8e263bda40e6c47f4f14090c657d1098f9e44d554"
+    },
+    {
+      "path": "gtsam/examples/SFMdata.py",
+      "bytes": 1269,
+      "sha256": "773ab8f31197fd29b9cecd345ce05faeb64069bb5303ca1d5f03c000af15c941"
+    },
+    {
+      "path": "gtsam/examples/ShonanAveragingCLI.py",
+      "bytes": 4298,
+      "sha256": "4978df6e382d0447dbee06b70977d465ae23dc78c53201959c5c18b5df053ce9"
+    },
+    {
+      "path": "gtsam/examples/SimpleRotation.py",
+      "bytes": 2862,
+      "sha256": "dd90117a28ebd3c1d30f003f1e5e3c80181c111bddd618e5f58512546413c034"
+    },
+    {
+      "path": "gtsam/examples/TranslationAveragingExample.py",
+      "bytes": 6170,
+      "sha256": "daff53ec444e8650d75f275d807e307d32c102ded1f0cf0829ce740704428713"
+    },
+    {
+      "path": "gtsam/examples/VisualISAM2Example.py",
+      "bytes": 5774,
+      "sha256": "a8e8205550353fc4747f5fd09785d44204aabbc0a36a71e82bdfa6c058961388"
+    },
+    {
+      "path": "gtsam/examples/VisualISAMExample.py",
+      "bytes": 4033,
+      "sha256": "18eafc870a3fd2535f9e4b47cce57fb3a002423f6a563163260f05ee1f6e4867"
+    },
+    {
+      "path": "gtsam/examples/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "gtsam/utils/__init__.py",
+      "bytes": 678,
+      "sha256": "fc80fba5bd7748365e7606b929d06aa4fba0e0f5b7794dd31dd545ff78eb6a44"
+    },
+    {
+      "path": "gtsam/utils/circlePose3.py",
+      "bytes": 1358,
+      "sha256": "164bb6796a69ba43ac9b47639707b38e65688b3d95377b484e9cd84d403d9042"
+    },
+    {
+      "path": "gtsam/utils/logging_optimizer.py",
+      "bytes": 4417,
+      "sha256": "b519f340a578793e5d8d2d0e8f2e49ece1aeee85518d9c3b2618ebc7f5505535"
+    },
+    {
+      "path": "gtsam/utils/plot.py",
+      "bytes": 19365,
+      "sha256": "7b4ad2ef5b247548c91dbd8581a60b0fb0468dc588899c5ea7d702008d1635c7"
+    },
+    {
+      "path": "gtsam/utils/test_case.py",
+      "bytes": 1461,
+      "sha256": "299c464c070dedc25e57529e9bfc8ae46b36e4e446665ca0d0ebcb1d08609379"
+    },
+    {
+      "path": "gtsam/utils/visual_data_generator.py",
+      "bytes": 4232,
+      "sha256": "f6c222c8cfad797bf5e7a76e5e49d17458911a09e9ec9a7413f4a323dc7a3692"
+    },
+    {
+      "path": "gtsam/utils/visual_isam.py",
+      "bytes": 4758,
+      "sha256": "698b00195e1431f7c357c85bcfc47a62d4e6f9038b0e644fcd93aeac725ed3b3"
+    },
+    {
+      "path": "gtsam_unstable/__init__.py",
+      "bytes": 30,
+      "sha256": "14f73fa0ee4f15065badfa60ba0cd0b88e8b25f3f57f3abcd9441ffe7bb21ad9"
+    },
+    {
+      "path": "gtsam_unstable/gtsam_unstable.cpython-310-x86_64-linux-gnu.so",
+      "bytes": 6343936,
+      "sha256": "aeef12973c16240a353932e53d40d3a7ecd34c85d5a457b13518a7e469ea5ab9"
+    },
+    {
+      "path": "gtsam_unstable/examples/FixedLagSmootherExample.py",
+      "bytes": 3255,
+      "sha256": "10a93db0279500a292e589e70952832821fefd49898938655198496dfb785f1c"
+    },
+    {
+      "path": "gtsam_unstable/examples/TimeOfArrivalExample.py",
+      "bytes": 3717,
+      "sha256": "37cfef282e255a45088c97bf9555d2f237b50bf2bb551ebb2ea101d2ae258888"
+    },
+    {
+      "path": "gtsam_unstable/examples/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "gtsam_unstable/tests/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "gtsam_unstable/tests/test_FixedLagSmootherExample.py",
+      "bytes": 4587,
+      "sha256": "6a76519b41fab09b84590cc1e983537e0f690e571892ad6e57698e270d015506"
+    },
+    {
+      "path": "gtsam_unstable/tests/test_ProjectionFactorRollingShutter.py",
+      "bytes": 2156,
+      "sha256": "b7697adae5a85df8eb33ca07ea8815eccdb45a34d8299e0249f7ab76eacc218d"
+    },
+    {
+      "path": "gtsam-4.2.dist-info/METADATA",
+      "bytes": 7589,
+      "sha256": "356f6883877697be39c3a9f553197a009a6023d87c5a12a376206d655af0d619"
+    },
+    {
+      "path": "gtsam-4.2.dist-info/top_level.txt",
+      "bytes": 21,
+      "sha256": "3498da506183a66c47f106721540d62f762ce390d19c7f69133a9ae7e7272f81"
+    }
+  ],
+  "package_version_unchanged": "4.2",
+  "numerical_source_or_binary_modified": false,
+  "specification": "https://packaging.python.org/en/latest/specifications/binary-distribution-format/"
+}

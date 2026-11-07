@@ -1,0 +1,159 @@
+{
+  "passed": true,
+  "dossiers": [
+    {
+      "name": "activated-adapter-derivatives-01",
+      "seal": "DELIVERY_SEAL.json",
+      "entries": 149,
+      "status": {
+        "utc": "2026-10-13T06:24:26.733530+00:00",
+        "status": "VALIDATED_ACTIVATED_ADAPTER_DERIVATIVE_CONTROL_COMPLETE",
+        "decision": "ACTIVATED_ADAPTER_ALL_GROUP_DERIVATIVE_CORROBORATION_PASS",
+        "all_directions_corroborated": true,
+        "optimizer_calls": 0,
+        "retained_updates": 0,
+        "native_fit_admitted": false,
+        "whole_native_function_equivalence": false,
+        "old_NOC4": "INCOMPLETE"
+      }
+    },
+    {
+      "name": "shadow-sampler-extraction-01",
+      "seal": "DELIVERY_SEAL.json",
+      "entries": 97,
+      "status": {
+        "utc": "2026-10-13T06:38:09.013922+00:00",
+        "status": "VALIDATED_SHADOW_SOURCE_SAMPLER_BINDINGS_COMPLETE",
+        "decision": "SHADOW_SOURCE_SAMPLER_EXTRACTION_AND_PRECISION_BINDINGS_VALID",
+        "extraction_and_sampler_conjunction": true,
+        "backwards": 0,
+        "optimizer_calls": 0,
+        "retained_updates": 0,
+        "fit_admitted": false,
+        "original_native_equivalence": false,
+        "old_NOC4": "INCOMPLETE"
+      }
+    },
+    {
+      "name": "shadow-conditioned-fit-pilot-01",
+      "seal": "AVAILABLE_DELIVERY_SEAL.json",
+      "entries": 576,
+      "status": {
+        "utc": "2026-10-13T07:35:59.459328+00:00",
+        "status": "AUDITED_SHADOW_FIT_PILOT_STOP_AT_PREDICTION_ARTIFACT_CAP",
+        "decision": "COMPLETE40_UPDATES_PARTIAL_UNSEALED37_PREDICTIONS_NO_NOISE_RESULT",
+        "scientific_comparison": "INCOMPLETE",
+        "actual_retained_updates": 40,
+        "optimizer_API_calls": 0,
+        "partial_trace_directories": 37,
+        "complete_prediction_bank": false,
+        "conditional_noise_gate_evaluated": false,
+        "resource_artifact_cap_pass": false,
+        "old_NOC4": "INCOMPLETE"
+      }
+    }
+  ],
+  "afternoon_children": [
+    {
+      "folder": "activated-adapter-derivatives-01",
+      "stage": "directions",
+      "success": true,
+      "seconds": 43.139177347999066,
+      "host_exit": 0
+    },
+    {
+      "folder": "activated-adapter-derivatives-01",
+      "stage": "freeze",
+      "success": true,
+      "seconds": 18.86185301099613,
+      "host_exit": 0
+    },
+    {
+      "folder": "activated-adapter-derivatives-01",
+      "stage": "probe",
+      "success": true,
+      "seconds": 47.7055594179983,
+      "host_exit": 0
+    },
+    {
+      "folder": "activated-adapter-derivatives-01",
+      "stage": "repeat",
+      "success": true,
+      "seconds": 19.25326570199104,
+      "host_exit": 0
+    },
+    {
+      "folder": "activated-adapter-derivatives-01",
+      "stage": "validate",
+      "success": true,
+      "seconds": 43.44749257199874,
+      "host_exit": 0
+    },
+    {
+      "folder": "shadow-sampler-extraction-01",
+      "stage": "bank",
+      "success": true,
+      "seconds": 80.008801176009,
+      "host_exit": 0
+    },
+    {
+      "folder": "shadow-sampler-extraction-01",
+      "stage": "freeze",
+      "success": true,
+      "seconds": 13.611154874000931,
+      "host_exit": 0
+    },
+    {
+      "folder": "shadow-sampler-extraction-01",
+      "stage": "validate",
+      "success": true,
+      "seconds": 38.633696845994564,
+      "host_exit": 0
+    },
+    {
+      "folder": "shadow-conditioned-fit-pilot-01",
+      "stage": "fit",
+      "success": true,
+      "seconds": 102.67229431400483,
+      "host_exit": 0
+    },
+    {
+      "folder": "shadow-conditioned-fit-pilot-01",
+      "stage": "freeze",
+      "success": true,
+      "seconds": 19.05705637500796,
+      "host_exit": 0
+    },
+    {
+      "folder": "shadow-conditioned-fit-pilot-01",
+      "stage": "predict",
+      "success": false,
+      "seconds": 197.86407457001042,
+      "host_exit": 1
+    },
+    {
+      "folder": "shadow-conditioned-fit-pilot-01",
+      "stage": "preflight",
+      "success": true,
+      "seconds": 28.882944513999973,
+      "host_exit": 0
+    },
+    {
+      "folder": "shadow-conditioned-fit-pilot-01",
+      "stage": "validate_fit",
+      "success": true,
+      "seconds": 74.15731278700696,
+      "host_exit": 0
+    }
+  ],
+  "afternoon_children_count": 13,
+  "afternoon_success_count": 12,
+  "retained_artifact_failure_count": 1,
+  "afternoon_scientific_seconds": 727.2946835070179,
+  "actual_retained_shadow_updates": 40,
+  "optimizer_API_calls": 0,
+  "HFIT_comparison_INCOMPLETE": true,
+  "no_heldout_noise_metrics": true,
+  "all_task_scientific_children_exited": true,
+  "scientific_replay": false
+}

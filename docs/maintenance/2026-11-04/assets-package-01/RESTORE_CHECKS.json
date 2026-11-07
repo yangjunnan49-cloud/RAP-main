@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "observed_utc": "2026-11-04T07:58:17.401282+00:00",
+  "cases": [
+    {
+      "case": "weights",
+      "restored_regular_files": 5,
+      "bytes": 686395153,
+      "links_recreated": false,
+      "mode_permission_or_full_target_restore_validated": false,
+      "destination": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-11-04\\assets-package-01\\a5-restore-check-3xwr2ybr\\weights",
+      "all_restored_bytes_sha256_matched": true,
+      "source_asset_ids": [
+        "rap-main:weights/.cache/huggingface/.gitignore",
+        "rap-main:weights/.cache/huggingface/CACHEDIR.TAG",
+        "rap-main:weights/mini_spinnet_t.pth",
+        "rap-main:weights/rap_model_10.ckpt",
+        "rap-main:weights/rap_model_12.ckpt"
+      ]
+    },
+    {
+      "case": "dataset-reference",
+      "restored_regular_files": 11,
+      "bytes": 3725298,
+      "links_recreated": false,
+      "mode_permission_or_full_target_restore_validated": false,
+      "destination": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-11-04\\assets-package-01\\a5-restore-check-3xwr2ybr\\dataset-reference",
+      "all_restored_bytes_sha256_matched": true,
+      "source_asset_ids": [
+        "datasets:data_odometry_velodyne/dataset/poses/00.txt",
+        "datasets:data_odometry_velodyne/dataset/poses/01.txt",
+        "datasets:data_odometry_velodyne/dataset/poses/02.txt",
+        "datasets:data_odometry_velodyne/dataset/poses/03.txt",
+        "datasets:data_odometry_velodyne/dataset/poses/04.txt",
+        "datasets:data_odometry_velodyne/dataset/poses/05.txt",
+        "datasets:data_odometry_velodyne/dataset/poses/06.txt",
+        "datasets:data_odometry_velodyne/dataset/poses/07.txt",
+        "datasets:data_odometry_velodyne/dataset/poses/08.txt",
+        "datasets:data_odometry_velodyne/dataset/poses/09.txt",
+        "datasets:data_odometry_velodyne/dataset/poses/10.txt"
+      ]
+    },
+    {
+      "case": "external-history",
+      "restored_regular_files": 2,
+      "bytes": 2950,
+      "links_recreated": false,
+      "mode_permission_or_full_target_restore_validated": false,
+      "destination": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-11-04\\assets-package-01\\a5-restore-check-3xwr2ybr\\external-history",
+      "all_restored_bytes_sha256_matched": true,
+      "source_asset_ids": [
+        "codex-records:2026-09-17/referenced-chatgpt-conversation-this-is-an/work/ssh-setup.log",
+        "codex-records:2026-09-17/referenced-chatgpt-conversation-this-is-an/work/ssh-setup.ps1"
+      ]
+    }
+  ],
+  "scratch_preexisting": false,
+  "scratch_directory": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-11-04\\assets-package-01\\a5-restore-check-3xwr2ybr",
+  "generated_successful_test_copies_cleaned": true,
+  "original_assets_deleted_or_modified": false,
+  "full_target_link_permission_restore_validated": false,
+  "model_or_result_array_loading_performed": false
+}

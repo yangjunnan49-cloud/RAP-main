@@ -1,0 +1,60 @@
+{
+  "utc": "2026-10-16T14:09:31.4614645Z",
+  "status": "READ_ONLY_SELECTED_SOURCE_CHAIN_SUBSTANTIATION",
+  "files": [
+    {
+      "path": "config/RAP_inference.yaml",
+      "sha256": "1ccff9bf9f86c44a50a479f542302c4895673abd9d5b85c63d4ea69d0d09ce13",
+      "historical_NBR02_SHA256": "1ccff9bf9f86c44a50a479f542302c4895673abd9d5b85c63d4ea69d0d09ce13",
+      "matched": true
+    },
+    {
+      "path": "config/model/rap_12.yaml",
+      "sha256": "26283fa5ccc2fa2483be653ba0d498058c39390611f8dfd1ca294a5fd6891173",
+      "historical_NBR02_SHA256": "26283fa5ccc2fa2483be653ba0d498058c39390611f8dfd1ca294a5fd6891173",
+      "matched": true
+    },
+    {
+      "path": "config/model/flow_model/point_cloud_dit_12.yaml",
+      "sha256": "6df19dce55f2d3ab18009d44cb32d6f08e868a0e15921fabc9e12d4c8d95c357",
+      "historical_NBR02_SHA256": "6df19dce55f2d3ab18009d44cb32d6f08e868a0e15921fabc9e12d4c8d95c357",
+      "matched": true
+    },
+    {
+      "path": "rectified_point_flow/flow_model/point_cloud_dit.py",
+      "sha256": "dd095019f78cc0bfac6bef767061ec6a5a02244874bc32723dd78510f9e6f974",
+      "historical_NBR02_SHA256": "dd095019f78cc0bfac6bef767061ec6a5a02244874bc32723dd78510f9e6f974",
+      "matched": true
+    },
+    {
+      "path": "rectified_point_flow/flow_model/layer.py",
+      "sha256": "e8e7caabe1da47b8c8aefea0db58ec5ffb910be8fc01b7a541ca6fec345618e8",
+      "historical_NBR02_SHA256": "e8e7caabe1da47b8c8aefea0db58ec5ffb910be8fc01b7a541ca6fec345618e8",
+      "matched": true
+    },
+    {
+      "path": "scripts/maintenance/native_output_capability.py",
+      "sha256": "3351f426597c2f8197c70c743ac099d24d387c6415d26facf05f92b7ab2564b4",
+      "historical_NBR02_SHA256": "3351f426597c2f8197c70c743ac099d24d387c6415d26facf05f92b7ab2564b4",
+      "matched": true
+    },
+    {
+      "path": "scripts/maintenance/native_pose_fit.py",
+      "sha256": "b2d2d751af2888eeb9d45dd1eb62b35ef101d548382c1dbfb98f865dc7072197",
+      "historical_NBR02_SHA256": "b2d2d751af2888eeb9d45dd1eb62b35ef101d548382c1dbfb98f865dc7072197",
+      "matched": true
+    },
+    {
+      "path": "scripts/maintenance/native_conditioned_comparison.py",
+      "sha256": "ab05b3183fd08abc097c181f7e2cc1cd0398e3f798f5127a92a6cdb93f8c6734",
+      "historical_NBR02_SHA256": "ab05b3183fd08abc097c181f7e2cc1cd0398e3f798f5127a92a6cdb93f8c6734",
+      "matched": true
+    }
+  ],
+  "no_nonzero_softcap_configuration_path_identified": true,
+  "new_model_calls": 0,
+  "new_network_requests": 0,
+  "original_scientific_sources_changed": false,
+  "runtime_equivalence": "UNKNOWN",
+  "not_a_new_numerical_result": true
+}

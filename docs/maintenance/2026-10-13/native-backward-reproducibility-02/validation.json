@@ -1,0 +1,690 @@
+{
+  "utc": "2026-10-13T01:21:25.939330+00:00",
+  "passed": true,
+  "traces": 8,
+  "optimizer_calls": 0,
+  "parameters_unchanged_byteexact": true,
+  "independent_loss_max_delta": 5.115907697472721e-12,
+  "V_upstream_max_delta": 2.2737367544323206e-13,
+  "P_output_directional_FD": [
+    {
+      "trace": "P_full1",
+      "direction": 0,
+      "finite_difference": -25205.01825263466,
+      "saved_upstream": -25205.018229484558,
+      "delta": 2.3150103515945375e-05,
+      "bound": 0.25205018252634664
+    },
+    {
+      "trace": "P_full1",
+      "direction": 1,
+      "finite_difference": -22728.691230099685,
+      "saved_upstream": -22728.691227436066,
+      "delta": 2.6636189431883395e-06,
+      "bound": 0.22728691230099687
+    },
+    {
+      "trace": "P_full1",
+      "direction": 2,
+      "finite_difference": 9331.146745154228,
+      "saved_upstream": 9331.146745875478,
+      "delta": 7.212493073893711e-07,
+      "bound": 0.0933114674515423
+    },
+    {
+      "trace": "P_full1",
+      "direction": 3,
+      "finite_difference": -15.954402044826566,
+      "saved_upstream": -15.954401634951122,
+      "delta": 4.0987544380755025e-07,
+      "bound": 0.00015954402044826566
+    },
+    {
+      "trace": "P_full1",
+      "direction": 4,
+      "finite_difference": -11.189687441515161,
+      "saved_upstream": -11.18968804711959,
+      "delta": 6.056044288271778e-07,
+      "bound": 0.00011189687441515163
+    },
+    {
+      "trace": "P_full1",
+      "direction": 5,
+      "finite_difference": 11.170525581860602,
+      "saved_upstream": 11.17052609132508,
+      "delta": 5.094644777159374e-07,
+      "bound": 0.00011170525581860603
+    },
+    {
+      "trace": "P_full1",
+      "direction": 6,
+      "finite_difference": -6.4614308712407365,
+      "saved_upstream": -6.461429379185875,
+      "delta": 1.4920548618846396e-06,
+      "bound": 0.0001
+    },
+    {
+      "trace": "P_full1",
+      "direction": 7,
+      "finite_difference": -33.06647087697456,
+      "saved_upstream": -33.066470704065665,
+      "delta": 1.7290889786636399e-07,
+      "bound": 0.00033066470876974563
+    },
+    {
+      "trace": "P_full1",
+      "direction": 8,
+      "finite_difference": 8.973281452995252,
+      "saved_upstream": 8.973280515604877,
+      "delta": 9.37390375099767e-07,
+      "bound": 0.0001
+    },
+    {
+      "trace": "P_full1",
+      "direction": 9,
+      "finite_difference": 32.189147361805226,
+      "saved_upstream": 32.18914827175864,
+      "delta": 9.099534139522802e-07,
+      "bound": 0.00032189147361805226
+    },
+    {
+      "trace": "P_full1",
+      "direction": 10,
+      "finite_difference": 30.024894385860534,
+      "saved_upstream": 30.024894397651558,
+      "delta": 1.1791023268870049e-08,
+      "bound": 0.00030024894385860534
+    },
+    {
+      "trace": "P_full1",
+      "direction": 11,
+      "finite_difference": -0.4747225403889388,
+      "saved_upstream": -0.4747206645193631,
+      "delta": 1.8758695756737609e-06,
+      "bound": 0.0001
+    },
+    {
+      "trace": "P_cache1",
+      "direction": 0,
+      "finite_difference": -25205.01825263466,
+      "saved_upstream": -25205.018229484558,
+      "delta": 2.3150103515945375e-05,
+      "bound": 0.25205018252634664
+    },
+    {
+      "trace": "P_cache1",
+      "direction": 1,
+      "finite_difference": -22728.691230099685,
+      "saved_upstream": -22728.691227436066,
+      "delta": 2.6636189431883395e-06,
+      "bound": 0.22728691230099687
+    },
+    {
+      "trace": "P_cache1",
+      "direction": 2,
+      "finite_difference": 9331.146745154228,
+      "saved_upstream": 9331.146745875478,
+      "delta": 7.212493073893711e-07,
+      "bound": 0.0933114674515423
+    },
+    {
+      "trace": "P_cache1",
+      "direction": 3,
+      "finite_difference": -15.954402044826566,
+      "saved_upstream": -15.954401634951122,
+      "delta": 4.0987544380755025e-07,
+      "bound": 0.00015954402044826566
+    },
+    {
+      "trace": "P_cache1",
+      "direction": 4,
+      "finite_difference": -11.189687441515161,
+      "saved_upstream": -11.18968804711959,
+      "delta": 6.056044288271778e-07,
+      "bound": 0.00011189687441515163
+    },
+    {
+      "trace": "P_cache1",
+      "direction": 5,
+      "finite_difference": 11.170525581860602,
+      "saved_upstream": 11.17052609132508,
+      "delta": 5.094644777159374e-07,
+      "bound": 0.00011170525581860603
+    },
+    {
+      "trace": "P_cache1",
+      "direction": 6,
+      "finite_difference": -6.4614308712407365,
+      "saved_upstream": -6.461429379185875,
+      "delta": 1.4920548618846396e-06,
+      "bound": 0.0001
+    },
+    {
+      "trace": "P_cache1",
+      "direction": 7,
+      "finite_difference": -33.06647087697456,
+      "saved_upstream": -33.066470704065665,
+      "delta": 1.7290889786636399e-07,
+      "bound": 0.00033066470876974563
+    },
+    {
+      "trace": "P_cache1",
+      "direction": 8,
+      "finite_difference": 8.973281452995252,
+      "saved_upstream": 8.973280515604877,
+      "delta": 9.37390375099767e-07,
+      "bound": 0.0001
+    },
+    {
+      "trace": "P_cache1",
+      "direction": 9,
+      "finite_difference": 32.189147361805226,
+      "saved_upstream": 32.18914827175864,
+      "delta": 9.099534139522802e-07,
+      "bound": 0.00032189147361805226
+    },
+    {
+      "trace": "P_cache1",
+      "direction": 10,
+      "finite_difference": 30.024894385860534,
+      "saved_upstream": 30.024894397651558,
+      "delta": 1.1791023268870049e-08,
+      "bound": 0.00030024894385860534
+    },
+    {
+      "trace": "P_cache1",
+      "direction": 11,
+      "finite_difference": -0.4747225403889388,
+      "saved_upstream": -0.4747206645193631,
+      "delta": 1.8758695756737609e-06,
+      "bound": 0.0001
+    },
+    {
+      "trace": "P_full2",
+      "direction": 0,
+      "finite_difference": -25205.01825263466,
+      "saved_upstream": -25205.018229484558,
+      "delta": 2.3150103515945375e-05,
+      "bound": 0.25205018252634664
+    },
+    {
+      "trace": "P_full2",
+      "direction": 1,
+      "finite_difference": -22728.691230099685,
+      "saved_upstream": -22728.691227436066,
+      "delta": 2.6636189431883395e-06,
+      "bound": 0.22728691230099687
+    },
+    {
+      "trace": "P_full2",
+      "direction": 2,
+      "finite_difference": 9331.146745154228,
+      "saved_upstream": 9331.146745875478,
+      "delta": 7.212493073893711e-07,
+      "bound": 0.0933114674515423
+    },
+    {
+      "trace": "P_full2",
+      "direction": 3,
+      "finite_difference": -15.954402044826566,
+      "saved_upstream": -15.954401634951122,
+      "delta": 4.0987544380755025e-07,
+      "bound": 0.00015954402044826566
+    },
+    {
+      "trace": "P_full2",
+      "direction": 4,
+      "finite_difference": -11.189687441515161,
+      "saved_upstream": -11.18968804711959,
+      "delta": 6.056044288271778e-07,
+      "bound": 0.00011189687441515163
+    },
+    {
+      "trace": "P_full2",
+      "direction": 5,
+      "finite_difference": 11.170525581860602,
+      "saved_upstream": 11.17052609132508,
+      "delta": 5.094644777159374e-07,
+      "bound": 0.00011170525581860603
+    },
+    {
+      "trace": "P_full2",
+      "direction": 6,
+      "finite_difference": -6.4614308712407365,
+      "saved_upstream": -6.461429379185875,
+      "delta": 1.4920548618846396e-06,
+      "bound": 0.0001
+    },
+    {
+      "trace": "P_full2",
+      "direction": 7,
+      "finite_difference": -33.06647087697456,
+      "saved_upstream": -33.066470704065665,
+      "delta": 1.7290889786636399e-07,
+      "bound": 0.00033066470876974563
+    },
+    {
+      "trace": "P_full2",
+      "direction": 8,
+      "finite_difference": 8.973281452995252,
+      "saved_upstream": 8.973280515604877,
+      "delta": 9.37390375099767e-07,
+      "bound": 0.0001
+    },
+    {
+      "trace": "P_full2",
+      "direction": 9,
+      "finite_difference": 32.189147361805226,
+      "saved_upstream": 32.18914827175864,
+      "delta": 9.099534139522802e-07,
+      "bound": 0.00032189147361805226
+    },
+    {
+      "trace": "P_full2",
+      "direction": 10,
+      "finite_difference": 30.024894385860534,
+      "saved_upstream": 30.024894397651558,
+      "delta": 1.1791023268870049e-08,
+      "bound": 0.00030024894385860534
+    },
+    {
+      "trace": "P_full2",
+      "direction": 11,
+      "finite_difference": -0.4747225403889388,
+      "saved_upstream": -0.4747206645193631,
+      "delta": 1.8758695756737609e-06,
+      "bound": 0.0001
+    },
+    {
+      "trace": "P_cache2",
+      "direction": 0,
+      "finite_difference": -25205.01825263466,
+      "saved_upstream": -25205.018229484558,
+      "delta": 2.3150103515945375e-05,
+      "bound": 0.25205018252634664
+    },
+    {
+      "trace": "P_cache2",
+      "direction": 1,
+      "finite_difference": -22728.691230099685,
+      "saved_upstream": -22728.691227436066,
+      "delta": 2.6636189431883395e-06,
+      "bound": 0.22728691230099687
+    },
+    {
+      "trace": "P_cache2",
+      "direction": 2,
+      "finite_difference": 9331.146745154228,
+      "saved_upstream": 9331.146745875478,
+      "delta": 7.212493073893711e-07,
+      "bound": 0.0933114674515423
+    },
+    {
+      "trace": "P_cache2",
+      "direction": 3,
+      "finite_difference": -15.954402044826566,
+      "saved_upstream": -15.954401634951122,
+      "delta": 4.0987544380755025e-07,
+      "bound": 0.00015954402044826566
+    },
+    {
+      "trace": "P_cache2",
+      "direction": 4,
+      "finite_difference": -11.189687441515161,
+      "saved_upstream": -11.18968804711959,
+      "delta": 6.056044288271778e-07,
+      "bound": 0.00011189687441515163
+    },
+    {
+      "trace": "P_cache2",
+      "direction": 5,
+      "finite_difference": 11.170525581860602,
+      "saved_upstream": 11.17052609132508,
+      "delta": 5.094644777159374e-07,
+      "bound": 0.00011170525581860603
+    },
+    {
+      "trace": "P_cache2",
+      "direction": 6,
+      "finite_difference": -6.4614308712407365,
+      "saved_upstream": -6.461429379185875,
+      "delta": 1.4920548618846396e-06,
+      "bound": 0.0001
+    },
+    {
+      "trace": "P_cache2",
+      "direction": 7,
+      "finite_difference": -33.06647087697456,
+      "saved_upstream": -33.066470704065665,
+      "delta": 1.7290889786636399e-07,
+      "bound": 0.00033066470876974563
+    },
+    {
+      "trace": "P_cache2",
+      "direction": 8,
+      "finite_difference": 8.973281452995252,
+      "saved_upstream": 8.973280515604877,
+      "delta": 9.37390375099767e-07,
+      "bound": 0.0001
+    },
+    {
+      "trace": "P_cache2",
+      "direction": 9,
+      "finite_difference": 32.189147361805226,
+      "saved_upstream": 32.18914827175864,
+      "delta": 9.099534139522802e-07,
+      "bound": 0.00032189147361805226
+    },
+    {
+      "trace": "P_cache2",
+      "direction": 10,
+      "finite_difference": 30.024894385860534,
+      "saved_upstream": 30.024894397651558,
+      "delta": 1.1791023268870049e-08,
+      "bound": 0.00030024894385860534
+    },
+    {
+      "trace": "P_cache2",
+      "direction": 11,
+      "finite_difference": -0.4747225403889388,
+      "saved_upstream": -0.4747206645193631,
+      "delta": 1.8758695756737609e-06,
+      "bound": 0.0001
+    }
+  ],
+  "local_B_linear_checks": [
+    {
+      "trace": "V_full1",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "max_abs": 5.820766091346741e-11,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "V_full1",
+      "module": "transformer_layers.10.global_out_proj",
+      "max_abs": 5.820766091346741e-11,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "V_full1",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "max_abs": 4.656612873077393e-10,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "V_full1",
+      "module": "transformer_layers.11.global_out_proj",
+      "max_abs": 0.0,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": true,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "V_cache1",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "max_abs": 5.820766091346741e-11,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "V_cache1",
+      "module": "transformer_layers.10.global_out_proj",
+      "max_abs": 5.820766091346741e-11,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "V_cache1",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "max_abs": 4.656612873077393e-10,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "V_cache1",
+      "module": "transformer_layers.11.global_out_proj",
+      "max_abs": 0.0,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": true,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "V_full2",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "max_abs": 5.820766091346741e-11,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "V_full2",
+      "module": "transformer_layers.10.global_out_proj",
+      "max_abs": 5.820766091346741e-11,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "V_full2",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "max_abs": 4.656612873077393e-10,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "V_full2",
+      "module": "transformer_layers.11.global_out_proj",
+      "max_abs": 0.0,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": true,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "V_cache2",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "max_abs": 5.820766091346741e-11,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "V_cache2",
+      "module": "transformer_layers.10.global_out_proj",
+      "max_abs": 5.820766091346741e-11,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "V_cache2",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "max_abs": 4.656612873077393e-10,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "V_cache2",
+      "module": "transformer_layers.11.global_out_proj",
+      "max_abs": 0.0,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": true,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "P_full1",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "max_abs": 0.015625,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "P_full1",
+      "module": "transformer_layers.10.global_out_proj",
+      "max_abs": 0.001953125,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "P_full1",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "max_abs": 0.0078125,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "P_full1",
+      "module": "transformer_layers.11.global_out_proj",
+      "max_abs": 0.00390625,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "P_cache1",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "max_abs": 0.015625,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "P_cache1",
+      "module": "transformer_layers.10.global_out_proj",
+      "max_abs": 0.00390625,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "P_cache1",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "max_abs": 0.0078125,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "P_cache1",
+      "module": "transformer_layers.11.global_out_proj",
+      "max_abs": 0.00390625,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "P_full2",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "max_abs": 0.0078125,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "P_full2",
+      "module": "transformer_layers.10.global_out_proj",
+      "max_abs": 0.001953125,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "P_full2",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "max_abs": 0.0078125,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "P_full2",
+      "module": "transformer_layers.11.global_out_proj",
+      "max_abs": 0.00390625,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "P_cache2",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "max_abs": 0.015625,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "P_cache2",
+      "module": "transformer_layers.10.global_out_proj",
+      "max_abs": 0.00390625,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "P_cache2",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "max_abs": 0.0078125,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    },
+    {
+      "trace": "P_cache2",
+      "module": "transformer_layers.11.global_out_proj",
+      "max_abs": 0.00390625,
+      "within_one_fp16_ULP": true,
+      "outside_ULP_values": 0,
+      "byte_equal": false,
+      "scope": "float64 local linear product/fp16 rounding; native GEMM/reduction not independently reimplemented"
+    }
+  ],
+  "all_local_B_within_one_ULP": true,
+  "independent_difference_census": true,
+  "decision": "INSTRUMENTED_BACKWARD_MISMATCH_LOCALIZED",
+  "native_fit_admitted": false,
+  "independent_full_transformer_backward": false
+}

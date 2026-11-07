@@ -1,0 +1,5 @@
+# Logging repair setup records
+
+The first attempt to generate a new supervisor by literal replacement failed on CRLF-versus-LF text matching (`Supervisor replacement site mismatch`) before any new helper/process was created. The subsequent metadata command lacked terminating-error handling, recorded only five existing identities in SUPERVISION_AMENDMENT_FREEZE.json, and failed to launch the absent helper. No scientific evaluation ran. Preserve that incomplete metadata file; it is not an authorization/source freeze for a payload.
+
+The helper was then written explicitly and the complete seven-entry source/failure/validated-bank binding recorded separately in SUPERVISION_AMENDMENT_FREEZE02.json with terminating-error checks before the new launch. AMENDMENT_02's scientific sources/settings remain unchanged. These are bookkeeping/source-preparation failures with no numerical execution, not additional fits or validation attempts. Their full RSS is not recorded and they are excluded from child-payload caps.

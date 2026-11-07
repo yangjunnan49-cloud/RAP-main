@@ -1,0 +1,5 @@
+# Complete-label descriptive readout
+
+Prepared while the sole worker is running, before any RESULTS/ROWS output has been read. After successful complete400-direction exit, first seal the primary outputs and source identities. Join only the old published F2 stratum labels from the same two provider-bound evaluator records, checking their prior parent hashes. Report each of the eight sequence/stratum cells (25pairs/50directions) with all members retained: center-domain and generous-edge occurrence counts, zero generous-upper pairs/directions and unconditional median source-occurrence fractions. No subset/acceptance threshold/model/pose metric follows. Descriptive positive-cell aggregates, if reported, must retain all original75 per sequence and keep all25 confusers separately visible.
+
+This supplementary saved-output join performs no new point/reference/image read or geometry replay. CF1's original900s total includes its readout and closure; no cap reset. Interpretation remains only a supplied-reference source-LiDAR projected-support ceiling, not actual target identity/visibility/texture or image-only geometry impossibility.

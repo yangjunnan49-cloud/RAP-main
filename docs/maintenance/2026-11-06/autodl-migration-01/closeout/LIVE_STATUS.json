@@ -1,0 +1,66 @@
+{
+  "observed_utc": "2026-11-06T09:17:45.128826+00:00",
+  "stage": "FILE_MIGRATION_ACCEPTED",
+  "verified_files": null,
+  "expected_files": 589,
+  "received_bytes": null,
+  "expected_bytes": 125499551391,
+  "latest_file_stage": {
+    "updated_utc": "2026-11-06T05:35:27.016486+00:00",
+    "stage": "FILE_MIGRATION_ACCEPTED"
+  },
+  "public_cache_volumes_published": 19,
+  "public_cache_rebuild_complete": true,
+  "environment_ready": true,
+  "GPU_extension_fixture_passed": true,
+  "actual_file_acceptance": {
+    "completed_utc": "2026-11-06T05:35:27.016351+00:00",
+    "actual_server_file_restore_and_rehash_passed": true,
+    "final_tree": {
+      "passed": true,
+      "files_freshly_rehashed": 112972,
+      "bytes_freshly_rehashed": 135168471508,
+      "server_acceptance_validated": false
+    },
+    "filesystem": {
+      "passed": true,
+      "ordinary_file_modes_checked": 112972,
+      "ordinary_mode_policy": "0644",
+      "observed_uid_gid": [
+        [
+          0,
+          0
+        ]
+      ],
+      "internal_relative_links": 25,
+      "external_personal_junctions_absent": 2,
+      "original_owner_or_ACL_authenticated": false
+    },
+    "environment_validated": false,
+    "model_or_training_validated": false,
+    "original_local_assets_changed": false
+  },
+  "bounded_functional_acceptance": {
+    "completed_utc": "2026-11-06T05:36:03.920456+00:00",
+    "passed": true,
+    "file_restore_and_full_hash_gate_passed": true,
+    "five_path_contracts_passed": true,
+    "CPU_import_and_ABI_gate_passed": true,
+    "GPU_extension_and_one_pair_model_IO_passed": true,
+    "new_scientific_result_or_comparison": false,
+    "training_or_resume_validated": false,
+    "original_PyTorch3D_commit_recovered": false,
+    "original_image_or_local_assets_changed": false
+  },
+  "finalization": {
+    "completed_utc": "2026-11-06T05:36:17.041882+00:00",
+    "server_file_layer_passed": true,
+    "bounded_functional_gate_passed": true,
+    "current_authority_files": 83,
+    "authority_sha256": "5a7d5ab7d56787cc722801352c407a7b2cc135e7fae44bbd10c17f8ada12792f",
+    "phase_prefix": "RAP-main/docs/maintenance/2026-11-06/autodl-migration-01",
+    "training_or_resume_validated": false,
+    "original_historical_PyTorch3D_commit_recovered": false
+  },
+  "failures": {}
+}

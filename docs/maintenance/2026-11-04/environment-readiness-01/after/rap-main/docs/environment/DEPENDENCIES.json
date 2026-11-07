@@ -1,0 +1,4125 @@
+{
+  "scope": "STATIC_CURRENT_RUNTIME_SOURCE_IMPORTS_NOT_TRANSITIVE_INSTALL_LOCK",
+  "files": [
+    {
+      "id": "rap-main:app.py",
+      "bytes": 37792,
+      "sha256": "3c984aeb0e8194c294839ff72fda9c14699988c81475a447fd7d782be36c22d0",
+      "imports": [
+        {
+          "module": "os",
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": "sys",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "shutil",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "subprocess",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "glob",
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": "argparse",
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": "pathlib",
+          "names": [
+            "Path"
+          ],
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": "datetime",
+          "names": [
+            "datetime"
+          ],
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "gradio",
+          "line": 10,
+          "inside_function": null
+        },
+        {
+          "module": "natsort",
+          "names": [
+            "natsorted"
+          ],
+          "line": 11,
+          "inside_function": null
+        },
+        {
+          "module": "dataset_process.utils.io_utils",
+          "names": [
+            "CMAP_DEFAULT"
+          ],
+          "line": 19,
+          "inside_function": null
+        },
+        {
+          "module": "trimesh",
+          "line": 59,
+          "inside_function": "is_mesh_file"
+        },
+        {
+          "module": "open3d",
+          "line": 75,
+          "inside_function": "convert_mesh_to_pointcloud"
+        },
+        {
+          "module": "open3d",
+          "line": 101,
+          "inside_function": "convert_pts_to_ply"
+        },
+        {
+          "module": "numpy",
+          "line": 102,
+          "inside_function": "convert_pts_to_ply"
+        },
+        {
+          "module": "pye57",
+          "line": 162,
+          "inside_function": "convert_e57_to_ply"
+        },
+        {
+          "module": "open3d",
+          "line": 163,
+          "inside_function": "convert_e57_to_ply"
+        },
+        {
+          "module": "numpy",
+          "line": 164,
+          "inside_function": "convert_e57_to_ply"
+        },
+        {
+          "module": "open3d",
+          "line": 246,
+          "inside_function": "convert_ptx_to_ply"
+        },
+        {
+          "module": "numpy",
+          "line": 247,
+          "inside_function": "convert_ptx_to_ply"
+        },
+        {
+          "module": "open3d",
+          "line": 320,
+          "inside_function": "convert_to_ply"
+        },
+        {
+          "module": "numpy",
+          "line": 321,
+          "inside_function": "convert_to_ply"
+        },
+        {
+          "module": "laspy",
+          "line": 334,
+          "inside_function": "convert_to_ply"
+        },
+        {
+          "module": "numpy",
+          "line": 367,
+          "inside_function": "downsample_points"
+        },
+        {
+          "module": "open3d",
+          "line": 379,
+          "inside_function": "combine_point_clouds"
+        },
+        {
+          "module": "numpy",
+          "line": 380,
+          "inside_function": "combine_point_clouds"
+        },
+        {
+          "module": "trimesh",
+          "line": 436,
+          "inside_function": "create_glb_from_point_cloud"
+        },
+        {
+          "module": "open3d",
+          "line": 437,
+          "inside_function": "create_glb_from_point_cloud"
+        },
+        {
+          "module": "numpy",
+          "line": 438,
+          "inside_function": "create_glb_from_point_cloud"
+        },
+        {
+          "module": "open3d",
+          "line": 475,
+          "inside_function": "detect_large_coordinates"
+        },
+        {
+          "module": "numpy",
+          "line": 476,
+          "inside_function": "detect_large_coordinates"
+        },
+        {
+          "module": "open3d",
+          "line": 494,
+          "inside_function": "calculate_global_shift"
+        },
+        {
+          "module": "numpy",
+          "line": 495,
+          "inside_function": "calculate_global_shift"
+        },
+        {
+          "module": "open3d",
+          "line": 519,
+          "inside_function": "apply_global_shift_to_ply"
+        },
+        {
+          "module": "numpy",
+          "line": 520,
+          "inside_function": "apply_global_shift_to_ply"
+        },
+        {
+          "module": "open3d",
+          "line": 658,
+          "inside_function": "process_registered_files"
+        },
+        {
+          "module": "open3d",
+          "line": 735,
+          "inside_function": "run_rap_demo"
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/extract_sample_features.py",
+      "bytes": 38479,
+      "sha256": "0d64fb17e9325ca0c7a774a5cdffd2611f181ea6e04b348603f2809495a669d1",
+      "imports": [
+        {
+          "module": "os",
+          "line": 23,
+          "inside_function": null
+        },
+        {
+          "module": "sys",
+          "line": 24,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 25,
+          "inside_function": null
+        },
+        {
+          "module": "h5py",
+          "line": 26,
+          "inside_function": null
+        },
+        {
+          "module": "open3d",
+          "line": 27,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 28,
+          "inside_function": null
+        },
+        {
+          "module": "argparse",
+          "line": 29,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 30,
+          "inside_function": null
+        },
+        {
+          "module": "tqdm",
+          "names": [
+            "tqdm"
+          ],
+          "line": 31,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List",
+            "Tuple",
+            "Optional",
+            "Dict",
+            "Union"
+          ],
+          "line": 32,
+          "inside_function": null
+        },
+        {
+          "module": "json",
+          "line": 33,
+          "inside_function": null
+        },
+        {
+          "module": "utils.spinnet.patch_embedder",
+          "names": [
+            "MiniSpinNet"
+          ],
+          "line": 41,
+          "inside_function": null
+        },
+        {
+          "module": "utils.processing_utils",
+          "names": [
+            "set_random_seeds"
+          ],
+          "line": 42,
+          "inside_function": null
+        },
+        {
+          "module": "utils.io_utils",
+          "names": [
+            "get_dataset_name",
+            "convert_to_hdf5",
+            "load_sample_from_folder",
+            "load_sample_from_hdf5",
+            "save_processed_sample"
+          ],
+          "line": 43,
+          "inside_function": null
+        },
+        {
+          "module": "utils.feature_extraction_metadata_utils",
+          "names": [
+            "save_processing_metadata",
+            "print_detailed_statistics"
+          ],
+          "line": 44,
+          "inside_function": null
+        },
+        {
+          "module": "utils.validation_utils",
+          "names": [
+            "_validate_and_setup_args"
+          ],
+          "line": 45,
+          "inside_function": null
+        },
+        {
+          "module": "utils.dataset_utils",
+          "names": [
+            "save_num_points_to_folder"
+          ],
+          "line": 46,
+          "inside_function": null
+        },
+        {
+          "module": "utils.split_utils",
+          "names": [
+            "copy_and_update_data_split"
+          ],
+          "line": 47,
+          "inside_function": null
+        },
+        {
+          "module": "utils.point_sampling_utils",
+          "names": [
+            "calculate_adaptive_sample_count_per_part",
+            "allocate_fps_points",
+            "apply_batched_fps"
+          ],
+          "line": 48,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/utils/__init__.py",
+      "bytes": 2893,
+      "sha256": "2b5957f071dc62bb54747ee6f89811ef175f605fd958040fbe93105ee5d13a0e",
+      "imports": [
+        {
+          "module": ".submap_utils",
+          "names": [
+            "get_default_num_samples",
+            "create_submap_from_frames",
+            "generate_submap_boundaries_for_sample",
+            "select_spatially_close_submaps",
+            "validate_no_overlap"
+          ],
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": ".io_utils",
+          "names": [
+            "create_metadata_json",
+            "convert_to_hdf5",
+            "get_dataset_name",
+            "load_sample_from_folder",
+            "load_sample_from_hdf5",
+            "save_processed_sample",
+            "save_training_sample"
+          ],
+          "line": 17,
+          "inside_function": null
+        },
+        {
+          "module": ".processing_utils",
+          "names": [
+            "process_nss_dataset",
+            "process_nss_multi_dataset",
+            "process_sequence_with_loader",
+            "set_random_seeds",
+            "process_tls_dataset"
+          ],
+          "line": 27,
+          "inside_function": null
+        },
+        {
+          "module": ".validation_utils",
+          "names": [
+            "perform_dry_run",
+            "process_sequences",
+            "_validate_and_setup_args"
+          ],
+          "line": 35,
+          "inside_function": null
+        },
+        {
+          "module": ".split_utils",
+          "names": [
+            "create_data_splits",
+            "create_nss_data_splits",
+            "create_random_data_splits_only",
+            "create_sequence_data_splits_only",
+            "copy_and_update_data_split"
+          ],
+          "line": 41,
+          "inside_function": null
+        },
+        {
+          "module": ".preview_utils",
+          "names": [
+            "preview_data_splits"
+          ],
+          "line": 49,
+          "inside_function": null
+        },
+        {
+          "module": ".feature_extraction_metadata_utils",
+          "names": [
+            "save_processing_metadata",
+            "print_detailed_statistics"
+          ],
+          "line": 53,
+          "inside_function": null
+        },
+        {
+          "module": ".point_sampling_utils",
+          "names": [
+            "calculate_voxel_coverage",
+            "calculate_adaptive_sample_count_per_part",
+            "allocate_fps_points",
+            "apply_batched_fps"
+          ],
+          "line": 58,
+          "inside_function": null
+        },
+        {
+          "module": ".",
+          "names": [
+            "dataset_utils"
+          ],
+          "line": 66,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/utils/dataset_utils.py",
+      "bytes": 33152,
+      "sha256": "6047e353c10a22fc64f1cad96f4a98a2dcc42d64c35f65f90c4b9b3e237205a0",
+      "imports": [
+        {
+          "module": "numpy",
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "open3d",
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Optional",
+            "Tuple",
+            "Union",
+            "List"
+          ],
+          "line": 10,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 11,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 12,
+          "inside_function": null
+        },
+        {
+          "module": "os",
+          "line": 13,
+          "inside_function": null
+        },
+        {
+          "module": ".io_utils",
+          "names": [
+            "get_dataset_name"
+          ],
+          "line": 16,
+          "inside_function": null
+        },
+        {
+          "module": "random",
+          "line": 678,
+          "inside_function": "sample_truncated_gaussian"
+        },
+        {
+          "module": "torch",
+          "line": 705,
+          "inside_function": "deskewing"
+        },
+        {
+          "module": "roma",
+          "line": 706,
+          "inside_function": "deskewing"
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/utils/feature_extraction_metadata_utils.py",
+      "bytes": 14941,
+      "sha256": "dc4bacec93bfc89ffd0b296cd2cd2a8bb60802332fcb123c535f7b17201236b4",
+      "imports": [
+        {
+          "module": "os",
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": "json",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "datetime",
+          "names": [
+            "datetime"
+          ],
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": "argparse",
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Dict",
+            "List",
+            "Tuple",
+            "Any"
+          ],
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": "collections",
+          "names": [
+            "Counter"
+          ],
+          "line": 8,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/utils/io_utils.py",
+      "bytes": 43418,
+      "sha256": "5a4af2f1698866df1d9b01706b9ca0c16fffb32902b4e3f83ccc26d2381de3de",
+      "imports": [
+        {
+          "module": "os",
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 10,
+          "inside_function": null
+        },
+        {
+          "module": "open3d",
+          "line": 11,
+          "inside_function": null
+        },
+        {
+          "module": "h5py",
+          "line": 12,
+          "inside_function": null
+        },
+        {
+          "module": "json",
+          "line": 13,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 14,
+          "inside_function": null
+        },
+        {
+          "module": "shutil",
+          "line": 15,
+          "inside_function": null
+        },
+        {
+          "module": "glob",
+          "line": 16,
+          "inside_function": null
+        },
+        {
+          "module": "argparse",
+          "line": 17,
+          "inside_function": null
+        },
+        {
+          "module": "pathlib",
+          "names": [
+            "Path"
+          ],
+          "line": 18,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List",
+            "Tuple",
+            "Optional",
+            "Dict",
+            "Union",
+            "Any"
+          ],
+          "line": 19,
+          "inside_function": null
+        },
+        {
+          "module": "datetime",
+          "names": [
+            "datetime"
+          ],
+          "line": 20,
+          "inside_function": null
+        },
+        {
+          "module": "tqdm",
+          "names": [
+            "tqdm"
+          ],
+          "line": 21,
+          "inside_function": null
+        },
+        {
+          "module": ".",
+          "names": [
+            "dataset_utils"
+          ],
+          "line": 532,
+          "inside_function": "save_training_sample"
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/utils/point_sampling_utils.py",
+      "bytes": 13843,
+      "sha256": "8519c0f59e039981a6ab117b197b31d5b6f3c1134cc9fc6c3d9b7b6d3752b6bb",
+      "imports": [
+        {
+          "module": "os",
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List",
+            "Tuple",
+            "Optional",
+            "Union"
+          ],
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": "pytorch3d.ops",
+          "names": [
+            "sample_farthest_points"
+          ],
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": "open3d",
+          "line": 7,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/utils/preview_utils.py",
+      "bytes": 10180,
+      "sha256": "d2dd2eeb12ab1221d682558b0e1f08b1dcf257e6c5882d87ea52b8f51aa34e9b",
+      "imports": [
+        {
+          "module": "random",
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List",
+            "Tuple",
+            "Optional",
+            "Dict"
+          ],
+          "line": 10,
+          "inside_function": null
+        },
+        {
+          "module": "random",
+          "line": 160,
+          "inside_function": "_preview_sequence_split"
+        },
+        {
+          "module": "random",
+          "line": 212,
+          "inside_function": "_preview_sample_split"
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/utils/processing_utils.py",
+      "bytes": 157992,
+      "sha256": "42a685e094a60c0bf603cd5372d0298241c9cc6f5b253a4cafd635b31bd8335c",
+      "imports": [
+        {
+          "module": "os",
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 10,
+          "inside_function": null
+        },
+        {
+          "module": "open3d",
+          "line": 11,
+          "inside_function": null
+        },
+        {
+          "module": "json",
+          "line": 12,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 13,
+          "inside_function": null
+        },
+        {
+          "module": "random",
+          "line": 14,
+          "inside_function": null
+        },
+        {
+          "module": "collections",
+          "names": [
+            "defaultdict"
+          ],
+          "line": 15,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List",
+            "Tuple",
+            "Optional",
+            "Dict",
+            "Any"
+          ],
+          "line": 16,
+          "inside_function": null
+        },
+        {
+          "module": "tqdm",
+          "names": [
+            "tqdm"
+          ],
+          "line": 17,
+          "inside_function": null
+        },
+        {
+          "module": ".",
+          "names": [
+            "dataset_utils"
+          ],
+          "line": 18,
+          "inside_function": null
+        },
+        {
+          "module": ".dataset_utils",
+          "names": [
+            "downsample_points"
+          ],
+          "line": 19,
+          "inside_function": null
+        },
+        {
+          "module": ".submap_utils",
+          "names": [
+            "create_submap_from_frames",
+            "generate_submap_boundaries_for_sample",
+            "select_spatially_close_submaps",
+            "validate_no_overlap"
+          ],
+          "line": 20,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 26,
+          "inside_function": null
+        },
+        {
+          "module": ".io_utils",
+          "names": [
+            "save_training_sample"
+          ],
+          "line": 27,
+          "inside_function": null
+        },
+        {
+          "module": "collections",
+          "names": [
+            "deque"
+          ],
+          "line": 108,
+          "inside_function": "_find_transformation_path"
+        },
+        {
+          "module": "..data_loaders",
+          "names": [
+            "NSSDataLoader"
+          ],
+          "line": 324,
+          "inside_function": "process_nss_dataset"
+        },
+        {
+          "module": "re",
+          "line": 424,
+          "inside_function": "process_nss_dataset.extract_spot_name"
+        },
+        {
+          "module": "..data_loaders",
+          "names": [
+            "ThreeDMatchTestDataLoader"
+          ],
+          "line": 628,
+          "inside_function": "process_threedmatch_test_dataset"
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/utils/spinnet/__init__.py",
+      "bytes": 75,
+      "sha256": "e555e61268017e1d63740ec842391e5ac6fe7aeacb23fac79d560523f003a0db",
+      "imports": [
+        {
+          "module": ".patch_embedder",
+          "names": [
+            "MiniSpinNet"
+          ],
+          "line": 1,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/utils/spinnet/patch_embedder.py",
+      "bytes": 7645,
+      "sha256": "fcd91ca3678aaf7e033e5961fc178ad66088cea5a8e76fe95c632cf217c60c74",
+      "imports": [
+        {
+          "module": "torch",
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": "torch.nn",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "torch.nn.functional",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "pytorch3d.ops",
+          "names": [
+            "ball_query"
+          ],
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": ".",
+          "names": [
+            "patchnet"
+          ],
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": ".utils.common",
+          "names": [
+            "cal_Z_axis",
+            "l2_norm",
+            "RodsRotatFormula",
+            "sphere_query",
+            "var_to_invar",
+            "get_voxel_coordinate"
+          ],
+          "line": 8,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/utils/spinnet/patchnet.py",
+      "bytes": 8061,
+      "sha256": "d1b52bc83f01e2d72e0a59af354c82f190f9f12090c9127428594824106fe667",
+      "imports": [
+        {
+          "module": "torch.nn",
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": ".utils",
+          "names": [
+            "common"
+          ],
+          "line": 3,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/utils/spinnet/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "imports": []
+    },
+    {
+      "id": "rap-main:dataset_process/utils/spinnet/utils/common.py",
+      "bytes": 18271,
+      "sha256": "e15796cb46840955a2cc7843349219983f5c7aa1b4ef5852b5c0e53743fb655c",
+      "imports": [
+        {
+          "module": "numpy",
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "torch.nn.functional",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "torch.autograd",
+          "names": [
+            "Variable"
+          ],
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "copy",
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": ".SE3",
+          "names": [
+            "*"
+          ],
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "pytorch3d.ops",
+          "names": [
+            "ball_query"
+          ],
+          "line": 10,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/utils/spinnet/utils/SE3.py",
+      "bytes": 4952,
+      "sha256": "25b9c9d7f5d1cad4cdc3cc4963c1ae86ea1a30be3506713e5f9f3fe9492f0608",
+      "imports": [
+        {
+          "module": "torch",
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "math",
+          "line": 3,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/utils/split_utils.py",
+      "bytes": 36661,
+      "sha256": "21f043e101fff1e0791d45fd960480ebf12dc0b4b30d052253930af98bcdd6f1",
+      "imports": [
+        {
+          "module": "os",
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": "random",
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List",
+            "Tuple",
+            "Optional",
+            "Dict",
+            "Set"
+          ],
+          "line": 10,
+          "inside_function": null
+        },
+        {
+          "module": "json",
+          "line": 11,
+          "inside_function": null
+        },
+        {
+          "module": "h5py",
+          "line": 13,
+          "inside_function": null
+        },
+        {
+          "module": "glob",
+          "line": 17,
+          "inside_function": null
+        },
+        {
+          "module": "shutil",
+          "line": 18,
+          "inside_function": null
+        },
+        {
+          "module": ".preview_utils",
+          "names": [
+            "preview_data_splits"
+          ],
+          "line": 21,
+          "inside_function": null
+        },
+        {
+          "module": ".io_utils",
+          "names": [
+            "get_dataset_name"
+          ],
+          "line": 26,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/utils/submap_utils.py",
+      "bytes": 15106,
+      "sha256": "021110487c6083f38c04801b48ae8c312c9b020432f97ee17fede74a19ba81f3",
+      "imports": [
+        {
+          "module": "numpy",
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "random",
+          "line": 10,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 11,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List",
+            "Tuple",
+            "Optional",
+            "Dict"
+          ],
+          "line": 12,
+          "inside_function": null
+        },
+        {
+          "module": ".",
+          "names": [
+            "dataset_utils"
+          ],
+          "line": 13,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/utils/validation_utils.py",
+      "bytes": 11722,
+      "sha256": "e9eaa65ada3275f2cf07b760f4c41fbe6dd5246016262abc6ab36eda02c86061",
+      "imports": [
+        {
+          "module": "os",
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 10,
+          "inside_function": null
+        },
+        {
+          "module": "argparse",
+          "line": 11,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Dict",
+            "List",
+            "Tuple",
+            "Any"
+          ],
+          "line": 12,
+          "inside_function": null
+        },
+        {
+          "module": ".io_utils",
+          "names": [
+            "get_dataset_name"
+          ],
+          "line": 15,
+          "inside_function": null
+        },
+        {
+          "module": ".preview_utils",
+          "names": [
+            "preview_data_splits"
+          ],
+          "line": 16,
+          "inside_function": null
+        },
+        {
+          "module": ".submap_utils",
+          "names": [
+            "get_default_num_samples"
+          ],
+          "line": 17,
+          "inside_function": null
+        },
+        {
+          "module": ".processing_utils",
+          "names": [
+            "process_sequence_with_loader"
+          ],
+          "line": 174,
+          "inside_function": "process_sequences"
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/visualize_registered_pointclouds.py",
+      "bytes": 128720,
+      "sha256": "c28405865046245a196bf2ff9163aa8d11c6a2af82864ea25bb3263ef9b56512",
+      "imports": [
+        {
+          "module": "argparse",
+          "line": 21,
+          "inside_function": null
+        },
+        {
+          "module": "os",
+          "line": 22,
+          "inside_function": null
+        },
+        {
+          "module": "glob",
+          "line": 23,
+          "inside_function": null
+        },
+        {
+          "module": "re",
+          "line": 24,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 25,
+          "inside_function": null
+        },
+        {
+          "module": "json",
+          "line": 26,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 27,
+          "inside_function": null
+        },
+        {
+          "module": "open3d",
+          "line": 28,
+          "inside_function": null
+        },
+        {
+          "module": "natsort",
+          "line": 29,
+          "inside_function": null
+        },
+        {
+          "module": "pathlib",
+          "names": [
+            "Path"
+          ],
+          "line": 30,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List",
+            "Tuple",
+            "Optional",
+            "Dict",
+            "Union"
+          ],
+          "line": 31,
+          "inside_function": null
+        },
+        {
+          "module": "dataset_process.utils.io_utils",
+          "names": [
+            "CMAP_DEFAULT"
+          ],
+          "line": 32,
+          "inside_function": null
+        },
+        {
+          "module": "traceback",
+          "line": 1808,
+          "inside_function": "load_next_sample"
+        },
+        {
+          "module": "traceback",
+          "line": 2028,
+          "inside_function": "load_next_sequence"
+        },
+        {
+          "module": "random",
+          "line": 2615,
+          "inside_function": "main"
+        },
+        {
+          "module": "random",
+          "line": 2621,
+          "inside_function": "main"
+        },
+        {
+          "module": "traceback",
+          "line": 2630,
+          "inside_function": "main"
+        }
+      ]
+    },
+    {
+      "id": "rap-main:dataset_process/visualize_sample_features.py",
+      "bytes": 73653,
+      "sha256": "f2ac6ead6f59b5a5e21ff1b86711e1ac531fd77666a89d9645600c29060f95f4",
+      "imports": [
+        {
+          "module": "os",
+          "line": 39,
+          "inside_function": null
+        },
+        {
+          "module": "sys",
+          "line": 40,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 41,
+          "inside_function": null
+        },
+        {
+          "module": "open3d",
+          "line": 42,
+          "inside_function": null
+        },
+        {
+          "module": "argparse",
+          "line": 43,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 44,
+          "inside_function": null
+        },
+        {
+          "module": "pathlib",
+          "names": [
+            "Path"
+          ],
+          "line": 45,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List",
+            "Tuple",
+            "Optional",
+            "Dict",
+            "Union"
+          ],
+          "line": 46,
+          "inside_function": null
+        },
+        {
+          "module": "sklearn.decomposition",
+          "names": [
+            "PCA"
+          ],
+          "line": 47,
+          "inside_function": null
+        },
+        {
+          "module": "sklearn.preprocessing",
+          "names": [
+            "MinMaxScaler"
+          ],
+          "line": 48,
+          "inside_function": null
+        },
+        {
+          "module": "glob",
+          "line": 49,
+          "inside_function": null
+        },
+        {
+          "module": "threading",
+          "line": 50,
+          "inside_function": null
+        },
+        {
+          "module": "dataset_process.utils.io_utils",
+          "names": [
+            "CMAP_DEFAULT"
+          ],
+          "line": 51,
+          "inside_function": null
+        },
+        {
+          "module": "random",
+          "line": 1490,
+          "inside_function": "main"
+        }
+      ]
+    },
+    {
+      "id": "rap-main:demo.py",
+      "bytes": 56169,
+      "sha256": "672877200858e18a3e664557d568e0520eeb289f6ac6f15854c0990222c95d88",
+      "imports": [
+        {
+          "module": "os",
+          "line": 12,
+          "inside_function": null
+        },
+        {
+          "module": "sys",
+          "line": 13,
+          "inside_function": null
+        },
+        {
+          "module": "argparse",
+          "line": 14,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 15,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 16,
+          "inside_function": null
+        },
+        {
+          "module": "open3d",
+          "line": 17,
+          "inside_function": null
+        },
+        {
+          "module": "pathlib",
+          "names": [
+            "Path"
+          ],
+          "line": 18,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List",
+            "Optional",
+            "Tuple"
+          ],
+          "line": 19,
+          "inside_function": null
+        },
+        {
+          "module": "shutil",
+          "line": 20,
+          "inside_function": null
+        },
+        {
+          "module": "glob",
+          "line": 21,
+          "inside_function": null
+        },
+        {
+          "module": "copy",
+          "line": 22,
+          "inside_function": null
+        },
+        {
+          "module": "json",
+          "line": 23,
+          "inside_function": null
+        },
+        {
+          "module": "tqdm",
+          "names": [
+            "tqdm"
+          ],
+          "line": 24,
+          "inside_function": null
+        },
+        {
+          "module": "urllib.request",
+          "line": 25,
+          "inside_function": null
+        },
+        {
+          "module": "zipfile",
+          "line": 26,
+          "inside_function": null
+        },
+        {
+          "module": "time",
+          "line": 27,
+          "inside_function": null
+        },
+        {
+          "module": "natsort",
+          "names": [
+            "natsorted"
+          ],
+          "line": 28,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 29,
+          "inside_function": null
+        },
+        {
+          "module": "dataset_process.utils",
+          "names": [
+            "dataset_utils"
+          ],
+          "line": 37,
+          "inside_function": null
+        },
+        {
+          "module": "dataset_process.utils.io_utils",
+          "names": [
+            "CMAP_DEFAULT"
+          ],
+          "line": 38,
+          "inside_function": null
+        },
+        {
+          "module": "dataset_process.extract_sample_features",
+          "names": [
+            "FeatureExtractor",
+            "SampleProcessor"
+          ],
+          "line": 39,
+          "inside_function": null
+        },
+        {
+          "module": "dataset_process.utils.processing_utils",
+          "names": [
+            "set_random_seeds"
+          ],
+          "line": 40,
+          "inside_function": null
+        },
+        {
+          "module": "dataset_process.utils.io_utils",
+          "names": [
+            "save_processed_sample"
+          ],
+          "line": 41,
+          "inside_function": null
+        },
+        {
+          "module": "dataset_process.utils.point_sampling_utils",
+          "names": [
+            "calculate_voxel_coverage",
+            "allocate_fps_points",
+            "calculate_adaptive_sample_count_per_part"
+          ],
+          "line": 42,
+          "inside_function": null
+        },
+        {
+          "module": "hydra",
+          "line": 47,
+          "inside_function": null
+        },
+        {
+          "module": "sample",
+          "names": [
+            "setup"
+          ],
+          "line": 885,
+          "inside_function": "main"
+        },
+        {
+          "module": "rectified_point_flow.utils",
+          "names": [
+            "print_eval_table"
+          ],
+          "line": 886,
+          "inside_function": "main"
+        },
+        {
+          "module": "re",
+          "line": 927,
+          "inside_function": "main"
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rap_runtime/__init__.py",
+      "bytes": 83,
+      "sha256": "dab9e597a7cc98bf266c0dac25e5c6594da86ee0c967e0abe397da8748fb6923",
+      "imports": []
+    },
+    {
+      "id": "rap-main:rap_runtime/launch.py",
+      "bytes": 10505,
+      "sha256": "d07c674e0024a44b0f58a66fb7075b50e7377b95035be831ec1213d76bdb9d21",
+      "imports": [
+        {
+          "module": "argparse",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "importlib",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "json",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "os",
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": "pathlib",
+          "names": [
+            "Path"
+          ],
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": "re",
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": "subprocess",
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "sys",
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": ".paths",
+          "names": [
+            "ENV_NAMES",
+            "absolute",
+            "resolve_paths"
+          ],
+          "line": 11,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rap_runtime/paths.py",
+      "bytes": 3210,
+      "sha256": "33b274f21f4b6d2731ba80f3778762630a9360a0d0f5beff1af4b9385c1c6b67",
+      "imports": [
+        {
+          "module": "json",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "os",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "pathlib",
+          "names": [
+            "Path"
+          ],
+          "line": 4,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "imports": []
+    },
+    {
+      "id": "rap-main:rectified_point_flow/data/__init__.py",
+      "bytes": 140,
+      "sha256": "bcf8b7f41f9dd3ff70e2bfb0f086ae66c3c08aae534ae76bfef8278092ae9c4c",
+      "imports": [
+        {
+          "module": ".datamodule",
+          "names": [
+            "PointCloudDataModule"
+          ],
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": ".dataset",
+          "names": [
+            "PointCloudDataset"
+          ],
+          "line": 2,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/data/datamodule.py",
+      "bytes": 28772,
+      "sha256": "c5a3d69f75e61692968aed363d7e288bb1df7fa4c32007dc867885854d886f07",
+      "imports": [
+        {
+          "module": "logging",
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": "random",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "time",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "bisect",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List",
+            "Optional",
+            "Dict"
+          ],
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": "os",
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": "h5py",
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "lightning",
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 10,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 11,
+          "inside_function": null
+        },
+        {
+          "module": "torch.distributed",
+          "line": 12,
+          "inside_function": null
+        },
+        {
+          "module": "torch.utils.data",
+          "names": [
+            "ConcatDataset",
+            "DataLoader",
+            "Dataset",
+            "Sampler"
+          ],
+          "line": 13,
+          "inside_function": null
+        },
+        {
+          "module": ".dataset",
+          "names": [
+            "PointCloudDataset"
+          ],
+          "line": 15,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/data/dataset.py",
+      "bytes": 47795,
+      "sha256": "6f0e85e01b8f6e555a403cdd242cade1e32c0d2170c95e871bff5f6a4d7383cb",
+      "imports": [
+        {
+          "module": "os",
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": "glob",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "concurrent.futures",
+          "names": [
+            "ThreadPoolExecutor"
+          ],
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "h5py",
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": "trimesh",
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "trimesh.exchange.ply",
+          "names": [
+            "load_ply"
+          ],
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "torch.utils.data",
+          "names": [
+            "Dataset"
+          ],
+          "line": 10,
+          "inside_function": null
+        },
+        {
+          "module": ".transform",
+          "names": [
+            "sample_points_uniform",
+            "sample_points_poisson",
+            "center_pcd",
+            "rotate_pcd",
+            "rotate_pcd_yaw",
+            "pad_data"
+          ],
+          "line": 12,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/data/transform.py",
+      "bytes": 3982,
+      "sha256": "96a7ca142dff2aa8109dd6b17437fd2b3268c801952a1fe24a97aaa08d4eb919",
+      "imports": [
+        {
+          "module": "logging",
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Tuple"
+          ],
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "os",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": "trimesh",
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": "scipy.spatial.transform",
+          "names": [
+            "Rotation"
+          ],
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": "point_cloud_utils",
+          "line": 14,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/eval/evaluator.py",
+      "bytes": 48159,
+      "sha256": "dbf29bb960d9acf79a6924ea1f1e164c469780e79a31bb3027726f6b166494e8",
+      "imports": [
+        {
+          "module": "json",
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": "pathlib",
+          "names": [
+            "Path"
+          ],
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Any",
+            "Dict"
+          ],
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": "lightning",
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": "open3d",
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 11,
+          "inside_function": null
+        },
+        {
+          "module": ".metrics",
+          "names": [
+            "compute_cd",
+            "compute_transform_errors",
+            "compute_transform_errors_direct",
+            "compute_correspondence_rmse",
+            "compute_approximate_transform_error",
+            "compute_rigidity_rmse",
+            "compute_ecdf"
+          ],
+          "line": 13,
+          "inside_function": null
+        },
+        {
+          "module": "..utils.point_clouds",
+          "names": [
+            "repeat_by_cu_seqlens",
+            "ppp_to_ids",
+            "split_parts"
+          ],
+          "line": 14,
+          "inside_function": null
+        },
+        {
+          "module": "..utils.render",
+          "names": [
+            "part_ids_to_colors"
+          ],
+          "line": 15,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 502,
+          "inside_function": "_save_transformation_files"
+        },
+        {
+          "module": "logging",
+          "line": 587,
+          "inside_function": "_save_pointclouds_as_ply"
+        },
+        {
+          "module": "logging",
+          "line": 682,
+          "inside_function": "_save_parts_pointclouds"
+        },
+        {
+          "module": "logging",
+          "line": 701,
+          "inside_function": "_save_merged_input_pointcloud"
+        },
+        {
+          "module": "logging",
+          "line": 748,
+          "inside_function": "_save_merged_input_pointcloud"
+        },
+        {
+          "module": "logging",
+          "line": 771,
+          "inside_function": "_save_merged_pointcloud_steps"
+        },
+        {
+          "module": "logging",
+          "line": 831,
+          "inside_function": "_save_merged_pointcloud_steps"
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/eval/metrics.py",
+      "bytes": 34037,
+      "sha256": "0a6094db9d0cf3addf0a94e84b162c95f174b69bc4e24281e7a6fe72b7f85359",
+      "imports": [
+        {
+          "module": "torch",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "torch.nn.utils.rnn",
+          "names": [
+            "pad_sequence"
+          ],
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": "scipy.optimize",
+          "names": [
+            "linear_sum_assignment"
+          ],
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": "scipy.spatial.transform",
+          "names": [
+            "Rotation"
+          ],
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": "..utils.point_clouds",
+          "names": [
+            "split_parts",
+            "ppp_to_ids"
+          ],
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "pytorch3d.loss.chamfer",
+          "names": [
+            "chamfer_distance"
+          ],
+          "line": 13,
+          "inside_function": "_chamfer_distance"
+        },
+        {
+          "module": "pytorch3d.ops",
+          "names": [
+            "iterative_closest_point"
+          ],
+          "line": 18,
+          "inside_function": "_iterative_closest_point"
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/flow_model/__init__.py",
+      "bytes": 469,
+      "sha256": "1630f4ccfffe88c9709a6f07dd20eb4e93702a2ae8011515bc38b1cf36fae1b9",
+      "imports": [
+        {
+          "module": ".embedding",
+          "names": [
+            "PointCloudEncodingManager"
+          ],
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": ".layer",
+          "names": [
+            "DiTLayer"
+          ],
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": ".norm",
+          "names": [
+            "AdaptiveLayerNorm",
+            "MultiHeadRMSNorm"
+          ],
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": ".point_cloud_dit",
+          "names": [
+            "PointCloudDiT"
+          ],
+          "line": 10,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/flow_model/embedding.py",
+      "bytes": 6596,
+      "sha256": "367f92a980076a62cc5561bbc9264b31766d54278cce1b949c477819abc9253d",
+      "imports": [
+        {
+          "module": "torch",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "torch.nn",
+          "line": 4,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/flow_model/layer.py",
+      "bytes": 7768,
+      "sha256": "e8e7caabe1da47b8c8aefea0db58ec5ffb910be8fc01b7a541ca6fec345618e8",
+      "imports": [
+        {
+          "module": "torch",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "torch.nn",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "diffusers.models.attention",
+          "names": [
+            "FeedForward"
+          ],
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": ".norm",
+          "names": [
+            "AdaptiveLayerNorm",
+            "MultiHeadRMSNorm"
+          ],
+          "line": 7,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/flow_model/norm.py",
+      "bytes": 2859,
+      "sha256": "730533e067ccd043e1de784fff8c59b09c2a8f62a7a786540e0a0aa33d6e5930",
+      "imports": [
+        {
+          "module": "torch",
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": "torch.nn",
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "torch.nn.functional",
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "diffusers.models.embeddings",
+          "names": [
+            "TimestepEmbedding",
+            "Timesteps"
+          ],
+          "line": 10,
+          "inside_function": null
+        },
+        {
+          "module": "..utils.point_clouds",
+          "names": [
+            "repeat_by_cu_seqlens"
+          ],
+          "line": 12,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/flow_model/point_cloud_dit.py",
+      "bytes": 8335,
+      "sha256": "dd095019f78cc0bfac6bef767061ec6a5a02244874bc32723dd78510f9e6f974",
+      "imports": [
+        {
+          "module": "torch",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "torch.nn",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": ".embedding",
+          "names": [
+            "PointCloudEncodingManager"
+          ],
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": ".layer",
+          "names": [
+            "DiTLayer"
+          ],
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": "..utils.point_clouds",
+          "names": [
+            "repeat_by_cu_seqlens"
+          ],
+          "line": 8,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/modeling.py",
+      "bytes": 36712,
+      "sha256": "d0d766d6f8b24d04150e5b2e009b54c6496bc3d8ae34a27e2abfcda07f610257",
+      "imports": [
+        {
+          "module": "math",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "time",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "functools",
+          "names": [
+            "partial"
+          ],
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Callable"
+          ],
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": "lightning",
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "torch.nn",
+          "line": 10,
+          "inside_function": null
+        },
+        {
+          "module": "torch.nn.functional",
+          "line": 11,
+          "inside_function": null
+        },
+        {
+          "module": ".eval.evaluator",
+          "names": [
+            "Evaluator"
+          ],
+          "line": 13,
+          "inside_function": null
+        },
+        {
+          "module": ".procrustes",
+          "names": [
+            "fit_transformations"
+          ],
+          "line": 14,
+          "inside_function": null
+        },
+        {
+          "module": ".sampler",
+          "names": [
+            "get_sampler"
+          ],
+          "line": 15,
+          "inside_function": null
+        },
+        {
+          "module": ".utils.checkpoint",
+          "names": [
+            "get_rng_state",
+            "load_checkpoint_for_module",
+            "set_rng_state"
+          ],
+          "line": 16,
+          "inside_function": null
+        },
+        {
+          "module": ".utils.logging",
+          "names": [
+            "MetricsMeter",
+            "log_metrics_on_step",
+            "log_metrics_on_epoch"
+          ],
+          "line": 17,
+          "inside_function": null
+        },
+        {
+          "module": ".utils.point_clouds",
+          "names": [
+            "repeat_by_cu_seqlens"
+          ],
+          "line": 18,
+          "inside_function": null
+        },
+        {
+          "module": ".eval.metrics",
+          "names": [
+            "compute_rigidity_rmse"
+          ],
+          "line": 464,
+          "inside_function": "test_step"
+        },
+        {
+          "module": ".flow_model",
+          "names": [
+            "PointCloudDiT"
+          ],
+          "line": 782,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/procrustes.py",
+      "bytes": 4908,
+      "sha256": "cb8f6bc040eef491e149bfdb82ec29da4c7865925e8cb6730b9f72b109c5cfe1",
+      "imports": [
+        {
+          "module": "torch",
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": ".utils.point_clouds",
+          "names": [
+            "split_parts"
+          ],
+          "line": 3,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/sampler.py",
+      "bytes": 5181,
+      "sha256": "6166a9dfd75ab721af64edf7bea99004acbad642c94d310dba55e849e7a4cf25",
+      "imports": [
+        {
+          "module": "torch",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Callable"
+          ],
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "functools",
+          "names": [
+            "partial"
+          ],
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": ".procrustes",
+          "names": [
+            "rigidify_prediction_with_procrustes"
+          ],
+          "line": 7,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/utils/__init__.py",
+      "bytes": 587,
+      "sha256": "50c073f77acf5dfde5699812a5927263facbdd9968898b81bfb774fa5918e79e",
+      "imports": [
+        {
+          "module": ".checkpoint",
+          "names": [
+            "load_checkpoint_for_module",
+            "download_rap_checkpoint"
+          ],
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": ".training",
+          "names": [
+            "setup_loggers",
+            "setup_wandb_resume"
+          ],
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": ".logging",
+          "names": [
+            "log_metrics_on_step",
+            "log_metrics_on_epoch",
+            "MetricsMeter",
+            "print_eval_table"
+          ],
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": ".point_clouds",
+          "names": [
+            "split_parts",
+            "ppp_to_ids",
+            "flatten_valid_parts"
+          ],
+          "line": 4,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/utils/checkpoint.py",
+      "bytes": 3372,
+      "sha256": "3b6423cf273d2f471d82bbced635806816d12f5e8e818478842c6e2ef2b54c24",
+      "imports": [
+        {
+          "module": "logging",
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": "random",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "os",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": "huggingface_hub",
+          "names": [
+            "hf_hub_download"
+          ],
+          "line": 7,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/utils/logging.py",
+      "bytes": 20830,
+      "sha256": "6cc2e5e50bdb45d3cbf590687e4edf8841746666b3f62b214a2b9bd97952dac0",
+      "imports": [
+        {
+          "module": "collections",
+          "names": [
+            "defaultdict"
+          ],
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": "itertools",
+          "names": [
+            "chain"
+          ],
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "re",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Dict",
+            "List",
+            "Any"
+          ],
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "lightning",
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": "torch.distributed",
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "rich.console",
+          "names": [
+            "Console"
+          ],
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "rich.table",
+          "names": [
+            "Table"
+          ],
+          "line": 10,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/utils/optimizers.py",
+      "bytes": 2268,
+      "sha256": "48bc165bb9036348c908ccb9503f1756ccf4803927c7490e105e8716af84a71b",
+      "imports": [
+        {
+          "module": "__future__",
+          "names": [
+            "annotations"
+          ],
+          "line": 1,
+          "inside_function": null
+        },
+        {
+          "module": "functools",
+          "names": [
+            "partial"
+          ],
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Iterable",
+            "Callable"
+          ],
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": "muon",
+          "names": [
+            "MuonWithAuxAdam"
+          ],
+          "line": 39,
+          "inside_function": "build_muon_with_aux_adam"
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/utils/point_clouds.py",
+      "bytes": 7694,
+      "sha256": "f73e1eed46b6a95ab3d3f0e592115f73805aebc453762c1118d087f0d2e970fb",
+      "imports": [
+        {
+          "module": "torch",
+          "line": 3,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/utils/render.py",
+      "bytes": 15923,
+      "sha256": "e36c760c61125417bac0c06b8353298e2ce76a1b8c60503a10af60747066a4dc",
+      "imports": [
+        {
+          "module": "colorsys",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "math",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": "matplotlib.cm",
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "PIL",
+          "names": [
+            "Image"
+          ],
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "pytorch3d.structures",
+          "names": [
+            "Pointclouds"
+          ],
+          "line": 18,
+          "inside_function": "_ensure_pytorch3d"
+        },
+        {
+          "module": "pytorch3d.renderer",
+          "names": [
+            "look_at_view_transform",
+            "FoVPerspectiveCameras",
+            "PointsRasterizationSettings",
+            "PointsRasterizer",
+            "PointsRenderer",
+            "AlphaCompositor"
+          ],
+          "line": 19,
+          "inside_function": "_ensure_pytorch3d"
+        },
+        {
+          "module": "mitsuba",
+          "line": 33,
+          "inside_function": null
+        },
+        {
+          "module": "mitsuba",
+          "names": [
+            "load_dict"
+          ],
+          "line": 35,
+          "inside_function": null
+        },
+        {
+          "module": "mitsuba",
+          "names": [
+            "Transform4f",
+            "Point3f",
+            "Vector3f"
+          ],
+          "line": 36,
+          "inside_function": null
+        },
+        {
+          "module": "drjit",
+          "line": 37,
+          "inside_function": null
+        },
+        {
+          "module": "pytorch3d.structures",
+          "names": [
+            "Pointclouds"
+          ],
+          "line": 263,
+          "inside_function": "visualize_point_clouds_pytorch3d"
+        },
+        {
+          "module": "pytorch3d.renderer",
+          "names": [
+            "look_at_view_transform",
+            "FoVPerspectiveCameras",
+            "PointsRasterizationSettings",
+            "PointsRasterizer",
+            "PointsRenderer",
+            "AlphaCompositor"
+          ],
+          "line": 264,
+          "inside_function": "visualize_point_clouds_pytorch3d"
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/utils/training.py",
+      "bytes": 2496,
+      "sha256": "e65495638b4b9be993ab4092997bd6a1ed86669c0a3acca26a7e6cf014e38017",
+      "imports": [
+        {
+          "module": "glob",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "os",
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List"
+          ],
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": "hydra",
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "lightning",
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "lightning.pytorch.utilities.rank_zero",
+          "names": [
+            "rank_zero_only"
+          ],
+          "line": 10,
+          "inside_function": null
+        },
+        {
+          "module": "lightning.pytorch.loggers",
+          "names": [
+            "Logger",
+            "WandbLogger"
+          ],
+          "line": 11,
+          "inside_function": null
+        },
+        {
+          "module": "omegaconf",
+          "names": [
+            "DictConfig",
+            "OmegaConf"
+          ],
+          "line": 12,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:rectified_point_flow/visualizer.py",
+      "bytes": 62465,
+      "sha256": "c99f8452dd2e8bca8dba0b22ad63a95ff901e003108a69d3aca852ece53e15e5",
+      "imports": [
+        {
+          "module": "pathlib",
+          "names": [
+            "Path"
+          ],
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Any",
+            "Optional"
+          ],
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": "lightning",
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "lightning.pytorch.callbacks",
+          "names": [
+            "Callback"
+          ],
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": ".utils.render",
+          "names": [
+            "visualize_point_clouds",
+            "img_tensor_to_pil",
+            "part_ids_to_colors",
+            "probs_to_colors"
+          ],
+          "line": 11,
+          "inside_function": null
+        },
+        {
+          "module": ".utils.point_clouds",
+          "names": [
+            "ppp_to_ids"
+          ],
+          "line": 12,
+          "inside_function": null
+        },
+        {
+          "module": "matplotlib.pyplot",
+          "line": 14,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 15,
+          "inside_function": null
+        },
+        {
+          "module": "itertools",
+          "names": [
+            "combinations"
+          ],
+          "line": 16,
+          "inside_function": null
+        },
+        {
+          "module": "pandas",
+          "line": 17,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:sample.py",
+      "bytes": 10836,
+      "sha256": "5317afaaec443ccc70a77e027ada1ba505c5bda906fe8554824d1eae455c1b18",
+      "imports": [
+        {
+          "module": "logging",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "pathlib",
+          "names": [
+            "Path"
+          ],
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "os",
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": "warnings",
+          "line": 6,
+          "inside_function": null
+        },
+        {
+          "module": "time",
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "hydra",
+          "line": 10,
+          "inside_function": null
+        },
+        {
+          "module": "lightning",
+          "line": 11,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 12,
+          "inside_function": null
+        },
+        {
+          "module": "omegaconf",
+          "names": [
+            "DictConfig"
+          ],
+          "line": 13,
+          "inside_function": null
+        },
+        {
+          "module": "rectified_point_flow.utils",
+          "names": [
+            "load_checkpoint_for_module",
+            "download_rap_checkpoint",
+            "print_eval_table"
+          ],
+          "line": 15,
+          "inside_function": null
+        },
+        {
+          "module": "rectified_point_flow.visualizer",
+          "names": [
+            "VisualizationCallback"
+          ],
+          "line": 16,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-main:scripts/run.py",
+      "bytes": 294,
+      "sha256": "0306a1d55ccd71cc22b1e8bc8577976393f7fc2a73d38e8b1065aeea1b14887c",
+      "imports": [
+        {
+          "module": "pathlib",
+          "names": [
+            "Path"
+          ],
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "sys",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "rap_runtime.launch",
+          "names": [
+            "main"
+          ],
+          "line": 7,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/__init__.py",
+      "bytes": 114,
+      "sha256": "4dff85f82919f48ac5831550cdb04010140d3793f1881c781ecee93d1817ba8e",
+      "imports": []
+    },
+    {
+      "id": "rap-slam:rap_slam/cli.py",
+      "bytes": 9185,
+      "sha256": "9319ec07f88570e9763ce49ee307dc45f6d0ac5dbe713b06872ce4db02adcc85",
+      "imports": [
+        {
+          "module": "argparse",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": ".runtime_paths",
+          "names": [
+            "default_paths"
+          ],
+          "line": 3,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/cluster_gate.py",
+      "bytes": 5884,
+      "sha256": "3d5c58bf7cbbcbfdf000f028f154fe98d8f5deaab93bf0415462f46da856d7d3",
+      "imports": [
+        {
+          "module": "logging",
+          "line": 33,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Dict",
+            "List",
+            "Tuple"
+          ],
+          "line": 34,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/conformal_gate.py",
+      "bytes": 4956,
+      "sha256": "dfdd206e923451fe21cabe1ff530cd450d1319d4ef568cb69fc42cbf07de0051",
+      "imports": [
+        {
+          "module": "json",
+          "line": 28,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 29,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Dict",
+            "List",
+            "Optional"
+          ],
+          "line": 30,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 32,
+          "inside_function": null
+        },
+        {
+          "module": "sklearn.linear_model",
+          "names": [
+            "LogisticRegression"
+          ],
+          "line": 76,
+          "inside_function": "fit"
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/evaluate.py",
+      "bytes": 4607,
+      "sha256": "0dbe756335f00e1128b7d23ae599882a556fa2b6458f64ca3122220ba17f4281",
+      "imports": [
+        {
+          "module": "logging",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "os",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Dict",
+            "List"
+          ],
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": "evo.core",
+          "names": [
+            "metrics",
+            "trajectory"
+          ],
+          "line": 30,
+          "inside_function": "compute_ape_rpe"
+        },
+        {
+          "module": "evo.core.trajectory",
+          "names": [
+            "PoseTrajectory3D"
+          ],
+          "line": 31,
+          "inside_function": "compute_ape_rpe"
+        },
+        {
+          "module": "matplotlib",
+          "line": 66,
+          "inside_function": "plot_trajectories"
+        },
+        {
+          "module": "matplotlib.pyplot",
+          "line": 68,
+          "inside_function": "plot_trajectories"
+        },
+        {
+          "module": "open3d",
+          "line": 107,
+          "inside_function": "merge_map"
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/keyframes.py",
+      "bytes": 1568,
+      "sha256": "9478b5b041690ee92c78187767125a8a1ec487da4846f670ff5143f8bfa7820b",
+      "imports": [
+        {
+          "module": "logging",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List"
+          ],
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 6,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/loop_closure.py",
+      "bytes": 10350,
+      "sha256": "582acd6e59c374ce68a08e5a3bbb637ff2cc84f3caf591002e12b46847baa178",
+      "imports": [
+        {
+          "module": "logging",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "time",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List",
+            "Tuple"
+          ],
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": ".verification_log",
+          "names": [
+            "RecordingError"
+          ],
+          "line": 8,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/measurement.py",
+      "bytes": 6562,
+      "sha256": "2bec179e4ba3b6f382eb164993a0b4eb5018c3ed4e00796d7f7edbd107b042b3",
+      "imports": [
+        {
+          "module": "hashlib",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "json",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": ".scan_context",
+          "names": [
+            "sc_distance",
+            "sc_distances_batch"
+          ],
+          "line": 86,
+          "inside_function": "historical_margin"
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/odometry.py",
+      "bytes": 6538,
+      "sha256": "39509e8bf4b4acd12d45a98f253dd7640e58523f0aa646489193999c18c45b80",
+      "imports": [
+        {
+          "module": "logging",
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List"
+          ],
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 11,
+          "inside_function": null
+        },
+        {
+          "module": "kiss_icp.config",
+          "names": [
+            "KISSConfig"
+          ],
+          "line": 34,
+          "inside_function": "__init__"
+        },
+        {
+          "module": "kiss_icp.kiss_icp",
+          "names": [
+            "KissICP"
+          ],
+          "line": 35,
+          "inside_function": "__init__"
+        },
+        {
+          "module": "open3d",
+          "line": 77,
+          "inside_function": "_prep"
+        },
+        {
+          "module": "open3d",
+          "line": 88,
+          "inside_function": "register"
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/pose_graph.py",
+      "bytes": 17334,
+      "sha256": "b6583705a13e57caba724cdfeb0d7eba4b289ec75e39cf239e0546ab9e4d297e",
+      "imports": [
+        {
+          "module": "logging",
+          "line": 58,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Dict",
+            "List"
+          ],
+          "line": 59,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 61,
+          "inside_function": null
+        },
+        {
+          "module": "gtsam",
+          "line": 69,
+          "inside_function": "_loop_noise"
+        },
+        {
+          "module": "gtsam",
+          "names": [
+            "noiseModel"
+          ],
+          "line": 70,
+          "inside_function": "_loop_noise"
+        },
+        {
+          "module": "gtsam",
+          "line": 247,
+          "inside_function": "optimize_pose_graph"
+        },
+        {
+          "module": "gtsam",
+          "names": [
+            "BetweenFactorPose3",
+            "LevenbergMarquardtOptimizer",
+            "NonlinearFactorGraph",
+            "Pose3",
+            "PriorFactorPose3",
+            "Values",
+            "noiseModel"
+          ],
+          "line": 248,
+          "inside_function": "optimize_pose_graph"
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/rap_backend.py",
+      "bytes": 25450,
+      "sha256": "f6c0c38f39d7135476501290376119a914ae4b90d348c441fd3e783c7632fb83",
+      "imports": [
+        {
+          "module": ".rap_precision",
+          "names": [
+            "precise_registration"
+          ],
+          "line": 22,
+          "inside_function": null
+        },
+        {
+          "module": ".runtime_paths",
+          "names": [
+            "backend_paths"
+          ],
+          "line": 23,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 25,
+          "inside_function": null
+        },
+        {
+          "module": "os",
+          "line": 26,
+          "inside_function": null
+        },
+        {
+          "module": "sys",
+          "line": 27,
+          "inside_function": null
+        },
+        {
+          "module": "time",
+          "line": 28,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Optional",
+            "Tuple"
+          ],
+          "line": 29,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 31,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 81,
+          "inside_function": "__init__"
+        },
+        {
+          "module": "hydra",
+          "line": 82,
+          "inside_function": "__init__"
+        },
+        {
+          "module": "rectified_point_flow.utils",
+          "names": [
+            "load_checkpoint_for_module"
+          ],
+          "line": 83,
+          "inside_function": "__init__"
+        },
+        {
+          "module": "dataset_process.extract_sample_features",
+          "names": [
+            "FeatureExtractor"
+          ],
+          "line": 111,
+          "inside_function": "__init__"
+        },
+        {
+          "module": "open3d",
+          "line": 143,
+          "inside_function": "preprocess"
+        },
+        {
+          "module": "torch",
+          "line": 231,
+          "inside_function": "register"
+        },
+        {
+          "module": "rectified_point_flow.procrustes",
+          "names": [
+            "fit_transformations"
+          ],
+          "line": 232,
+          "inside_function": "register"
+        },
+        {
+          "module": "torch",
+          "line": 383,
+          "inside_function": "register_multi"
+        },
+        {
+          "module": "rectified_point_flow.procrustes",
+          "names": [
+            "fit_transformations"
+          ],
+          "line": 384,
+          "inside_function": "register_multi"
+        },
+        {
+          "module": "torch",
+          "line": 471,
+          "inside_function": "extract_features"
+        },
+        {
+          "module": "scipy.spatial",
+          "names": [
+            "cKDTree"
+          ],
+          "line": 543,
+          "inside_function": "_alignment_metrics"
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/rap_precision.py",
+      "bytes": 882,
+      "sha256": "09feea1d7f72c29ae0eaceb28e5675031405560f607c7d1b246f19344ce839a8",
+      "imports": [
+        {
+          "module": "contextlib",
+          "names": [
+            "contextmanager"
+          ],
+          "line": 7,
+          "inside_function": null
+        },
+        {
+          "module": "functools",
+          "names": [
+            "wraps"
+          ],
+          "line": 8,
+          "inside_function": null
+        },
+        {
+          "module": "threading",
+          "names": [
+            "RLock"
+          ],
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 16,
+          "inside_function": "ieee_matmul"
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/real_dataset.py",
+      "bytes": 8454,
+      "sha256": "ecb438df719e5e61632163d6a620fca114f80f7fce920147a3a8234ea52684d1",
+      "imports": [
+        {
+          "module": "glob",
+          "line": 11,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 12,
+          "inside_function": null
+        },
+        {
+          "module": "os",
+          "line": 13,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List",
+            "Optional",
+            "Tuple"
+          ],
+          "line": 14,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 16,
+          "inside_function": null
+        },
+        {
+          "module": ".trajectory_protocol",
+          "names": [
+            "validate_ids",
+            "validate_stamps"
+          ],
+          "line": 17,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/runtime_paths.py",
+      "bytes": 3899,
+      "sha256": "a35b6e3629c5ff69cabc6516ea07b26731cab4944a7b6ae19934477ce85ac266",
+      "imports": [
+        {
+          "module": "os",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "pathlib",
+          "names": [
+            "Path"
+          ],
+          "line": 3,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/scan_context.py",
+      "bytes": 8469,
+      "sha256": "f06ae0d5d9bdf3b2e1de38d0dfcef389329ba8614b6470d4897e9608b125a45c",
+      "imports": [
+        {
+          "module": "logging",
+          "line": 15,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Dict",
+            "List",
+            "Tuple"
+          ],
+          "line": 16,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 18,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/sequence.py",
+      "bytes": 7631,
+      "sha256": "d12b6e5673ef17254bda5a991ce424a8275b33ed72ae6c9a201c5c194b974db1",
+      "imports": [
+        {
+          "module": "logging",
+          "line": 9,
+          "inside_function": null
+        },
+        {
+          "module": "os",
+          "line": 10,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "List",
+            "Tuple"
+          ],
+          "line": 11,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 13,
+          "inside_function": null
+        },
+        {
+          "module": "open3d",
+          "line": 14,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/spires_dataset.py",
+      "bytes": 6405,
+      "sha256": "aeba241f740c7275b1826e527a8951a34747a1955087561a653d9bc695c31746",
+      "imports": [
+        {
+          "module": "glob",
+          "line": 21,
+          "inside_function": null
+        },
+        {
+          "module": "os",
+          "line": 22,
+          "inside_function": null
+        },
+        {
+          "module": "re",
+          "line": 23,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Dict",
+            "List",
+            "Optional",
+            "Tuple"
+          ],
+          "line": 24,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 26,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/structured_motion.py",
+      "bytes": 4218,
+      "sha256": "73e6140c41c06b06f41b16d83957d89e5cc5aad5843d5329b0b25abfa1910aa6",
+      "imports": [
+        {
+          "module": "numpy",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "torch",
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": ".rap_precision",
+          "names": [
+            "ieee_matmul"
+          ],
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": "rectified_point_flow.procrustes",
+          "names": [
+            "solve_procrustes"
+          ],
+          "line": 32,
+          "inside_function": "project_groups"
+        },
+        {
+          "module": "rectified_point_flow.procrustes",
+          "names": [
+            "fit_transformations"
+          ],
+          "line": 53,
+          "inside_function": "decode_parts"
+        },
+        {
+          "module": "rectified_point_flow.procrustes",
+          "names": [
+            "rigidify_prediction_with_procrustes"
+          ],
+          "line": 64,
+          "inside_function": "sample"
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/trajectory_protocol.py",
+      "bytes": 3594,
+      "sha256": "29550223bf174fff20cd3d99e2ab41d5148e08536d66ff82187d56a936d9b1ea",
+      "imports": [
+        {
+          "module": "numpy",
+          "line": 2,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:rap_slam/verification_log.py",
+      "bytes": 4787,
+      "sha256": "a2368328013c41e5a1aabf64c7eb1c1df9b3d189aacc4c9f8ddb9d50dbfb0a45",
+      "imports": [
+        {
+          "module": "json",
+          "line": 2,
+          "inside_function": null
+        },
+        {
+          "module": "pathlib",
+          "names": [
+            "Path"
+          ],
+          "line": 3,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 4,
+          "inside_function": null
+        },
+        {
+          "module": ".measurement",
+          "names": [
+            "make_measurement",
+            "stable_id"
+          ],
+          "line": 5,
+          "inside_function": null
+        },
+        {
+          "module": ".trajectory_protocol",
+          "names": [
+            "validate_ids"
+          ],
+          "line": 6,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:scripts/eval_external_trajectory.py",
+      "bytes": 5279,
+      "sha256": "8c9f30337f462035e216bdd2769afb1c0bf7aeb261ad2f92dc07d517d8491237",
+      "imports": [
+        {
+          "module": "argparse",
+          "line": 21,
+          "inside_function": null
+        },
+        {
+          "module": "hashlib",
+          "line": 22,
+          "inside_function": null
+        },
+        {
+          "module": "json",
+          "line": 23,
+          "inside_function": null
+        },
+        {
+          "module": "sys",
+          "line": 24,
+          "inside_function": null
+        },
+        {
+          "module": "pathlib",
+          "names": [
+            "Path"
+          ],
+          "line": 25,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 27,
+          "inside_function": null
+        },
+        {
+          "module": "eval_paper_metrics",
+          "line": 32,
+          "inside_function": null
+        },
+        {
+          "module": "rap_slam",
+          "names": [
+            "real_dataset"
+          ],
+          "line": 33,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:scripts/eval_paper_metrics.py",
+      "bytes": 18074,
+      "sha256": "c20ad4d614e64bf21bc350b1ebc1c4716e9091232a2ee9733f5c7074a7fcf595",
+      "imports": [
+        {
+          "module": "argparse",
+          "line": 29,
+          "inside_function": null
+        },
+        {
+          "module": "json",
+          "line": 30,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 31,
+          "inside_function": null
+        },
+        {
+          "module": "os",
+          "line": 32,
+          "inside_function": null
+        },
+        {
+          "module": "sys",
+          "line": 33,
+          "inside_function": null
+        },
+        {
+          "module": "typing",
+          "names": [
+            "Dict",
+            "List",
+            "Optional"
+          ],
+          "line": 34,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 36,
+          "inside_function": null
+        },
+        {
+          "module": "rap_slam",
+          "names": [
+            "evaluate",
+            "real_dataset"
+          ],
+          "line": 41,
+          "inside_function": null
+        },
+        {
+          "module": "rap_slam.trajectory_protocol",
+          "names": [
+            "kitti_drift",
+            "validate_pair",
+            "validate_ids",
+            "validate_stamps"
+          ],
+          "line": 42,
+          "inside_function": null
+        }
+      ]
+    },
+    {
+      "id": "rap-slam:scripts/run_pipeline.py",
+      "bytes": 17609,
+      "sha256": "8401eafba763f42ab4c5fa27b413a2c49cc4d87b3a2690e6c0bd75122b86ced6",
+      "imports": [
+        {
+          "module": "argparse",
+          "line": 16,
+          "inside_function": null
+        },
+        {
+          "module": "json",
+          "line": 17,
+          "inside_function": null
+        },
+        {
+          "module": "logging",
+          "line": 18,
+          "inside_function": null
+        },
+        {
+          "module": "os",
+          "line": 19,
+          "inside_function": null
+        },
+        {
+          "module": "sys",
+          "line": 20,
+          "inside_function": null
+        },
+        {
+          "module": "time",
+          "line": 21,
+          "inside_function": null
+        },
+        {
+          "module": "uuid",
+          "line": 22,
+          "inside_function": null
+        },
+        {
+          "module": "hashlib",
+          "line": 23,
+          "inside_function": null
+        },
+        {
+          "module": "rap_slam.cli",
+          "names": [
+            "parse_args"
+          ],
+          "line": 27,
+          "inside_function": null
+        },
+        {
+          "module": "rap_slam.runtime_paths",
+          "names": [
+            "validate_pipeline_paths"
+          ],
+          "line": 28,
+          "inside_function": null
+        },
+        {
+          "module": "numpy",
+          "line": 37,
+          "inside_function": "get_sequence"
+        },
+        {
+          "module": "rap_slam",
+          "names": [
+            "real_dataset",
+            "sequence",
+            "spires_dataset"
+          ],
+          "line": 38,
+          "inside_function": "get_sequence"
+        },
+        {
+          "module": "glob",
+          "line": 85,
+          "inside_function": "get_sequence"
+        },
+        {
+          "module": "open3d",
+          "line": 86,
+          "inside_function": "get_sequence"
+        },
+        {
+          "module": "numpy",
+          "line": 108,
+          "inside_function": "main"
+        },
+        {
+          "module": "rap_slam",
+          "names": [
+            "evaluate",
+            "keyframes",
+            "loop_closure",
+            "odometry",
+            "pose_graph",
+            "scan_context",
+            "sequence"
+          ],
+          "line": 109,
+          "inside_function": "main"
+        },
+        {
+          "module": "rap_slam.verification_log",
+          "names": [
+            "VerificationLog"
+          ],
+          "line": 161,
+          "inside_function": "main"
+        },
+        {
+          "module": "rap_slam.rap_backend",
+          "names": [
+            "RAPBackend"
+          ],
+          "line": 195,
+          "inside_function": "main"
+        },
+        {
+          "module": "rap_slam.conformal_gate",
+          "names": [
+            "ConformalGate"
+          ],
+          "line": 221,
+          "inside_function": "main"
+        }
+      ]
+    }
+  ],
+  "dynamic_import_completeness_claimed": false,
+  "env_evidence": "../maintenance/2026-11-04/environment-readiness-01/ENVIRONMENT_SUMMARY.json"
+}

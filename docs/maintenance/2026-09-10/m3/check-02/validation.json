@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "checks": [
+    "same_generation_metrics_and_label",
+    "distinct_generation_common_physical_pair",
+    "reversed_pairs_and_physical_sequences",
+    "place_proximity_not_pose_label",
+    "invalid_rotation_and_missing_GT_never_borrow_labels",
+    "rotation_halfturn",
+    "empty_generation",
+    "nonfinite_diagnostics",
+    "negative_generation_id",
+    "fractional_generation_id",
+    "empty_run_id",
+    "legacy_assembler_cannot_overwrite_or_relabel",
+    "SC_excludes_self_future_temporal_neighbors_and_same_site",
+    "SC_incomplete_pool_rejected",
+    "no_distinct_site_is_missing_not_zero",
+    "SC_reversed_time_rejected",
+    "group_splits_disjoint_and_order_independent",
+    "duplicate_measurement_rejected"
+  ]
+}

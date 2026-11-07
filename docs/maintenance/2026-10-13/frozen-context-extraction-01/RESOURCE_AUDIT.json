@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "receipts": [
+    {
+      "stage": "freeze",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 10.653645730999415,
+        "peak_RSS_bytes": 23613440,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 304270,
+        "imports_included": true,
+        "optimizer_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T15:16:45.5795252Z",
+        "wall_seconds": 12.5069051,
+        "host_memory_observations": 16,
+        "minimum_observed_headroom_bytes": 72426954752.0
+      },
+      "launch": {
+        "pid": 55240,
+        "utc_start": "2026-10-13T15:16:33.0726201Z",
+        "script": "scripts/maintenance/frozen_context_extraction.py",
+        "stage": "freeze",
+        "headroom_before_bytes": 72471666688
+      }
+    },
+    {
+      "stage": "extract",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 35.13286205299664,
+        "peak_RSS_bytes": 2158727168,
+        "peak_GPU_allocated_bytes": 1051709440,
+        "peak_GPU_reserved_bytes": 1163919360,
+        "artifact_bytes": 199562601,
+        "imports_included": true,
+        "optimizer_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T15:18:36.4804080Z",
+        "wall_seconds": 39.5956994,
+        "host_memory_observations": 51,
+        "minimum_observed_headroom_bytes": 67177623552.0
+      },
+      "launch": {
+        "pid": 2928,
+        "utc_start": "2026-10-13T15:17:56.8847086Z",
+        "script": "scripts/maintenance/frozen_context_extraction.py",
+        "stage": "extract",
+        "headroom_before_bytes": 72533200896
+      }
+    },
+    {
+      "stage": "validate",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 23.210272548996727,
+        "peak_RSS_bytes": 132534272,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 199646384,
+        "imports_included": true,
+        "optimizer_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T15:20:52.5782329Z",
+        "wall_seconds": 25.6954083,
+        "host_memory_observations": 33,
+        "minimum_observed_headroom_bytes": 69756600320.0
+      },
+      "launch": {
+        "pid": 54540,
+        "utc_start": "2026-10-13T15:20:26.8828246Z",
+        "script": "scripts/maintenance/frozen_context_extraction.py",
+        "stage": "validate",
+        "headroom_before_bytes": 69861023744
+      }
+    }
+  ],
+  "scientific_child_seconds_including_imports": 68.99678033299278,
+  "peak_RSS_bytes": 2158727168,
+  "peak_GPU_allocated_bytes": 1051709440,
+  "peak_GPU_reserved_bytes": 1163919360,
+  "logging_retries": 0,
+  "logging_gaps": 0,
+  "old_caps_failures_gaps_unchanged": true,
+  "ordinary_setup_RSS_unknown": true,
+  "closing_identity_bookkeeping_separate": true
+}

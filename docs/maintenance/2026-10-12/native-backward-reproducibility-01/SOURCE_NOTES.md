@@ -1,0 +1,5 @@
+# Source facts and unresolved hypotheses
+
+The local frozen layer implementation calls PyTorch scaled_dot_product_attention with default backend selection; the function name _flash_attn_varlen does not establish FlashAttention dispatch. The current historical runtime is PyTorch2.7.0+cu128. Official2.7 documentation describes automatic backend selection, possible backend-dependent floating arithmetic, and CUDA/cuDNN nondeterminism; this makes backend/reduction a hypothesis, not the established cause of NOC4's mismatch.
+
+Primary sources read2026-10-12: [SDPA2.7](https://docs.pytorch.org/docs/2.7/generated/torch.nn.functional.scaled_dot_product_attention.html), [scoped backend selector2.7](https://docs.pytorch.org/docs/2.7/generated/torch.nn.attention.sdpa_kernel.html), [reproducibility2.7](https://docs.pytorch.org/docs/2.7/notes/randomness.html). NBR0 leaves all backend/determinism/precision settings unchanged. Original NOC4 report/NEXT_ROUND_PLAN and local source take precedence over a generic documentation inference. No current neural runtime has yet been revalidated by NBR0 preparation.

@@ -1,0 +1,13 @@
+# PSR0 existing physical source and role feasibility
+
+All87 frozen identities match. Independent stdlib validation checks 22 KITTI directories/43552 scan filename-size records, 23201 labeled00-10 records,33 old DS0 metadata hashes, 220 exact provenance paths,10 old Boreas objects and94 production source line citations.
+
+All22 canonical sequences contain contiguous positive16-byte-aligned scan files. This is file metadata readiness, not finite XYZ, acquisition identity or physical reference validation. All220 exact independent-provenance paths are absent in the queried sequence directories only; no global absence is asserted. Existing DS0 pose/time/calibration hashes match without numeric pose parsing or schema replay.
+
+KITTI00-05 remains exposed fit/calibration/development,06 development,07-10 exposed evaluation/development.11-21 raw availability does not supply local official supervised labels. Checkpoint membership and physical site exclusion remain UNKNOWN throughout. Oxford has only the five known GT text files; Boreas retains the ten original access objects including only two first-scan examples. Neither is an authenticated complete independent confirmation cohort. POSS and sibling KITTI roots exist but only immediate entries were inspected; their deeper availability/exposure remains for a distinct bounded inventory.
+
+Decision: EXPOSED_KITTI_DEVELOPMENT_AVAILABLE_INDEPENDENT_CONFIRMATION_UNESTABLISHED. An honestly labeled exposed engineering design is possible; no new residual fit is admitted by this inventory. Next must establish the exact common observations/statistics/base pose, strong raw geometry/direct controls, active capacity, data roles and measured total-work contract. Existing RLP2/CCR0/MGR0 failures must be considered before calling a proposed route new. Changed head/normalizer/bounds require new numerical gates.
+
+Three successful supervised CPU stages: Windows total212.385678600s (includes startup/imports), child total208.021225146s after time bootstrap; peakRSS38682624,GPU0; 900s/512MiB/32MiB caps pass. Full child and Windows exits/host records; 0 logging retries/0 gaps. Initial sandbox WSL syntax nonexecution was resolved by authorized execution of the existing runtime; no restart/install. Ordinary preparation RSS unknown, final stdlib closure separate.
+
+No numerical point-cloud/pose parsing, labels, geometry, descriptor/model load, backward/fit/trajectory or metric evaluation. This does not resolve09 or establish physical/generalization/system/RAP-specific gain. All five old INCOMPLETE markers, original HEADs/branches/two-nine tracked dirty sets and historical stops/gaps remain. No production/default/reference/manuscript/environment/acquisition/commit/Git sync.

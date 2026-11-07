@@ -1,0 +1,86 @@
+{
+  "scope": "observed-development full corrected raw anchor scans; point budget unequal to RAP",
+  "sequences": {
+    "00": {
+      "valid": 100,
+      "strict": 31,
+      "native_strict": 49,
+      "gains": [],
+      "losses": [
+        "00_210_1656",
+        "00_430_2502",
+        "00_2352_3234",
+        "00_90_4493",
+        "00_386_3318",
+        "00_924_3865",
+        "00_426_2508",
+        "00_435_2490",
+        "00_357_2477",
+        "00_752_3676",
+        "00_952_3817",
+        "00_124_4511",
+        "00_109_4493",
+        "00_44_4461",
+        "00_446_2484",
+        "00_178_1649",
+        "00_413_2508",
+        "00_2287_3285"
+      ],
+      "native_K4_unavailable": 23,
+      "recovered_unavailable": [],
+      "clipped_error": 3.0924138925377758,
+      "native_clipped_error": 1.472846082266669,
+      "by_stratum": {
+        "ambiguous_positive": {
+          "strict": 8,
+          "native": 21
+        },
+        "low_overlap": {
+          "strict": 0,
+          "native": 3
+        },
+        "ordinary": {
+          "strict": 23,
+          "native": 25
+        }
+      }
+    },
+    "08": {
+      "valid": 100,
+      "strict": 20,
+      "native_strict": 30,
+      "gains": [],
+      "losses": [
+        "08_792_1388",
+        "08_715_1540",
+        "08_699_1532",
+        "08_811_1372",
+        "08_787_1365",
+        "08_797_1372",
+        "08_873_1425",
+        "08_699_1540",
+        "08_792_1351",
+        "08_778_1468"
+      ],
+      "native_K4_unavailable": 41,
+      "recovered_unavailable": [],
+      "clipped_error": 2.9916066686838563,
+      "native_clipped_error": 1.5799304227352056,
+      "by_stratum": {
+        "ambiguous_positive": {
+          "strict": 6,
+          "native": 12
+        },
+        "low_overlap": {
+          "strict": 0,
+          "native": 3
+        },
+        "ordinary": {
+          "strict": 14,
+          "native": 15
+        }
+      }
+    }
+  },
+  "decision": "NO_GLOBAL_CANDIDATE_FEASIBILITY_SIGNAL"
+}

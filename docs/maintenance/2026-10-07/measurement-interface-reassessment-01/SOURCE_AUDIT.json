@@ -1,0 +1,94 @@
+{
+  "date_local": "2026-10-07",
+  "status": "READ_ONLY_SOURCE_AUDIT_NOT_EXPERIMENT_FREEZE",
+  "note": "Hashes identify files inspected during planning. They do not constitute a prospective experiment freeze or validate scientific outcomes. AGENTS.md was subsequently updated for continuity; its recorded hash is the pre-update read identity.",
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "dfc8c232756676d5bcd5ee99b0a875904492ada335cb397ecec35dca626eaac7"
+    },
+    {
+      "path": "rectified_point_flow/sampler.py",
+      "sha256": "6166a9dfd75ab721af64edf7bea99004acbad642c94d310dba55e849e7a4cf25"
+    },
+    {
+      "path": "rectified_point_flow/procrustes.py",
+      "sha256": "cb8f6bc040eef491e149bfdb82ec29da4c7865925e8cb6730b9f72b109c5cfe1"
+    },
+    {
+      "path": "docs/maintenance/2026-10-06/shared-identity-engineering-01/REPORT.md",
+      "sha256": "73e9b7c63a98471cfa0b308dc7b97ffe6735f1e8b9f6cd4e4659a2ee0aa9c424"
+    },
+    {
+      "path": "docs/maintenance/2026-09-29/system-opportunity-audit-01/REPORT.md",
+      "sha256": "a83aca5941f514b7f08cd9c45ac95feb1966175802e5ae73da043ba444f1e685"
+    },
+    {
+      "path": "docs/maintenance/2026-10-05/joint-loop-oracle-01/REPORT.md",
+      "sha256": "de6b8fa92ed68d2043de281bf588a61d7aeb5c4c5dced90a80d394ed6eadb40a"
+    },
+    {
+      "path": "docs/maintenance/2026-10-05/flow-directional-information-01/REPORT.md",
+      "sha256": "f4bc0e7fd69c8ecd9677ade8a5c2694279becc1ffdbaa911fa91c7203434d06f"
+    },
+    {
+      "path": "docs/maintenance/2026-10-05/online-geotransformer-01/REPORT.md",
+      "sha256": "497e785759547eac9a868f5f753e4688c1245dd74a657cb5c2a10f0d682e5c33"
+    },
+    {
+      "path": "E:/githouse/RAP-SLAM/rap_slam/pose_graph.py",
+      "sha256": "b6583705a13e57caba724cdfeb0d7eba4b289ec75e39cf239e0546ab9e4d297e"
+    },
+    {
+      "path": "E:/githouse/RAP-SLAM/rap_slam/rap_backend.py",
+      "sha256": "552fe044167b2490ee5a5d390c659a3707fbfc0a31108b6f15bd579623fe90f3"
+    },
+    {
+      "path": "E:/githouse/RAP-SLAM/scripts/run_pipeline.py",
+      "sha256": "843214775071664a5fb0bce8a95a7e4bb681fdd75f67e93180888fa7729e7cda"
+    },
+    {
+      "path": ".maintenance-archive/2026-09-09-m0/manifest.json",
+      "sha256": "d9f23fdde6871e4b765d0f76c765035091afdc48e6655d11bf6001fffa41d497"
+    }
+  ],
+  "source_facts": [
+    {
+      "path": "rectified_point_flow/sampler.py",
+      "lines": [
+        56,
+        64
+      ],
+      "fact": "Raw clean endpoints are retained separately from per-step rigid projection."
+    },
+    {
+      "path": "rectified_point_flow/procrustes.py",
+      "lines": [
+        6,
+        37
+      ],
+      "fact": "Native fit uses all rows with unweighted Kabsch; translation is target mean minus rotated source mean."
+    },
+    {
+      "path": "E:/githouse/RAP-SLAM/rap_slam/rap_backend.py",
+      "lines": [
+        265,
+        283
+      ],
+      "fact": "Final raw endpoints yield independent part fits, then inverse(T_a)T_b."
+    },
+    {
+      "path": "E:/githouse/RAP-SLAM/rap_slam/pose_graph.py",
+      "lines": [
+        265,
+        268
+      ],
+      "fact": "One odometry noise model is used for all chained keyframe relatives."
+    }
+  ],
+  "head_rap": "4055d929c594b0033aafc6eed339c910369eef55",
+  "head_slam": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6",
+  "archive_manifest_matches_recorded_identity": true,
+  "archive_payload_rehashed": false,
+  "model_or_gt_data_read": false
+}

@@ -1,0 +1,27 @@
+# Continuation closeout: actual ordinary-camera results, no observed quota exhaustion
+
+The current authorized account window is now over by an observed reset-identity change, not an observed quota denial. At2026-10-29 01:16:41UTC (09:16:41Asia/Shanghai), the new receipt is1%/ordinaryTRUE/reset1793254601. The preceding window's last actual receipt was54%/TRUE/reset1793208661 at13:25:40UTC onOctober28. Its actual exhaustion and exact reset-transition cause/time are UNOBSERVED. The latest message changed client date; it did not explicitly renew scientific work after this reset. Per AGENTS.md's no-automatic-reset-resume instruction, no new experiment is started. This is documentary closure of already-authorized completed work, not a goal-status or scheduler action.
+
+## Results worth retaining
+
+| Complete-cohort stage | Result | Limit |
+|---|---|---|
+| ER1 ordinary camera5DoF |30/200 outputs,all00;23/200 within5deg/15deg |08 has0/100; refit worsens means and adds no bin successes |
+| SD1 source depth |24/200 sets have>=8 unique hypotheses,22/2 bysequence |Proximity hypotheses,not authenticated correspondences; prospective rank-control omission retained |
+| PR1 ordinary source-depth PnP |17/200 numerical metric-camera poses,all00;all17 within5deg/2m |183noevidence;meanR0.623deg/t0.664m denominator17;no physical scale or corrected-LiDAR/RAP equivalence |
+| MR1 complete category join |15PnP outputs were old correct-accepted IDs,two correct-rejected |0PnP outputs among64 old missing-correct-proposal IDs;0new output IDs beyondER1 |
+| PT1 actual-backend source screen |68cases/17initializers,1632Decimal checks |Pure pretranslation is independently recentered in exact arithmetic; floating cases differ,not a full-model/pipeline invariance proof |
+
+All predictions were sealed before their separate supplied-reference evaluations. PR1 passed23 prospective controls,200 independent Decimal60 relative transforms and1129 scalar projection checks. Its nativeEPNP flag is1 in this installedOpenCV5 build, confirmed from actual API. PR1 four children all passed/exited/reaped,3.2537946s host walls/max47,562,752-byte lifetime peak; no retry. ER1 original raw-outlier control failure, two lazy-import failures/seven-row continuation, SD1 NumPy-bool/truncatedJSON/missing original final exit record and post-primary rank controls remain visible. No old failure, cap or negative conclusion is erased.
+
+PT1 is tied to the exact current RAPBackend._normalize_parts AST and public raw subsets. At fixed point/count/features,cond_i=(p_i-c_i)/s. Independent pretranslation shifts c_i but is algebraically removed.33/34float64-shift cases are byte-equal;maximumdifference7.105e-15.0/34float32-shift cases are byte-equal;maximumdifference5.960e-8. These satisfy a representation budget but cannot prove two neural trajectories equal. Actual voxel/outlier/feature/RNG behavior was not run. The existing recovery composition conditionally cancels pretranslation as well. This blocks a naive claim that moving a cloud alone preserves a new metric-translation conditioning channel.
+
+Source inspection finds a distinct optional sampler x_1 channel; it is untested as a pose prior. _prepare_data consumes timestep RNG even in this inference path. Any future common-random model comparison must handle that explicitly and retain public-only inputs; no source comment authenticates canonical training/checkpoint/physical semantics. No model, Torch/GPU forward, backward or new RAP training was executed in this continuation. All old SR1/HFIT0/native/joint/equivalence/provenance failures and caps remain. ResearchUNRESOLVED/manuscriptPAUSED.
+
+## Reviewable next step, not queued execution
+
+Current images provide no new metric-pose coverage of the64 missing-proposal IDs. There is no evidence here for automatic training or a useful new hard-loop claim. Before any model study, define a distinct input-information mechanism and a common-raw point-cloud comparison with strong geometry/equal-work controls. Raw camera/LiDAR conversion can use the declared supplied affine actionTr_j^-1*Tcam*Tr_i; the old point-dependent0.205-degree correction has no global rigid inverse/conjugation. Windows metadata finds noSciPy/Open3D. Existing saved WSL inventory namesOpen3D0.19.0/SciPy1.15.2/NumPy1.26.4, but those are historical metadata,not current API/runtime admission. No WSL query/start, runtime import, ICP implementation/freeze, new model scope or installation was performed for that possible follow-up. Do not run old closed hosts or use a weak replacement to fill a dependency.
+
+The oldNJE0 strong comparison's FGR/GICP parameters were read only as existing-source context. That old4group/29view/32measurement screen remains closed/failed; no group/seed/point/step rescue or old cap reset. A prospective new full200 raw-frame geometry/image-initializer comparison,if justified and explicitly renewed,must declare its separate task/inputs, resource limits, optional WSL lifecycle and reference separation before execution. It is not admitted by this report.
+
+Both repository HEAD/dirty observations were rechecked earlier in this window (main4055d929...,SLAM6d3f2d2...,tracked2/9dirty);remote synchronization remains unchecked. Only maintenance helpers/documents and additive AGENTS were changed. No production/default/Git index/commit/push/install/WSL/source-environment/outreach/scheduler/goal-status action. All finite owned workers have completed receipts; no pending background numerical job or automatic reset continuation.

@@ -1,0 +1,22 @@
+# Owner continuation — six bounded numerical stages
+
+Owner resumed autonomous project advancement with “新的一天，请继续推进”. Latest full-system benchmark remains2026-10-11 attempt03: RAP/KISS mean ter.447166761/.478613920%, aligned LiDARATE1.091071657/.699688694m, mixed performance. Yesterday's CCR0 exact causal-context family failed its headroom gates and is retired. RPC0 reference/09 physical cause unresolved. Today's work diagnoses and controls a native numerical prerequisite; no new system metrics or novelty.
+
+|Stage|Frozen identities / deliveries|Result|
+|---|---:|---|
+|[NBR02](../native-backward-reproducibility-02/REPORT.md)|382 /110|Exact source/mode/initialization repair; V repeats exact, P full/cache each internally differ. Cache is not sole explanation in instrumented traces.|
+|[AOD0](../attention-operator-diagnosis-01/REPORT.md)|482 /55|Fixed identical normalized inputs/cotangents, actual default Flash P Q13 min-fp16-step differences; K/V exact. Local math repeats exact, forward changes.|
+|[NMR0](../native-math-reproducibility-01/REPORT.md)|542 /142|Whole-native scoped math all8 repeats/full-cache exact; fixed parameter-direction corroboration8/12, four P failures.|
+|[FPC0](../native-precision-control-01/REPORT.md)|686 /169|Whole-model float32/no-autocast/math, S original versus D float64 objective arithmetic; all16 repeat/full-cache exact, both8/12 directions retain same four P failures.|
+|[DTC0](../native-double-tail-control-01/REPORT.md)|859 /118|Fixed archived float32 prefix, double last2layers/finalMLP/all443904 original values, four shadow backwards repeat exact; all12 stricter direction criteria pass, maxP2.009686e-7.|
+|[SFC0](../native-shadow-step-control-01/REPORT.md)|980 /70|Predetermined normalized first-order symmetric restored probes; all descent/ascent/radius/restoration/repetition gates pass.|
+
+SFC0 P loss198.329989556->198.131712569, opposite direction198.528372549; V7.22996671e-6->7.22275540e-6, opposite7.23721533e-6. Both repetitions byteexact. Eight actual signed transient parameter-step evaluations,0 optimizer API calls/retained updates/fit iterations. Independent NumPy parameter changes/norms/dots and Horn/direct costs max1.563194e-12. These losses belong to the known exposed synthetic shadow function and are not ATE/ter or physical pose gains.
+
+DTC0/SFC0 keep frozen first10-layer FPC0 prefix, promote original parameter values in two final layers/output MLP, use double math attention and double objective arithmetic. Four original parameter-free Timesteps still produce float32 constants, explicitly promoted through temporary hooks. Tail source AST differs only by final float-to-double cast. This includes all active parameters but does not establish equality to original fp16/FP32 complete forward. Hooks/flags/dtypes/values/frozen digest/modes restored. Sampled derivative corroboration is not an independent implementation of every transformer derivative. First-order normalized probes are ordinary numerical controls, not a new RAP mechanism.
+
+Twenty-seven new scientific children today,26 success/one retained prefreeze path-binding failure; NBR02's combined report additionally includes yesterday's two children and original pre-forward mode stop. Each stage has its own prospective cap and complete child/Windows exit/host records; no global all-history cap amendment. Imports included in each scientific time, ordinary setup RSS unknown; final standard-library seal/identity bookkeeping separate. All task scientific children exited. Old gaps/unknowns retained.
+
+Original NOC4 original+attempt02 scientific INCOMPLETE markers and old AdamW loss-increase/P replay stops remain, as does original failed NBR0 marker. NMR/FPC failed directions not relaxed. CCR0/SGC0/MGR0 retired families, official references/all original edges and09 physical unknown retained. No original-native fix, unique historical cause, fitting, robustness/physical/generalization/system gain or novelty. Original main/sibling HEADs/branches/two-nine tracked dirty sets preserved, no production/default/backbone/reference/manuscript/install/acquisition/restart/commit/Git synchronization.
+
+Next remains separately scoped design: [NEXT_STAGE_REASONING](NEXT_STAGE_REASONING.md). No next fit protocol/runner/freeze/model update/real/nearby/trajectory started. A future owner continuation can authorize a distinct bounded comparison; never resume original400 fits merely because this shadow control passes.

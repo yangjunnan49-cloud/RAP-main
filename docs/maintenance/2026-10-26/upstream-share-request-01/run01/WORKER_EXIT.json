@@ -1,0 +1,24 @@
+{
+  "success": false,
+  "error": "SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')",
+  "elapsed_seconds": 1.7339999999967404,
+  "peak_working_set_bytes": 30167040,
+  "cumulative_delivered_body_bytes": 0,
+  "requests": 1,
+  "all_request_rows": [
+    {
+      "index": 0,
+      "url": "https://cloud.minesparis.psl.eu/index.php/s/FnUqTWFA4Pd7WZr",
+      "method": "GET",
+      "request_headers": {
+        "User-Agent": "RAP-source-audit/1.0",
+        "Accept": "text/html,application/xhtml+xml;q=0.9",
+        "Accept-Encoding": "identity",
+        "Connection": "close"
+      },
+      "body_bytes": 0,
+      "EOF": false
+    }
+  ],
+  "whole_scope_not_retried": true
+}

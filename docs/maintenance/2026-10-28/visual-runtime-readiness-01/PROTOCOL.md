@@ -1,0 +1,7 @@
+# VR1 existing classical-vision runtime admission
+
+New local source/engineering task after complete IP1 image packet. Windows bundled runtime has Pillow/NumPy but no cv2/scipy/skimage. Inspect the already installed project environment /root/miniconda3/envs/rap-inference/bin/python in Ubuntu-24.04; no package installation or environment/default change. WSL initially observed Stopped by a successful privileged read-only inventory. Earlier unprivileged inventory E_ACCESSDENIED is preserved in chat output, not a changed scientific result.
+
+Scope conservatively2026-10-28 03:39:06UTC/600s with120s closure reserve;4MiB dossier, host fresh headroom12GiB/query<=2s. One bounded environment probe: worker45s alarm/2GiB hard address-space cap, process-scoped single-thread BLAS/OpenMP environment, CUDA hidden. Import only existing cv2 and NumPy as needed for version/API documentation, no Torch/model/checkpoint/image/point/pose/features/solver execution. Record peak RSS, module origins, SIFT/ORB/PnP/essential-matrix API presence and bounded installed docstrings. Missing dependency stops method admission; no installation/fallback model or scientific retry.
+
+Windows launch capped90s including WSL startup; preserve exit and stop only owned helper on abnormal termination. Restore initial WSLStopped after the probe. This generic runtime/API evidence does not supply correspondences, calibrated geometry, pose accuracy or a RAP increment. A separately frozen common-input complete-cohort method is still required.

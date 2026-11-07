@@ -1,0 +1,27 @@
+{
+  "status": "PRESTART_RESOURCE_GATE_NOT_MET_NO_NUMERIC_EXECUTION",
+  "explicit_owner_instruction": "请继续执行",
+  "account_primary": {
+    "usedPercent": 5,
+    "windowDurationMins": 300,
+    "resetsAt": 1792235525
+  },
+  "account_secondary": {
+    "usedPercent": 79,
+    "windowDurationMins": 10080,
+    "resetsAt": 1792652445
+  },
+  "ordinaryUsageAllowed_as_returned": true,
+  "following_account_clock_UTC": "2026-10-17 10:39:32 UTC",
+  "resource": {
+    "utc": "2026-10-17T10:39:31.4035497Z",
+    "committed_bytes": 129239961600,
+    "commit_limit_bytes": 137269444608,
+    "headroom_bytes": 8029483008,
+    "required_bytes": 12884901888
+  },
+  "additional_commit_headroom_required_bytes": 4855418880,
+  "source": "Actual native CIM and account tool responses in this explicit owner turn",
+  "no_exhaustion_claim": true,
+  "no_automatic_reset_resume": true
+}

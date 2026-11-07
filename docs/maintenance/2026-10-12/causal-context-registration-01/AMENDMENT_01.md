@@ -1,0 +1,5 @@
+# Prefreeze preservation-map repair
+
+The first CCR0 freeze child stopped before a freeze manifest or numerical payload because it compared the original RPC0 validator path against its original hash, despite RPC0's separately sealed validator amendment. The prior AMENDMENT_01/VALIDATION_AMENDMENT_FREEZE02 already specify that the original validator identity binds its retained source snapshot and the current validator binds the repaired hash. No historical file changed in CCR0.
+
+Retain CCR0 FAILURE_freeze.json, complete child/Windows receipts and prefreeze_attempt01 source/protocol/owner snapshots. New freeze02 verifies RPC0's original validator hash against its exact original snapshot, separately verifies every one of the existing 13 amendment bindings, then freezes both original alias and current repaired path. Every other original RPC0 path still requires the original hash. This is a preservation-map correction before new numerical execution, not a reference/solver/input/gate/resource repair. All CCR0 settings remain as first declared, and the failed child's imports/time/RSS count under CCR0's original caps.

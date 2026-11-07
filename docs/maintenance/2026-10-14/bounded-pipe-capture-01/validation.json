@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "frozen_identities": 19,
+  "cases": 8,
+  "inner_children_reaped": 8,
+  "results": [
+    {
+      "case": "normal",
+      "native_exit": 0,
+      "reason": null,
+      "admitted": true,
+      "total_case_bytes": 707,
+      "child_RSS_bytes": 18178048,
+      "child_wall_seconds": 0.017660877987509593
+    },
+    {
+      "case": "stdout_overflow",
+      "native_exit": 0,
+      "reason": "log_overflow",
+      "admitted": false,
+      "total_case_bytes": 846,
+      "child_RSS_bytes": 18178048,
+      "child_wall_seconds": 0.01844912499655038
+    },
+    {
+      "case": "stderr_overflow",
+      "native_exit": -15,
+      "reason": "log_overflow",
+      "admitted": false,
+      "total_case_bytes": 844,
+      "child_RSS_bytes": 18178048,
+      "child_wall_seconds": 0.02202216800651513
+    },
+    {
+      "case": "both_flood",
+      "native_exit": 0,
+      "reason": "log_overflow",
+      "admitted": false,
+      "total_case_bytes": 979,
+      "child_RSS_bytes": 18178048,
+      "child_wall_seconds": 0.022055256995372474
+    },
+    {
+      "case": "nonzero",
+      "native_exit": 7,
+      "reason": "nonzero_exit",
+      "admitted": false,
+      "total_case_bytes": 705,
+      "child_RSS_bytes": 18178048,
+      "child_wall_seconds": 0.020436079998034984
+    },
+    {
+      "case": "timeout",
+      "native_exit": -15,
+      "reason": "timeout",
+      "admitted": false,
+      "total_case_bytes": 676,
+      "child_RSS_bytes": 18178048,
+      "child_wall_seconds": 0.2665179969917517
+    },
+    {
+      "case": "empty",
+      "native_exit": 0,
+      "reason": null,
+      "admitted": true,
+      "total_case_bytes": 666,
+      "child_RSS_bytes": 18178048,
+      "child_wall_seconds": 0.017635350988712162
+    },
+    {
+      "case": "binary",
+      "native_exit": 0,
+      "reason": null,
+      "admitted": true,
+      "total_case_bytes": 675,
+      "child_RSS_bytes": 18178048,
+      "child_wall_seconds": 0.02095308300340548
+    }
+  ],
+  "all_native_exit_RSS_and_pipe_EOF_present": true,
+  "cooperating_case_envelope_bytes": 3072,
+  "arbitrary_external_writer_guarantee": false,
+  "production_or_RAP_integration": false
+}

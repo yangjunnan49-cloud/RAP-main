@@ -1,0 +1,108 @@
+{
+  "utc": "2026-10-17T11:26:31.8874558Z",
+  "scope": "Current read-only resource diagnosis, names/IDs/counters only, no command lines or process control",
+  "readable_process_counter_rows": 398,
+  "unknown_counter_rows": [],
+  "top15_by_current_private_bytes": [
+    {
+      "pid": 16980,
+      "name": "SLDWORKS",
+      "private_bytes": 83206692864,
+      "working_set_bytes": 2597773312
+    },
+    {
+      "pid": 50844,
+      "name": "chrome",
+      "private_bytes": 8251543552,
+      "working_set_bytes": 68018176
+    },
+    {
+      "pid": 18328,
+      "name": "NVIDIA Overlay",
+      "private_bytes": 4155273216,
+      "working_set_bytes": 435675136
+    },
+    {
+      "pid": 43280,
+      "name": "chrome",
+      "private_bytes": 3882393600,
+      "working_set_bytes": 121327616
+    },
+    {
+      "pid": 18284,
+      "name": "bambu-studio",
+      "private_bytes": 1613692928,
+      "working_set_bytes": 204386304
+    },
+    {
+      "pid": 19404,
+      "name": "NVIDIA Overlay",
+      "private_bytes": 1258889216,
+      "working_set_bytes": 736243712
+    },
+    {
+      "pid": 34068,
+      "name": "vmmemWSL",
+      "private_bytes": 1091686400,
+      "working_set_bytes": 173387776
+    },
+    {
+      "pid": 25428,
+      "name": "DingTalk",
+      "private_bytes": 1040207872,
+      "working_set_bytes": 404029440
+    },
+    {
+      "pid": 28952,
+      "name": "sqlservr",
+      "private_bytes": 683360256,
+      "working_set_bytes": 191090688
+    },
+    {
+      "pid": 26536,
+      "name": "DingTalk",
+      "private_bytes": 672866304,
+      "working_set_bytes": 14389248
+    },
+    {
+      "pid": 76540,
+      "name": "ChatGPT",
+      "private_bytes": 601849856,
+      "working_set_bytes": 551481344
+    },
+    {
+      "pid": 67840,
+      "name": "MsMpEng",
+      "private_bytes": 587464704,
+      "working_set_bytes": 375418880
+    },
+    {
+      "pid": 12428,
+      "name": "explorer",
+      "private_bytes": 445079552,
+      "working_set_bytes": 304472064
+    },
+    {
+      "pid": 69728,
+      "name": "ChatGPT",
+      "private_bytes": 412127232,
+      "working_set_bytes": 379146240
+    },
+    {
+      "pid": 2220,
+      "name": "dwm",
+      "private_bytes": 372002816,
+      "working_set_bytes": 160317440
+    }
+  ],
+  "sum_current_readable_private_bytes": 120108044288,
+  "pagefile_usage_MiB": [
+    {
+      "Name": "D:\\pagefile.sys",
+      "AllocatedBaseSize": 98304,
+      "CurrentUsage": 14690,
+      "PeakUsage": 17145
+    }
+  ],
+  "limitations": "Per-process PrivateMemorySize64 and working sets do not fully reconcile global committed bytes, kernel/VM accounting or full-lifetime peaks"
+}

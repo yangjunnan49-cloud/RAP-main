@@ -1,0 +1,26 @@
+{
+  "name": "P2",
+  "arm": "P",
+  "rep": 2,
+  "loss_before": 198.3299895558426,
+  "gradient_L2_norm": 30970.27322578277,
+  "predetermined_radius": 6.403882462061483e-06,
+  "steps": [
+    {
+      "sign": -1,
+      "loss": 198.1317125687217,
+      "actual_gradient_dot": -0.1983299895558075,
+      "actual_parameter_L2_norm": 6.403882462060349e-06
+    },
+    {
+      "sign": 1,
+      "loss": 198.52837254860694,
+      "actual_gradient_dot": 0.1983299895558075,
+      "actual_parameter_L2_norm": 6.403882462060349e-06
+    }
+  ],
+  "restored_output_byteexact": true,
+  "actual_transient_signed_parameter_steps": 2,
+  "optimizer_API_calls": 0,
+  "retained_updates": 0
+}

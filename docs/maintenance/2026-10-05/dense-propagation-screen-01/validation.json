@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "utc": "2026-10-05T03:30:50.411101+00:00",
+  "check_groups": [
+    "freeze, packages, bank inventory/hashes and stage ordering",
+    "00: analytic trajectory/anchors/SE3, correction steps, independent ATE/segments, audit reproduction",
+    "05: analytic trajectory/anchors/SE3, correction steps, independent ATE/segments, audit reproduction",
+    "06: analytic trajectory/anchors/SE3, correction steps, independent ATE/segments, audit reproduction",
+    "07: analytic trajectory/anchors/SE3, correction steps, independent ATE/segments, audit reproduction",
+    "09: analytic trajectory/anchors/SE3, correction steps, independent ATE/segments, audit reproduction",
+    "10: analytic trajectory/anchors/SE3, correction steps, independent ATE/segments, audit reproduction",
+    "independent cohort arithmetic and all seventeen prospective gates"
+  ],
+  "independent_segment_records": 22194,
+  "decision": "NO_FIXED_INTERPOLATION_SIGNAL",
+  "trajectory_crosscheck": {
+    "00": {
+      "independent_S_max_delta": 1.6040724304389187e-11,
+      "native_saved_max_delta": 6.194511570356553e-10
+    },
+    "05": {
+      "independent_S_max_delta": 1.7706724975141697e-11,
+      "native_saved_max_delta": 6.389746509682936e-10
+    },
+    "06": {
+      "independent_S_max_delta": 1.1050493853304033e-11,
+      "native_saved_max_delta": 6.107541139499517e-10
+    },
+    "07": {
+      "independent_S_max_delta": 1.056488230233299e-12,
+      "native_saved_max_delta": 5.613145503957639e-10
+    },
+    "09": {
+      "independent_S_max_delta": 2.34035013590983e-12,
+      "native_saved_max_delta": 6.153868525871076e-10
+    },
+    "10": {
+      "independent_S_max_delta": 1.4210854715202004e-14,
+      "native_saved_max_delta": 1.000017846308765e-10
+    }
+  },
+  "sequence10_P_S_max_delta": 2.2737367544323206e-13,
+  "wall_s": 2.6136430089827627,
+  "total_screen_wall_s": 8.29955045087263,
+  "maximum_stage_peak_rss_gib": 0.09852981567382812,
+  "artifact_bytes_before_report": 9697123
+}

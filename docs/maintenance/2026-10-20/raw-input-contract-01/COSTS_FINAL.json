@@ -1,0 +1,543 @@
+{
+  "utc": "2026-10-21T01:37:05.9613378Z",
+  "stages": [
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "close_r0",
+      "enclosing_seconds": 2.3942446,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 1.507744107999315,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 2.3942446,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "freeze",
+      "enclosing_seconds": 153.1773855,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 150.938559962,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 153.1773855,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "frontend_diagnosis",
+      "enclosing_seconds": 3.1903167,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 1.5897068999984185,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 3.1903167,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "preflight",
+      "enclosing_seconds": 3.9400232,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 1.021822759998031,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 3.9400232,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "prepare02",
+      "enclosing_seconds": 2.3874752,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 0.11347775199828902,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 2.3874752,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "prepare03",
+      "enclosing_seconds": 2.3859781,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 0.10070619600446662,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 2.3859781,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "run",
+      "enclosing_seconds": 3.195105,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 0.43486341599782463,
+          "success": false,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 3.195105,
+          "success": null,
+          "exit_code": 1
+        },
+        {
+          "name": "wrapper_exit.json",
+          "wall_seconds": 1.0383372879950912,
+          "success": false,
+          "exit_code": null
+        }
+      ]
+    },
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "run03",
+      "enclosing_seconds": 519.9071704,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 519.1491892420017,
+          "success": false,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 519.9071704,
+          "success": null,
+          "exit_code": 1
+        },
+        {
+          "name": "wrapper_exit.json",
+          "wall_seconds": 519.6796519909985,
+          "success": false,
+          "exit_code": null
+        }
+      ]
+    },
+    {
+      "scope": "raw-system-integration-01",
+      "stage": "synthetic",
+      "enclosing_seconds": 3.1898567,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 2.7046385840003495,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 3.1898567,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "audit_bindings",
+      "enclosing_seconds": 199.2075483,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 194.6345927939983,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 199.2075483,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "certify_inputs",
+      "enclosing_seconds": 395.4870805,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 393.5737670269955,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 395.4870805,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "deliver",
+      "enclosing_seconds": 20.4327997,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 19.430769462996977,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 20.4327997,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "evaluate06",
+      "enclosing_seconds": 247.5511201,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 241.47387368000636,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 247.5511201,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "frontend_eligibility",
+      "enclosing_seconds": 508.8995527,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 506.5764438190017,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 508.8995527,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "native_delivery_checks",
+      "enclosing_seconds": 0.6649105,
+      "receipts": [
+        {
+          "name": "exit.json",
+          "wall_seconds": 0.6649105,
+          "success": true,
+          "exit_code": null
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "package_precision",
+      "enclosing_seconds": 1.6107848,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 1.4036522960013826,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 1.6107848,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "prepare_delivery07",
+      "enclosing_seconds": 1.6294855,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 0.739426394997281,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 1.6294855,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "prepare_eval05",
+      "enclosing_seconds": 2.3917231,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 0.7976375289945281,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 2.3917231,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "prepare04",
+      "enclosing_seconds": 3.1763302,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 1.0147988300013822,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 3.1763302,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "prepare05",
+      "enclosing_seconds": 3.1836946,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 1.2249824539976544,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 3.1836946,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "prepare06",
+      "enclosing_seconds": 2.3885801,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 0.5418770809992566,
+          "success": false,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 2.3885801,
+          "success": null,
+          "exit_code": 1
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "prepare06b",
+      "enclosing_seconds": 3.1886337,
+      "receipts": [
+        {
+          "name": "exit.json",
+          "wall_seconds": 3.1886337,
+          "success": null,
+          "exit_code": 1
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "run04",
+      "enclosing_seconds": 773.4728936,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 763.9822340559986,
+          "success": false,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 773.4728936,
+          "success": null,
+          "exit_code": 1
+        },
+        {
+          "name": "wrapper_exit.json",
+          "wall_seconds": 764.7524427570024,
+          "success": false,
+          "exit_code": null
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "run05",
+      "enclosing_seconds": 2059.723999,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 2005.6632269969996,
+          "success": false,
+          "exit_code": null
+        },
+        {
+          "name": "wrapper_exit.json",
+          "wall_seconds": 2006.2472975280034,
+          "success": false,
+          "exit_code": null
+        },
+        {
+          "name": "enclosing_upper_bound.json",
+          "wall_seconds": 2059.723999,
+          "success": null,
+          "exit_code": null
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "run06",
+      "enclosing_seconds": 1831.8392942,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 1789.5818024510008,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 1831.8392942,
+          "success": null,
+          "exit_code": 0
+        },
+        {
+          "name": "wrapper_exit.json",
+          "wall_seconds": 1790.2034796630032,
+          "success": true,
+          "exit_code": null
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "timing_analysis",
+      "enclosing_seconds": 3.2115967,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 1.3281623569928342,
+          "success": false,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 3.2115967,
+          "success": null,
+          "exit_code": 1
+        }
+      ]
+    },
+    {
+      "scope": "raw-input-contract-01",
+      "stage": "timing_analysis02",
+      "enclosing_seconds": 10.2665658,
+      "receipts": [
+        {
+          "name": "child_exit.json",
+          "wall_seconds": 8.39808551799797,
+          "success": true,
+          "exit_code": null
+        },
+        {
+          "name": "exit.json",
+          "wall_seconds": 10.2665658,
+          "success": null,
+          "exit_code": 0
+        }
+      ]
+    }
+  ],
+  "shared_original_cap_seconds": 7200,
+  "enclosing_charged_seconds": 6762.0941485,
+  "remaining_seconds": 437.9058514999997,
+  "nested_clocks_not_added": true,
+  "old_LMB_1073_9382182_unchanged": true,
+  "run05_inclusive_upper_bound_included": true,
+  "missing_child_receipts_retained": true
+}

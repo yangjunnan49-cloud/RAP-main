@@ -1,0 +1,22 @@
+{
+  "rap_keys": 344,
+  "descriptor_keys": 58,
+  "strict": true,
+  "weights_only": true,
+  "unsafe_globals": [
+    "builtins.dict",
+    "builtins.int",
+    "builtins.list",
+    "collections.defaultdict",
+    "numpy._core.multiarray._reconstruct",
+    "numpy.dtype",
+    "numpy.ndarray",
+    "omegaconf.base.ContainerMetadata",
+    "omegaconf.base.Metadata",
+    "omegaconf.listconfig.ListConfig",
+    "omegaconf.nodes.AnyNode",
+    "typing.Any"
+  ],
+  "rap_sha256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200",
+  "descriptor_sha256": "daf910b6e2a79c4346a6ef8eeb18b56ffc15b552cc82af091b8b6c0a18116eef"
+}

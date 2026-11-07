@@ -1,0 +1,91 @@
+{
+  "stage": "validate",
+  "utc": "2026-10-16T13:53:24.2390820Z",
+  "native_exit_code": 0,
+  "child_pid": 49052,
+  "error": null,
+  "enclosing_seconds": 1.1351278,
+  "previous_enclosing_seconds": 3.2645051,
+  "running_queries": [
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 2875392,
+      "working_set": 2875392,
+      "peak_commit": 528384
+    },
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 43782144,
+      "working_set": 43782144,
+      "peak_commit": 12513280
+    },
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 76062720,
+      "working_set": 76062720,
+      "peak_commit": 24031232
+    },
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 82006016,
+      "working_set": 81707008,
+      "peak_commit": 28540928
+    },
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 86024192,
+      "working_set": 86024192,
+      "peak_commit": 29429760
+    }
+  ],
+  "final_queries": [
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 99766272,
+      "working_set": 36864,
+      "peak_commit": 38072320
+    },
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 99766272,
+      "working_set": 36864,
+      "peak_commit": 38072320
+    }
+  ],
+  "running_query_gaps": 0,
+  "final_child_OS_peak_known": true,
+  "child_peak_cap_bytes": 536870912,
+  "observer_to_snapshot": {
+    "success": true,
+    "error": 0,
+    "error_relevant": false,
+    "structure_bytes": 72,
+    "peak_working_set": 165748736,
+    "working_set": 165748736,
+    "peak_commit": 77053952
+  },
+  "observer_full_lifetime_peak": "UNKNOWN",
+  "ordinary_preparation_RSS": "UNKNOWN",
+  "all_native_process_tree_claim": false
+}

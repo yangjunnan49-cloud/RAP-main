@@ -1,0 +1,5 @@
+{
+  "error": "TypeError(\"unsupported operand type(s) for -: 'dict' and 'dict'\")",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/e/githouse/RAP-main/scripts/maintenance/membership_formation_diagnosis.py\", line 261, in record\n    callback()\n  File \"/mnt/e/githouse/RAP-main/scripts/maintenance/validate_membership_formation.py\", line 135, in bank\n    compare(cov,summary[seq]['coverage'])\n  File \"/mnt/e/githouse/RAP-main/scripts/maintenance/validate_membership_formation.py\", line 14, in compare\n    return max([compare(a[k],b[k],tol) for k in a] or [0.])\n  File \"/mnt/e/githouse/RAP-main/scripts/maintenance/validate_membership_formation.py\", line 14, in <listcomp>\n    return max([compare(a[k],b[k],tol) for k in a] or [0.])\n  File \"/mnt/e/githouse/RAP-main/scripts/maintenance/validate_membership_formation.py\", line 17, in compare\n    delta=float(np.max(np.abs(np.asarray(a)-np.asarray(b)))) if np.asarray(a).size else 0.\nTypeError: unsupported operand type(s) for -: 'dict' and 'dict'\n",
+  "stage": "validate_bank"
+}

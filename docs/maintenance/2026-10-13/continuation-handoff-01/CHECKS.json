@@ -1,0 +1,1272 @@
+{
+  "utc": "2026-10-13T02:04:06.379470+00:00",
+  "passed": true,
+  "deliveries": [
+    {
+      "folder": "native-backward-reproducibility-02",
+      "entries": 110,
+      "delivery_sha256": "b3babdf3e09413ff3159f96056cbf56bd210037b4db568c82fe8a9c68a9c5d5b",
+      "status": {
+        "utc": "2026-10-13T01:23:05.491655+00:00",
+        "status": "VALIDATED_BOUNDED_BACKWARD_DIAGNOSIS_COMPLETE",
+        "decision": "INSTRUMENTED_BACKWARD_MISMATCH_LOCALIZED",
+        "diagnosis_complete": true,
+        "native_NOC4": "INCOMPLETE",
+        "optimizer_calls": 0,
+        "retained_updates": 0,
+        "unique_cause_resolved": false,
+        "full_transformer_backward_independently_implemented": false,
+        "native_fit_admitted": false,
+        "commit_or_sync": false
+      },
+      "resource": {
+        "utc": "2026-10-13T01:23:05.487025+00:00",
+        "passed": true,
+        "scientific_children": 8,
+        "combined_seconds": 116.71916701300142,
+        "peak_RSS_bytes": 3063087104,
+        "peak_GPU_allocated_bytes": 616103936,
+        "peak_GPU_reserved_bytes": 656408576,
+        "full_child_and_Windows_exits": true,
+        "imports_included_in_scientific_time": true,
+        "logging_retries": 0,
+        "logging_gaps": 0,
+        "receipts": [
+          {
+            "stage": "freeze",
+            "child": {
+              "utc": "2026-10-13T01:15:17.119409+00:00",
+              "success": false,
+              "error": "FileNotFoundError(2, 'No such file or directory')",
+              "full_resource_capture": true,
+              "wall_seconds": 1.436026484996546,
+              "peak_RSS_bytes": 23252992,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 16213,
+              "optimizer_calls": 0,
+              "imports_included_in_time": true
+            },
+            "host": {
+              "exit_code": 1,
+              "utc_end": "2026-10-13T01:15:16.9231805Z",
+              "wall_seconds": 3.9743159,
+              "host_memory_observations": 5,
+              "minimum_observed_headroom_bytes": 96428105728.0
+            },
+            "launch": {
+              "pid": 12008,
+              "utc_start": "2026-10-13T01:15:12.9488646Z",
+              "script": "scripts/maintenance/native_backward_reproducibility_attempt02.py",
+              "stage": "freeze",
+              "headroom_before_bytes": 97920946176
+            }
+          },
+          {
+            "stage": "freeze02",
+            "child": {
+              "utc": "2026-10-13T01:15:59.679406+00:00",
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 7.010733577000792,
+              "peak_RSS_bytes": 23506944,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 182732,
+              "optimizer_calls": 0,
+              "imports_included_in_time": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:15:59.9587026Z",
+              "wall_seconds": 9.3951107,
+              "host_memory_observations": 12,
+              "minimum_observed_headroom_bytes": 96086343680.0
+            },
+            "launch": {
+              "pid": 34424,
+              "utc_start": "2026-10-13T01:15:50.5635919Z",
+              "script": "scripts/maintenance/native_backward_reproducibility_attempt02.py",
+              "stage": "freeze02",
+              "headroom_before_bytes": 97689419776
+            }
+          },
+          {
+            "stage": "mode",
+            "child": {
+              "utc": "2026-10-13T01:16:55.097856+00:00",
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 11.221438303997274,
+              "peak_RSS_bytes": 1849860096,
+              "peak_GPU_allocated_bytes": 344709632,
+              "peak_GPU_reserved_bytes": 360710144,
+              "artifact_bytes": 216176,
+              "optimizer_calls": 0,
+              "imports_included_in_time": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:16:55.6421434Z",
+              "wall_seconds": 14.122832,
+              "host_memory_observations": 18,
+              "minimum_observed_headroom_bytes": 92520857600.0
+            },
+            "launch": {
+              "pid": 7432,
+              "utc_start": "2026-10-13T01:16:41.5193114Z",
+              "script": "scripts/maintenance/native_backward_reproducibility_attempt02.py",
+              "stage": "mode",
+              "headroom_before_bytes": 96405544960
+            }
+          },
+          {
+            "stage": "validate_mode",
+            "child": {
+              "utc": "2026-10-13T01:17:58.701554+00:00",
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 2.9454426399970544,
+              "peak_RSS_bytes": 40566784,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 218665,
+              "optimizer_calls": 0,
+              "imports_included_in_time": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:17:58.8313186Z",
+              "wall_seconds": 5.5314945,
+              "host_memory_observations": 7,
+              "minimum_observed_headroom_bytes": 95963856896.0
+            },
+            "launch": {
+              "pid": 9096,
+              "utc_start": "2026-10-13T01:17:53.2998241Z",
+              "script": "scripts/maintenance/native_backward_reproducibility_attempt02.py",
+              "stage": "validate_mode",
+              "headroom_before_bytes": 97760432128
+            }
+          },
+          {
+            "stage": "diagnose",
+            "child": {
+              "utc": "2026-10-13T01:19:59.512061+00:00",
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 57.040447413004586,
+              "peak_RSS_bytes": 3063087104,
+              "peak_GPU_allocated_bytes": 616103936,
+              "peak_GPU_reserved_bytes": 656408576,
+              "artifact_bytes": 433335461,
+              "optimizer_calls": 0,
+              "imports_included_in_time": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:20:01.6580683Z",
+              "wall_seconds": 62.4680159,
+              "host_memory_observations": 80,
+              "minimum_observed_headroom_bytes": 89850712064.0
+            },
+            "launch": {
+              "pid": 36280,
+              "utc_start": "2026-10-13T01:18:59.1900524Z",
+              "script": "scripts/maintenance/native_backward_reproducibility_attempt02.py",
+              "stage": "diagnose",
+              "headroom_before_bytes": 97454145536
+            }
+          },
+          {
+            "stage": "validate",
+            "child": {
+              "utc": "2026-10-13T01:21:26.262265+00:00",
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 25.166954683001677,
+              "peak_RSS_bytes": 430039040,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 433365047,
+              "optimizer_calls": 0,
+              "imports_included_in_time": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:21:27.2976767Z",
+              "wall_seconds": 28.9050385,
+              "host_memory_observations": 37,
+              "minimum_observed_headroom_bytes": 95178510336.0
+            },
+            "launch": {
+              "pid": 40172,
+              "utc_start": "2026-10-13T01:20:58.3926382Z",
+              "script": "scripts/maintenance/native_backward_reproducibility_attempt02.py",
+              "stage": "validate",
+              "headroom_before_bytes": 97504882688
+            }
+          },
+          {
+            "stage": "previous_freeze",
+            "child": {
+              "utc": "2026-10-12T15:17:24.195970+00:00",
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 2.6302608940022765,
+              "peak_RSS_bytes": 23379968,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 135582,
+              "optimizer_calls": 0,
+              "imports_included_in_time": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-12T15:17:23.4892073Z",
+              "wall_seconds": 3.1089062,
+              "host_memory_observations": 4,
+              "minimum_observed_headroom_bytes": 95868551168.0
+            },
+            "launch": {
+              "pid": 35564,
+              "utc_start": "2026-10-12T15:17:20.3803011Z",
+              "script": "scripts/maintenance/native_backward_reproducibility.py",
+              "stage": "freeze",
+              "headroom_before_bytes": 95928811520
+            }
+          },
+          {
+            "stage": "previous_diagnose",
+            "child": {
+              "utc": "2026-10-12T15:17:34.041728+00:00",
+              "success": false,
+              "error": "AssertionError()",
+              "full_resource_capture": true,
+              "wall_seconds": 9.267863017001218,
+              "peak_RSS_bytes": 1851101184,
+              "peak_GPU_allocated_bytes": 345082880,
+              "peak_GPU_reserved_bytes": 360710144,
+              "artifact_bytes": 139409,
+              "optimizer_calls": 0,
+              "imports_included_in_time": true
+            },
+            "host": {
+              "exit_code": 1,
+              "utc_end": "2026-10-12T15:17:35.4183867Z",
+              "wall_seconds": 11.6544629,
+              "host_memory_observations": 15,
+              "minimum_observed_headroom_bytes": 92930609152.0
+            },
+            "launch": {
+              "pid": 3564,
+              "utc_start": "2026-10-12T15:17:23.7639238Z",
+              "script": "scripts/maintenance/native_backward_reproducibility.py",
+              "stage": "diagnose",
+              "headroom_before_bytes": 95927803904
+            }
+          }
+        ],
+        "old_gaps_and_caps_unchanged": true,
+        "bookkeeping_separate": true
+      }
+    },
+    {
+      "folder": "attention-operator-diagnosis-01",
+      "entries": 55,
+      "delivery_sha256": "9de6ca6eef20a381d057f5573015639e3e4af5a21137e684eb2203ff03fcbff6",
+      "status": {
+        "status": "VALIDATED_ISOLATED_ATTENTION_DIAGNOSIS_COMPLETE",
+        "decision": "BOUNDED_DEFAULT_FLASH_VJP_VARIATION_MATH_REPEAT_EXACT",
+        "unique_whole_model_cause_proved": false,
+        "native_fit_admitted": false,
+        "native_whole_forwards": 0,
+        "prefix_calls": 0,
+        "operator_VJPs": 8,
+        "projection_VJPs": 4,
+        "optimizer_calls": 0,
+        "parameter_updates": 0,
+        "production_backend_changed": false
+      },
+      "resource": {
+        "passed": true,
+        "children": 4,
+        "payload_seconds_including_imports": 71.2169190689965,
+        "peak_RSS_bytes": 2293174272,
+        "peak_GPU_allocated_bytes": 1563338752,
+        "peak_GPU_reserved_bytes": 1698693120,
+        "all_child_Windows_exits": true,
+        "logging_retries": 0,
+        "logging_gaps": 0,
+        "receipts": [
+          {
+            "stage": "freeze",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 8.008887194002455,
+              "peak_RSS_bytes": 481275904,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 136087,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:26:36.4240049Z",
+              "wall_seconds": 10.9574643,
+              "host_memory_observations": 14,
+              "minimum_observed_headroom_bytes": 94229237760.0
+            },
+            "launch": {
+              "pid": 43724,
+              "utc_start": "2026-10-13T01:26:25.4665406Z",
+              "script": "scripts/maintenance/attention_operator_diagnosis.py",
+              "stage": "freeze",
+              "headroom_before_bytes": 97060868096
+            }
+          },
+          {
+            "stage": "probe",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 40.9468568089942,
+              "peak_RSS_bytes": 2293174272,
+              "peak_GPU_allocated_bytes": 1563338752,
+              "peak_GPU_reserved_bytes": 1698693120,
+              "artifact_bytes": 190813126,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:28:24.2370758Z",
+              "wall_seconds": 45.1576641,
+              "host_memory_observations": 58,
+              "minimum_observed_headroom_bytes": 89069015040.0
+            },
+            "launch": {
+              "pid": 42732,
+              "utc_start": "2026-10-13T01:27:39.0794117Z",
+              "script": "scripts/maintenance/attention_operator_diagnosis.py",
+              "stage": "probe",
+              "headroom_before_bytes": 96815157248
+            }
+          },
+          {
+            "stage": "validate",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 14.97851027300203,
+              "peak_RSS_bytes": 417341440,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 190825812,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:29:37.5328613Z",
+              "wall_seconds": 18.0119986,
+              "host_memory_observations": 23,
+              "minimum_observed_headroom_bytes": 94622961664.0
+            },
+            "launch": {
+              "pid": 43568,
+              "utc_start": "2026-10-13T01:29:19.5208627Z",
+              "script": "scripts/maintenance/attention_operator_diagnosis.py",
+              "stage": "validate",
+              "headroom_before_bytes": 96335753216
+            }
+          },
+          {
+            "stage": "audit",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 7.282664792997821,
+              "peak_RSS_bytes": 102506496,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 190832888,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:32:32.2063106Z",
+              "wall_seconds": 10.1829194,
+              "host_memory_observations": 13,
+              "minimum_observed_headroom_bytes": 94401228800.0
+            },
+            "launch": {
+              "pid": 40928,
+              "utc_start": "2026-10-13T01:32:22.0233912Z",
+              "script": "scripts/maintenance/audit_attention_bindings.py",
+              "stage": "audit",
+              "headroom_before_bytes": 96515375104
+            }
+          }
+        ],
+        "old_caps_and_gaps_unchanged": true,
+        "setup_full_RSS_unknown": true,
+        "bookkeeping_separate": true
+      }
+    },
+    {
+      "folder": "native-math-reproducibility-01",
+      "entries": 142,
+      "delivery_sha256": "3b9894c02668ce8bf0658036718c808164d9a935777f6c07a539c8a7e18b50e8",
+      "status": {
+        "utc": "2026-10-13T01:44:03.492937+00:00",
+        "status": "VALIDATED_WHOLE_NATIVE_MATH_PREREQUISITE_COMPLETE",
+        "decision": "MATH_REPEAT_EXACT_DIRECTION_CORROBORATION_FAIL",
+        "repeat_prerequisite": true,
+        "whole_direction_corroboration": false,
+        "optimizer_calls": 0,
+        "retained_updates": 0,
+        "native_fit_admitted": false,
+        "original_NOC4": "INCOMPLETE",
+        "production_backend_changed": false
+      },
+      "resource": {
+        "passed": true,
+        "scientific_children": 4,
+        "combined_seconds": 161.3718568089971,
+        "peak_RSS_bytes": 3171844096,
+        "peak_GPU_allocated_bytes": 2080926720,
+        "peak_GPU_reserved_bytes": 2287992832,
+        "imports_included": true,
+        "full_child_and_Windows_exits": true,
+        "logging_retries": 0,
+        "logging_gaps": 0,
+        "receipts": [
+          {
+            "stage": "freeze",
+            "child": {
+              "utc": "2026-10-13T01:40:39.058834+00:00",
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 8.434243435003737,
+              "peak_RSS_bytes": 23826432,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 163271,
+              "optimizer_calls": 0,
+              "imports_included_in_time": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:40:39.1985634Z",
+              "wall_seconds": 10.9643457,
+              "host_memory_observations": 14,
+              "minimum_observed_headroom_bytes": 94466514944.0
+            },
+            "launch": {
+              "pid": 40104,
+              "utc_start": "2026-10-13T01:40:28.2342177Z",
+              "script": "scripts/maintenance/native_math_reproducibility.py",
+              "stage": "freeze",
+              "headroom_before_bytes": 95881998336
+            }
+          },
+          {
+            "stage": "diagnose",
+            "child": {
+              "utc": "2026-10-13T01:42:05.594602+00:00",
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 72.11766498799989,
+              "peak_RSS_bytes": 3171844096,
+              "peak_GPU_allocated_bytes": 2080926720,
+              "peak_GPU_reserved_bytes": 2287992832,
+              "artifact_bytes": 436609855,
+              "optimizer_calls": 0,
+              "imports_included_in_time": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:42:07.3397358Z",
+              "wall_seconds": 75.6736605,
+              "host_memory_observations": 97,
+              "minimum_observed_headroom_bytes": 86275473408.0
+            },
+            "launch": {
+              "pid": 38204,
+              "utc_start": "2026-10-13T01:40:51.6660753Z",
+              "script": "scripts/maintenance/native_math_reproducibility.py",
+              "stage": "diagnose",
+              "headroom_before_bytes": 94492348416
+            }
+          },
+          {
+            "stage": "directions",
+            "child": {
+              "utc": "2026-10-13T01:42:43.264087+00:00",
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 25.89197683499515,
+              "peak_RSS_bytes": 2841411584,
+              "peak_GPU_allocated_bytes": 1057406976,
+              "peak_GPU_reserved_bytes": 1126170624,
+              "artifact_bytes": 484635759,
+              "optimizer_calls": 0,
+              "imports_included_in_time": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:42:44.1194362Z",
+              "wall_seconds": 28.1174544,
+              "host_memory_observations": 36,
+              "minimum_observed_headroom_bytes": 88043630592.0
+            },
+            "launch": {
+              "pid": 42956,
+              "utc_start": "2026-10-13T01:42:16.0019818Z",
+              "script": "scripts/maintenance/native_math_reproducibility.py",
+              "stage": "directions",
+              "headroom_before_bytes": 89189224448
+            }
+          },
+          {
+            "stage": "validate",
+            "child": {
+              "utc": "2026-10-13T01:43:50.433724+00:00",
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 54.927971550998336,
+              "peak_RSS_bytes": 433041408,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 484708973,
+              "optimizer_calls": 0,
+              "imports_included_in_time": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:43:50.7181230Z",
+              "wall_seconds": 57.5235106,
+              "host_memory_observations": 74,
+              "minimum_observed_headroom_bytes": 89566367744.0
+            },
+            "launch": {
+              "pid": 6644,
+              "utc_start": "2026-10-13T01:42:53.1946124Z",
+              "script": "scripts/maintenance/native_math_reproducibility.py",
+              "stage": "validate",
+              "headroom_before_bytes": 89667481600
+            }
+          }
+        ],
+        "old_caps_and_gaps_unchanged": true,
+        "setup_RSS_unknown": true,
+        "bookkeeping_separate": true
+      }
+    },
+    {
+      "folder": "native-precision-control-01",
+      "entries": 169,
+      "delivery_sha256": "d7b38524b7cfb1ac414bd6a51ebb4ba34d49245252cbf147a6521e1bf5d15528",
+      "status": {
+        "utc": "2026-10-13T01:51:41.912025+00:00",
+        "status": "VALIDATED_BOUNDED_PRECISION_CONTROLS_COMPLETE",
+        "decision": "PRECISION_CONTROLS_RETAIN_DIRECTION_GAPS",
+        "condition_conjunctions": {
+          "S": false,
+          "D": false
+        },
+        "optimizer_calls": 0,
+        "retained_updates": 0,
+        "native_fit_admitted": false,
+        "production_backend_changed": false,
+        "old_NOC4": "INCOMPLETE"
+      },
+      "resource": {
+        "passed": true,
+        "scientific_children": 5,
+        "combined_seconds": 122.08637761400314,
+        "peak_RSS_bytes": 2701664256,
+        "peak_GPU_allocated_bytes": 2173726720,
+        "peak_GPU_reserved_bytes": 2323644416,
+        "receipts": [
+          {
+            "stage": "freeze",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 9.587656412004435,
+              "peak_RSS_bytes": 24326144,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 159093,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:47:21.5931913Z",
+              "wall_seconds": 11.7453279,
+              "host_memory_observations": 15,
+              "minimum_observed_headroom_bytes": 94036631552.0
+            },
+            "launch": {
+              "pid": 41892,
+              "utc_start": "2026-10-13T01:47:09.8478634Z",
+              "script": "scripts/maintenance/native_precision_control.py",
+              "stage": "freeze",
+              "headroom_before_bytes": 95453233152
+            }
+          },
+          {
+            "stage": "probe",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 28.8655923059996,
+              "peak_RSS_bytes": 2701664256,
+              "peak_GPU_allocated_bytes": 2173726720,
+              "peak_GPU_reserved_bytes": 2323644416,
+              "artifact_bytes": 84037982,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:48:14.9414515Z",
+              "wall_seconds": 33.4370974,
+              "host_memory_observations": 43,
+              "minimum_observed_headroom_bytes": 86864871424.0
+            },
+            "launch": {
+              "pid": 34000,
+              "utc_start": "2026-10-13T01:47:41.5043541Z",
+              "script": "scripts/maintenance/native_precision_control.py",
+              "stage": "probe",
+              "headroom_before_bytes": 94305042432
+            }
+          },
+          {
+            "stage": "repeat",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 15.077816616998462,
+              "peak_RSS_bytes": 83820544,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 84233288,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:49:00.3390074Z",
+              "wall_seconds": 17.9340077,
+              "host_memory_observations": 23,
+              "minimum_observed_headroom_bytes": 92005404672.0
+            },
+            "launch": {
+              "pid": 37844,
+              "utc_start": "2026-10-13T01:48:42.4049997Z",
+              "script": "scripts/maintenance/native_precision_control.py",
+              "stage": "repeat",
+              "headroom_before_bytes": 92671983616
+            }
+          },
+          {
+            "stage": "directions",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 31.358916170000157,
+              "peak_RSS_bytes": 2538110976,
+              "peak_GPU_allocated_bytes": 1051671552,
+              "peak_GPU_reserved_bytes": 1163919360,
+              "artifact_bytes": 131298821,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:49:59.6046263Z",
+              "wall_seconds": 35.7938442,
+              "host_memory_observations": 46,
+              "minimum_observed_headroom_bytes": 88068784128.0
+            },
+            "launch": {
+              "pid": 41916,
+              "utc_start": "2026-10-13T01:49:23.8107821Z",
+              "script": "scripts/maintenance/native_precision_control.py",
+              "stage": "directions",
+              "headroom_before_bytes": 94094000128
+            }
+          },
+          {
+            "stage": "validate",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 37.19639610900049,
+              "peak_RSS_bytes": 91987968,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 131516543,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:51:01.1471449Z",
+              "wall_seconds": 41.3312662,
+              "host_memory_observations": 53,
+              "minimum_observed_headroom_bytes": 90272239616.0
+            },
+            "launch": {
+              "pid": 44000,
+              "utc_start": "2026-10-13T01:50:19.8158787Z",
+              "script": "scripts/maintenance/native_precision_control.py",
+              "stage": "validate",
+              "headroom_before_bytes": 90633445376
+            }
+          }
+        ],
+        "imports_included": true,
+        "full_child_and_Windows_exits": true,
+        "logging_retries": 0,
+        "logging_gaps": 0,
+        "setup_RSS_unknown": true,
+        "bookkeeping_separate": true,
+        "old_caps_and_gaps_preserved": true
+      }
+    },
+    {
+      "folder": "native-double-tail-control-01",
+      "entries": 118,
+      "delivery_sha256": "b3d80fafd5ddf30f537ef1771fbf2301ad821770a9c284a914f3def23ce257a7",
+      "status": {
+        "utc": "2026-10-13T01:58:02.067536+00:00",
+        "status": "VALIDATED_FIXED_PREFIX_DOUBLE_TAIL_CONTROL_COMPLETE",
+        "decision": "FIXED_PREFIX_DOUBLE_TAIL_DIRECTION_CORROBORATION_PASS",
+        "all_directions_corroborated": true,
+        "optimizer_calls": 0,
+        "retained_updates": 0,
+        "native_fit_admitted": false,
+        "whole_native_function_equivalence": false,
+        "old_NOC4": "INCOMPLETE"
+      },
+      "resource": {
+        "passed": true,
+        "scientific_children": 5,
+        "combined_seconds": 98.51595506299782,
+        "peak_RSS_bytes": 2435121152,
+        "peak_GPU_allocated_bytes": 4052324864,
+        "peak_GPU_reserved_bytes": 4240441344,
+        "receipts": [
+          {
+            "stage": "freeze",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 11.3611629589941,
+              "peak_RSS_bytes": 630484992,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 294483,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:54:10.7231808Z",
+              "wall_seconds": 14.8167269,
+              "host_memory_observations": 19,
+              "minimum_observed_headroom_bytes": 91973050368.0
+            },
+            "launch": {
+              "pid": 31420,
+              "utc_start": "2026-10-13T01:53:55.9064539Z",
+              "script": "scripts/maintenance/native_double_tail.py",
+              "stage": "freeze",
+              "headroom_before_bytes": 95270268928
+            }
+          },
+          {
+            "stage": "probe",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 23.27838287200575,
+              "peak_RSS_bytes": 2435121152,
+              "peak_GPU_allocated_bytes": 4052324864,
+              "peak_GPU_reserved_bytes": 4240441344,
+              "artifact_bytes": 29613108,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:54:46.1617792Z",
+              "wall_seconds": 25.6574134,
+              "host_memory_observations": 33,
+              "minimum_observed_headroom_bytes": 84781010944.0
+            },
+            "launch": {
+              "pid": 42448,
+              "utc_start": "2026-10-13T01:54:20.5043658Z",
+              "script": "scripts/maintenance/native_double_tail.py",
+              "stage": "probe",
+              "headroom_before_bytes": 92074336256
+            }
+          },
+          {
+            "stage": "repeat",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 8.055970222994802,
+              "peak_RSS_bytes": 106786816,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 29631988,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:55:31.1930001Z",
+              "wall_seconds": 10.8999315,
+              "host_memory_observations": 14,
+              "minimum_observed_headroom_bytes": 91512848384.0
+            },
+            "launch": {
+              "pid": 3780,
+              "utc_start": "2026-10-13T01:55:20.2930686Z",
+              "script": "scripts/maintenance/native_double_tail.py",
+              "stage": "repeat",
+              "headroom_before_bytes": 92146577408
+            }
+          },
+          {
+            "stage": "directions",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 30.362125870000455,
+              "peak_RSS_bytes": 2324598784,
+              "peak_GPU_allocated_bytes": 1754294784,
+              "peak_GPU_reserved_bytes": 1933574144,
+              "artifact_bytes": 118449715,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:56:45.4228584Z",
+              "wall_seconds": 35.027181,
+              "host_memory_observations": 45,
+              "minimum_observed_headroom_bytes": 87134158848.0
+            },
+            "launch": {
+              "pid": 43936,
+              "utc_start": "2026-10-13T01:56:10.3956774Z",
+              "script": "scripts/maintenance/native_double_tail.py",
+              "stage": "directions",
+              "headroom_before_bytes": 95271161856
+            }
+          },
+          {
+            "stage": "validate",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 25.458313139002712,
+              "peak_RSS_bytes": 117563392,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 118485565,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:57:30.3519937Z",
+              "wall_seconds": 28.8448982,
+              "host_memory_observations": 37,
+              "minimum_observed_headroom_bytes": 89341169664.0
+            },
+            "launch": {
+              "pid": 35816,
+              "utc_start": "2026-10-13T01:57:01.5070955Z",
+              "script": "scripts/maintenance/native_double_tail.py",
+              "stage": "validate",
+              "headroom_before_bytes": 89659867136
+            }
+          }
+        ],
+        "imports_included": true,
+        "full_child_and_Windows_exits": true,
+        "logging_retries": 0,
+        "logging_gaps": 0,
+        "setup_RSS_unknown": true,
+        "bookkeeping_separate": true,
+        "old_caps_and_gaps_preserved": true
+      }
+    },
+    {
+      "folder": "native-shadow-step-control-01",
+      "entries": 70,
+      "delivery_sha256": "18a85e78f8ca51f89e1ae815d789d029f5bdac2eee4e6876e970b980b9c2ae77",
+      "status": {
+        "utc": "2026-10-13T02:01:50.860711+00:00",
+        "status": "VALIDATED_SHADOW_FUNCTIONAL_STEP_CONTROL_COMPLETE",
+        "decision": "SHADOW_FIXED_FIRST_ORDER_DESCENT_ASCENT_WITNESS",
+        "functional_conjunction": true,
+        "actual_transient_signed_steps": 8,
+        "optimizer_API_calls": 0,
+        "retained_updates": 0,
+        "fit_iterations": 0,
+        "fit_admitted": false,
+        "old_NOC4": "INCOMPLETE"
+      },
+      "resource": {
+        "passed": true,
+        "scientific_children": 3,
+        "combined_seconds": 60.04424225399271,
+        "peak_RSS_bytes": 2383319040,
+        "peak_GPU_allocated_bytes": 4052252672,
+        "peak_GPU_reserved_bytes": 4240441344,
+        "receipts": [
+          {
+            "stage": "freeze",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 9.473673154992866,
+              "peak_RSS_bytes": 24743936,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 203781,
+              "optimizer_API_calls": 0,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T01:59:36.1524401Z",
+              "wall_seconds": 11.753483,
+              "host_memory_observations": 15,
+              "minimum_observed_headroom_bytes": 93435162624.0
+            },
+            "launch": {
+              "pid": 33684,
+              "utc_start": "2026-10-13T01:59:24.3989571Z",
+              "script": "scripts/maintenance/native_shadow_step.py",
+              "stage": "freeze",
+              "headroom_before_bytes": 95096778752
+            }
+          },
+          {
+            "stage": "probe",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 32.43394485001045,
+              "peak_RSS_bytes": 2383319040,
+              "peak_GPU_allocated_bytes": 4052252672,
+              "peak_GPU_reserved_bytes": 4240441344,
+              "artifact_bytes": 58837696,
+              "optimizer_API_calls": 0,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T02:00:38.7874049Z",
+              "wall_seconds": 36.6150313,
+              "host_memory_observations": 47,
+              "minimum_observed_headroom_bytes": 85763444736.0
+            },
+            "launch": {
+              "pid": 4892,
+              "utc_start": "2026-10-13T02:00:02.1723736Z",
+              "script": "scripts/maintenance/native_shadow_step.py",
+              "stage": "probe",
+              "headroom_before_bytes": 93739524096
+            }
+          },
+          {
+            "stage": "validate",
+            "child": {
+              "success": true,
+              "error": null,
+              "full_resource_capture": true,
+              "wall_seconds": 18.136624248989392,
+              "peak_RSS_bytes": 104128512,
+              "peak_GPU_allocated_bytes": 0,
+              "peak_GPU_reserved_bytes": 0,
+              "artifact_bytes": 58854604,
+              "optimizer_API_calls": 0,
+              "optimizer_calls": 0,
+              "imports_included": true
+            },
+            "host": {
+              "exit_code": 0,
+              "utc_end": "2026-10-13T02:01:25.8782775Z",
+              "wall_seconds": 21.0415231,
+              "host_memory_observations": 27,
+              "minimum_observed_headroom_bytes": 90555867136.0
+            },
+            "launch": {
+              "pid": 41460,
+              "utc_start": "2026-10-13T02:01:04.8367544Z",
+              "script": "scripts/maintenance/native_shadow_step.py",
+              "stage": "validate",
+              "headroom_before_bytes": 90609885184
+            }
+          }
+        ],
+        "imports_included": true,
+        "full_child_and_Windows_exits": true,
+        "logging_retries": 0,
+        "logging_gaps": 0,
+        "setup_RSS_unknown": true,
+        "bookkeeping_separate": true,
+        "old_caps_and_gaps_unchanged": true
+      }
+    }
+  ],
+  "new_scientific_children": [
+    {
+      "folder": "native-backward-reproducibility-02",
+      "stage": "diagnose",
+      "success": true,
+      "seconds": 57.040447413004586,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-backward-reproducibility-02",
+      "stage": "freeze",
+      "success": false,
+      "seconds": 1.436026484996546,
+      "Windows_exit": 1
+    },
+    {
+      "folder": "native-backward-reproducibility-02",
+      "stage": "freeze02",
+      "success": true,
+      "seconds": 7.010733577000792,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-backward-reproducibility-02",
+      "stage": "mode",
+      "success": true,
+      "seconds": 11.221438303997274,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-backward-reproducibility-02",
+      "stage": "validate",
+      "success": true,
+      "seconds": 25.166954683001677,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-backward-reproducibility-02",
+      "stage": "validate_mode",
+      "success": true,
+      "seconds": 2.9454426399970544,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "attention-operator-diagnosis-01",
+      "stage": "audit",
+      "success": true,
+      "seconds": 7.282664792997821,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "attention-operator-diagnosis-01",
+      "stage": "freeze",
+      "success": true,
+      "seconds": 8.008887194002455,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "attention-operator-diagnosis-01",
+      "stage": "probe",
+      "success": true,
+      "seconds": 40.9468568089942,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "attention-operator-diagnosis-01",
+      "stage": "validate",
+      "success": true,
+      "seconds": 14.97851027300203,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-math-reproducibility-01",
+      "stage": "diagnose",
+      "success": true,
+      "seconds": 72.11766498799989,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-math-reproducibility-01",
+      "stage": "directions",
+      "success": true,
+      "seconds": 25.89197683499515,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-math-reproducibility-01",
+      "stage": "freeze",
+      "success": true,
+      "seconds": 8.434243435003737,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-math-reproducibility-01",
+      "stage": "validate",
+      "success": true,
+      "seconds": 54.927971550998336,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-precision-control-01",
+      "stage": "directions",
+      "success": true,
+      "seconds": 31.358916170000157,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-precision-control-01",
+      "stage": "freeze",
+      "success": true,
+      "seconds": 9.587656412004435,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-precision-control-01",
+      "stage": "probe",
+      "success": true,
+      "seconds": 28.8655923059996,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-precision-control-01",
+      "stage": "repeat",
+      "success": true,
+      "seconds": 15.077816616998462,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-precision-control-01",
+      "stage": "validate",
+      "success": true,
+      "seconds": 37.19639610900049,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-double-tail-control-01",
+      "stage": "directions",
+      "success": true,
+      "seconds": 30.362125870000455,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-double-tail-control-01",
+      "stage": "freeze",
+      "success": true,
+      "seconds": 11.3611629589941,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-double-tail-control-01",
+      "stage": "probe",
+      "success": true,
+      "seconds": 23.27838287200575,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-double-tail-control-01",
+      "stage": "repeat",
+      "success": true,
+      "seconds": 8.055970222994802,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-double-tail-control-01",
+      "stage": "validate",
+      "success": true,
+      "seconds": 25.458313139002712,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-shadow-step-control-01",
+      "stage": "freeze",
+      "success": true,
+      "seconds": 9.473673154992866,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-shadow-step-control-01",
+      "stage": "probe",
+      "success": true,
+      "seconds": 32.43394485001045,
+      "Windows_exit": 0
+    },
+    {
+      "folder": "native-shadow-step-control-01",
+      "stage": "validate",
+      "success": true,
+      "seconds": 18.136624248989392,
+      "Windows_exit": 0
+    }
+  ],
+  "new_children_count": 27,
+  "new_success_count": 26,
+  "new_prefreeze_failure_count": 1,
+  "new_scientific_seconds": 618.0563939109852,
+  "all_task_scientific_children_completed": true,
+  "retained_updates": 0,
+  "fit_iterations": 0,
+  "actual_signed_shadow_parameter_steps": 8,
+  "optimizer_API_calls": 0,
+  "original_native_fitting_INCOMPLETE": true,
+  "full_system_benchmark_unchanged": true,
+  "scientific_validation_replayed": false,
+  "all_history_caps_amended": false
+}

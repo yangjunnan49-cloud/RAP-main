@@ -1,0 +1,92 @@
+{
+  "scope": "observed-development six-part feature role intervention",
+  "decision": "NO_MATERIAL_SUPPORT_FEATURE_RELIANCE",
+  "ordinary_pairs": 7,
+  "positive_pairs": 22,
+  "ordinary_anchor_pose_responses": 5,
+  "ordinary_support_pose_responses": 0,
+  "positive_support_strict_flips": 4,
+  "groups": {
+    "00_confuser": {
+      "pairs": 4,
+      "anchor_pose_responses": 4,
+      "support_pose_responses": 4,
+      "true_strict": 0,
+      "anchor_strict": 0,
+      "support_strict": 0,
+      "support_strict_gains": 0,
+      "support_strict_losses": 0
+    },
+    "00_ambiguous_positive": {
+      "pairs": 4,
+      "anchor_pose_responses": 4,
+      "support_pose_responses": 4,
+      "true_strict": 4,
+      "anchor_strict": 0,
+      "support_strict": 2,
+      "support_strict_gains": 0,
+      "support_strict_losses": 2
+    },
+    "00_low_overlap": {
+      "pairs": 3,
+      "anchor_pose_responses": 3,
+      "support_pose_responses": 2,
+      "true_strict": 0,
+      "anchor_strict": 0,
+      "support_strict": 1,
+      "support_strict_gains": 1,
+      "support_strict_losses": 0
+    },
+    "00_ordinary": {
+      "pairs": 3,
+      "anchor_pose_responses": 2,
+      "support_pose_responses": 0,
+      "true_strict": 3,
+      "anchor_strict": 1,
+      "support_strict": 2,
+      "support_strict_gains": 0,
+      "support_strict_losses": 1
+    },
+    "08_confuser": {
+      "pairs": 2,
+      "anchor_pose_responses": 2,
+      "support_pose_responses": 2,
+      "true_strict": 0,
+      "anchor_strict": 0,
+      "support_strict": 0,
+      "support_strict_gains": 0,
+      "support_strict_losses": 0
+    },
+    "08_ambiguous_positive": {
+      "pairs": 4,
+      "anchor_pose_responses": 3,
+      "support_pose_responses": 0,
+      "true_strict": 4,
+      "anchor_strict": 1,
+      "support_strict": 4,
+      "support_strict_gains": 0,
+      "support_strict_losses": 0
+    },
+    "08_low_overlap": {
+      "pairs": 4,
+      "anchor_pose_responses": 4,
+      "support_pose_responses": 3,
+      "true_strict": 0,
+      "anchor_strict": 0,
+      "support_strict": 0,
+      "support_strict_gains": 0,
+      "support_strict_losses": 0
+    },
+    "08_ordinary": {
+      "pairs": 4,
+      "anchor_pose_responses": 3,
+      "support_pose_responses": 0,
+      "true_strict": 2,
+      "anchor_strict": 1,
+      "support_strict": 2,
+      "support_strict_gains": 0,
+      "support_strict_losses": 0
+    }
+  },
+  "bank_sha256": "e3a76e7d4596fb3e7db0af1af3afeae7fef6c6bc45c475b2d0ed0cf35948d0db"
+}

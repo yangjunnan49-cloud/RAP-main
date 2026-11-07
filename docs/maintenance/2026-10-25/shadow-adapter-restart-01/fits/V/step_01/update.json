@@ -1,0 +1,33 @@
+{
+  "arm": "V",
+  "step": 1,
+  "loss_before": 7.229966710778734e-06,
+  "loss_after": 7.222755401442041e-06,
+  "terms_before": {
+    "velocity": 7.229966710778734e-06
+  },
+  "terms_after": {
+    "velocity": 7.222755401442041e-06
+  },
+  "gradient_norm": 0.002268190009600849,
+  "radius": 3.1875489620250323e-06,
+  "actual_dot": -7.229966710781719e-09,
+  "actual_parameter_norm": 3.1875489620263486e-06,
+  "activity": {
+    "A": {
+      "nonzero": 0,
+      "norm": 0.0
+    },
+    "B": {
+      "nonzero": 32768,
+      "norm": 2.3841010847600566e-05
+    },
+    "MLP": {
+      "nonzero": 394752,
+      "norm": 0.0022680647093623373
+    }
+  },
+  "actual_retained_update": true,
+  "optimizer_API_calls": 0,
+  "Armijo_pass": true
+}

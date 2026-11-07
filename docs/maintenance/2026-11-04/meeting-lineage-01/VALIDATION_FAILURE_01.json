@@ -1,0 +1,9 @@
+{
+  "operation": "read-only Office catalog inspection",
+  "error": "KeyError: no item named /ppt/slides/slide1.xml in archive",
+  "cause": "OOXML 关系可使用包根绝对形式，初版检查器未去掉包根斜杠。",
+  "correction": "包根关系去掉前导斜杠；相对关系仍按所属部件解析。",
+  "source_files_modified": false,
+  "research_or_builder_executed": false,
+  "original_inspector": "attempt01/catalog.py"
+}

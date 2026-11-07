@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "checks": [
+    "changed_source_AST",
+    "length_mismatch",
+    "duplicate_ids",
+    "out_of_order_ids",
+    "fractional_ids",
+    "duplicate_stamps",
+    "decreasing_stamps",
+    "nonfinite_stamps",
+    "live_empty_prefix",
+    "live_segment_overrun",
+    "strict_endpoint_and_real_segment_count",
+    "stride_missing_unselected_frame_still_matches_GT",
+    "missing_requested_frame",
+    "zero_stride",
+    "summary_stride_applied",
+    "persisted_ids_override_legacy_range",
+    "live_manifest_required",
+    "live_manifest_timestamp_binding",
+    "map_timestamp_mismatch",
+    "source_timestamp_mismatch",
+    "exact_foreign_NN_dense_small_single_and_coincident",
+    "map_voxel_preserves_foreign_observations",
+    "KISS_failure_no_silent_fallback",
+    "explicit_fallback_allowed",
+    "empty_odometry",
+    "empty_loop_clique_optimizes",
+    "camera_lidar_lever_arm_roundtrip",
+    "official_CPP_segment_by_segment"
+  ],
+  "official_crosschecks": [
+    {
+      "fixture": "synthetic_exact",
+      "segments": 76,
+      "max_abs_error": [
+        0.0,
+        0.0,
+        0.0,
+        6.482000578650338e-10,
+        0.0,
+        2.9064047595284137e-06
+      ]
+    },
+    {
+      "fixture": "kitti06_lidar",
+      "segments": 570,
+      "max_abs_error": [
+        0.0,
+        0.0,
+        0.0,
+        1.923364450345799e-09,
+        3.1296375653643574e-07,
+        4.7123629798306865e-07
+      ]
+    }
+  ]
+}

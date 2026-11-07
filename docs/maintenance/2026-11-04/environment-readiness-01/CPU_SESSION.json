@@ -1,0 +1,90 @@
+{
+  "started_utc": "2026-11-04T03:30:37.342535+00:00",
+  "events": [
+    {
+      "argv": [
+        "wsl.exe",
+        "--list",
+        "--running",
+        "--quiet"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "wsl.exe",
+        "-d",
+        "Ubuntu-24.04",
+        "--user",
+        "root",
+        "--exec",
+        "/usr/bin/env",
+        "CUDA_VISIBLE_DEVICES=",
+        "WANDB_MODE=disabled",
+        "HF_HUB_OFFLINE=1",
+        "MPLBACKEND=Agg",
+        "/usr/bin/python3",
+        "-I",
+        "-S",
+        "-B",
+        "/mnt/e/githouse/RAP-main/docs/maintenance/2026-11-04/environment-readiness-01/collect_supplement.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"installed_artifacts_preserved\": 227, \"wheels_fingerprinted\": 1}\n",
+      "stderr": "wsl: 检测到 localhost 代理配置，但未镜像到 WSL。NAT 模式下的 WSL 不支持 localhost 代理。\r\n"
+    },
+    {
+      "argv": [
+        "wsl.exe",
+        "-d",
+        "Ubuntu-24.04",
+        "--user",
+        "root",
+        "--exec",
+        "/usr/bin/env",
+        "CUDA_VISIBLE_DEVICES=",
+        "WANDB_MODE=disabled",
+        "HF_HUB_OFFLINE=1",
+        "MPLBACKEND=Agg",
+        "/root/miniconda3/envs/rap-inference/bin/python",
+        "-I",
+        "-B",
+        "/mnt/e/githouse/RAP-main/scripts/environment/cpu_probe.py",
+        "--rap-root",
+        "/mnt/e/githouse/RAP-main",
+        "--slam-root",
+        "/mnt/e/githouse/RAP-SLAM",
+        "--output",
+        "/mnt/e/githouse/RAP-main/docs/maintenance/2026-11-04/environment-readiness-01/CPU_PROBE.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"cpu_import_gate_passed\": true, \"failed_components\": [\"muon_training_dependency\"], \"model_instances\": 0, \"training_calls\": 0, \"cuda_initialized\": false}\n",
+      "stderr": "wsl: 检测到 localhost 代理配置，但未镜像到 WSL。NAT 模式下的 WSL 不支持 localhost 代理。\r\n"
+    },
+    {
+      "argv": [
+        "wsl.exe",
+        "--terminate",
+        "Ubuntu-24.04"
+      ],
+      "exit_code": 0,
+      "stdout": "操作成功完成。 \r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "wsl.exe",
+        "--list",
+        "--running",
+        "--quiet"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "restored_initial_stopped_state": true,
+  "finished_utc": "2026-11-04T03:30:57.459389+00:00"
+}

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/repeat_systems.py", line 73, in <module>
+    try:{'freeze':freeze,'run':run}[sys.argv[1]]()
+  File "/mnt/e/githouse/RAP-main/docs/meeting_20261011/benchmark/repeat_systems.py", line 64, in run
+    assert result.returncode==0,row
+AssertionError: {'name': 'r01-00-RAP-SLAM', 'rep': 1, 'sequence': '00', 'model': 'RAP-SLAM', 'exit': 1, 'wall_s': 0.06655115800094791, 'resource': {'complete': False, 'wall_s': 0.010576565997325815, 'rss_bytes': 24559616, 'gpu_allocated_bytes': 0, 'gpu_reserved_bytes': 0}}

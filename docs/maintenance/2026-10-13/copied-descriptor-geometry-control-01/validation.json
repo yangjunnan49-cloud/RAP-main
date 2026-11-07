@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "decision": "COPIED_DESCRIPTOR_CONTROL_UNRESOLVED_SUPPORT_OR_POSE_GATE",
+  "full_bruteforce_queries": 4000,
+  "directed_descriptor_distances": 4000000,
+  "nearest_distance_max_delta": 5.551115123125783e-17,
+  "independent_Horn_max_delta": 0.0,
+  "all_4000_NN_queries_verified": true,
+  "records": [
+    {
+      "part": 1,
+      "direction": "part_to_anchor",
+      "all1000_bruteforce_queries_verified": true,
+      "index_identity_matches": 997,
+      "max_first_descriptor_distance": 0.0
+    },
+    {
+      "part": 1,
+      "direction": "anchor_to_part",
+      "all1000_bruteforce_queries_verified": true,
+      "index_identity_matches": 997,
+      "max_first_descriptor_distance": 0.0
+    },
+    {
+      "part": 2,
+      "direction": "part_to_anchor",
+      "all1000_bruteforce_queries_verified": true,
+      "index_identity_matches": 997,
+      "max_first_descriptor_distance": 0.0
+    },
+    {
+      "part": 2,
+      "direction": "anchor_to_part",
+      "all1000_bruteforce_queries_verified": true,
+      "index_identity_matches": 997,
+      "max_first_descriptor_distance": 0.0
+    }
+  ],
+  "predictions_sealed_before_new_fixture_truth_errors": true,
+  "control_conjunction": false,
+  "no_partial_HFIT_GTevaluation": true
+}

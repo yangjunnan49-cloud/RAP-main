@@ -1,0 +1,132 @@
+{
+  "decision": "PUBLIC_WEIGHT_IDENTITY_DOES_NOT_AUTHENTICATE_UPSTREAM_ATTENTION_RUNTIME_OR_GRADIENT_EQUIVALENCE",
+  "historical_identity_links": [
+    {
+      "scope": "NBR",
+      "layer_SHA256": "e8e7caabe1da47b8c8aefea0db58ec5ffb910be8fc01b7a541ca6fec345618e8",
+      "weight_SHA256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200"
+    },
+    {
+      "scope": "NMR",
+      "layer_SHA256": "e8e7caabe1da47b8c8aefea0db58ec5ffb910be8fc01b7a541ca6fec345618e8",
+      "weight_SHA256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200"
+    },
+    {
+      "scope": "FPC",
+      "layer_SHA256": "e8e7caabe1da47b8c8aefea0db58ec5ffb910be8fc01b7a541ca6fec345618e8",
+      "weight_SHA256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200"
+    },
+    {
+      "scope": "DTC",
+      "layer_SHA256": "e8e7caabe1da47b8c8aefea0db58ec5ffb910be8fc01b7a541ca6fec345618e8",
+      "weight_SHA256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200"
+    }
+  ],
+  "local_layer_SHA256": "e8e7caabe1da47b8c8aefea0db58ec5ffb910be8fc01b7a541ca6fec345618e8",
+  "weight_SHA256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200",
+  "local_attention_backend": "PyTorch SDPA replacement",
+  "external_flash_attn_runtime_tested": false,
+  "helper_softcap_argument_unused": true,
+  "config_softcap_lines": [],
+  "unused_softcap_proven_historical_cause": false,
+  "NBR_pairs": [
+    {
+      "left": "V_full1",
+      "right": "V_full2",
+      "output_different": 0,
+      "upstream_different": 0,
+      "gradient_different": 0,
+      "gradient_max": 0.0
+    },
+    {
+      "left": "V_cache1",
+      "right": "V_cache2",
+      "output_different": 0,
+      "upstream_different": 0,
+      "gradient_different": 0,
+      "gradient_max": 0.0
+    },
+    {
+      "left": "P_full1",
+      "right": "P_full2",
+      "output_different": 0,
+      "upstream_different": 0,
+      "gradient_different": 6219,
+      "gradient_max": 0.125
+    },
+    {
+      "left": "P_cache1",
+      "right": "P_cache2",
+      "output_different": 0,
+      "upstream_different": 0,
+      "gradient_different": 6143,
+      "gradient_max": 0.25
+    },
+    {
+      "left": "V_full1",
+      "right": "V_cache1",
+      "output_different": 0,
+      "upstream_different": 0,
+      "gradient_different": 0,
+      "gradient_max": 0.0
+    },
+    {
+      "left": "V_full2",
+      "right": "V_cache2",
+      "output_different": 0,
+      "upstream_different": 0,
+      "gradient_different": 0,
+      "gradient_max": 0.0
+    },
+    {
+      "left": "P_full1",
+      "right": "P_cache1",
+      "output_different": 0,
+      "upstream_different": 0,
+      "gradient_different": 5717,
+      "gradient_max": 0.125
+    },
+    {
+      "left": "P_full2",
+      "right": "P_cache2",
+      "output_different": 0,
+      "upstream_different": 0,
+      "gradient_different": 6870,
+      "gradient_max": 0.375
+    }
+  ],
+  "NMR_all_instrumented_pairs_exact": true,
+  "direction_summary": {
+    "NMR": {
+      "total": 12,
+      "corroborated": 8,
+      "conjunction": false
+    },
+    "FPC_S": {
+      "total": 12,
+      "corroborated": 8,
+      "conjunction": false
+    },
+    "FPC_D": {
+      "total": 12,
+      "corroborated": 8,
+      "conjunction": false
+    },
+    "DTC": {
+      "total": 12,
+      "corroborated": 12,
+      "conjunction": true
+    }
+  },
+  "NMR_direction_records_source": "FPC0 sealed embedded original_NMR copies, deduplicated exactly",
+  "historical_packages": {
+    "torch": "2.7.0+cu128",
+    "numpy": "1.26.4",
+    "scipy": "1.15.2"
+  },
+  "unique_numerical_cause_identified": false,
+  "new_native_or_shadow_model_FD_fit_pose_or_metric_calls": 0,
+  "new_external_issue_sent": false,
+  "upstream_current_runtime_reproduced": false,
+  "changed_shadow_repairs_native": false
+}

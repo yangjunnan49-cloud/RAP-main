@@ -1,0 +1,3 @@
+# Next decision after NOC2
+
+The affine fixed-budget control failed its prerequisite with20.442/19.929mm translation error, while rotation passes and analytic representation/target/gauge/directional-gradient checks reproduce. Last100 pre-update losses oscillate and every gradient is clipped; fixed-budget convergence is unestablished, not a unique diagnosed cause. Stop dependent native/real fits. Next DESIGN_ONLY: assess control conditioning using proper metric translation/radian rigid relative-pose parameters with fixed anchor gauge and independent gradient checks, with a new prospective optimizer/stopping/resource scope. No rates/steps/control reinitialization rescue in NOC2, no newly implemented/frozen control and no native learnability conclusion.

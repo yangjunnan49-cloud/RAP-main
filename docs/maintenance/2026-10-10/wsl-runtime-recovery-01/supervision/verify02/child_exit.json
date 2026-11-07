@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "full_resource_capture": true,
+  "wall_seconds": 9.637795098000424,
+  "peak_RSS_bytes": 2518581248,
+  "peak_GPU_allocated_bytes": 435582464,
+  "peak_GPU_reserved_bytes": 478150656,
+  "result": {
+    "passed": true,
+    "strict_model": {
+      "strict": true,
+      "keys": 344,
+      "weights_only": true,
+      "allowed": [
+        "builtins.dict",
+        "builtins.int",
+        "builtins.list",
+        "collections.defaultdict",
+        "numpy._core.multiarray._reconstruct",
+        "numpy.dtype",
+        "numpy.ndarray",
+        "omegaconf.base.ContainerMetadata",
+        "omegaconf.base.Metadata",
+        "omegaconf.listconfig.ListConfig",
+        "omegaconf.nodes.AnyNode",
+        "typing.Any"
+      ],
+      "descriptor_loaded": false
+    },
+    "full_forwards": 3,
+    "cache_full_byteexact": true,
+    "repeated_full_forward_byteexact": true,
+    "actual_native_steps": 5,
+    "target_or_cache_at_inference": false,
+    "optimizer_calls": 0,
+    "backward_calls": 0,
+    "parameter_state_unchanged": true,
+    "output_sha256": "d5daeff7bfbab4fe8c3a5ff1e8a178320e7985d04d8be83db5120007a7567252",
+    "wall_seconds": 9.626932479000061,
+    "peak_RSS_bytes": 2518581248,
+    "peak_GPU_allocated_bytes": 435582464,
+    "peak_GPU_reserved_bytes": 478150656
+  }
+}

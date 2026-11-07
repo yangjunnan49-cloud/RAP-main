@@ -1,0 +1,39 @@
+{
+  "status": "DELIVERED_VALIDATED_MEETING_MATERIALS",
+  "period": "after2026-09-30 through2026-10-11",
+  "slides": 5,
+  "word_pages": 15,
+  "native_tables": 6,
+  "paper_hyperlinks": 13,
+  "outputs": {
+    "E:\\githouse\\RAP-main\\docs\\meeting_20261011\\output\\RAP_SLAM_组会汇报_20261011.pptx": {
+      "sha256": "2feb0bf2840e842147c25b3c8e5f90de9b99a590bd52c0816fd38dda6ed5614e",
+      "bytes": 41398
+    },
+    "E:\\githouse\\RAP-main\\docs\\meeting_20261011\\output\\RAP_SLAM_组会讲解与问答_20261011.docx": {
+      "sha256": "6f1c500f3ee9b289df493c3dcb596419878347e1783478b560d110654513b55f",
+      "bytes": 57859
+    }
+  },
+  "benchmark": {
+    "new_complete_runs": 36,
+    "independent_validation": {
+      "passed": true,
+      "checks": [
+        "historical source/input identities",
+        "36 complete pipelines",
+        "exact frames/config/candidate completion/edge binding",
+        "proper finite poses",
+        "independent anchored alignment",
+        "explicit independent KITTI segments",
+        "all repeat and cohort statistics"
+      ],
+      "total_segment_records": 44388,
+      "max_ate_delta": 6.328271240363392e-14,
+      "max_segment_delta": 2.183004736586126e-14
+    },
+    "scope": "fixed complete RAP-SLAM and KISS-SLAM; three repeats per six sequences; one actual best repetition per model"
+  },
+  "visual_qa": "All five PowerPoint-rendered slides and all Word PDF-rendered pages inspected; final content and native tables editable",
+  "preservation": "Historical outputs and failed attempts retained. Original caps failed; distinct prospective complete-system resource scope used. Windows supervision gaps retained in benchmark REPORT. No training rescue, production edits, install, commit or Git sync."
+}

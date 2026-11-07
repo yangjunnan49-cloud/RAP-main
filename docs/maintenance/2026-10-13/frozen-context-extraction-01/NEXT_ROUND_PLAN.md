@@ -1,0 +1,3 @@
+# Next step — DESIGN_ONLY
+
+Design one separate bounded metric-SE3 residual interface around a frozen geometric pose, using exactly derived feature/metric units and equal nonzero output-Jacobian column accounting across fixed pointwise/separated/joint features. Independently validate head derivatives and pose composition without native gradients or fitting before any later training scope. Pointwise D is learned RAP encoding, so strong raw-observation geometry/direct controls remain prerequisites before any real efficacy/RAP-specific claim. No head/protocol/fitting/GT metric is executed by this stage.

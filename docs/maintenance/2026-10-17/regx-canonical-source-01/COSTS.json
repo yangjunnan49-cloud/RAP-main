@@ -1,0 +1,49 @@
+{
+  "utc": "2026-10-17T12:37:40.4264387Z",
+  "attempts": [
+    {
+      "stage": "freeze",
+      "native_exit_code": 0,
+      "tool_command_wall_seconds": 1.5694304,
+      "contained_controller_seconds": 1.3263801,
+      "final_child_OS_peak_bytes": 106680320,
+      "query_gaps": 0
+    },
+    {
+      "stage": "fetch",
+      "native_exit_code": 0,
+      "tool_command_wall_seconds": 2.2720771,
+      "contained_controller_seconds": 2.0367699,
+      "final_child_OS_peak_bytes": 136126464,
+      "query_gaps": 0
+    },
+    {
+      "stage": "validate",
+      "native_exit_code": 0,
+      "tool_command_wall_seconds": 1.0281187,
+      "contained_controller_seconds": 0.8022893,
+      "final_child_OS_peak_bytes": 126930944,
+      "query_gaps": 0
+    }
+  ],
+  "attempt_count": 3,
+  "success": 3,
+  "failures": 0,
+  "tool_command_wall_sum_seconds": 4.8696262,
+  "contained_controller_sum_seconds": 4.1654393,
+  "overlapping_times_not_added": true,
+  "new_scope_time_cap_seconds": 300,
+  "maximum_child_OS_peak_bytes": 136126464.0,
+  "native_child_peak_cap_bytes": 536870912,
+  "whole_process_tree_peak": "UNKNOWN",
+  "observer_full_lifetime_peak": "UNKNOWN",
+  "preparation_RSS": "UNKNOWN",
+  "GPU_operations": 0,
+  "HTTP_requests": 1,
+  "HTTP_body_bytes": 20701,
+  "HTTP_body_cap_bytes": 196608,
+  "old_separate_metadata_bytes": 1359461,
+  "arithmetic_metadata_subtotal": 1380162,
+  "old_ledger_not_rewritten": true,
+  "parent_bookkeeping_failure": "../autonomous-continuation-06/BOOKKEEPING_FAILURE.json"
+}

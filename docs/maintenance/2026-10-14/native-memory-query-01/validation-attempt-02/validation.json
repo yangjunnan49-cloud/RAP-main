@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "decision": "DIRECT_FINAL_NATIVE_PEAK_AVAILABLE_IN_FIXED_CONTROLS",
+  "frozen_identities": 28,
+  "native_children": 3,
+  "results": [
+    {
+      "mode": "baseline",
+      "native_exit": 0,
+      "running_queries": 25,
+      "running_query_failures": 0,
+      "post_exit_query_successes": [
+        true,
+        true
+      ],
+      "post_exit_peaks": [
+        91844608,
+        91844608
+      ],
+      "post_exit_errors": [
+        0,
+        0
+      ],
+      "final_peak_available": true,
+      "refreshed_dotnet_success": true
+    },
+    {
+      "mode": "early_burst",
+      "native_exit": 0,
+      "running_queries": 28,
+      "running_query_failures": 0,
+      "post_exit_query_successes": [
+        true,
+        true
+      ],
+      "post_exit_peaks": [
+        168058880,
+        168058880
+      ],
+      "post_exit_errors": [
+        0,
+        0
+      ],
+      "final_peak_available": true,
+      "refreshed_dotnet_success": true
+    },
+    {
+      "mode": "late_burst",
+      "native_exit": 0,
+      "running_queries": 16,
+      "running_query_failures": 0,
+      "post_exit_query_successes": [
+        true,
+        true
+      ],
+      "post_exit_peaks": [
+        164286464,
+        164286464
+      ],
+      "post_exit_errors": [
+        0,
+        0
+      ],
+      "final_peak_available": true,
+      "refreshed_dotnet_success": true
+    }
+  ],
+  "all_recorded_queries_including_failures_accounted": true,
+  "original_WPC0_resource_gate_repaired": false,
+  "complete_native_observer_lifetime_peak_known": false,
+  "production_integration_or_old_retry": false
+}

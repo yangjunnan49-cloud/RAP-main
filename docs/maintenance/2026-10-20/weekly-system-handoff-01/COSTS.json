@@ -1,0 +1,260 @@
+{
+  "DMF": {
+    "stages": [
+      {
+        "stage": "bank",
+        "success": true,
+        "error": null,
+        "native_seconds": 6.198753812000007,
+        "enclosing_seconds": 7.073667,
+        "peak_RSS_bytes": 142770176,
+        "windows_exit": 0
+      },
+      {
+        "stage": "component",
+        "success": true,
+        "error": null,
+        "native_seconds": 0.5310319350000157,
+        "enclosing_seconds": 2.4177152,
+        "peak_RSS_bytes": 21942272,
+        "windows_exit": 0
+      },
+      {
+        "stage": "evaluate",
+        "success": true,
+        "error": null,
+        "native_seconds": 3.878542472000163,
+        "enclosing_seconds": 6.2826563,
+        "peak_RSS_bytes": 103337984,
+        "windows_exit": 0
+      },
+      {
+        "stage": "freeze",
+        "success": true,
+        "error": null,
+        "native_seconds": 2.5294425479999916,
+        "enclosing_seconds": 3.1815385,
+        "peak_RSS_bytes": 85778432,
+        "windows_exit": 0
+      },
+      {
+        "stage": "guard_profile",
+        "success": true,
+        "error": null,
+        "native_seconds": 0.7167666,
+        "enclosing_seconds": 0.7167666,
+        "peak_RSS_bytes": 16416768,
+        "windows_exit": null
+      },
+      {
+        "stage": "synthetic",
+        "success": true,
+        "error": null,
+        "native_seconds": 0.9132392159999938,
+        "enclosing_seconds": 1.6234639,
+        "peak_RSS_bytes": 86302720,
+        "windows_exit": 0
+      },
+      {
+        "stage": "validate_bank",
+        "success": false,
+        "error": "KeyboardInterrupt()",
+        "native_seconds": 938.8804336390001,
+        "enclosing_seconds": 1002.0574736,
+        "peak_RSS_bytes": 109993984,
+        "windows_exit": 1
+      },
+      {
+        "stage": "validate_bank02",
+        "success": true,
+        "error": null,
+        "native_seconds": 34.04098074900003,
+        "enclosing_seconds": 38.1853699,
+        "peak_RSS_bytes": 109830144,
+        "windows_exit": 0
+      },
+      {
+        "stage": "validate_metrics",
+        "success": true,
+        "error": null,
+        "native_seconds": 3.0672621390001495,
+        "enclosing_seconds": 3.9474215,
+        "peak_RSS_bytes": 96296960,
+        "windows_exit": 0
+      },
+      {
+        "stage": "validate_synthetic",
+        "success": true,
+        "error": null,
+        "native_seconds": 9.162395800000013,
+        "enclosing_seconds": 10.1998298,
+        "peak_RSS_bytes": 86941696,
+        "windows_exit": 0
+      }
+    ],
+    "enclosing_seconds": 1075.6859023000002,
+    "peak_RSS_bytes": 142770176,
+    "artifact_bytes_before_close": 7209860,
+    "GPU_calls": 0,
+    "full_native_process_tree_and_observer_peak": "UNKNOWN"
+  },
+  "LMB_original": {
+    "stages": [
+      {
+        "stage": "anchor_repair",
+        "success": true,
+        "error": null,
+        "native_seconds": 1.6666678120000142,
+        "enclosing_seconds": 3.9298774,
+        "peak_RSS_bytes": 82411520,
+        "windows_exit": 0
+      },
+      {
+        "stage": "bank",
+        "success": true,
+        "error": null,
+        "native_seconds": 497.9591732959998,
+        "enclosing_seconds": 501.7887143,
+        "peak_RSS_bytes": 693534720,
+        "windows_exit": 0
+      },
+      {
+        "stage": "diagnose",
+        "success": true,
+        "error": null,
+        "native_seconds": 4.56857983000009,
+        "enclosing_seconds": 6.283361,
+        "peak_RSS_bytes": 235724800,
+        "windows_exit": 0
+      },
+      {
+        "stage": "evaluate",
+        "success": true,
+        "error": null,
+        "native_seconds": 2.3469811680006387,
+        "enclosing_seconds": 3.1522148,
+        "peak_RSS_bytes": 83779584,
+        "windows_exit": 0
+      },
+      {
+        "stage": "evaluate_anchor",
+        "success": true,
+        "error": null,
+        "native_seconds": 2.486821106000207,
+        "enclosing_seconds": 4.7329622,
+        "peak_RSS_bytes": 83939328,
+        "windows_exit": 0
+      },
+      {
+        "stage": "fix_control",
+        "success": true,
+        "error": null,
+        "native_seconds": 1.3540613029999804,
+        "enclosing_seconds": 3.1740725,
+        "peak_RSS_bytes": 51097600,
+        "windows_exit": 0
+      },
+      {
+        "stage": "freeze",
+        "success": true,
+        "error": null,
+        "native_seconds": 107.51234180100005,
+        "enclosing_seconds": 115.9032046,
+        "peak_RSS_bytes": 58138624,
+        "windows_exit": 0
+      },
+      {
+        "stage": "synthetic",
+        "success": true,
+        "error": null,
+        "native_seconds": 2.3749926299988147,
+        "enclosing_seconds": 5.5737563,
+        "peak_RSS_bytes": 278040576,
+        "windows_exit": 0
+      },
+      {
+        "stage": "validate",
+        "success": true,
+        "error": null,
+        "native_seconds": 2.1200069839997013,
+        "enclosing_seconds": 4.7245667,
+        "peak_RSS_bytes": 83705856,
+        "windows_exit": 0
+      }
+    ],
+    "enclosing_seconds": 649.2627297999999,
+    "peak_RSS_bytes": 693534720,
+    "artifact_bytes_before_close": 10348070,
+    "GPU_calls": 0,
+    "full_native_process_tree_and_observer_peak": "UNKNOWN"
+  },
+  "LMB_extension": {
+    "stages": [
+      {
+        "stage": "bank",
+        "success": true,
+        "error": null,
+        "native_seconds": 301.29805513500105,
+        "enclosing_seconds": 308.5041175,
+        "peak_RSS_bytes": 630771712,
+        "windows_exit": 0
+      },
+      {
+        "stage": "evaluate",
+        "success": true,
+        "error": null,
+        "native_seconds": 5.472927950000667,
+        "enclosing_seconds": 6.2690375,
+        "peak_RSS_bytes": 96800768,
+        "windows_exit": 0
+      },
+      {
+        "stage": "freeze",
+        "success": true,
+        "error": null,
+        "native_seconds": 81.74833452199891,
+        "enclosing_seconds": 85.4551645,
+        "peak_RSS_bytes": 41480192,
+        "windows_exit": 0
+      },
+      {
+        "stage": "mechanism_audit",
+        "success": true,
+        "error": null,
+        "native_seconds": 2.901442966000104,
+        "enclosing_seconds": 4.729323,
+        "peak_RSS_bytes": 82673664,
+        "windows_exit": 0
+      },
+      {
+        "stage": "odometry_control",
+        "success": true,
+        "error": null,
+        "native_seconds": 3.7319620559992472,
+        "enclosing_seconds": 6.3291498,
+        "peak_RSS_bytes": 85393408,
+        "windows_exit": 0
+      },
+      {
+        "stage": "rotation_control",
+        "success": true,
+        "error": null,
+        "native_seconds": 2.201833457000248,
+        "enclosing_seconds": 2.387315,
+        "peak_RSS_bytes": 82104320,
+        "windows_exit": 0
+      }
+    ],
+    "enclosing_seconds": 413.6741073,
+    "peak_RSS_bytes": 630771712,
+    "artifact_bytes_before_close": 7031396,
+    "GPU_calls": 0,
+    "full_native_process_tree_and_observer_peak": "UNKNOWN"
+  },
+  "LMB_shared_account": {
+    "enclosing_seconds": 1062.9368370999998,
+    "original_cap_seconds": 1800,
+    "remaining_seconds": 737.0631629000002,
+    "combined_dossier_bytes": 17379466
+  }
+}

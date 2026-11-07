@@ -1,0 +1,684 @@
+{
+  "utc": "2026-10-09T09:58:40.092232+00:00",
+  "files": {
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/rotation_protected_map_pilot.py": "a3064b80136531f767278f86aef88cc6be0c405e7efd3136e9ef683ad1c654cf",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/validate_rotation_protected_map_pilot.py": "37d532786435f3717a146975d274d20b167f80b24c9394572b57a083ac61db7b",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/rotation-protected-map-pilot-01/PROTOCOL.md": "cc8dc5f7cf5b80e0442c40baf46de939d071570cd72afe0d5bcadb44d805d004",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/rotation-protected-map-pilot-01/algorithm_staging.py": "429d768f97810378fdfa8dc4bd44dbcffb71c802aa5790ba860b08fa0b21975f",
+    "/mnt/e/githouse/RAP-SLAM/scripts/rotation_protected_map.py": "429d768f97810378fdfa8dc4bd44dbcffb71c802aa5790ba860b08fa0b21975f",
+    "/mnt/e/githouse/RAP-SLAM/scripts/cross_visit_map_attempt02.py": "fcd22b70dad19a31b679c69d8a0177ee0d39c49f2174bc83714abc07e22560a4",
+    "/mnt/e/githouse/RAP-SLAM/scripts/shared_plane_map.py": "33f441150919edfe7430061b9d6e4ac7332d2f28358e1a9edc8b00287a13f26f",
+    "/mnt/e/githouse/RAP-SLAM/scripts/measured_map_reoptimization.py": "bec33619a7d35c0844bab4ba975c34008a18d20d96316e72f0a1e6384b2f8676",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/cross_visit_map_pilot.py": "36e8918ef991946a578ba9f19cc75162906857873e4d5c44317894ef89f40149",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/measured_map_exploration_attempt02.py": "edc05a5fa8cb9345cde98e26e64bd5fa270c832313401dfd9350903da43e6305",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/shared_plane_map_pilot.py": "1aeefa88a1f585d8cc5c4dcba823e5fc90c1f98564d61cc6b1321b95822f4a61",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/structural_holdout_map_pilot.py": "b4203c749da062847cd5710cefe688f47d1e917b437cfb8a66b79db60fcd4935",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/validate_cross_visit_map_pilot.py": "ed3de9a8d378bae878a5e83312d0bd95089d33af9633de01024cd9c2e47d4f4c",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/validate_shared_plane_map_pilot.py": "a398d5aa189b70941fc188ca3373bde3829736cbb658f3308b07208daddd108b",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-26/e0-frontend-01/full-00-A/accepted_loops.json": "9b4b2ef3dd7a3fa116d5c0855f10778efc13ee7bb7dc4da765d03b877b0b6b62",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-26/e0-frontend-01/full-00-A/keyframes.json": "25ed2e5be7dd5bce70d5dd2d09b1013a5796318aaaa5d5a5d34b7b18c9ed7932",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-26/e0-frontend-01/full-00-A/source_frames.json": "75521f7d3e90d815b65b7f3fb136b149bc94a96c2fa363faa67ce72408c5f474",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-26/e0-frontend-01/full-00-A/odom_poses.txt": "f5088e18b431a54ab6869d9859cf1bbb6922d66e8ccc78c69e13bbf22ad2e358",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/poses/00.txt": "90791a4113df979b149fa9e1104e960ea59f525a8318a202dbb6aec1a3d88793",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/calib.txt": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002378.bin": "5d55a029fe193a106ae55a5131f070ab634bde5ae032af77aaa09546fe5cc554",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002384.bin": "f62bd5a073039b17a29d5ed1721e99a96445c461d9c3e4ca8f26535a8ba043b4",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002391.bin": "4b37db363c05a56a59854dec88b5ab1f2a6fc5d890e5fd12ae734c985d4e41ae",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002398.bin": "6c22e460ebc811e1da4b2fdf345db791fa5a90c92d1fd2286d4fd23c204589ff",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002405.bin": "a29c01d8bd5da30f014c90df0b5d0fb9e90e71cbb11f5aa60aa2bc114233eb74",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002413.bin": "6c5e3304ef528ec1f1f8b1baa3413818b3948a88ac772593c25a3e03075c00f5",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002423.bin": "a5c8f92ba5f3973044159e6fd3b9d1b5eee52723f32422336de7919d9cb33f7c",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002429.bin": "64b3c692d5a95031e8ab7b719899c135937d4ba28caa6116edd107abe570d331",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003318.bin": "c652ece3cb811ac9af26de5382d854e85ec1d2e283e288d3604db721dea6fe01",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003324.bin": "af1e7b3a7c6b6bc621a8b1c127629dbec1fa536fc00717d55868f224d884cbaa",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003331.bin": "da1f95ea051da355eb40e997e7816ad024c0d542d43cc281e68ce55b7200ec20",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003338.bin": "5de75dafdb1ebd168ec8179d99c6cb1453f9941f8f8bc79eb557b4308a54f2e0",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003345.bin": "9d97303e636627424938360ff18cf277a017844f137bd59f4a4c95b3200beafa",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003352.bin": "7f019f2d2f4ac14a59857340fcc8a557389a3ecc8a2c79a78e8e11490971a614",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003361.bin": "00c4997a6c8d09e6e314f53f2bd9b81315b51ec078165feabe3f0cb78600d66d",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003373.bin": "6f7edb747f4ca96cd2b795ac2dfe5aa6c149410335025c5091eb04e781e2e95d",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-26/e0-frontend-01/full-05-A/accepted_loops.json": "9e88d43774f2922c9e49ba5361b9dc8b094a16607311d0999968807ebdec310d",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-26/e0-frontend-01/full-05-A/keyframes.json": "cb909bc01327f440ef8b262c99a61a8056317a051cb288791eebf93f04b62216",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-26/e0-frontend-01/full-05-A/source_frames.json": "0a37b5573d38e9b4ef1ca335cc3c7fceedad98b71edf1b31e25482c03c539e59",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-26/e0-frontend-01/full-05-A/odom_poses.txt": "f35d5fef72a4eb29841c16c1361647a5f99d0463b8195891bb6055cd851e88b6",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/poses/05.txt": "56420ca617a1eb446b2955d187ba4af2912af54a8b458de0602ab3636b43f297",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/calib.txt": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000491.bin": "2eeac2458df713066d45dc1c5bbbb5701bffc44f60ced19a1f4ed6d4d83c37b2",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000499.bin": "a135cb8d2609d3af9f0daf6c1083a8492ac2ca66b313faaf00f6489763aec6b3",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000510.bin": "aeabe50db0c7b390ece2fde5524993f036a740c67676727fb686949245c6bf56",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000521.bin": "a4d05938b53b3b23ed4c221d5f1bc6eee9c1e3ee5a7a9950fbcb3810a6b7752c",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000526.bin": "747aa4e69db301e99dadf530b28979827e1a7e6103c824b4e95c3f5443923dad",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000530.bin": "488386c54b6bd8c006263fc69a58bb3b9ccb73320871eab54d6a0b7a7a272ba0",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000534.bin": "fa297a052b90213332bc950e97174b044b207df15236259433cefc04152fc752",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000538.bin": "444f701e609b5837266841508c5d469469dbbfbfe4c2c83be03ba47331521583",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001252.bin": "f108d813bc1e0721be3882de4a2bb0cb45980d1f9cb6958cf1567c876f45905e",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001260.bin": "b15fd76a666b7483833e2646ea0f2ece56a36322e246dd9b55ba93305d64b046",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001268.bin": "88be656ebb1e15a18bef6a5a13aa482d9f1b012c7bc8251f5a023a1df11d9485",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001277.bin": "933a4a597b8530c334d2d9500e81957dcfe368f01f29ca8de9c33f6f1dc2ef68",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001288.bin": "7109cb3b3c6da13fa494f624a7e6c28b75a4537a92ef3e6d1b5658bb271b56cb",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001293.bin": "7753e62838fcddfcd06134e98127510a31c81120fd5b3a1040dfa0dc281fd28b",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001298.bin": "c6e91c40f14b21171c5f1d7db17a32f4899d4bcfff5a63ec321f9901586e01c3",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001302.bin": "dc865682cda5b6ef02c38762cd233e12af4823bf578a277503b2078f13eb4653",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-26/e0-frontend-01/full-06-A/accepted_loops.json": "2e2e6ac063e1952f42b28adea689301133dbcc96de177e1a6fdd633b7c3288fc",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-26/e0-frontend-01/full-06-A/keyframes.json": "3d7ea07d6031698f6bc52316b6e17677ef4a4deb18bb15f17b42a8b0db116f10",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-26/e0-frontend-01/full-06-A/source_frames.json": "92dabea077358b1cd686c1eec7baa175706ff2f58347eead74c4848d014f1220",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-26/e0-frontend-01/full-06-A/odom_poses.txt": "711f5ea020ffb43b310c046aa5753778fb6ec6d1661d2468b979cd1779540e66",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/poses/06.txt": "823a613b515dbfaaac0ed2942cf866154cc16edf7fbf2edbea57c70828b27a59",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/calib.txt": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000115.bin": "9d9b55cf61e09e57972c43238e7562c0d1809aa09c466c64e56d6f0259f25751",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000120.bin": "4fcda91fbb7199490c13afdb51ca4f71f272b3158ae531d7059b0e6c03c66233",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000125.bin": "361b5d5570dbd89159ed58cd33760f4e17110075c436208ac266bc663d9aaa1e",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000130.bin": "69ccb43ef6ea1a8ab5997952cef22c009edeaf7375c7e8b574cd96f22beb4bc9",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000135.bin": "afad531497dbd9f1efbb4498843ba883f5d6b156ef00cf8a73a89b110c2ad721",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000140.bin": "7cc9fd280bb55de64290158d9b734f60d50ea7d96dec5c18ecb6238bdcd9b6c7",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000145.bin": "d39214e8fc2369bd7cbf415f547ecba133b62da946971bd648936b5fc427091d",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000150.bin": "0ba9be273df9610af0c574fdde4715d4d90c8a4cdba9747bdce9fd71eeccfc93",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000943.bin": "d8e7d90770d956b202e8047d6d6c2077fec52672b2081e1403fda7b782891441",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000948.bin": "719abef419bfb3a880c6e8e0cbf755b5621c3ebc98a4e71b3b64f0fc8ab11a3d",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000953.bin": "58e07b9450b279f0ec47bd3fb57341bd9a55c059b5b6fb91e2ec4685f45e1e12",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000958.bin": "553e5d6c8f3272ed049e5738754a6558672431a4e9c91ed0b8ba1790a81516d6",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000963.bin": "c6f92159736bb2bea798bc5d16ebb92dac726bb034e35f98dbfd682255860d99",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000968.bin": "2b52b34985e9a907157438d4b1a1cd0a4fc9b5bf0505dc6134b89d9d0941e5b2",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000973.bin": "540dde49aa4d5b9b4537f0b4cad157725e526945650248224e3e831a6530ef0c",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000978.bin": "84d9765d6636cdb33c8dbf6280442ab7fa4b6a30af5ba3030843755ec6654e45",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/rotation-protected-map-pilot-01/source_snapshot/00-rotation_protected_map_pilot.py": "a3064b80136531f767278f86aef88cc6be0c405e7efd3136e9ef683ad1c654cf",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/rotation-protected-map-pilot-01/source_snapshot/01-validate_rotation_protected_map_pilot.py": "37d532786435f3717a146975d274d20b167f80b24c9394572b57a083ac61db7b",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/rotation-protected-map-pilot-01/source_snapshot/02-PROTOCOL.md": "cc8dc5f7cf5b80e0442c40baf46de939d071570cd72afe0d5bcadb44d805d004",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/rotation-protected-map-pilot-01/source_snapshot/03-algorithm_staging.py": "429d768f97810378fdfa8dc4bd44dbcffb71c802aa5790ba860b08fa0b21975f",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/rotation-protected-map-pilot-01/source_snapshot/04-rotation_protected_map.py": "429d768f97810378fdfa8dc4bd44dbcffb71c802aa5790ba860b08fa0b21975f",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/rotation-protected-map-pilot-01/source_snapshot/05-cross_visit_map_attempt02.py": "fcd22b70dad19a31b679c69d8a0177ee0d39c49f2174bc83714abc07e22560a4",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/rotation-protected-map-pilot-01/source_snapshot/06-shared_plane_map.py": "33f441150919edfe7430061b9d6e4ac7332d2f28358e1a9edc8b00287a13f26f",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/rotation-protected-map-pilot-01/source_snapshot/07-measured_map_reoptimization.py": "bec33619a7d35c0844bab4ba975c34008a18d20d96316e72f0a1e6384b2f8676",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/rotation-protected-map-pilot-01/source_snapshot/08-cross_visit_map_pilot.py": "36e8918ef991946a578ba9f19cc75162906857873e4d5c44317894ef89f40149",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/rotation-protected-map-pilot-01/source_snapshot/09-measured_map_exploration_attempt02.py": "edc05a5fa8cb9345cde98e26e64bd5fa270c832313401dfd9350903da43e6305",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/rotation-protected-map-pilot-01/source_snapshot/10-shared_plane_map_pilot.py": "1aeefa88a1f585d8cc5c4dcba823e5fc90c1f98564d61cc6b1321b95822f4a61",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/rotation-protected-map-pilot-01/source_snapshot/11-structural_holdout_map_pilot.py": "b4203c749da062847cd5710cefe688f47d1e917b437cfb8a66b79db60fcd4935",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/rotation-protected-map-pilot-01/source_snapshot/12-validate_cross_visit_map_pilot.py": "ed3de9a8d378bae878a5e83312d0bd95089d33af9633de01024cd9c2e47d4f4c",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/rotation-protected-map-pilot-01/source_snapshot/13-validate_shared_plane_map_pilot.py": "a398d5aa189b70941fc188ca3373bde3829736cbb658f3308b07208daddd108b",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/cross-visit-map-pilot-01/DELIVERY_SEAL.json": "e8fc4faf0cd971bb377513e46216f104b3e506379f1143d309f06abfb1ca075a",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/cross-visit-map-pilot-01/NEXT_ROUND_PLAN.md": "fda28ae1600b393483a128ae7e80937aed049af80ed66d064eef486cb8463130",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/cross-visit-map-pilot-01/STATUS.json": "885d2c4c21d6954d27d3762dcda560a745796dfe6caee58b58eb7f8522b7794f",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/cross-visit-map-pilot-01/attempt-02/freeze.json": "4771ddef85eb562ce78ecd95eb594fc7713ab3686476f2e91e5aa1095b6bd853",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/cross-visit-map-pilot-01/attempt-02/preflight.json": "718a3991b23195af89cac8b36e892e06dc18a22a2c13fdd46e79c096e89bd3de",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/cross-visit-map-pilot-01/attempt-02/bank_seal.json": "9a68840ec04e338d4212127fd135bdd1bef2fd980ab9b3cb5eed7ac48a0a9837",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/cross-visit-map-pilot-01/attempt-02/bank_validation.json": "669f088e38bbf17a0f1e28d4883717aabf0c0342ade93f7eb425ca19e294f83c",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/cross-visit-map-pilot-01/attempt-02/validation.json": "bf18d0f4dc4a2130a63bcd7fda732d4caf1eb5301b80112f27c3cd704bcd4681",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/cross-visit-map-pilot-01/attempt-02/bank/case.npz": "595dd9a0a6bfcaa6145a761b51b3fca6d8d459a0701ba050a864999d56dabe38",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-09/cross-visit-map-pilot-01/attempt-02/bank/summary.json": "b43e07181a8f73015f2633f29a83f452b06adf67c7de890ec4338186f44db8d5"
+  },
+  "bindings": {
+    "00": {
+      "selected": {
+        "i": 2429,
+        "j": 3373,
+        "T_rel": [
+          [
+            0.9847261575153641,
+            -0.17385899967354665,
+            0.009355694753688502,
+            -1.7407342174723088
+          ],
+          [
+            0.17401014355086492,
+            0.9845597805281892,
+            -0.01903427030792906,
+            0.12822680668999542
+          ],
+          [
+            -0.005901957178635326,
+            0.020371527579731832,
+            0.9997750785218678,
+            0.011162366393944412
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "measurement_id": "ef08402bdc746147a081b1137926970c29f435d724db04ef096c8f11d475977e"
+      },
+      "visits": [
+        [
+          2378,
+          2384,
+          2391,
+          2398,
+          2405,
+          2413,
+          2423,
+          2429
+        ],
+        [
+          3318,
+          3324,
+          3331,
+          3338,
+          3345,
+          3352,
+          3361,
+          3373
+        ]
+      ],
+      "raw": [
+        {
+          "visit": 0,
+          "node": 2378,
+          "frame": 2378,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002378.bin",
+          "bytes": 1976416,
+          "sha256": "5d55a029fe193a106ae55a5131f070ab634bde5ae032af77aaa09546fe5cc554"
+        },
+        {
+          "visit": 0,
+          "node": 2384,
+          "frame": 2384,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002384.bin",
+          "bytes": 2028240,
+          "sha256": "f62bd5a073039b17a29d5ed1721e99a96445c461d9c3e4ca8f26535a8ba043b4"
+        },
+        {
+          "visit": 0,
+          "node": 2391,
+          "frame": 2391,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002391.bin",
+          "bytes": 2017920,
+          "sha256": "4b37db363c05a56a59854dec88b5ab1f2a6fc5d890e5fd12ae734c985d4e41ae"
+        },
+        {
+          "visit": 0,
+          "node": 2398,
+          "frame": 2398,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002398.bin",
+          "bytes": 1976096,
+          "sha256": "6c22e460ebc811e1da4b2fdf345db791fa5a90c92d1fd2286d4fd23c204589ff"
+        },
+        {
+          "visit": 0,
+          "node": 2405,
+          "frame": 2405,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002405.bin",
+          "bytes": 1975440,
+          "sha256": "a29c01d8bd5da30f014c90df0b5d0fb9e90e71cbb11f5aa60aa2bc114233eb74"
+        },
+        {
+          "visit": 0,
+          "node": 2413,
+          "frame": 2413,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002413.bin",
+          "bytes": 2007744,
+          "sha256": "6c5e3304ef528ec1f1f8b1baa3413818b3948a88ac772593c25a3e03075c00f5"
+        },
+        {
+          "visit": 0,
+          "node": 2423,
+          "frame": 2423,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002423.bin",
+          "bytes": 1977264,
+          "sha256": "a5c8f92ba5f3973044159e6fd3b9d1b5eee52723f32422336de7919d9cb33f7c"
+        },
+        {
+          "visit": 0,
+          "node": 2429,
+          "frame": 2429,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/002429.bin",
+          "bytes": 1991296,
+          "sha256": "64b3c692d5a95031e8ab7b719899c135937d4ba28caa6116edd107abe570d331"
+        },
+        {
+          "visit": 1,
+          "node": 3318,
+          "frame": 3318,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003318.bin",
+          "bytes": 1948432,
+          "sha256": "c652ece3cb811ac9af26de5382d854e85ec1d2e283e288d3604db721dea6fe01"
+        },
+        {
+          "visit": 1,
+          "node": 3324,
+          "frame": 3324,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003324.bin",
+          "bytes": 1989776,
+          "sha256": "af1e7b3a7c6b6bc621a8b1c127629dbec1fa536fc00717d55868f224d884cbaa"
+        },
+        {
+          "visit": 1,
+          "node": 3331,
+          "frame": 3331,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003331.bin",
+          "bytes": 2025968,
+          "sha256": "da1f95ea051da355eb40e997e7816ad024c0d542d43cc281e68ce55b7200ec20"
+        },
+        {
+          "visit": 1,
+          "node": 3338,
+          "frame": 3338,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003338.bin",
+          "bytes": 1987792,
+          "sha256": "5de75dafdb1ebd168ec8179d99c6cb1453f9941f8f8bc79eb557b4308a54f2e0"
+        },
+        {
+          "visit": 1,
+          "node": 3345,
+          "frame": 3345,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003345.bin",
+          "bytes": 1958208,
+          "sha256": "9d97303e636627424938360ff18cf277a017844f137bd59f4a4c95b3200beafa"
+        },
+        {
+          "visit": 1,
+          "node": 3352,
+          "frame": 3352,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003352.bin",
+          "bytes": 2002736,
+          "sha256": "7f019f2d2f4ac14a59857340fcc8a557389a3ecc8a2c79a78e8e11490971a614"
+        },
+        {
+          "visit": 1,
+          "node": 3361,
+          "frame": 3361,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003361.bin",
+          "bytes": 2006624,
+          "sha256": "00c4997a6c8d09e6e314f53f2bd9b81315b51ec078165feabe3f0cb78600d66d"
+        },
+        {
+          "visit": 1,
+          "node": 3373,
+          "frame": 3373,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/velodyne/003373.bin",
+          "bytes": 1977216,
+          "sha256": "6f7edb747f4ca96cd2b795ac2dfe5aa6c149410335025c5091eb04e781e2e95d"
+        }
+      ],
+      "original_accepted_index": 0
+    },
+    "05": {
+      "selected": {
+        "i": 538,
+        "j": 1302,
+        "T_rel": [
+          [
+            0.4469483791928659,
+            -0.8939645898156596,
+            -0.032627621499501644,
+            0.5642724596920102
+          ],
+          [
+            0.894355391546029,
+            0.4457696952705202,
+            0.03765466761060991,
+            -0.5266417487646895
+          ],
+          [
+            -0.019117510376370852,
+            -0.0460103710417072,
+            0.9987579579054113,
+            0.02830025748903131
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "measurement_id": "d9cf9584930175bc8a47f5f20ccc31c071c78dd75c70ccc52d5e18098982d4a7"
+      },
+      "visits": [
+        [
+          491,
+          499,
+          510,
+          521,
+          526,
+          530,
+          534,
+          538
+        ],
+        [
+          1252,
+          1260,
+          1268,
+          1277,
+          1288,
+          1293,
+          1298,
+          1302
+        ]
+      ],
+      "raw": [
+        {
+          "visit": 0,
+          "node": 491,
+          "frame": 491,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000491.bin",
+          "bytes": 1937360,
+          "sha256": "2eeac2458df713066d45dc1c5bbbb5701bffc44f60ced19a1f4ed6d4d83c37b2"
+        },
+        {
+          "visit": 0,
+          "node": 499,
+          "frame": 499,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000499.bin",
+          "bytes": 1871856,
+          "sha256": "a135cb8d2609d3af9f0daf6c1083a8492ac2ca66b313faaf00f6489763aec6b3"
+        },
+        {
+          "visit": 0,
+          "node": 510,
+          "frame": 510,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000510.bin",
+          "bytes": 1974336,
+          "sha256": "aeabe50db0c7b390ece2fde5524993f036a740c67676727fb686949245c6bf56"
+        },
+        {
+          "visit": 0,
+          "node": 521,
+          "frame": 521,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000521.bin",
+          "bytes": 1990432,
+          "sha256": "a4d05938b53b3b23ed4c221d5f1bc6eee9c1e3ee5a7a9950fbcb3810a6b7752c"
+        },
+        {
+          "visit": 0,
+          "node": 526,
+          "frame": 526,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000526.bin",
+          "bytes": 1984768,
+          "sha256": "747aa4e69db301e99dadf530b28979827e1a7e6103c824b4e95c3f5443923dad"
+        },
+        {
+          "visit": 0,
+          "node": 530,
+          "frame": 530,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000530.bin",
+          "bytes": 1980240,
+          "sha256": "488386c54b6bd8c006263fc69a58bb3b9ccb73320871eab54d6a0b7a7a272ba0"
+        },
+        {
+          "visit": 0,
+          "node": 534,
+          "frame": 534,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000534.bin",
+          "bytes": 1970576,
+          "sha256": "fa297a052b90213332bc950e97174b044b207df15236259433cefc04152fc752"
+        },
+        {
+          "visit": 0,
+          "node": 538,
+          "frame": 538,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/000538.bin",
+          "bytes": 1956848,
+          "sha256": "444f701e609b5837266841508c5d469469dbbfbfe4c2c83be03ba47331521583"
+        },
+        {
+          "visit": 1,
+          "node": 1252,
+          "frame": 1252,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001252.bin",
+          "bytes": 1956512,
+          "sha256": "f108d813bc1e0721be3882de4a2bb0cb45980d1f9cb6958cf1567c876f45905e"
+        },
+        {
+          "visit": 1,
+          "node": 1260,
+          "frame": 1260,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001260.bin",
+          "bytes": 1982000,
+          "sha256": "b15fd76a666b7483833e2646ea0f2ece56a36322e246dd9b55ba93305d64b046"
+        },
+        {
+          "visit": 1,
+          "node": 1268,
+          "frame": 1268,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001268.bin",
+          "bytes": 1957360,
+          "sha256": "88be656ebb1e15a18bef6a5a13aa482d9f1b012c7bc8251f5a023a1df11d9485"
+        },
+        {
+          "visit": 1,
+          "node": 1277,
+          "frame": 1277,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001277.bin",
+          "bytes": 1988288,
+          "sha256": "933a4a597b8530c334d2d9500e81957dcfe368f01f29ca8de9c33f6f1dc2ef68"
+        },
+        {
+          "visit": 1,
+          "node": 1288,
+          "frame": 1288,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001288.bin",
+          "bytes": 1979520,
+          "sha256": "7109cb3b3c6da13fa494f624a7e6c28b75a4537a92ef3e6d1b5658bb271b56cb"
+        },
+        {
+          "visit": 1,
+          "node": 1293,
+          "frame": 1293,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001293.bin",
+          "bytes": 2004080,
+          "sha256": "7753e62838fcddfcd06134e98127510a31c81120fd5b3a1040dfa0dc281fd28b"
+        },
+        {
+          "visit": 1,
+          "node": 1298,
+          "frame": 1298,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001298.bin",
+          "bytes": 2006432,
+          "sha256": "c6e91c40f14b21171c5f1d7db17a32f4899d4bcfff5a63ec321f9901586e01c3"
+        },
+        {
+          "visit": 1,
+          "node": 1302,
+          "frame": 1302,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne/001302.bin",
+          "bytes": 2010656,
+          "sha256": "dc865682cda5b6ef02c38762cd233e12af4823bf578a277503b2078f13eb4653"
+        }
+      ],
+      "original_accepted_index": 0
+    },
+    "06": {
+      "selected": {
+        "i": 150,
+        "j": 978,
+        "T_rel": [
+          [
+            0.999975624364827,
+            0.007023318532830879,
+            -0.0002966071754198757,
+            0.2230634471253097
+          ],
+          [
+            -0.007022931124331626,
+            0.9999723973875543,
+            0.0026786665394757025,
+            0.2450261009146315
+          ],
+          [
+            0.0003154082853472639,
+            -0.002676521872493412,
+            0.9999965116704348,
+            0.05588597339762624
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "measurement_id": "ea820ed6cd26c337036988e06bdb6226082a86f65f3e3ef4b52f326021de1542"
+      },
+      "visits": [
+        [
+          115,
+          120,
+          125,
+          130,
+          135,
+          140,
+          145,
+          150
+        ],
+        [
+          943,
+          948,
+          953,
+          958,
+          963,
+          968,
+          973,
+          978
+        ]
+      ],
+      "raw": [
+        {
+          "visit": 0,
+          "node": 115,
+          "frame": 115,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000115.bin",
+          "bytes": 1983696,
+          "sha256": "9d9b55cf61e09e57972c43238e7562c0d1809aa09c466c64e56d6f0259f25751"
+        },
+        {
+          "visit": 0,
+          "node": 120,
+          "frame": 120,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000120.bin",
+          "bytes": 1986272,
+          "sha256": "4fcda91fbb7199490c13afdb51ca4f71f272b3158ae531d7059b0e6c03c66233"
+        },
+        {
+          "visit": 0,
+          "node": 125,
+          "frame": 125,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000125.bin",
+          "bytes": 1981040,
+          "sha256": "361b5d5570dbd89159ed58cd33760f4e17110075c436208ac266bc663d9aaa1e"
+        },
+        {
+          "visit": 0,
+          "node": 130,
+          "frame": 130,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000130.bin",
+          "bytes": 1984624,
+          "sha256": "69ccb43ef6ea1a8ab5997952cef22c009edeaf7375c7e8b574cd96f22beb4bc9"
+        },
+        {
+          "visit": 0,
+          "node": 135,
+          "frame": 135,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000135.bin",
+          "bytes": 1986400,
+          "sha256": "afad531497dbd9f1efbb4498843ba883f5d6b156ef00cf8a73a89b110c2ad721"
+        },
+        {
+          "visit": 0,
+          "node": 140,
+          "frame": 140,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000140.bin",
+          "bytes": 1985648,
+          "sha256": "7cc9fd280bb55de64290158d9b734f60d50ea7d96dec5c18ecb6238bdcd9b6c7"
+        },
+        {
+          "visit": 0,
+          "node": 145,
+          "frame": 145,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000145.bin",
+          "bytes": 1985808,
+          "sha256": "d39214e8fc2369bd7cbf415f547ecba133b62da946971bd648936b5fc427091d"
+        },
+        {
+          "visit": 0,
+          "node": 150,
+          "frame": 150,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000150.bin",
+          "bytes": 1982784,
+          "sha256": "0ba9be273df9610af0c574fdde4715d4d90c8a4cdba9747bdce9fd71eeccfc93"
+        },
+        {
+          "visit": 1,
+          "node": 943,
+          "frame": 943,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000943.bin",
+          "bytes": 1983472,
+          "sha256": "d8e7d90770d956b202e8047d6d6c2077fec52672b2081e1403fda7b782891441"
+        },
+        {
+          "visit": 1,
+          "node": 948,
+          "frame": 948,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000948.bin",
+          "bytes": 1980096,
+          "sha256": "719abef419bfb3a880c6e8e0cbf755b5621c3ebc98a4e71b3b64f0fc8ab11a3d"
+        },
+        {
+          "visit": 1,
+          "node": 953,
+          "frame": 953,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000953.bin",
+          "bytes": 1979840,
+          "sha256": "58e07b9450b279f0ec47bd3fb57341bd9a55c059b5b6fb91e2ec4685f45e1e12"
+        },
+        {
+          "visit": 1,
+          "node": 958,
+          "frame": 958,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000958.bin",
+          "bytes": 1982320,
+          "sha256": "553e5d6c8f3272ed049e5738754a6558672431a4e9c91ed0b8ba1790a81516d6"
+        },
+        {
+          "visit": 1,
+          "node": 963,
+          "frame": 963,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000963.bin",
+          "bytes": 1983888,
+          "sha256": "c6f92159736bb2bea798bc5d16ebb92dac726bb034e35f98dbfd682255860d99"
+        },
+        {
+          "visit": 1,
+          "node": 968,
+          "frame": 968,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000968.bin",
+          "bytes": 1983344,
+          "sha256": "2b52b34985e9a907157438d4b1a1cd0a4fc9b5bf0505dc6134b89d9d0941e5b2"
+        },
+        {
+          "visit": 1,
+          "node": 973,
+          "frame": 973,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000973.bin",
+          "bytes": 1981472,
+          "sha256": "540dde49aa4d5b9b4537f0b4cad157725e526945650248224e3e831a6530ef0c"
+        },
+        {
+          "visit": 1,
+          "node": 978,
+          "frame": 978,
+          "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000978.bin",
+          "bytes": 1980496,
+          "sha256": "84d9765d6636cdb33c8dbf6280442ab7fa4b6a30af5ba3030843755ec6654e45"
+        }
+      ],
+      "original_accepted_index": 0
+    }
+  },
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.2"
+  },
+  "new_numeric_gt_parsed": false,
+  "new_raw_coordinates_parsed": false,
+  "exposed_development": true,
+  "primary_sequences": [
+    "00",
+    "05",
+    "06"
+  ],
+  "cpu_wall_cap_s": 1800,
+  "rss_cap_bytes": 2147483648,
+  "artifact_cap_bytes": 536870912
+}

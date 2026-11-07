@@ -73,7 +73,7 @@ def setup(cfg: DictConfig):
     return model, datamodule, trainer
 
 
-@hydra.main(version_base="1.3", config_path="./config", config_name="RAP_base")
+@hydra.main(version_base="1.3", config_path="./config", config_name="RAP_inference")
 def main(cfg: DictConfig):
     """Entry point for evaluating the model on validation set.
     

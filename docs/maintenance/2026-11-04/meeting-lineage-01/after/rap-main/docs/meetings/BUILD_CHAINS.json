@@ -1,0 +1,723 @@
+{
+  "schema_version": 1,
+  "current_copy_and_preparation_entry": "scripts/meetings/materials.py",
+  "current_entry_invokes_historical_scientific_or_builder_scripts": false,
+  "prepared_notes_recipe_personal_cache_independent": true,
+  "notes_content_body_preserved": true,
+  "new_office_artifact_build_or_visual_export_validated": false,
+  "native_pptd_export_runtime_validated": false,
+  "portable_preparation": "docs/maintenance/2026-11-04/meeting-lineage-01/PORTABLE_PREPARATION.json",
+  "historical_static_scripts": [
+    {
+      "asset": "rap-main:docs/meeting_20260921/make_ablation_fig.py",
+      "sha256": "0ab25ede140801b299dddd22de7dfae26c121cb4f5137a65e45a92edf75302f1",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20260921/make_innovation_fig.py",
+      "sha256": "cac472f8dfff5e07e7813e662b122908ed04f09e65cc19687aec22ff93deddc3",
+      "machine_reference_count": 2,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20260921/make_ppt.py",
+      "sha256": "f8b85dd35494218d5f4cc473089097b977d714220aea6c1a6473ed069b5f6b9b",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20260921/render_maps.py",
+      "sha256": "f2f6d011bbbf61fa93b2950968a00f97c041f79f44fb257e34d4a88253eb906e",
+      "machine_reference_count": 1,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20260930/.build/build_deck.mjs",
+      "sha256": "bbdf97c369c4e63eb8efbe38af7695afaa0d61306a5fb2fb1408a6c9eaf696a3",
+      "machine_reference_count": 8,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20260930/.build/build_doc.py",
+      "sha256": "e4c3581deb9d3bed5362bcfb0a254541954bf7976ba95be8a0b2bb5d46aa38c9",
+      "machine_reference_count": 3,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20260930/.build/patch_ppt_fonts.py",
+      "sha256": "4de485df5d4ca4adcae497b23c0e7d03ffac9a2a49d603d1298249cb2ea8a2f1",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20260930/.build/remove_labels.py",
+      "sha256": "a26277bfe2ad0b85fd9facec1d7611a1aa0b90c34bb5722b775185c69ecf347b",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20260930/.build/verify_delivery.py",
+      "sha256": "d72b5feda0ce015396e4b709389a331622889197f3a0e5e4b54399ad37cb4daa",
+      "machine_reference_count": 1,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20260930/.build/verify_no_labels.py",
+      "sha256": "ffb35cfaf14dfb3056f6dff1d6fdb42e8f99a79c1a6c5b33cf31590db758a7db",
+      "machine_reference_count": 1,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20260930/create_speech_docx.js",
+      "sha256": "4459b20ed551bceaa8676ada1f28129ab64d96dad752311bb666c61640fe23f3",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261011/.build/benchmark_report.py",
+      "sha256": "3b305fc00bfa6f308c932d176f07fc3750e58bf9286b738c149d899e2e2fe61e",
+      "machine_reference_count": 1,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261011/.build/build_deck.mjs",
+      "sha256": "4526e5e00cde0c9e0a2d42dffa48421c73f104a9fdf4fbdfccdfb07e4cc2c6fe",
+      "machine_reference_count": 6,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261011/.build/build_doc.py",
+      "sha256": "e7c637c7c72e6e0b3b42bb0d40b2608a49b3ff5c83f62ddd6d864aa945f042bc",
+      "machine_reference_count": 3,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261011/.build/delivery_audit.py",
+      "sha256": "0b95b7a87662fcbcf6edae2c6411ad5f73cdc0e0566490543000d91d8949a2ce",
+      "machine_reference_count": 1,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261011/.build/render_office.ps1",
+      "sha256": "7b6505918af1e42eb71ba468bb08bd59427c497ef21b11a82c5f1a1f32844050",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261018/.build/build_slides.mjs",
+      "sha256": "294aa1b8894c5f9a9a1ea5d807146340ef89639586f6707e834718e3fc6a1671",
+      "machine_reference_count": 4,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261018/.build/build_word.py",
+      "sha256": "ca6345448a3b84a1f53e79760eca310a7d5ec2405305c80f3458f53985413931",
+      "machine_reference_count": 1,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261018/.build/check_delivery.py",
+      "sha256": "8b363c143f160b82dbc95c63948d2005a08ac0c5ef401dde545de438674c6a17",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261018/.build/inspect_sources.py",
+      "sha256": "98a74bdc1dd2d14d5aa4d555d1d425cfb51118c74da42fd67ae7b95a0fce4bcb",
+      "machine_reference_count": 2,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261018/.build/prepare_content.py",
+      "sha256": "8314706b4d3c0809b4a3b4ee20ec63cfc59da20a9d3949750ab6e8b9a9a0ba34",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261018/.build/rasterize_pdf.py",
+      "sha256": "2c0aa462279b78033feafc35b095213467f0295125f3e7372195e40a92bda62e",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261018/.build/render_with_powerpoint.ps1",
+      "sha256": "3d4827b50e678d18920c505ee86924086766b3f85631bf47f051f62d87ab5f38",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261018/.build/render_with_word.ps1",
+      "sha256": "2670cc52e0954697bedd1ca1b95c92b5e46e39342f7042bb411bafda447fd8e9",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261025/calculate_metrics.py",
+      "sha256": "b6f234b6af2fde08298f577b548f3643af0429bec358c5ca2d45e2f734c5a5f5",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261025/eval_paper_metrics_reference.py",
+      "sha256": "c20ad4d614e64bf21bc350b1ebc1c4716e9091232a2ee9733f5c7074a7fcf595",
+      "machine_reference_count": 1,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261025/evaluate_reference.py",
+      "sha256": "0dbe756335f00e1128b7d23ae599882a556fa2b6458f64ca3122220ba17f4281",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261025/rap_slam_weekly/build_speaker_notes.js",
+      "sha256": "1e27af01bd08307b43960a840c8fcdab8752bd61450d4ed775d2a251c81a1151",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261025/rap_slam_weekly/build_speaker_notes.mjs",
+      "sha256": "ea0102e571c635217016b8995b8e1bccd284ffeb28c6129e45e17def43b110b1",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:docs/meeting_20261025/real_dataset_reference.py",
+      "sha256": "ecb438df719e5e61632163d6a620fca114f80f7fce920147a3a8234ea52684d1",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:working files/decks/rap_slam_weekly-b5533638/build_trajectory_atlas.py",
+      "sha256": "b8961a0e0a1254d9e44a10edc1d2b35aa865a5055915357a40f82d2c4ff1f211",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:working files/decks/rap_slam_weekly-b5533638/build_weekly_20261101.py",
+      "sha256": "400c42eb7c2b3853eeb654af34c130783368f260c73a0db5780bda327c9aeccf",
+      "machine_reference_count": 1,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:working files/decks/rap_slam_weekly-b5533638/build_weekly_20261101_seq09.py",
+      "sha256": "d24a35d70f1033ca38f58c3ca9c63b0d1fe2bcf26944a6dceb4f4f6e27b4d0cb",
+      "machine_reference_count": 1,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:working files/weekly_20261101/analyze_seq09.py",
+      "sha256": "b9837ef58a52d15ee104fa272b8349479a18a4ce11759dc20c3c3be8d3934579",
+      "machine_reference_count": 1,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:working files/weekly_20261101/create_weekly_script.js",
+      "sha256": "2ee86ee859e94de15085e80ee3f363542ad9fca5a5f309d764eca325d12f4427",
+      "machine_reference_count": 2,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:working files/weekly_20261101/docx_runtime.py",
+      "sha256": "48aa3d23b1c5c6721e5ac2aadb81d5e9e161d967348cbfc760d19f4ae11cec45",
+      "machine_reference_count": 2,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "rap-main:working files/weekly_20261101/select_zoom_window.py",
+      "sha256": "c7eaac0bbc1b3bfcee2a5f7c80396b48001888849cad95209eaa5b555ff93ae6",
+      "machine_reference_count": 1,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/build_pdf.py",
+      "sha256": "059beddc4c8b680878709a0847d107b880a07549bf466aa4e012aeff9f5f1f57",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/make_figures.py",
+      "sha256": "8c457cece0f66b3316e9552eb09af33b6eaa7a7b3ff8773efaedbe94b70aec9b",
+      "machine_reference_count": 2,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/common.py",
+      "sha256": "b1aaf1733d1b6ec0dbb0f0a30345fcee52a08ae489abe965dfe43dbec775e2c7",
+      "machine_reference_count": 2,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/explore.py",
+      "sha256": "ef300a17ae1ccf65fdff6641432d29c6ac28ce65b51a3133dfb8ebef93dd59bb",
+      "machine_reference_count": 1,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/fig01_map_hero.py",
+      "sha256": "11bd2a7311c14db9605dde8bb3f0d6b7aa5dd53b62697fff80ce74fefc7955bd",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/fig02_map_duo.py",
+      "sha256": "2b41460c89c4dff2fdf36f5c628198c55358de2aab5d85c14fc7cfd7caa5748b",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/fig03_traj_poss.py",
+      "sha256": "21b460410f359f9a9a529a877b52bd9826e151dff30227fe5c356038bcc53180",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/fig04_ape_poss.py",
+      "sha256": "2ee5a0109423aa72815af02b8e29400750e936d720b47d5d5a07ec697d2a31d6",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/fig05_registration.py",
+      "sha256": "400da0ed001fd726108c531e46c673b4434951622e860bd545c9db9bb0aa0048",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/fig06_traj_k02.py",
+      "sha256": "b0cf13e710937ff3d50a669a1113057b2f93a9baee6bedaa89b576b14020f030",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/fig07_map_k02.py",
+      "sha256": "e7fc7de01c41eeafaa5bf9fe243a982235feb90aa5fae0ef35de01ebdbfdb92b",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/fig08_k06_duo.py",
+      "sha256": "e2cf63e438a80e50347271500eb7b04cd9303f6c890c52643e46366f3f260af0",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/fig09_gate.py",
+      "sha256": "c2c38a8a8b2f91aae3ffd4fe12fe02fe49be49a2f0ec9eb28f19eb03985209b5",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/fig10_retrieval.py",
+      "sha256": "4ce1670febc4b3e7898edc746754d23cac4cd34cfceee14dc2f727bfafb5c5bf",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/fig11_pgo_variants.py",
+      "sha256": "7a0e33e83a7ee5d2c30513f33960713579c36501980468d0bea29404eb67486d",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/fig12_noise_sweep.py",
+      "sha256": "fff9d129ca7aaf5da078d6f569375a6147e8581d5beda9e34e13961ad6a77ee5",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/fig13_nway.py",
+      "sha256": "08aa8c42a4569c939e6aebe7fcf1caa8e39c087e31d040ed775874b26027cca8",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/fig14_scoreboard.py",
+      "sha256": "027e37d51d0054aaffaf9d59152476b322b3e589c29d20bb604eb5a061d69083",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:advisor_report/scripts/fig15_timing.py",
+      "sha256": "738b74e7db6342ee2254a64ab0d60e4b0fa27885f422d9f5bf63527a295738a7",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:ppt/gen_figures.py",
+      "sha256": "fc1e24b0f5c881f5feb628585fb857bedf5dc52eeeade3dae57f137a5b68974b",
+      "machine_reference_count": 3,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:ppt/gen_figures2.py",
+      "sha256": "8b58c99d98423562e05b93f4cbbba4f3fa55c9020ba74c14c682a45c07afb65b",
+      "machine_reference_count": 1,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:ppt/rap_flow_viz_gpu.py",
+      "sha256": "d04be5416967676d3a75bfab99da6f2ddd7d00981c7ea772e4747a1428e4d672",
+      "machine_reference_count": 3,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:ppt_weekly_20260823/gen_cheatsheet.py",
+      "sha256": "2775be6c7aa5914b750f3df61010591efffacb87c020d991fb8cfe1dded7aa6d",
+      "machine_reference_count": 1,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:ppt_weekly_20260823/gen_figures.py",
+      "sha256": "2dfbbfbe14cdd98281372201c0634186f62e309258ec4f337c8e3aafed16074c",
+      "machine_reference_count": 3,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:ppt_weekly_20260823/gen_figures_v2.py",
+      "sha256": "1ec696f56bc7bce46ede41a100580b7df858a764aee4372589b776ab4c92ef78",
+      "machine_reference_count": 3,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:paper/build.sh",
+      "sha256": "0711fbba29e50484151cccbd889d31238597abc44928882c9909dfddf568558f",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    },
+    {
+      "asset": "reports:paper/figsrc/render_figs.py",
+      "sha256": "a36ad01fec48ca64ebf35ecd5a3d12d4ff67f697e0388b7f5d7637b990368ff3",
+      "machine_reference_count": 0,
+      "executed_in_A6": false
+    }
+  ],
+  "editable_decks": [
+    {
+      "asset": "rap-main:working files/decks/rap_slam_weekly-b5533638/rap_slam_weekly.pptd",
+      "sha256": "c79b3654cbcf814dd5842cb441caf6cf350c3abb1f7975dc90dbe786c4394215",
+      "active_pages": [
+        "pages/1_overview.page",
+        "pages/2_strengths.page",
+        "pages/3_sequences.page",
+        "pages/4_work.page",
+        "pages/6_next.page"
+      ],
+      "active_page_count": 5,
+      "unlisted_pages_retained": [
+        "pages/5_adapter.page",
+        "pages/5_gaps.page"
+      ],
+      "image_references": [
+        {
+          "page": "pages/1_overview.page",
+          "literal": "media/overview_benchmarks.png",
+          "exists": true,
+          "sha256": "fe1b55c8253d00a886f157ce9e6911a31549a659505fdb6a0fb0dbca867a1a73"
+        },
+        {
+          "page": "pages/3_sequences.page",
+          "literal": "media/trajectory_05_rap_global.png",
+          "exists": true,
+          "sha256": "5d958e4affdcea64eac0d1e855dc1e8e9eb9de7e7ab35db57f32433e5f733318"
+        },
+        {
+          "page": "pages/3_sequences.page",
+          "literal": "media/trajectory_05_kiss_global.png",
+          "exists": true,
+          "sha256": "52386b8ee0f3d55dd0b932d2abc245ffde223520159915f5b47d58c20ce7f270"
+        },
+        {
+          "page": "pages/3_sequences.page",
+          "literal": "media/trajectory_05_rap_zoom.png",
+          "exists": true,
+          "sha256": "9775648d0118ebf53b8134ed6f837ea0a6e9e385ab37c8a1dbae772f69bc2db4"
+        },
+        {
+          "page": "pages/3_sequences.page",
+          "literal": "media/trajectory_05_kiss_zoom.png",
+          "exists": true,
+          "sha256": "8191e985b444efad8342084daa39e20762a256150ef5386b8b357b5e3b4d3c58"
+        },
+        {
+          "page": "pages/3_sequences.page",
+          "literal": "media/trajectory_09_rap_global.png",
+          "exists": true,
+          "sha256": "a7cd7ea3a3d57df3a84104adcecf5a18ea78fae428d6fed7448fe32a5df92cad"
+        },
+        {
+          "page": "pages/3_sequences.page",
+          "literal": "media/trajectory_09_kiss_global.png",
+          "exists": true,
+          "sha256": "3b125b4df3fec1d7510b613bce881933ab28e673be941438821ce4500153fcdd"
+        },
+        {
+          "page": "pages/3_sequences.page",
+          "literal": "media/trajectory_09_rap_zoom.png",
+          "exists": true,
+          "sha256": "3ae6de28c5810133b19ac8538d44df36aac3833649b9558b321557e72517cda2"
+        },
+        {
+          "page": "pages/3_sequences.page",
+          "literal": "media/trajectory_09_kiss_zoom.png",
+          "exists": true,
+          "sha256": "3a262154bad3b0e8fa4a345572216d8142039388073280a57d568cec55da673f"
+        },
+        {
+          "page": "pages/4_work.page",
+          "literal": "media/mcv1_mechanism.png",
+          "exists": true,
+          "sha256": "6b2077ae93dc67e45c1bd6fa7732ce474544c37652e69c19a448be43bb3202ba"
+        }
+      ],
+      "export_engine_rebuilt_or_certified": false
+    },
+    {
+      "asset": "reports:ppt/rap_slam_report/rap_slam_report.pptd",
+      "sha256": "03a0ac61456415b87e06ea35cf2503af6ccf3c436bd2911f67c3155c9290c30e",
+      "active_pages": [
+        "pages/01_cover.page",
+        "pages/02_toc.page",
+        "pages/03_background.page",
+        "pages/04_rap_core.page",
+        "pages/05_architecture.page",
+        "pages/06_innovations.page",
+        "pages/07_retrieval.page",
+        "pages/08_rap_verify.page",
+        "pages/09_gate.page",
+        "pages/10_result_poss.page",
+        "pages/11_map.page",
+        "pages/12_result_kitti02.page",
+        "pages/13_results_all.page",
+        "pages/14_rviz.page",
+        "pages/15_nway.page",
+        "pages/16_summary.page",
+        "pages/17_roadmap.page",
+        "pages/18_final.page"
+      ],
+      "active_page_count": 18,
+      "unlisted_pages_retained": [],
+      "image_references": [
+        {
+          "page": "pages/01_cover.page",
+          "literal": "media/fig_hero_map.png",
+          "exists": true,
+          "sha256": "5601fbcad5ba769fcaed1fb8f1c7c99ee918cae776bf8e94050f4f092802c25e"
+        },
+        {
+          "page": "pages/04_rap_core.page",
+          "literal": "media/fig_flow.png",
+          "exists": true,
+          "sha256": "61e92a1e5597e937c80d5ff4a525c13967b6c20e8cd59f58c9e1e43beb279e86"
+        },
+        {
+          "page": "pages/07_retrieval.page",
+          "literal": "media/fig_sc_descriptor.png",
+          "exists": true,
+          "sha256": "27235904b4eb212997c3a85125da85b05da7c5e3b4a7521e8c973fd4918d45da"
+        },
+        {
+          "page": "pages/07_retrieval.page",
+          "literal": "media/fig_retrieval_clusters.png",
+          "exists": true,
+          "sha256": "404afa8e5aad645479ca3b08e766cf2c7bf450e344df4d88396485c98b89d31b"
+        },
+        {
+          "page": "pages/08_rap_verify.page",
+          "literal": "media/fig_rap_pair.png",
+          "exists": true,
+          "sha256": "5cbc4ac3f5185e12b19a6329b76558920d7008e5bc498bb37deed23c55fb7aa3"
+        },
+        {
+          "page": "pages/09_gate.page",
+          "literal": "media/fig_gate_scatter.png",
+          "exists": true,
+          "sha256": "1b076ae7b6d5b75ddcca27b370f43ae8a458668c81a5a129c48810e6a9380f8f"
+        },
+        {
+          "page": "pages/10_result_poss.page",
+          "literal": "media/fig_traj_poss.png",
+          "exists": true,
+          "sha256": "e0768f75510d90b108d1b3a8d14467b401bee939794ee6cf7a444e03b18eeab9"
+        },
+        {
+          "page": "pages/11_map.page",
+          "literal": "media/fig_map_before_after.png",
+          "exists": true,
+          "sha256": "cb86bdf3ea7b21dbe949e98f95d268d0d048305a414b5913ce5bf470b2b747ec"
+        },
+        {
+          "page": "pages/12_result_kitti02.page",
+          "literal": "media/fig_traj_kitti02.png",
+          "exists": true,
+          "sha256": "44e3166e67772596cabbfbfd41b84a1fe2214cf3d637b2afce2e1436d16c7bd4"
+        },
+        {
+          "page": "pages/14_rviz.page",
+          "literal": "media/rviz_midrun.png",
+          "exists": true,
+          "sha256": "9537d9f50138523e5dc170e3753d25bd3c81b1e5368315ad91dfb00542914074"
+        },
+        {
+          "page": "pages/14_rviz.page",
+          "literal": "media/rviz_loop.png",
+          "exists": true,
+          "sha256": "c460518c0690955ece786a9518238aac6d10424f0b8060f7ba1eec6d7979e66d"
+        },
+        {
+          "page": "pages/18_final.page",
+          "literal": "media/fig_hero_poss.png",
+          "exists": true,
+          "sha256": "a3224dbfa4ffc84bc45e60777c0bdbe60337f06799e43260c8f7710e12b829d7"
+        }
+      ],
+      "export_engine_rebuilt_or_certified": false
+    },
+    {
+      "asset": "reports:ppt_weekly_20260823/rap_slam_weekly/rap_slam_weekly.pptd",
+      "sha256": "f5cd0341e7fe3637e9cc0b59d5e01285e713c8896b1053c89b803d220789bea6",
+      "active_pages": [
+        "pages/01_cover.page",
+        "pages/02_week.page",
+        "pages/03_positioning.page",
+        "pages/04_comparison.page",
+        "pages/05_swap.page",
+        "pages/06_calib.page",
+        "pages/07_nway.page",
+        "pages/08_map.page",
+        "pages/09_retrieval.page",
+        "pages/10_spires.page",
+        "pages/11_data.page",
+        "pages/12_paper.page"
+      ],
+      "active_page_count": 12,
+      "unlisted_pages_retained": [],
+      "image_references": [
+        {
+          "page": "pages/01_cover.page",
+          "literal": "media/fig_cover_map.png",
+          "exists": true,
+          "sha256": "695c292432312d60ee7780793484f9a42ce4e4b9dad9d29192d6b3e8f3a98582"
+        },
+        {
+          "page": "pages/04_comparison.page",
+          "literal": "media/fig_ter_bars.png",
+          "exists": true,
+          "sha256": "f2c5b7c5f54726f3a135d829da4212ba956011b94c4dedaf54f012bfa4a2015d"
+        },
+        {
+          "page": "pages/04_comparison.page",
+          "literal": "media/fig_ate_dumbbell.png",
+          "exists": true,
+          "sha256": "eba32334c086fe72d392f0c0ea3e2c68b0df6ad237b8749abe5e831eda965834"
+        },
+        {
+          "page": "pages/05_swap.page",
+          "literal": "media/fig_swap.png",
+          "exists": true,
+          "sha256": "9655119c75f86455a2e49cffa37e833ea7c46999aea28f9d437046481a04c9bf"
+        },
+        {
+          "page": "pages/06_calib.page",
+          "literal": "media/fig_calib.png",
+          "exists": true,
+          "sha256": "0e7ba0263a1839941f4b9dbb03579ae8226f1ba4d74bc28c4f2286aaa678cd53"
+        },
+        {
+          "page": "pages/07_nway.page",
+          "literal": "media/fig_nway.png",
+          "exists": true,
+          "sha256": "f62cd372b61751bf706b0ef94663c320ffda979b64e63a889d93bb0128319528"
+        },
+        {
+          "page": "pages/08_map.page",
+          "literal": "media/fig_map_chamfer.png",
+          "exists": true,
+          "sha256": "77b18a2990d50dd66f308a1cb221fb3fe040bf58af1f46667fa288d9b48a0801"
+        },
+        {
+          "page": "pages/09_retrieval.page",
+          "literal": "media/fig_retrieval.png",
+          "exists": true,
+          "sha256": "3072e6cafff0253bd1968435add2b66afcf630fcbe2c139d642042cee1a7a0a3"
+        },
+        {
+          "page": "pages/10_spires.page",
+          "literal": "media/fig_spires.png",
+          "exists": true,
+          "sha256": "25eee343c3c2474838dd3d2ff58532a26dde6e04c9986b297cfa07942445f925"
+        }
+      ],
+      "export_engine_rebuilt_or_certified": false
+    },
+    {
+      "asset": "reports:ppt_weekly_20260823/rap_slam_weekly_v2/rap_slam_weekly_v2.pptd",
+      "sha256": "cb6063c6bd359c312543774b413edcb5f3b297857450b0c8367dae10c5339d51",
+      "active_pages": [
+        "pages/01_cover.page",
+        "pages/02_idea.page",
+        "pages/03_novelty.page",
+        "pages/04_arena.page",
+        "pages/05_retrieval.page",
+        "pages/06_k00.page",
+        "pages/07_ghost.page",
+        "pages/08_sensors.page",
+        "pages/09_numbers.page",
+        "pages/10_selling.page",
+        "pages/11_plan.page",
+        "pages/12_next.page"
+      ],
+      "active_page_count": 12,
+      "unlisted_pages_retained": [],
+      "image_references": [
+        {
+          "page": "pages/01_cover.page",
+          "literal": "media/fig_hero_k00.png",
+          "exists": true,
+          "sha256": "15629cbe983d6f1d801065bd4590d0c8116a834ca0ee6425b452fae87f7ac7ca"
+        },
+        {
+          "page": "pages/03_novelty.page",
+          "literal": "media/fig_novelty.png",
+          "exists": true,
+          "sha256": "8c37d0acda3933b8c286c6e8f162b9be153e017e4a405dbcfacb353a4763e207"
+        },
+        {
+          "page": "pages/04_arena.page",
+          "literal": "media/fig_arena.png",
+          "exists": true,
+          "sha256": "241e685b11dc03d1926d8b644b58cea912cb7d2ff7451ef110489ffb3f1eb239"
+        },
+        {
+          "page": "pages/05_retrieval.page",
+          "literal": "media/fig_auc3.png",
+          "exists": true,
+          "sha256": "f45e291d3f419ba8aa9700645c8110bf533d3a02fa5f5635d0a2ad9e8a691baf"
+        },
+        {
+          "page": "pages/06_k00.page",
+          "literal": "media/fig_k00_loops.png",
+          "exists": true,
+          "sha256": "9b03fcef37ea6053eb7c6ce52d7bb8d5e01186fe6d82d21c703d28d5c89bd237"
+        },
+        {
+          "page": "pages/07_ghost.page",
+          "literal": "media/fig_poss_zoom.png",
+          "exists": true,
+          "sha256": "f10b40b8153917d86eabc40f34b65e4ea73d73cbe5800aa483b858461b59f60d"
+        },
+        {
+          "page": "pages/08_sensors.page",
+          "literal": "media/fig_sensors.png",
+          "exists": true,
+          "sha256": "da058a215069864c8660c5dea2157b593254d7e19f35ee5450373037a7058853"
+        }
+      ],
+      "export_engine_rebuilt_or_certified": false
+    }
+  ],
+  "data_and_figure_recomputation_allowed_by_default": false,
+  "link_targets_followed": false,
+  "final_A6_control_plane_and_new_copies_required_in_A7_increment": true
+}

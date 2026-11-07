@@ -1,0 +1,62 @@
+{
+  "torch": "2.7.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "rows": [
+    {
+      "incoming_policy": "highest",
+      "part": 0,
+      "orthogonality": 1.1211083075224337e-06,
+      "det_error": 9.08577601821392e-07,
+      "rotation_max_error": 4.923307354021134e-07,
+      "translation_max_error": 4.768371580921027e-08,
+      "rigidify_max_error": 1.9073486328125e-06
+    },
+    {
+      "incoming_policy": "highest",
+      "part": 1,
+      "orthogonality": 7.263926231626527e-07,
+      "det_error": 7.3445986148446e-07,
+      "rotation_max_error": 3.731214458513321e-07,
+      "translation_max_error": 2.3841857904605135e-08,
+      "rigidify_max_error": 1.9073486328125e-06
+    },
+    {
+      "incoming_policy": "high",
+      "part": 0,
+      "orthogonality": 1.1211083075224337e-06,
+      "det_error": 9.08577601821392e-07,
+      "rotation_max_error": 4.923307354021134e-07,
+      "translation_max_error": 4.768371580921027e-08,
+      "rigidify_max_error": 1.9073486328125e-06
+    },
+    {
+      "incoming_policy": "high",
+      "part": 1,
+      "orthogonality": 7.263926231626527e-07,
+      "det_error": 7.3445986148446e-07,
+      "rotation_max_error": 3.731214458513321e-07,
+      "translation_max_error": 2.3841857904605135e-08,
+      "rigidify_max_error": 1.9073486328125e-06
+    },
+    {
+      "incoming_policy": "medium",
+      "part": 0,
+      "orthogonality": 1.1211083075224337e-06,
+      "det_error": 9.08577601821392e-07,
+      "rotation_max_error": 4.923307354021134e-07,
+      "translation_max_error": 4.768371580921027e-08,
+      "rigidify_max_error": 1.9073486328125e-06
+    },
+    {
+      "incoming_policy": "medium",
+      "part": 1,
+      "orthogonality": 7.263926231626527e-07,
+      "det_error": 7.3445986148446e-07,
+      "rotation_max_error": 3.731214458513321e-07,
+      "translation_max_error": 2.3841857904605135e-08,
+      "rigidify_max_error": 1.9073486328125e-06
+    }
+  ],
+  "restoration_and_nested_exception": "passed",
+  "status": "passed"
+}

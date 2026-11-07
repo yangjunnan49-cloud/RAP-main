@@ -1,0 +1,9 @@
+# Next route — DESIGN_ONLY
+
+The congruent copied scene has a no-learning full-coordinate control at numerical zero pose error. Loss reduction or zero-head derivative activity versus a weak native initialization cannot identify a RAP-context contribution there. Do not crop/add noise/change thresholds/tune or extend this fixture automatically as an innovation test.
+
+Before any separate real residual study, inventory existing physical observations/source timestamps/calibration/descriptor provenance/exposure/evaluation roles and independent physical evidence. Preserve all official references/edges and09 unresolved cause. Require strong raw-observation geometry, direct-stat learning and separated/joint context controls with the same native pose/common statistics/active capacity/solver/exposure and measured total work; complete fixed sequences then reserved-session confirmation only if prospective gates pass. Existing KITTI roles are exposed, model pretraining/site exclusion unknown. Source feasibility may be audited read only before designing a concrete protocol; no new raw/feature/solver/learning/trajectory/protocol freeze executed here.
+
+FHR0 validates a6150-parameter unbounded zero linear head/right-body derivatives on frozen synthetic means, not output bounds or a later changed normalization/common-stat/nonlinearity. Every changed head needs its own derivatives and active-column accounting. Native fp16/FP32 backward failures remain.
+
+For storage, a future integrated writer must separately bound existing/source/log/stdout/metadata/nonexclusive writers and exact final whole-budget reconciliation. APL0 payload reservations and fast known-size sums are insufficient alone. LCP0/HFIT0 failures/partial files/markers stay; no exact packing/scientific retry or cap raise follows from this design.

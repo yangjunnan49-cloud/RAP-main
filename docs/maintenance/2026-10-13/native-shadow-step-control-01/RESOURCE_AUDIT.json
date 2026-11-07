@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "scientific_children": 3,
+  "combined_seconds": 60.04424225399271,
+  "peak_RSS_bytes": 2383319040,
+  "peak_GPU_allocated_bytes": 4052252672,
+  "peak_GPU_reserved_bytes": 4240441344,
+  "receipts": [
+    {
+      "stage": "freeze",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 9.473673154992866,
+        "peak_RSS_bytes": 24743936,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 203781,
+        "optimizer_API_calls": 0,
+        "optimizer_calls": 0,
+        "imports_included": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:59:36.1524401Z",
+        "wall_seconds": 11.753483,
+        "host_memory_observations": 15,
+        "minimum_observed_headroom_bytes": 93435162624.0
+      },
+      "launch": {
+        "pid": 33684,
+        "utc_start": "2026-10-13T01:59:24.3989571Z",
+        "script": "scripts/maintenance/native_shadow_step.py",
+        "stage": "freeze",
+        "headroom_before_bytes": 95096778752
+      }
+    },
+    {
+      "stage": "probe",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 32.43394485001045,
+        "peak_RSS_bytes": 2383319040,
+        "peak_GPU_allocated_bytes": 4052252672,
+        "peak_GPU_reserved_bytes": 4240441344,
+        "artifact_bytes": 58837696,
+        "optimizer_API_calls": 0,
+        "optimizer_calls": 0,
+        "imports_included": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T02:00:38.7874049Z",
+        "wall_seconds": 36.6150313,
+        "host_memory_observations": 47,
+        "minimum_observed_headroom_bytes": 85763444736.0
+      },
+      "launch": {
+        "pid": 4892,
+        "utc_start": "2026-10-13T02:00:02.1723736Z",
+        "script": "scripts/maintenance/native_shadow_step.py",
+        "stage": "probe",
+        "headroom_before_bytes": 93739524096
+      }
+    },
+    {
+      "stage": "validate",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 18.136624248989392,
+        "peak_RSS_bytes": 104128512,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 58854604,
+        "optimizer_API_calls": 0,
+        "optimizer_calls": 0,
+        "imports_included": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T02:01:25.8782775Z",
+        "wall_seconds": 21.0415231,
+        "host_memory_observations": 27,
+        "minimum_observed_headroom_bytes": 90555867136.0
+      },
+      "launch": {
+        "pid": 41460,
+        "utc_start": "2026-10-13T02:01:04.8367544Z",
+        "script": "scripts/maintenance/native_shadow_step.py",
+        "stage": "validate",
+        "headroom_before_bytes": 90609885184
+      }
+    }
+  ],
+  "imports_included": true,
+  "full_child_and_Windows_exits": true,
+  "logging_retries": 0,
+  "logging_gaps": 0,
+  "setup_RSS_unknown": true,
+  "bookkeeping_separate": true,
+  "old_caps_and_gaps_unchanged": true
+}

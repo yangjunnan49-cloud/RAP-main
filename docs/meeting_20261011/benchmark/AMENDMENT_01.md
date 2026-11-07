@@ -1,0 +1,5 @@
+# Administrative launch correction, before model execution
+
+The first child failed in runpy before entering the target pipeline: the wrapper treated the historical Python -B flag as the script path. Receipt confirms 24,559,616-byte RSS and zero GPU allocation; no target pipeline/model/scan work occurred. Original protocol, scripts, freeze, failure, ledger, INCOMPLETE and Windows receipts remain intact.
+
+Separate attempt02 removes only the already-present interpreter -B flag from the target payload (the wrapper interpreter still uses -B). Exact original target command, all settings, three repetitions per model/sequence, caps and metric rules remain unchanged. New output root attempt02 and new supervisor routing. The corrected effective orchestration source is frozen before launch. Original raw-input hash check is inherited through the original freeze digest, not described as a second raw-input replay. Old failed launch cost remains in combined accounting. No result selection or scientific repair.

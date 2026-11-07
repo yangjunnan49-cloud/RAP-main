@@ -1,0 +1,216 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "argument_identity",
+      "passed": true
+    },
+    {
+      "name": "return_identity",
+      "passed": true
+    },
+    {
+      "name": "input_bytes_unchanged",
+      "passed": true
+    },
+    {
+      "name": "exactly_one_underlying_call",
+      "passed": true
+    },
+    {
+      "name": "before_after_order",
+      "passed": true
+    },
+    {
+      "name": "original_exception_identity",
+      "passed": true
+    },
+    {
+      "name": "exception_call_not_retried",
+      "passed": true
+    },
+    {
+      "name": "exception_event_after_input",
+      "passed": true
+    },
+    {
+      "name": "natural_callee_mutation_matches_direct",
+      "passed": true
+    },
+    {
+      "name": "mutation_return_identity",
+      "passed": true
+    },
+    {
+      "name": "pre_mutation_snapshot_retained",
+      "passed": true
+    },
+    {
+      "name": "recording_failure_propagates",
+      "passed": true
+    },
+    {
+      "name": "failed_pre_capture_never_calls_callee",
+      "passed": true
+    },
+    {
+      "name": "call_count_tracks_real_calls",
+      "passed": true
+    },
+    {
+      "name": "equal_records_do_not_claim_complete_state",
+      "passed": true
+    }
+  ],
+  "events": {
+    "binding": {
+      "runtime": "stdlib-stub",
+      "source": "087ef9a050b5869d49597935ca8f8636d72a634fcc84d9bbdbe01a0fd8a3a6c9"
+    },
+    "events": [
+      {
+        "index": 0,
+        "previous": "ae13c9fe9f0c9077c4f9e4a165df949d66b6d13bfc83c4ec18760e8d54f025b4",
+        "event": {
+          "boundary": "map.integrate:before",
+          "components": {
+            "points": {
+              "byteorder": "little",
+              "dtype": "f4",
+              "nbytes": 24,
+              "order": "C",
+              "role": "prepared_input",
+              "sha256": "24ae2dfe8df57c1b80e54cef3d90ac3b417fd98973345a5f616bbc9a75dcc202",
+              "shape": [
+                2,
+                3
+              ]
+            }
+          },
+          "id": "0",
+          "state_coverage": "unobserved"
+        },
+        "seal": "574261666004832344b970292528d8f6f24cb08cdd048582baf4a2466a33ffe3"
+      },
+      {
+        "index": 1,
+        "previous": "574261666004832344b970292528d8f6f24cb08cdd048582baf4a2466a33ffe3",
+        "event": {
+          "boundary": "map.integrate:after",
+          "components": {
+            "return": {
+              "byteorder": "na",
+              "dtype": "u1",
+              "nbytes": 1,
+              "order": "C",
+              "role": "output",
+              "sha256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+              "shape": [
+                1
+              ]
+            }
+          },
+          "id": "1",
+          "state_coverage": "unobserved"
+        },
+        "seal": "c3f37ec88da21f3a508b0fe6c7cd03140a6af4128157cfc1f63546e3574fe30b"
+      },
+      {
+        "index": 2,
+        "previous": "c3f37ec88da21f3a508b0fe6c7cd03140a6af4128157cfc1f63546e3574fe30b",
+        "event": {
+          "boundary": "detector:before",
+          "components": {
+            "points": {
+              "byteorder": "little",
+              "dtype": "f4",
+              "nbytes": 24,
+              "order": "C",
+              "role": "prepared_input",
+              "sha256": "24ae2dfe8df57c1b80e54cef3d90ac3b417fd98973345a5f616bbc9a75dcc202",
+              "shape": [
+                2,
+                3
+              ]
+            }
+          },
+          "id": "2",
+          "state_coverage": "unobserved"
+        },
+        "seal": "b4ca94bd7b4bd226f17c8ccb312d4c5d9e397327228045abe6443c400d500730"
+      },
+      {
+        "index": 3,
+        "previous": "b4ca94bd7b4bd226f17c8ccb312d4c5d9e397327228045abe6443c400d500730",
+        "event": {
+          "boundary": "detector:exception",
+          "components": {
+            "exception": {
+              "byteorder": "na",
+              "dtype": "u1",
+              "nbytes": 34,
+              "order": "C",
+              "role": "output",
+              "sha256": "4ab4a6f029a602bfdc5f75b7fcaf77568563045393a911eddb4eb16fc0fff9ca",
+              "shape": [
+                34
+              ]
+            }
+          },
+          "id": "3",
+          "state_coverage": "unobserved"
+        },
+        "seal": "6861b4d7d72d0176e831c03266c785ca7976ef444b3f43bc15a49dfc276d7860"
+      },
+      {
+        "index": 4,
+        "previous": "6861b4d7d72d0176e831c03266c785ca7976ef444b3f43bc15a49dfc276d7860",
+        "event": {
+          "boundary": "natural_mutation:before",
+          "components": {
+            "points": {
+              "byteorder": "little",
+              "dtype": "f4",
+              "nbytes": 24,
+              "order": "C",
+              "role": "prepared_input",
+              "sha256": "24ae2dfe8df57c1b80e54cef3d90ac3b417fd98973345a5f616bbc9a75dcc202",
+              "shape": [
+                2,
+                3
+              ]
+            }
+          },
+          "id": "4",
+          "state_coverage": "unobserved"
+        },
+        "seal": "8e0f097210e2c3f328b5f6504b193ed0fcbfae283594d788c4a8988cd35bb800"
+      },
+      {
+        "index": 5,
+        "previous": "8e0f097210e2c3f328b5f6504b193ed0fcbfae283594d788c4a8988cd35bb800",
+        "event": {
+          "boundary": "natural_mutation:after",
+          "components": {
+            "changed": {
+              "byteorder": "little",
+              "dtype": "f4",
+              "nbytes": 24,
+              "order": "C",
+              "role": "output",
+              "sha256": "2d78a65f9e838cf1cd2a8ae3a30d976271dcb89fa0a1336a764df58cf51e9256",
+              "shape": [
+                2,
+                3
+              ]
+            }
+          },
+          "id": "5",
+          "state_coverage": "unobserved"
+        },
+        "seal": "3ef01c36838b86321a7c4ea618b94d96f25c20921ef589fb392ecf231b396dc9"
+      }
+    ],
+    "final_seal": "3ef01c36838b86321a7c4ea618b94d96f25c20921ef589fb392ecf231b396dc9"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-22T01:53:03.9372505+00:00",
+  "method": "Restart-Service WslService without Force",
+  "is_admin": true,
+  "before": {
+    "Name": "WSLService",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 6060
+  },
+  "after": {
+    "Name": "WSLService",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 9460
+  },
+  "startup_mode_unchanged": true,
+  "passed": true
+}

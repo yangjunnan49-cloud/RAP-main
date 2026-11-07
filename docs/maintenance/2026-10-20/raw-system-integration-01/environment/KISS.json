@@ -1,0 +1,67 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "executable": "/root/venvs/kiss-slam-hc1/bin/python",
+  "kiss_icp_version": "1.3.0",
+  "root": "/root/venvs/kiss-slam-hc1/lib/python3.12/site-packages/kiss_icp",
+  "files": {
+    "pipeline.py": "ddfd64639bec712c0c1c61ff64cb2150d545d6c3c5d52a426df14fd9d15ca720",
+    "mapping.py": "c6523a070e68fb43f2a4e7c2e0f0bc4c9390064c10e5ed555ca40021918840e2",
+    "threshold.py": "25d6c12e4dc130f25c7a288736428cd900e6bf8eaa6312940a57230b59c1724a",
+    "preprocess.py": "9b3ac86df2183967689981b05bd78303df8a32e20c6212a190c657fc86f66131",
+    "voxelization.py": "69e43286bbca4c452483e6f91ba1b5dcc17dc01886c2e3ac292ba710bc12c790",
+    "metrics.py": "607449e7b9952b1846cb22cf18e96c97e0bbf7a4b66b3668b373591b1316fe7e",
+    "__init__.py": "e4b6089fcf7add31765b5907694a36008786fd7b543c1d4a1feed9cfd1d8a1f4",
+    "registration.py": "1b6c4cb1d18c90bceda8b8de8cbc44621e323d2c6532e1834f49aed77f47f830",
+    "kiss_icp.py": "e7db6f58e1eac8ff0029b246e01820c8762b1035114f3f4ff3481bbcfc2e2586",
+    "config/__init__.py": "e4b1f93b2bac1835d07aa28a20cc796594b4eda8fbcf0f10b40eb51b8b8884b3",
+    "config/parser.py": "967465c5f6119d1b83a7a3a133d6903c333c80baa7285c672ac3a42b9c02fb13",
+    "config/config.py": "706a37c754d945320a696f209479783ef8d3a5e7e7edea4dd162f382c4e8df82",
+    "datasets/rosbag.py": "299e717a28449be44edaadca4810588b1de298760e779f1f28ebf5cc740e8544",
+    "datasets/generic.py": "9893977558637938f5ad0917bca5625484c97a2623e191ccef0ceb99c5217ce5",
+    "datasets/apollo.py": "2732567e51c75143c05e3f21c458e5da273d558aa25fa075b4729a4209b32d33",
+    "datasets/mulran.py": "b3052d1ac663570aacbf9b1a5d391aa9312ac351acd808007198b53e541689d0",
+    "datasets/tum.py": "54184ed808e63c52104173599f5d5cd762be290513fc527056e0a1374f24b7cd",
+    "datasets/helipr.py": "488771ba7c3a2f45584c571040715ea8b46a89699f42e5bd81e047b1701c6911",
+    "datasets/kitti_raw.py": "55024150514e4df528c6a3cf67a84d0e374ea62b2a593d1015a00e9768edf02c",
+    "datasets/boreas.py": "07f4b3592dcd37016647b68eb8ebaa254d1897219787f691bd46c3fa5f040ebc",
+    "datasets/nuscenes.py": "e6d89d23bd11d4d085f254893edff36bbacd51c6c96329f727e24d295d909ffb",
+    "datasets/__init__.py": "6320434884a73eb5de7e05923c2c47ec8f9d749461cd074c184cf6de23130c2c",
+    "datasets/ouster.py": "7895a70f8a9f6c50e0f61827ee809a43570004fa10069ce52427ab9d91f97674",
+    "datasets/kitti.py": "c529492c08b28b779768ff6f020872505e2787886c16cb11fe7faa89ff334dac",
+    "datasets/nclt.py": "eafdea31607a5f2cea5991a856d8f8ec415020df4973ef15acb20a27ee511a20",
+    "datasets/mcap.py": "b55989ff647edfbd530140a8d5ae589860242dbfc03730ef7ce73555292e605d",
+    "datasets/ncd.py": "53486eb7641978d3a89389dbd255cc8e75e9e78a9001285c938f3bee26d96e10",
+    "pybind/kiss_icp_pybind.cpython-312-x86_64-linux-gnu.so": "fca29ee564b8e1523e0659bbc3fe9a04525fc8ad62bdc31d179435f4270815db",
+    "tools/cmd.py": "b499d76332fd26fefd865736e49df6ea3e2c7567e993e239c79c870cfca3f894",
+    "tools/pipeline_results.py": "d09b725d20d3b934463359b1233f77645558ac1b08c1a16ae4f78106edc4295b",
+    "tools/point_cloud2.py": "8daa00e57585f28f277a8be3965079823503bae793c854ed4724317c24760d36",
+    "tools/progress_bar.py": "82cab4d18599af0abb89494f42c2660b3e8e2ff3f91f2ede2a35db2bfecaa4df",
+    "tools/__init__.py": "db816990bf3c5c8965a517971566f9be535e8e215a71e52fc83adf32c0460c9c",
+    "tools/visualizer.py": "b5129b75ec08c10abbe8cd4a0a5d9dd31dc9564a0cfeda0b135aa946aa44e54e"
+  },
+  "frontend_config": {
+    "out_dir": "results",
+    "data": {
+      "max_range": 80.0,
+      "min_range": 1.5,
+      "deskew": false
+    },
+    "registration": {
+      "max_num_iterations": 500,
+      "convergence_criterion": 0.0001,
+      "max_num_threads": 0
+    },
+    "mapping": {
+      "voxel_size": 0.8,
+      "max_points_per_voxel": 20
+    },
+    "adaptive_threshold": {
+      "fixed_threshold": null,
+      "initial_threshold": 2.0,
+      "min_motion_th": 0.1
+    }
+  },
+  "raw_scans_read": 0,
+  "odometry_registration_calls": 0,
+  "self_peak_RSS_bytes": 50147328
+}

@@ -1,0 +1,134 @@
+{
+  "utc": "2026-10-08T02:19:42.374417+00:00",
+  "passed": true,
+  "decision": "VALIDATED_PREREQUISITE_STOP_INSUFFICIENT_WEAK_LABEL_COVERAGE",
+  "partial_real_windows": 3,
+  "unprocessed_real_windows": [
+    "07_000200"
+  ],
+  "rows": [
+    {
+      "seq": "00",
+      "t": 200,
+      "counts": {
+        "01": {
+          "positive": 92,
+          "unmatched": 199,
+          "ignored": 709
+        },
+        "02": {
+          "positive": 92,
+          "unmatched": 228,
+          "ignored": 680
+        },
+        "10": {
+          "positive": 92,
+          "unmatched": 207,
+          "ignored": 701
+        },
+        "12": {
+          "positive": 67,
+          "unmatched": 243,
+          "ignored": 690
+        },
+        "20": {
+          "positive": 99,
+          "unmatched": 222,
+          "ignored": 679
+        },
+        "21": {
+          "positive": 73,
+          "unmatched": 193,
+          "ignored": 734
+        }
+      },
+      "coverage_gate": true
+    },
+    {
+      "seq": "05",
+      "t": 200,
+      "counts": {
+        "01": {
+          "positive": 86,
+          "unmatched": 256,
+          "ignored": 658
+        },
+        "02": {
+          "positive": 74,
+          "unmatched": 218,
+          "ignored": 708
+        },
+        "10": {
+          "positive": 90,
+          "unmatched": 202,
+          "ignored": 708
+        },
+        "12": {
+          "positive": 79,
+          "unmatched": 192,
+          "ignored": 729
+        },
+        "20": {
+          "positive": 72,
+          "unmatched": 205,
+          "ignored": 723
+        },
+        "21": {
+          "positive": 77,
+          "unmatched": 240,
+          "ignored": 683
+        }
+      },
+      "coverage_gate": true
+    },
+    {
+      "seq": "06",
+      "t": 200,
+      "counts": {
+        "01": {
+          "positive": 23,
+          "unmatched": 208,
+          "ignored": 769
+        },
+        "02": {
+          "positive": 15,
+          "unmatched": 170,
+          "ignored": 815
+        },
+        "10": {
+          "positive": 20,
+          "unmatched": 167,
+          "ignored": 813
+        },
+        "12": {
+          "positive": 23,
+          "unmatched": 173,
+          "ignored": 804
+        },
+        "20": {
+          "positive": 15,
+          "unmatched": 163,
+          "ignored": 822
+        },
+        "21": {
+          "positive": 31,
+          "unmatched": 208,
+          "ignored": 761
+        }
+      },
+      "coverage_gate": false
+    }
+  ],
+  "synthetic_npzs": 11,
+  "maximum_label_and_truth_delta": 2.2737367544323206e-13,
+  "maximum_horn_solver_delta": 4.163336342344337e-16,
+  "maximum_selected_finite_difference_gradient_delta": 4.6027300026896256e-11,
+  "original_weak_bank_complete": false,
+  "original_weak_stage_validated": false,
+  "no_fit_or_accuracy_conclusion": true,
+  "training_updates": 0,
+  "wall_s": 5.096559428144246,
+  "rss_gib": 0.513214111328125,
+  "gpu_gib": 0.0,
+  "artifact_bytes": 207968013
+}

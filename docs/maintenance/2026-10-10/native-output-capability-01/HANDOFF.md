@@ -1,0 +1,3 @@
+# NOC0 handoff
+
+VALIDATED_CAPABILITY_DIAGNOSTIC_COMPLETE_WITH_NUMERICAL_REPAIR; TINY_NATIVE_SAMPLER_CAPABILITY_PRESENT. Read REPORT/PROTOCOL/OWNER_SCOPE/AMENDMENT_01/02/NEXT_ROUND_PLAN/STATUS/CHECKS/RESOURCE_AUDIT/REPOSITORY_STATE/DELIVERY_SEAL/NOISE_PROVENANCE_NOTE. Original92-entry freeze/partialbank/failure/ledger/INCOMPLETE and separate zero-update gradient diagnosis retained; validated102-entry attempt-02 freeze/bank/seals/combinedledger and separate8-entry validation-attempt-02 freeze/results/seal. Original0 updates, combined1600 actual fitting updates; realwindows1. No transfer/trajectory/system claim. Source/input identities and numerical/scientific distinctions are documented. No new experiment is selected/frozen by this handoff.

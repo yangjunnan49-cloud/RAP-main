@@ -1,0 +1,190 @@
+{
+  "scope": "Distinct independent validation; no old budget reset",
+  "snapshot_utc": "2026-10-21T07:14:35.7703984+00:00",
+  "whole_scope_max_elapsed_seconds": 952.6923438,
+  "cap_seconds": 1200,
+  "budget_compliant_at_close": true,
+  "all_prep_failures_documentary_costs_in_elapsed": true,
+  "global_wall_and_monotonic_not_nested_stage_sum": true,
+  "later_check_and_seal_writes_additional": true,
+  "original_P0_budget_compliant": false,
+  "original_P0_completed_scientific_preparatory_seconds": 9316.8147729,
+  "original_S1_closed_seconds": 6762.0941485,
+  "old_sources_and_failures_preserved": true,
+  "original_dossier_bytes": 140458966.0,
+  "all_new_work_output_and_repository_copy_bytes": 41103636.0,
+  "combined_dossier_bytes": 181562602.0,
+  "dossier_cap_bytes": 268435456,
+  "stages": [
+    {
+      "stage": "assess",
+      "host_exit.json": {
+        "stop_reason": "",
+        "expected_probe_stop": false,
+        "host_wall_seconds": 113.5544109,
+        "host_monotonic_seconds": 113.5555507,
+        "global_elapsed": 590.7951519,
+        "exit_code": 0
+      },
+      "process_exit.json": {
+        "success": true,
+        "error": null,
+        "wall_seconds": 106.22955175199604,
+        "peak_RSS_bytes": 99209216,
+        "utc": "2026-10-21T15:08:35.076172+08:00"
+      },
+      "host_launch.json": {
+        "global_elapsed": 477.2388911,
+        "pid": 35968,
+        "headroom_bytes": 87623311360,
+        "utc": "2026-10-21T15:06:40.1904215+08:00"
+      }
+    },
+    {
+      "stage": "audit_bindings",
+      "host_exit.json": {
+        "stop_reason": "",
+        "host_wall_seconds": 14.6047538,
+        "exit_code": 1,
+        "host_monotonic_seconds": 14.6055127,
+        "expected_probe_stop": false,
+        "global_elapsed": 328.6420446
+      },
+      "process_exit.json": {
+        "success": false,
+        "error": "SystemExit(1)",
+        "wall_seconds": 13.119285762993968,
+        "peak_RSS_bytes": 44965888,
+        "utc": "2026-10-21T15:04:11.140437+08:00"
+      },
+      "host_launch.json": {
+        "headroom_bytes": 84281987072,
+        "pid": 47356,
+        "global_elapsed": 314.0360282,
+        "utc": "2026-10-21T15:03:56.9875494+08:00"
+      }
+    },
+    {
+      "stage": "audit_bindings02",
+      "process_exit.json": {
+        "success": true,
+        "error": null,
+        "wall_seconds": 44.98991686399677,
+        "peak_RSS_bytes": 54136832,
+        "utc": "2026-10-21T15:05:57.616337+08:00"
+      },
+      "host_launch.json": {
+        "utc": "2026-10-21T15:05:06.6578722+08:00",
+        "headroom_bytes": 83521617920,
+        "pid": 38472,
+        "global_elapsed": 383.7063509
+      }
+    },
+    {
+      "stage": "deliver",
+      "host_exit.json": {
+        "global_elapsed": 674.7146269,
+        "expected_probe_stop": false,
+        "stop_reason": "",
+        "exit_code": 0,
+        "host_wall_seconds": 50.5861175,
+        "host_monotonic_seconds": 50.5872776
+      },
+      "process_exit.json": {
+        "success": true,
+        "error": null,
+        "wall_seconds": 45.29901198500011,
+        "peak_RSS_bytes": 76668928,
+        "utc": "2026-10-21T15:09:58.252369+08:00"
+      },
+      "host_launch.json": {
+        "headroom_bytes": 87421517824,
+        "utc": "2026-10-21T15:09:07.0781538+08:00",
+        "global_elapsed": 624.126641,
+        "pid": 30464
+      }
+    },
+    {
+      "stage": "diagnostic",
+      "host_exit.json": {
+        "host_wall_seconds": 14.5739661,
+        "host_monotonic_seconds": 14.5750224,
+        "expected_probe_stop": false,
+        "stop_reason": "",
+        "global_elapsed": 729.4897679,
+        "exit_code": 0
+      },
+      "process_exit.json": {
+        "success": true,
+        "error": null,
+        "wall_seconds": 10.384543968000798,
+        "peak_RSS_bytes": 43700224,
+        "utc": "2026-10-21T15:10:53.963816+08:00"
+      },
+      "host_launch.json": {
+        "headroom_bytes": 82206093312,
+        "global_elapsed": 714.9140529,
+        "pid": 6048,
+        "utc": "2026-10-21T15:10:37.8655212+08:00"
+      }
+    },
+    {
+      "stage": "probe",
+      "host_exit.json": {
+        "exit_code": 1,
+        "stop_reason": "",
+        "global_elapsed": 258.8128011,
+        "host_wall_seconds": 1.7179596,
+        "host_monotonic_seconds": 1.7180829,
+        "expected_probe_stop": false
+      },
+      "host_launch.json": {
+        "utc": "2026-10-21T15:03:00.0453668+08:00",
+        "pid": 29076,
+        "global_elapsed": 257.09389,
+        "headroom_bytes": 85016719360
+      }
+    },
+    {
+      "stage": "probe02",
+      "host_exit.json": {
+        "host_wall_seconds": 2.2478664,
+        "global_elapsed": 282.1889164,
+        "host_monotonic_seconds": 2.2487886,
+        "exit_code": 15,
+        "stop_reason": "deadline",
+        "expected_probe_stop": true
+      },
+      "host_launch.json": {
+        "pid": 3504,
+        "utc": "2026-10-21T15:03:22.8911603+08:00",
+        "global_elapsed": 279.9396311,
+        "headroom_bytes": 84867006464
+      }
+    },
+    {
+      "stage": "synthetic",
+      "host_exit.json": {
+        "stop_reason": "",
+        "global_elapsed": 304.2653434,
+        "expected_probe_stop": false,
+        "host_monotonic_seconds": 4.2127242,
+        "host_wall_seconds": 4.2120258,
+        "exit_code": 0
+      },
+      "process_exit.json": {
+        "success": true,
+        "error": null,
+        "wall_seconds": 1.914168012997834,
+        "peak_RSS_bytes": 72384512,
+        "utc": "2026-10-21T15:03:48.53323+08:00"
+      },
+      "host_launch.json": {
+        "pid": 54912,
+        "headroom_bytes": 83832688640,
+        "global_elapsed": 300.0522289,
+        "utc": "2026-10-21T15:03:43.0037644+08:00"
+      }
+    }
+  ]
+}

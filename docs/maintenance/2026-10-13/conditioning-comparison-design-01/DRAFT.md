@@ -1,0 +1,31 @@
+# Next conditioning comparison — DESIGN_ONLY, not an executable protocol
+
+This design follows six completed numerical stages and the sealed continuation handoff. No new protocol freeze, numerical run, retained update, fitted model, feature extraction or sampler execution accompanies it. It does not change any historical gate, budget or failure. The owner continuation allows planning, but the concrete prospective experiment must still be internally complete and frozen before payload.
+
+## What the first-order witness does and does not establish
+
+In SFC0, rho=min(.001,.001*L/G), direction g/G. The cap was inactive in all four recorded probes. Algebraically, the uncapped negative step is -.001*L*g/G² and predicts a.1% loss reduction at first order. Multiplying the entire scalar loss by a positive constant leaves this step unchanged; changing parameterization or the relative translation/rotation/nonrigidity weights does not. This is an ordinary normalized first-order numerical control, not a RAP contribution. It controls one local move and gives no convergence-rate, stochastic robustness, optimality or real-metric guarantee.
+
+The sampled directions and symmetric step witnesses concern the fixed-prefix double function. Original native fp16 and whole-float32 functions retain failed checks. DTC0 changes tail arithmetic, frozen-prefix precision, final casting and endpoint arithmetic; it cannot uniquely identify which change explains every historical NOC4 failure. SFC0 also changes step family from old AdamW. Do not attribute the old loss increase uniquely to its rate, kernel, cache, units or clipping. The old actual optimizer calls and losses remain unchanged evidence.
+
+443904 is the nominal trainable parameter count. The source-proven LowRank output is base(x)+B(Ax); at the preserved initialization B=0, so the instantaneous derivative with respect to A is structurally zero. A direction cannot test its nonzero influence until B changes. Future equal-active-capacity claims must account for this, rather than adding unused parameters or relying on the nominal total. Today's two sampled groups cover final_mlp and B, with A inactive by construction; they do not establish every post-update derivative.
+
+## Minimum distinct retained-update feasibility study
+
+The first prospective question should remain whether a small fixed number of actual retained updates can be audited in a clearly defined shadow function. A small bounded pilot, for example20 updates per unchanged V/P arm, is a draft scale, not authorization or a frozen iteration count. Keep the original promoted initialization/capacity and fixed exposure, one predeclared normalized policy with no line search, seed/rate/threshold adjustment or optimistic stopping. Preserve every attempted trace and account for actual update counts, not just optimizer object calls. The same number of updates does not ensure the same wall time or total pipeline work; both must be measured.
+
+Before retained updates, derive all group derivatives for the exact new function, including the previously inactive A directions once a transient B perturbation activates them. Include source-bound chain-rule and finite-difference checks, byteexact restored probes and equal active-capacity controls. Keep known NOC3 rigid feasibility as historical numerical context, not a newly replayed baseline or physical claim. If the pilot cannot pass its prospective derivative/descent/replay conditions, stop dependent fit/evaluation; do not rescue it by changing step sizes or precision after observing results.
+
+The fit comparison must separate velocity-target fitting from pose-objective fitting and report both objectives for all arms. Their absolute loss units differ. A pose-objective reduction can exchange translation, rotation and shape terms, so inspect the complete fixed per-part motion gates and safeguards. A fractional reduction in the training loss is not a material pose, ATE or ter improvement. Original fixture/descriptors are exposed synthetic controls, not independent physical scenes.
+
+## Sampler and heldout prerequisites must be explicit first
+
+DTC0/SFC0 use one fixed tau1 prefix. A future actual five-step sampler needs source-proven prefixes for every original tau1/.8/.6/.4/.2 and fresh noise/state. Define the precision of its carried state, every prefix input cast, fixed and trainable blocks, endpoint subtraction and final point output. A double velocity combined with a float32 prefix requires an explicit state-casting rule; silently inheriting a native helper changes the function or can create dtype mismatches. Bind the exact extraction and all sampler equations, including CPU reconstruction, before fitting. No five-step shadow sampler has been implemented or run here.
+
+Retain all original paired fit/eval noise identities and label exposure accurately; the older generated arrays are not newly drawn noise. Freeze any new prospective allocation before gradients and evaluation. Seal complete paired student/unadapted predictions before reference errors, with no target/cache in arm/noise selection or pose ensemble. Report full conjunction/per-cell means/tails and all failed cells, not best seeds, iterations or conditions. Any original-noise or heldout-stage gate changes require a distinct design, not an amendment to the negative NOC1/NOC4 results.
+
+## Separate numerical feasibility from the project's metric route
+
+Even a future positive shadow fit would only establish a bounded numerical capability. CCR0 still has no safe causal-context headroom; scan-graph/GICP families remain negative and09 physical cause unknown. Useful metric work must show incremental RAP value versus strong equal-work geometry with equal active capacity, untouched official references/edges and full trajectories. It cannot inherit an admission from a synthetic optimizer control, delete difficult09 edges, replace the reference or re-open the retired radius/history/selector/allocation family.
+
+No production/backend/default recommendation follows. Preserve original repository identities, historical INCOMPLETE markers, all seals/resource gaps/physical and provenance unknowns. No acquisition/install/process restart/commit/Git sync. This draft deliberately ends at a design boundary; it is not a claim that a fitting or sampler prerequisite has passed.

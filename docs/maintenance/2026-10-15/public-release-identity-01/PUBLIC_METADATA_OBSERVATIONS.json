@@ -1,0 +1,54 @@
+{
+  "observed_client_date": "2026-10-15",
+  "method": "web tool public HTML/source metadata observations; no remote binary hashing",
+  "official_code_README": "https://raw.githubusercontent.com/PRBonn/RAP/main/README.md",
+  "official_download_script": "https://raw.githubusercontent.com/PRBonn/RAP/main/scripts/download_weights_and_demo_data.sh",
+  "official_README_links_model_repository": "https://huggingface.co/YuePanEdward/RAP",
+  "model_card_links_official_code": "https://github.com/PRBonn/RAP",
+  "public_tree": "https://huggingface.co/YuePanEdward/RAP/tree/main",
+  "visible_tree_revision": "850725d21ebf16932708d33306c3ce3dfcb34ddf",
+  "files": [
+    {
+      "name": "rap_model_10.ckpt",
+      "blob_url": "https://huggingface.co/YuePanEdward/RAP/blob/main/rap_model_10.ckpt",
+      "SHA256": "432ab2f4f9c0e22d2420e0de994b9179334001e954ebcae9ff05d41503c2ee7a",
+      "xet_hash": "ef22287ed52e3996ceefac76a706e159a8a2f27e7360ec051d3ac08ff0202ee8",
+      "visible_file_revision": "7b5108beed453f8cf1213bb1aa46a544ea67c60c",
+      "display_size": "327 MB",
+      "web_crawl_label": "last month"
+    },
+    {
+      "name": "rap_model_12.ckpt",
+      "blob_url": "https://huggingface.co/YuePanEdward/RAP/blob/main/rap_model_12.ckpt",
+      "SHA256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200",
+      "xet_hash": "9fce967fdf441bc40e004fc2573af670129631911753ff1a5aaa08ea7264d577",
+      "visible_file_revision": "7b5108beed453f8cf1213bb1aa46a544ea67c60c",
+      "display_size": "356 MB",
+      "web_crawl_label": "last month"
+    },
+    {
+      "name": "mini_spinnet_t.pth",
+      "blob_url": "https://huggingface.co/YuePanEdward/RAP/blob/main/mini_spinnet_t.pth",
+      "SHA256": "daf910b6e2a79c4346a6ef8eeb18b56ffc15b552cc82af091b8b6c0a18116eef",
+      "xet_hash": "425c4ebecb802f3f012fd18d378eba106d3851cc8b84c0357f73da777caf7fd9",
+      "visible_file_revision_short": "41b1d3d",
+      "display_size": "3.67 MB",
+      "web_crawl_label": "last month"
+    }
+  ],
+  "remote_extra_not_local_or_acquired": ["rap_model_10_ns.ckpt"],
+  "failed_metadata_lookups": [
+    "https://huggingface.co/api/models/YuePanEdward/RAP?blobs=true",
+    "https://huggingface.co/YuePanEdward/RAP/raw/main/README.md",
+    "https://huggingface.co/YuePanEdward/RAP/raw/main/rap_model_12.ckpt",
+    "https://huggingface.co/YuePanEdward/RAP/raw/main/rap_model_10.ckpt",
+    "https://huggingface.co/YuePanEdward/RAP/raw/main/mini_spinnet_t.pth",
+    "https://huggingface.co/YuePanEdward/RAP/commit/7b5108beed453f8cf1213bb1aa46a544ea67c60c",
+    "https://api.github.com/repos/PRBonn/RAP/commits?per_page=5"
+  ],
+  "failed_fetch_does_not_establish_server_absence": true,
+  "remote_weight_or_dataset_payload_acquired": false,
+  "public_RegX_viewer_preview_labels_seen_during_documentation_lookup": true,
+  "preview_not_evaluated_or_admitted_as_untouched_confirmation": true,
+  "training_membership_authenticated": false
+}

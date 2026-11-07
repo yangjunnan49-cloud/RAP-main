@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-09",
+  "comparison": "Original RLP2 repository state",
+  "main": {
+    "head": "4055d929c594b0033aafc6eed339c910369eef55",
+    "branch": "codex/meeting-20260930",
+    "tracked_status": [
+      " M .gitignore",
+      " M AGENTS.md"
+    ],
+    "tracked_dirty": 2
+  },
+  "slam": {
+    "head": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6",
+    "branch": "codex/e0-f1-20260926",
+    "tracked_status": [
+      " M rap_slam/loop_closure.py",
+      " M rap_slam/odometry.py",
+      " M rap_slam/pose_graph.py",
+      " M rap_slam/rap_backend.py",
+      " M rap_slam/real_dataset.py",
+      " M scripts/build_s1_features.py",
+      " M scripts/eval_map_consistency.py",
+      " M scripts/eval_paper_metrics.py",
+      " M scripts/run_pipeline.py"
+    ],
+    "tracked_dirty": 9
+  },
+  "original_heads_branches_tracked_dirty_path_sets_preserved": true,
+  "limitation": "Dirty-path comparison does not prove unrelated dirty-file contents byte-exact; eight selected scientific sources are separately hash-bound. AGENTS is an intentionally updated mutable handoff."
+}

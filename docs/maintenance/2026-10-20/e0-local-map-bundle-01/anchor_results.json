@@ -1,0 +1,78 @@
+{
+  "utc": "2026-10-20T07:11:32.324971+00:00",
+  "gt_read_started_utc": "2026-10-20T07:11:31.146721+00:00",
+  "corrected_seal_sha256": "255957cbda4ba03dc0da5608196d3b5ef129c1bca312a7c4d2566192b71f5e3b",
+  "rows": {
+    "00": {
+      "B": {
+        "ate": 2.75443697048038,
+        "ter": 0.5181706832197097,
+        "rer": 0.17831248629220586,
+        "segments": 3283
+      },
+      "M": {
+        "ate": 0.8878385828574095,
+        "ter": 0.5710537981113325,
+        "rer": 0.15286872970330814,
+        "segments": 3283
+      },
+      "G": {
+        "ate": 0.8873676884555434,
+        "ter": 0.5736569060638242,
+        "rer": 0.1514175634862264,
+        "segments": 3283
+      }
+    },
+    "05": {
+      "B": {
+        "ate": 1.2946993616897344,
+        "ter": 0.32047302426589774,
+        "rer": 0.1209507417471909,
+        "segments": 1806
+      },
+      "M": {
+        "ate": 0.3590702698474394,
+        "ter": 0.32251146856377394,
+        "rer": 0.1061172364560248,
+        "segments": 1806
+      },
+      "G": {
+        "ate": 0.3594190803431793,
+        "ter": 0.3210784414131922,
+        "rer": 0.10456449978492444,
+        "segments": 1806
+      }
+    }
+  },
+  "original_strict_gate_against_B": {
+    "means": {
+      "B": {
+        "ate": 2.024568166085057,
+        "ter": 0.41932185374280373,
+        "rer": 0.14963161401969838
+      },
+      "M": {
+        "ate": 0.6233933843993613,
+        "ter": 0.4473676737385082,
+        "rer": 0.1279910316355754
+      }
+    },
+    "tests": {
+      "mean_ATE_gain5pct": true,
+      "mean_ter_nonworse": false,
+      "mean_rer_nonworse": true,
+      "00_ATE_improves": true,
+      "00_ATE_harm5pct": true,
+      "00_ter_harm": false,
+      "00_rer_harm": true,
+      "05_ATE_improves": true,
+      "05_ATE_harm5pct": true,
+      "05_ter_harm": true,
+      "05_rer_harm": true
+    },
+    "passed": false
+  },
+  "independent_validation_passed": true,
+  "independent_segment_records": 5089,
+  "independent_metric_max_delta": 4.693467836602849e-14
+}

@@ -1,0 +1,9 @@
+# IA1 metadata admission PASS
+
+Owner-provided archive C:/Users/AAA/Downloads/data_odometry_gray.zip is23166524501bytes, streamed SHA25694963792b9c48e37191583ba44608304713ae018a38735133f1435665f3ada12. Complete87215-entry central directory contains all273 exact requested camera0 members,71725068 declared bytes, no missing/duplicate/unsafe names. All22 sequences have image0/image1;44 calibration/time candidates are named but not read in this phase. The exact required273 are retained; no support/outcome-based selection.
+
+Initial unprivileged supervisor failed its CIM resource query before starting any content worker. The failure and prospective environment-only access correction are in ENVIRONMENT_ACCESS_RECORD.json. Under approved read-only host access the unchanged sole content worker completes17.765999999945052s, host19.3120685s, observed peak95195136bytes. Fresh host headroom87085318144bytes/query1.0846577s passes12GiB/2s. Original03:33:10UTC scope origin and all limits retained; no content retry or budget replenishment. Exit0 and child reaped.
+
+Archive stat is unchanged across the complete hash/index read. Required member identities/CRC declarations are bound in MEMBERS.json; no decompression, CRC verification, PNG header/pixel decode or calibration/time/reference numeric value read occurred. The archive hash is a local byte identity, not an independently published provider checksum or retroactive certification of old LiDAR acquisition.
+
+Next separately bounded task: extract the complete273 unchanged PNG members only, verify CRC/chunk structure/full decoding and per-frame dimensions, and compare00/08 calibration/time records with the existing local role. Preserve failure without crop/offset/pose rescue. No model/fit/solver/new pose metric, WSL, install, production/default/Git/outreach action.

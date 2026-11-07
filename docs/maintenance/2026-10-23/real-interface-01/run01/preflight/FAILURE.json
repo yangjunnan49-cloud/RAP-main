@@ -1,0 +1,13 @@
+{
+  "error": "AssertionError('GPU free memory admission')",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-23/real-interface-01/runtime/worker.py\", line 152, in <module>\n    bindings=validate_bindings();gpu=gpu_metadata();write('GPU_ADMISSION.json',gpu)\n  File \"/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-23/real-interface-01/runtime/worker.py\", line 39, in gpu_metadata\n    assert int(rows[1])>=9216,'GPU free memory admission'\nAssertionError: GPU free memory admission\n",
+  "counters": {
+    "point_occurrences_decoded": 0,
+    "model_constructor_attempts": 0,
+    "model_constructor_completed": false,
+    "RAP_calls_attempted": 0,
+    "RAP_calls_completed": 0,
+    "ICP_calls_completed": 0,
+    "private_reference_reads": 0
+  }
+}

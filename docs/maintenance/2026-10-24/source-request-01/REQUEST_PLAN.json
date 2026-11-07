@@ -1,0 +1,32 @@
+{
+  "status": "PREPARED_AWAITING_EXPLICIT_OWNER_AUTHORIZATION",
+  "object": {
+    "method": "GET",
+    "url": "https://npm3d.fr/parisluco3d",
+    "purpose": "Read upstream dataset acquisition/reference description and identify original records"
+  },
+  "allowed_hosts": [
+    "npm3d.fr",
+    "www.npm3d.fr"
+  ],
+  "HTTPS_only": true,
+  "max_requests": 4,
+  "max_redirects": 3,
+  "cumulative_delivered_body_cap_bytes": 262144,
+  "whole_attempt_seconds": 120,
+  "network_worker_deadline_seconds": 60,
+  "output_dossier_cap_bytes": 2097152,
+  "worker_RSS_cap_bytes": 134217728,
+  "original_fresh_host_commit_guard_bytes": 12884901888,
+  "host_guard_max_age_seconds": 2,
+  "follow_links": false,
+  "PDF_or_archive_or_raw_or_pose_or_weight_or_script_acquisition": false,
+  "retries": false,
+  "credentials_or_cookies": false,
+  "install_or_outreach": false,
+  "EOF_and_identity_encoding_required_for_admission": true,
+  "request_and_every_response_header_body_prefix_and_failure_receipt_retained": true,
+  "body_budget_is_application_delivered_bytes_not_TLS_wire_or_internal_buffers": true,
+  "no_automatic_inference_or_efficacy_admission": true,
+  "separate_prospective_scope_required_after_authorization": true
+}

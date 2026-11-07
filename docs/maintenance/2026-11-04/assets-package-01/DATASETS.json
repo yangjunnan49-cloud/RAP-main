@@ -1,0 +1,1951 @@
+{
+  "odometry_format_collections": [
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:00",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "00",
+      "observed_cloud_files": 4541,
+      "cloud_bytes": 8827275200,
+      "first_frame_id": 0,
+      "last_frame_id": 4540,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          4540
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1622192,
+        2050336
+      ],
+      "pose_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/poses/00.txt",
+        "sha256": "90791a4113df979b149fa9e1104e960ea59f525a8318a202dbb6aec1a3d88793",
+        "nonempty_lines": 4541,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/00/times.txt",
+        "sha256": "99a2899466cdc28dd292b4856d214a8b0aab035b91b02bb6afcb4ff363e7d421",
+        "nonempty_lines": 4541,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/00/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": true,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:01",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "01",
+      "observed_cloud_files": 1101,
+      "cloud_bytes": 1861691744,
+      "first_frame_id": 0,
+      "last_frame_id": 1100,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          1100
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1321632,
+        2004304
+      ],
+      "pose_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/poses/01.txt",
+        "sha256": "099889e883d91525934a575db9fbec66f7239f09217f575a4e823d8ab7dd22d8",
+        "nonempty_lines": 1101,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/01/times.txt",
+        "sha256": "713ffd768507bd11ed168d2456de26f7b4d941bed236b5b581c2dcd26db17f69",
+        "nonempty_lines": 1101,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/01/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": true,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:02",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "02",
+      "observed_cloud_files": 4661,
+      "cloud_bytes": 9368771184,
+      "first_frame_id": 0,
+      "last_frame_id": 4660,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          4660
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1711136,
+        2068176
+      ],
+      "pose_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/poses/02.txt",
+        "sha256": "8e6c37071db06dfc31db9c2f354bfeb4bb23d1fa2ab28937cb27dae03dc49812",
+        "nonempty_lines": 4661,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/02/times.txt",
+        "sha256": "5ee392fffa15f509243fc372aeeebf0250e90df6f711065bff55367d7b11aa09",
+        "nonempty_lines": 4661,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/02/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": true,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:03",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "03",
+      "observed_cloud_files": 801,
+      "cloud_bytes": 1588811840,
+      "first_frame_id": 0,
+      "last_frame_id": 800,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          800
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1865056,
+        2035824
+      ],
+      "pose_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/poses/03.txt",
+        "sha256": "5475332c7e90cd6b0f9f948efff69e747dbba81d006efed4298f3d31b5773b67",
+        "nonempty_lines": 801,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/03/times.txt",
+        "sha256": "dfabf563ac698165e445d2b6f7ca18da0a85b2cf317e30a7fecb2d8d754c4fec",
+        "nonempty_lines": 801,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/03/calib.txt",
+      "calibration_sha256": "d76b5668c898c4c6eba9b1024eeba43694cf9026362a2d85b893e3039f8934d0",
+      "cloud_and_local_pose_count_equal": true,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:04",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "04",
+      "observed_cloud_files": 271,
+      "cloud_bytes": 545112912,
+      "first_frame_id": 0,
+      "last_frame_id": 270,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          270
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1951440,
+        2037136
+      ],
+      "pose_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/poses/04.txt",
+        "sha256": "4e1e0a630543706d76904b45f6ee2dbfa8b03b6e4319d6fc268ef302062806e1",
+        "nonempty_lines": 271,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/04/times.txt",
+        "sha256": "d78cfcd055c9281ae3e6bfeebab1874aeb3730f09f129bd94c53ecfe40f9b0fb",
+        "nonempty_lines": 271,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/04/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": true,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:05",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "05",
+      "observed_cloud_files": 2761,
+      "cloud_bytes": 5523663648,
+      "first_frame_id": 0,
+      "last_frame_id": 2760,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          2760
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1712608,
+        2052272
+      ],
+      "pose_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/poses/05.txt",
+        "sha256": "56420ca617a1eb446b2955d187ba4af2912af54a8b458de0602ab3636b43f297",
+        "nonempty_lines": 2761,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/05/times.txt",
+        "sha256": "9dbaedde20199403177f59a564fc214536bdeacf67968f8c4cee9411eadc0169",
+        "nonempty_lines": 2761,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/05/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": true,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:06",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "06",
+      "observed_cloud_files": 1101,
+      "cloud_bytes": 2154443008,
+      "first_frame_id": 0,
+      "last_frame_id": 1100,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          1100
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1791712,
+        2002368
+      ],
+      "pose_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/poses/06.txt",
+        "sha256": "823a613b515dbfaaac0ed2942cf866154cc16edf7fbf2edbea57c70828b27a59",
+        "nonempty_lines": 1101,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/06/times.txt",
+        "sha256": "61c8f09665fb7e89e59515990425f41ec42049bbb2fc94493e69133ca14100cd",
+        "nonempty_lines": 1101,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/06/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": true,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:07",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "07",
+      "observed_cloud_files": 1101,
+      "cloud_bytes": 2137363408,
+      "first_frame_id": 0,
+      "last_frame_id": 1100,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          1100
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1750672,
+        2050704
+      ],
+      "pose_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/poses/07.txt",
+        "sha256": "7eb020916003a09a6b9c2744748eaadef54b96f6df22ee703a05a1d19bfe913a",
+        "nonempty_lines": 1101,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/07/times.txt",
+        "sha256": "13aa9c27223088b6cf646197767a842f0527e3770f5f8a436a8357bd7fff70a1",
+        "nonempty_lines": 1101,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/07/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": true,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:08",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "08",
+      "observed_cloud_files": 4071,
+      "cloud_bytes": 7985272992,
+      "first_frame_id": 0,
+      "last_frame_id": 4070,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          4070
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1479616,
+        2055088
+      ],
+      "pose_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/poses/08.txt",
+        "sha256": "cd7177170c7d7ba98cdbfe9417f97bd9586da5c70cbd5ccefa5db6bf88a5fe88",
+        "nonempty_lines": 4071,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/08/times.txt",
+        "sha256": "65359db9033c8716d2150c90c6fabc6f93db640531d3370e3eb7056d82590e9f",
+        "nonempty_lines": 4071,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/08/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": true,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:09",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "09",
+      "observed_cloud_files": 1591,
+      "cloud_bytes": 3166327600,
+      "first_frame_id": 0,
+      "last_frame_id": 1590,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          1590
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1645008,
+        2040416
+      ],
+      "pose_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/poses/09.txt",
+        "sha256": "e29c10964d558536e225e052f386723a515ad574b6ce14b91a86c94e5ad94014",
+        "nonempty_lines": 1591,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/09/times.txt",
+        "sha256": "5e46f7b2bf289d693128d64ac8d77631d75e9575d32a2d2686e696a0c406038a",
+        "nonempty_lines": 1591,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/09/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": true,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:10",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "10",
+      "observed_cloud_files": 1201,
+      "cloud_bytes": 2419491968,
+      "first_frame_id": 0,
+      "last_frame_id": 1200,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          1200
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1757008,
+        2070272
+      ],
+      "pose_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/poses/10.txt",
+        "sha256": "b29cfbc423220a7bc163ef53d0e0a362f8206f006eb2db690d8b48795327380e",
+        "nonempty_lines": 1201,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/10/times.txt",
+        "sha256": "a600029792cbd061121b132e83960892a092f5d061e66857675ca826dcfe7e9f",
+        "nonempty_lines": 1201,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/10/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": true,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:11",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "11",
+      "observed_cloud_files": 921,
+      "cloud_bytes": 1843188688,
+      "first_frame_id": 0,
+      "last_frame_id": 920,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          920
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1822688,
+        2059296
+      ],
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/11/times.txt",
+        "sha256": "9099521994891ebfb739d338b79b70c936e5fbe956c6ba81c9af0b821eab78ef",
+        "nonempty_lines": 921,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/11/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:12",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "12",
+      "observed_cloud_files": 1061,
+      "cloud_bytes": 2024558944,
+      "first_frame_id": 0,
+      "last_frame_id": 1060,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          1060
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1608112,
+        2036624
+      ],
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/12/times.txt",
+        "sha256": "e947cb179c7392b853958299f93fadedeed569f901a7f4c6ffdacf8108c6ef35",
+        "nonempty_lines": 1061,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/12/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:13",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "13",
+      "observed_cloud_files": 3281,
+      "cloud_bytes": 6086224256,
+      "first_frame_id": 0,
+      "last_frame_id": 3280,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          3280
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1540336,
+        2012592
+      ],
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/13/times.txt",
+        "sha256": "4d7ba82a7dfc6460ffd94ab13ad88db5482c2f626bd754510dcf28688e9c4400",
+        "nonempty_lines": 3281,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/13/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:14",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "14",
+      "observed_cloud_files": 631,
+      "cloud_bytes": 1278735248,
+      "first_frame_id": 0,
+      "last_frame_id": 630,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          630
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1921056,
+        2059616
+      ],
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/14/times.txt",
+        "sha256": "6f81b7719c2d9dca3e8d9512c8f1a1afe526e2b1068b0dae7682d9ae4d4f124e",
+        "nonempty_lines": 631,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/14/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:15",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "15",
+      "observed_cloud_files": 1901,
+      "cloud_bytes": 3744284464,
+      "first_frame_id": 0,
+      "last_frame_id": 1900,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          1900
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1479648,
+        2055856
+      ],
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/15/times.txt",
+        "sha256": "00e672516d545f3c95f47cfe2a1ac15ab2cf6e3a6b30042d1c3bd4db181e1576",
+        "nonempty_lines": 1901,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/15/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:16",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "16",
+      "observed_cloud_files": 1731,
+      "cloud_bytes": 3414181728,
+      "first_frame_id": 0,
+      "last_frame_id": 1730,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          1730
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1726608,
+        2040688
+      ],
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/16/times.txt",
+        "sha256": "1c2f89643f58f59ddd1fd31f9e8e029b246ae830320094ebfb36451222c425f5",
+        "nonempty_lines": 1731,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/16/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:17",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "17",
+      "observed_cloud_files": 491,
+      "cloud_bytes": 898496256,
+      "first_frame_id": 0,
+      "last_frame_id": 490,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          490
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1694736,
+        1984240
+      ],
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/17/times.txt",
+        "sha256": "8452f9fdb2b78ef5c72c0b897c715cc707654b291ea16f8a88984097eafe7a4b",
+        "nonempty_lines": 491,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/17/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:18",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "18",
+      "observed_cloud_files": 1801,
+      "cloud_bytes": 3420284016,
+      "first_frame_id": 0,
+      "last_frame_id": 1800,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          1800
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1624784,
+        2033584
+      ],
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/18/times.txt",
+        "sha256": "674dfe540161d63800c5eae17d96d523095c97259a33c58fd43e4d2bdbf76c46",
+        "nonempty_lines": 1801,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/18/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:19",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "19",
+      "observed_cloud_files": 4981,
+      "cloud_bytes": 9664908880,
+      "first_frame_id": 0,
+      "last_frame_id": 4980,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          4980
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1589968,
+        2033552
+      ],
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/19/times.txt",
+        "sha256": "cd0370da461ff51f327cb2be38423fb6c832651eeaf260edd551e99451c60834",
+        "nonempty_lines": 4981,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/19/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:20",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "20",
+      "observed_cloud_files": 831,
+      "cloud_bytes": 1583464864,
+      "first_frame_id": 0,
+      "last_frame_id": 830,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          830
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1425696,
+        2034352
+      ],
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/20/times.txt",
+        "sha256": "5977e5d5dafac0778eb1ceb05b78b6c964cc9a606d396862f26b9d979cfbc589",
+        "nonempty_lines": 831,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/20/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "datasets:data_odometry_velodyne/dataset:21",
+      "name_or_role_from_existing_path": "KITTI_NAME_FROM_PATH_AND_EXISTING_LOADER_CONTRACT",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "21",
+      "observed_cloud_files": 2721,
+      "cloud_bytes": 5240423536,
+      "first_frame_id": 0,
+      "last_frame_id": 2720,
+      "observed_frame_intervals_inclusive": [
+        [
+          0,
+          2720
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        1722752,
+        2041504
+      ],
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "datasets:data_odometry_velodyne/dataset/sequences/21/times.txt",
+        "sha256": "9dd69234935c2213da21e0aa6daad9d42e1ff118aea4259a3c9ac65016e14a73",
+        "nonempty_lines": 2721,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "datasets:data_odometry_velodyne/dataset/sequences/21/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": true,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:00",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "00",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": {
+        "asset": "rap-slam:data/kitti/dataset/poses/00.txt",
+        "sha256": "90791a4113df979b149fa9e1104e960ea59f525a8318a202dbb6aec1a3d88793",
+        "nonempty_lines": 4541,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/00/times.txt",
+        "sha256": "99a2899466cdc28dd292b4856d214a8b0aab035b91b02bb6afcb4ff363e7d421",
+        "nonempty_lines": 4541,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/00/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:01",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "01",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": {
+        "asset": "rap-slam:data/kitti/dataset/poses/01.txt",
+        "sha256": "099889e883d91525934a575db9fbec66f7239f09217f575a4e823d8ab7dd22d8",
+        "nonempty_lines": 1101,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/01/times.txt",
+        "sha256": "713ffd768507bd11ed168d2456de26f7b4d941bed236b5b581c2dcd26db17f69",
+        "nonempty_lines": 1101,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/01/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:02",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "02",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": {
+        "asset": "rap-slam:data/kitti/dataset/poses/02.txt",
+        "sha256": "8e6c37071db06dfc31db9c2f354bfeb4bb23d1fa2ab28937cb27dae03dc49812",
+        "nonempty_lines": 4661,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/02/times.txt",
+        "sha256": "5ee392fffa15f509243fc372aeeebf0250e90df6f711065bff55367d7b11aa09",
+        "nonempty_lines": 4661,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/02/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:03",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "03",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": {
+        "asset": "rap-slam:data/kitti/dataset/poses/03.txt",
+        "sha256": "5475332c7e90cd6b0f9f948efff69e747dbba81d006efed4298f3d31b5773b67",
+        "nonempty_lines": 801,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/03/times.txt",
+        "sha256": "dfabf563ac698165e445d2b6f7ca18da0a85b2cf317e30a7fecb2d8d754c4fec",
+        "nonempty_lines": 801,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/03/calib.txt",
+      "calibration_sha256": "d76b5668c898c4c6eba9b1024eeba43694cf9026362a2d85b893e3039f8934d0",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:04",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "04",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": {
+        "asset": "rap-slam:data/kitti/dataset/poses/04.txt",
+        "sha256": "4e1e0a630543706d76904b45f6ee2dbfa8b03b6e4319d6fc268ef302062806e1",
+        "nonempty_lines": 271,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/04/times.txt",
+        "sha256": "d78cfcd055c9281ae3e6bfeebab1874aeb3730f09f129bd94c53ecfe40f9b0fb",
+        "nonempty_lines": 271,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/04/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:05",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "05",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": {
+        "asset": "rap-slam:data/kitti/dataset/poses/05.txt",
+        "sha256": "56420ca617a1eb446b2955d187ba4af2912af54a8b458de0602ab3636b43f297",
+        "nonempty_lines": 2761,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/05/times.txt",
+        "sha256": "9dbaedde20199403177f59a564fc214536bdeacf67968f8c4cee9411eadc0169",
+        "nonempty_lines": 2761,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/05/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:06",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "06",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": {
+        "asset": "rap-slam:data/kitti/dataset/poses/06.txt",
+        "sha256": "823a613b515dbfaaac0ed2942cf866154cc16edf7fbf2edbea57c70828b27a59",
+        "nonempty_lines": 1101,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/06/times.txt",
+        "sha256": "61c8f09665fb7e89e59515990425f41ec42049bbb2fc94493e69133ca14100cd",
+        "nonempty_lines": 1101,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/06/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:07",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "07",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": {
+        "asset": "rap-slam:data/kitti/dataset/poses/07.txt",
+        "sha256": "7eb020916003a09a6b9c2744748eaadef54b96f6df22ee703a05a1d19bfe913a",
+        "nonempty_lines": 1101,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/07/times.txt",
+        "sha256": "13aa9c27223088b6cf646197767a842f0527e3770f5f8a436a8357bd7fff70a1",
+        "nonempty_lines": 1101,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/07/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:08",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "08",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": {
+        "asset": "rap-slam:data/kitti/dataset/poses/08.txt",
+        "sha256": "cd7177170c7d7ba98cdbfe9417f97bd9586da5c70cbd5ccefa5db6bf88a5fe88",
+        "nonempty_lines": 4071,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/08/times.txt",
+        "sha256": "65359db9033c8716d2150c90c6fabc6f93db640531d3370e3eb7056d82590e9f",
+        "nonempty_lines": 4071,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/08/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:09",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "09",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": {
+        "asset": "rap-slam:data/kitti/dataset/poses/09.txt",
+        "sha256": "e29c10964d558536e225e052f386723a515ad574b6ce14b91a86c94e5ad94014",
+        "nonempty_lines": 1591,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/09/times.txt",
+        "sha256": "5e46f7b2bf289d693128d64ac8d77631d75e9575d32a2d2686e696a0c406038a",
+        "nonempty_lines": 1591,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/09/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:10",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "10",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": {
+        "asset": "rap-slam:data/kitti/dataset/poses/10.txt",
+        "sha256": "b29cfbc423220a7bc163ef53d0e0a362f8206f006eb2db690d8b48795327380e",
+        "nonempty_lines": 1201,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/10/times.txt",
+        "sha256": "a600029792cbd061121b132e83960892a092f5d061e66857675ca826dcfe7e9f",
+        "nonempty_lines": 1201,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/10/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:11",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "11",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/11/times.txt",
+        "sha256": "9099521994891ebfb739d338b79b70c936e5fbe956c6ba81c9af0b821eab78ef",
+        "nonempty_lines": 921,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/11/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:12",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "12",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/12/times.txt",
+        "sha256": "e947cb179c7392b853958299f93fadedeed569f901a7f4c6ffdacf8108c6ef35",
+        "nonempty_lines": 1061,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/12/calib.txt",
+      "calibration_sha256": "5e7b3136edf2799be47e472ca9c5362fcacbee5d21c6ab8038506b8691b8b9ec",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:13",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "13",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/13/times.txt",
+        "sha256": "4d7ba82a7dfc6460ffd94ab13ad88db5482c2f626bd754510dcf28688e9c4400",
+        "nonempty_lines": 3281,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/13/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:14",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "14",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/14/times.txt",
+        "sha256": "6f81b7719c2d9dca3e8d9512c8f1a1afe526e2b1068b0dae7682d9ae4d4f124e",
+        "nonempty_lines": 631,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/14/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:15",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "15",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/15/times.txt",
+        "sha256": "00e672516d545f3c95f47cfe2a1ac15ab2cf6e3a6b30042d1c3bd4db181e1576",
+        "nonempty_lines": 1901,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/15/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:16",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "16",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/16/times.txt",
+        "sha256": "1c2f89643f58f59ddd1fd31f9e8e029b246ae830320094ebfb36451222c425f5",
+        "nonempty_lines": 1731,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/16/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:17",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "17",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/17/times.txt",
+        "sha256": "8452f9fdb2b78ef5c72c0b897c715cc707654b291ea16f8a88984097eafe7a4b",
+        "nonempty_lines": 491,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/17/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:18",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "18",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/18/times.txt",
+        "sha256": "674dfe540161d63800c5eae17d96d523095c97259a33c58fd43e4d2bdbf76c46",
+        "nonempty_lines": 1801,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/18/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:19",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "19",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/19/times.txt",
+        "sha256": "cd0370da461ff51f327cb2be38423fb6c832651eeaf260edd551e99451c60834",
+        "nonempty_lines": 4981,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/19/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:20",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "20",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/20/times.txt",
+        "sha256": "5977e5d5dafac0778eb1ceb05b78b6c964cc9a606d396862f26b9d979cfbc589",
+        "nonempty_lines": 831,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/20/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/kitti/dataset:21",
+      "name_or_role_from_existing_path": "DOWNSTREAM_KITTI_REFERENCE_COPY",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "21",
+      "observed_cloud_files": 0,
+      "cloud_bytes": 0,
+      "first_frame_id": null,
+      "last_frame_id": null,
+      "observed_frame_intervals_inclusive": [],
+      "missing_ids_inside_observed_range_count": 0,
+      "missing_ids_preview": [],
+      "all_bin_bytes_divisible_by_16": null,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": null,
+      "pose_text": null,
+      "timestamps_text": {
+        "asset": "rap-slam:data/kitti/dataset/sequences/21/times.txt",
+        "sha256": "9dd69234935c2213da21e0aa6daad9d42e1ff118aea4259a3c9ac65016e14a73",
+        "nonempty_lines": 2721,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/kitti/dataset/sequences/21/calib.txt",
+      "calibration_sha256": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682",
+      "cloud_and_local_pose_count_equal": null,
+      "cloud_and_local_timestamp_count_equal": null,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    },
+    {
+      "id": "rap-slam:data/poss/dataset:00",
+      "name_or_role_from_existing_path": "POSS_NAME_FROM_PATH_AND_EXISTING_PROTOCOL",
+      "source_url": null,
+      "original_provider_release_or_download_authentication": "NOT_REESTABLISHED_IN_A5",
+      "sequence": "00",
+      "observed_cloud_files": 4170,
+      "cloud_bytes": 4211476432,
+      "first_frame_id": 3850,
+      "last_frame_id": 9500,
+      "observed_frame_intervals_inclusive": [
+        [
+          3850,
+          5268
+        ],
+        [
+          6750,
+          9500
+        ]
+      ],
+      "missing_ids_inside_observed_range_count": 1481,
+      "missing_ids_preview": [
+        5269,
+        5270,
+        5271,
+        5272,
+        5273,
+        5274,
+        5275,
+        5276,
+        5277,
+        5278,
+        5279,
+        5280,
+        5281,
+        5282,
+        5283,
+        5284,
+        5285,
+        5286,
+        5287,
+        5288,
+        5289,
+        5290,
+        5291,
+        5292,
+        5293,
+        5294,
+        5295,
+        5296,
+        5297,
+        5298,
+        5299,
+        5300,
+        5301,
+        5302,
+        5303,
+        5304,
+        5305,
+        5306,
+        5307,
+        5308,
+        5309,
+        5310,
+        5311,
+        5312,
+        5313,
+        5314,
+        5315,
+        5316,
+        5317,
+        5318,
+        5319,
+        5320,
+        5321,
+        5322,
+        5323,
+        5324,
+        5325,
+        5326,
+        5327,
+        5328,
+        5329,
+        5330,
+        5331,
+        5332,
+        5333,
+        5334,
+        5335,
+        5336,
+        5337,
+        5338,
+        5339,
+        5340,
+        5341,
+        5342,
+        5343,
+        5344,
+        5345,
+        5346,
+        5347,
+        5348,
+        5349,
+        5350,
+        5351,
+        5352,
+        5353,
+        5354,
+        5355,
+        5356,
+        5357,
+        5358,
+        5359,
+        5360,
+        5361,
+        5362,
+        5363,
+        5364,
+        5365,
+        5366,
+        5367,
+        5368
+      ],
+      "all_bin_bytes_divisible_by_16": true,
+      "zero_byte_cloud_files": 0,
+      "observed_bin_byte_range": [
+        936912,
+        1062496
+      ],
+      "pose_text": {
+        "asset": "rap-slam:data/poss/dataset/poses/00.txt",
+        "sha256": "5b08665c5b70cbb6b9ad2e72719b34acdb829ed8def853ca89077a7895a66513",
+        "nonempty_lines": 36924,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 12
+      },
+      "timestamps_text": {
+        "asset": "rap-slam:data/poss/dataset/sequences/00/times.txt",
+        "sha256": "68189290152a9e1676a9d28492d5cede43be752633cca0442a3b76ae08a4a491",
+        "nonempty_lines": 36924,
+        "all_nonempty_rows_have_expected_columns": true,
+        "expected_columns": 1
+      },
+      "calibration_asset": "rap-slam:data/poss/dataset/sequences/00/calib.txt",
+      "calibration_sha256": "50453826d281659e521c8e52a780da0a99411db7513051c9ded6d3b390c4fe01",
+      "cloud_and_local_pose_count_equal": false,
+      "cloud_and_local_timestamp_count_equal": false,
+      "local_coverage_state": "OBSERVED_SUBSET_OR_COUNT_ONLY_NOT_PROVIDER_COMPLETENESS_CERTIFICATE",
+      "raw_vs_corrected_coordinate_or_physical_reference_newly_authenticated": false,
+      "training_validation_test_membership_admitted": false
+    }
+  ],
+  "oxford_spires": {
+    "ordinary_files": 5,
+    "gt_files": [
+      "oxford_spires/gt/2024-03-12-keble-college-02.txt",
+      "oxford_spires/gt/2024-03-12-keble-college-04.txt",
+      "oxford_spires/gt/2024-03-14-blenheim-palace-05.txt",
+      "oxford_spires/gt/2024-03-18-christ-church-02.txt",
+      "oxford_spires/gt/2024-05-20-bodleian-library-02.txt"
+    ],
+    "pcd_files": 0,
+    "state": "GT_ONLY_PARTIAL_NO_SCAN_COMPLETENESS_CLAIM"
+  },
+  "raw_OXTS_source_authentication": "NOT_REESTABLISHED",
+  "raw_OXTS_named_paths_observed": [],
+  "datasets_part2": {
+    "state": "UNRELATED_OR_UNCLASSIFIED_RETAINED_NOT_RESEARCH_DATA",
+    "files": [
+      {
+        "root": "datasets",
+        "path": "part2/Circe (Madeline Miller) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "bytes": 1921191,
+        "mtime_ns": 1785899395403420400,
+        "file_id": "0",
+        "device": "0",
+        "mode": 33206,
+        "windows_attributes": 32,
+        "sha256": "535f7d276d16187395e8ea2b08ce7b1c7cc0294b064d29769e2bc19f634ba91a",
+        "checksum_basis": "A1_FULL_HASH",
+        "content_rehashed_in_A5_inventory": false,
+        "prior_category": "dataset_source",
+        "opaque_experiment": false
+      },
+      {
+        "root": "datasets",
+        "path": "part2/Of Mice And Men (John Steinbeck) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "bytes": 179430,
+        "mtime_ns": 1785899182834794200,
+        "file_id": "0",
+        "device": "0",
+        "mode": 33206,
+        "windows_attributes": 32,
+        "sha256": "da028cb193d2af955f7bd96067317381355f7807dac30d62846a51d95ba7b506",
+        "checksum_basis": "A1_FULL_HASH",
+        "content_rehashed_in_A5_inventory": false,
+        "prior_category": "dataset_source",
+        "opaque_experiment": false
+      },
+      {
+        "root": "datasets",
+        "path": "part2/The Ocean at the End of the Lane (Neil Gaiman) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "bytes": 1124110,
+        "mtime_ns": 1785899390123004800,
+        "file_id": "0",
+        "device": "0",
+        "mode": 33206,
+        "windows_attributes": 32,
+        "sha256": "bff6922319c9535e803a2ff0f3bcf7224ead0de36c8104d997ce48a7abc0b5ad",
+        "checksum_basis": "A1_FULL_HASH",
+        "content_rehashed_in_A5_inventory": false,
+        "prior_category": "dataset_source",
+        "opaque_experiment": false
+      },
+      {
+        "root": "datasets",
+        "path": "part2/The Old Man and the Sea (Ernest Hemingway) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "bytes": 107411,
+        "mtime_ns": 1785899121120379400,
+        "file_id": "0",
+        "device": "0",
+        "mode": 33206,
+        "windows_attributes": 32,
+        "sha256": "12da59c10974c1a5a84f5aef1c300f56d14c26996f4426ecfbc2ca5ea766b1cb",
+        "checksum_basis": "A1_FULL_HASH",
+        "content_rehashed_in_A5_inventory": false,
+        "prior_category": "dataset_source",
+        "opaque_experiment": false
+      }
+    ]
+  },
+  "no_cloud_array_or_calibration_transform_computation_performed": true
+}

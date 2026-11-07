@@ -1,0 +1,13 @@
+# Owner-requested round closure
+
+The round is CLOSED at the owner's explicit request. This is a separately dated documentary closeout, not a renewal of scientific or quota-consuming execution. All admitted numerical scopes were already complete; all recorded owning process handles were waited/reaped. No new UI or numerical stage was started.
+
+Final results retained: EIA1 source census; SRA1 all273 right images; SSC1 all273 stereo/all200 support sets with141 eligible pairs, oldunique00/08=18/3 failing the frozen>=5each gate;10682 scalar samples and400 covariance checks; SAC1 operational30m coherent-alias counterexample; WLC1 eight functional controls. SSC1 stops before candidate scoring/training and receives no threshold/window rescue. No new safe-system gain: historical GCG1 remains37correct/8wrong accepts. Research UNRESOLVED, manuscript PAUSED.
+
+The last actual continuation account response was observed between04:59:03 and04:59:06UTC (12:59:03..06 Asia/Shanghai): ordinaryUsageAllowed=false, weekly100%,5h83%. This is an observed ordinary-execution denial with a saturated weekly window, not5h exhaustion. Exact backend rateLimitReachedType was not retained in the compact printed observation and is not invented. No new account availability query is made for this closeout. Reset credits are unused and no reset continuation is scheduled.
+
+The first closeout patch failed validation because delete/add operations targeted ACCOUNT_STATUS.json twice in one patch. It made no file changes and prevented the subsequent root-seal command in that exec cell. The actual83%/100%/false output remained in the chat; it is now explicitly persisted, while the earlier76%/99%/true file is preserved byte-for-byte under before. The previous successful2047-file verification is historical and is repeated read-only for this documentary closeout.
+
+Computer Use's URL-enforcement stop is separate and preserved: no KITTI navigation/login/download followed it. The owner confirms no localraw/OXTS package; the minimal raw-source packet is prepared only. Future work should first obtain a traceable source or justify an independent identity mechanism covering targets. The published08raw+1100 mapping is to verify, not a current indexing correction. OXTS lineage is not automatically independent reference evidence.
+
+No original scientific result, failure, budget, source limitation, PGC1 stopped64action/eighth-pair status or unread7 partial accuracies is altered. OfficialMAC remains unrun; E0 engineering positive retained. No WSL/GPU/install/default/production/Git-history/outreach action or queued work. Existing tracked dirty paths remain .gitignore and AGENTS.md; no remote or fresh RAP-SLAM dirty-set certification is claimed.

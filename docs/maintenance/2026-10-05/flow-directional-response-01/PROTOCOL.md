@@ -1,0 +1,11 @@
+# GT-free saved-flow directional-response engineering preflight
+
+Freeze before any response output. Scope: first four entries in each original F2 `inputs_00.json` and `inputs_08.json`, native N0 only. No selection on label, error, rigidity or eventual matrix. Pin both input lists, original artifact manifest/validation, sixteen NPZ inputs/generations, this protocol, memo, runner, independent validator and RAP sampler/procrustes source. Verify each selected NPZ against original F2 artifact hashes.
+
+Extraction is exactly the eight-region, last-three-endpoint, joint and independent-view construction in RESEARCH_MEMO.md. Stored arrays include partition, full poses, joint/independent right-tangent deletion responses and response matrices. Source anchor coordinates are `cond * scale + center`; target coordinates are raw endpoints times scale. Saved centers define original local source coordinates. Units/order are rotation radians then translation metres. Normalize only for descriptions by D=(.03,.03,.03,.20,.20,.20).
+
+Fixed synthetic tests: PCG64 seed 20261005, 1,024 points per anchor; identity rigid endpoints; smooth nonrigid z deformation in B; constant wrong rigid B translation [0,0,2] m; common left generated-frame gauge with rotvec [.21,-.13,.09], translation [7,-3,2]. No model or GT file is loaded. Known wrong synthetic pose is an analytic construction, not a dataset label.
+
+Pass requires all eight final decoded poses reproduce stored N0 T to <=2e-4 max entry (native float32 conversion), matrices finite/symmetric/PSD (minimum eigenvalue >=-1e-10), each deletion retains >=200 points, common-gauge relative pose and matrix changes <=1e-8, independent validator recomputation <=1e-8, exact-rigid response norm <=1e-16, deformed response trace >=1e-6, wrong-rigid response norm <=1e-16 despite >=1.9 m known error. Failing any gate stops preflight. No numerical threshold changes after output.
+
+Combined extraction/validation wall cap 300 s, peak RSS 1 GiB, artifacts 10 MB. No full F2 output, GT evaluation, RAP generation, training, graph result, production/default/manuscript edit, commit or Git sync. Seal bank before independent checking. Preserve original failures/code under a separate amendment if repair is necessary. Success licenses only a separately designed information screen; no registration gain or original contribution follows.

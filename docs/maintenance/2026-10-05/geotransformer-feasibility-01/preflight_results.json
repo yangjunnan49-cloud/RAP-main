@@ -1,0 +1,35 @@
+{
+  "strict_load": true,
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "model_state_keys": 316,
+  "checkpoint_top_keys": [
+    "epoch",
+    "iteration",
+    "model"
+  ],
+  "known_transform_max_error": 1.4901161193847656e-07,
+  "invariance": {
+    "estimated_transform": 0.0,
+    "ref_corr_points": 0.0,
+    "src_corr_points": 0.0,
+    "corr_scores": 0.0,
+    "ref_node_corr_indices": 0.0,
+    "src_node_corr_indices": 0.0,
+    "matching_scores": 0.0
+  },
+  "forward_wall_s": [
+    4.117034520022571,
+    0.3826389720197767,
+    0.36559233302250504
+  ],
+  "wall_s": 13.062322519021109,
+  "peak_gpu_gib": 4.814838886260986,
+  "peak_rss_gib": 2.5881118774414062,
+  "bank_files": {
+    "forward-0.npz": "bb1b2b36c8debe18996fd2812e93f7680acd819f407d9ea0eddae98f9f69a7c8",
+    "forward-1.npz": "7d48ce4eea2b9e4fd87af7da080f9f50dc2f0cdba86a17d4fb4b13980e3afb25",
+    "forward-2.npz": "bb1b2b36c8debe18996fd2812e93f7680acd819f407d9ea0eddae98f9f69a7c8",
+    "geometry.npz": "9323859053fa1171358e0f13a179a9842e7c7b3bd064234068beb534e97925b3"
+  }
+}

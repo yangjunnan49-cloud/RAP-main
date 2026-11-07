@@ -1,0 +1,35 @@
+{
+  "status": "STATIC_DESIGN_ARITHMETIC_NOT_RUNTIME_MODEL_COUNT",
+  "generator": {
+    "blocks": [
+      10,
+      11
+    ],
+    "low_rank": 8,
+    "qkv_adapter_each": 16384,
+    "output_adapter_each": 8192,
+    "all_attention_adapters": 49152,
+    "complete_velocity_mlp": 394752,
+    "total_trainable": 443904,
+    "optimizer_weights_gradients_moments_lower_bound_bytes": 7102464
+  },
+  "direct_control": {
+    "input_channels": 37,
+    "width": 128,
+    "blocks": 2,
+    "heads": 4,
+    "part_attention_each": 66048,
+    "global_attention_each": 66048,
+    "feedforward_each": 65920,
+    "three_layer_norms_each": 768,
+    "block_each": 198784,
+    "input_embedding": 4864,
+    "position_output_mlp": 41635,
+    "total_trainable": 444067
+  },
+  "limitations": [
+    "Counts derived from reviewed source and explicitly drafted baseline; no model instantiated or checkpoint deserialized.",
+    "Equal trainable count does not equal total model capacity, pretraining, input distribution or inference work.",
+    "Training peak memory and wall time remain unmeasured."
+  ]
+}

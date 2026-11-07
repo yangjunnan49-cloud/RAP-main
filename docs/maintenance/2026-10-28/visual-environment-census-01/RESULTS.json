@@ -1,0 +1,83 @@
+{
+  "environments": [
+    {
+      "path": "/root/miniconda3/bin/python",
+      "resolved": "/root/miniconda3/bin/python3.14",
+      "interpreter_sha256": "4f6113ff43ba32518d2edb1fdfbd5424fefa2004ed895f1496fab84af61dae42",
+      "exit_code": 0,
+      "result": {
+        "executable": "/root/miniconda3/bin/python",
+        "modules": {
+          "cv2": {
+            "available": false
+          },
+          "numpy": {
+            "available": false
+          },
+          "scipy": {
+            "available": false
+          },
+          "skimage": {
+            "available": false
+          }
+        }
+      },
+      "stderr": ""
+    },
+    {
+      "path": "/root/venvs/kiss-slam-hc1/bin/python",
+      "resolved": "/usr/bin/python3.12",
+      "interpreter_sha256": "e50d468e8b0adfb05733f5b87b3cff34829c4a8c1aea50c865aa8bdfe4bb150f",
+      "exit_code": 0,
+      "result": {
+        "executable": "/root/venvs/kiss-slam-hc1/bin/python",
+        "modules": {
+          "cv2": {
+            "available": false
+          },
+          "numpy": {
+            "available": true,
+            "origin": "/root/venvs/kiss-slam-hc1/lib/python3.12/site-packages/numpy/__init__.py"
+          },
+          "scipy": {
+            "available": true,
+            "origin": "/root/venvs/kiss-slam-hc1/lib/python3.12/site-packages/scipy/__init__.py"
+          },
+          "skimage": {
+            "available": false
+          }
+        }
+      },
+      "stderr": ""
+    },
+    {
+      "path": "/usr/bin/python3",
+      "resolved": "/usr/bin/python3.12",
+      "interpreter_sha256": "e50d468e8b0adfb05733f5b87b3cff34829c4a8c1aea50c865aa8bdfe4bb150f",
+      "exit_code": 0,
+      "result": {
+        "executable": "/usr/bin/python3",
+        "modules": {
+          "cv2": {
+            "available": false
+          },
+          "numpy": {
+            "available": true,
+            "origin": "/usr/local/lib/python3.12/dist-packages/numpy/__init__.py"
+          },
+          "scipy": {
+            "available": false
+          },
+          "skimage": {
+            "available": false
+          }
+        }
+      },
+      "stderr": ""
+    }
+  ],
+  "module_imports": 0,
+  "package_installs": 0,
+  "images_or_models_read": 0,
+  "elapsed_seconds": 0.13858113999999944
+}

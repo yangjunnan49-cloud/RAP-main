@@ -1,0 +1,3 @@
+# Owner scope — NBR0
+
+The 2026-10-12 owner explicitly requested autonomous multi-round project advancement until the current five-hour allowance is exhausted, while resting. NBR0 addresses the separate preserved NOC4 P-backward reproducibility prerequisite. It is independent of CCR0's context efficacy; no native fit/optimizer update is authorized by this diagnosis. Preserve all old failed gates, sources, arrays, seals and both INCOMPLETE markers. Only isolated main maintenance sources/docs and mutable handoffs change. No installation, process restart, persistent configuration, production/default/backbone/manuscript/reference edit, acquisition, commit or Git synchronization.

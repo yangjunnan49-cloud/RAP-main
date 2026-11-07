@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "utc": "2026-10-05T04:02:28.325347+00:00",
+  "decision": "NO_MATERIAL_COMMON_GATE_SYSTEM_SIGNAL",
+  "check_groups": [
+    "freeze/seals/stage order and independently validated inputs",
+    "00: all candidates/gates/labels/repeat; explicit graphs and every independent trajectory metric/segment",
+    "05: all candidates/gates/labels/repeat; explicit graphs and every independent trajectory metric/segment",
+    "06: all candidates/gates/labels/repeat; explicit graphs and every independent trajectory metric/segment",
+    "07: all candidates/gates/labels/repeat; explicit graphs and every independent trajectory metric/segment",
+    "09: all candidates/gates/labels/repeat; explicit graphs and every independent trajectory metric/segment",
+    "10: all candidates/gates/labels/repeat; explicit graphs and every independent trajectory metric/segment",
+    "independent means/prospective decisions/resources"
+  ],
+  "pairs": 71,
+  "segment_records": 22194,
+  "graph_max_deltas": {
+    "00": {
+      "P": 0.0,
+      "G": 0.0,
+      "C": 0.0
+    },
+    "05": {
+      "P": 0.0,
+      "G": 0.0,
+      "C": 0.0
+    },
+    "06": {
+      "P": 0.0,
+      "G": 0.0,
+      "C": 0.0
+    },
+    "07": {
+      "P": 0.0,
+      "G": 0.0,
+      "C": 0.0
+    },
+    "09": {
+      "P": 0.0,
+      "G": 0.0,
+      "C": 0.0
+    },
+    "10": {
+      "P": 0.0,
+      "G": 0.0,
+      "C": 0.0
+    }
+  },
+  "pair_summary": {
+    "00": {
+      "attempts": 12,
+      "RAP_strict": 10,
+      "Geo_strict": 9,
+      "RAP_accepted_wrong": 2,
+      "Geo_accepted_wrong": 3,
+      "RAP_accepted_far": 0,
+      "Geo_accepted_far": 0
+    },
+    "05": {
+      "attempts": 12,
+      "RAP_strict": 12,
+      "Geo_strict": 12,
+      "RAP_accepted_wrong": 0,
+      "Geo_accepted_wrong": 0,
+      "RAP_accepted_far": 0,
+      "Geo_accepted_far": 0
+    },
+    "06": {
+      "attempts": 12,
+      "RAP_strict": 12,
+      "Geo_strict": 12,
+      "RAP_accepted_wrong": 0,
+      "Geo_accepted_wrong": 0,
+      "RAP_accepted_far": 0,
+      "Geo_accepted_far": 0
+    },
+    "07": {
+      "attempts": 12,
+      "RAP_strict": 12,
+      "Geo_strict": 11,
+      "RAP_accepted_wrong": 0,
+      "Geo_accepted_wrong": 0,
+      "RAP_accepted_far": 0,
+      "Geo_accepted_far": 0
+    },
+    "09": {
+      "attempts": 12,
+      "RAP_strict": 0,
+      "Geo_strict": 0,
+      "RAP_accepted_wrong": 10,
+      "Geo_accepted_wrong": 9,
+      "RAP_accepted_far": 2,
+      "Geo_accepted_far": 2
+    },
+    "10": {
+      "attempts": 11,
+      "RAP_strict": 0,
+      "Geo_strict": 0,
+      "RAP_accepted_wrong": 0,
+      "Geo_accepted_wrong": 0,
+      "RAP_accepted_far": 0,
+      "Geo_accepted_far": 0
+    }
+  },
+  "total_wall_s": 64.32671834412031,
+  "validator_wall_s": 5.577608800958842,
+  "peak_rss_gib": 2.3474998474121094,
+  "artifact_bytes_before_report": 15371294
+}

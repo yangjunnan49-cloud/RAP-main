@@ -1,0 +1,11 @@
+# Host commit exhaustion identified; remediation approval pending
+
+Owner asked to resolve WSL exits and continue the project. Windows System Resource-Exhaustion-Detector Event2004 occurs at21:33:40/21:35:17/21:36:37/21:37:21/21:38:07/21:39:47 on2026-10-10 Asia/Shanghai, matching the prior external-exit period. Current Windows commit is approximately123GiB of128GiB, leaving approximately5.2GiB. This is strong evidence of host commit pressure; it does not trace each WSL internal exit mechanism.
+
+The exact NVIDIA Overlay root PID18820 consumes approximately16.3GiB private committed memory, with another approximately1.7GiB in its renderer. SOLIDWORKS PID193076 consumes approximately63.3GiB private commit and has an unsaved model. Physical working-set sizes are much smaller and do not represent commit consumption. Windows already has a96GiB page file, so no page-file expansion or driver replacement is prescribed.
+
+The prepared remediation restarts only the validated NVIDIA Overlay root/direct-child executables at their original path, restores the root launch with no changed arguments, and verifies the original SOLIDWORKS process identity remains. Because this can interrupt an active recording, the owner's explicit overlay decision is pending. No process has been stopped, no WSL configuration altered, no heavy native verification or retained training update performed in this recovery turn.
+
+The new supervisor/source scope is frozen before native verification. It requires12GiB host commit headroom, captures process launch/exit/stdout/stderr and periodic host memory, while the child saves progress and complete final resource peaks. Two target-free native verification processes must finish before the separate original-settings NOC4 attempt02 can run. Exact original noise/fixture/scientific settings remain; old stopped artifacts and resource gaps are retained.
+
+Microsoft's [Event2004 guidance](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/troubleshoot-application-service-memory-leaks) describes system commit exhaustion and distinguishes commit from working set. [WSL configuration documentation](https://learn.microsoft.com/en-us/windows/wsl/wsl-config) describes VM memory/swap settings; this task has not changed them. Raw host evidence is retained in HOST_BEFORE.json, preparation scope in PROTOCOL/freeze.json.

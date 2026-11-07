@@ -1,0 +1,13 @@
+# AF1 complete camera-source feasibility decision
+
+Decision: STANDARD_LOCAL_CAMERA_PAYLOAD_ABSENT; APPEARANCE_TASK_NOT_YET_ADMITTED.
+
+The complete existing F2 input populations comprise100 pairs each for00/08,200 total, requiring273 distinct camera0 anchor-frame filenames. Both original input files match their frozen SHA256. The metadata reader parses numeric tokens as strings, extracts frame identifiers only and does not decode motion/reference arrays. It does not select by labels, scores or prior outcomes.
+
+Both known KITTI sequence trees have22 sequences00..21, with calib.txt and times.txt present. No standard image_0..3 or labels directory exists in any sequence. None of the273 expected camera0 files exists in either standard tree. This is directory/member availability only, not a global disk or archive absence claim, independent-scene count or camera-data authentication. A separate project literature-folder metadata check found no local primary camera paper; no unrelated file bodies were read.
+
+The first main implication is that an appearance experiment needs an actual measured image source. The second is task selection: historical F2/rejection reports already show missing correct candidates and modest pose errors, rather than gross false-place accepts. A whole-image pair score cannot rank transforms of the same pair or create a missing pose. TASK_SCREEN.md therefore limits a future question to pose-conditioned information/correction, with ordinary visual geometry and common measured observations as strong controls. Generic fusion is not an originality claim. No such method or score is implemented here.
+
+Metadata execution0.9659714s enclosing, native observed peak22,392,832bytes<128MiB; fresh host headroom80,390,234,112bytes and0.5612321s query pass the original12GiB/2s gate. Worker exits0 and exact process is reaped. The full900s preparation/strategy scope from06:14:08UTC includes earlier historical/directory reads and this execution; closing elapsed and evidence identities are recorded in CLOSE_CHECKS.json. Ordinary preparation/observer full-lifetime peaks remain unmeasured.
+
+The exact official KITTI page request KCS1 is prepared separately and awaits actual owner authorization; elapsed time or its preselected option is not approval. No external request, image/point/reference-value payload read, model, training, solver or new pose metric occurs in AF1. Existing exposed-data, old-family, source, production/default/install/Git/outreach/scheduler/goal-status and manuscript boundaries remain. Missing RegX provenance is not relabeled as resolved by this different task.

@@ -1,0 +1,48 @@
+{
+  "stage": "RLP1",
+  "status": "VALIDATED_PREREQUISITE_STOP",
+  "decision": "INSUFFICIENT_FIXED_WEAK_LABEL_COVERAGE",
+  "owner_approved_complete_reviewed_scope": true,
+  "training_authorized_conditionally": true,
+  "fitting_prerequisites_passed": false,
+  "engineering_validated_attempt": "engineering-preflight/attempt-03",
+  "engineering_windows": 4,
+  "engineering_bank_npzs": 16,
+  "weak_bank_complete": false,
+  "weak_partial_real_windows": 3,
+  "weak_partial_synthetic_npzs": 11,
+  "unprocessed_real_label_window": "07_000200",
+  "failing_sequence": "06",
+  "failing_directions": [
+    "02",
+    "20"
+  ],
+  "failing_scan_ids": [
+    199,
+    198
+  ],
+  "failing_positive_counts": [
+    15,
+    15
+  ],
+  "required_positive_rows_per_direction": 20,
+  "stop_evidence_independently_validated": true,
+  "stop_validation": "prerequisite-stop-audit/validation.json",
+  "head_and_solver_implemented": true,
+  "full_204_bank_generated": false,
+  "full_labels_generated": false,
+  "fitting_started": false,
+  "optimizer_updates": 0,
+  "primary_432_predictions_generated": false,
+  "model_GT_errors_computed": false,
+  "trajectory_run": false,
+  "accuracy_established": false,
+  "learnability_established": false,
+  "originality_established": false,
+  "scientific_rescue": false,
+  "earlier_engineering_writer_failures_preserved": true,
+  "recorded_compute_s": 115.32903792662546,
+  "next": "Fixed pilot stopped; any distinct new supervision/task design remains unselected and requires a new explicit request/scope",
+  "production_or_backbone_edit": false,
+  "git_sync": false
+}

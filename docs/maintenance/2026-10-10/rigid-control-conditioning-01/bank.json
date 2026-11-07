@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "case": "RAW_DIRECT",
+      "iterations": 12,
+      "closure_evaluations": 14
+    },
+    {
+      "case": "RAW_DECODE",
+      "iterations": 12,
+      "closure_evaluations": 14
+    },
+    {
+      "case": "SCALED_DIRECT",
+      "iterations": 4,
+      "closure_evaluations": 6
+    },
+    {
+      "case": "SCALED_DECODE",
+      "iterations": 4,
+      "closure_evaluations": 6
+    }
+  ],
+  "controls": 4,
+  "no_native_or_model_calls": true
+}

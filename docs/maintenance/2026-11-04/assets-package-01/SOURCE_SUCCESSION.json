@@ -1,0 +1,23 @@
+{
+  "changed_maintenance_sources": [
+    {
+      "root": "rap-main",
+      "path": "scripts/maintenance/index_code_entries.py",
+      "before_sha256": "e34ca3b53c02794f0c042c9c8045c679f25ecb513c82303df74924945e91e1de",
+      "after_sha256": "705fad19ab588e5647fa17df9deb724ba620449fecef696612b3e28d00cabdb4",
+      "before": "before/rap-main/scripts/maintenance/index_code_entries.py"
+    }
+  ],
+  "added_explicit_maintenance_tools": [
+    {
+      "root": "rap-main",
+      "path": "scripts/migration/content_bundle.py",
+      "bytes": 20076,
+      "sha256": "ce3e9c4aa3da5c042cbe74ba79713823db8d361de80a4c903a5ad899b10edc96"
+    }
+  ],
+  "other_baseline_code_config_files_unchanged": 902,
+  "production_or_training_source_changed": false,
+  "frozen_base_includes_A4_versions": true,
+  "A5_A6_control_plane_final_increment_deferred_to": "A7"
+}

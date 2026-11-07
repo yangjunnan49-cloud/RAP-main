@@ -1,0 +1,66 @@
+{
+  "all_match": true,
+  "original_freeze_entries": 144,
+  "attempt02_freeze_entries": 178,
+  "original_bank_reused_byte_exact": true,
+  "original_failure_and_INCOMPLETE_preserved": true,
+  "original_RESOURCE_LOG_preserved": true,
+  "original_scientific_algorithm_unchanged": true,
+  "validator_only_repair": true,
+  "prior_delivery_entries_unchanged": {
+    "measured-map-reoptimization-01": 35,
+    "shared-plane-map-pilot-01": 42,
+    "structural-holdout-map-pilot-01": 37,
+    "cross-visit-map-pilot-01": 42,
+    "rotation-protected-map-pilot-01": 39
+  },
+  "review_delivery_entries_unchanged": 6,
+  "complete_candidate_census_records": 22055,
+  "retained_points": 288000,
+  "intersection_summary_independently_checked": {
+    "00": {
+      "B": 167,
+      "G": 152
+    },
+    "05": {
+      "B": 126,
+      "G": 125
+    },
+    "06": {
+      "B": 194,
+      "G": 193
+    }
+  },
+  "independent_bank_validation": {
+    "passed": true,
+    "all_candidate_census_reconstructed": true,
+    "candidate_records": 22055,
+    "retained_points": 288000,
+    "all_row_membership_rejection_checked": true,
+    "independent_moment_eigenvalue_offset_max_delta": 1.1704248681354557e-12,
+    "independent_reference_pose_max_delta": 1.0125233984581428e-13,
+    "complete_overlap_and_intersection_checked": true,
+    "raw_preprocessing_replayed": false,
+    "optimizer_calls": 0,
+    "physical_surface_identity_verified": false
+  },
+  "independent_cost_validation": {
+    "passed": true,
+    "explicit_cost_records": 84,
+    "explicit_point_cost_max_delta": 9.917622278976523e-13,
+    "independent_translation_gradient_max_delta": 2.5396351688300456e-14,
+    "directional_fd_max_delta": 3.551003935342578e-11,
+    "all_preferences_and_patterns_checked": true,
+    "old_CV2_diagnostic_reproduced": true,
+    "optimizer_calls": 0,
+    "calibrated_accuracy_or_physical_causality": false
+  },
+  "model_config_checks": 8,
+  "opaque_checkpoint_sha256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200",
+  "checkpoint_deserialized": false,
+  "optimizer_calls": 0,
+  "raw_preprocessing_replayed": false,
+  "new_pose_errors_computed": false,
+  "independent_physical_surface_identity": false,
+  "closing_source_sha256": "07dbbaff11b217430f786f8967a7ad96cb6dc0570605dd6019cd748a41377825"
+}

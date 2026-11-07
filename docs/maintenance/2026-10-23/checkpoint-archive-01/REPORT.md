@@ -1,0 +1,9 @@
+# CA1 nonexecuting archive census complete
+
+Seven fixed opcode controls pass. Both whole-file hashes and every ZIP member CRC/read/hash pass without unpickling, tensor imports, class resolution or WSL startup. RAP has657 archive entries,653 storage members totaling355,413,064 bytes, and130,577 bytes of pickle metadata. miniSpinNet has107 entries,105 storage members totaling3,640,060 bytes, and10,949 bytes of pickle metadata. Full member identities and opcode/global inventories are in RESULTS.json.
+
+RAP metadata references OmegaConf classes, typing/builtin containers, NumPy reconstruction/dtypes, codecs and Torch tensor storages. The first CB1 unsupported ListConfig is one of several metadata globals; adding that class alone would not establish a safe or complete loader. miniSpinNet references Torch tensor rebuild/storage and OrderedDict only. No STACK_GLOBAL opcode is present. These are literal global references, not proof that an object's code executed or that its tensor values are valid.
+
+The762 RAP and58 miniSpinNet tensor-prefix strings are string-census counts, not parameter/state-tensor counts: metadata may reuse prefixes. No tensor semantic shape/value match or checkpoint provenance is established. CB1 remains INCOMPLETE without retry or allowlist change. Next useful prerequisite is a separate nonexecuting symbolic state-metadata extraction and shape/key comparison to CPU-only uninitialized architecture, with no checkpoint unpickling or forward call.
+
+The first default-sandbox CIM read was inaccessible before worker launch; HOST_PRECHECK_FAILURE_01 preserves it. A sandbox exemption allowed the same unchanged12GiB gate. One archive worker ran0.847s; observed peak working set34,598,912 bytes; initial host headroom89,580,814,336 bytes. Owned process exited. This is a local metadata inspection, not GPU/model feasibility or efficacy.

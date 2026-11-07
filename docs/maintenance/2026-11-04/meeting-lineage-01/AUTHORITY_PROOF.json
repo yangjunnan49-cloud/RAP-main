@@ -1,0 +1,470 @@
+{
+  "created_utc": "2026-11-04T13:12:21.968141+00:00",
+  "stage": "A6_LINEAGE_AND_PORTABLE_PREPARATION_WITH_HOLDS",
+  "previous_authority": "docs/maintenance/2026-11-04/assets-package-01/AUTHORITY_PROOF.json",
+  "current_files": [
+    {
+      "root": "rap-main",
+      "path": "AGENTS.md",
+      "bytes": 7505,
+      "sha256": "52ab2714dc7eaa7a0f4f91795a97f1e5dccd1e7abc424fa0b2c4a2e064dd6614"
+    },
+    {
+      "root": "rap-main",
+      "path": "README.md",
+      "bytes": 3180,
+      "sha256": "350f3301b342138a7d42df72085cce3cf3cc0819f7309cdb32b22d47a19201a5"
+    },
+    {
+      "root": "rap-main",
+      "path": "config/runtime.example.json",
+      "bytes": 256,
+      "sha256": "1bd7fa4aedc411addc1f3cd8766ee5519b3e83ca5c51655799a8e411dfc8ede2"
+    },
+    {
+      "root": "rap-main",
+      "path": "demo.py",
+      "bytes": 56169,
+      "sha256": "672877200858e18a3e664557d568e0520eeb289f6ac6f15854c0990222c95d88"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/CONVENTIONS.md",
+      "bytes": 4668,
+      "sha256": "c1bc18500713c9262354a2101cac54d48916c31d3e626ddef081319e74f4187a"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/CURRENT_STATE.json",
+      "bytes": 3769,
+      "sha256": "a5d089ecaa8ca7fed67925189df662280f4b9a00da0f52353389c8fa9f2c9ed6"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/CURRENT_STATE.md",
+      "bytes": 3686,
+      "sha256": "4bd2a73b33936939521f7f16372f8b0de3ed85e410c7b5e7d4fbf6196c83db5c"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/README.md",
+      "bytes": 1669,
+      "sha256": "c33f8566ddda0c9f3550bd088bbc0e48631509391d552e85d32256e85bece929"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/assets/DATASETS.md",
+      "bytes": 4138,
+      "sha256": "88496578d9ec753769cf06c6bb2f80b63d224b28a8a87466d311230b66b4b293"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/assets/MODELS.md",
+      "bytes": 1598,
+      "sha256": "fa1879fd98bdcf79724e40c16fd687189b95decc9b07dd5d1735cf068f425a3e"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/assets/PACKAGING.md",
+      "bytes": 3287,
+      "sha256": "6761d494ba608bf2b1b775b483ef5367b318b37657511c79c31fd82c2edf83de"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/assets/README.md",
+      "bytes": 1827,
+      "sha256": "7edf119bb4864aaf9daa6089dfeae974cd9d2a183bec14ca5770c19490885f7c"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/code/ENTRYPOINTS.jsonl",
+      "bytes": 607511,
+      "sha256": "ee8a0205a61af4dae8fdddf970a7485ee9fef02dd4df7047e02eae211115263d"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/code/README.md",
+      "bytes": 5676,
+      "sha256": "68feccd5ce62663957372388068e1f7f9bf83259ce513f91ad5ba5fe4703fbcd"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/code/RUNNING.md",
+      "bytes": 6830,
+      "sha256": "abb73a584b8058a0b831532043366d0acccf72d03728f1735a63fd9333e81d9a"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/environment/DEPENDENCIES.json",
+      "bytes": 99848,
+      "sha256": "1b531849f9822a27a1fecda6823d6b935f703b706011ae0943c7aba38e70d5dc"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/environment/OBSERVED.md",
+      "bytes": 5675,
+      "sha256": "cf7b44fa8100ef1ef04c0c4582056034726743d6382701c5615dc954933dadeb"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/environment/README.md",
+      "bytes": 1699,
+      "sha256": "260804cea92f82c73a02e3732a9eca8b353f170bc59a4b23d9ff688d71665d25"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/environment/SETUP.md",
+      "bytes": 6644,
+      "sha256": "f24487a5da72990987ab58ca520e7e1df5b02f68ea2ed2f48d32d85b7787f055"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/environment/SOURCES.md",
+      "bytes": 1795,
+      "sha256": "64d94d4225078429c9de11ca0ea8b8c8ac90eb03886b34dd1f012b3b5c53b419"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/environment/TRAINING.md",
+      "bytes": 5551,
+      "sha256": "2e884214be5119cf0c0f87bcf6148b62c92a521ddea30bab0668c962194676d3"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/environment/VALIDATION.md",
+      "bytes": 2911,
+      "sha256": "282e2efb38b0824707b268cb89dae9865e3fb22a4a6a16d9f37048d21661ef8d"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/CATALOG.md",
+      "bytes": 102801,
+      "sha256": "ec01c233542c643e67cc07394b42b70baf04f214c6a20c1718cc086fa856043a"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/GAPS.md",
+      "bytes": 3494,
+      "sha256": "9bb03b5d2638c603a7d75ddc3472fc71002812fb19221c6a2e18d126339a630c"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/MEETINGS.md",
+      "bytes": 1467,
+      "sha256": "3732b45ac59798e481193a53415cbdf58e7d296d539dbbd809c27f054937226b"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/PATHS.md",
+      "bytes": 1934,
+      "sha256": "0fc3e146caa20e989e3bf325f77b013cd2f9f997ee3d487517ef7698b4a45be2"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/README.md",
+      "bytes": 3858,
+      "sha256": "7b6d161cd88cea0963400ab762fd7bf051a4186f40cd06c04202639629498d6f"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/catalog.csv",
+      "bytes": 388558,
+      "sha256": "06b2af4ff7fb9f11ef91508ee8ab539e896839fa72966c24b7e4a0f68013a9da"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/catalog.jsonl",
+      "bytes": 9631577,
+      "sha256": "1b7b6ad95f52b09daf1b9201a6e2054bd7c5915b9cec56eb7ebfbee8592d0b0b"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/evidence/349942ba6cb94e0664c6dfe24bb005bfe20bf1014905bf22a737bcaa154eb732.md",
+      "bytes": 5582,
+      "sha256": "349942ba6cb94e0664c6dfe24bb005bfe20bf1014905bf22a737bcaa154eb732"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/evidence/7ca16ff436086cd8e80cd9264a1a9e2d6c0399754c297103f38afe3494b8751d.md",
+      "bytes": 1864,
+      "sha256": "7ca16ff436086cd8e80cd9264a1a9e2d6c0399754c297103f38afe3494b8751d"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/evidence/9e5a6ce18b2d00fa8fa569dbe3f7cec67054dbaae3a13dbe899ac2341ecdf34c.md",
+      "bytes": 3657,
+      "sha256": "9e5a6ce18b2d00fa8fa569dbe3f7cec67054dbaae3a13dbe899ac2341ecdf34c"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/evidence/a9b20280c6bd8289be5dae7642155786402588d0edfda6da347264e7cc190164.md",
+      "bytes": 2193,
+      "sha256": "a9b20280c6bd8289be5dae7642155786402588d0edfda6da347264e7cc190164"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/evidence/bda47d6a93ee0572ea46308c6cdef5bbbfc1ea106477a61df8af627fe280158d.md",
+      "bytes": 4315,
+      "sha256": "bda47d6a93ee0572ea46308c6cdef5bbbfc1ea106477a61df8af627fe280158d"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/evidence/cfa7c94351e54bbe8ed360b53586119709700258cc4b2cf693e947e28fc2f6de.md",
+      "bytes": 6711,
+      "sha256": "cfa7c94351e54bbe8ed360b53586119709700258cc4b2cf693e947e28fc2f6de"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/evidence/d7d9fb8006b8808f7eb8e87d795b07712419402bec8b5ed28e36aec4eb93d649.md",
+      "bytes": 4914,
+      "sha256": "d7d9fb8006b8808f7eb8e87d795b07712419402bec8b5ed28e36aec4eb93d649"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/evidence/da7c4f6b50d1427529820dce037d74ff83965683a0ccbf720df56ddaf3dcf8da.md",
+      "bytes": 3662,
+      "sha256": "da7c4f6b50d1427529820dce037d74ff83965683a0ccbf720df56ddaf3dcf8da"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/evidence/e9f4d013577871f955409e55c51773d5e300e6217892cee43eb7453a610e60dd.md",
+      "bytes": 1653,
+      "sha256": "e9f4d013577871f955409e55c51773d5e300e6217892cee43eb7453a610e60dd"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/evidence/ee837074986e526193aa8efb254260650cee004b976c60cac2105b6693b30191.md",
+      "bytes": 2148,
+      "sha256": "ee837074986e526193aa8efb254260650cee004b976c60cac2105b6693b30191"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/evidence/f00baf0e05484622bd3a6196fcd617739f030b44cce2673f74710dd5a5f8f229.md",
+      "bytes": 6791,
+      "sha256": "f00baf0e05484622bd3a6196fcd617739f030b44cce2673f74710dd5a5f8f229"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/experiments/evidence_manifest.json",
+      "bytes": 4871,
+      "sha256": "941d0b4e4baeeaaac8fe88157a56fd21ee21cf385bda82c5cbe047ce3f90f8a2"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/maintenance/README.md",
+      "bytes": 2534,
+      "sha256": "fe9daf2fa9533ca5c851746f4cea17b123a931f90825fc3ada74ea9fad988b27"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/meetings/BUILDING.md",
+      "bytes": 4910,
+      "sha256": "1cc1613bbd7bf42c8dd90ddc978820ac9c3c595dcc8bae41a6ab15f08048de9d"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/meetings/BUILD_CHAINS.json",
+      "bytes": 27310,
+      "sha256": "91219c7489f489e54cd0e22e0893235abbfebeef3f9b9da9b7cb968131e89301"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/meetings/CATALOG.json",
+      "bytes": 5895,
+      "sha256": "297c5617a0004cac196a57554795953ffa42adc731a406ace368668f2a4dee69"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/meetings/CATALOG.md",
+      "bytes": 7054,
+      "sha256": "9f2fd6be8395ac93c7c4fa7d1bf47597647a160524e950c552177df2a46eb52e"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/meetings/FILES.jsonl",
+      "bytes": 1185908,
+      "sha256": "d3650da16478f245e5a16fcbb7beff2b6d1628f3663e88dab3443794f8022ff0"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/meetings/GAPS.md",
+      "bytes": 2398,
+      "sha256": "3885def862aeea0c6739205fe409c2e78cf9ea8c8340a6489e13931c4137d9bf"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/meetings/README.md",
+      "bytes": 1609,
+      "sha256": "90b0439a70224b9a2fb492dce3b191590bad0be6ad52feebc43d04df8a1c7c8e"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/migration/PLAN.md",
+      "bytes": 13460,
+      "sha256": "a4adba3ef825183cd876fc46bb02e6d01c8caf9005c6b71fb76b3448abe8782f"
+    },
+    {
+      "root": "rap-main",
+      "path": "docs/migration/README.md",
+      "bytes": 4263,
+      "sha256": "9b2c1be969dfbc5bf156ee36a7c2b3caa88e6447daa93f8c713a510f90f6a258"
+    },
+    {
+      "root": "rap-main",
+      "path": "environment/requirements/core.txt",
+      "bytes": 430,
+      "sha256": "48b4a9888452dcd4a7d1c64208d7fb35b2ad4ee26068c0433cb9fa42bb633abc"
+    },
+    {
+      "root": "rap-main",
+      "path": "environment/requirements/observed-rap.constraints.txt",
+      "bytes": 3794,
+      "sha256": "853a7a2b7a8932e593f093251cee690ab11adf3f5916c7f1171e51ecb92b6424"
+    },
+    {
+      "root": "rap-main",
+      "path": "environment/requirements/render-ui.txt",
+      "bytes": 169,
+      "sha256": "6e44e0d688e1aeabb3b843df7e1f789435f611da45d8ece291e0f19f56a97f65"
+    },
+    {
+      "root": "rap-main",
+      "path": "environment/requirements/slam.txt",
+      "bytes": 151,
+      "sha256": "fbd8eec1aeb6a4fb174b4526e6858e39f922252a09b7d53370b84aa1cad77eae"
+    },
+    {
+      "root": "rap-main",
+      "path": "rap_runtime/__init__.py",
+      "bytes": 83,
+      "sha256": "dab9e597a7cc98bf266c0dac25e5c6594da86ee0c967e0abe397da8748fb6923"
+    },
+    {
+      "root": "rap-main",
+      "path": "rap_runtime/launch.py",
+      "bytes": 10505,
+      "sha256": "d07c674e0024a44b0f58a66fb7075b50e7377b95035be831ec1213d76bdb9d21"
+    },
+    {
+      "root": "rap-main",
+      "path": "rap_runtime/paths.py",
+      "bytes": 3210,
+      "sha256": "33b274f21f4b6d2731ba80f3778762630a9360a0d0f5beff1af4b9385c1c6b67"
+    },
+    {
+      "root": "rap-main",
+      "path": "sample.py",
+      "bytes": 10836,
+      "sha256": "5317afaaec443ccc70a77e027ada1ba505c5bda906fe8554824d1eae455c1b18"
+    },
+    {
+      "root": "rap-main",
+      "path": "scripts/environment/cpu_probe.py",
+      "bytes": 5220,
+      "sha256": "36f6c670c2a519915c381151f3e2bc6bfcb3b4cdc96d273e1ef1d9e0cfbc1742"
+    },
+    {
+      "root": "rap-main",
+      "path": "scripts/environment/inspect_metadata.py",
+      "bytes": 2106,
+      "sha256": "c8d0d5d9848ccdec6fac9a5f477222cb0020e323661d0d24fcc8ddfa2e9fe55c"
+    },
+    {
+      "root": "rap-main",
+      "path": "scripts/maintenance/index_code_entries.py",
+      "bytes": 6066,
+      "sha256": "92a079e5e8508003e88c5aac44181ec3ce0fde89a6787aa2faa356c04e362df8"
+    },
+    {
+      "root": "rap-main",
+      "path": "scripts/maintenance/query_experiments.py",
+      "bytes": 1712,
+      "sha256": "ab4d0bcdbb39dd3a8f84ddbfa972cdaa44d40236de9603d2a8c5920012a8099d"
+    },
+    {
+      "root": "rap-main",
+      "path": "scripts/maintenance/render_current_state.py",
+      "bytes": 4092,
+      "sha256": "2cf25b6be1f64459517ed64f7d7c68714ae2244828a7a4d7d0f8703bef58eb65"
+    },
+    {
+      "root": "rap-main",
+      "path": "scripts/meetings/materials.py",
+      "bytes": 7777,
+      "sha256": "bd6cebe8b7cb060d631713e38a5005b05cd7be872f5aeaccfb395f4de01f665b"
+    },
+    {
+      "root": "rap-main",
+      "path": "scripts/migration/content_bundle.py",
+      "bytes": 20076,
+      "sha256": "ce3e9c4aa3da5c042cbe74ba79713823db8d361de80a4c903a5ad899b10edc96"
+    },
+    {
+      "root": "rap-main",
+      "path": "scripts/run.py",
+      "bytes": 294,
+      "sha256": "0306a1d55ccd71cc22b1e8bc8577976393f7fc2a73d38e8b1065aeea1b14887c"
+    },
+    {
+      "root": "rap-main",
+      "path": "tests/test_environment_tools.py",
+      "bytes": 3535,
+      "sha256": "44b4e627970d3e7f5791b0c91f5fd0f60f7b2210366b749ce53031a16915cbe6"
+    },
+    {
+      "root": "rap-main",
+      "path": "tests/test_runtime_paths.py",
+      "bytes": 9396,
+      "sha256": "7026aacf47b5408a218af81f10ce7446a23d76ec863efc4979f155915f137086"
+    },
+    {
+      "root": "rap-slam",
+      "path": "AGENTS.md",
+      "bytes": 2514,
+      "sha256": "42eca69b1c737007c467c49cdec7bf0de1a537ca5cfb5b34c784e5b3097fbb66"
+    },
+    {
+      "root": "rap-slam",
+      "path": "README.md",
+      "bytes": 3858,
+      "sha256": "5aac52ccfad929580edef030e368a8bfa076f90393a74aad3c4c7e0ee41ea9b9"
+    },
+    {
+      "root": "rap-slam",
+      "path": "rap_slam/cli.py",
+      "bytes": 9185,
+      "sha256": "9319ec07f88570e9763ce49ee307dc45f6d0ac5dbe713b06872ce4db02adcc85"
+    },
+    {
+      "root": "rap-slam",
+      "path": "rap_slam/rap_backend.py",
+      "bytes": 25450,
+      "sha256": "f6c0c38f39d7135476501290376119a914ae4b90d348c441fd3e783c7632fb83"
+    },
+    {
+      "root": "rap-slam",
+      "path": "rap_slam/runtime_paths.py",
+      "bytes": 3899,
+      "sha256": "a35b6e3629c5ff69cabc6516ea07b26731cab4944a7b6ae19934477ce85ac266"
+    },
+    {
+      "root": "rap-slam",
+      "path": "scripts/run_pipeline.py",
+      "bytes": 17609,
+      "sha256": "8401eafba763f42ab4c5fa27b413a2c49cc4d87b3a2690e6c0bd75122b86ced6"
+    },
+    {
+      "root": "reports",
+      "path": "README.md",
+      "bytes": 1327,
+      "sha256": "8b39906d8ec1b1b9668abab27ecc4b3cdb2f51a6d45a6ac15ef3ccd97e95b19b"
+    },
+    {
+      "root": "workspace-root",
+      "path": "AGENTS.md",
+      "bytes": 2313,
+      "sha256": "2481125521531fabdccf25b63115a992fe070fbb64b0afb43b4bd64f5a4cbf26"
+    }
+  ],
+  "historical_scientific_claims_superseded": false
+}

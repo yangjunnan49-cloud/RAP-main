@@ -1,0 +1,9 @@
+# FDI1 amendment 01: original cohort binding correction
+
+The first evaluator failed its frozen count assertion (`00`: 27 radius-15 positives instead of the required original 75) before writing results.json. The 200-file GT-free response bank and all original code/protocol/freeze remain unchanged. FAILURE_01.json records this invalid evaluator attempt; it is not a negative mechanism result.
+
+The protocol incorrectly equated F2 positives with E0's 15 m online place radius. F2 PROTOCOL.md section 1 and its original evaluator explicitly define the four strata `confuser`, `ambiguous_positive`, `low_overlap`, `ordinary`, with 25 each. The original 75 non-confuser positives and 41 hard08 positives were the intended frozen primary cohort; restoring their existing identities corrects provenance rather than selecting favorable new outputs. All 200 rows remain included. This correction is post-label exposure and is disclosed; no prospective independence is claimed.
+
+Evaluator v2 binds positive membership to each original source evaluator's `stratum != confuser`, with complete one-to-one source_i/source_j equality against F2 input lists. Strict availability remains all original N0–N3 poses under unchanged 1 m/5 deg GT labels. Required 75/75 and 41 counts, every information margin, sign, safety, coverage, extraction setting, control and resource limit remain unchanged. Raw GT and calibration computation stays unchanged. Add the original source evaluator files and both new v2 scripts to amendment_freeze.json before corrected evaluation. Validate all identities and the immutable complete response bank first. Preserve original frozen evaluator/validator and do not regenerate any matrix.
+
+This is an evaluator cohort-binding repair, not a pose, label, radius, margin, method or bank rescue. The predeclared primary/safety cohorts are retained. Report both the initial failure and final decision.

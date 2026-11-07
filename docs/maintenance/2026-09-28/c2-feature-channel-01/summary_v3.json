@@ -1,0 +1,86 @@
+{
+  "scope": "fixed small observed-development feature-channel intervention",
+  "decision": "POSE_LEVEL_FEATURE_RELIANCE",
+  "ordinary_pairs": 7,
+  "ordinary_raw_responses": 6,
+  "ordinary_pose_responses": 6,
+  "groups": {
+    "00_confuser": {
+      "pairs": 4,
+      "raw_responses": 4,
+      "pose_responses": 4,
+      "true_strict": 0,
+      "shuffled_strict": 0,
+      "true_accepted": 0,
+      "shuffled_accepted": 0
+    },
+    "00_ambiguous_positive": {
+      "pairs": 4,
+      "raw_responses": 4,
+      "pose_responses": 4,
+      "true_strict": 4,
+      "shuffled_strict": 0,
+      "true_accepted": 0,
+      "shuffled_accepted": 0
+    },
+    "00_low_overlap": {
+      "pairs": 3,
+      "raw_responses": 3,
+      "pose_responses": 3,
+      "true_strict": 0,
+      "shuffled_strict": 0,
+      "true_accepted": 1,
+      "shuffled_accepted": 0
+    },
+    "00_ordinary": {
+      "pairs": 3,
+      "raw_responses": 3,
+      "pose_responses": 3,
+      "true_strict": 3,
+      "shuffled_strict": 2,
+      "true_accepted": 3,
+      "shuffled_accepted": 2
+    },
+    "08_confuser": {
+      "pairs": 2,
+      "raw_responses": 2,
+      "pose_responses": 2,
+      "true_strict": 0,
+      "shuffled_strict": 0,
+      "true_accepted": 0,
+      "shuffled_accepted": 0
+    },
+    "08_ambiguous_positive": {
+      "pairs": 4,
+      "raw_responses": 4,
+      "pose_responses": 3,
+      "true_strict": 4,
+      "shuffled_strict": 1,
+      "true_accepted": 2,
+      "shuffled_accepted": 1
+    },
+    "08_low_overlap": {
+      "pairs": 4,
+      "raw_responses": 4,
+      "pose_responses": 4,
+      "true_strict": 0,
+      "shuffled_strict": 0,
+      "true_accepted": 0,
+      "shuffled_accepted": 0
+    },
+    "08_ordinary": {
+      "pairs": 4,
+      "raw_responses": 3,
+      "pose_responses": 3,
+      "true_strict": 2,
+      "shuffled_strict": 1,
+      "true_accepted": 4,
+      "shuffled_accepted": 2
+    }
+  },
+  "bank_sha256": "feca55849929d11ae4b0152d155bb5d6e981014eb611f996538fbf828c6647c1",
+  "amendments": [
+    "AMENDMENT_01",
+    "AMENDMENT_02"
+  ]
+}

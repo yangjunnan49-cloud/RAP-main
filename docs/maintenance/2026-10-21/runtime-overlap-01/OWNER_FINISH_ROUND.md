@@ -1,0 +1,5 @@
+# Latest explicit owner finish-round instruction
+
+After the actual100%/ordinaryUsageAllowed false observation at following2026-10-21 04:09:41UTC, owner explicitly said: 继续完成本轮任务，并且在结束后做好更新和记录.
+
+This latest human instruction changes the earlier user-requested quota stopping point only to finish/close the already-running frozen round and update records. It does not claim an account reset, credit purchase, alternate model/account, automatic continuation or another candidate. Current rawrun02 may finish its already-declared72-cell bank only within ORIGINAL9000s P0 cap. If that cap stops first, preserve incomplete status and never reset the cap to force a result. No GT/qualification on incomplete72 bank. After numerical work ends, finalize bounded documentary records, failures/costs/seals/AGENTS/handoff and state exactly what passed/pended. Original R0+S1closed6762.0941485 unchanged. No production/default/reference/model/Git/outreach/scheduler/goal-status expansion. No automatic later resumption.

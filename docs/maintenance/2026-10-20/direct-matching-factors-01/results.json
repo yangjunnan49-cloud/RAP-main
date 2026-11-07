@@ -1,0 +1,89 @@
+{
+  "utc": "2026-10-20T03:54:27.355823+00:00",
+  "gt_read_started_utc": "2026-10-20T03:54:25.391476+00:00",
+  "bank_seal_sha256": "2bedb50b61699b9491a9b1b47977f37024e05838de4e33d587bf20bdad15a0a3",
+  "rows": {
+    "00": {
+      "B": {
+        "ate": 2.7544369643716693,
+        "ter": 0.5181706833745697,
+        "rer": 0.17831248378864017,
+        "segments": 3283
+      },
+      "Q": {
+        "ate": 2.746673546831796,
+        "ter": 0.5195134264529699,
+        "rer": 0.1779019684638741,
+        "segments": 3283
+      },
+      "D": {
+        "ate": 2.767455696642323,
+        "ter": 0.5219511699285992,
+        "rer": 0.17817485199521388,
+        "segments": 3283
+      }
+    },
+    "05": {
+      "B": {
+        "ate": 1.2946993632801698,
+        "ter": 0.32047302400984345,
+        "rer": 0.12095075248913754,
+        "segments": 1806
+      },
+      "Q": {
+        "ate": 1.2965519841386632,
+        "ter": 0.32129439872393417,
+        "rer": 0.12136511335079274,
+        "segments": 1806
+      },
+      "D": {
+        "ate": 1.2908708046767925,
+        "ter": 0.3227326217782457,
+        "rer": 0.12365535178903805,
+        "segments": 1806
+      }
+    }
+  },
+  "gate": {
+    "means": {
+      "B": {
+        "ate": 2.0245681638259194,
+        "ter": 0.4193218536922066,
+        "rer": 0.14963161813888887
+      },
+      "Q": {
+        "ate": 2.0216127654852296,
+        "ter": 0.42040391258845206,
+        "rer": 0.1496335409073334
+      },
+      "D": {
+        "ate": 2.0291632506595576,
+        "ter": 0.42234189585342247,
+        "rer": 0.15091510189212598
+      }
+    },
+    "tests": {
+      "B_ATE_gain_5pct": false,
+      "00_B_ATE_improves": false,
+      "00_B_ATE_harm5pct": true,
+      "00_B_ter_harm": true,
+      "00_B_rer_harm": true,
+      "05_B_ATE_improves": true,
+      "05_B_ATE_harm5pct": true,
+      "05_B_ter_harm": true,
+      "05_B_rer_harm": true,
+      "Q_ATE_gain_5pct": false,
+      "00_Q_ATE_improves": false,
+      "00_Q_ATE_harm5pct": true,
+      "00_Q_ter_harm": true,
+      "00_Q_rer_harm": true,
+      "05_Q_ATE_improves": true,
+      "05_Q_ATE_harm5pct": true,
+      "05_Q_ter_harm": true,
+      "05_Q_rer_harm": true,
+      "B_mean_ter_nonworse": false,
+      "B_mean_rer_nonworse": false
+    },
+    "passed": false
+  }
+}

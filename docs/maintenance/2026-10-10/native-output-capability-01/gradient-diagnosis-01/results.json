@@ -1,0 +1,165 @@
+{
+  "optimizer_updates": 0,
+  "records": [
+    {
+      "scale": 1,
+      "loss": 5.943325049884152e-06,
+      "groups": {
+        "A": 0.0,
+        "B": 0.0,
+        "MLP": 0.0025618496060904315
+      },
+      "parameters": {
+        "transformer_layers.10.global_qkv_proj.A": {
+          "norm": 0.0,
+          "nonzero": 0,
+          "elements": 4096
+        },
+        "transformer_layers.10.global_qkv_proj.B": {
+          "norm": 0.0,
+          "nonzero": 0,
+          "elements": 12288
+        },
+        "transformer_layers.10.global_out_proj.A": {
+          "norm": 0.0,
+          "nonzero": 0,
+          "elements": 4096
+        },
+        "transformer_layers.10.global_out_proj.B": {
+          "norm": 0.0,
+          "nonzero": 0,
+          "elements": 4096
+        },
+        "transformer_layers.11.global_qkv_proj.A": {
+          "norm": 0.0,
+          "nonzero": 0,
+          "elements": 4096
+        },
+        "transformer_layers.11.global_qkv_proj.B": {
+          "norm": 0.0,
+          "nonzero": 0,
+          "elements": 12288
+        },
+        "transformer_layers.11.global_out_proj.A": {
+          "norm": 0.0,
+          "nonzero": 0,
+          "elements": 4096
+        },
+        "transformer_layers.11.global_out_proj.B": {
+          "norm": 0.0,
+          "nonzero": 0,
+          "elements": 4096
+        },
+        "final_mlp.0.weight": {
+          "norm": 0.001445523035828703,
+          "nonzero": 262144,
+          "elements": 262144
+        },
+        "final_mlp.0.bias": {
+          "norm": 1.3947861664360647e-05,
+          "nonzero": 512,
+          "elements": 512
+        },
+        "final_mlp.2.weight": {
+          "norm": 0.0012849659267264275,
+          "nonzero": 131072,
+          "elements": 131072
+        },
+        "final_mlp.2.bias": {
+          "norm": 0.0001254967596436846,
+          "nonzero": 256,
+          "elements": 256
+        },
+        "final_mlp.4.weight": {
+          "norm": 0.0016752477860723439,
+          "nonzero": 768,
+          "elements": 768
+        }
+      }
+    },
+    {
+      "scale": 1024,
+      "loss": 5.943325049884152e-06,
+      "groups": {
+        "A": 0.0,
+        "B": 3.129195720771508e-05,
+        "MLP": 0.0025618496060904315
+      },
+      "parameters": {
+        "transformer_layers.10.global_qkv_proj.A": {
+          "norm": 0.0,
+          "nonzero": 0,
+          "elements": 4096
+        },
+        "transformer_layers.10.global_qkv_proj.B": {
+          "norm": 1.5679765402058676e-05,
+          "nonzero": 8956,
+          "elements": 12288
+        },
+        "transformer_layers.10.global_out_proj.A": {
+          "norm": 0.0,
+          "nonzero": 0,
+          "elements": 4096
+        },
+        "transformer_layers.10.global_out_proj.B": {
+          "norm": 1.0396245425656523e-05,
+          "nonzero": 4095,
+          "elements": 4096
+        },
+        "transformer_layers.11.global_qkv_proj.A": {
+          "norm": 0.0,
+          "nonzero": 0,
+          "elements": 4096
+        },
+        "transformer_layers.11.global_qkv_proj.B": {
+          "norm": 2.018810440965235e-05,
+          "nonzero": 10828,
+          "elements": 12288
+        },
+        "transformer_layers.11.global_out_proj.A": {
+          "norm": 0.0,
+          "nonzero": 0,
+          "elements": 4096
+        },
+        "transformer_layers.11.global_out_proj.B": {
+          "norm": 1.4754323577188032e-05,
+          "nonzero": 4096,
+          "elements": 4096
+        },
+        "final_mlp.0.weight": {
+          "norm": 0.001445523035828703,
+          "nonzero": 262144,
+          "elements": 262144
+        },
+        "final_mlp.0.bias": {
+          "norm": 1.3947861664360647e-05,
+          "nonzero": 512,
+          "elements": 512
+        },
+        "final_mlp.2.weight": {
+          "norm": 0.0012849659267264275,
+          "nonzero": 131072,
+          "elements": 131072
+        },
+        "final_mlp.2.bias": {
+          "norm": 0.0001254967596436846,
+          "nonzero": 256,
+          "elements": 256
+        },
+        "final_mlp.4.weight": {
+          "norm": 0.0016752477860723439,
+          "nonzero": 768,
+          "elements": 768
+        }
+      }
+    }
+  ],
+  "decision": "UNSCALED_FP16_ADAPTER_GRADIENT_UNDERFLOW_CONFIRMED",
+  "intended_loss_unchanged": true,
+  "loss_scale_1024_restores_all_B_gradients": true,
+  "wall_seconds": 8.203659689985216,
+  "peak_RSS_bytes": 2600562688,
+  "peak_GPU_allocated_bytes": 641090048,
+  "peak_GPU_reserved_bytes": 681574400,
+  "artifact_bytes": 3559966
+}

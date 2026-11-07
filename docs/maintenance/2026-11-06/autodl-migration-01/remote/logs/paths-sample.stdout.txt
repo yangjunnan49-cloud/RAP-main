@@ -1,0 +1,67 @@
+{
+  "task": "sample",
+  "mode": "check",
+  "cwd": "/root/autodl-tmp/rap-workspace-20261106/RAP-main",
+  "argv": [
+    "/root/autodl-tmp/rap-envs/rap-20261106/bin/python",
+    "-B",
+    "/root/autodl-tmp/rap-workspace-20261106/RAP-main/sample.py",
+    "--config-name",
+    "RAP_inference",
+    "data_root=\"/root/autodl-tmp/rap-workspace-20261106/RAP-main/demo_example_data\"",
+    "log_dir=\"/root/autodl-tmp/rap-workspace-20261106/RAP-runs/sample/a8-path-contract-sample\"",
+    "ckpt_path=\"/root/autodl-tmp/rap-workspace-20261106/RAP-main/weights/rap_model_12.ckpt\"",
+    "hydra.job.chdir=false"
+  ],
+  "output": "/root/autodl-tmp/rap-workspace-20261106/RAP-runs/sample/a8-path-contract-sample",
+  "paths": {
+    "workspace": "/root/autodl-tmp/rap-workspace-20261106",
+    "rap_root": "/root/autodl-tmp/rap-workspace-20261106/RAP-main",
+    "slam_root": "/root/autodl-tmp/rap-workspace-20261106/RAP-SLAM",
+    "datasets_root": "/root/autodl-tmp/rap-workspace-20261106/Datasets",
+    "weights_root": "/root/autodl-tmp/rap-workspace-20261106/RAP-main/weights",
+    "output_root": "/root/autodl-tmp/rap-workspace-20261106/RAP-runs",
+    "cache_root": "/root/autodl-tmp/rap-workspace-20261106/.cache/rap",
+    "sample_checkpoint": "/root/autodl-tmp/rap-workspace-20261106/RAP-main/weights/rap_model_12.ckpt",
+    "demo_checkpoint": "/root/autodl-tmp/rap-workspace-20261106/RAP-main/weights/rap_model_12.ckpt",
+    "backend_checkpoint": "/root/autodl-tmp/rap-workspace-20261106/RAP-main/weights/rap_model_12.ckpt",
+    "spinnet_checkpoint": "/root/autodl-tmp/rap-workspace-20261106/RAP-main/weights/mini_spinnet_t.pth"
+  },
+  "path_sources": {
+    "workspace": "json",
+    "rap_root": "layout",
+    "slam_root": "layout",
+    "datasets_root": "layout",
+    "weights_root": "layout",
+    "output_root": "json",
+    "cache_root": "json",
+    "sample_checkpoint": "json",
+    "demo_checkpoint": "json",
+    "backend_checkpoint": "layout",
+    "spinnet_checkpoint": "layout"
+  },
+  "required_paths": [
+    {
+      "role": "entry point",
+      "path": "/root/autodl-tmp/rap-workspace-20261106/RAP-main/sample.py",
+      "kind": "file"
+    },
+    {
+      "role": "input",
+      "path": "/root/autodl-tmp/rap-workspace-20261106/RAP-main/demo_example_data",
+      "kind": "directory"
+    },
+    {
+      "role": "inference config",
+      "path": "/root/autodl-tmp/rap-workspace-20261106/RAP-main/config/RAP_inference.yaml",
+      "kind": "file"
+    },
+    {
+      "role": "RAP checkpoint",
+      "path": "/root/autodl-tmp/rap-workspace-20261106/RAP-main/weights/rap_model_12.ckpt",
+      "kind": "file"
+    }
+  ],
+  "errors": [],
+  "validation_scope": "Path/CLI checks only; no data provenance, model, dependency, or numerical validation"
+}

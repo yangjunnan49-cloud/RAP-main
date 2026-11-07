@@ -1,0 +1,130 @@
+{
+  "scope": "retrospective reporting consolidation",
+  "o3_rows": [
+    {
+      "sequence": "poss",
+      "method": "RAP",
+      "accepted": 4,
+      "attempted": 4,
+      "first_ape_m": 1.8222638483087499,
+      "aligned_ape_m": 0.6660539735573079,
+      "translation_drift_pct": 1.961403123194832,
+      "rotation_drift_deg100m": 1.9783958094179124
+    },
+    {
+      "sequence": "poss",
+      "method": "ICP identity",
+      "accepted": 4,
+      "attempted": 4,
+      "first_ape_m": 1.8577107907354347,
+      "aligned_ape_m": 0.6584258065619746,
+      "translation_drift_pct": 1.974555917730414,
+      "rotation_drift_deg100m": 1.9736583893097668
+    },
+    {
+      "sequence": "poss",
+      "method": "ICP odometry",
+      "accepted": 4,
+      "attempted": 4,
+      "first_ape_m": 1.9127020608137866,
+      "aligned_ape_m": 0.6766709309049374,
+      "translation_drift_pct": 1.9884895478278506,
+      "rotation_drift_deg100m": 1.9779646627038017
+    },
+    {
+      "sequence": "kitti06",
+      "method": "RAP",
+      "accepted": 12,
+      "attempted": 12,
+      "first_ape_m": 2.5334338945510244,
+      "aligned_ape_m": 0.8628291182225877,
+      "translation_drift_pct": 0.6637970378949072,
+      "rotation_drift_deg100m": 0.3155631119779143
+    },
+    {
+      "sequence": "kitti06",
+      "method": "ICP identity",
+      "accepted": 12,
+      "attempted": 12,
+      "first_ape_m": 2.576697139700995,
+      "aligned_ape_m": 0.8566660356241008,
+      "translation_drift_pct": 0.6607276234074412,
+      "rotation_drift_deg100m": 0.31441949910895245
+    },
+    {
+      "sequence": "kitti06",
+      "method": "ICP odometry",
+      "accepted": 12,
+      "attempted": 12,
+      "first_ape_m": 2.581415738374559,
+      "aligned_ape_m": 0.8560603901323818,
+      "translation_drift_pct": 0.6606862050214323,
+      "rotation_drift_deg100m": 0.31432301586541256
+    },
+    {
+      "sequence": "kitti05",
+      "method": "RAP",
+      "accepted": 12,
+      "attempted": 12,
+      "first_ape_m": 3.2140836230298824,
+      "aligned_ape_m": 1.1682156013417329,
+      "translation_drift_pct": 0.7158243293177713,
+      "rotation_drift_deg100m": 0.34119302321943223
+    },
+    {
+      "sequence": "kitti05",
+      "method": "ICP identity",
+      "accepted": 9,
+      "attempted": 12,
+      "first_ape_m": 3.179687598831671,
+      "aligned_ape_m": 1.1856937773205878,
+      "translation_drift_pct": 0.6982341287475818,
+      "rotation_drift_deg100m": 0.33518590559620065
+    },
+    {
+      "sequence": "kitti05",
+      "method": "ICP odometry",
+      "accepted": 12,
+      "attempted": 12,
+      "first_ape_m": 3.137198483612141,
+      "aligned_ape_m": 1.1579175799517336,
+      "translation_drift_pct": 0.7262229107222797,
+      "rotation_drift_deg100m": 0.3460303574642998
+    },
+    {
+      "sequence": "kitti00",
+      "method": "RAP",
+      "accepted": 12,
+      "attempted": 12,
+      "first_ape_m": 10.33694312608405,
+      "aligned_ape_m": 2.109191709797713,
+      "translation_drift_pct": 0.8966506692421152,
+      "rotation_drift_deg100m": 0.38422464651604643
+    },
+    {
+      "sequence": "kitti00",
+      "method": "ICP identity",
+      "accepted": 11,
+      "attempted": 12,
+      "first_ape_m": 10.512413850726116,
+      "aligned_ape_m": 2.1073575060833853,
+      "translation_drift_pct": 0.8945347362162989,
+      "rotation_drift_deg100m": 0.38475364723210764
+    },
+    {
+      "sequence": "kitti00",
+      "method": "ICP odometry",
+      "accepted": 12,
+      "attempted": 12,
+      "first_ape_m": 10.567533475885686,
+      "aligned_ape_m": 2.131840127253232,
+      "translation_drift_pct": 0.9025999626170034,
+      "rotation_drift_deg100m": 0.3879399927709953
+    }
+  ],
+  "source_hashes": {
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-11/core-baseline-v1/registry.json": "4576e036fd62d43b6d6f0bffb3fda48e03dae3863d021ec028b1d0b608280127",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-13/o3-comparator-01/summary.json": "4dea38c7134e0da6c6f3da4fc0abcc45ce9c43c219db469ea9d0cdd085f4f01c",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-13/o3-comparator-01/association_validation.json": "257837df3fe10cfdd949dc35c77ceb4bcee503e54ab41a1b7a2a0924a9ccb736"
+  }
+}

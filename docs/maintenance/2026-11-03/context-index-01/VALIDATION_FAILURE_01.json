@@ -1,0 +1,13 @@
+{
+  "stage": "A2 catalog query acceptance",
+  "verifier_exit_code": 1,
+  "query_child_exit_code_observed": 0,
+  "failure": "UnicodeDecodeError in subprocess reader, followed by json.loads(None) TypeError",
+  "observed_decode_error": "utf-8 could not decode byte 0xc6 at position 355",
+  "cause_scope": "Windows locale output encoding and parent UTF-8 decoding differed",
+  "preserved_before_fix": ["attempt01/query_experiments.py", "attempt01/verify_context.py"],
+  "repair": "The standalone query CLI explicitly configures stdout as UTF-8",
+  "catalog_or_scientific_source_modified_by_repair": false,
+  "partial_PGC1_accuracy_read": false,
+  "scientific_rerun": false
+}

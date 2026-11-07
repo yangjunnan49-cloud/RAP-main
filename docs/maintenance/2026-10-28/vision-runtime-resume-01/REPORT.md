@@ -1,0 +1,7 @@
+# OVR1 CLOSED range read timeout; no install
+
+The separately authorized single fixed Range bytes34603008-43825961 also fails on read timeout. The new206/Content-Range/declared-length guards passed before creating the new file and copying the preserved original prefix, but no new application body block was returned/saved. This is not a claim of zero underlying transport bytes. New network body recorded0; copied prefix34603008bytes, SHA22c62a0f871176823251f111ef10cb5c1ec7dbb948494ad3d524551601710026. Expected full wheel SHA never passes; no safety admission, install or API check occurs.
+
+Worker104.81299999996554s, enclosing106.2095036s, peak56553472bytes, fresh headroom84631736320bytes/query1.1819433s; child exits1/reaped, no forced stop. One request consumed/no retry or endpoint/version fallback. Original failed OVI1 dossier and prefix remain unchanged. Both failed scopes remain failed; available disk/cap balance is not an automatic permission to continue.
+
+The owner is asked to obtain the exact same fixed wheel manually in the browser and provide a local path, without installing it. No third agent transfer is pending. All273 verified image bytes/calibration/time consistency results survive; ordinary visual algorithm execution remains unavailable until a complete validated compatible runtime exists. No new image algorithm/model/training, existing-environment/default/production/Git/outreach change.

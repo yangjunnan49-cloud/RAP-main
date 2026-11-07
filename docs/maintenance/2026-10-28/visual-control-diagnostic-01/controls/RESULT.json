@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "completed_utc": "2026-10-28T06:59:32.421393+00:00",
+  "elapsed_seconds": 0.15700000000651926,
+  "child_lifetime_peak_bytes": 41422848,
+  "audited_read_paths": [
+    "e:\\githouse\\rap-main\\docs\\maintenance\\2026-10-28\\visual-control-diagnostic-01\\controls\\cache.npz"
+  ],
+  "torch_imported": false,
+  "controls": [
+    {
+      "name": "mutual_identity",
+      "passed": true
+    },
+    {
+      "name": "strict_ratio_ties",
+      "passed": true
+    },
+    {
+      "name": "short_descriptors",
+      "passed": true
+    },
+    {
+      "name": "blank_image",
+      "passed": true
+    },
+    {
+      "name": "insufficient_no_pose",
+      "passed": true
+    },
+    {
+      "name": "collinear_no_pose",
+      "passed": true
+    },
+    {
+      "name": "nonfinite_no_pose",
+      "passed": true
+    },
+    {
+      "name": "reference_composition",
+      "passed": true
+    },
+    {
+      "name": "zero_translation_null",
+      "passed": true
+    },
+    {
+      "name": "analytic_truth_epipolar_identity",
+      "passed": true
+    },
+    {
+      "name": "no_pickle_cache_roundtrip",
+      "passed": true
+    },
+    {
+      "name": "reference_binding_denied",
+      "passed": true
+    },
+    {
+      "name": "allowlisted_cache_after_audit_hook",
+      "passed": true
+    }
+  ],
+  "control_count": 13,
+  "consensus_certificate_established": true,
+  "VB1_remains_closed_fail": true,
+  "real_image_prediction_admitted": false,
+  "measured_image_reference_reads": 0
+}

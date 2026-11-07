@@ -1,0 +1,7 @@
+# Next design after native preflight stop
+
+DESIGN_ONLY, no new protocol freeze or numerical execution. Preserve the declared prerequisite failure and P replay mismatch; do not run400 updates or relax loss-decrease/byte-equality gates.
+
+First design a bounded computational reproducibility diagnosis, separately from optimizer fitting: distinguish repeated full-forward backward from cached versus full backward on identical immutable inputs, retaining upstream endpoint gradients and each trainable tensor rather than only group norms. Predeclare numeric precision/determinism checks, matching criteria, zero retained update policy and failure/resource boundaries. The current P discrepancy does not prove caching is its unique cause; V exact replay also prevents a blanket cache-failure conclusion. Such a new diagnostic is not executed or frozen here.
+
+Only after justified reproducible parameter-direction evidence should a distinct optimizer policy be designed around whole-parameter/functional update magnitude and directional finite differences. The current selected output-weight FD and coordinate bound do not certify actual-step descent. NOC3's twelve-dimensional scaled float64 L-BFGS cannot be imported as proof of neural conditioning. Do not rescue this exact pilot with extra rates/steps/scales/seeds/init, retain old affine stops, and require a fresh prospective scope before any new neural numerical execution. No real/nearby/trajectory or production promotion follows.

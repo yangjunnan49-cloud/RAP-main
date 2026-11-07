@@ -1,0 +1,5 @@
+# WLC1 all eight functional controls pass
+
+The immutable serial/nonce mailbox host passed the predeclared normal exchange, missing lease, nonzero exit7, missing RESULT, external stop of a blocking child, future serial rejection, source-mismatch no-launch, and commitment-preflight no-launch cases. The6 launched synthetic workers and8 harness-owned hosts exited/reaped. Expected refusals remain in the individual original logs and are not scientific execution failures. Runtime6.297s; no data, numerical library, model, network, WSL or GPU.
+
+The future-use host additionally requires >=1 observed nonce response before a success receipt. Earlier successful scientific stages already have nonzero exchanges. No completed scientific source/receipt is rewritten or retroactively claimed to use this host. The changed protocol is a tested maintenance artifact only; it is not integrated into production. External resource observation still does not provide OS isolation or complete transient-peak coverage.

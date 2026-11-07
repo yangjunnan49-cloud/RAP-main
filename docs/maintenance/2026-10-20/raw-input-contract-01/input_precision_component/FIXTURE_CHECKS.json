@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "executable": "/root/miniconda3/envs/rap-inference/bin/python",
+      "stdout": "PASS 1.26.4 (10003, 3) exact original float32 bytes\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "executable": "/root/venvs/kiss-slam-hc1/bin/python",
+      "stdout": "PASS 2.2.6 (10003, 3) exact original float32 bytes\n",
+      "stderr": "",
+      "returncode": 0
+    }
+  ],
+  "new_registration_calls": 0,
+  "original_source_sha256": "ecb438df719e5e61632163d6a620fca114f80f7fce920147a3a8234ea52684d1",
+  "certified_component_sha256": "af4f5dbb226bf96edfb820f19fcc488d4e223db90bffe7a2428e5703c8d1d0d4"
+}

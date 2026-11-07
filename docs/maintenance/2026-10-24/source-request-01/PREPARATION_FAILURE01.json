@@ -1,0 +1,12 @@
+{
+  "classification": "WINDOWS_DEFAULT_GBK_DECODE_FAILURE_ON_EXISTING_UTF8_ATTRIBUTION",
+  "source": "Actual prepare.py exit1, chunk722c5a",
+  "error": "UnicodeDecodeError: gbk cannot decode byte0x94 at position907",
+  "old_source_and_input_bytes_preserved": true,
+  "all_three_length_SHA256_Git_blob_checks_completed_before_failure": true,
+  "source_pointer_or_request_plan_written_before_failure": false,
+  "network_requests": 0,
+  "exact_failure_UTC": null,
+  "repair": "Separate prepare02 uses explicit UTF-8 for text reads; original script remains unchanged",
+  "all_time_remains_in_original_600s_scope": true
+}

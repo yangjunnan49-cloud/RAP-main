@@ -1,0 +1,7 @@
+# Explicit owner continuation, 2026-10-21
+
+Owner: 请继续推进. This is an explicit new continuation after an overnight user message, not automatic quota-reset resumption. Following actual account query0%/ordinaryUsageAllowed true/reset1792563859 at2026-10-21 01:24:26UTC. Previous observed reset1792523562/97% at2026-10-20 15:57:35UTC; no100% or disallowed boundary was observed in that previous window. Record window identity transition only, not exhaustion.
+
+All36 original raw-core predictions completed and sealed2026-10-20 16:27:56UTC before GT. Current work completes the existing frozen source/graph audit, independent evaluation and reviewed delivery. Shared original R0+S1 7200s, all failed/preparation/controller stages and conservative run05 upper bound included; no cap reset. Latest completed-stage charge6279.1301219s before active audit. Numerical workers ended; no payload waited overnight. No scheduler or automatic new benchmark. Original failed sources, old scope/stops/seals/default/install/reference/Git/outreach/goal states preserved. Original research goal unresolved.
+
+Active outputs remain docs/maintenance/2026-10-20/raw-input-contract-01. audit_raw_input_bindings06.py audit_bindings then raw_input_system06.py evaluate06; reporting correction07 adds complete cost accounting and portable export documentation only. Do not confuse cached October20 G result with this new all36 fresh raw trajectory-core result, or claim full native CLI side-product cost/new RAP efficacy.

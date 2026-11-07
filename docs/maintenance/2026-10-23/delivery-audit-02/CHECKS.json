@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "utc": "2026-10-23T09:34:38.049294+00:00",
+  "old_payload_entries": 291,
+  "old_closed_costs_unchanged": 6,
+  "current_source_files": 78,
+  "weights_unchanged": 2,
+  "public_files_unchanged": 8,
+  "new_manifest_entries": 746,
+  "new_manifest_bytes": 1459231,
+  "JSON_receipts_parsed": 382,
+  "Python_files_AST_parsed": 42,
+  "active_freezes": [
+    {
+      "scope": "feature-candidate-01",
+      "active_runtime_files": 6,
+      "matches": true
+    },
+    {
+      "scope": "checkpoint-binding-01",
+      "active_runtime_files": 6,
+      "matches": true
+    },
+    {
+      "scope": "checkpoint-archive-01",
+      "root_frozen_files": 4,
+      "matches": true
+    },
+    {
+      "scope": "checkpoint-structure-01",
+      "active_runtime_files": 6,
+      "matches": true
+    },
+    {
+      "scope": "tensor-transfer-01",
+      "active_runtime_files": 7,
+      "matches": true
+    },
+    {
+      "scope": "public-reader-01",
+      "root_frozen_files": 6,
+      "matches": true
+    },
+    {
+      "scope": "singleton-layout-01",
+      "active_runtime_files": 7,
+      "matches": true
+    },
+    {
+      "scope": "inference-semantics-01",
+      "active_runtime_files": 6,
+      "matches": true
+    }
+  ],
+  "closed_scope_costs": [
+    {
+      "scope": "feature-candidate-01",
+      "cost_receipt": {
+        "elapsed_seconds": 151.986891,
+        "budget_status": "PASS",
+        "cap_seconds": 900,
+        "scientific_status": "CANDIDATE_SYNTHETIC_CONTROLS_PASS",
+        "old_caps_reset": false,
+        "production_installed": false
+      },
+      "scientific_success_not_inferred_from_budget": true
+    },
+    {
+      "scope": "checkpoint-binding-01",
+      "cost_receipt": {
+        "scientific_status": "INCOMPLETE_SAFE_CONTAINER_ADMISSION",
+        "model_constructor_attempts": 0,
+        "cap_seconds": 1200,
+        "elapsed_seconds": 252.3339563,
+        "checkpoints_safe_loaded": 0,
+        "budget_status": "PASS",
+        "unsafe_fallback": false,
+        "old_caps_reset": false
+      },
+      "scientific_success_not_inferred_from_budget": true
+    },
+    {
+      "scope": "checkpoint-archive-01",
+      "cost_receipt": {
+        "status": "NONEXECUTING_ARCHIVE_CENSUS_COMPLETE",
+        "old_caps_reset": false,
+        "elapsed_seconds": 91.424962,
+        "cap_seconds": 900,
+        "unpickling": false,
+        "budget_status": "PASS"
+      },
+      "scientific_success_not_inferred_from_budget": true
+    },
+    {
+      "scope": "checkpoint-structure-01",
+      "cost_receipt": {
+        "elapsed_seconds": 368.9233586,
+        "old_caps_reset": false,
+        "status": "STATE_METADATA_AND_ARCHITECTURE_STRUCTURE_PASS",
+        "checkpoint_loads": 0,
+        "forward_calls": 0,
+        "budget_status": "PASS",
+        "cap_seconds": 1800
+      },
+      "scientific_success_not_inferred_from_budget": true
+    },
+    {
+      "scope": "tensor-transfer-01",
+      "cost_receipt": {
+        "status": "CLOSED_CANONICAL_STRIDE_GATE_FAIL",
+        "retry_allowed": false,
+        "cap_seconds": 1500,
+        "loaded_state_counter": 344,
+        "budget_status": "PASS",
+        "forward_calls": 0,
+        "elapsed_seconds": 296.652461,
+        "unpickle_calls": 0,
+        "old_caps_reset": false
+      },
+      "scientific_success_not_inferred_from_budget": true
+    },
+    {
+      "scope": "public-reader-01",
+      "cost_receipt": {
+        "elapsed_seconds": 254.7643035,
+        "status": "NEW_PUBLIC_READER_FUNCTIONAL_PASS",
+        "synthetic_controls": 38,
+        "old_caps_reset": false,
+        "cap_seconds": 1200,
+        "C0_stages_invoked": 0,
+        "model_calls": 0,
+        "private_requests": 0,
+        "budget_status": "PASS",
+        "real_public_point_occurrences": 56557
+      },
+      "scientific_success_not_inferred_from_budget": true
+    },
+    {
+      "scope": "singleton-layout-01",
+      "cost_receipt": {
+        "status": "SYNTHETIC_LAYOUT_FEASIBILITY_PASS",
+        "elapsed_seconds": 216.7262257,
+        "TT1_retried": false,
+        "old_caps_reset": false,
+        "cap_seconds": 900,
+        "budget_status": "PASS",
+        "inference_admitted": false,
+        "actual_weight_reads": 0
+      },
+      "scientific_success_not_inferred_from_budget": true
+    },
+    {
+      "scope": "inference-semantics-01",
+      "cost_receipt": {
+        "elapsed_seconds": 128.4702554,
+        "controls": 43,
+        "real_point_reads": 0,
+        "actual_neural_models": 0,
+        "status": "SOURCE_SYNTHETIC_INFERENCE_SEMANTICS_PASS",
+        "cap_seconds": 1200,
+        "budget_status": "PASS",
+        "reference_reads": 0,
+        "old_caps_reset": false
+      },
+      "scientific_success_not_inferred_from_budget": true
+    }
+  ],
+  "AGENTS_old_suffix_preserved": true,
+  "FC1_secondary_error_count": 3,
+  "CB1_and_TT1_failures_preserved": true,
+  "all_eight_new_time_budgets_pass": true,
+  "real_RAP_inference_calls": 0,
+  "physical_efficacy_admitted": false,
+  "numeric_imports": false
+}

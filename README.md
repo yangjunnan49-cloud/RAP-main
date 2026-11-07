@@ -1,140 +1,32 @@
-<p align="center">
-  <h1 align="center">🎤 Register Any Point: Scaling 3D Point Cloud Registration by Flow Matching</h1>
-  
-  <p align="center">
-    <a href="https://github.com/PRBonn/RAP"><img src="https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" /></a>
-    <a href="https://github.com/PRBonn/RAP"><img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" /></a>
-    <a href="https://arxiv.org/pdf/2512.01850"><img src="https://img.shields.io/badge/Paper-pdf-<COLOR>.svg?style=flat-square" /></a>
-    <a href="https://github.com/PRBonn/RAP/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" /></a>
-    <a href="https://db0aa0c4df10b51258.gradio.live"><img src="https://img.shields.io/badge/GradioDemo-RAP-red?logo=gradio" /></a>
-    <a href="https://huggingface.co/YuePanEdward/RAP"><img src="https://img.shields.io/badge/-Model-3B4252?style=flat&logo=huggingface&logoColor=" /></a>
-  </p>
-  
-  <p align="center">
-    <a href="https://www.ipb.uni-bonn.de/people/yue-pan/"><strong>Yue Pan</strong></a>
-    ·
-    <a href="https://taosun.io/"><strong>Tao Sun</strong></a>
-    ·
-    <a href="https://www.zhuliyuan.net/"><strong>Liyuan Zhu</strong></a>
-    ·
-    <a href="https://www.ipb.uni-bonn.de/people/lucas-nunes/"><strong>Lucas Nunes</strong></a>
-    ·
-    <a href="https://ir0.github.io/"><strong>Iro Armeni</strong></a>
-    ·
-    <a href="https://www.ipb.uni-bonn.de/people/jens-behley/"><strong>Jens Behley</strong></a>
-    ·
-    <a href="https://www.ipb.uni-bonn.de/people/cyrill-stachniss/"><strong>Cyrill Stachniss</strong></a>
-  </p>
-  <p align="center">
-    <a href="https://www.ipb.uni-bonn.de"><strong>University of Bonn</strong>
-    ·
-    <a href="https://gradientspaces.stanford.edu/"><strong>Stanford University</strong></a>
+# RAP-main：模型与研究工作区
 
+本仓库保存RAP模型、推理、预处理和完整研究档案；RAP-SLAM保留独立仓库边界。A8：文件、环境与有界模型I/O验收通过；完整训练/恢复链仍有保留项。全部历史已随文件层迁至所租AutoDL，入口见[服务器运行说明](docs/migration/AUTODL.md)。
 
-  <h3 align="center"><a href="https://arxiv.org/pdf/2512.01850">Paper</a> | <a href="https://db0aa0c4df10b51258.gradio.live">Demo</a> | <a href="https://register-any-point.github.io/">Homepage</a> | <a href="https://huggingface.co/YuePanEdward/RAP">Model</a> </h3>
-  <div align="center"></div>
-</p>
+从 [AGENTS.md](AGENTS.md)进入核心上下文，再读[当前状态](docs/CURRENT_STATE.md)、[项目约定](docs/CONVENTIONS.md)和[文档导航](docs/README.md)。研究 UNRESOLVED、论文 PAUSED；整理不产生新算法结论或训练资格。
 
----
+## 代码入口
 
-![rap_teaser](https://register-any-point.github.io/images/rap_teaser_new.png)
+| 路径 | 作用 |
+| --- | --- |
+| [scripts/run.py](scripts/run.py) / [运行说明](docs/code/RUNNING.md) | 统一离线启动器：默认生成计划，支持路径检查与显式执行 |
+| [rectified_point_flow](rectified_point_flow) | 模型、采样、数据与几何模块 |
+| [dataset_process](dataset_process) | 预处理和特征工具 |
+| [config/RAP_inference.yaml](config/RAP_inference.yaml) | 现有推理配置；不是已验收的训练配置 |
+| [sample.py](sample.py) | Hydra 批量推理入口，现配置名为 RAP_inference |
+| [demo.py](demo.py) / [app.py](app.py) | 文件夹处理与可选交互演示入口 |
+| [scripts/maintenance](scripts/maintenance) | 研究/维护工具，历史工具不因目录存在而自动执行 |
+| [RAP-SLAM](../RAP-SLAM/README.md) | 下游系统的当前说明 |
 
-----
+A3 已整理[代码职责与入口索引](docs/code/README.md)，集中配置运行路径；路径/CLI 和数值源码保持检查通过，尚未执行模型。A4 已形成[环境搭建说明](docs/environment/README.md)和[训练缺口审计](docs/environment/TRAINING.md)；现有 CPU 依赖检查通过，目标重建/GPU 模型与完整训练恢复仍待验收。A5 已交付[资产清单与本地基础包](docs/assets/README.md)，原件保留，源文件和分卷字节核对通过；A6 已交付[组会/报告目录及制作准备](docs/meetings/README.md)，版本和导出限制单列；A7已形成[本地交付与恢复入口](docs/migration/DELIVERY.md)，完整项目字节复核及相对链接检查通过；服务器确定后继续目标验收。现有安装脚本含旧硬件/个人路径约定，本轮没有执行或证明它们适用于新服务器。
 
-![rap_example](https://github.com/user-attachments/assets/7878fbb6-1605-42b7-bb6f-37ce3e8d5760)
+## 研究、迁移和组会资料
 
+- [实验索引](docs/experiments/README.md) / [按类目录](docs/experiments/CATALOG.md)：协议、来源、状态、产物和原始证据。
+- [迁移入口](docs/migration/README.md) / [计划](docs/migration/PLAN.md)：阶段、验收及全部历史常驻服务器的要求。
+- [维护档案](docs/maintenance/README.md)：历史记录与旧入口原件。
+- [版本与环境缺口](docs/experiments/GAPS.md)：五个旧源码哈希、一份上下文版本及 A3–A7 待办。
+- [组会/报告总入口](docs/meetings/README.md)：成品、讲稿、编辑源、版本差异、图表和便携制作说明。
 
-## TODO List
-   - [x] Release the inference code and RAP model v1.0.
-   - [x] Release RAP model v1.1.
-   - [ ] Release the training code.
-   - [ ] Release the training data curation code and example training data.
-   - [ ] Add evaluation code on public datasets.
-   - [ ] Release RAP model v1.5 with other feature backbones, allowing metric scale difference, and handling 4D registration. 
+## 上游与原始说明
 
-
-
-## Abstract
-
-<details>
-  <summary>[Details (click to expand)]</summary>
-Point cloud registration aligns multiple unposed point clouds into a common frame, and is a core step for 3D reconstruction and robot localization. In this work, we cast registration as conditional generation: a learned continuous, point-wise velocity field transports noisy points to a registered scene, from which the pose of each view is recovered. Unlike previous methods that conduct correspondence matching to estimate the transformation between a pair of point clouds and then optimize the pairwise transformations to realize multi-view registration, our model directly generates the registered point cloud. With a lightweight local feature extractor and test-time rigidity enforcement, our approach achieves state-of-the-art results on pairwise and multi-view registration benchmarks, particularly with low overlap, and generalizes across scales and sensor modalities. It further supports downstream tasks including relocalization, multi-robot SLAM, and multi-session map merging.
-</details>
-
-## Installation
-
-Clone the repo:
-```
-git clone https://github.com/PRBonn/RAP.git
-cd RAP
-```
-
-Setup conda environment:
-```
-conda create -n py310-rap python=3.10 -y
-conda activate py310-rap
-```
-
-Install the dependency:
-```
-bash ./scripts/install.sh
-```
-
-Download model and example data:
-```
-bash ./scripts/download_weights_and_demo_data.sh
-```
-
-## Run RAP
-
-Try the demo by:
-
-```
-python app.py
-```
-
-Run batch inference after modifying the config files and the script `test_script_example.sh`:
-
-```
-bash ./scripts/test_script_example.sh
-```
-
-## Citation
-
-<details>
-  <summary>[Details (click to expand)]</summary>
-
-
-If you use RAP for any academic work, please cite:
-
-```
-@article{pan2025arxiv,
-  title = {{Register Any Point: Scaling 3D Point Cloud Registration by Flow Matching}},
-  author = {Pan, Yue and Sun, Tao and Zhu, Liyuan and Nunes, Lucas and Armeni, Iro and Behley, Jens and Stachniss, Cyrill},
-  journal = arxiv,
-  volume  = {arXiv:2512.01850},
-  year    = {2025}
-}
-```
-</details>
-
-## Contact
-If you have any questions, please contact:
-
-- Yue Pan {[yue.pan@igg.uni-bonn.de]()}
-
-
-## Acknowledgement
-
-<details>
-  <summary>[Details (click to expand)]</summary>
-
-RAP is built on top of [Rectified Point Flow (RPF)](https://github.com/GradientSpaces/Rectified-Point-Flow) and we thank the authors for the following works:
-
-* [GARF](https://github.com/ai4ce/GARF)
-* [BUFFER-X](https://github.com/MIT-SPARK/BUFFER-X)
-* [VGGT](https://github.com/facebookresearch/vggt)
-* [DiT](https://github.com/facebookresearch/DiT)
-* [Muon](https://github.com/KellerJordan/Muon)
-
-</details>
+上游文档、论文引用、安装命令和致谢的原文完整保存在[整理前 README](docs/maintenance/2026-11-03/context-index-01/before/rap-main/README.md)，许可证见 [LICENSE](LICENSE)。当前页描述本地工程组织，不改写上游原文，也不将旧结果或未发布计划当作本地已验收功能。

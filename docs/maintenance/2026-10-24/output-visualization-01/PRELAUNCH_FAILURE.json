@@ -1,0 +1,11 @@
+{
+  "classification": "POWERSHELL_STATUS_STRING_OVERLOAD_BEFORE_WORKER_LAUNCH",
+  "source": "Actual exec_command failure, exit1, chunk336dac",
+  "failed_expression": "(& wsl --list --verbose | Out-String).Replace([char]0,'')",
+  "error": "Cannot convert argument newChar with value empty string to System.Char; String must be exactly one character long",
+  "preflight_worker_launched": false,
+  "plot_worker_launched": false,
+  "runtime_or_input_change": false,
+  "exact_failure_UTC": null,
+  "all_time_remains_in_original_900s_account": true
+}

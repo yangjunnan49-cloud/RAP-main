@@ -1,0 +1,7 @@
+# Owner scope — CCR0
+
+On 2026-10-12 the owner requested reading AGENTS.md and autonomous multi-round project advancement until the current five-hour allowance is exhausted, while the owner sleeps. This authorizes selecting, implementing, prospectively freezing, executing and independently validating distinct bounded maintenance experiments without another per-round permission request. Service usage limits govern continuation; unused allowance is not a reason to manufacture computation. Each dependent stage still needs its own prospective scope and scientific prerequisites.
+
+CCR0 implements RPC0's changed causal-observation recommendation. It does not reopen PG-DEV pooled RAP generation, MGR0 single-scan parameter tuning, PFG/shared-plane objectives or NOC4 native fits. Only isolated main maintenance helpers/documents and mutable handoffs change. Sibling production and all historic sources/outputs/seals remain read-only. No acquisition/install, persistent configuration, process restart, official-reference modification, edge deletion, manuscript, commit or Git synchronization. Native NOC4 stays INCOMPLETE. A learned residual and full-system expansion are conditional, separately scoped work.
+
+Current allowance observation: 30% consumed in a 300-minute window; reset timestamp 1791831823 (2026-10-13 03:03:43 Asia/Shanghai). This is a usage allowance, not a promise of five hours of compute. A persistent in-chat goal records the requested continuation; no new chat or recurring automation is created.

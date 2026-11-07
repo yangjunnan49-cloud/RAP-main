@@ -1,0 +1,77 @@
+{
+  "utc": "2026-10-20T14:54:51.739302+00:00",
+  "stages": [
+    {
+      "stage": "freeze",
+      "success": true,
+      "enclosing_seconds": 153.1773855,
+      "peak_RSS_bytes": 57618432
+    },
+    {
+      "stage": "frontend_diagnosis",
+      "success": true,
+      "enclosing_seconds": 3.1903167,
+      "peak_RSS_bytes": 43634688
+    },
+    {
+      "stage": "preflight",
+      "success": true,
+      "enclosing_seconds": 3.9400232,
+      "peak_RSS_bytes": 52801536
+    },
+    {
+      "stage": "prepare02",
+      "success": true,
+      "enclosing_seconds": 2.3874752,
+      "peak_RSS_bytes": 22949888
+    },
+    {
+      "stage": "prepare03",
+      "success": true,
+      "enclosing_seconds": 2.3859781,
+      "peak_RSS_bytes": 19521536
+    },
+    {
+      "stage": "run",
+      "success": false,
+      "enclosing_seconds": 3.195105,
+      "peak_RSS_bytes": 43393024
+    },
+    {
+      "stage": "run03",
+      "success": false,
+      "enclosing_seconds": 519.9071704,
+      "peak_RSS_bytes": 43577344
+    },
+    {
+      "stage": "synthetic",
+      "success": true,
+      "enclosing_seconds": 3.1898567,
+      "peak_RSS_bytes": 305668096
+    }
+  ],
+  "charged_seconds_before_closing": 691.3733108,
+  "nested_worker_seconds_not_added": true,
+  "workers": [
+    {
+      "cell": "r1_00_G",
+      "utc": "2026-10-20T14:37:56.797520+00:00",
+      "success": false,
+      "error": "AssertionError(('E0 frontend correspondence failed', 0.5582816188113293))",
+      "wall_seconds": 361.90588861600554,
+      "peak_RSS_bytes": 633892864,
+      "GPU_calls": 0
+    },
+    {
+      "cell": "r1_00_K",
+      "utc": "2026-10-20T14:31:54.164112+00:00",
+      "success": true,
+      "error": null,
+      "wall_seconds": 156.04258746799314,
+      "peak_RSS_bytes": 630530048,
+      "GPU_calls": 0
+    }
+  ],
+  "shared_campaign_cap_seconds": 7200,
+  "old_LMB_cap_reset": false
+}

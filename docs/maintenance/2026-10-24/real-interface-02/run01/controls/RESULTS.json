@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "controls": [
+    "declared_cuda_route",
+    "RAP_CPU_storage_route",
+    "reject_cuda:1",
+    "reject_mps",
+    "positive_descriptor_rows",
+    "reject_one_zero_row",
+    "reject_nan",
+    "reject_channels",
+    "reject_rows"
+  ],
+  "count": 9,
+  "stdlib_only": true,
+  "actual_points_or_model_calls": 0
+}

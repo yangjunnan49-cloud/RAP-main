@@ -1,0 +1,5 @@
+# Fixed-E0 adapter component portability
+
+Complete the usable engineering interface by extracting the original FixedOdometry class from the frozen LMB helper into a repository-independent module. Require exact class AST equality; only the module's NumPy import and documentation are added. Exercise the imported module in the existing native KISS-SLAM14-frame synthetic known-odometry pipeline, with loop generation disabled, to verify pose/reset/state integration. No real raw replay, GT, pose-accuracy metric, candidate tuning or efficacy claim.
+
+Share the original LMB1800s/4GiB/128MiB combined dossier/GPU0 account INCLUDING the previous1069.2159822s and both earlier LMB and capsule work. Original12GiB Windows launch guard remains. Existing failed/passing trials and all seals are immutable. This supplies the reusable fixed frontend adapter alongside the already-delivered explicit-config fine correction; it does not implement or claim a new full raw frontend benchmark. No installed/production/default/reference/Git/outreach/scheduler/goal-status change.

@@ -1,0 +1,89 @@
+{
+  "scope": "observed-development V0 sensor-ray information; no RAP inference",
+  "sequences": {
+    "00": {
+      "coverage_ge_0p10": 100,
+      "centre_coverage_median": 0.9420166015625,
+      "methods": {
+        "N": {
+          "strict": 49,
+          "correct_accepts": 23,
+          "incorrect_accepts": 1,
+          "confuser_accepts": 0,
+          "clipped_error": 1.472846082266669,
+          "ordinary_strict": 25
+        },
+        "V": {
+          "strict": 49,
+          "correct_accepts": 23,
+          "incorrect_accepts": 1,
+          "confuser_accepts": 0,
+          "clipped_error": 1.46331839914901,
+          "ordinary_strict": 25
+        },
+        "NN": {
+          "strict": 49,
+          "correct_accepts": 23,
+          "incorrect_accepts": 1,
+          "confuser_accepts": 0,
+          "clipped_error": 1.4906688618736395,
+          "ordinary_strict": 25
+        }
+      },
+      "strict_gains": [],
+      "strict_losses": [],
+      "recovered_unavailable": [],
+      "newly_incorrect_accepts": [],
+      "new_correct_accepts": [],
+      "lost_correct_accepts": [],
+      "ordinary_strict_losses": []
+    },
+    "08": {
+      "coverage_ge_0p10": 100,
+      "centre_coverage_median": 0.955078125,
+      "methods": {
+        "N": {
+          "strict": 30,
+          "correct_accepts": 17,
+          "incorrect_accepts": 10,
+          "confuser_accepts": 0,
+          "clipped_error": 1.5799304227352056,
+          "ordinary_strict": 15
+        },
+        "V": {
+          "strict": 30,
+          "correct_accepts": 17,
+          "incorrect_accepts": 10,
+          "confuser_accepts": 0,
+          "clipped_error": 1.5799304227352056,
+          "ordinary_strict": 15
+        },
+        "NN": {
+          "strict": 30,
+          "correct_accepts": 17,
+          "incorrect_accepts": 10,
+          "confuser_accepts": 0,
+          "clipped_error": 1.583392470283351,
+          "ordinary_strict": 15
+        }
+      },
+      "strict_gains": [],
+      "strict_losses": [],
+      "recovered_unavailable": [],
+      "newly_incorrect_accepts": [],
+      "new_correct_accepts": [],
+      "lost_correct_accepts": [],
+      "ordinary_strict_losses": []
+    }
+  },
+  "conditions": {
+    "coverage": true,
+    "08_recovery": false,
+    "08_accept_safety": false,
+    "00_accept_safety": true,
+    "strict_regressions": true,
+    "visibility_vs_nn": false,
+    "cost": true
+  },
+  "decision": "NO_RAY_INFORMATION_SIGNAL"
+}

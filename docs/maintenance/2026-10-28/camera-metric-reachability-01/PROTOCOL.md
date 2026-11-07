@@ -1,0 +1,7 @@
+# MR1 complete saved-output metric-camera reachability
+
+Bind all200 PR1 evaluated rows, all200 ER1 evaluated rows and all200 VR1 historical-category rows before this stdlib JSON join. No new point/image/reference/feature/solver/model/training payload or new angle/error metric. Preserve all200 IDs, both100 sequences, original positive/confuser strata and native-N category partitions. Report PnP output/R5_t2/R5_d15 counts alongside already frozen ER1 R5_d15 availability, additional output IDs and bin set intersections. Historical proposal-unavailable and incorrect-accepted overlays remain ID categories, not interchangeable pose metrics.
+
+Any union of supplied-reference bins is explicitly a post-hoc oracle set description, not a reference-free fusion rule or deployable predictor. Missing PnP/ER1 output is no evidence, not a rejection of a historical correct registration. Do not credit raw/corrected-LiDAR/RAP6DoF recovery from a camera-ID intersection. No subset/seed/threshold rescue or learning/efficacy claim.
+
+Conservative origin2026-10-28 12:55:44UTC,900s inclusive/preparation+closure,180s reserve; sole JSON worker30s/1GiB,new dossier16MiB, fresh12GiB/query<=2s. Exact source/input freeze and persistent exit/peak/reaping. Inherited stage controls/prefixVB1 refer only to this folder's JSON readout. No install/WSL/default/production/Git writes/network/outreach/scheduler/goal-status action. All prior failures/caps remain; researchUNRESOLVED/manuscriptPAUSED.

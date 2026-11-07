@@ -1,0 +1,34 @@
+{
+  "name": "S_V_full1",
+  "condition": "S",
+  "arm": "V",
+  "path": "full",
+  "rep": 1,
+  "loss": 7.229944003483979e-06,
+  "terms": {
+    "velocity": 7.229944003483979e-06
+  },
+  "linear_dtypes": {
+    "transformer_layers.10.global_qkv_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    },
+    "transformer_layers.10.global_out_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    },
+    "transformer_layers.11.global_qkv_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    },
+    "transformer_layers.11.global_out_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    }
+  },
+  "dispatched_ATen_names": [
+    "aten::_scaled_dot_product_attention_math",
+    "aten::scaled_dot_product_attention"
+  ],
+  "factor": 1024.0
+}

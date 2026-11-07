@@ -1,0 +1,2706 @@
+{
+  "scope": "post-hoc observed development; source-frame error vector, no method selection",
+  "sequences": {
+    "00": {
+      "groups": {
+        "K4_unavailable_positive": {
+          "count": 23,
+          "median_abs_xyz_m": [
+            1.4893846964262494,
+            0.9398034217472053,
+            0.8159780731572719
+          ],
+          "mean_xyz_m": [
+            -8.98040185553379,
+            2.2450874588271152,
+            0.15016393843755396
+          ],
+          "largest_abs_axis_counts_xyz": [
+            15,
+            4,
+            4
+          ],
+          "RTE_le_2m": 10,
+          "RRE_le_5deg": 13
+        },
+        "incorrect_accepted": {
+          "count": 1,
+          "median_abs_xyz_m": [
+            0.47558693283633424,
+            1.2911902855038768,
+            1.1399035986335748
+          ],
+          "mean_xyz_m": [
+            0.47558693283633424,
+            -1.2911902855038768,
+            -1.1399035986335748
+          ],
+          "largest_abs_axis_counts_xyz": [
+            0,
+            1,
+            0
+          ],
+          "RTE_le_2m": 1,
+          "RRE_le_5deg": 1
+        }
+      },
+      "rows": [
+        {
+          "pair": "00_24_629",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -212.56005897568136,
+            -2.328690686901915,
+            -1.5575567317293935
+          ],
+          "RTE_m": 212.57852068126016,
+          "RRE_deg": 1.3598504978358377
+        },
+        {
+          "pair": "00_210_1656",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.0911618673040735,
+            -0.08914220172706067,
+            0.9845943767725425
+          ],
+          "RTE_m": 0.9928156449972093,
+          "RRE_deg": 0.4783844109766694
+        },
+        {
+          "pair": "00_422_3496",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -57.922123834212954,
+            33.273100063610826,
+            0.8858536461853781
+          ],
+          "RTE_m": 66.80461326878121,
+          "RRE_deg": 93.08430315073454
+        },
+        {
+          "pair": "00_956_3859",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.10526432041409706,
+            0.3427870661172223,
+            0.5394032276657169
+          ],
+          "RTE_m": 0.6477186054651263,
+          "RRE_deg": 0.4703983367401184
+        },
+        {
+          "pair": "00_1525_3496",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            2.497769766963085,
+            137.25479957918498,
+            4.236751051671089
+          ],
+          "RTE_m": 137.34288813333157,
+          "RRE_deg": 20.27800215002026
+        },
+        {
+          "pair": "00_430_2502",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.10219992960101365,
+            -0.06476877009151316,
+            -0.5032347953604047
+          ],
+          "RTE_m": 0.5175761571508563,
+          "RRE_deg": 0.26735192646097483
+        },
+        {
+          "pair": "00_800_3672",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.00732799293780495,
+            0.27753474369012565,
+            1.0714715222515863
+          ],
+          "RTE_m": 1.1068561136985113,
+          "RRE_deg": 0.2919885221287406
+        },
+        {
+          "pair": "00_575_3538",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.4522610373749439,
+            0.319622317174435,
+            0.3950403150195673
+          ],
+          "RTE_m": 0.680261216044377,
+          "RRE_deg": 0.6765645021742605
+        },
+        {
+          "pair": "00_2764_3129",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -79.78225280436871,
+            -24.971697845493775,
+            -0.6094366561285963
+          ],
+          "RTE_m": 83.60122588135098,
+          "RRE_deg": 28.006906707400375
+        },
+        {
+          "pair": "00_2352_3234",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.10339620263230387,
+            -0.33870233231259483,
+            0.06473215781711716
+          ],
+          "RTE_m": 0.36000041234480834,
+          "RRE_deg": 0.38072513633132704
+        },
+        {
+          "pair": "00_386_2514",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.31344558246146903,
+            0.5579604832435926,
+            -0.7854839094129877
+          ],
+          "RTE_m": 1.0131895212509572,
+          "RRE_deg": 1.2424664700215666
+        },
+        {
+          "pair": "00_2327_3277",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.04165557209019938,
+            -0.11461342403189612,
+            -0.09073855097727618
+          ],
+          "RTE_m": 0.15200298775988835,
+          "RRE_deg": 0.18928058442512385
+        },
+        {
+          "pair": "00_100_744",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -173.7318415958658,
+            229.8937749640009,
+            -14.326049867597318
+          ],
+          "RTE_m": 288.5119343394629,
+          "RRE_deg": 0.20821084162280948
+        },
+        {
+          "pair": "00_90_4493",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.3209137989050106,
+            0.12031801890895197,
+            -0.08677459369977192
+          ],
+          "RTE_m": 0.3535419665521775,
+          "RRE_deg": 0.2767028909562368
+        },
+        {
+          "pair": "00_386_3318",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.2253311281583663,
+            -0.06220814790573925,
+            -0.19192595648393557
+          ],
+          "RTE_m": 0.30245585422546867,
+          "RRE_deg": 0.24383413605698556
+        },
+        {
+          "pair": "00_944_3859",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.2601444299082427,
+            0.4392528704586371,
+            0.6072103031735794
+          ],
+          "RTE_m": 0.7932985320159033,
+          "RRE_deg": 0.27557652321813114
+        },
+        {
+          "pair": "00_1174_2359",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            227.40626259312535,
+            -8.46172128150786,
+            -0.1288241852140155
+          ],
+          "RTE_m": 227.563673703186,
+          "RRE_deg": 64.44314734342775
+        },
+        {
+          "pair": "00_924_3865",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.24040249812078684,
+            0.6834070885464851,
+            0.672750832704368
+          ],
+          "RTE_m": 0.9886517550091735,
+          "RRE_deg": 0.5688008490185431
+        },
+        {
+          "pair": "00_597_3609",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.936127845954239,
+            0.8560651241828156,
+            0.4927058245829715
+          ],
+          "RTE_m": 1.3608607094008736,
+          "RRE_deg": 1.4673212177303236
+        },
+        {
+          "pair": "00_2359_3289",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.0007969053860392705,
+            -0.1705914226364742,
+            -0.08157602891200486
+          ],
+          "RTE_m": 0.18909446588513032,
+          "RRE_deg": 0.1134621845551343
+        },
+        {
+          "pair": "00_850_1130",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -27.787729070322534,
+            120.44731948363639,
+            0.5540961817662118
+          ],
+          "RTE_m": 123.61238481745052,
+          "RRE_deg": 115.89590371188343
+        },
+        {
+          "pair": "00_90_4517",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.23401907274567435,
+            0.1872005734897656,
+            -0.16646107679800617
+          ],
+          "RTE_m": 0.3428093802864707,
+          "RRE_deg": 0.18165860729473085
+        },
+        {
+          "pair": "00_2309_3338",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -12.950825670957833,
+            -10.147759291197755,
+            0.7107428655486665
+          ],
+          "RTE_m": 16.46833505891106,
+          "RRE_deg": 15.963750637207413
+        },
+        {
+          "pair": "00_731_3653",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.15834684010762778,
+            0.24058334108419888,
+            0.7985394035522355
+          ],
+          "RTE_m": 0.848892952500412,
+          "RRE_deg": 0.6005266679970619
+        },
+        {
+          "pair": "00_260_859",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -158.66768341854927,
+            228.9607056027079,
+            4.947160006705211
+          ],
+          "RTE_m": 278.60888870176194,
+          "RRE_deg": 106.01119844454891
+        },
+        {
+          "pair": "00_426_2508",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.2346049499096381,
+            -0.02514683954563912,
+            -0.7687285737572407
+          ],
+          "RTE_m": 0.8041240365590866,
+          "RRE_deg": 0.42898165004660443
+        },
+        {
+          "pair": "00_976_3835",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.5467818010990086,
+            -0.6733754770058198,
+            0.5891559811676883
+          ],
+          "RTE_m": 1.0485750527222897,
+          "RRE_deg": 2.7300918403245413
+        },
+        {
+          "pair": "00_65_4505",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.017163449728606395,
+            0.13081482912873177,
+            -0.24696389646800018
+          ],
+          "RTE_m": 0.2799969101351349,
+          "RRE_deg": 0.34181133836382377
+        },
+        {
+          "pair": "00_100_1113",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            150.57804236273145,
+            209.40848369855004,
+            2.2093762388200178
+          ],
+          "RTE_m": 257.93514927222134,
+          "RRE_deg": 51.09536544345034
+        },
+        {
+          "pair": "00_435_2490",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.39766918760116,
+            0.06553264293831251,
+            -0.7283326546288156
+          ],
+          "RTE_m": 0.8324084128938778,
+          "RRE_deg": 0.3420860574785403
+        },
+        {
+          "pair": "00_779_3661",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            16.63600221427466,
+            -9.421856743466527,
+            1.6411754308730582
+          ],
+          "RTE_m": 19.189096147621402,
+          "RRE_deg": 90.76617624837253
+        },
+        {
+          "pair": "00_671_3614",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.30664337784636153,
+            -0.24309394709027077,
+            0.4469227124801086
+          ],
+          "RTE_m": 0.5940241907696451,
+          "RRE_deg": 0.6994278277182029
+        },
+        {
+          "pair": "00_253_4163",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            229.49114575115595,
+            155.9743809393915,
+            -0.8723679506150241
+          ],
+          "RTE_m": 277.47964702558994,
+          "RRE_deg": 49.083647541364016
+        },
+        {
+          "pair": "00_357_2477",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.4224479995014079,
+            -0.35660677974489663,
+            0.1378039740913647
+          ],
+          "RTE_m": 0.5697548972305023,
+          "RRE_deg": 0.8369616514099573
+        },
+        {
+          "pair": "00_2257_3277",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            2.05515054885581,
+            27.778050319489218,
+            -0.26415655594092263
+          ],
+          "RTE_m": 27.855223962779117,
+          "RRE_deg": 1.6751103029072987
+        },
+        {
+          "pair": "00_752_3676",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.10179630489205405,
+            0.4105440365671287,
+            0.9052546136881328
+          ],
+          "RTE_m": 0.9991970822886537,
+          "RRE_deg": 0.602062501951128
+        },
+        {
+          "pair": "00_677_2665",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -113.11265296000838,
+            85.24539192687654,
+            -2.4457785963260403
+          ],
+          "RTE_m": 141.65885407329938,
+          "RRE_deg": 2.444251499267658
+        },
+        {
+          "pair": "00_430_2484",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.2947345765734539,
+            0.1286874084171421,
+            -0.6776431016006172
+          ],
+          "RTE_m": 0.7500860569694373,
+          "RRE_deg": 0.3938023390076894
+        },
+        {
+          "pair": "00_38_1548",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            2.4446665734243354,
+            -1.0251067244088787,
+            0.5295466728295821
+          ],
+          "RTE_m": 2.703268046337888,
+          "RRE_deg": 179.68451328624803
+        },
+        {
+          "pair": "00_2333_3255",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.16698689346175755,
+            -0.24670048759455465,
+            -0.10392578566525895
+          ],
+          "RTE_m": 0.3155096228224121,
+          "RRE_deg": 0.2175719759832674
+        },
+        {
+          "pair": "00_109_1417",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            135.22888745950635,
+            -40.402864178996325,
+            0.3946650175643768
+          ],
+          "RTE_m": 141.13610168159792,
+          "RRE_deg": 179.91010247725265
+        },
+        {
+          "pair": "00_367_2423",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.40497131706201195,
+            -0.32574114816404176,
+            -0.4162253264182427
+          ],
+          "RTE_m": 0.6658472689755073,
+          "RRE_deg": 0.31336207945056876
+        },
+        {
+          "pair": "00_952_3817",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.1627749965371521,
+            0.19766435952611516,
+            0.8054393459051158
+          ],
+          "RTE_m": 0.8451623740185077,
+          "RRE_deg": 0.25668084038870786
+        },
+        {
+          "pair": "00_592_3551",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.6266491231142425,
+            -0.05411869846494542,
+            0.36308586769709983
+          ],
+          "RTE_m": 0.7262570511497596,
+          "RRE_deg": 0.7385395126457387
+        },
+        {
+          "pair": "00_113_2614",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -285.37477353990806,
+            99.55119283888367,
+            0.39739453902298194
+          ],
+          "RTE_m": 302.24056526386073,
+          "RRE_deg": 178.8514940124278
+        },
+        {
+          "pair": "00_430_2477",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.2416528138299121,
+            0.2316277514911489,
+            -0.5673292227185012
+          ],
+          "RTE_m": 0.6587184107364378,
+          "RRE_deg": 0.3032478747755756
+        },
+        {
+          "pair": "00_731_3619",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -16.26562761920095,
+            -0.4894505163968237,
+            0.34586221360143243
+          ],
+          "RTE_m": 16.27666502466986,
+          "RRE_deg": 0.7909178874057938
+        },
+        {
+          "pair": "00_2343_3281",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.008701363735253542,
+            -0.12778461223750126,
+            -0.11550367044378476
+          ],
+          "RTE_m": 0.17246947191177975,
+          "RRE_deg": 0.16922518153339106
+        },
+        {
+          "pair": "00_44_807",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -39.642649172994304,
+            382.532850562521,
+            8.633752409930583
+          ],
+          "RTE_m": 384.6783891429529,
+          "RRE_deg": 81.52749212924985
+        },
+        {
+          "pair": "00_948_3871",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            30.09719899426502,
+            -2.7227147897773305,
+            0.8159780731572719
+          ],
+          "RTE_m": 30.231116144508015,
+          "RRE_deg": 176.08722274525078
+        },
+        {
+          "pair": "00_1423_3594",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -137.99235096143883,
+            3.2866954466682614,
+            -0.5767762475177644
+          ],
+          "RTE_m": 138.03269164101582,
+          "RRE_deg": 179.15613002591775
+        },
+        {
+          "pair": "00_210_1635",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.03391597357546772,
+            -0.39924253438653734,
+            0.8070010494284183
+          ],
+          "RTE_m": 0.9009969968349094,
+          "RRE_deg": 0.2834202374862022
+        },
+        {
+          "pair": "00_2621_3753",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -143.75456419753954,
+            -70.99013426735274,
+            -3.42895670978974
+          ],
+          "RTE_m": 160.36437146398478,
+          "RRE_deg": 90.45994416540778
+        },
+        {
+          "pair": "00_124_4511",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.1000020790773739,
+            -0.7545966996606941,
+            0.07684965296227421
+          ],
+          "RTE_m": 0.7650636993865485,
+          "RRE_deg": 1.776429454312569
+        },
+        {
+          "pair": "00_1525_4529",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            10.982253920602862,
+            4.380050968668856,
+            -1.258360592175506
+          ],
+          "RTE_m": 11.890257316167476,
+          "RRE_deg": 179.90600000156874
+        },
+        {
+          "pair": "00_683_3634",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.3188527291846661,
+            0.14821352111386238,
+            0.6473885394025757
+          ],
+          "RTE_m": 0.7367131271392412,
+          "RRE_deg": 0.6114549260388075
+        },
+        {
+          "pair": "00_888_4499",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            325.5727077221368,
+            72.08947097539397,
+            0.7480469411705374
+          ],
+          "RTE_m": 333.4592020221698,
+          "RRE_deg": 90.24917463530409
+        },
+        {
+          "pair": "00_933_3853",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.3473950834212953,
+            0.4410951975777707,
+            0.628297297430574
+          ],
+          "RTE_m": 0.8426184256649178,
+          "RRE_deg": 0.41941174492914995
+        },
+        {
+          "pair": "00_839_3811",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.0021777391288324566,
+            0.7163763102258343,
+            0.8186895879434997
+          ],
+          "RTE_m": 1.087865985224095,
+          "RRE_deg": 0.3289671823015349
+        },
+        {
+          "pair": "00_584_3538",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.5209771200379407,
+            0.30363624291592056,
+            0.3698781986707767
+          ],
+          "RTE_m": 0.7074051240039624,
+          "RRE_deg": 0.9330899210538067
+        },
+        {
+          "pair": "00_236_4173",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            210.69477917588955,
+            165.64866137703754,
+            -2.173722107980157
+          ],
+          "RTE_m": 268.02330879194824,
+          "RRE_deg": 14.763991865946076
+        },
+        {
+          "pair": "00_214_1656",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.12030695958917903,
+            0.08335163152010683,
+            0.9561066963237708
+          ],
+          "RTE_m": 0.9672441644992288,
+          "RRE_deg": 0.5637539040592288
+        },
+        {
+          "pair": "00_38_1540",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            22.477753799772543,
+            0.9398034217472053,
+            0.7898160469140747
+          ],
+          "RTE_m": 22.511251758680142,
+          "RRE_deg": 179.61061775601297
+        },
+        {
+          "pair": "00_653_3594",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.3841477133434079,
+            -0.34067572281281033,
+            0.4728536746410542
+          ],
+          "RTE_m": 0.6980114693918344,
+          "RRE_deg": 0.83352336903984
+        },
+        {
+          "pair": "00_245_1849",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -157.18542236018257,
+            58.84165702092025,
+            1.8025061956271773
+          ],
+          "RTE_m": 167.84768878987245,
+          "RRE_deg": 75.79507371324496
+        },
+        {
+          "pair": "00_109_4493",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.08005681466055847,
+            -0.6091424340802098,
+            -0.016808764907047524
+          ],
+          "RTE_m": 0.6146105540490321,
+          "RRE_deg": 0.7125645729987201
+        },
+        {
+          "pair": "00_1553_4499",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            1.0686903909892749,
+            -0.008291536345915729,
+            -0.911881514013668
+          ],
+          "RTE_m": 1.4048828410111798,
+          "RRE_deg": 0.248288723228665
+        },
+        {
+          "pair": "00_44_4461",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.17741690489166473,
+            0.016635054408890793,
+            -0.1237504573241748
+          ],
+          "RTE_m": 0.21695082130397011,
+          "RRE_deg": 0.6942640327258557
+        },
+        {
+          "pair": "00_2160_3811",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -359.09247323512835,
+            204.71660938078858,
+            -0.8133349731093285
+          ],
+          "RTE_m": 413.34846800764393,
+          "RRE_deg": 144.10509730771705
+        },
+        {
+          "pair": "00_405_2437",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.28633275770162214,
+            0.009031212164641644,
+            -0.36688903051161426
+          ],
+          "RTE_m": 0.46548423349876294,
+          "RRE_deg": 0.15850540315387532
+        },
+        {
+          "pair": "00_622_1423",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            2.296416954913603,
+            0.6963774655320152,
+            0.8895345411560907
+          ],
+          "RTE_m": 2.5592467847445337,
+          "RRE_deg": 0.5862295199126691
+        },
+        {
+          "pair": "00_187_1621",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.06769464909208178,
+            -0.5405642869938032,
+            0.7895862480788507
+          ],
+          "RTE_m": 0.9592907573014844,
+          "RRE_deg": 0.6277079727833659
+        },
+        {
+          "pair": "00_967_2490",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            47.872106825639655,
+            247.29939104808955,
+            -13.83992626416383
+          ],
+          "RTE_m": 252.2702340421455,
+          "RRE_deg": 173.96586805913407
+        },
+        {
+          "pair": "00_405_2502",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.3891368713729264,
+            0.47402333304400823,
+            -0.7942237280733527
+          ],
+          "RTE_m": 1.0034525176443552,
+          "RRE_deg": 0.7324040652673238
+        },
+        {
+          "pair": "00_324_2433",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -1.4893846964262494,
+            13.554466915308723,
+            -0.6168431850139053
+          ],
+          "RTE_m": 13.649993979743932,
+          "RRE_deg": 77.92990592924102
+        },
+        {
+          "pair": "00_17_4461",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.42085761988955905,
+            -0.15127723610708121,
+            -0.3595837726807183
+          ],
+          "RTE_m": 0.5738522701519971,
+          "RRE_deg": 0.8320266161702949
+        },
+        {
+          "pair": "00_793_2566",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            33.23499564717845,
+            158.38833355662243,
+            3.1402809921562285
+          ],
+          "RTE_m": 161.8681269034196,
+          "RRE_deg": 89.49351956492626
+        },
+        {
+          "pair": "00_446_2484",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.4533178421990236,
+            0.11587684578500301,
+            -0.8112535301767833
+          ],
+          "RTE_m": 0.9365131070462138,
+          "RRE_deg": 0.46545578913597996
+        },
+        {
+          "pair": "00_1381_3530",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": true,
+          "source_frame_translation_error_xyz_m": [
+            0.47558693283633424,
+            -1.2911902855038768,
+            -1.1399035986335748
+          ],
+          "RTE_m": 1.7868227383380895,
+          "RRE_deg": 0.19614382305702038
+        },
+        {
+          "pair": "00_659_3599",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.1329134881506775,
+            -0.23526360260370882,
+            0.47071732136300193
+          ],
+          "RTE_m": 0.5427612317341906,
+          "RRE_deg": 0.8287668326503099
+        },
+        {
+          "pair": "00_1005_4511",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            189.17579228330942,
+            170.5845397424811,
+            -4.389368393477087
+          ],
+          "RTE_m": 254.76623037613442,
+          "RRE_deg": 176.7309105389361
+        },
+        {
+          "pair": "00_178_1649",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.12923054023666936,
+            0.42593801986557533,
+            0.7019014603702354
+          ],
+          "RTE_m": 0.831137407031315,
+          "RRE_deg": 0.8130892691429334
+        },
+        {
+          "pair": "00_2384_3392",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -1.2653556846688012,
+            0.5375331236865435,
+            -0.20298634019690598
+          ],
+          "RTE_m": 1.3897015226624736,
+          "RRE_deg": 0.34103955336668856
+        },
+        {
+          "pair": "00_902_3817",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.13725962698675764,
+            0.3780229628086599,
+            0.8302198750797882
+          ],
+          "RTE_m": 0.9225001932729774,
+          "RRE_deg": 0.24525117079693978
+        },
+        {
+          "pair": "00_736_2117",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            353.5939483769089,
+            233.00348014342944,
+            -6.926243744765434
+          ],
+          "RTE_m": 423.5177386369236,
+          "RRE_deg": 117.39037343802437
+        },
+        {
+          "pair": "00_413_2508",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.49282815881544195,
+            0.158367790472418,
+            -0.7817867251354661
+          ],
+          "RTE_m": 0.9376302228376445,
+          "RRE_deg": 0.3478083222185378
+        },
+        {
+          "pair": "00_435_2540",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.54532910526612,
+            -0.524829296467912,
+            -0.7188583870219388
+          ],
+          "RTE_m": 1.0438328429749344,
+          "RRE_deg": 0.4793963540874106
+        },
+        {
+          "pair": "00_435_3428",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.5368888374250114,
+            0.4477160821037829,
+            0.02657663357751326
+          ],
+          "RTE_m": 0.699575322162135,
+          "RRE_deg": 0.2517844827491402
+        },
+        {
+          "pair": "00_520_1733",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -237.6613285303366,
+            75.317588930619,
+            1.8756451976951625
+          ],
+          "RTE_m": 249.31739675769504,
+          "RRE_deg": 161.25261337326953
+        },
+        {
+          "pair": "00_80_1532",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            1.3440467936239529,
+            0.07579332026468855,
+            0.9369100762609119
+          ],
+          "RTE_m": 1.6401240507494554,
+          "RRE_deg": 0.14838733159054063
+        },
+        {
+          "pair": "00_2327_3361",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -81.93534074461776,
+            -8.426606373805123,
+            -1.6602125039625426
+          ],
+          "RTE_m": 82.38424645206136,
+          "RRE_deg": 72.64003158578194
+        },
+        {
+          "pair": "00_24_4481",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.24052132692664507,
+            -0.10087463549920678,
+            -0.3194626631526889
+          ],
+          "RTE_m": 0.4124107102661863,
+          "RRE_deg": 0.7504717568053221
+        },
+        {
+          "pair": "00_629_2343",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            158.39204652648286,
+            20.024193984816947,
+            3.0888187341021442
+          ],
+          "RTE_m": 159.68265262313633,
+          "RRE_deg": 122.57322698250957
+        },
+        {
+          "pair": "00_38_4493",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.2931074207576785,
+            -0.14403241881421386,
+            -0.3562078296332126
+          ],
+          "RTE_m": 0.483261125753661,
+          "RRE_deg": 0.7071804503071527
+        },
+        {
+          "pair": "00_2287_3285",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.14146653825797983,
+            -0.04102943284318883,
+            0.4420085763358069
+          ],
+          "RTE_m": 0.4659053308994619,
+          "RRE_deg": 0.8673519662029716
+        },
+        {
+          "pair": "00_580_3512",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.21563903285514918,
+            0.3402863151245028,
+            0.3568585782005993
+          ],
+          "RTE_m": 0.5381849250834417,
+          "RRE_deg": 0.7533887553393674
+        },
+        {
+          "pair": "00_4016_4308",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -295.9341777590297,
+            60.873832464067874,
+            -5.8318987291940285
+          ],
+          "RTE_m": 302.1864856137083,
+          "RRE_deg": 40.07146036879032
+        },
+        {
+          "pair": "00_170_1649",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.17546523501995637,
+            0.4575506078835492,
+            0.9551196641845265
+          ],
+          "RTE_m": 1.0734962414406382,
+          "RRE_deg": 0.789260907078746
+        },
+        {
+          "pair": "00_109_1504",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -1.4553702338481713,
+            -0.7922399329736374,
+            1.2812230728416512
+          ],
+          "RTE_m": 2.094583297782916,
+          "RRE_deg": 0.9169229316683951
+        },
+        {
+          "pair": "00_2359_3285",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.11139263026836055,
+            -0.1881679621872019,
+            -0.11945583969556964
+          ],
+          "RTE_m": 0.24916901434400213,
+          "RRE_deg": 0.136960176008595
+        }
+      ]
+    },
+    "08": {
+      "groups": {
+        "K4_unavailable_positive": {
+          "count": 41,
+          "median_abs_xyz_m": [
+            1.068465671797405,
+            0.9651020162810902,
+            0.5765918810358095
+          ],
+          "mean_xyz_m": [
+            -4.9068081650035325,
+            -2.2808216690875422,
+            0.41462338441386587
+          ],
+          "largest_abs_axis_counts_xyz": [
+            23,
+            8,
+            10
+          ],
+          "RTE_le_2m": 26,
+          "RRE_le_5deg": 37
+        },
+        "incorrect_accepted": {
+          "count": 10,
+          "median_abs_xyz_m": [
+            1.0715195373148874,
+            1.0087479476117311,
+            0.48716277294922283
+          ],
+          "mean_xyz_m": [
+            -0.6461229712146289,
+            0.6817991802086875,
+            0.3121772460947871
+          ],
+          "largest_abs_axis_counts_xyz": [
+            5,
+            2,
+            3
+          ],
+          "RTE_le_2m": 8,
+          "RRE_le_5deg": 10
+        }
+      },
+      "rows": [
+        {
+          "pair": "08_569_1554",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -36.87883884058507,
+            -75.84563797171509,
+            1.996836790801922
+          ],
+          "RTE_m": 84.359924790954,
+          "RRE_deg": 91.71065726471953
+        },
+        {
+          "pair": "08_583_802",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            3.4668309613190047,
+            82.3310880680038,
+            1.029954545376253
+          ],
+          "RTE_m": 82.41048346989173,
+          "RRE_deg": 3.0118684075596263
+        },
+        {
+          "pair": "08_2688_3954",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -170.2449837007341,
+            -78.35188171350461,
+            -6.544269558888141
+          ],
+          "RTE_m": 187.5238633011,
+          "RRE_deg": 179.06279508581625
+        },
+        {
+          "pair": "08_337_1742",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -225.9723797390993,
+            2.161891687754622,
+            -2.4683367163834347
+          ],
+          "RTE_m": 225.99620100073966,
+          "RRE_deg": 11.986160726867013
+        },
+        {
+          "pair": "08_2049_3257",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            169.22231025415093,
+            -160.8208767004769,
+            0.8740269564441148
+          ],
+          "RTE_m": 233.4530115324767,
+          "RRE_deg": 54.24680541879593
+        },
+        {
+          "pair": "08_3198_3763",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -156.16178033667157,
+            -20.034481296537987,
+            0.03676894373112599
+          ],
+          "RTE_m": 157.44168263422307,
+          "RRE_deg": 124.58364580263178
+        },
+        {
+          "pair": "08_217_434",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -14.404662249637969,
+            -147.19455945357146,
+            -6.43795000435564
+          ],
+          "RTE_m": 148.0377648693593,
+          "RRE_deg": 48.75741530513605
+        },
+        {
+          "pair": "08_2688_3186",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -19.458021956469974,
+            -257.6692768868379,
+            -3.4247838906911037
+          ],
+          "RTE_m": 258.42561795329493,
+          "RRE_deg": 124.20615134517978
+        },
+        {
+          "pair": "08_1222_3139",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            348.0486165508962,
+            -477.9553270650961,
+            7.031183978011459
+          ],
+          "RTE_m": 591.2939807752388,
+          "RRE_deg": 121.744770032713
+        },
+        {
+          "pair": "08_827_2326",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -35.22364882062211,
+            406.12309665985293,
+            1.4995681772096343
+          ],
+          "RTE_m": 407.6504921885227,
+          "RRE_deg": 89.51003673495373
+        },
+        {
+          "pair": "08_297_1700",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -148.10435268662036,
+            -7.098688514690756,
+            0.25533970771724307
+          ],
+          "RTE_m": 148.2745961441736,
+          "RRE_deg": 2.7650254730181922
+        },
+        {
+          "pair": "08_2076_3115",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            296.25023543510474,
+            -159.03794235517898,
+            3.2572991903428075
+          ],
+          "RTE_m": 336.2556751966272,
+          "RRE_deg": 62.560165494774786
+        },
+        {
+          "pair": "08_2381_3737",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -17.237312395088047,
+            114.81304376601014,
+            2.6966011284533034
+          ],
+          "RTE_m": 116.1310966755571,
+          "RRE_deg": 0.5888190508901961
+        },
+        {
+          "pair": "08_1441_2682",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -357.42230177354145,
+            -256.8383692329588,
+            5.223250902006239
+          ],
+          "RTE_m": 440.16352877689394,
+          "RRE_deg": 90.77970766530508
+        },
+        {
+          "pair": "08_24_367",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -357.83203195617233,
+            6.119662949286293,
+            -14.793433461677736
+          ],
+          "RTE_m": 358.18997618872737,
+          "RRE_deg": 155.89768124514097
+        },
+        {
+          "pair": "08_527_762",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -59.87129505799369,
+            193.75338150883522,
+            -5.225403305688877
+          ],
+          "RTE_m": 202.86017267501447,
+          "RRE_deg": 117.68515139764284
+        },
+        {
+          "pair": "08_148_467",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -33.08557604708291,
+            -245.8369227277528,
+            -6.306705787956657
+          ],
+          "RTE_m": 248.13347709753768,
+          "RRE_deg": 47.549587393304925
+        },
+        {
+          "pair": "08_1874_2782",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -272.40981587395254,
+            -291.3600445900166,
+            2.5975635143618416
+          ],
+          "RTE_m": 398.8790928391564,
+          "RRE_deg": 91.85703800678202
+        },
+        {
+          "pair": "08_347_1700",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -222.72688254420694,
+            -7.918815561175356,
+            -1.2638119450058565
+          ],
+          "RTE_m": 222.87119389545435,
+          "RRE_deg": 0.4314934423737063
+        },
+        {
+          "pair": "08_2201_3243",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            198.25230292275631,
+            -120.39722775165473,
+            1.396171908464063
+          ],
+          "RTE_m": 231.95132541216083,
+          "RRE_deg": 146.00441603795264
+        },
+        {
+          "pair": "08_332_1050",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -202.86711711879758,
+            -54.30486078879797,
+            1.186966267991266
+          ],
+          "RTE_m": 210.01308055048383,
+          "RRE_deg": 32.114465571573895
+        },
+        {
+          "pair": "08_1281_1975",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -270.14971466903773,
+            149.4776592776432,
+            -6.789874062988963
+          ],
+          "RTE_m": 308.8212125950498,
+          "RRE_deg": 1.4704765649104503
+        },
+        {
+          "pair": "08_384_634",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -39.25174603985847,
+            -77.10518529359842,
+            1.3123174082474
+          ],
+          "RTE_m": 86.53110043977067,
+          "RRE_deg": 5.92125869989223
+        },
+        {
+          "pair": "08_235_2928",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -582.1906187498637,
+            -476.5245427407823,
+            -13.211232460982623
+          ],
+          "RTE_m": 752.4600275481741,
+          "RRE_deg": 162.06092573060724
+        },
+        {
+          "pair": "08_1123_1489",
+          "stratum": "confuser",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -130.4925136095259,
+            -177.72825023271866,
+            -2.4905604475697953
+          ],
+          "RTE_m": 220.5035825791934,
+          "RRE_deg": 89.44571428516295
+        },
+        {
+          "pair": "08_778_1448",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.07211977534412917,
+            0.3179112778703511,
+            0.14739352937577854
+          ],
+          "RTE_m": 0.3577620649184256,
+          "RRE_deg": 0.23766617485890107
+        },
+        {
+          "pair": "08_797_1388",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.006559254982773766,
+            0.045856721000177014,
+            -0.022705371806212515
+          ],
+          "RTE_m": 0.051588725470547034,
+          "RRE_deg": 0.30596974557848405
+        },
+        {
+          "pair": "08_802_1388",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.029178118190701596,
+            0.04956758064437494,
+            0.026375077079825976
+          ],
+          "RTE_m": 0.0632767913460688,
+          "RRE_deg": 0.26428813627139386
+        },
+        {
+          "pair": "08_792_1388",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.08931215138171922,
+            0.06891938827990751,
+            -0.004773861076868557
+          ],
+          "RTE_m": 0.11291294086546955,
+          "RRE_deg": 0.6023599621857672
+        },
+        {
+          "pair": "08_2491_3880",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -1.5542286806804118,
+            1.0970682374170373,
+            -0.26759037840720623
+          ],
+          "RTE_m": 1.921142920246958,
+          "RRE_deg": 0.5545191862551876
+        },
+        {
+          "pair": "08_2475_3880",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -1.2501696522719978,
+            0.8730298080252936,
+            -0.3488340453817066
+          ],
+          "RTE_m": 1.5642219779749726,
+          "RRE_deg": 0.6919222089857406
+        },
+        {
+          "pair": "08_2503_3844",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -1.294496384226786,
+            1.210381263005802,
+            -0.40393453538377366
+          ],
+          "RTE_m": 1.8176652055555909,
+          "RRE_deg": 1.1947109959085052
+        },
+        {
+          "pair": "08_715_1540",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.30107452046595284,
+            0.05683854595919602,
+            0.8166002307341125
+          ],
+          "RTE_m": 0.8721882961927229,
+          "RRE_deg": 0.4880896690891281
+        },
+        {
+          "pair": "08_726_1540",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -65.7366675117459,
+            -6.002246610179467,
+            0.7365114771513349
+          ],
+          "RTE_m": 66.01423232209261,
+          "RRE_deg": 0.6622951954162402
+        },
+        {
+          "pair": "08_2542_3886",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.7333540892504331,
+            0.7465062585847431,
+            -0.6644232581046762
+          ],
+          "RTE_m": 1.2395717325903155,
+          "RRE_deg": 0.6411206127204294
+        },
+        {
+          "pair": "08_2532_3838",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.968858142732195,
+            0.910374539063797,
+            -0.4225148149045652
+          ],
+          "RTE_m": 1.3949862619136928,
+          "RRE_deg": 0.7642518990060054
+        },
+        {
+          "pair": "08_797_1379",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.006620978804459554,
+            -0.050071883600084854,
+            0.006731219797590948
+          ],
+          "RTE_m": 0.05095429528070258,
+          "RRE_deg": 0.29780293380261547
+        },
+        {
+          "pair": "08_699_1532",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.32798951267422005,
+            -0.10705801008184679,
+            0.93825216872292
+          ],
+          "RTE_m": 0.9996777831182505,
+          "RRE_deg": 0.5807746280401337
+        },
+        {
+          "pair": "08_811_1372",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.07762588915348445,
+            -0.23467463018621793,
+            0.03799739847525396
+          ],
+          "RTE_m": 0.2500835120730562,
+          "RRE_deg": 0.21959451620401194
+        },
+        {
+          "pair": "08_787_1365",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.029174681121688195,
+            -0.00455078117917207,
+            -0.02746941789342272
+          ],
+          "RTE_m": 0.04032915257349686,
+          "RRE_deg": 0.504122266679963
+        },
+        {
+          "pair": "08_2483_3880",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -1.4050779300940892,
+            0.9593022347264499,
+            -0.23053131828929907
+          ],
+          "RTE_m": 1.7168719975294762,
+          "RRE_deg": 0.6495474688793265
+        },
+        {
+          "pair": "08_811_1365",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            69.78112636485746,
+            2.656043275426228,
+            1.6361017316046824
+          ],
+          "RTE_m": 69.85081954784282,
+          "RRE_deg": 3.482453735788511
+        },
+        {
+          "pair": "08_778_1379",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            17.355950551625426,
+            -17.28695579821691,
+            0.5765918810358095
+          ],
+          "RTE_m": 24.50306753280594,
+          "RRE_deg": 85.75748927716195
+        },
+        {
+          "pair": "08_2483_3892",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -1.102972311921949,
+            0.8492487816712515,
+            -0.342746846178314
+          ],
+          "RTE_m": 1.43361320257653,
+          "RRE_deg": 0.6821951433914676
+        },
+        {
+          "pair": "08_806_1379",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.08256920046362382,
+            -0.13203853687276723,
+            0.06330805636065745
+          ],
+          "RTE_m": 0.16810638918514487,
+          "RRE_deg": 0.12435951905433798
+        },
+        {
+          "pair": "08_755_1448",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.30953374540317835,
+            -0.10625623213355206,
+            0.7329758751270393
+          ],
+          "RTE_m": 0.8027173599273832,
+          "RRE_deg": 0.5269807190643874
+        },
+        {
+          "pair": "08_797_1372",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.026089996654540926,
+            -0.01732590141004431,
+            0.008242454182894043
+          ],
+          "RTE_m": 0.03238537997401975,
+          "RRE_deg": 0.2936211851540364
+        },
+        {
+          "pair": "08_2491_3886",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -1.393090101689367,
+            1.0139595607130607,
+            -0.39304741316749814
+          ],
+          "RTE_m": 1.7672861373258084,
+          "RRE_deg": 0.6093999761463538
+        },
+        {
+          "pair": "08_2475_3886",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -1.1687836107387568,
+            0.9097927809608723,
+            -0.35390391149997674
+          ],
+          "RTE_m": 1.5228348602507848,
+          "RRE_deg": 0.5955454261325472
+        },
+        {
+          "pair": "08_2532_3892",
+          "stratum": "ambiguous_positive",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.7403266987244663,
+            0.7684888551865341,
+            -0.6964316391088861
+          ],
+          "RTE_m": 1.2742353665402897,
+          "RRE_deg": 0.6469055462537436
+        },
+        {
+          "pair": "08_70_1826",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            3.579140802972673,
+            -1.5119320823594316,
+            1.4080553931560875
+          ],
+          "RTE_m": 4.132651388560078,
+          "RRE_deg": 2.065850333455531
+        },
+        {
+          "pair": "08_2434_3856",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            13.076169508264796,
+            -11.806912333522035,
+            0.2308943366919411
+          ],
+          "RTE_m": 17.619384213276728,
+          "RRE_deg": 86.58168915820272
+        },
+        {
+          "pair": "08_2542_3904",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.9841349097355092,
+            0.49696610361453786,
+            -0.8886996617822622
+          ],
+          "RTE_m": 1.4160804770753115,
+          "RRE_deg": 0.5836184890624981
+        },
+        {
+          "pair": "08_2518_3826",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -1.068465671797405,
+            0.8268573525363059,
+            -0.5319880928377665
+          ],
+          "RTE_m": 1.4520066474276188,
+          "RRE_deg": 1.0332719914766468
+        },
+        {
+          "pair": "08_662_1489",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.4585054172780447,
+            -0.9651020162810902,
+            0.7849627999344706
+          ],
+          "RTE_m": 1.3258264278494765,
+          "RRE_deg": 0.3514848337800828
+        },
+        {
+          "pair": "08_242_1602",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.45487211263234073,
+            0.6971095993591074,
+            1.9853600704233152
+          ],
+          "RTE_m": 2.1527947049360034,
+          "RRE_deg": 0.6653047696332409
+        },
+        {
+          "pair": "08_762_1532",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -97.72000072636267,
+            -12.859890777250717,
+            0.5886966102389302
+          ],
+          "RTE_m": 98.56430335807202,
+          "RRE_deg": 0.6115013607903045
+        },
+        {
+          "pair": "08_873_1425",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.6388443619169664,
+            -0.13029371807952828,
+            -0.41445599115668985
+          ],
+          "RTE_m": 0.7725751357180463,
+          "RRE_deg": 0.8578006585014103
+        },
+        {
+          "pair": "08_249_1675",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            1.4497773303888692,
+            -0.20715822503524617,
+            2.033236686768191
+          ],
+          "RTE_m": 2.505757422882215,
+          "RRE_deg": 0.47585336482260804
+        },
+        {
+          "pair": "08_2542_3838",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.8743195246420186,
+            0.8470904935343571,
+            -0.3940091452895679
+          ],
+          "RTE_m": 1.2795468502475171,
+          "RRE_deg": 0.7908208808820499
+        },
+        {
+          "pair": "08_699_1540",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.3095544940286139,
+            0.0115588661300432,
+            0.8733331614435711
+          ],
+          "RTE_m": 0.9266436224550115,
+          "RRE_deg": 0.28056418080853174
+        },
+        {
+          "pair": "08_242_1588",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.36878447067423714,
+            1.146802197553919,
+            2.128599812853104
+          ],
+          "RTE_m": 2.445832052575001,
+          "RRE_deg": 0.6649153394315916
+        },
+        {
+          "pair": "08_269_1610",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.3868296607847097,
+            0.5618282629606242,
+            1.679189369544411
+          ],
+          "RTE_m": 1.8124472743545181,
+          "RRE_deg": 0.9615986379825021
+        },
+        {
+          "pair": "08_242_1650",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": true,
+          "source_frame_translation_error_xyz_m": [
+            0.9535784370029177,
+            -0.09324820034039405,
+            2.171486672025734
+          ],
+          "RTE_m": 2.373470334587952,
+          "RRE_deg": 0.37801520445049297
+        },
+        {
+          "pair": "08_720_1448",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.29824857072158295,
+            -0.29406064234694296,
+            1.0211688733661024
+          ],
+          "RTE_m": 1.1037253912304268,
+          "RRE_deg": 0.4412978263179356
+        },
+        {
+          "pair": "08_70_1855",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.08962702737420791,
+            -3.894813214321227,
+            1.4412892004633486
+          ],
+          "RTE_m": 4.153903891264152,
+          "RRE_deg": 2.113282875885324
+        },
+        {
+          "pair": "08_792_1351",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.1830567070352771,
+            0.17696568388256662,
+            -0.04189333155456609
+          ],
+          "RTE_m": 0.2580342273640545,
+          "RRE_deg": 0.5613684776583329
+        },
+        {
+          "pair": "08_249_1588",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.24998006294265984,
+            1.2109874435175927,
+            2.0092663906521757
+          ],
+          "RTE_m": 2.3592651501750526,
+          "RRE_deg": 0.8252193611827445
+        },
+        {
+          "pair": "08_662_1504",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            2.12417717170713,
+            8.716688883357236,
+            0.5580787933616859
+          ],
+          "RTE_m": 8.98911818175984,
+          "RRE_deg": 177.49264068656063
+        },
+        {
+          "pair": "08_2560_3838",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.7765081758802168,
+            1.0004106492024185,
+            0.0023666620392828186
+          ],
+          "RTE_m": 1.266409102674027,
+          "RRE_deg": 1.060285339812071
+        },
+        {
+          "pair": "08_66_1862",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.597098371341005,
+            -3.879135539449668,
+            0.8535192240233036
+          ],
+          "RTE_m": 4.0165549995309275,
+          "RRE_deg": 1.8949398055131392
+        },
+        {
+          "pair": "08_720_1425",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.5754381787362775,
+            -0.43984712072438636,
+            0.7366487117088916
+          ],
+          "RTE_m": 1.033075946685057,
+          "RRE_deg": 0.20509126115205886
+        },
+        {
+          "pair": "08_726_1425",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.6944830416348253,
+            -0.3384992615120215,
+            0.8312722128164591
+          ],
+          "RTE_m": 1.1348576725578037,
+          "RRE_deg": 0.4873234329635694
+        },
+        {
+          "pair": "08_726_1568",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -54.553847264140785,
+            -49.91730633766665,
+            1.6319643724596968
+          ],
+          "RTE_m": 73.9629841950731,
+          "RRE_deg": 94.99633658485948
+        },
+        {
+          "pair": "08_207_1688",
+          "stratum": "low_overlap",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": true,
+          "source_frame_translation_error_xyz_m": [
+            1.1334621612489317,
+            -0.46066447943883015,
+            2.6616724357748858
+          ],
+          "RTE_m": 2.9294109286618637,
+          "RRE_deg": 0.7538310163099159
+        },
+        {
+          "pair": "08_762_1441",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.18131562233650556,
+            -0.042368161290382345,
+            0.18316666031264509
+          ],
+          "RTE_m": 0.2611904313800375,
+          "RRE_deg": 0.10513491693678134
+        },
+        {
+          "pair": "08_792_1414",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.14123861825336714,
+            0.15396708285879585,
+            0.021751328485595495
+          ],
+          "RTE_m": 0.21006506178100146,
+          "RRE_deg": 0.282682865059718
+        },
+        {
+          "pair": "08_2503_3856",
+          "stratum": "ordinary",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": true,
+          "source_frame_translation_error_xyz_m": [
+            -1.2531095033500215,
+            1.1830819259077834,
+            -0.3303532073101543
+          ],
+          "RTE_m": 1.7547363085021956,
+          "RRE_deg": 1.0765642463801848
+        },
+        {
+          "pair": "08_748_1454",
+          "stratum": "ordinary",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": true,
+          "source_frame_translation_error_xyz_m": [
+            -0.3826325959314234,
+            -0.06023621823458991,
+            0.9890671188975511
+          ],
+          "RTE_m": 1.0622098997565064,
+          "RRE_deg": 0.13451044627532555
+        },
+        {
+          "pair": "08_755_1454",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.23296688102464658,
+            -0.039185925363948826,
+            0.7902349802641522
+          ],
+          "RTE_m": 0.8247911423106251,
+          "RRE_deg": 0.38436495463568554
+        },
+        {
+          "pair": "08_2483_3868",
+          "stratum": "ordinary",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": true,
+          "source_frame_translation_error_xyz_m": [
+            -1.2784516220534359,
+            1.1343707527025586,
+            -0.2428328594872443
+          ],
+          "RTE_m": 1.7263265485315291,
+          "RRE_deg": 0.7858939454546345
+        },
+        {
+          "pair": "08_2483_3874",
+          "stratum": "ordinary",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": true,
+          "source_frame_translation_error_xyz_m": [
+            -1.3686754168752842,
+            1.029596096161276,
+            -0.2647518981628435
+          ],
+          "RTE_m": 1.7330418591511576,
+          "RRE_deg": 0.9013787062963802
+        },
+        {
+          "pair": "08_2532_3868",
+          "stratum": "ordinary",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": true,
+          "source_frame_translation_error_xyz_m": [
+            -1.009576913380843,
+            0.9647615672862462,
+            -0.5353006211380474
+          ],
+          "RTE_m": 1.4955123472358842,
+          "RRE_deg": 0.8917014285561018
+        },
+        {
+          "pair": "08_2503_3868",
+          "stratum": "ordinary",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": true,
+          "source_frame_translation_error_xyz_m": [
+            -1.3543838227711043,
+            1.0816697463992542,
+            -0.4390249247603983
+          ],
+          "RTE_m": 1.7880458227406728,
+          "RRE_deg": 0.9389700818747801
+        },
+        {
+          "pair": "08_2518_3856",
+          "stratum": "ordinary",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": true,
+          "source_frame_translation_error_xyz_m": [
+            -0.9735207096716092,
+            0.9878997990621863,
+            -0.3379285304724611
+          ],
+          "RTE_m": 1.4275448423268178,
+          "RRE_deg": 0.887215548461813
+        },
+        {
+          "pair": "08_778_1441",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.0014511981290610265,
+            0.1972745923985214,
+            0.05259075230244045
+          ],
+          "RTE_m": 0.20416943456293646,
+          "RRE_deg": 0.3009285379037985
+        },
+        {
+          "pair": "08_806_1414",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.12333075970484475,
+            0.17908305545762104,
+            -0.0007268224905652536
+          ],
+          "RTE_m": 0.21744366008772095,
+          "RRE_deg": 0.33189201692036685
+        },
+        {
+          "pair": "08_769_1454",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.09546134460239664,
+            0.3157769706576947,
+            0.27323798417353623
+          ],
+          "RTE_m": 0.42835377844284944,
+          "RRE_deg": 0.2455465861546946
+        },
+        {
+          "pair": "08_787_1434",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.11659855617366865,
+            0.11855152298609248,
+            0.054502611502043635
+          ],
+          "RTE_m": 0.17498634679496822,
+          "RRE_deg": 0.27559867814229283
+        },
+        {
+          "pair": "08_802_1400",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.08914767688061165,
+            0.11496647702612872,
+            0.03153543225911598
+          ],
+          "RTE_m": 0.14885927119524203,
+          "RRE_deg": 0.2677010896625098
+        },
+        {
+          "pair": "08_769_1434",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.05102359534836953,
+            0.05866091857748246,
+            0.11063614915119961
+          ],
+          "RTE_m": 0.1352215520900225,
+          "RRE_deg": 0.14510807430929068
+        },
+        {
+          "pair": "08_762_1434",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.1587198965986225,
+            -0.12773621997980444,
+            0.19689283869078011
+          ],
+          "RTE_m": 0.2833290267493255,
+          "RRE_deg": 0.2603457379126476
+        },
+        {
+          "pair": "08_778_1468",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.006684302703092726,
+            0.3251935818473193,
+            0.22028551186478795
+          ],
+          "RTE_m": 0.39283743751690386,
+          "RRE_deg": 0.43291665584692524
+        },
+        {
+          "pair": "08_769_1441",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            0.01950292935477127,
+            0.07724769760268058,
+            0.0768426334559257
+          ],
+          "RTE_m": 0.11069038510536555,
+          "RRE_deg": 0.2037146098860579
+        },
+        {
+          "pair": "08_762_1461",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.03462376360590547,
+            0.15709532986240937,
+            0.3629252070333861
+          ],
+          "RTE_m": 0.39697916012184187,
+          "RRE_deg": 0.21926599793547555
+        },
+        {
+          "pair": "08_762_1400",
+          "stratum": "ordinary",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            3.855114169737586,
+            -7.394138037217472,
+            0.2751967217709471
+          ],
+          "RTE_m": 8.343315636532711,
+          "RRE_deg": 102.4573627789297
+        },
+        {
+          "pair": "08_2518_3850",
+          "stratum": "ordinary",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.9870221386658073,
+            0.9006768682514632,
+            -0.3993340729935009
+          ],
+          "RTE_m": 1.394596438068471,
+          "RRE_deg": 0.9552709428669622
+        },
+        {
+          "pair": "08_787_1414",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.07632574123735214,
+            0.21636087493286704,
+            0.04420208674381425
+          ],
+          "RTE_m": 0.23364817878522967,
+          "RRE_deg": 0.27708284591286736
+        },
+        {
+          "pair": "08_797_1400",
+          "stratum": "ordinary",
+          "native_K4_unavailable": false,
+          "native_incorrect_accepted": false,
+          "source_frame_translation_error_xyz_m": [
+            -0.1506277411234418,
+            0.06609969972848462,
+            -0.024815562691602372
+          ],
+          "RTE_m": 0.16635413686424297,
+          "RRE_deg": 0.30984004834569445
+        },
+        {
+          "pair": "08_2532_3862",
+          "stratum": "ordinary",
+          "native_K4_unavailable": true,
+          "native_incorrect_accepted": true,
+          "source_frame_translation_error_xyz_m": [
+            -0.9279197263644168,
+            1.0507608125813834,
+            -0.5502617244191519
+          ],
+          "RTE_m": 1.5059619082810967,
+          "RRE_deg": 0.8818549088987199
+        }
+      ]
+    }
+  },
+  "input_sha256": {
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/inspect_f2_error_axes.py": "9385ef41b0c76ed5ef7fb238d5868172819387dff05cb604472be02fcc10ef75",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-27/f2-structured-dev-01/00/records.json": "65d0843eca09647f855e1804cc6d5b92c3f8cd2248f74ac826d3baf37a1e4698",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-27/f2-structured-dev-01/00/evaluator_only_decisions.json": "e5d9ede4f32190f39b61d8dec9d87b17550a8ef4eede76a4d283cc9ad09ebd70",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-14/hl-v2/data-expansion-01/00/evaluator_gt.npy": "2e6915252e5cbcc70dcf0636f0e5943941246a54c67dce4c20d1d7401f980c56",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-27/f2-structured-dev-01/08/records.json": "11226f0b59cd20ea31b41267784c7f13e8507a846b699c68ebbdbbe525323360",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-27/f2-structured-dev-01/08/evaluator_only_decisions.json": "e9ff9bef30c201d15dc699245f72a6a388ba1bc2d5be9176a95b1ce33e6a48d5",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-14/support-control-01/data/08/evaluator_gt.npy": "9b177264406caeb57c277a868fc7ad0709cd9e4029bdfb242a63e1de666206ee"
+  }
+}

@@ -1,0 +1,3 @@
+# Next geometry observation control — DESIGN_ONLY
+
+A different all-point coordinate-only invariant construction can test whether the exactly congruent numerical scene has an unlearned geometric ceiling. Exclude descriptor matches, keep every1000-point observation and full candidate ambiguity census, require independent geometry/nearest/pose checks and seal before truth. Coincident-coordinate multiplicity and truly distinct-coordinate symmetry must be distinguished prospectively; no posthoc tie rescue. This does not admit real context fitting or reopen retired physical GICP/CCR0 families. No new geometry runner/protocol/metrics or fit executed by this closure.

@@ -1,0 +1,80 @@
+{
+  "utc": "2026-10-26T02:47:09.3094209+00:00",
+  "status": "DOCUMENTARY_DELIVERY_COMPLETE_SCIENTIFIC_DEPENDENCY_UNRESOLVED",
+  "delivery_origin_utc": "2026-10-26T02:43:41Z",
+  "delivery_inclusive_seconds_at_check": 208.3031053,
+  "delivery_cap_seconds": 600,
+  "delivery_cap_pass": true,
+  "prior_seals": [
+    {
+      "all_match": true,
+      "files": 4,
+      "scope": "context-strategy-review-01"
+    },
+    {
+      "all_match": true,
+      "files": 50,
+      "scope": "upstream-paper-request-01"
+    },
+    {
+      "all_match": true,
+      "files": 21,
+      "scope": "upstream-share-request-01"
+    },
+    {
+      "all_match": true,
+      "files": 21,
+      "scope": "regx-curation-request-01"
+    }
+  ],
+  "AGENTS_exact_prior_suffix": true,
+  "both_repository_HEADs": [
+    "4055d929c594b0033aafc6eed339c910369eef55",
+    "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6"
+  ],
+  "tracked_dirty_paths_counts": [
+    2,
+    9
+  ],
+  "remote_sync_checked": false,
+  "transport_processes_exited_receipts": 3,
+  "WSL_start_calls": 0,
+  "WSL_current_state": "NOT_FRESHLY_QUERIED",
+  "model_point_pose_reference_decode_or_fit_solver_metric_calls": 0,
+  "owner_original_record": "没有",
+  "quota_observation": {
+    "following_clock": "2026-10-26 02:46:21 UTC",
+    "ordinaryUsageAllowed": true,
+    "rateLimits": {
+      "limitId": "codex",
+      "limitName": null,
+      "normalModelSlug": null,
+      "primary": {
+        "usedPercent": 93,
+        "windowDurationMins": 300,
+        "resetsAt": 1792999024
+      },
+      "secondary": {
+        "usedPercent": 15,
+        "windowDurationMins": 10080,
+        "resetsAt": 1793521303
+      },
+      "credits": {
+        "hasCredits": false,
+        "unlimited": false,
+        "balance": "0"
+      },
+      "individualLimit": null,
+      "spendControlReached": false,
+      "planType": "plus",
+      "rateLimitReachedType": null
+    },
+    "classification": "AVAILABLE_NOT_EXHAUSTED",
+    "requested_quota_exhaustion_achieved": false,
+    "automatic_reset_resume": false
+  },
+  "quota_exhaustion_claim": false,
+  "scientific_goal_completion_claim": false,
+  "no_pending_payload_or_approval": true,
+  "automatic_resume_scheduler_goal_status_actions": 0
+}

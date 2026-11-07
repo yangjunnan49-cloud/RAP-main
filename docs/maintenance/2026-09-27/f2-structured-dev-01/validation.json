@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "decision": "NO_DEVELOPMENT_MECHANISM_SIGNAL",
+  "pairs": 200,
+  "valid_generations": 4000,
+  "max_independent_projected_delta": 1.1589123804778279e-06,
+  "max_independent_pose_delta": 1.5983750930814722e-05,
+  "max_constraint_delta": 8.882283886180176e-08,
+  "max_rigidity_delta": 1.4491040034370073e-05,
+  "max_gate_delta": 0.0,
+  "max_local_motion_recheck": 0.0,
+  "artifact_bytes": 5394476322,
+  "sequence_signals": {
+    "00": false,
+    "08": false
+  },
+  "C5_engineering": true,
+  "evaluator_rows_exact": true,
+  "decision_arithmetic_independent": true,
+  "validator_sha256": "77f5c85f16422e3720717f5287295bd4b614c53f34fff13a7daa9d8d31a05dd9",
+  "amendment": "F2-AMENDMENT-01",
+  "scope": "Independent recomputation of geometry, selection, gates, labels, aggregates and decision; observed development cohorts; no efficacy claim beyond the frozen gates"
+}

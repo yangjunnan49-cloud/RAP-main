@@ -1,0 +1,78 @@
+{
+  "records": [
+    {
+      "name": "V1",
+      "arm": "V",
+      "rep": 1,
+      "loss": 7.230167724467712e-06,
+      "factor": 1024.0,
+      "dispatched_ATen_names": [
+        "aten::_scaled_dot_product_attention_math",
+        "aten::scaled_dot_product_attention"
+      ]
+    },
+    {
+      "name": "V2",
+      "arm": "V",
+      "rep": 2,
+      "loss": 7.230167724467712e-06,
+      "factor": 1024.0,
+      "dispatched_ATen_names": [
+        "aten::_scaled_dot_product_attention_math",
+        "aten::scaled_dot_product_attention"
+      ]
+    },
+    {
+      "name": "P1",
+      "arm": "P",
+      "rep": 1,
+      "loss": 198.3336040447379,
+      "factor": 0.0009765625,
+      "dispatched_ATen_names": [
+        "aten::_scaled_dot_product_attention_math",
+        "aten::scaled_dot_product_attention"
+      ]
+    },
+    {
+      "name": "P2",
+      "arm": "P",
+      "rep": 2,
+      "loss": 198.3336040447379,
+      "factor": 0.0009765625,
+      "dispatched_ATen_names": [
+        "aten::_scaled_dot_product_attention_math",
+        "aten::scaled_dot_product_attention"
+      ]
+    }
+  ],
+  "strict_checkpoint": {
+    "strict": true,
+    "keys": 344,
+    "weights_only": true,
+    "allowed": [
+      "builtins.dict",
+      "builtins.int",
+      "builtins.list",
+      "collections.defaultdict",
+      "numpy._core.multiarray._reconstruct",
+      "numpy.dtype",
+      "numpy.ndarray",
+      "omegaconf.base.ContainerMetadata",
+      "omegaconf.base.Metadata",
+      "omegaconf.listconfig.ListConfig",
+      "omegaconf.nodes.AnyNode",
+      "typing.Any"
+    ],
+    "descriptor_loaded": false
+  },
+  "shadow_tail_forwards": 4,
+  "backwards": 4,
+  "whole_native_forwards": 0,
+  "prefix_forwards": 0,
+  "optimizer_calls": 0,
+  "retained_updates": 0,
+  "initialized_trainables": 443904,
+  "parameter_values_unchanged_and_dtype_restored": true,
+  "backend_and_attention_dtype_restored": true,
+  "constant_float32_time_projection_promotions": 16
+}

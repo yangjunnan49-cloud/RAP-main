@@ -1,0 +1,94 @@
+{
+  "finished_utc": "2026-11-03T07:12:44.532152+00:00",
+  "seconds": 21.063000000081956,
+  "link_count": 27,
+  "links_with_target": 27,
+  "seal_summary": {
+    "manifest_documents": 1071,
+    "document_status": {
+      "no_supported_file_hash_claims": 258,
+      "hash_claims_found": 813
+    },
+    "file_hash_claims": 225390,
+    "claim_status": {
+      "match_at_recorded_resolution": 217826,
+      "recorded_path_unresolved_but_exact_bytes_preserved": 6397,
+      "exact_historical_bytes_recovered": 18,
+      "recorded_path_differs_but_exact_bytes_preserved": 52,
+      "expected_negative_control_digest_mismatch": 1,
+      "recorded_path_unresolved_no_exact_copy_in_scope": 1073,
+      "recorded_current_bytes_differ_no_exact_copy_in_scope": 19,
+      "referenced_external_runtime_matches": 3,
+      "historical_external_runtime_changed": 1
+    },
+    "protected_assets_from_claims": 54254,
+    "scope_limit": "Supported path+sha256 records in selected manifest/seal/freeze/proof/registry JSON; arbitrary dynamic validators not executed; PGC1 opaque tree excluded from semantic parsing."
+  },
+  "duplicate_summary": {
+    "groups": 5382,
+    "duplicate_member_files": 13955,
+    "repeated_logical_bytes": 9801112439,
+    "physical_reclaimable_bytes": null,
+    "files_removed": 0,
+    "zero_byte_files": 298
+  },
+  "classification": {
+    "file_and_link_ledger_rows": 106794,
+    "directory_ledger_rows": 4487,
+    "categories": {
+      "project_metadata": 7,
+      "current_maintenance_context": 3,
+      "current_code": 66,
+      "environment_or_entry_script": 4,
+      "installation_or_machine_artifact_review": 2,
+      "comparator_configuration": 1,
+      "regenerable_python_cache": 165,
+      "meeting_artifact": 686,
+      "third_party_dependency": 723,
+      "model_weight": 6,
+      "model_asset": 2,
+      "research_support_code": 609,
+      "experiment_record": 35510,
+      "filesystem_link": 27,
+      "opaque_stopped_experiment": 1394,
+      "saved_output": 15,
+      "example_input": 156,
+      "current_configuration": 18,
+      "preservation_archive": 1454,
+      "git_history": 3982,
+      "saved_experiment_output": 847,
+      "research_or_data_tool": 88,
+      "optional_ros2_component": 15,
+      "research_input": 4233,
+      "report_artifact": 308,
+      "dataset_source": 43616,
+      "external_experiment_record": 12856,
+      "workspace_context": 1
+    },
+    "proposed_actions": {
+      "retain_in_place": 102653,
+      "hold_for_review": 2,
+      "cache_removal_candidate_after_reference_review": 130,
+      "preserve_link_metadata_for_staging": 27,
+      "preserve_git_history": 3982
+    },
+    "git_status": {
+      "tracked_dirty": 11,
+      "tracked": 300,
+      "ignored": 8667,
+      "untracked": 35657,
+      "not_in_captured_git_lists": 2,
+      "git_metadata": 3982,
+      "independent_file_asset": 58175
+    },
+    "protected_file_or_link_rows": 68130,
+    "unclassified_file_rows": 0,
+    "git_only_path_reasons": {
+      "behind_unfollowed_reparse_directory": 17056
+    },
+    "cache_candidate_count": 130,
+    "cache_candidate_logical_bytes": 1660398,
+    "asset_moves": 0,
+    "asset_deletions": 0
+  }
+}

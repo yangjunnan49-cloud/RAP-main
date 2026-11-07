@@ -1,0 +1,37 @@
+{
+  "tolerance": 1e-06,
+  "passed": true,
+  "checks": [
+    {
+      "request": [
+        542,
+        1302,
+        0
+      ],
+      "max_transform_element_delta": 0.0,
+      "exact": true,
+      "cache_exact": true
+    },
+    {
+      "request": [
+        542,
+        1302,
+        1
+      ],
+      "max_transform_element_delta": 0.0,
+      "exact": true,
+      "cache_exact": true
+    },
+    {
+      "request": [
+        542,
+        1302,
+        0
+      ],
+      "max_transform_element_delta": 0.0,
+      "exact": true,
+      "cache_exact": true
+    }
+  ],
+  "scope": "One isolated repeat and reversed two-request order; exact saved-bank cache reload; CPU/Python/CUDA RNG states restored"
+}

@@ -1,0 +1,9 @@
+{
+  "scope": "HL0 only; KITTI05 resource pairs; no KITTI06 hypothesis outcomes",
+  "protocol_sha256": "672d1ed4c4007bdd6fe63a7759031f6cebc960e7198980c71b04cbdabea11e1b",
+  "rng_tolerance": 1e-06,
+  "se3_tolerance": 1e-05,
+  "gt_tolerance": 0.0001,
+  "profile_selection": "First ten support-eligible KITTI05 proximity pairs sorted by HL-V1 pair hash, separation>=200 and distance<=30m; feasibility sample only, not HL1 stratified cohort",
+  "support": "Nearest past keyframe crossing each of 2m/5m cumulative full-frame odometry distance; distinct IDs; age<=5s; exclude both anchors"
+}

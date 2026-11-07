@@ -1,0 +1,33 @@
+{
+  "name": "S_P_cache1",
+  "condition": "S",
+  "arm": "P",
+  "path": "cache",
+  "rep": 1,
+  "loss": 198.32860123110547,
+  "terms": {
+    "translation": 191.62896602357063,
+    "rotation": 6.6763246344275275,
+    "shape": 0.023310573107311487
+  },
+  "linear_dtypes": {
+    "transformer_layers.10.global_qkv_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    },
+    "transformer_layers.10.global_out_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    },
+    "transformer_layers.11.global_qkv_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    },
+    "transformer_layers.11.global_out_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    }
+  },
+  "dispatched_ATen_names": [],
+  "factor": 0.0009765625
+}

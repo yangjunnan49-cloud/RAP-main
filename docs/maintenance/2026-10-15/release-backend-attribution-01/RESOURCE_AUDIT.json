@@ -1,0 +1,40 @@
+{
+  "attempts": [
+    {
+      "stage": "freeze",
+      "Windows_seconds": 6.3164452,
+      "Linux_child_seconds": 3.626357911998639,
+      "Linux_RSS_bytes": 19632128,
+      "exit_code": 0,
+      "host_observations": 8
+    },
+    {
+      "stage": "audit",
+      "Windows_seconds": 11.9070058,
+      "Linux_child_seconds": 11.185806230001617,
+      "Linux_RSS_bytes": 21032960,
+      "exit_code": 0,
+      "host_observations": 14
+    },
+    {
+      "stage": "validate",
+      "Windows_seconds": 6.3245248,
+      "Linux_child_seconds": 2.980374470993411,
+      "Linux_RSS_bytes": 18399232,
+      "exit_code": 0,
+      "host_observations": 8
+    }
+  ],
+  "attempt_count": 3,
+  "successes": 3,
+  "failures": 0,
+  "total_Windows_seconds": 24.5479758,
+  "total_Linux_child_seconds": 17.792538612993667,
+  "maximum_Linux_RSS_bytes": 21032960,
+  "GPU_bytes": 0,
+  "time_includes_startup_imports": true,
+  "ordinary_preparation_and_closure_RSS": "UNKNOWN",
+  "logging_retries": 0,
+  "all_expected_child_and_Windows_exit_receipts_present": true,
+  "old_gaps_unchanged": true
+}

@@ -1,0 +1,13 @@
+{
+  "stage": "parent close-record preparation, before any close output was written",
+  "tool_command_wall_seconds": 0.7240405,
+  "native_exit_code": 1,
+  "failing_expression": "(H $p)",
+  "prepared_definition": "function H($p){(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash.ToLowerInvariant()}",
+  "error": "Get-History: Cannot bind parameter Id; source path cannot convert to System.Int64. PowerShell H alias resolved before function H.",
+  "retained_correction": "Use explicit GetTaskDigest function name in a later parent preparation invocation. Frozen query code and three successful native children are unchanged.",
+  "query_replay_or_HTTP": false,
+  "scientific_numeric_operation": false,
+  "native_peak": "UNKNOWN for this ordinary preparation invocation",
+  "clock_account": "Separate parent bookkeeping; not added to overlapping controlled query clocks; no universal all-attempt memory claim"
+}

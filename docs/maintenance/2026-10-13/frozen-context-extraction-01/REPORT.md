@@ -1,0 +1,9 @@
+# FCE0 frozen-feature source/context interface
+
+All1316 frozen identities match. On existing exposed fit00/eval00 synthetic tau1 inputs, all joint/separated helper repeats and complete original12-layer FP32 forward layer9 hooks match byteexact. Joint first10 features/input bind completed SAR0 first-step traces exactly. Pointwise encoding+anchor inputs match across layouts; all observation/noise/scale/count/anchor/segmentation bindings pass.
+
+Only global batch segmentation and repeated same tau/scale separate the three parts. Fixed nonanchor x perturbation leaves the anchor pointwise encoding and separated anchor prefix byteexact; joint anchor prefix changes, proving source architecture context dependency and isolation for these inputs. This is a functional feature interface, not a physical observation or measured registration gain. Pointwise D already uses learned RAP encoding; it is not a raw descriptor/strong geometry baseline.
+
+12 helper10-layer calls+4 complete FP32 forwards,0 native/head backward/optimizer/retained update/source sampler/GT metric. Three supervised successful children 68.996780333s incl imports/RSS2158727168/GPU allocated1051709440,reserved1163919360;900s/6GiB RSS/6GiB GPU/256MiB caps pass, full child+Windows exits,0 retries/0 gaps. All original weights/modes/hooks/backend flags restored; ordinary setup RSS unknown/closing bookkeeping separate.
+
+Float32/math/IEEE extraction differs from original default fp16 and does not repair NOC4 native backwards or establish RAP-specific metric headroom. One exposed known synthetic scene/copied descriptors/two old noise arrays, no fresh noise or generalization/system/novelty. Original HFIT0/NOC4/NBR INCOMPLETE, retired CCR0/geometry stops/09 unknown/source seals/HEADs/branches/two-nine dirty sets remain. No training/real/trajectory/production/ref/install/acquisition/restart/manuscript/commit/Git sync.

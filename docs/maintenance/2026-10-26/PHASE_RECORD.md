@@ -1,0 +1,11 @@
+# October26 context and strategy review
+
+The owner requested AGENTS.md context, experimental reports, latest progress including training, and a next strategy. The documentary review is COMPLETE. Read context-strategy-review-01/REPORT.md and REVIEW_CHECKS.json.
+
+SR1 completed model/backward checks, 20 retained manual updates per V/P arm and the complete 51-case comparison. Both fitting losses fall about 1.98%, but all four noise cells FAIL; average translation gains are only 9–26 micrometers. This verifies fitting of the specified shadow function, not native repair or useful adaptation. Original HFIT0 remains INCOMPLETE. The October25 phase record's missing SR1 entry is resolved by citing its later sealed dossier, without rewriting old evidence.
+
+The current system result is October21 S1's 36 fresh-raw trajectory-core cells: G/K ATE 0.648334141/0.698991712 m, ter 0.446953334/0.478490322%; 07ter/10rer protections fail. G11.391FPS is not stable online10Hz. P0 was independently validated later and both queue4 candidates remain CLOSED_EQUIVALENCE_FAIL; its original capture budget FAIL remains. No new RAP-specific system increment is established.
+
+Recommendation: retain completed system deliverables and stopped-family boundaries; prioritize one useful task/mechanism and a documented measured-source/reference role, then a separately frozen common-input geometry/pair/joint/equal-work comparison if justified. Further adaptation needs a credible learning-specific case and a new prospective train/confirmation/evaluation protocol. No scientific payload, acquisition or outreach is pending or authorized automatically.
+
+Thirteen selected SR1 seal entries match length/SHA256; selected evidence identities and descriptive scalar checks are recorded. Both repository HEADs/branches and tracked two/nine dirty sets match their recorded state; remote sync is unchecked. Only documentary additions and an additive AGENTS header are made, with byte-exact prior AGENTS backup/suffix verification. No model/array/solver/fit/new pose metric, WSL/environment/storage/default/production/install/Git/network/outreach/scheduler/account/goal-status change. Research UNRESOLVED/manuscript PAUSED. No automatic continuation or quota-reset resume.

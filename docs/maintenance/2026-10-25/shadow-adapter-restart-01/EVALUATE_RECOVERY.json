@@ -1,0 +1,13 @@
+{
+  "classification": "TWO_EXTERNAL_TOOL_TIMEOUTS_BEFORE_EVALUATION_OUTPUT",
+  "interrupted_stage": "supervision/evaluate",
+  "outer_wall_seconds_each": 300,
+  "attempts": 2,
+  "child_exit_present": false,
+  "results_present": false,
+  "validation_present": false,
+  "partial_metrics_admitted": false,
+  "prediction_bank_changed": false,
+  "recovery": "Preserve both interrupted attempts; validate each prediction file once in fixed U/V/P chunks with unchanged recurrence, Horn and metric formulas, then jointly summarize all four gate cells.",
+  "scientific_gate_or_threshold_changed": false
+}

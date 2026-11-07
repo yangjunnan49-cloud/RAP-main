@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "gradient_fd_max_delta": 4.633404770970628e-12,
+  "fixed_membership_gauge_cost_delta": 3.469446951953614e-18,
+  "accepted_fixture": {
+    "candidate_voxels": 1,
+    "full_eligible_planes": 1,
+    "accepted_cross_patches": 1,
+    "rejected_support": 0,
+    "rejected_plane": 0,
+    "rejected_single_visit": 0
+  },
+  "support_rejection": {
+    "candidate_voxels": 1,
+    "full_eligible_planes": 0,
+    "accepted_cross_patches": 0,
+    "rejected_support": 1,
+    "rejected_plane": 0,
+    "rejected_single_visit": 0
+  },
+  "plane_rejection": {
+    "candidate_voxels": 1,
+    "full_eligible_planes": 0,
+    "accepted_cross_patches": 0,
+    "rejected_support": 0,
+    "rejected_plane": 1,
+    "rejected_single_visit": 0
+  },
+  "single_visit_rejection": {
+    "candidate_voxels": 2,
+    "full_eligible_planes": 2,
+    "accepted_cross_patches": 0,
+    "rejected_support": 0,
+    "rejected_plane": 0,
+    "rejected_single_visit": 2
+  },
+  "integer_voxel_translation_equivariance": true,
+  "optimizer_calls": 0,
+  "real_payload_parsed": false
+}

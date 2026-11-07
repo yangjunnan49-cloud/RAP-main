@@ -1,0 +1,7 @@
+# October24 explicit renewal and recovery complete
+
+The owner explicitly renewed the saved source plan until the current5h quota is exhausted. Actual observation followed by02:07:47UTC:27%/ordinaryTRUE/reset1792825078. This is new authorization, not automatic reset resume. CURRENT_ACCOUNT and immutable observations govern this window.
+
+The previous turn stopped on an explicit usage-limit failure from automatic approval review. Last conversation API was99%/ordinaryTRUE at09:56:34UTC; the attempted composite action did not execute, so the prior saved pointer remains98%. No exact failure UTC or API ordinaryFALSE receipt exists. PRIOR_ACCOUNT_STOP_ADDITIVE records only available evidence and supersedes stale prior ACTIVE prose without writing old authority. All15 old cost hashes and the1109-member ZIP SHA match; no old numeric scope was left open and no stopped gap was excluded from an open account. Older documentary failures remain failures.
+
+Next is a separate prospective TT2 CPU-only tensor revision using SL1's already frozen synthetic predicate, strict402-state byte/finiteness verification, per-model seals and recorded RNG boundaries. TT1 remains failed/closed, candidates remain uninstalled, and physical efficacy remains not admitted. Actual model inference requires a later separate freeze/resource admission after complete new CPU transfer success. All source/default/production/install/Git/outreach/scheduler/goal limits and manuscript pause remain.

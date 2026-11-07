@@ -1,0 +1,261 @@
+{
+  "scope": "observed-development descriptor information diagnostic",
+  "decision": "NO_FEATURE_INFORMATION_SIGNAL",
+  "primary_adequate_pairs": 33,
+  "primary_adequate_paired_difference_median": 0.011322463768115942,
+  "groups": {
+    "00_unavailable": {
+      "pairs": 23,
+      "eligible_pairs": 23,
+      "adequate_pairs": 16,
+      "eligible_fraction": {
+        "mean": 0.15265217391304348,
+        "median": 0.1215
+      },
+      "true_recall": {
+        "mean": 0.010362830277678248,
+        "median": 0.005405405405405406
+      },
+      "control_mean_recall": {
+        "mean": 0.0011658314335223265,
+        "median": 0.001141552511415525
+      },
+      "paired_difference": {
+        "mean": 0.009196998844155922,
+        "median": 0.003777472527472528
+      }
+    },
+    "00_available": {
+      "pairs": 52,
+      "eligible_pairs": 52,
+      "adequate_pairs": 52,
+      "eligible_fraction": {
+        "mean": 0.5087019230769231,
+        "median": 0.5145
+      },
+      "true_recall": {
+        "mean": 0.09453616556344807,
+        "median": 0.07666489274505658
+      },
+      "control_mean_recall": {
+        "mean": 0.0015005349568644986,
+        "median": 0.0015010501284290654
+      },
+      "paired_difference": {
+        "mean": 0.09303563060658357,
+        "median": 0.07503222533516428
+      }
+    },
+    "00_confuser": {
+      "pairs": 25,
+      "eligible_pairs": 0,
+      "adequate_pairs": 0,
+      "eligible_fraction": {
+        "mean": null,
+        "median": null
+      },
+      "true_recall": {
+        "mean": null,
+        "median": null
+      },
+      "control_mean_recall": {
+        "mean": null,
+        "median": null
+      },
+      "paired_difference": {
+        "mean": null,
+        "median": null
+      }
+    },
+    "00_ambiguous_positive": {
+      "pairs": 25,
+      "eligible_pairs": 25,
+      "adequate_pairs": 25,
+      "eligible_fraction": {
+        "mean": 0.40409999999999996,
+        "median": 0.3555
+      },
+      "true_recall": {
+        "mean": 0.05196228015159138,
+        "median": 0.023622047244094488
+      },
+      "control_mean_recall": {
+        "mean": 0.0015280745065643236,
+        "median": 0.0015228426395939086
+      },
+      "paired_difference": {
+        "mean": 0.05043420564502704,
+        "median": 0.02214566929133858
+      }
+    },
+    "00_low_overlap": {
+      "pairs": 25,
+      "eligible_pairs": 25,
+      "adequate_pairs": 18,
+      "eligible_fraction": {
+        "mean": 0.14412,
+        "median": 0.1225
+      },
+      "true_recall": {
+        "mean": 0.009858065472257664,
+        "median": 0.005494505494505495
+      },
+      "control_mean_recall": {
+        "mean": 0.001138128856681212,
+        "median": 0.0011363636363636363
+      },
+      "paired_difference": {
+        "mean": 0.008719936615576454,
+        "median": 0.00423728813559322
+      }
+    },
+    "00_ordinary": {
+      "pairs": 25,
+      "eligible_pairs": 25,
+      "adequate_pairs": 25,
+      "eligible_fraction": {
+        "mean": 0.6503200000000001,
+        "median": 0.679
+      },
+      "true_recall": {
+        "mean": 0.1443486826035869,
+        "median": 0.12339585389930899
+      },
+      "control_mean_recall": {
+        "mean": 0.0015274742658731625,
+        "median": 0.001469017094017094
+      },
+      "paired_difference": {
+        "mean": 0.14282120833771375,
+        "median": 0.12154491609081935
+      }
+    },
+    "08_unavailable": {
+      "pairs": 41,
+      "eligible_pairs": 41,
+      "adequate_pairs": 33,
+      "eligible_fraction": {
+        "mean": 0.2657560975609756,
+        "median": 0.289
+      },
+      "true_recall": {
+        "mean": 0.014727631499215004,
+        "median": 0.008978675645342313
+      },
+      "control_mean_recall": {
+        "mean": 0.0010601482765165585,
+        "median": 0.0010416666666666667
+      },
+      "paired_difference": {
+        "mean": 0.013667483222698444,
+        "median": 0.008216783216783218
+      }
+    },
+    "08_available": {
+      "pairs": 34,
+      "eligible_pairs": 34,
+      "adequate_pairs": 33,
+      "eligible_fraction": {
+        "mean": 0.5231911764705882,
+        "median": 0.65725
+      },
+      "true_recall": {
+        "mean": 0.09308550815315673,
+        "median": 0.08455333194404296
+      },
+      "control_mean_recall": {
+        "mean": 0.0015680352729619336,
+        "median": 0.0016020825508117355
+      },
+      "paired_difference": {
+        "mean": 0.09151747288019481,
+        "median": 0.08257852991791984
+      }
+    },
+    "08_confuser": {
+      "pairs": 25,
+      "eligible_pairs": 1,
+      "adequate_pairs": 0,
+      "eligible_fraction": {
+        "mean": 0.009,
+        "median": 0.009
+      },
+      "true_recall": {
+        "mean": 0.0,
+        "median": 0.0
+      },
+      "control_mean_recall": {
+        "mean": 0.0,
+        "median": 0.0
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "08_ambiguous_positive": {
+      "pairs": 25,
+      "eligible_pairs": 25,
+      "adequate_pairs": 25,
+      "eligible_fraction": {
+        "mean": 0.41229999999999994,
+        "median": 0.359
+      },
+      "true_recall": {
+        "mean": 0.038601987028705244,
+        "median": 0.013869625520110958
+      },
+      "control_mean_recall": {
+        "mean": 0.0012695082111632255,
+        "median": 0.0012387387387387389
+      },
+      "paired_difference": {
+        "mean": 0.037332478817542016,
+        "median": 0.012795961002785515
+      }
+    },
+    "08_low_overlap": {
+      "pairs": 25,
+      "eligible_pairs": 25,
+      "adequate_pairs": 16,
+      "eligible_fraction": {
+        "mean": 0.13629999999999998,
+        "median": 0.117
+      },
+      "true_recall": {
+        "mean": 0.009554627034203792,
+        "median": 0.003355704697986577
+      },
+      "control_mean_recall": {
+        "mean": 0.001222862064195261,
+        "median": 0.0009036144578313254
+      },
+      "paired_difference": {
+        "mean": 0.008331764970008532,
+        "median": 0.002307046979865772
+      }
+    },
+    "08_ordinary": {
+      "pairs": 25,
+      "eligible_pairs": 25,
+      "adequate_pairs": 25,
+      "eligible_fraction": {
+        "mean": 0.59878,
+        "median": 0.6725
+      },
+      "true_recall": {
+        "mean": 0.10259299268409676,
+        "median": 0.08996539792387544
+      },
+      "control_mean_recall": {
+        "mean": 0.001378800869356899,
+        "median": 0.0013185654008438818
+      },
+      "paired_difference": {
+        "mean": 0.10121419181473984,
+        "median": 0.08895617070357555
+      }
+    }
+  },
+  "bank_sha256": "b4771213a06e7de4bd9f3293e1ad2d4949168fcf46bf23364b5bd9f5c5932914"
+}

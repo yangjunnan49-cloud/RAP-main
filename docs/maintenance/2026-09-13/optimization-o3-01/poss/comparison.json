@@ -1,0 +1,4429 @@
+{
+  "sequence": "poss",
+  "arms": [
+    {
+      "budget": 12,
+      "candidates": 4,
+      "counts": {
+        "started": 0,
+        "accepted": 4,
+        "rejected": 0,
+        "failed": 0
+      },
+      "metrics": {
+        "n_frames": 1419,
+        "path_length_m": 419.5203438655113,
+        "ape_unaligned_rmse": 1.8222638483087499,
+        "ape_unaligned_max": 3.807632567087454,
+        "ape_aligned_rmse": 0.6660539735573079,
+        "ape_aligned_max": 1.2286013531987614,
+        "kitti_ter_pct": 1.961403123194832,
+        "kitti_rer_deg100m": 1.9783958094179124,
+        "kitti_segments": 217,
+        "kitti_segment_records": [
+          {
+            "first": 0,
+            "last": 361,
+            "source_first": 3850,
+            "source_last": 4211,
+            "length_m": 100,
+            "translation_fraction": 0.016362168605497652,
+            "rotation_rad_per_m": 0.00027662752420141735,
+            "speed_mps": 2.762430939226519
+          },
+          {
+            "first": 0,
+            "last": 617,
+            "source_first": 3850,
+            "source_last": 4467,
+            "length_m": 200,
+            "translation_fraction": 0.016594038029141247,
+            "rotation_rad_per_m": 0.00032902605531982864,
+            "speed_mps": 3.2362459546925564
+          },
+          {
+            "first": 0,
+            "last": 917,
+            "source_first": 3850,
+            "source_last": 4767,
+            "length_m": 300,
+            "translation_fraction": 0.0013703829391608767,
+            "rotation_rad_per_m": 0.00022537214872001823,
+            "speed_mps": 3.26797385620915
+          },
+          {
+            "first": 0,
+            "last": 1335,
+            "source_first": 3850,
+            "source_last": 5185,
+            "length_m": 400,
+            "translation_fraction": 0.0019990766633262605,
+            "rotation_rad_per_m": 3.9698209447478944e-05,
+            "speed_mps": 2.9940119760479043
+          },
+          {
+            "first": 10,
+            "last": 368,
+            "source_first": 3860,
+            "source_last": 4218,
+            "length_m": 100,
+            "translation_fraction": 0.019928413142308355,
+            "rotation_rad_per_m": 0.00024445828414099645,
+            "speed_mps": 2.785515320334262
+          },
+          {
+            "first": 10,
+            "last": 627,
+            "source_first": 3860,
+            "source_last": 4477,
+            "length_m": 200,
+            "translation_fraction": 0.019075595567236606,
+            "rotation_rad_per_m": 0.0003300846570595834,
+            "speed_mps": 3.2362459546925564
+          },
+          {
+            "first": 10,
+            "last": 925,
+            "source_first": 3860,
+            "source_last": 4775,
+            "length_m": 300,
+            "translation_fraction": 0.00352458772166251,
+            "rotation_rad_per_m": 0.00023036212222011702,
+            "speed_mps": 3.2751091703056767
+          },
+          {
+            "first": 10,
+            "last": 1353,
+            "source_first": 3860,
+            "source_last": 5203,
+            "length_m": 400,
+            "translation_fraction": 0.0017718791098088721,
+            "rotation_rad_per_m": 3.923183987081238e-05,
+            "speed_mps": 2.9761904761904763
+          },
+          {
+            "first": 20,
+            "last": 374,
+            "source_first": 3870,
+            "source_last": 4224,
+            "length_m": 100,
+            "translation_fraction": 0.019290965423787724,
+            "rotation_rad_per_m": 0.0002462050235522238,
+            "speed_mps": 2.816901408450704
+          },
+          {
+            "first": 20,
+            "last": 635,
+            "source_first": 3870,
+            "source_last": 4485,
+            "length_m": 200,
+            "translation_fraction": 0.0187741222273399,
+            "rotation_rad_per_m": 0.00033836954348830534,
+            "speed_mps": 3.2467532467532467
+          },
+          {
+            "first": 20,
+            "last": 933,
+            "source_first": 3870,
+            "source_last": 4783,
+            "length_m": 300,
+            "translation_fraction": 0.0023373353334496492,
+            "rotation_rad_per_m": 0.00023297298300519113,
+            "speed_mps": 3.282275711159737
+          },
+          {
+            "first": 20,
+            "last": 1369,
+            "source_first": 3870,
+            "source_last": 5219,
+            "length_m": 400,
+            "translation_fraction": 0.0018780766614168495,
+            "rotation_rad_per_m": 3.830612942715422e-05,
+            "speed_mps": 2.962962962962963
+          },
+          {
+            "first": 30,
+            "last": 379,
+            "source_first": 3880,
+            "source_last": 4229,
+            "length_m": 100,
+            "translation_fraction": 0.018298219204501302,
+            "rotation_rad_per_m": 0.00031272961195639965,
+            "speed_mps": 2.857142857142857
+          },
+          {
+            "first": 30,
+            "last": 642,
+            "source_first": 3880,
+            "source_last": 4492,
+            "length_m": 200,
+            "translation_fraction": 0.017057520637133058,
+            "rotation_rad_per_m": 0.0003571960011894055,
+            "speed_mps": 3.262642740619902
+          },
+          {
+            "first": 30,
+            "last": 941,
+            "source_first": 3880,
+            "source_last": 4791,
+            "length_m": 300,
+            "translation_fraction": 0.0029548482729288422,
+            "rotation_rad_per_m": 0.00023213839713022354,
+            "speed_mps": 3.289473684210526
+          },
+          {
+            "first": 30,
+            "last": 1380,
+            "source_first": 3880,
+            "source_last": 5230,
+            "length_m": 400,
+            "translation_fraction": 0.0024681753303818694,
+            "rotation_rad_per_m": 3.560870127270068e-05,
+            "speed_mps": 2.9607698001480385
+          },
+          {
+            "first": 40,
+            "last": 382,
+            "source_first": 3890,
+            "source_last": 4232,
+            "length_m": 100,
+            "translation_fraction": 0.0196846999658771,
+            "rotation_rad_per_m": 0.00031737618646950733,
+            "speed_mps": 2.9154518950437316
+          },
+          {
+            "first": 40,
+            "last": 648,
+            "source_first": 3890,
+            "source_last": 4498,
+            "length_m": 200,
+            "translation_fraction": 0.017662058975300217,
+            "rotation_rad_per_m": 0.00035479072065536693,
+            "speed_mps": 3.2840722495894905
+          },
+          {
+            "first": 40,
+            "last": 948,
+            "source_first": 3890,
+            "source_last": 4798,
+            "length_m": 300,
+            "translation_fraction": 0.003436280145169319,
+            "rotation_rad_per_m": 0.00022992295179066391,
+            "speed_mps": 3.3003300330033003
+          },
+          {
+            "first": 40,
+            "last": 1387,
+            "source_first": 3890,
+            "source_last": 5237,
+            "length_m": 400,
+            "translation_fraction": 0.0024582465582966384,
+            "rotation_rad_per_m": 3.49349151243741e-05,
+            "speed_mps": 2.9673590504451037
+          },
+          {
+            "first": 50,
+            "last": 385,
+            "source_first": 3900,
+            "source_last": 4235,
+            "length_m": 100,
+            "translation_fraction": 0.01897858991788125,
+            "rotation_rad_per_m": 0.00029800422319910524,
+            "speed_mps": 2.9761904761904763
+          },
+          {
+            "first": 50,
+            "last": 652,
+            "source_first": 3900,
+            "source_last": 4502,
+            "length_m": 200,
+            "translation_fraction": 0.016936902029259036,
+            "rotation_rad_per_m": 0.000343097943404412,
+            "speed_mps": 3.3167495854063014
+          },
+          {
+            "first": 50,
+            "last": 955,
+            "source_first": 3900,
+            "source_last": 4805,
+            "length_m": 300,
+            "translation_fraction": 0.003859643565759731,
+            "rotation_rad_per_m": 0.00021823375974513033,
+            "speed_mps": 3.311258278145695
+          },
+          {
+            "first": 50,
+            "last": 1393,
+            "source_first": 3900,
+            "source_last": 5243,
+            "length_m": 400,
+            "translation_fraction": 0.0024701721205668092,
+            "rotation_rad_per_m": 3.247554533501184e-05,
+            "speed_mps": 2.9761904761904763
+          },
+          {
+            "first": 60,
+            "last": 388,
+            "source_first": 3910,
+            "source_last": 4238,
+            "length_m": 100,
+            "translation_fraction": 0.021276017482457284,
+            "rotation_rad_per_m": 0.00026884653663208804,
+            "speed_mps": 3.0395136778115504
+          },
+          {
+            "first": 60,
+            "last": 656,
+            "source_first": 3910,
+            "source_last": 4506,
+            "length_m": 200,
+            "translation_fraction": 0.01842265605998381,
+            "rotation_rad_per_m": 0.0003532090285018206,
+            "speed_mps": 3.350083752093802
+          },
+          {
+            "first": 60,
+            "last": 961,
+            "source_first": 3910,
+            "source_last": 4811,
+            "length_m": 300,
+            "translation_fraction": 0.003383191039182895,
+            "rotation_rad_per_m": 0.000231974511518411,
+            "speed_mps": 3.325942350332594
+          },
+          {
+            "first": 60,
+            "last": 1398,
+            "source_first": 3910,
+            "source_last": 5248,
+            "length_m": 400,
+            "translation_fraction": 0.0023793176147425214,
+            "rotation_rad_per_m": 3.168536385346572e-05,
+            "speed_mps": 2.9873039581777445
+          },
+          {
+            "first": 70,
+            "last": 390,
+            "source_first": 3920,
+            "source_last": 4240,
+            "length_m": 100,
+            "translation_fraction": 0.021589766779247156,
+            "rotation_rad_per_m": 0.00025216726693188347,
+            "speed_mps": 3.115264797507788
+          },
+          {
+            "first": 70,
+            "last": 661,
+            "source_first": 3920,
+            "source_last": 4511,
+            "length_m": 200,
+            "translation_fraction": 0.019006423110392683,
+            "rotation_rad_per_m": 0.0003516277793546712,
+            "speed_mps": 3.378378378378378
+          },
+          {
+            "first": 70,
+            "last": 968,
+            "source_first": 3920,
+            "source_last": 4818,
+            "length_m": 300,
+            "translation_fraction": 0.0031285884432701544,
+            "rotation_rad_per_m": 0.00023853975147053054,
+            "speed_mps": 3.337041156840934
+          },
+          {
+            "first": 70,
+            "last": 1404,
+            "source_first": 3920,
+            "source_last": 5254,
+            "length_m": 400,
+            "translation_fraction": 0.0022432029141421462,
+            "rotation_rad_per_m": 2.9222641802022798e-05,
+            "speed_mps": 2.9962546816479403
+          },
+          {
+            "first": 80,
+            "last": 393,
+            "source_first": 3930,
+            "source_last": 4243,
+            "length_m": 100,
+            "translation_fraction": 0.020934586498376036,
+            "rotation_rad_per_m": 0.00024253834820209768,
+            "speed_mps": 3.184713375796178
+          },
+          {
+            "first": 80,
+            "last": 666,
+            "source_first": 3930,
+            "source_last": 4516,
+            "length_m": 200,
+            "translation_fraction": 0.018639307723555015,
+            "rotation_rad_per_m": 0.00035148169353265324,
+            "speed_mps": 3.4071550255536627
+          },
+          {
+            "first": 80,
+            "last": 975,
+            "source_first": 3930,
+            "source_last": 4825,
+            "length_m": 300,
+            "translation_fraction": 0.0031219903213492092,
+            "rotation_rad_per_m": 0.0002362389294197408,
+            "speed_mps": 3.3482142857142856
+          },
+          {
+            "first": 80,
+            "last": 1409,
+            "source_first": 3930,
+            "source_last": 5259,
+            "length_m": 400,
+            "translation_fraction": 0.002137344318879785,
+            "rotation_rad_per_m": 2.351966023156639e-05,
+            "speed_mps": 3.007518796992481
+          },
+          {
+            "first": 90,
+            "last": 397,
+            "source_first": 3940,
+            "source_last": 4247,
+            "length_m": 100,
+            "translation_fraction": 0.02116293477528514,
+            "rotation_rad_per_m": 0.00022852021450181539,
+            "speed_mps": 3.2467532467532467
+          },
+          {
+            "first": 90,
+            "last": 672,
+            "source_first": 3940,
+            "source_last": 4522,
+            "length_m": 200,
+            "translation_fraction": 0.019313653896312476,
+            "rotation_rad_per_m": 0.000360295468203735,
+            "speed_mps": 3.4305317324185247
+          },
+          {
+            "first": 90,
+            "last": 985,
+            "source_first": 3940,
+            "source_last": 4835,
+            "length_m": 300,
+            "translation_fraction": 0.003873194359659798,
+            "rotation_rad_per_m": 0.0002244367589154891,
+            "speed_mps": 3.3482142857142856
+          },
+          {
+            "first": 90,
+            "last": 1415,
+            "source_first": 3940,
+            "source_last": 5265,
+            "length_m": 400,
+            "translation_fraction": 0.0021265218234022107,
+            "rotation_rad_per_m": 2.2945993413854478e-05,
+            "speed_mps": 3.0165912518853695
+          },
+          {
+            "first": 100,
+            "last": 401,
+            "source_first": 3950,
+            "source_last": 4251,
+            "length_m": 100,
+            "translation_fraction": 0.02511150178804621,
+            "rotation_rad_per_m": 0.00022830058581959657,
+            "speed_mps": 3.311258278145695
+          },
+          {
+            "first": 100,
+            "last": 680,
+            "source_first": 3950,
+            "source_last": 4530,
+            "length_m": 200,
+            "translation_fraction": 0.02212358781544164,
+            "rotation_rad_per_m": 0.0003730166108127391,
+            "speed_mps": 3.442340791738382
+          },
+          {
+            "first": 100,
+            "last": 995,
+            "source_first": 3950,
+            "source_last": 4845,
+            "length_m": 300,
+            "translation_fraction": 0.0030066064661832138,
+            "rotation_rad_per_m": 0.0002427281747219509,
+            "speed_mps": 3.3482142857142856
+          },
+          {
+            "first": 110,
+            "last": 405,
+            "source_first": 3960,
+            "source_last": 4255,
+            "length_m": 100,
+            "translation_fraction": 0.025253427486112413,
+            "rotation_rad_per_m": 0.00020525373686869423,
+            "speed_mps": 3.378378378378378
+          },
+          {
+            "first": 110,
+            "last": 690,
+            "source_first": 3960,
+            "source_last": 4540,
+            "length_m": 200,
+            "translation_fraction": 0.02357270830544932,
+            "rotation_rad_per_m": 0.0003381346866867574,
+            "speed_mps": 3.442340791738382
+          },
+          {
+            "first": 110,
+            "last": 1006,
+            "source_first": 3960,
+            "source_last": 4856,
+            "length_m": 300,
+            "translation_fraction": 0.001264032870188703,
+            "rotation_rad_per_m": 0.00027387174313222695,
+            "speed_mps": 3.3444816053511706
+          },
+          {
+            "first": 120,
+            "last": 409,
+            "source_first": 3970,
+            "source_last": 4259,
+            "length_m": 100,
+            "translation_fraction": 0.02724442486722721,
+            "rotation_rad_per_m": 0.00022613718563953614,
+            "speed_mps": 3.4482758620689653
+          },
+          {
+            "first": 120,
+            "last": 700,
+            "source_first": 3970,
+            "source_last": 4550,
+            "length_m": 200,
+            "translation_fraction": 0.024039662623762222,
+            "rotation_rad_per_m": 0.00034327402833285713,
+            "speed_mps": 3.442340791738382
+          },
+          {
+            "first": 120,
+            "last": 1019,
+            "source_first": 3970,
+            "source_last": 4869,
+            "length_m": 300,
+            "translation_fraction": 0.001789073501082398,
+            "rotation_rad_per_m": 0.00027647730582537594,
+            "speed_mps": 3.3333333333333335
+          },
+          {
+            "first": 130,
+            "last": 413,
+            "source_first": 3980,
+            "source_last": 4263,
+            "length_m": 100,
+            "translation_fraction": 0.03315616953734127,
+            "rotation_rad_per_m": 0.00028461049709084123,
+            "speed_mps": 3.52112676056338
+          },
+          {
+            "first": 130,
+            "last": 711,
+            "source_first": 3980,
+            "source_last": 4561,
+            "length_m": 200,
+            "translation_fraction": 0.027987827958453865,
+            "rotation_rad_per_m": 0.0003609649910409636,
+            "speed_mps": 3.4364261168384878
+          },
+          {
+            "first": 130,
+            "last": 1032,
+            "source_first": 3980,
+            "source_last": 4882,
+            "length_m": 300,
+            "translation_fraction": 0.0029394953135807524,
+            "rotation_rad_per_m": 0.0002772143743178651,
+            "speed_mps": 3.322259136212624
+          },
+          {
+            "first": 140,
+            "last": 417,
+            "source_first": 3990,
+            "source_last": 4267,
+            "length_m": 100,
+            "translation_fraction": 0.033133814942024935,
+            "rotation_rad_per_m": 0.00023952558424466264,
+            "speed_mps": 3.597122302158273
+          },
+          {
+            "first": 140,
+            "last": 720,
+            "source_first": 3990,
+            "source_last": 4570,
+            "length_m": 200,
+            "translation_fraction": 0.027939231060433337,
+            "rotation_rad_per_m": 0.00036876471506193387,
+            "speed_mps": 3.442340791738382
+          },
+          {
+            "first": 140,
+            "last": 1044,
+            "source_first": 3990,
+            "source_last": 4894,
+            "length_m": 300,
+            "translation_fraction": 0.0016083268169396544,
+            "rotation_rad_per_m": 0.0002864654199181056,
+            "speed_mps": 3.314917127071823
+          },
+          {
+            "first": 150,
+            "last": 420,
+            "source_first": 4000,
+            "source_last": 4270,
+            "length_m": 100,
+            "translation_fraction": 0.04869629297078072,
+            "rotation_rad_per_m": 0.00040065386677359837,
+            "speed_mps": 3.6900369003690034
+          },
+          {
+            "first": 150,
+            "last": 729,
+            "source_first": 4000,
+            "source_last": 4579,
+            "length_m": 200,
+            "translation_fraction": 0.038419465148499185,
+            "rotation_rad_per_m": 0.00042001864609920244,
+            "speed_mps": 3.4482758620689653
+          },
+          {
+            "first": 150,
+            "last": 1056,
+            "source_first": 4000,
+            "source_last": 4906,
+            "length_m": 300,
+            "translation_fraction": 0.004691557626965778,
+            "rotation_rad_per_m": 0.0002936898353967647,
+            "speed_mps": 3.3076074972436604
+          },
+          {
+            "first": 160,
+            "last": 424,
+            "source_first": 4010,
+            "source_last": 4274,
+            "length_m": 100,
+            "translation_fraction": 0.041311908838680626,
+            "rotation_rad_per_m": 0.00025819171869372027,
+            "speed_mps": 3.7735849056603774
+          },
+          {
+            "first": 160,
+            "last": 738,
+            "source_first": 4010,
+            "source_last": 4588,
+            "length_m": 200,
+            "translation_fraction": 0.03203490520040102,
+            "rotation_rad_per_m": 0.00039349109456801714,
+            "speed_mps": 3.4542314335060444
+          },
+          {
+            "first": 160,
+            "last": 1067,
+            "source_first": 4010,
+            "source_last": 4917,
+            "length_m": 300,
+            "translation_fraction": 0.0014295029093025068,
+            "rotation_rad_per_m": 0.0002753045340220063,
+            "speed_mps": 3.3039647577092506
+          },
+          {
+            "first": 170,
+            "last": 428,
+            "source_first": 4020,
+            "source_last": 4278,
+            "length_m": 100,
+            "translation_fraction": 0.04434540503437031,
+            "rotation_rad_per_m": 0.0002997142600678793,
+            "speed_mps": 3.861003861003861
+          },
+          {
+            "first": 170,
+            "last": 745,
+            "source_first": 4020,
+            "source_last": 4595,
+            "length_m": 200,
+            "translation_fraction": 0.032455481269060706,
+            "rotation_rad_per_m": 0.00041030093713667414,
+            "speed_mps": 3.4722222222222223
+          },
+          {
+            "first": 170,
+            "last": 1077,
+            "source_first": 4020,
+            "source_last": 4927,
+            "length_m": 300,
+            "translation_fraction": 0.0017724567769905287,
+            "rotation_rad_per_m": 0.0002908144357133988,
+            "speed_mps": 3.3039647577092506
+          },
+          {
+            "first": 180,
+            "last": 431,
+            "source_first": 4030,
+            "source_last": 4281,
+            "length_m": 100,
+            "translation_fraction": 0.04072055971417518,
+            "rotation_rad_per_m": 0.0002668359453152937,
+            "speed_mps": 3.968253968253968
+          },
+          {
+            "first": 180,
+            "last": 752,
+            "source_first": 4030,
+            "source_last": 4602,
+            "length_m": 200,
+            "translation_fraction": 0.029587795816600836,
+            "rotation_rad_per_m": 0.00038291326025202026,
+            "speed_mps": 3.490401396160558
+          },
+          {
+            "first": 180,
+            "last": 1085,
+            "source_first": 4030,
+            "source_last": 4935,
+            "length_m": 300,
+            "translation_fraction": 0.001650072194293533,
+            "rotation_rad_per_m": 0.0002997218226962857,
+            "speed_mps": 3.311258278145695
+          },
+          {
+            "first": 190,
+            "last": 434,
+            "source_first": 4040,
+            "source_last": 4284,
+            "length_m": 100,
+            "translation_fraction": 0.040133914085204905,
+            "rotation_rad_per_m": 0.00025591639438619636,
+            "speed_mps": 4.081632653061225
+          },
+          {
+            "first": 190,
+            "last": 759,
+            "source_first": 4040,
+            "source_last": 4609,
+            "length_m": 200,
+            "translation_fraction": 0.02842249595616147,
+            "rotation_rad_per_m": 0.0004065569885611395,
+            "speed_mps": 3.508771929824561
+          },
+          {
+            "first": 190,
+            "last": 1093,
+            "source_first": 4040,
+            "source_last": 4943,
+            "length_m": 300,
+            "translation_fraction": 0.0009918019149825388,
+            "rotation_rad_per_m": 0.00028771593851703424,
+            "speed_mps": 3.31858407079646
+          },
+          {
+            "first": 200,
+            "last": 437,
+            "source_first": 4050,
+            "source_last": 4287,
+            "length_m": 100,
+            "translation_fraction": 0.039717442360677355,
+            "rotation_rad_per_m": 0.00023245280194718608,
+            "speed_mps": 4.201680672268908
+          },
+          {
+            "first": 200,
+            "last": 765,
+            "source_first": 4050,
+            "source_last": 4615,
+            "length_m": 200,
+            "translation_fraction": 0.02668122252302031,
+            "rotation_rad_per_m": 0.000415226891519011,
+            "speed_mps": 3.5335689045936394
+          },
+          {
+            "first": 200,
+            "last": 1100,
+            "source_first": 4050,
+            "source_last": 4950,
+            "length_m": 300,
+            "translation_fraction": 0.0010514037811699163,
+            "rotation_rad_per_m": 0.0002840896118078945,
+            "speed_mps": 3.329633740288568
+          },
+          {
+            "first": 210,
+            "last": 440,
+            "source_first": 4060,
+            "source_last": 4290,
+            "length_m": 100,
+            "translation_fraction": 0.03863014538251733,
+            "rotation_rad_per_m": 0.0002495919588448284,
+            "speed_mps": 4.329004329004329
+          },
+          {
+            "first": 210,
+            "last": 772,
+            "source_first": 4060,
+            "source_last": 4622,
+            "length_m": 200,
+            "translation_fraction": 0.025083625306744416,
+            "rotation_rad_per_m": 0.00039254401734962287,
+            "speed_mps": 3.5523978685612785
+          },
+          {
+            "first": 210,
+            "last": 1109,
+            "source_first": 4060,
+            "source_last": 4959,
+            "length_m": 300,
+            "translation_fraction": 0.0013024564472294735,
+            "rotation_rad_per_m": 0.0002724577364739936,
+            "speed_mps": 3.3333333333333335
+          },
+          {
+            "first": 220,
+            "last": 445,
+            "source_first": 4070,
+            "source_last": 4295,
+            "length_m": 100,
+            "translation_fraction": 0.03780627498932033,
+            "rotation_rad_per_m": 0.00024800909843058664,
+            "speed_mps": 4.424778761061947
+          },
+          {
+            "first": 220,
+            "last": 781,
+            "source_first": 4070,
+            "source_last": 4631,
+            "length_m": 200,
+            "translation_fraction": 0.02283711640127418,
+            "rotation_rad_per_m": 0.00039438614838039574,
+            "speed_mps": 3.558718861209964
+          },
+          {
+            "first": 220,
+            "last": 1121,
+            "source_first": 4070,
+            "source_last": 4971,
+            "length_m": 300,
+            "translation_fraction": 0.00141536433750256,
+            "rotation_rad_per_m": 0.0002620875685821564,
+            "speed_mps": 3.325942350332594
+          },
+          {
+            "first": 230,
+            "last": 450,
+            "source_first": 4080,
+            "source_last": 4300,
+            "length_m": 100,
+            "translation_fraction": 0.040886417320736744,
+            "rotation_rad_per_m": 0.0002961657248488792,
+            "speed_mps": 4.524886877828054
+          },
+          {
+            "first": 230,
+            "last": 791,
+            "source_first": 4080,
+            "source_last": 4641,
+            "length_m": 200,
+            "translation_fraction": 0.021565293239111574,
+            "rotation_rad_per_m": 0.000403227744188846,
+            "speed_mps": 3.558718861209964
+          },
+          {
+            "first": 230,
+            "last": 1135,
+            "source_first": 4080,
+            "source_last": 4985,
+            "length_m": 300,
+            "translation_fraction": 0.0028466722883206514,
+            "rotation_rad_per_m": 0.00026769262784869777,
+            "speed_mps": 3.311258278145695
+          },
+          {
+            "first": 240,
+            "last": 456,
+            "source_first": 4090,
+            "source_last": 4306,
+            "length_m": 100,
+            "translation_fraction": 0.037784398271526076,
+            "rotation_rad_per_m": 0.000283027267774843,
+            "speed_mps": 4.608294930875576
+          },
+          {
+            "first": 240,
+            "last": 801,
+            "source_first": 4090,
+            "source_last": 4651,
+            "length_m": 200,
+            "translation_fraction": 0.01763991239262482,
+            "rotation_rad_per_m": 0.000401850634395696,
+            "speed_mps": 3.558718861209964
+          },
+          {
+            "first": 240,
+            "last": 1149,
+            "source_first": 4090,
+            "source_last": 4999,
+            "length_m": 300,
+            "translation_fraction": 0.0037187356461808366,
+            "rotation_rad_per_m": 0.0002465719921586021,
+            "speed_mps": 3.2967032967032965
+          },
+          {
+            "first": 250,
+            "last": 463,
+            "source_first": 4100,
+            "source_last": 4313,
+            "length_m": 100,
+            "translation_fraction": 0.04035332790041805,
+            "rotation_rad_per_m": 0.0002691692843146706,
+            "speed_mps": 4.672897196261681
+          },
+          {
+            "first": 250,
+            "last": 812,
+            "source_first": 4100,
+            "source_last": 4662,
+            "length_m": 200,
+            "translation_fraction": 0.017868098321906903,
+            "rotation_rad_per_m": 0.00041155329496728887,
+            "speed_mps": 3.5523978685612785
+          },
+          {
+            "first": 250,
+            "last": 1162,
+            "source_first": 4100,
+            "source_last": 5012,
+            "length_m": 300,
+            "translation_fraction": 0.003999373629327247,
+            "rotation_rad_per_m": 0.000257864468111616,
+            "speed_mps": 3.2858707557502735
+          },
+          {
+            "first": 260,
+            "last": 471,
+            "source_first": 4110,
+            "source_last": 4321,
+            "length_m": 100,
+            "translation_fraction": 0.038607099547728806,
+            "rotation_rad_per_m": 0.00024166066230395993,
+            "speed_mps": 4.716981132075471
+          },
+          {
+            "first": 260,
+            "last": 822,
+            "source_first": 4110,
+            "source_last": 4672,
+            "length_m": 200,
+            "translation_fraction": 0.014972107152033587,
+            "rotation_rad_per_m": 0.00039188655268670395,
+            "speed_mps": 3.5523978685612785
+          },
+          {
+            "first": 260,
+            "last": 1175,
+            "source_first": 4110,
+            "source_last": 5025,
+            "length_m": 300,
+            "translation_fraction": 0.004743513949082642,
+            "rotation_rad_per_m": 0.00023991239455461064,
+            "speed_mps": 3.2751091703056767
+          },
+          {
+            "first": 270,
+            "last": 480,
+            "source_first": 4120,
+            "source_last": 4330,
+            "length_m": 100,
+            "translation_fraction": 0.040655447517554094,
+            "rotation_rad_per_m": 0.00024089676420019156,
+            "speed_mps": 4.739336492890995
+          },
+          {
+            "first": 270,
+            "last": 833,
+            "source_first": 4120,
+            "source_last": 4683,
+            "length_m": 200,
+            "translation_fraction": 0.014354127389974092,
+            "rotation_rad_per_m": 0.00040043482130631367,
+            "speed_mps": 3.5460992907801416
+          },
+          {
+            "first": 270,
+            "last": 1189,
+            "source_first": 4120,
+            "source_last": 5039,
+            "length_m": 300,
+            "translation_fraction": 0.00527699766791485,
+            "rotation_rad_per_m": 0.00024248106057107912,
+            "speed_mps": 3.260869565217391
+          },
+          {
+            "first": 280,
+            "last": 491,
+            "source_first": 4130,
+            "source_last": 4341,
+            "length_m": 100,
+            "translation_fraction": 0.043652328200988494,
+            "rotation_rad_per_m": 0.0002468001716370998,
+            "speed_mps": 4.716981132075471
+          },
+          {
+            "first": 280,
+            "last": 843,
+            "source_first": 4130,
+            "source_last": 4693,
+            "length_m": 200,
+            "translation_fraction": 0.014692220128043451,
+            "rotation_rad_per_m": 0.00042314737472526326,
+            "speed_mps": 3.5460992907801416
+          },
+          {
+            "first": 280,
+            "last": 1202,
+            "source_first": 4130,
+            "source_last": 5052,
+            "length_m": 300,
+            "translation_fraction": 0.005303023299168438,
+            "rotation_rad_per_m": 0.00023772252069336272,
+            "speed_mps": 3.2502708559046583
+          },
+          {
+            "first": 290,
+            "last": 504,
+            "source_first": 4140,
+            "source_last": 4354,
+            "length_m": 100,
+            "translation_fraction": 0.04383863993559514,
+            "rotation_rad_per_m": 0.00028520121327971665,
+            "speed_mps": 4.651162790697675
+          },
+          {
+            "first": 290,
+            "last": 852,
+            "source_first": 4140,
+            "source_last": 4702,
+            "length_m": 200,
+            "translation_fraction": 0.012257169732636164,
+            "rotation_rad_per_m": 0.00041038608378091997,
+            "speed_mps": 3.5523978685612785
+          },
+          {
+            "first": 290,
+            "last": 1217,
+            "source_first": 4140,
+            "source_last": 5067,
+            "length_m": 300,
+            "translation_fraction": 0.006473956107471078,
+            "rotation_rad_per_m": 0.00021683096301555252,
+            "speed_mps": 3.232758620689655
+          },
+          {
+            "first": 300,
+            "last": 520,
+            "source_first": 4150,
+            "source_last": 4370,
+            "length_m": 100,
+            "translation_fraction": 0.04602922188977084,
+            "rotation_rad_per_m": 0.0003829082342812982,
+            "speed_mps": 4.524886877828054
+          },
+          {
+            "first": 300,
+            "last": 861,
+            "source_first": 4150,
+            "source_last": 4711,
+            "length_m": 200,
+            "translation_fraction": 0.010888393807022383,
+            "rotation_rad_per_m": 0.00042255996597988883,
+            "speed_mps": 3.558718861209964
+          },
+          {
+            "first": 300,
+            "last": 1233,
+            "source_first": 4150,
+            "source_last": 5083,
+            "length_m": 300,
+            "translation_fraction": 0.0070922671131528935,
+            "rotation_rad_per_m": 0.00021559796870881164,
+            "speed_mps": 3.2119914346895073
+          },
+          {
+            "first": 310,
+            "last": 536,
+            "source_first": 4160,
+            "source_last": 4386,
+            "length_m": 100,
+            "translation_fraction": 0.04563863986671293,
+            "rotation_rad_per_m": 0.0004281261425953664,
+            "speed_mps": 4.405286343612334
+          },
+          {
+            "first": 310,
+            "last": 870,
+            "source_first": 4160,
+            "source_last": 4720,
+            "length_m": 200,
+            "translation_fraction": 0.010204688621593875,
+            "rotation_rad_per_m": 0.00041625152427845216,
+            "speed_mps": 3.5650623885918002
+          },
+          {
+            "first": 310,
+            "last": 1249,
+            "source_first": 4160,
+            "source_last": 5099,
+            "length_m": 300,
+            "translation_fraction": 0.00751177890593197,
+            "rotation_rad_per_m": 0.00020794780082462584,
+            "speed_mps": 3.1914893617021276
+          },
+          {
+            "first": 320,
+            "last": 552,
+            "source_first": 4170,
+            "source_last": 4402,
+            "length_m": 100,
+            "translation_fraction": 0.04565061517482174,
+            "rotation_rad_per_m": 0.00048094467372729874,
+            "speed_mps": 4.291845493562231
+          },
+          {
+            "first": 320,
+            "last": 878,
+            "source_first": 4170,
+            "source_last": 4728,
+            "length_m": 200,
+            "translation_fraction": 0.008286105925406195,
+            "rotation_rad_per_m": 0.0004260273587817478,
+            "speed_mps": 3.577817531305903
+          },
+          {
+            "first": 320,
+            "last": 1265,
+            "source_first": 4170,
+            "source_last": 5115,
+            "length_m": 300,
+            "translation_fraction": 0.008475610626620446,
+            "rotation_rad_per_m": 0.00020229169263277273,
+            "speed_mps": 3.1712473572938684
+          },
+          {
+            "first": 330,
+            "last": 568,
+            "source_first": 4180,
+            "source_last": 4418,
+            "length_m": 100,
+            "translation_fraction": 0.043528580040120196,
+            "rotation_rad_per_m": 0.0005199577469336199,
+            "speed_mps": 4.184100418410042
+          },
+          {
+            "first": 330,
+            "last": 886,
+            "source_first": 4180,
+            "source_last": 4736,
+            "length_m": 200,
+            "translation_fraction": 0.005360899153094507,
+            "rotation_rad_per_m": 0.00042926933363607035,
+            "speed_mps": 3.5906642728904847
+          },
+          {
+            "first": 330,
+            "last": 1281,
+            "source_first": 4180,
+            "source_last": 5131,
+            "length_m": 300,
+            "translation_fraction": 0.009799270612105811,
+            "rotation_rad_per_m": 0.00018237998665264374,
+            "speed_mps": 3.1512605042016806
+          },
+          {
+            "first": 340,
+            "last": 584,
+            "source_first": 4190,
+            "source_last": 4434,
+            "length_m": 100,
+            "translation_fraction": 0.0426666219492599,
+            "rotation_rad_per_m": 0.0004941238522920725,
+            "speed_mps": 4.081632653061225
+          },
+          {
+            "first": 340,
+            "last": 895,
+            "source_first": 4190,
+            "source_last": 4745,
+            "length_m": 200,
+            "translation_fraction": 0.004799309029595125,
+            "rotation_rad_per_m": 0.0004343635871917155,
+            "speed_mps": 3.597122302158273
+          },
+          {
+            "first": 340,
+            "last": 1296,
+            "source_first": 4190,
+            "source_last": 5146,
+            "length_m": 300,
+            "translation_fraction": 0.009564297789120728,
+            "rotation_rad_per_m": 0.000171596055115072,
+            "speed_mps": 3.134796238244514
+          },
+          {
+            "first": 350,
+            "last": 599,
+            "source_first": 4200,
+            "source_last": 4449,
+            "length_m": 100,
+            "translation_fraction": 0.0406833129140709,
+            "rotation_rad_per_m": 0.0004535378625349542,
+            "speed_mps": 4.0
+          },
+          {
+            "first": 350,
+            "last": 905,
+            "source_first": 4200,
+            "source_last": 4755,
+            "length_m": 200,
+            "translation_fraction": 0.006024381768567525,
+            "rotation_rad_per_m": 0.00043812840039095577,
+            "speed_mps": 3.597122302158273
+          },
+          {
+            "first": 350,
+            "last": 1313,
+            "source_first": 4200,
+            "source_last": 5163,
+            "length_m": 300,
+            "translation_fraction": 0.00942288406175988,
+            "rotation_rad_per_m": 0.00016704989703102369,
+            "speed_mps": 3.1120331950207465
+          },
+          {
+            "first": 360,
+            "last": 615,
+            "source_first": 4210,
+            "source_last": 4465,
+            "length_m": 100,
+            "translation_fraction": 0.03672406657760505,
+            "rotation_rad_per_m": 0.0006979264921291087,
+            "speed_mps": 3.90625
+          },
+          {
+            "first": 360,
+            "last": 916,
+            "source_first": 4210,
+            "source_last": 4766,
+            "length_m": 200,
+            "translation_fraction": 0.003863537167782931,
+            "rotation_rad_per_m": 0.0004341013746730111,
+            "speed_mps": 3.5906642728904847
+          },
+          {
+            "first": 360,
+            "last": 1333,
+            "source_first": 4210,
+            "source_last": 5183,
+            "length_m": 300,
+            "translation_fraction": 0.008864346247978848,
+            "rotation_rad_per_m": 0.00014246964874838454,
+            "speed_mps": 3.0800821355236137
+          },
+          {
+            "first": 370,
+            "last": 630,
+            "source_first": 4220,
+            "source_last": 4480,
+            "length_m": 100,
+            "translation_fraction": 0.033815860677594844,
+            "rotation_rad_per_m": 0.0007360324524628509,
+            "speed_mps": 3.8314176245210727
+          },
+          {
+            "first": 370,
+            "last": 928,
+            "source_first": 4220,
+            "source_last": 4778,
+            "length_m": 200,
+            "translation_fraction": 0.003710293428498311,
+            "rotation_rad_per_m": 0.0004333529235039551,
+            "speed_mps": 3.577817531305903
+          },
+          {
+            "first": 370,
+            "last": 1359,
+            "source_first": 4220,
+            "source_last": 5209,
+            "length_m": 300,
+            "translation_fraction": 0.009222965145543783,
+            "rotation_rad_per_m": 0.00012780048871478247,
+            "speed_mps": 3.0303030303030303
+          },
+          {
+            "first": 380,
+            "last": 645,
+            "source_first": 4230,
+            "source_last": 4495,
+            "length_m": 100,
+            "translation_fraction": 0.03213490203759661,
+            "rotation_rad_per_m": 0.0006553434882390103,
+            "speed_mps": 3.7593984962406015
+          },
+          {
+            "first": 380,
+            "last": 944,
+            "source_first": 4230,
+            "source_last": 4794,
+            "length_m": 200,
+            "translation_fraction": 0.005198608208629577,
+            "rotation_rad_per_m": 0.0004245872952341252,
+            "speed_mps": 3.5398230088495577
+          },
+          {
+            "first": 380,
+            "last": 1384,
+            "source_first": 4230,
+            "source_last": 5234,
+            "length_m": 300,
+            "translation_fraction": 0.008454501208065556,
+            "rotation_rad_per_m": 0.00012190835197681157,
+            "speed_mps": 2.985074626865672
+          },
+          {
+            "first": 390,
+            "last": 661,
+            "source_first": 4240,
+            "source_last": 4511,
+            "length_m": 100,
+            "translation_fraction": 0.028734175995076276,
+            "rotation_rad_per_m": 0.0006587404292384033,
+            "speed_mps": 3.676470588235294
+          },
+          {
+            "first": 390,
+            "last": 968,
+            "source_first": 4240,
+            "source_last": 4818,
+            "length_m": 200,
+            "translation_fraction": 0.00576678066488117,
+            "rotation_rad_per_m": 0.00040686101386327024,
+            "speed_mps": 3.4542314335060444
+          },
+          {
+            "first": 390,
+            "last": 1404,
+            "source_first": 4240,
+            "source_last": 5254,
+            "length_m": 300,
+            "translation_fraction": 0.008277192805579238,
+            "rotation_rad_per_m": 9.654149186432468e-05,
+            "speed_mps": 2.955665024630542
+          },
+          {
+            "first": 400,
+            "last": 680,
+            "source_first": 4250,
+            "source_last": 4530,
+            "length_m": 100,
+            "translation_fraction": 0.027432308144432427,
+            "rotation_rad_per_m": 0.0006730804434647784,
+            "speed_mps": 3.558718861209964
+          },
+          {
+            "first": 400,
+            "last": 995,
+            "source_first": 4250,
+            "source_last": 4845,
+            "length_m": 200,
+            "translation_fraction": 0.007205920861872039,
+            "rotation_rad_per_m": 0.0003862431994319406,
+            "speed_mps": 3.3557046979865772
+          },
+          {
+            "first": 410,
+            "last": 704,
+            "source_first": 4260,
+            "source_last": 4554,
+            "length_m": 100,
+            "translation_fraction": 0.027382092815171063,
+            "rotation_rad_per_m": 0.0005303715333995211,
+            "speed_mps": 3.389830508474576
+          },
+          {
+            "first": 410,
+            "last": 1024,
+            "source_first": 4260,
+            "source_last": 4874,
+            "length_m": 200,
+            "translation_fraction": 0.007435500315808731,
+            "rotation_rad_per_m": 0.00039643725470936924,
+            "speed_mps": 3.252032520325203
+          },
+          {
+            "first": 420,
+            "last": 729,
+            "source_first": 4270,
+            "source_last": 4579,
+            "length_m": 100,
+            "translation_fraction": 0.026752736562820713,
+            "rotation_rad_per_m": 0.0005716412832672113,
+            "speed_mps": 3.225806451612903
+          },
+          {
+            "first": 420,
+            "last": 1056,
+            "source_first": 4270,
+            "source_last": 4906,
+            "length_m": 200,
+            "translation_fraction": 0.009063240633224216,
+            "rotation_rad_per_m": 0.0003766549344085435,
+            "speed_mps": 3.139717425431711
+          },
+          {
+            "first": 430,
+            "last": 752,
+            "source_first": 4280,
+            "source_last": 4602,
+            "length_m": 100,
+            "translation_fraction": 0.02067976297183443,
+            "rotation_rad_per_m": 0.0005891550168433024,
+            "speed_mps": 3.095975232198142
+          },
+          {
+            "first": 430,
+            "last": 1085,
+            "source_first": 4280,
+            "source_last": 4935,
+            "length_m": 200,
+            "translation_fraction": 0.009521267483729792,
+            "rotation_rad_per_m": 0.00037231636309234713,
+            "speed_mps": 3.0487804878048776
+          },
+          {
+            "first": 440,
+            "last": 772,
+            "source_first": 4290,
+            "source_last": 4622,
+            "length_m": 100,
+            "translation_fraction": 0.02148046234044045,
+            "rotation_rad_per_m": 0.0006521309207548958,
+            "speed_mps": 3.003003003003003
+          },
+          {
+            "first": 440,
+            "last": 1109,
+            "source_first": 4290,
+            "source_last": 4959,
+            "length_m": 200,
+            "translation_fraction": 0.011101432933635446,
+            "rotation_rad_per_m": 0.00037599878122175433,
+            "speed_mps": 2.985074626865672
+          },
+          {
+            "first": 450,
+            "last": 791,
+            "source_first": 4300,
+            "source_last": 4641,
+            "length_m": 100,
+            "translation_fraction": 0.01643334905191569,
+            "rotation_rad_per_m": 0.0006215646854758377,
+            "speed_mps": 2.923976608187134
+          },
+          {
+            "first": 450,
+            "last": 1135,
+            "source_first": 4300,
+            "source_last": 4985,
+            "length_m": 200,
+            "translation_fraction": 0.01077257655991958,
+            "rotation_rad_per_m": 0.0003507340401456885,
+            "speed_mps": 2.9154518950437316
+          },
+          {
+            "first": 460,
+            "last": 808,
+            "source_first": 4310,
+            "source_last": 4658,
+            "length_m": 100,
+            "translation_fraction": 0.012616318081983798,
+            "rotation_rad_per_m": 0.0006073025594334246,
+            "speed_mps": 2.865329512893983
+          },
+          {
+            "first": 460,
+            "last": 1157,
+            "source_first": 4310,
+            "source_last": 5007,
+            "length_m": 200,
+            "translation_fraction": 0.012080203808077894,
+            "rotation_rad_per_m": 0.0003381647274230874,
+            "speed_mps": 2.865329512893983
+          },
+          {
+            "first": 470,
+            "last": 822,
+            "source_first": 4320,
+            "source_last": 4672,
+            "length_m": 100,
+            "translation_fraction": 0.012097410291312932,
+            "rotation_rad_per_m": 0.000600825171056626,
+            "speed_mps": 2.8328611898016995
+          },
+          {
+            "first": 470,
+            "last": 1174,
+            "source_first": 4320,
+            "source_last": 5024,
+            "length_m": 200,
+            "translation_fraction": 0.012682942707723964,
+            "rotation_rad_per_m": 0.0003121957187551207,
+            "speed_mps": 2.8368794326241136
+          },
+          {
+            "first": 480,
+            "last": 833,
+            "source_first": 4330,
+            "source_last": 4683,
+            "length_m": 100,
+            "translation_fraction": 0.012021706099914138,
+            "rotation_rad_per_m": 0.0006160891990505302,
+            "speed_mps": 2.824858757062147
+          },
+          {
+            "first": 480,
+            "last": 1189,
+            "source_first": 4330,
+            "source_last": 5039,
+            "length_m": 200,
+            "translation_fraction": 0.013386797510471565,
+            "rotation_rad_per_m": 0.00030941050975115994,
+            "speed_mps": 2.816901408450704
+          },
+          {
+            "first": 490,
+            "last": 842,
+            "source_first": 4340,
+            "source_last": 4692,
+            "length_m": 100,
+            "translation_fraction": 0.012945272297308394,
+            "rotation_rad_per_m": 0.0006336501454702385,
+            "speed_mps": 2.8328611898016995
+          },
+          {
+            "first": 490,
+            "last": 1202,
+            "source_first": 4340,
+            "source_last": 5052,
+            "length_m": 200,
+            "translation_fraction": 0.01395331890110989,
+            "rotation_rad_per_m": 0.0002810113088880954,
+            "speed_mps": 2.805049088359046
+          },
+          {
+            "first": 500,
+            "last": 850,
+            "source_first": 4350,
+            "source_last": 4700,
+            "length_m": 100,
+            "translation_fraction": 0.013145674390778024,
+            "rotation_rad_per_m": 0.0005883487664176087,
+            "speed_mps": 2.849002849002849
+          },
+          {
+            "first": 500,
+            "last": 1213,
+            "source_first": 4350,
+            "source_last": 5063,
+            "length_m": 200,
+            "translation_fraction": 0.01349123237877583,
+            "rotation_rad_per_m": 0.00024970824262809493,
+            "speed_mps": 2.8011204481792715
+          },
+          {
+            "first": 510,
+            "last": 856,
+            "source_first": 4360,
+            "source_last": 4706,
+            "length_m": 100,
+            "translation_fraction": 0.012763574663794273,
+            "rotation_rad_per_m": 0.000562627402179227,
+            "speed_mps": 2.881844380403458
+          },
+          {
+            "first": 510,
+            "last": 1223,
+            "source_first": 4360,
+            "source_last": 5073,
+            "length_m": 200,
+            "translation_fraction": 0.01041494897567444,
+            "rotation_rad_per_m": 0.0002465234503594712,
+            "speed_mps": 2.8011204481792715
+          },
+          {
+            "first": 520,
+            "last": 861,
+            "source_first": 4370,
+            "source_last": 4711,
+            "length_m": 100,
+            "translation_fraction": 0.01113703494088696,
+            "rotation_rad_per_m": 0.0005294449320701269,
+            "speed_mps": 2.923976608187134
+          },
+          {
+            "first": 520,
+            "last": 1234,
+            "source_first": 4370,
+            "source_last": 5084,
+            "length_m": 200,
+            "translation_fraction": 0.00731104750237823,
+            "rotation_rad_per_m": 0.0002392539074590058,
+            "speed_mps": 2.797202797202797
+          },
+          {
+            "first": 530,
+            "last": 867,
+            "source_first": 4380,
+            "source_last": 4717,
+            "length_m": 100,
+            "translation_fraction": 0.01316430790468532,
+            "rotation_rad_per_m": 0.0004973095450950776,
+            "speed_mps": 2.9585798816568043
+          },
+          {
+            "first": 530,
+            "last": 1244,
+            "source_first": 4380,
+            "source_last": 5094,
+            "length_m": 200,
+            "translation_fraction": 0.010378402022276571,
+            "rotation_rad_per_m": 0.00022343157537947487,
+            "speed_mps": 2.797202797202797
+          },
+          {
+            "first": 540,
+            "last": 872,
+            "source_first": 4390,
+            "source_last": 4722,
+            "length_m": 100,
+            "translation_fraction": 0.011307688864343024,
+            "rotation_rad_per_m": 0.0005067757003007038,
+            "speed_mps": 3.003003003003003
+          },
+          {
+            "first": 540,
+            "last": 1254,
+            "source_first": 4390,
+            "source_last": 5104,
+            "length_m": 200,
+            "translation_fraction": 0.004840753156777846,
+            "rotation_rad_per_m": 0.00022535273861406705,
+            "speed_mps": 2.797202797202797
+          },
+          {
+            "first": 550,
+            "last": 877,
+            "source_first": 4400,
+            "source_last": 4727,
+            "length_m": 100,
+            "translation_fraction": 0.009827787896519702,
+            "rotation_rad_per_m": 0.0005192440890214572,
+            "speed_mps": 3.0487804878048776
+          },
+          {
+            "first": 550,
+            "last": 1263,
+            "source_first": 4400,
+            "source_last": 5113,
+            "length_m": 200,
+            "translation_fraction": 0.005980436406902207,
+            "rotation_rad_per_m": 0.0002342214031096176,
+            "speed_mps": 2.8011204481792715
+          },
+          {
+            "first": 560,
+            "last": 882,
+            "source_first": 4410,
+            "source_last": 4732,
+            "length_m": 100,
+            "translation_fraction": 0.012454968831286033,
+            "rotation_rad_per_m": 0.000548736085768759,
+            "speed_mps": 3.095975232198142
+          },
+          {
+            "first": 560,
+            "last": 1273,
+            "source_first": 4410,
+            "source_last": 5123,
+            "length_m": 200,
+            "translation_fraction": 0.011082899160074768,
+            "rotation_rad_per_m": 0.00023848465703916815,
+            "speed_mps": 2.8011204481792715
+          },
+          {
+            "first": 570,
+            "last": 888,
+            "source_first": 4420,
+            "source_last": 4738,
+            "length_m": 100,
+            "translation_fraction": 0.011027972336470997,
+            "rotation_rad_per_m": 0.0005592384537852171,
+            "speed_mps": 3.134796238244514
+          },
+          {
+            "first": 570,
+            "last": 1283,
+            "source_first": 4420,
+            "source_last": 5133,
+            "length_m": 200,
+            "translation_fraction": 0.005328815782659022,
+            "rotation_rad_per_m": 0.0002643899435688051,
+            "speed_mps": 2.8011204481792715
+          },
+          {
+            "first": 580,
+            "last": 893,
+            "source_first": 4430,
+            "source_last": 4743,
+            "length_m": 100,
+            "translation_fraction": 0.00933328329818414,
+            "rotation_rad_per_m": 0.000527312591518027,
+            "speed_mps": 3.184713375796178
+          },
+          {
+            "first": 580,
+            "last": 1293,
+            "source_first": 4430,
+            "source_last": 5143,
+            "length_m": 200,
+            "translation_fraction": 0.00647235776674044,
+            "rotation_rad_per_m": 0.00023178583657623673,
+            "speed_mps": 2.8011204481792715
+          },
+          {
+            "first": 590,
+            "last": 899,
+            "source_first": 4440,
+            "source_last": 4749,
+            "length_m": 100,
+            "translation_fraction": 0.010890617335320749,
+            "rotation_rad_per_m": 0.0005910983818400319,
+            "speed_mps": 3.225806451612903
+          },
+          {
+            "first": 590,
+            "last": 1303,
+            "source_first": 4440,
+            "source_last": 5153,
+            "length_m": 200,
+            "translation_fraction": 0.01064862924650152,
+            "rotation_rad_per_m": 0.00024512166567018054,
+            "speed_mps": 2.8011204481792715
+          },
+          {
+            "first": 600,
+            "last": 906,
+            "source_first": 4450,
+            "source_last": 4756,
+            "length_m": 100,
+            "translation_fraction": 0.010220753921564456,
+            "rotation_rad_per_m": 0.0005843437806286784,
+            "speed_mps": 3.2573289902280127
+          },
+          {
+            "first": 600,
+            "last": 1314,
+            "source_first": 4450,
+            "source_last": 5164,
+            "length_m": 200,
+            "translation_fraction": 0.006397602669818516,
+            "rotation_rad_per_m": 0.0002515525383474073,
+            "speed_mps": 2.797202797202797
+          },
+          {
+            "first": 610,
+            "last": 912,
+            "source_first": 4460,
+            "source_last": 4762,
+            "length_m": 100,
+            "translation_fraction": 0.018560214557475495,
+            "rotation_rad_per_m": 0.0004893959570359624,
+            "speed_mps": 3.3003300330033003
+          },
+          {
+            "first": 610,
+            "last": 1326,
+            "source_first": 4460,
+            "source_last": 5176,
+            "length_m": 200,
+            "translation_fraction": 0.021568688647453017,
+            "rotation_rad_per_m": 0.00030303985896213824,
+            "speed_mps": 2.7894002789400276
+          },
+          {
+            "first": 620,
+            "last": 919,
+            "source_first": 4470,
+            "source_last": 4769,
+            "length_m": 100,
+            "translation_fraction": 0.018956965007792374,
+            "rotation_rad_per_m": 0.0004859535002082747,
+            "speed_mps": 3.3333333333333335
+          },
+          {
+            "first": 620,
+            "last": 1341,
+            "source_first": 4470,
+            "source_last": 5191,
+            "length_m": 200,
+            "translation_fraction": 0.023330045371758756,
+            "rotation_rad_per_m": 0.0003078832132969373,
+            "speed_mps": 2.7700831024930745
+          },
+          {
+            "first": 630,
+            "last": 928,
+            "source_first": 4480,
+            "source_last": 4778,
+            "length_m": 100,
+            "translation_fraction": 0.022868311722878714,
+            "rotation_rad_per_m": 0.0004425686787589782,
+            "speed_mps": 3.34448160535117
+          },
+          {
+            "first": 630,
+            "last": 1359,
+            "source_first": 4480,
+            "source_last": 5209,
+            "length_m": 200,
+            "translation_fraction": 0.027227777497873515,
+            "rotation_rad_per_m": 0.00030713115041076694,
+            "speed_mps": 2.73972602739726
+          },
+          {
+            "first": 640,
+            "last": 939,
+            "source_first": 4490,
+            "source_last": 4789,
+            "length_m": 100,
+            "translation_fraction": 0.02242631648823371,
+            "rotation_rad_per_m": 0.00048712734249679765,
+            "speed_mps": 3.3333333333333335
+          },
+          {
+            "first": 640,
+            "last": 1377,
+            "source_first": 4490,
+            "source_last": 5227,
+            "length_m": 200,
+            "translation_fraction": 0.024033389901238898,
+            "rotation_rad_per_m": 0.00030483993699537875,
+            "speed_mps": 2.710027100271003
+          },
+          {
+            "first": 650,
+            "last": 952,
+            "source_first": 4500,
+            "source_last": 4802,
+            "length_m": 100,
+            "translation_fraction": 0.020360884629744898,
+            "rotation_rad_per_m": 0.0004168324988136459,
+            "speed_mps": 3.3003300330033003
+          },
+          {
+            "first": 650,
+            "last": 1391,
+            "source_first": 4500,
+            "source_last": 5241,
+            "length_m": 200,
+            "translation_fraction": 0.022139596414520072,
+            "rotation_rad_per_m": 0.0002945443627876684,
+            "speed_mps": 2.6954177897574123
+          },
+          {
+            "first": 660,
+            "last": 967,
+            "source_first": 4510,
+            "source_last": 4817,
+            "length_m": 100,
+            "translation_fraction": 0.02141548167274943,
+            "rotation_rad_per_m": 0.00040918935700979175,
+            "speed_mps": 3.2467532467532467
+          },
+          {
+            "first": 660,
+            "last": 1403,
+            "source_first": 4510,
+            "source_last": 5253,
+            "length_m": 200,
+            "translation_fraction": 0.02255792395751157,
+            "rotation_rad_per_m": 0.00031188791159445563,
+            "speed_mps": 2.6881720430107525
+          },
+          {
+            "first": 670,
+            "last": 982,
+            "source_first": 4520,
+            "source_last": 4832,
+            "length_m": 100,
+            "translation_fraction": 0.023811987651802476,
+            "rotation_rad_per_m": 0.00043538331621176436,
+            "speed_mps": 3.1948881789137378
+          },
+          {
+            "first": 670,
+            "last": 1414,
+            "source_first": 4520,
+            "source_last": 5264,
+            "length_m": 200,
+            "translation_fraction": 0.023943131331759338,
+            "rotation_rad_per_m": 0.00032346328463689453,
+            "speed_mps": 2.684563758389262
+          },
+          {
+            "first": 680,
+            "last": 995,
+            "source_first": 4530,
+            "source_last": 4845,
+            "length_m": 100,
+            "translation_fraction": 0.023425939017922164,
+            "rotation_rad_per_m": 0.00040875424606978656,
+            "speed_mps": 3.1645569620253164
+          },
+          {
+            "first": 690,
+            "last": 1007,
+            "source_first": 4540,
+            "source_last": 4857,
+            "length_m": 100,
+            "translation_fraction": 0.012387847378292067,
+            "rotation_rad_per_m": 0.0005096523905328333,
+            "speed_mps": 3.144654088050314
+          },
+          {
+            "first": 700,
+            "last": 1019,
+            "source_first": 4550,
+            "source_last": 4869,
+            "length_m": 100,
+            "translation_fraction": 0.014478216695501788,
+            "rotation_rad_per_m": 0.00048737051930211486,
+            "speed_mps": 3.125
+          },
+          {
+            "first": 710,
+            "last": 1031,
+            "source_first": 4560,
+            "source_last": 4881,
+            "length_m": 100,
+            "translation_fraction": 0.014669197305989267,
+            "rotation_rad_per_m": 0.0004419197612306783,
+            "speed_mps": 3.105590062111801
+          },
+          {
+            "first": 720,
+            "last": 1045,
+            "source_first": 4570,
+            "source_last": 4895,
+            "length_m": 100,
+            "translation_fraction": 0.016334590566757574,
+            "rotation_rad_per_m": 0.00040578890993389757,
+            "speed_mps": 3.067484662576687
+          },
+          {
+            "first": 730,
+            "last": 1058,
+            "source_first": 4580,
+            "source_last": 4908,
+            "length_m": 100,
+            "translation_fraction": 0.015609778604018774,
+            "rotation_rad_per_m": 0.00035682066252556115,
+            "speed_mps": 3.0395136778115504
+          },
+          {
+            "first": 740,
+            "last": 1071,
+            "source_first": 4590,
+            "source_last": 4921,
+            "length_m": 100,
+            "translation_fraction": 0.022162770549954924,
+            "rotation_rad_per_m": 0.0002927463209783119,
+            "speed_mps": 3.012048192771084
+          },
+          {
+            "first": 750,
+            "last": 1083,
+            "source_first": 4600,
+            "source_last": 4933,
+            "length_m": 100,
+            "translation_fraction": 0.023084170169495308,
+            "rotation_rad_per_m": 0.00031406835690427076,
+            "speed_mps": 2.9940119760479043
+          },
+          {
+            "first": 760,
+            "last": 1095,
+            "source_first": 4610,
+            "source_last": 4945,
+            "length_m": 100,
+            "translation_fraction": 0.026578471161049597,
+            "rotation_rad_per_m": 0.00025594515393351046,
+            "speed_mps": 2.9761904761904763
+          },
+          {
+            "first": 770,
+            "last": 1107,
+            "source_first": 4620,
+            "source_last": 4957,
+            "length_m": 100,
+            "translation_fraction": 0.03321193726285621,
+            "rotation_rad_per_m": 0.0002384626554529126,
+            "speed_mps": 2.9585798816568043
+          },
+          {
+            "first": 780,
+            "last": 1120,
+            "source_first": 4630,
+            "source_last": 4970,
+            "length_m": 100,
+            "translation_fraction": 0.031863143354076404,
+            "rotation_rad_per_m": 0.0002738417679736643,
+            "speed_mps": 2.932551319648094
+          },
+          {
+            "first": 790,
+            "last": 1134,
+            "source_first": 4640,
+            "source_last": 4984,
+            "length_m": 100,
+            "translation_fraction": 0.031029712730776725,
+            "rotation_rad_per_m": 0.0002762460930556706,
+            "speed_mps": 2.898550724637681
+          },
+          {
+            "first": 800,
+            "last": 1148,
+            "source_first": 4650,
+            "source_last": 4998,
+            "length_m": 100,
+            "translation_fraction": 0.0359730725153563,
+            "rotation_rad_per_m": 0.0002823836586635248,
+            "speed_mps": 2.865329512893983
+          },
+          {
+            "first": 810,
+            "last": 1160,
+            "source_first": 4660,
+            "source_last": 5010,
+            "length_m": 100,
+            "translation_fraction": 0.03340720290254807,
+            "rotation_rad_per_m": 0.0003405730542181467,
+            "speed_mps": 2.849002849002849
+          },
+          {
+            "first": 820,
+            "last": 1173,
+            "source_first": 4670,
+            "source_last": 5023,
+            "length_m": 100,
+            "translation_fraction": 0.03583514892172851,
+            "rotation_rad_per_m": 0.000328853483182891,
+            "speed_mps": 2.824858757062147
+          },
+          {
+            "first": 830,
+            "last": 1186,
+            "source_first": 4680,
+            "source_last": 5036,
+            "length_m": 100,
+            "translation_fraction": 0.03920085776948165,
+            "rotation_rad_per_m": 0.0003422484230864004,
+            "speed_mps": 2.8011204481792715
+          },
+          {
+            "first": 840,
+            "last": 1199,
+            "source_first": 4690,
+            "source_last": 5049,
+            "length_m": 100,
+            "translation_fraction": 0.03983035402264262,
+            "rotation_rad_per_m": 0.0003634845310909715,
+            "speed_mps": 2.7777777777777777
+          },
+          {
+            "first": 850,
+            "last": 1214,
+            "source_first": 4700,
+            "source_last": 5064,
+            "length_m": 100,
+            "translation_fraction": 0.04277711344654505,
+            "rotation_rad_per_m": 0.00033236931153761,
+            "speed_mps": 2.73972602739726
+          },
+          {
+            "first": 860,
+            "last": 1232,
+            "source_first": 4710,
+            "source_last": 5082,
+            "length_m": 100,
+            "translation_fraction": 0.04568504290763203,
+            "rotation_rad_per_m": 0.0003134249380275476,
+            "speed_mps": 2.6809651474530827
+          },
+          {
+            "first": 870,
+            "last": 1251,
+            "source_first": 4720,
+            "source_last": 5101,
+            "length_m": 100,
+            "translation_fraction": 0.04467067109029031,
+            "rotation_rad_per_m": 0.0003301964265009951,
+            "speed_mps": 2.6178010471204187
+          },
+          {
+            "first": 880,
+            "last": 1270,
+            "source_first": 4730,
+            "source_last": 5120,
+            "length_m": 100,
+            "translation_fraction": 0.04960175297365899,
+            "rotation_rad_per_m": 0.00038258850919912097,
+            "speed_mps": 2.557544757033248
+          },
+          {
+            "first": 890,
+            "last": 1288,
+            "source_first": 4740,
+            "source_last": 5138,
+            "length_m": 100,
+            "translation_fraction": 0.05169484718621627,
+            "rotation_rad_per_m": 0.0004350259106382229,
+            "speed_mps": 2.506265664160401
+          },
+          {
+            "first": 900,
+            "last": 1305,
+            "source_first": 4750,
+            "source_last": 5155,
+            "length_m": 100,
+            "translation_fraction": 0.05356982958161685,
+            "rotation_rad_per_m": 0.0004729038450059136,
+            "speed_mps": 2.4630541871921183
+          },
+          {
+            "first": 910,
+            "last": 1323,
+            "source_first": 4760,
+            "source_last": 5173,
+            "length_m": 100,
+            "translation_fraction": 0.05450670698031998,
+            "rotation_rad_per_m": 0.0005031436426213706,
+            "speed_mps": 2.4154589371980673
+          },
+          {
+            "first": 920,
+            "last": 1343,
+            "source_first": 4770,
+            "source_last": 5193,
+            "length_m": 100,
+            "translation_fraction": 0.05553988490544709,
+            "rotation_rad_per_m": 0.0005846941964702781,
+            "speed_mps": 2.3584905660377355
+          },
+          {
+            "first": 930,
+            "last": 1364,
+            "source_first": 4780,
+            "source_last": 5214,
+            "length_m": 100,
+            "translation_fraction": 0.0548242427076118,
+            "rotation_rad_per_m": 0.0005452988335085231,
+            "speed_mps": 2.2988505747126435
+          },
+          {
+            "first": 940,
+            "last": 1379,
+            "source_first": 4790,
+            "source_last": 5229,
+            "length_m": 100,
+            "translation_fraction": 0.054106002793529014,
+            "rotation_rad_per_m": 0.0005629607924226693,
+            "speed_mps": 2.272727272727273
+          },
+          {
+            "first": 950,
+            "last": 1390,
+            "source_first": 4800,
+            "source_last": 5240,
+            "length_m": 100,
+            "translation_fraction": 0.05225643489131616,
+            "rotation_rad_per_m": 0.0005574741203225979,
+            "speed_mps": 2.2675736961451247
+          },
+          {
+            "first": 960,
+            "last": 1398,
+            "source_first": 4810,
+            "source_last": 5248,
+            "length_m": 100,
+            "translation_fraction": 0.050383703515235745,
+            "rotation_rad_per_m": 0.00057860158103239,
+            "speed_mps": 2.2779043280182227
+          },
+          {
+            "first": 970,
+            "last": 1405,
+            "source_first": 4820,
+            "source_last": 5255,
+            "length_m": 100,
+            "translation_fraction": 0.04966997336459555,
+            "rotation_rad_per_m": 0.0006045554932687522,
+            "speed_mps": 2.293577981651376
+          },
+          {
+            "first": 980,
+            "last": 1412,
+            "source_first": 4830,
+            "source_last": 5262,
+            "length_m": 100,
+            "translation_fraction": 0.04885781268488439,
+            "rotation_rad_per_m": 0.0006030289247506248,
+            "speed_mps": 2.3094688221709005
+          }
+        ],
+        "kitti_protocol": "all_segments_strict_endpoint_v2",
+        "kitti_sampling": "dense",
+        "kitti_speed_convention": "nominal_10Hz_inclusive_source_frame_span"
+      },
+      "labels": {
+        "safe": 4
+      },
+      "accepted_labels": {
+        "safe": 4
+      },
+      "timings_s": {
+        "retrieval": 0.5603412780037615,
+        "verification": 6.350603617989691,
+        "pgo": 0.03998311801115051
+      },
+      "policy": "proximity_priority"
+    },
+    {
+      "policy": "balanced_6_6",
+      "budget": 12,
+      "candidates": 4,
+      "counts": {
+        "started": 0,
+        "accepted": 4,
+        "rejected": 0,
+        "failed": 0
+      },
+      "metrics": {
+        "n_frames": 1419,
+        "path_length_m": 419.5203438655113,
+        "ape_unaligned_rmse": 1.8222638483087499,
+        "ape_unaligned_max": 3.807632567087454,
+        "ape_aligned_rmse": 0.6660539735573079,
+        "ape_aligned_max": 1.2286013531987614,
+        "kitti_ter_pct": 1.961403123194832,
+        "kitti_rer_deg100m": 1.9783958094179124,
+        "kitti_segments": 217,
+        "kitti_segment_records": [
+          {
+            "first": 0,
+            "last": 361,
+            "source_first": 3850,
+            "source_last": 4211,
+            "length_m": 100,
+            "translation_fraction": 0.016362168605497652,
+            "rotation_rad_per_m": 0.00027662752420141735,
+            "speed_mps": 2.762430939226519
+          },
+          {
+            "first": 0,
+            "last": 617,
+            "source_first": 3850,
+            "source_last": 4467,
+            "length_m": 200,
+            "translation_fraction": 0.016594038029141247,
+            "rotation_rad_per_m": 0.00032902605531982864,
+            "speed_mps": 3.2362459546925564
+          },
+          {
+            "first": 0,
+            "last": 917,
+            "source_first": 3850,
+            "source_last": 4767,
+            "length_m": 300,
+            "translation_fraction": 0.0013703829391608767,
+            "rotation_rad_per_m": 0.00022537214872001823,
+            "speed_mps": 3.26797385620915
+          },
+          {
+            "first": 0,
+            "last": 1335,
+            "source_first": 3850,
+            "source_last": 5185,
+            "length_m": 400,
+            "translation_fraction": 0.0019990766633262605,
+            "rotation_rad_per_m": 3.9698209447478944e-05,
+            "speed_mps": 2.9940119760479043
+          },
+          {
+            "first": 10,
+            "last": 368,
+            "source_first": 3860,
+            "source_last": 4218,
+            "length_m": 100,
+            "translation_fraction": 0.019928413142308355,
+            "rotation_rad_per_m": 0.00024445828414099645,
+            "speed_mps": 2.785515320334262
+          },
+          {
+            "first": 10,
+            "last": 627,
+            "source_first": 3860,
+            "source_last": 4477,
+            "length_m": 200,
+            "translation_fraction": 0.019075595567236606,
+            "rotation_rad_per_m": 0.0003300846570595834,
+            "speed_mps": 3.2362459546925564
+          },
+          {
+            "first": 10,
+            "last": 925,
+            "source_first": 3860,
+            "source_last": 4775,
+            "length_m": 300,
+            "translation_fraction": 0.00352458772166251,
+            "rotation_rad_per_m": 0.00023036212222011702,
+            "speed_mps": 3.2751091703056767
+          },
+          {
+            "first": 10,
+            "last": 1353,
+            "source_first": 3860,
+            "source_last": 5203,
+            "length_m": 400,
+            "translation_fraction": 0.0017718791098088721,
+            "rotation_rad_per_m": 3.923183987081238e-05,
+            "speed_mps": 2.9761904761904763
+          },
+          {
+            "first": 20,
+            "last": 374,
+            "source_first": 3870,
+            "source_last": 4224,
+            "length_m": 100,
+            "translation_fraction": 0.019290965423787724,
+            "rotation_rad_per_m": 0.0002462050235522238,
+            "speed_mps": 2.816901408450704
+          },
+          {
+            "first": 20,
+            "last": 635,
+            "source_first": 3870,
+            "source_last": 4485,
+            "length_m": 200,
+            "translation_fraction": 0.0187741222273399,
+            "rotation_rad_per_m": 0.00033836954348830534,
+            "speed_mps": 3.2467532467532467
+          },
+          {
+            "first": 20,
+            "last": 933,
+            "source_first": 3870,
+            "source_last": 4783,
+            "length_m": 300,
+            "translation_fraction": 0.0023373353334496492,
+            "rotation_rad_per_m": 0.00023297298300519113,
+            "speed_mps": 3.282275711159737
+          },
+          {
+            "first": 20,
+            "last": 1369,
+            "source_first": 3870,
+            "source_last": 5219,
+            "length_m": 400,
+            "translation_fraction": 0.0018780766614168495,
+            "rotation_rad_per_m": 3.830612942715422e-05,
+            "speed_mps": 2.962962962962963
+          },
+          {
+            "first": 30,
+            "last": 379,
+            "source_first": 3880,
+            "source_last": 4229,
+            "length_m": 100,
+            "translation_fraction": 0.018298219204501302,
+            "rotation_rad_per_m": 0.00031272961195639965,
+            "speed_mps": 2.857142857142857
+          },
+          {
+            "first": 30,
+            "last": 642,
+            "source_first": 3880,
+            "source_last": 4492,
+            "length_m": 200,
+            "translation_fraction": 0.017057520637133058,
+            "rotation_rad_per_m": 0.0003571960011894055,
+            "speed_mps": 3.262642740619902
+          },
+          {
+            "first": 30,
+            "last": 941,
+            "source_first": 3880,
+            "source_last": 4791,
+            "length_m": 300,
+            "translation_fraction": 0.0029548482729288422,
+            "rotation_rad_per_m": 0.00023213839713022354,
+            "speed_mps": 3.289473684210526
+          },
+          {
+            "first": 30,
+            "last": 1380,
+            "source_first": 3880,
+            "source_last": 5230,
+            "length_m": 400,
+            "translation_fraction": 0.0024681753303818694,
+            "rotation_rad_per_m": 3.560870127270068e-05,
+            "speed_mps": 2.9607698001480385
+          },
+          {
+            "first": 40,
+            "last": 382,
+            "source_first": 3890,
+            "source_last": 4232,
+            "length_m": 100,
+            "translation_fraction": 0.0196846999658771,
+            "rotation_rad_per_m": 0.00031737618646950733,
+            "speed_mps": 2.9154518950437316
+          },
+          {
+            "first": 40,
+            "last": 648,
+            "source_first": 3890,
+            "source_last": 4498,
+            "length_m": 200,
+            "translation_fraction": 0.017662058975300217,
+            "rotation_rad_per_m": 0.00035479072065536693,
+            "speed_mps": 3.2840722495894905
+          },
+          {
+            "first": 40,
+            "last": 948,
+            "source_first": 3890,
+            "source_last": 4798,
+            "length_m": 300,
+            "translation_fraction": 0.003436280145169319,
+            "rotation_rad_per_m": 0.00022992295179066391,
+            "speed_mps": 3.3003300330033003
+          },
+          {
+            "first": 40,
+            "last": 1387,
+            "source_first": 3890,
+            "source_last": 5237,
+            "length_m": 400,
+            "translation_fraction": 0.0024582465582966384,
+            "rotation_rad_per_m": 3.49349151243741e-05,
+            "speed_mps": 2.9673590504451037
+          },
+          {
+            "first": 50,
+            "last": 385,
+            "source_first": 3900,
+            "source_last": 4235,
+            "length_m": 100,
+            "translation_fraction": 0.01897858991788125,
+            "rotation_rad_per_m": 0.00029800422319910524,
+            "speed_mps": 2.9761904761904763
+          },
+          {
+            "first": 50,
+            "last": 652,
+            "source_first": 3900,
+            "source_last": 4502,
+            "length_m": 200,
+            "translation_fraction": 0.016936902029259036,
+            "rotation_rad_per_m": 0.000343097943404412,
+            "speed_mps": 3.3167495854063014
+          },
+          {
+            "first": 50,
+            "last": 955,
+            "source_first": 3900,
+            "source_last": 4805,
+            "length_m": 300,
+            "translation_fraction": 0.003859643565759731,
+            "rotation_rad_per_m": 0.00021823375974513033,
+            "speed_mps": 3.311258278145695
+          },
+          {
+            "first": 50,
+            "last": 1393,
+            "source_first": 3900,
+            "source_last": 5243,
+            "length_m": 400,
+            "translation_fraction": 0.0024701721205668092,
+            "rotation_rad_per_m": 3.247554533501184e-05,
+            "speed_mps": 2.9761904761904763
+          },
+          {
+            "first": 60,
+            "last": 388,
+            "source_first": 3910,
+            "source_last": 4238,
+            "length_m": 100,
+            "translation_fraction": 0.021276017482457284,
+            "rotation_rad_per_m": 0.00026884653663208804,
+            "speed_mps": 3.0395136778115504
+          },
+          {
+            "first": 60,
+            "last": 656,
+            "source_first": 3910,
+            "source_last": 4506,
+            "length_m": 200,
+            "translation_fraction": 0.01842265605998381,
+            "rotation_rad_per_m": 0.0003532090285018206,
+            "speed_mps": 3.350083752093802
+          },
+          {
+            "first": 60,
+            "last": 961,
+            "source_first": 3910,
+            "source_last": 4811,
+            "length_m": 300,
+            "translation_fraction": 0.003383191039182895,
+            "rotation_rad_per_m": 0.000231974511518411,
+            "speed_mps": 3.325942350332594
+          },
+          {
+            "first": 60,
+            "last": 1398,
+            "source_first": 3910,
+            "source_last": 5248,
+            "length_m": 400,
+            "translation_fraction": 0.0023793176147425214,
+            "rotation_rad_per_m": 3.168536385346572e-05,
+            "speed_mps": 2.9873039581777445
+          },
+          {
+            "first": 70,
+            "last": 390,
+            "source_first": 3920,
+            "source_last": 4240,
+            "length_m": 100,
+            "translation_fraction": 0.021589766779247156,
+            "rotation_rad_per_m": 0.00025216726693188347,
+            "speed_mps": 3.115264797507788
+          },
+          {
+            "first": 70,
+            "last": 661,
+            "source_first": 3920,
+            "source_last": 4511,
+            "length_m": 200,
+            "translation_fraction": 0.019006423110392683,
+            "rotation_rad_per_m": 0.0003516277793546712,
+            "speed_mps": 3.378378378378378
+          },
+          {
+            "first": 70,
+            "last": 968,
+            "source_first": 3920,
+            "source_last": 4818,
+            "length_m": 300,
+            "translation_fraction": 0.0031285884432701544,
+            "rotation_rad_per_m": 0.00023853975147053054,
+            "speed_mps": 3.337041156840934
+          },
+          {
+            "first": 70,
+            "last": 1404,
+            "source_first": 3920,
+            "source_last": 5254,
+            "length_m": 400,
+            "translation_fraction": 0.0022432029141421462,
+            "rotation_rad_per_m": 2.9222641802022798e-05,
+            "speed_mps": 2.9962546816479403
+          },
+          {
+            "first": 80,
+            "last": 393,
+            "source_first": 3930,
+            "source_last": 4243,
+            "length_m": 100,
+            "translation_fraction": 0.020934586498376036,
+            "rotation_rad_per_m": 0.00024253834820209768,
+            "speed_mps": 3.184713375796178
+          },
+          {
+            "first": 80,
+            "last": 666,
+            "source_first": 3930,
+            "source_last": 4516,
+            "length_m": 200,
+            "translation_fraction": 0.018639307723555015,
+            "rotation_rad_per_m": 0.00035148169353265324,
+            "speed_mps": 3.4071550255536627
+          },
+          {
+            "first": 80,
+            "last": 975,
+            "source_first": 3930,
+            "source_last": 4825,
+            "length_m": 300,
+            "translation_fraction": 0.0031219903213492092,
+            "rotation_rad_per_m": 0.0002362389294197408,
+            "speed_mps": 3.3482142857142856
+          },
+          {
+            "first": 80,
+            "last": 1409,
+            "source_first": 3930,
+            "source_last": 5259,
+            "length_m": 400,
+            "translation_fraction": 0.002137344318879785,
+            "rotation_rad_per_m": 2.351966023156639e-05,
+            "speed_mps": 3.007518796992481
+          },
+          {
+            "first": 90,
+            "last": 397,
+            "source_first": 3940,
+            "source_last": 4247,
+            "length_m": 100,
+            "translation_fraction": 0.02116293477528514,
+            "rotation_rad_per_m": 0.00022852021450181539,
+            "speed_mps": 3.2467532467532467
+          },
+          {
+            "first": 90,
+            "last": 672,
+            "source_first": 3940,
+            "source_last": 4522,
+            "length_m": 200,
+            "translation_fraction": 0.019313653896312476,
+            "rotation_rad_per_m": 0.000360295468203735,
+            "speed_mps": 3.4305317324185247
+          },
+          {
+            "first": 90,
+            "last": 985,
+            "source_first": 3940,
+            "source_last": 4835,
+            "length_m": 300,
+            "translation_fraction": 0.003873194359659798,
+            "rotation_rad_per_m": 0.0002244367589154891,
+            "speed_mps": 3.3482142857142856
+          },
+          {
+            "first": 90,
+            "last": 1415,
+            "source_first": 3940,
+            "source_last": 5265,
+            "length_m": 400,
+            "translation_fraction": 0.0021265218234022107,
+            "rotation_rad_per_m": 2.2945993413854478e-05,
+            "speed_mps": 3.0165912518853695
+          },
+          {
+            "first": 100,
+            "last": 401,
+            "source_first": 3950,
+            "source_last": 4251,
+            "length_m": 100,
+            "translation_fraction": 0.02511150178804621,
+            "rotation_rad_per_m": 0.00022830058581959657,
+            "speed_mps": 3.311258278145695
+          },
+          {
+            "first": 100,
+            "last": 680,
+            "source_first": 3950,
+            "source_last": 4530,
+            "length_m": 200,
+            "translation_fraction": 0.02212358781544164,
+            "rotation_rad_per_m": 0.0003730166108127391,
+            "speed_mps": 3.442340791738382
+          },
+          {
+            "first": 100,
+            "last": 995,
+            "source_first": 3950,
+            "source_last": 4845,
+            "length_m": 300,
+            "translation_fraction": 0.0030066064661832138,
+            "rotation_rad_per_m": 0.0002427281747219509,
+            "speed_mps": 3.3482142857142856
+          },
+          {
+            "first": 110,
+            "last": 405,
+            "source_first": 3960,
+            "source_last": 4255,
+            "length_m": 100,
+            "translation_fraction": 0.025253427486112413,
+            "rotation_rad_per_m": 0.00020525373686869423,
+            "speed_mps": 3.378378378378378
+          },
+          {
+            "first": 110,
+            "last": 690,
+            "source_first": 3960,
+            "source_last": 4540,
+            "length_m": 200,
+            "translation_fraction": 0.02357270830544932,
+            "rotation_rad_per_m": 0.0003381346866867574,
+            "speed_mps": 3.442340791738382
+          },
+          {
+            "first": 110,
+            "last": 1006,
+            "source_first": 3960,
+            "source_last": 4856,
+            "length_m": 300,
+            "translation_fraction": 0.001264032870188703,
+            "rotation_rad_per_m": 0.00027387174313222695,
+            "speed_mps": 3.3444816053511706
+          },
+          {
+            "first": 120,
+            "last": 409,
+            "source_first": 3970,
+            "source_last": 4259,
+            "length_m": 100,
+            "translation_fraction": 0.02724442486722721,
+            "rotation_rad_per_m": 0.00022613718563953614,
+            "speed_mps": 3.4482758620689653
+          },
+          {
+            "first": 120,
+            "last": 700,
+            "source_first": 3970,
+            "source_last": 4550,
+            "length_m": 200,
+            "translation_fraction": 0.024039662623762222,
+            "rotation_rad_per_m": 0.00034327402833285713,
+            "speed_mps": 3.442340791738382
+          },
+          {
+            "first": 120,
+            "last": 1019,
+            "source_first": 3970,
+            "source_last": 4869,
+            "length_m": 300,
+            "translation_fraction": 0.001789073501082398,
+            "rotation_rad_per_m": 0.00027647730582537594,
+            "speed_mps": 3.3333333333333335
+          },
+          {
+            "first": 130,
+            "last": 413,
+            "source_first": 3980,
+            "source_last": 4263,
+            "length_m": 100,
+            "translation_fraction": 0.03315616953734127,
+            "rotation_rad_per_m": 0.00028461049709084123,
+            "speed_mps": 3.52112676056338
+          },
+          {
+            "first": 130,
+            "last": 711,
+            "source_first": 3980,
+            "source_last": 4561,
+            "length_m": 200,
+            "translation_fraction": 0.027987827958453865,
+            "rotation_rad_per_m": 0.0003609649910409636,
+            "speed_mps": 3.4364261168384878
+          },
+          {
+            "first": 130,
+            "last": 1032,
+            "source_first": 3980,
+            "source_last": 4882,
+            "length_m": 300,
+            "translation_fraction": 0.0029394953135807524,
+            "rotation_rad_per_m": 0.0002772143743178651,
+            "speed_mps": 3.322259136212624
+          },
+          {
+            "first": 140,
+            "last": 417,
+            "source_first": 3990,
+            "source_last": 4267,
+            "length_m": 100,
+            "translation_fraction": 0.033133814942024935,
+            "rotation_rad_per_m": 0.00023952558424466264,
+            "speed_mps": 3.597122302158273
+          },
+          {
+            "first": 140,
+            "last": 720,
+            "source_first": 3990,
+            "source_last": 4570,
+            "length_m": 200,
+            "translation_fraction": 0.027939231060433337,
+            "rotation_rad_per_m": 0.00036876471506193387,
+            "speed_mps": 3.442340791738382
+          },
+          {
+            "first": 140,
+            "last": 1044,
+            "source_first": 3990,
+            "source_last": 4894,
+            "length_m": 300,
+            "translation_fraction": 0.0016083268169396544,
+            "rotation_rad_per_m": 0.0002864654199181056,
+            "speed_mps": 3.314917127071823
+          },
+          {
+            "first": 150,
+            "last": 420,
+            "source_first": 4000,
+            "source_last": 4270,
+            "length_m": 100,
+            "translation_fraction": 0.04869629297078072,
+            "rotation_rad_per_m": 0.00040065386677359837,
+            "speed_mps": 3.6900369003690034
+          },
+          {
+            "first": 150,
+            "last": 729,
+            "source_first": 4000,
+            "source_last": 4579,
+            "length_m": 200,
+            "translation_fraction": 0.038419465148499185,
+            "rotation_rad_per_m": 0.00042001864609920244,
+            "speed_mps": 3.4482758620689653
+          },
+          {
+            "first": 150,
+            "last": 1056,
+            "source_first": 4000,
+            "source_last": 4906,
+            "length_m": 300,
+            "translation_fraction": 0.004691557626965778,
+            "rotation_rad_per_m": 0.0002936898353967647,
+            "speed_mps": 3.3076074972436604
+          },
+          {
+            "first": 160,
+            "last": 424,
+            "source_first": 4010,
+            "source_last": 4274,
+            "length_m": 100,
+            "translation_fraction": 0.041311908838680626,
+            "rotation_rad_per_m": 0.00025819171869372027,
+            "speed_mps": 3.7735849056603774
+          },
+          {
+            "first": 160,
+            "last": 738,
+            "source_first": 4010,
+            "source_last": 4588,
+            "length_m": 200,
+            "translation_fraction": 0.03203490520040102,
+            "rotation_rad_per_m": 0.00039349109456801714,
+            "speed_mps": 3.4542314335060444
+          },
+          {
+            "first": 160,
+            "last": 1067,
+            "source_first": 4010,
+            "source_last": 4917,
+            "length_m": 300,
+            "translation_fraction": 0.0014295029093025068,
+            "rotation_rad_per_m": 0.0002753045340220063,
+            "speed_mps": 3.3039647577092506
+          },
+          {
+            "first": 170,
+            "last": 428,
+            "source_first": 4020,
+            "source_last": 4278,
+            "length_m": 100,
+            "translation_fraction": 0.04434540503437031,
+            "rotation_rad_per_m": 0.0002997142600678793,
+            "speed_mps": 3.861003861003861
+          },
+          {
+            "first": 170,
+            "last": 745,
+            "source_first": 4020,
+            "source_last": 4595,
+            "length_m": 200,
+            "translation_fraction": 0.032455481269060706,
+            "rotation_rad_per_m": 0.00041030093713667414,
+            "speed_mps": 3.4722222222222223
+          },
+          {
+            "first": 170,
+            "last": 1077,
+            "source_first": 4020,
+            "source_last": 4927,
+            "length_m": 300,
+            "translation_fraction": 0.0017724567769905287,
+            "rotation_rad_per_m": 0.0002908144357133988,
+            "speed_mps": 3.3039647577092506
+          },
+          {
+            "first": 180,
+            "last": 431,
+            "source_first": 4030,
+            "source_last": 4281,
+            "length_m": 100,
+            "translation_fraction": 0.04072055971417518,
+            "rotation_rad_per_m": 0.0002668359453152937,
+            "speed_mps": 3.968253968253968
+          },
+          {
+            "first": 180,
+            "last": 752,
+            "source_first": 4030,
+            "source_last": 4602,
+            "length_m": 200,
+            "translation_fraction": 0.029587795816600836,
+            "rotation_rad_per_m": 0.00038291326025202026,
+            "speed_mps": 3.490401396160558
+          },
+          {
+            "first": 180,
+            "last": 1085,
+            "source_first": 4030,
+            "source_last": 4935,
+            "length_m": 300,
+            "translation_fraction": 0.001650072194293533,
+            "rotation_rad_per_m": 0.0002997218226962857,
+            "speed_mps": 3.311258278145695
+          },
+          {
+            "first": 190,
+            "last": 434,
+            "source_first": 4040,
+            "source_last": 4284,
+            "length_m": 100,
+            "translation_fraction": 0.040133914085204905,
+            "rotation_rad_per_m": 0.00025591639438619636,
+            "speed_mps": 4.081632653061225
+          },
+          {
+            "first": 190,
+            "last": 759,
+            "source_first": 4040,
+            "source_last": 4609,
+            "length_m": 200,
+            "translation_fraction": 0.02842249595616147,
+            "rotation_rad_per_m": 0.0004065569885611395,
+            "speed_mps": 3.508771929824561
+          },
+          {
+            "first": 190,
+            "last": 1093,
+            "source_first": 4040,
+            "source_last": 4943,
+            "length_m": 300,
+            "translation_fraction": 0.0009918019149825388,
+            "rotation_rad_per_m": 0.00028771593851703424,
+            "speed_mps": 3.31858407079646
+          },
+          {
+            "first": 200,
+            "last": 437,
+            "source_first": 4050,
+            "source_last": 4287,
+            "length_m": 100,
+            "translation_fraction": 0.039717442360677355,
+            "rotation_rad_per_m": 0.00023245280194718608,
+            "speed_mps": 4.201680672268908
+          },
+          {
+            "first": 200,
+            "last": 765,
+            "source_first": 4050,
+            "source_last": 4615,
+            "length_m": 200,
+            "translation_fraction": 0.02668122252302031,
+            "rotation_rad_per_m": 0.000415226891519011,
+            "speed_mps": 3.5335689045936394
+          },
+          {
+            "first": 200,
+            "last": 1100,
+            "source_first": 4050,
+            "source_last": 4950,
+            "length_m": 300,
+            "translation_fraction": 0.0010514037811699163,
+            "rotation_rad_per_m": 0.0002840896118078945,
+            "speed_mps": 3.329633740288568
+          },
+          {
+            "first": 210,
+            "last": 440,
+            "source_first": 4060,
+            "source_last": 4290,
+            "length_m": 100,
+            "translation_fraction": 0.03863014538251733,
+            "rotation_rad_per_m": 0.0002495919588448284,
+            "speed_mps": 4.329004329004329
+          },
+          {
+            "first": 210,
+            "last": 772,
+            "source_first": 4060,
+            "source_last": 4622,
+            "length_m": 200,
+            "translation_fraction": 0.025083625306744416,
+            "rotation_rad_per_m": 0.00039254401734962287,
+            "speed_mps": 3.5523978685612785
+          },
+          {
+            "first": 210,
+            "last": 1109,
+            "source_first": 4060,
+            "source_last": 4959,
+            "length_m": 300,
+            "translation_fraction": 0.0013024564472294735,
+            "rotation_rad_per_m": 0.0002724577364739936,
+            "speed_mps": 3.3333333333333335
+          },
+          {
+            "first": 220,
+            "last": 445,
+            "source_first": 4070,
+            "source_last": 4295,
+            "length_m": 100,
+            "translation_fraction": 0.03780627498932033,
+            "rotation_rad_per_m": 0.00024800909843058664,
+            "speed_mps": 4.424778761061947
+          },
+          {
+            "first": 220,
+            "last": 781,
+            "source_first": 4070,
+            "source_last": 4631,
+            "length_m": 200,
+            "translation_fraction": 0.02283711640127418,
+            "rotation_rad_per_m": 0.00039438614838039574,
+            "speed_mps": 3.558718861209964
+          },
+          {
+            "first": 220,
+            "last": 1121,
+            "source_first": 4070,
+            "source_last": 4971,
+            "length_m": 300,
+            "translation_fraction": 0.00141536433750256,
+            "rotation_rad_per_m": 0.0002620875685821564,
+            "speed_mps": 3.325942350332594
+          },
+          {
+            "first": 230,
+            "last": 450,
+            "source_first": 4080,
+            "source_last": 4300,
+            "length_m": 100,
+            "translation_fraction": 0.040886417320736744,
+            "rotation_rad_per_m": 0.0002961657248488792,
+            "speed_mps": 4.524886877828054
+          },
+          {
+            "first": 230,
+            "last": 791,
+            "source_first": 4080,
+            "source_last": 4641,
+            "length_m": 200,
+            "translation_fraction": 0.021565293239111574,
+            "rotation_rad_per_m": 0.000403227744188846,
+            "speed_mps": 3.558718861209964
+          },
+          {
+            "first": 230,
+            "last": 1135,
+            "source_first": 4080,
+            "source_last": 4985,
+            "length_m": 300,
+            "translation_fraction": 0.0028466722883206514,
+            "rotation_rad_per_m": 0.00026769262784869777,
+            "speed_mps": 3.311258278145695
+          },
+          {
+            "first": 240,
+            "last": 456,
+            "source_first": 4090,
+            "source_last": 4306,
+            "length_m": 100,
+            "translation_fraction": 0.037784398271526076,
+            "rotation_rad_per_m": 0.000283027267774843,
+            "speed_mps": 4.608294930875576
+          },
+          {
+            "first": 240,
+            "last": 801,
+            "source_first": 4090,
+            "source_last": 4651,
+            "length_m": 200,
+            "translation_fraction": 0.01763991239262482,
+            "rotation_rad_per_m": 0.000401850634395696,
+            "speed_mps": 3.558718861209964
+          },
+          {
+            "first": 240,
+            "last": 1149,
+            "source_first": 4090,
+            "source_last": 4999,
+            "length_m": 300,
+            "translation_fraction": 0.0037187356461808366,
+            "rotation_rad_per_m": 0.0002465719921586021,
+            "speed_mps": 3.2967032967032965
+          },
+          {
+            "first": 250,
+            "last": 463,
+            "source_first": 4100,
+            "source_last": 4313,
+            "length_m": 100,
+            "translation_fraction": 0.04035332790041805,
+            "rotation_rad_per_m": 0.0002691692843146706,
+            "speed_mps": 4.672897196261681
+          },
+          {
+            "first": 250,
+            "last": 812,
+            "source_first": 4100,
+            "source_last": 4662,
+            "length_m": 200,
+            "translation_fraction": 0.017868098321906903,
+            "rotation_rad_per_m": 0.00041155329496728887,
+            "speed_mps": 3.5523978685612785
+          },
+          {
+            "first": 250,
+            "last": 1162,
+            "source_first": 4100,
+            "source_last": 5012,
+            "length_m": 300,
+            "translation_fraction": 0.003999373629327247,
+            "rotation_rad_per_m": 0.000257864468111616,
+            "speed_mps": 3.2858707557502735
+          },
+          {
+            "first": 260,
+            "last": 471,
+            "source_first": 4110,
+            "source_last": 4321,
+            "length_m": 100,
+            "translation_fraction": 0.038607099547728806,
+            "rotation_rad_per_m": 0.00024166066230395993,
+            "speed_mps": 4.716981132075471
+          },
+          {
+            "first": 260,
+            "last": 822,
+            "source_first": 4110,
+            "source_last": 4672,
+            "length_m": 200,
+            "translation_fraction": 0.014972107152033587,
+            "rotation_rad_per_m": 0.00039188655268670395,
+            "speed_mps": 3.5523978685612785
+          },
+          {
+            "first": 260,
+            "last": 1175,
+            "source_first": 4110,
+            "source_last": 5025,
+            "length_m": 300,
+            "translation_fraction": 0.004743513949082642,
+            "rotation_rad_per_m": 0.00023991239455461064,
+            "speed_mps": 3.2751091703056767
+          },
+          {
+            "first": 270,
+            "last": 480,
+            "source_first": 4120,
+            "source_last": 4330,
+            "length_m": 100,
+            "translation_fraction": 0.040655447517554094,
+            "rotation_rad_per_m": 0.00024089676420019156,
+            "speed_mps": 4.739336492890995
+          },
+          {
+            "first": 270,
+            "last": 833,
+            "source_first": 4120,
+            "source_last": 4683,
+            "length_m": 200,
+            "translation_fraction": 0.014354127389974092,
+            "rotation_rad_per_m": 0.00040043482130631367,
+            "speed_mps": 3.5460992907801416
+          },
+          {
+            "first": 270,
+            "last": 1189,
+            "source_first": 4120,
+            "source_last": 5039,
+            "length_m": 300,
+            "translation_fraction": 0.00527699766791485,
+            "rotation_rad_per_m": 0.00024248106057107912,
+            "speed_mps": 3.260869565217391
+          },
+          {
+            "first": 280,
+            "last": 491,
+            "source_first": 4130,
+            "source_last": 4341,
+            "length_m": 100,
+            "translation_fraction": 0.043652328200988494,
+            "rotation_rad_per_m": 0.0002468001716370998,
+            "speed_mps": 4.716981132075471
+          },
+          {
+            "first": 280,
+            "last": 843,
+            "source_first": 4130,
+            "source_last": 4693,
+            "length_m": 200,
+            "translation_fraction": 0.014692220128043451,
+            "rotation_rad_per_m": 0.00042314737472526326,
+            "speed_mps": 3.5460992907801416
+          },
+          {
+            "first": 280,
+            "last": 1202,
+            "source_first": 4130,
+            "source_last": 5052,
+            "length_m": 300,
+            "translation_fraction": 0.005303023299168438,
+            "rotation_rad_per_m": 0.00023772252069336272,
+            "speed_mps": 3.2502708559046583
+          },
+          {
+            "first": 290,
+            "last": 504,
+            "source_first": 4140,
+            "source_last": 4354,
+            "length_m": 100,
+            "translation_fraction": 0.04383863993559514,
+            "rotation_rad_per_m": 0.00028520121327971665,
+            "speed_mps": 4.651162790697675
+          },
+          {
+            "first": 290,
+            "last": 852,
+            "source_first": 4140,
+            "source_last": 4702,
+            "length_m": 200,
+            "translation_fraction": 0.012257169732636164,
+            "rotation_rad_per_m": 0.00041038608378091997,
+            "speed_mps": 3.5523978685612785
+          },
+          {
+            "first": 290,
+            "last": 1217,
+            "source_first": 4140,
+            "source_last": 5067,
+            "length_m": 300,
+            "translation_fraction": 0.006473956107471078,
+            "rotation_rad_per_m": 0.00021683096301555252,
+            "speed_mps": 3.232758620689655
+          },
+          {
+            "first": 300,
+            "last": 520,
+            "source_first": 4150,
+            "source_last": 4370,
+            "length_m": 100,
+            "translation_fraction": 0.04602922188977084,
+            "rotation_rad_per_m": 0.0003829082342812982,
+            "speed_mps": 4.524886877828054
+          },
+          {
+            "first": 300,
+            "last": 861,
+            "source_first": 4150,
+            "source_last": 4711,
+            "length_m": 200,
+            "translation_fraction": 0.010888393807022383,
+            "rotation_rad_per_m": 0.00042255996597988883,
+            "speed_mps": 3.558718861209964
+          },
+          {
+            "first": 300,
+            "last": 1233,
+            "source_first": 4150,
+            "source_last": 5083,
+            "length_m": 300,
+            "translation_fraction": 0.0070922671131528935,
+            "rotation_rad_per_m": 0.00021559796870881164,
+            "speed_mps": 3.2119914346895073
+          },
+          {
+            "first": 310,
+            "last": 536,
+            "source_first": 4160,
+            "source_last": 4386,
+            "length_m": 100,
+            "translation_fraction": 0.04563863986671293,
+            "rotation_rad_per_m": 0.0004281261425953664,
+            "speed_mps": 4.405286343612334
+          },
+          {
+            "first": 310,
+            "last": 870,
+            "source_first": 4160,
+            "source_last": 4720,
+            "length_m": 200,
+            "translation_fraction": 0.010204688621593875,
+            "rotation_rad_per_m": 0.00041625152427845216,
+            "speed_mps": 3.5650623885918002
+          },
+          {
+            "first": 310,
+            "last": 1249,
+            "source_first": 4160,
+            "source_last": 5099,
+            "length_m": 300,
+            "translation_fraction": 0.00751177890593197,
+            "rotation_rad_per_m": 0.00020794780082462584,
+            "speed_mps": 3.1914893617021276
+          },
+          {
+            "first": 320,
+            "last": 552,
+            "source_first": 4170,
+            "source_last": 4402,
+            "length_m": 100,
+            "translation_fraction": 0.04565061517482174,
+            "rotation_rad_per_m": 0.00048094467372729874,
+            "speed_mps": 4.291845493562231
+          },
+          {
+            "first": 320,
+            "last": 878,
+            "source_first": 4170,
+            "source_last": 4728,
+            "length_m": 200,
+            "translation_fraction": 0.008286105925406195,
+            "rotation_rad_per_m": 0.0004260273587817478,
+            "speed_mps": 3.577817531305903
+          },
+          {
+            "first": 320,
+            "last": 1265,
+            "source_first": 4170,
+            "source_last": 5115,
+            "length_m": 300,
+            "translation_fraction": 0.008475610626620446,
+            "rotation_rad_per_m": 0.00020229169263277273,
+            "speed_mps": 3.1712473572938684
+          },
+          {
+            "first": 330,
+            "last": 568,
+            "source_first": 4180,
+            "source_last": 4418,
+            "length_m": 100,
+            "translation_fraction": 0.043528580040120196,
+            "rotation_rad_per_m": 0.0005199577469336199,
+            "speed_mps": 4.184100418410042
+          },
+          {
+            "first": 330,
+            "last": 886,
+            "source_first": 4180,
+            "source_last": 4736,
+            "length_m": 200,
+            "translation_fraction": 0.005360899153094507,
+            "rotation_rad_per_m": 0.00042926933363607035,
+            "speed_mps": 3.5906642728904847
+          },
+          {
+            "first": 330,
+            "last": 1281,
+            "source_first": 4180,
+            "source_last": 5131,
+            "length_m": 300,
+            "translation_fraction": 0.009799270612105811,
+            "rotation_rad_per_m": 0.00018237998665264374,
+            "speed_mps": 3.1512605042016806
+          },
+          {
+            "first": 340,
+            "last": 584,
+            "source_first": 4190,
+            "source_last": 4434,
+            "length_m": 100,
+            "translation_fraction": 0.0426666219492599,
+            "rotation_rad_per_m": 0.0004941238522920725,
+            "speed_mps": 4.081632653061225
+          },
+          {
+            "first": 340,
+            "last": 895,
+            "source_first": 4190,
+            "source_last": 4745,
+            "length_m": 200,
+            "translation_fraction": 0.004799309029595125,
+            "rotation_rad_per_m": 0.0004343635871917155,
+            "speed_mps": 3.597122302158273
+          },
+          {
+            "first": 340,
+            "last": 1296,
+            "source_first": 4190,
+            "source_last": 5146,
+            "length_m": 300,
+            "translation_fraction": 0.009564297789120728,
+            "rotation_rad_per_m": 0.000171596055115072,
+            "speed_mps": 3.134796238244514
+          },
+          {
+            "first": 350,
+            "last": 599,
+            "source_first": 4200,
+            "source_last": 4449,
+            "length_m": 100,
+            "translation_fraction": 0.0406833129140709,
+            "rotation_rad_per_m": 0.0004535378625349542,
+            "speed_mps": 4.0
+          },
+          {
+            "first": 350,
+            "last": 905,
+            "source_first": 4200,
+            "source_last": 4755,
+            "length_m": 200,
+            "translation_fraction": 0.006024381768567525,
+            "rotation_rad_per_m": 0.00043812840039095577,
+            "speed_mps": 3.597122302158273
+          },
+          {
+            "first": 350,
+            "last": 1313,
+            "source_first": 4200,
+            "source_last": 5163,
+            "length_m": 300,
+            "translation_fraction": 0.00942288406175988,
+            "rotation_rad_per_m": 0.00016704989703102369,
+            "speed_mps": 3.1120331950207465
+          },
+          {
+            "first": 360,
+            "last": 615,
+            "source_first": 4210,
+            "source_last": 4465,
+            "length_m": 100,
+            "translation_fraction": 0.03672406657760505,
+            "rotation_rad_per_m": 0.0006979264921291087,
+            "speed_mps": 3.90625
+          },
+          {
+            "first": 360,
+            "last": 916,
+            "source_first": 4210,
+            "source_last": 4766,
+            "length_m": 200,
+            "translation_fraction": 0.003863537167782931,
+            "rotation_rad_per_m": 0.0004341013746730111,
+            "speed_mps": 3.5906642728904847
+          },
+          {
+            "first": 360,
+            "last": 1333,
+            "source_first": 4210,
+            "source_last": 5183,
+            "length_m": 300,
+            "translation_fraction": 0.008864346247978848,
+            "rotation_rad_per_m": 0.00014246964874838454,
+            "speed_mps": 3.0800821355236137
+          },
+          {
+            "first": 370,
+            "last": 630,
+            "source_first": 4220,
+            "source_last": 4480,
+            "length_m": 100,
+            "translation_fraction": 0.033815860677594844,
+            "rotation_rad_per_m": 0.0007360324524628509,
+            "speed_mps": 3.8314176245210727
+          },
+          {
+            "first": 370,
+            "last": 928,
+            "source_first": 4220,
+            "source_last": 4778,
+            "length_m": 200,
+            "translation_fraction": 0.003710293428498311,
+            "rotation_rad_per_m": 0.0004333529235039551,
+            "speed_mps": 3.577817531305903
+          },
+          {
+            "first": 370,
+            "last": 1359,
+            "source_first": 4220,
+            "source_last": 5209,
+            "length_m": 300,
+            "translation_fraction": 0.009222965145543783,
+            "rotation_rad_per_m": 0.00012780048871478247,
+            "speed_mps": 3.0303030303030303
+          },
+          {
+            "first": 380,
+            "last": 645,
+            "source_first": 4230,
+            "source_last": 4495,
+            "length_m": 100,
+            "translation_fraction": 0.03213490203759661,
+            "rotation_rad_per_m": 0.0006553434882390103,
+            "speed_mps": 3.7593984962406015
+          },
+          {
+            "first": 380,
+            "last": 944,
+            "source_first": 4230,
+            "source_last": 4794,
+            "length_m": 200,
+            "translation_fraction": 0.005198608208629577,
+            "rotation_rad_per_m": 0.0004245872952341252,
+            "speed_mps": 3.5398230088495577
+          },
+          {
+            "first": 380,
+            "last": 1384,
+            "source_first": 4230,
+            "source_last": 5234,
+            "length_m": 300,
+            "translation_fraction": 0.008454501208065556,
+            "rotation_rad_per_m": 0.00012190835197681157,
+            "speed_mps": 2.985074626865672
+          },
+          {
+            "first": 390,
+            "last": 661,
+            "source_first": 4240,
+            "source_last": 4511,
+            "length_m": 100,
+            "translation_fraction": 0.028734175995076276,
+            "rotation_rad_per_m": 0.0006587404292384033,
+            "speed_mps": 3.676470588235294
+          },
+          {
+            "first": 390,
+            "last": 968,
+            "source_first": 4240,
+            "source_last": 4818,
+            "length_m": 200,
+            "translation_fraction": 0.00576678066488117,
+            "rotation_rad_per_m": 0.00040686101386327024,
+            "speed_mps": 3.4542314335060444
+          },
+          {
+            "first": 390,
+            "last": 1404,
+            "source_first": 4240,
+            "source_last": 5254,
+            "length_m": 300,
+            "translation_fraction": 0.008277192805579238,
+            "rotation_rad_per_m": 9.654149186432468e-05,
+            "speed_mps": 2.955665024630542
+          },
+          {
+            "first": 400,
+            "last": 680,
+            "source_first": 4250,
+            "source_last": 4530,
+            "length_m": 100,
+            "translation_fraction": 0.027432308144432427,
+            "rotation_rad_per_m": 0.0006730804434647784,
+            "speed_mps": 3.558718861209964
+          },
+          {
+            "first": 400,
+            "last": 995,
+            "source_first": 4250,
+            "source_last": 4845,
+            "length_m": 200,
+            "translation_fraction": 0.007205920861872039,
+            "rotation_rad_per_m": 0.0003862431994319406,
+            "speed_mps": 3.3557046979865772
+          },
+          {
+            "first": 410,
+            "last": 704,
+            "source_first": 4260,
+            "source_last": 4554,
+            "length_m": 100,
+            "translation_fraction": 0.027382092815171063,
+            "rotation_rad_per_m": 0.0005303715333995211,
+            "speed_mps": 3.389830508474576
+          },
+          {
+            "first": 410,
+            "last": 1024,
+            "source_first": 4260,
+            "source_last": 4874,
+            "length_m": 200,
+            "translation_fraction": 0.007435500315808731,
+            "rotation_rad_per_m": 0.00039643725470936924,
+            "speed_mps": 3.252032520325203
+          },
+          {
+            "first": 420,
+            "last": 729,
+            "source_first": 4270,
+            "source_last": 4579,
+            "length_m": 100,
+            "translation_fraction": 0.026752736562820713,
+            "rotation_rad_per_m": 0.0005716412832672113,
+            "speed_mps": 3.225806451612903
+          },
+          {
+            "first": 420,
+            "last": 1056,
+            "source_first": 4270,
+            "source_last": 4906,
+            "length_m": 200,
+            "translation_fraction": 0.009063240633224216,
+            "rotation_rad_per_m": 0.0003766549344085435,
+            "speed_mps": 3.139717425431711
+          },
+          {
+            "first": 430,
+            "last": 752,
+            "source_first": 4280,
+            "source_last": 4602,
+            "length_m": 100,
+            "translation_fraction": 0.02067976297183443,
+            "rotation_rad_per_m": 0.0005891550168433024,
+            "speed_mps": 3.095975232198142
+          },
+          {
+            "first": 430,
+            "last": 1085,
+            "source_first": 4280,
+            "source_last": 4935,
+            "length_m": 200,
+            "translation_fraction": 0.009521267483729792,
+            "rotation_rad_per_m": 0.00037231636309234713,
+            "speed_mps": 3.0487804878048776
+          },
+          {
+            "first": 440,
+            "last": 772,
+            "source_first": 4290,
+            "source_last": 4622,
+            "length_m": 100,
+            "translation_fraction": 0.02148046234044045,
+            "rotation_rad_per_m": 0.0006521309207548958,
+            "speed_mps": 3.003003003003003
+          },
+          {
+            "first": 440,
+            "last": 1109,
+            "source_first": 4290,
+            "source_last": 4959,
+            "length_m": 200,
+            "translation_fraction": 0.011101432933635446,
+            "rotation_rad_per_m": 0.00037599878122175433,
+            "speed_mps": 2.985074626865672
+          },
+          {
+            "first": 450,
+            "last": 791,
+            "source_first": 4300,
+            "source_last": 4641,
+            "length_m": 100,
+            "translation_fraction": 0.01643334905191569,
+            "rotation_rad_per_m": 0.0006215646854758377,
+            "speed_mps": 2.923976608187134
+          },
+          {
+            "first": 450,
+            "last": 1135,
+            "source_first": 4300,
+            "source_last": 4985,
+            "length_m": 200,
+            "translation_fraction": 0.01077257655991958,
+            "rotation_rad_per_m": 0.0003507340401456885,
+            "speed_mps": 2.9154518950437316
+          },
+          {
+            "first": 460,
+            "last": 808,
+            "source_first": 4310,
+            "source_last": 4658,
+            "length_m": 100,
+            "translation_fraction": 0.012616318081983798,
+            "rotation_rad_per_m": 0.0006073025594334246,
+            "speed_mps": 2.865329512893983
+          },
+          {
+            "first": 460,
+            "last": 1157,
+            "source_first": 4310,
+            "source_last": 5007,
+            "length_m": 200,
+            "translation_fraction": 0.012080203808077894,
+            "rotation_rad_per_m": 0.0003381647274230874,
+            "speed_mps": 2.865329512893983
+          },
+          {
+            "first": 470,
+            "last": 822,
+            "source_first": 4320,
+            "source_last": 4672,
+            "length_m": 100,
+            "translation_fraction": 0.012097410291312932,
+            "rotation_rad_per_m": 0.000600825171056626,
+            "speed_mps": 2.8328611898016995
+          },
+          {
+            "first": 470,
+            "last": 1174,
+            "source_first": 4320,
+            "source_last": 5024,
+            "length_m": 200,
+            "translation_fraction": 0.012682942707723964,
+            "rotation_rad_per_m": 0.0003121957187551207,
+            "speed_mps": 2.8368794326241136
+          },
+          {
+            "first": 480,
+            "last": 833,
+            "source_first": 4330,
+            "source_last": 4683,
+            "length_m": 100,
+            "translation_fraction": 0.012021706099914138,
+            "rotation_rad_per_m": 0.0006160891990505302,
+            "speed_mps": 2.824858757062147
+          },
+          {
+            "first": 480,
+            "last": 1189,
+            "source_first": 4330,
+            "source_last": 5039,
+            "length_m": 200,
+            "translation_fraction": 0.013386797510471565,
+            "rotation_rad_per_m": 0.00030941050975115994,
+            "speed_mps": 2.816901408450704
+          },
+          {
+            "first": 490,
+            "last": 842,
+            "source_first": 4340,
+            "source_last": 4692,
+            "length_m": 100,
+            "translation_fraction": 0.012945272297308394,
+            "rotation_rad_per_m": 0.0006336501454702385,
+            "speed_mps": 2.8328611898016995
+          },
+          {
+            "first": 490,
+            "last": 1202,
+            "source_first": 4340,
+            "source_last": 5052,
+            "length_m": 200,
+            "translation_fraction": 0.01395331890110989,
+            "rotation_rad_per_m": 0.0002810113088880954,
+            "speed_mps": 2.805049088359046
+          },
+          {
+            "first": 500,
+            "last": 850,
+            "source_first": 4350,
+            "source_last": 4700,
+            "length_m": 100,
+            "translation_fraction": 0.013145674390778024,
+            "rotation_rad_per_m": 0.0005883487664176087,
+            "speed_mps": 2.849002849002849
+          },
+          {
+            "first": 500,
+            "last": 1213,
+            "source_first": 4350,
+            "source_last": 5063,
+            "length_m": 200,
+            "translation_fraction": 0.01349123237877583,
+            "rotation_rad_per_m": 0.00024970824262809493,
+            "speed_mps": 2.8011204481792715
+          },
+          {
+            "first": 510,
+            "last": 856,
+            "source_first": 4360,
+            "source_last": 4706,
+            "length_m": 100,
+            "translation_fraction": 0.012763574663794273,
+            "rotation_rad_per_m": 0.000562627402179227,
+            "speed_mps": 2.881844380403458
+          },
+          {
+            "first": 510,
+            "last": 1223,
+            "source_first": 4360,
+            "source_last": 5073,
+            "length_m": 200,
+            "translation_fraction": 0.01041494897567444,
+            "rotation_rad_per_m": 0.0002465234503594712,
+            "speed_mps": 2.8011204481792715
+          },
+          {
+            "first": 520,
+            "last": 861,
+            "source_first": 4370,
+            "source_last": 4711,
+            "length_m": 100,
+            "translation_fraction": 0.01113703494088696,
+            "rotation_rad_per_m": 0.0005294449320701269,
+            "speed_mps": 2.923976608187134
+          },
+          {
+            "first": 520,
+            "last": 1234,
+            "source_first": 4370,
+            "source_last": 5084,
+            "length_m": 200,
+            "translation_fraction": 0.00731104750237823,
+            "rotation_rad_per_m": 0.0002392539074590058,
+            "speed_mps": 2.797202797202797
+          },
+          {
+            "first": 530,
+            "last": 867,
+            "source_first": 4380,
+            "source_last": 4717,
+            "length_m": 100,
+            "translation_fraction": 0.01316430790468532,
+            "rotation_rad_per_m": 0.0004973095450950776,
+            "speed_mps": 2.9585798816568043
+          },
+          {
+            "first": 530,
+            "last": 1244,
+            "source_first": 4380,
+            "source_last": 5094,
+            "length_m": 200,
+            "translation_fraction": 0.010378402022276571,
+            "rotation_rad_per_m": 0.00022343157537947487,
+            "speed_mps": 2.797202797202797
+          },
+          {
+            "first": 540,
+            "last": 872,
+            "source_first": 4390,
+            "source_last": 4722,
+            "length_m": 100,
+            "translation_fraction": 0.011307688864343024,
+            "rotation_rad_per_m": 0.0005067757003007038,
+            "speed_mps": 3.003003003003003
+          },
+          {
+            "first": 540,
+            "last": 1254,
+            "source_first": 4390,
+            "source_last": 5104,
+            "length_m": 200,
+            "translation_fraction": 0.004840753156777846,
+            "rotation_rad_per_m": 0.00022535273861406705,
+            "speed_mps": 2.797202797202797
+          },
+          {
+            "first": 550,
+            "last": 877,
+            "source_first": 4400,
+            "source_last": 4727,
+            "length_m": 100,
+            "translation_fraction": 0.009827787896519702,
+            "rotation_rad_per_m": 0.0005192440890214572,
+            "speed_mps": 3.0487804878048776
+          },
+          {
+            "first": 550,
+            "last": 1263,
+            "source_first": 4400,
+            "source_last": 5113,
+            "length_m": 200,
+            "translation_fraction": 0.005980436406902207,
+            "rotation_rad_per_m": 0.0002342214031096176,
+            "speed_mps": 2.8011204481792715
+          },
+          {
+            "first": 560,
+            "last": 882,
+            "source_first": 4410,
+            "source_last": 4732,
+            "length_m": 100,
+            "translation_fraction": 0.012454968831286033,
+            "rotation_rad_per_m": 0.000548736085768759,
+            "speed_mps": 3.095975232198142
+          },
+          {
+            "first": 560,
+            "last": 1273,
+            "source_first": 4410,
+            "source_last": 5123,
+            "length_m": 200,
+            "translation_fraction": 0.011082899160074768,
+            "rotation_rad_per_m": 0.00023848465703916815,
+            "speed_mps": 2.8011204481792715
+          },
+          {
+            "first": 570,
+            "last": 888,
+            "source_first": 4420,
+            "source_last": 4738,
+            "length_m": 100,
+            "translation_fraction": 0.011027972336470997,
+            "rotation_rad_per_m": 0.0005592384537852171,
+            "speed_mps": 3.134796238244514
+          },
+          {
+            "first": 570,
+            "last": 1283,
+            "source_first": 4420,
+            "source_last": 5133,
+            "length_m": 200,
+            "translation_fraction": 0.005328815782659022,
+            "rotation_rad_per_m": 0.0002643899435688051,
+            "speed_mps": 2.8011204481792715
+          },
+          {
+            "first": 580,
+            "last": 893,
+            "source_first": 4430,
+            "source_last": 4743,
+            "length_m": 100,
+            "translation_fraction": 0.00933328329818414,
+            "rotation_rad_per_m": 0.000527312591518027,
+            "speed_mps": 3.184713375796178
+          },
+          {
+            "first": 580,
+            "last": 1293,
+            "source_first": 4430,
+            "source_last": 5143,
+            "length_m": 200,
+            "translation_fraction": 0.00647235776674044,
+            "rotation_rad_per_m": 0.00023178583657623673,
+            "speed_mps": 2.8011204481792715
+          },
+          {
+            "first": 590,
+            "last": 899,
+            "source_first": 4440,
+            "source_last": 4749,
+            "length_m": 100,
+            "translation_fraction": 0.010890617335320749,
+            "rotation_rad_per_m": 0.0005910983818400319,
+            "speed_mps": 3.225806451612903
+          },
+          {
+            "first": 590,
+            "last": 1303,
+            "source_first": 4440,
+            "source_last": 5153,
+            "length_m": 200,
+            "translation_fraction": 0.01064862924650152,
+            "rotation_rad_per_m": 0.00024512166567018054,
+            "speed_mps": 2.8011204481792715
+          },
+          {
+            "first": 600,
+            "last": 906,
+            "source_first": 4450,
+            "source_last": 4756,
+            "length_m": 100,
+            "translation_fraction": 0.010220753921564456,
+            "rotation_rad_per_m": 0.0005843437806286784,
+            "speed_mps": 3.2573289902280127
+          },
+          {
+            "first": 600,
+            "last": 1314,
+            "source_first": 4450,
+            "source_last": 5164,
+            "length_m": 200,
+            "translation_fraction": 0.006397602669818516,
+            "rotation_rad_per_m": 0.0002515525383474073,
+            "speed_mps": 2.797202797202797
+          },
+          {
+            "first": 610,
+            "last": 912,
+            "source_first": 4460,
+            "source_last": 4762,
+            "length_m": 100,
+            "translation_fraction": 0.018560214557475495,
+            "rotation_rad_per_m": 0.0004893959570359624,
+            "speed_mps": 3.3003300330033003
+          },
+          {
+            "first": 610,
+            "last": 1326,
+            "source_first": 4460,
+            "source_last": 5176,
+            "length_m": 200,
+            "translation_fraction": 0.021568688647453017,
+            "rotation_rad_per_m": 0.00030303985896213824,
+            "speed_mps": 2.7894002789400276
+          },
+          {
+            "first": 620,
+            "last": 919,
+            "source_first": 4470,
+            "source_last": 4769,
+            "length_m": 100,
+            "translation_fraction": 0.018956965007792374,
+            "rotation_rad_per_m": 0.0004859535002082747,
+            "speed_mps": 3.3333333333333335
+          },
+          {
+            "first": 620,
+            "last": 1341,
+            "source_first": 4470,
+            "source_last": 5191,
+            "length_m": 200,
+            "translation_fraction": 0.023330045371758756,
+            "rotation_rad_per_m": 0.0003078832132969373,
+            "speed_mps": 2.7700831024930745
+          },
+          {
+            "first": 630,
+            "last": 928,
+            "source_first": 4480,
+            "source_last": 4778,
+            "length_m": 100,
+            "translation_fraction": 0.022868311722878714,
+            "rotation_rad_per_m": 0.0004425686787589782,
+            "speed_mps": 3.34448160535117
+          },
+          {
+            "first": 630,
+            "last": 1359,
+            "source_first": 4480,
+            "source_last": 5209,
+            "length_m": 200,
+            "translation_fraction": 0.027227777497873515,
+            "rotation_rad_per_m": 0.00030713115041076694,
+            "speed_mps": 2.73972602739726
+          },
+          {
+            "first": 640,
+            "last": 939,
+            "source_first": 4490,
+            "source_last": 4789,
+            "length_m": 100,
+            "translation_fraction": 0.02242631648823371,
+            "rotation_rad_per_m": 0.00048712734249679765,
+            "speed_mps": 3.3333333333333335
+          },
+          {
+            "first": 640,
+            "last": 1377,
+            "source_first": 4490,
+            "source_last": 5227,
+            "length_m": 200,
+            "translation_fraction": 0.024033389901238898,
+            "rotation_rad_per_m": 0.00030483993699537875,
+            "speed_mps": 2.710027100271003
+          },
+          {
+            "first": 650,
+            "last": 952,
+            "source_first": 4500,
+            "source_last": 4802,
+            "length_m": 100,
+            "translation_fraction": 0.020360884629744898,
+            "rotation_rad_per_m": 0.0004168324988136459,
+            "speed_mps": 3.3003300330033003
+          },
+          {
+            "first": 650,
+            "last": 1391,
+            "source_first": 4500,
+            "source_last": 5241,
+            "length_m": 200,
+            "translation_fraction": 0.022139596414520072,
+            "rotation_rad_per_m": 0.0002945443627876684,
+            "speed_mps": 2.6954177897574123
+          },
+          {
+            "first": 660,
+            "last": 967,
+            "source_first": 4510,
+            "source_last": 4817,
+            "length_m": 100,
+            "translation_fraction": 0.02141548167274943,
+            "rotation_rad_per_m": 0.00040918935700979175,
+            "speed_mps": 3.2467532467532467
+          },
+          {
+            "first": 660,
+            "last": 1403,
+            "source_first": 4510,
+            "source_last": 5253,
+            "length_m": 200,
+            "translation_fraction": 0.02255792395751157,
+            "rotation_rad_per_m": 0.00031188791159445563,
+            "speed_mps": 2.6881720430107525
+          },
+          {
+            "first": 670,
+            "last": 982,
+            "source_first": 4520,
+            "source_last": 4832,
+            "length_m": 100,
+            "translation_fraction": 0.023811987651802476,
+            "rotation_rad_per_m": 0.00043538331621176436,
+            "speed_mps": 3.1948881789137378
+          },
+          {
+            "first": 670,
+            "last": 1414,
+            "source_first": 4520,
+            "source_last": 5264,
+            "length_m": 200,
+            "translation_fraction": 0.023943131331759338,
+            "rotation_rad_per_m": 0.00032346328463689453,
+            "speed_mps": 2.684563758389262
+          },
+          {
+            "first": 680,
+            "last": 995,
+            "source_first": 4530,
+            "source_last": 4845,
+            "length_m": 100,
+            "translation_fraction": 0.023425939017922164,
+            "rotation_rad_per_m": 0.00040875424606978656,
+            "speed_mps": 3.1645569620253164
+          },
+          {
+            "first": 690,
+            "last": 1007,
+            "source_first": 4540,
+            "source_last": 4857,
+            "length_m": 100,
+            "translation_fraction": 0.012387847378292067,
+            "rotation_rad_per_m": 0.0005096523905328333,
+            "speed_mps": 3.144654088050314
+          },
+          {
+            "first": 700,
+            "last": 1019,
+            "source_first": 4550,
+            "source_last": 4869,
+            "length_m": 100,
+            "translation_fraction": 0.014478216695501788,
+            "rotation_rad_per_m": 0.00048737051930211486,
+            "speed_mps": 3.125
+          },
+          {
+            "first": 710,
+            "last": 1031,
+            "source_first": 4560,
+            "source_last": 4881,
+            "length_m": 100,
+            "translation_fraction": 0.014669197305989267,
+            "rotation_rad_per_m": 0.0004419197612306783,
+            "speed_mps": 3.105590062111801
+          },
+          {
+            "first": 720,
+            "last": 1045,
+            "source_first": 4570,
+            "source_last": 4895,
+            "length_m": 100,
+            "translation_fraction": 0.016334590566757574,
+            "rotation_rad_per_m": 0.00040578890993389757,
+            "speed_mps": 3.067484662576687
+          },
+          {
+            "first": 730,
+            "last": 1058,
+            "source_first": 4580,
+            "source_last": 4908,
+            "length_m": 100,
+            "translation_fraction": 0.015609778604018774,
+            "rotation_rad_per_m": 0.00035682066252556115,
+            "speed_mps": 3.0395136778115504
+          },
+          {
+            "first": 740,
+            "last": 1071,
+            "source_first": 4590,
+            "source_last": 4921,
+            "length_m": 100,
+            "translation_fraction": 0.022162770549954924,
+            "rotation_rad_per_m": 0.0002927463209783119,
+            "speed_mps": 3.012048192771084
+          },
+          {
+            "first": 750,
+            "last": 1083,
+            "source_first": 4600,
+            "source_last": 4933,
+            "length_m": 100,
+            "translation_fraction": 0.023084170169495308,
+            "rotation_rad_per_m": 0.00031406835690427076,
+            "speed_mps": 2.9940119760479043
+          },
+          {
+            "first": 760,
+            "last": 1095,
+            "source_first": 4610,
+            "source_last": 4945,
+            "length_m": 100,
+            "translation_fraction": 0.026578471161049597,
+            "rotation_rad_per_m": 0.00025594515393351046,
+            "speed_mps": 2.9761904761904763
+          },
+          {
+            "first": 770,
+            "last": 1107,
+            "source_first": 4620,
+            "source_last": 4957,
+            "length_m": 100,
+            "translation_fraction": 0.03321193726285621,
+            "rotation_rad_per_m": 0.0002384626554529126,
+            "speed_mps": 2.9585798816568043
+          },
+          {
+            "first": 780,
+            "last": 1120,
+            "source_first": 4630,
+            "source_last": 4970,
+            "length_m": 100,
+            "translation_fraction": 0.031863143354076404,
+            "rotation_rad_per_m": 0.0002738417679736643,
+            "speed_mps": 2.932551319648094
+          },
+          {
+            "first": 790,
+            "last": 1134,
+            "source_first": 4640,
+            "source_last": 4984,
+            "length_m": 100,
+            "translation_fraction": 0.031029712730776725,
+            "rotation_rad_per_m": 0.0002762460930556706,
+            "speed_mps": 2.898550724637681
+          },
+          {
+            "first": 800,
+            "last": 1148,
+            "source_first": 4650,
+            "source_last": 4998,
+            "length_m": 100,
+            "translation_fraction": 0.0359730725153563,
+            "rotation_rad_per_m": 0.0002823836586635248,
+            "speed_mps": 2.865329512893983
+          },
+          {
+            "first": 810,
+            "last": 1160,
+            "source_first": 4660,
+            "source_last": 5010,
+            "length_m": 100,
+            "translation_fraction": 0.03340720290254807,
+            "rotation_rad_per_m": 0.0003405730542181467,
+            "speed_mps": 2.849002849002849
+          },
+          {
+            "first": 820,
+            "last": 1173,
+            "source_first": 4670,
+            "source_last": 5023,
+            "length_m": 100,
+            "translation_fraction": 0.03583514892172851,
+            "rotation_rad_per_m": 0.000328853483182891,
+            "speed_mps": 2.824858757062147
+          },
+          {
+            "first": 830,
+            "last": 1186,
+            "source_first": 4680,
+            "source_last": 5036,
+            "length_m": 100,
+            "translation_fraction": 0.03920085776948165,
+            "rotation_rad_per_m": 0.0003422484230864004,
+            "speed_mps": 2.8011204481792715
+          },
+          {
+            "first": 840,
+            "last": 1199,
+            "source_first": 4690,
+            "source_last": 5049,
+            "length_m": 100,
+            "translation_fraction": 0.03983035402264262,
+            "rotation_rad_per_m": 0.0003634845310909715,
+            "speed_mps": 2.7777777777777777
+          },
+          {
+            "first": 850,
+            "last": 1214,
+            "source_first": 4700,
+            "source_last": 5064,
+            "length_m": 100,
+            "translation_fraction": 0.04277711344654505,
+            "rotation_rad_per_m": 0.00033236931153761,
+            "speed_mps": 2.73972602739726
+          },
+          {
+            "first": 860,
+            "last": 1232,
+            "source_first": 4710,
+            "source_last": 5082,
+            "length_m": 100,
+            "translation_fraction": 0.04568504290763203,
+            "rotation_rad_per_m": 0.0003134249380275476,
+            "speed_mps": 2.6809651474530827
+          },
+          {
+            "first": 870,
+            "last": 1251,
+            "source_first": 4720,
+            "source_last": 5101,
+            "length_m": 100,
+            "translation_fraction": 0.04467067109029031,
+            "rotation_rad_per_m": 0.0003301964265009951,
+            "speed_mps": 2.6178010471204187
+          },
+          {
+            "first": 880,
+            "last": 1270,
+            "source_first": 4730,
+            "source_last": 5120,
+            "length_m": 100,
+            "translation_fraction": 0.04960175297365899,
+            "rotation_rad_per_m": 0.00038258850919912097,
+            "speed_mps": 2.557544757033248
+          },
+          {
+            "first": 890,
+            "last": 1288,
+            "source_first": 4740,
+            "source_last": 5138,
+            "length_m": 100,
+            "translation_fraction": 0.05169484718621627,
+            "rotation_rad_per_m": 0.0004350259106382229,
+            "speed_mps": 2.506265664160401
+          },
+          {
+            "first": 900,
+            "last": 1305,
+            "source_first": 4750,
+            "source_last": 5155,
+            "length_m": 100,
+            "translation_fraction": 0.05356982958161685,
+            "rotation_rad_per_m": 0.0004729038450059136,
+            "speed_mps": 2.4630541871921183
+          },
+          {
+            "first": 910,
+            "last": 1323,
+            "source_first": 4760,
+            "source_last": 5173,
+            "length_m": 100,
+            "translation_fraction": 0.05450670698031998,
+            "rotation_rad_per_m": 0.0005031436426213706,
+            "speed_mps": 2.4154589371980673
+          },
+          {
+            "first": 920,
+            "last": 1343,
+            "source_first": 4770,
+            "source_last": 5193,
+            "length_m": 100,
+            "translation_fraction": 0.05553988490544709,
+            "rotation_rad_per_m": 0.0005846941964702781,
+            "speed_mps": 2.3584905660377355
+          },
+          {
+            "first": 930,
+            "last": 1364,
+            "source_first": 4780,
+            "source_last": 5214,
+            "length_m": 100,
+            "translation_fraction": 0.0548242427076118,
+            "rotation_rad_per_m": 0.0005452988335085231,
+            "speed_mps": 2.2988505747126435
+          },
+          {
+            "first": 940,
+            "last": 1379,
+            "source_first": 4790,
+            "source_last": 5229,
+            "length_m": 100,
+            "translation_fraction": 0.054106002793529014,
+            "rotation_rad_per_m": 0.0005629607924226693,
+            "speed_mps": 2.272727272727273
+          },
+          {
+            "first": 950,
+            "last": 1390,
+            "source_first": 4800,
+            "source_last": 5240,
+            "length_m": 100,
+            "translation_fraction": 0.05225643489131616,
+            "rotation_rad_per_m": 0.0005574741203225979,
+            "speed_mps": 2.2675736961451247
+          },
+          {
+            "first": 960,
+            "last": 1398,
+            "source_first": 4810,
+            "source_last": 5248,
+            "length_m": 100,
+            "translation_fraction": 0.050383703515235745,
+            "rotation_rad_per_m": 0.00057860158103239,
+            "speed_mps": 2.2779043280182227
+          },
+          {
+            "first": 970,
+            "last": 1405,
+            "source_first": 4820,
+            "source_last": 5255,
+            "length_m": 100,
+            "translation_fraction": 0.04966997336459555,
+            "rotation_rad_per_m": 0.0006045554932687522,
+            "speed_mps": 2.293577981651376
+          },
+          {
+            "first": 980,
+            "last": 1412,
+            "source_first": 4830,
+            "source_last": 5262,
+            "length_m": 100,
+            "translation_fraction": 0.04885781268488439,
+            "rotation_rad_per_m": 0.0006030289247506248,
+            "speed_mps": 2.3094688221709005
+          }
+        ],
+        "kitti_protocol": "all_segments_strict_endpoint_v2",
+        "kitti_sampling": "dense",
+        "kitti_speed_convention": "nominal_10Hz_inclusive_source_frame_span"
+      },
+      "labels": {
+        "safe": 4
+      },
+      "accepted_labels": {
+        "safe": 4
+      },
+      "timings_s": {
+        "retrieval": 0.643650671991054,
+        "verification": 5.254282070003683,
+        "pgo": 0.041761883010622114
+      }
+    }
+  ],
+  "descriptor_seconds": 0.7982627850142308,
+  "shared_pairs": 4,
+  "added_pairs": 0,
+  "removed_pairs": 0,
+  "budget12_matches_reference_order": true,
+  "budget12_reference_ape_delta": -3.6797274116651124e-09,
+  "sc_allocated": 0,
+  "sc_only_pairs": 0
+}

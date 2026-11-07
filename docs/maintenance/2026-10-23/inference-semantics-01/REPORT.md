@@ -1,0 +1,11 @@
+# IS1 exact-source inference semantics complete
+
+Forty-three synthetic controls pass using10 hash-bound AST functions, including the original timestep sampler that SI1 had replaced. All32 batch-size/distribution/initial-noise/rigidity cases match an independent CPU Generator's exact RNG-state bytes and expected first integration input. _prepare_data consumes a timestep distribution draw even though inference discards the sampled value; with absent x1, the later Gaussian follows that consumption. With provided x1, the unused draw still advances global RNG. These CPU fixed-stub observations do not prove GPU generator equivalence or learned-model determinism. Saved RNG hashes identify states but do not contain a full replay state.
+
+Eight mask controls confirm that the mask reaches the deterministic flow stub while the Euler/projection integrator does not clamp the anchor rows for that constant field. The learned RAP flow receives the mask and may respond to it; no learned anchor-invariance claim follows. Future output consumers must use the actual returned common-frame transforms instead of assuming an identity anchor.
+
+The final raw endpoint and projected integration state differ by0.22796177864074707 synthetic coordinate units in the fixed fixture, yet their independently repeated source rigid fits differ by only4.409812390804291e-7 in rotation/translation elements, below fixed2e-5. This fixture shows why a raw/nonrigid point endpoint can still produce the same fitted rigid pose; it is not a general numerical theorem or real pose-accuracy result. No generic recovery layer is missing.
+
+Source sample_rectified_flow still returns the trajectory dictionary when return_tarjectory=False; direct sampler return_trajectory=False returns the final integration state, while return_end_point_trajectory=False does not suppress either dictionary field when trajectory=True. Current backend asks for the dictionary and reads the raw endpoint before fitting; no production flag/default was changed.
+
+No neural model, weight, real point or reference is used. Worker peak502,202,368 bytes and watchdog583,540,736 bytes are below1GiB; CUDA uninitialized, exact helper cleanup succeeds. TT1/CB1/RI1 stops, previous source tests and all original research failures remain unchanged. This does not attribute historical native instability or establish RAP efficacy.

@@ -20,6 +20,7 @@ from typing import List, Optional, Tuple
 import shutil
 import glob
 import copy
+import json
 from tqdm import tqdm
 import urllib.request
 import zipfile
@@ -845,14 +846,14 @@ def main():
             # Run inference with hydra
             with hydra.initialize(config_path="./config", version_base="1.3"):
                 overrides = [
-                    f'data_root={data_root}',
-                    f'log_dir={log_dir}',
-                    f'data.dataset_names=[{dataset_name}]',
+                    f'data_root={json.dumps(str(data_root), ensure_ascii=False)}',
+                    f'log_dir={json.dumps(str(log_dir), ensure_ascii=False)}',
+                    f'data.dataset_names=[{json.dumps(str(dataset_name), ensure_ascii=False)}]',
                 ]
                 if args.model:
                     overrides.append(f'model={args.model}')
                 if args.flow_model_checkpoint:
-                    overrides.append(f'ckpt_path={args.flow_model_checkpoint}')
+                    overrides.append(f'ckpt_path={json.dumps(str(args.flow_model_checkpoint), ensure_ascii=False)}')
                 # Set rigidity_forcing (default is True)
                 overrides.append(f'model.rigidity_forcing={args.rigidity_forcing}')
                 # Set n_generations (default is 1)

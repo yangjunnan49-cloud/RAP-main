@@ -1,0 +1,36 @@
+{
+  "write_utc": "2026-10-17T04:05:49.8928845Z",
+  "status": "ACTIVE_RESOURCE_GATED_NOT_EXHAUSTED",
+  "account_observations": 36,
+  "valid_observer_resource_reads": 36,
+  "maximum_observer_headroom_bytes": 8673792000.0,
+  "guard_passes": 0,
+  "latest_actual": {
+    "following_account_clock_UTC": "2026-10-17 04:05:26 UTC",
+    "primary": {
+      "usedPercent": 32,
+      "windowDurationMins": 300,
+      "resetsAt": 1792217489
+    },
+    "secondary": {
+      "usedPercent": 75,
+      "windowDurationMins": 10080,
+      "resetsAt": 1792652445
+    },
+    "ordinaryUsageAllowed": true,
+    "scope": "Active in-turn C0 eligibility observation; no scientific payload",
+    "resource": {
+      "utc": "2026-10-17T04:05:30.2727807Z",
+      "committed_bytes": 129100873728,
+      "commit_limit_bytes": 137269444608,
+      "headroom_bytes": 8168570880,
+      "required_bytes": 12884901888
+    }
+  },
+  "C0_numeric_launches": 0,
+  "original_C0_charged_seconds": 2.1993678,
+  "remaining_seconds": 897.8006322,
+  "syntax_runtime": "UNTESTED",
+  "expected_window_reset_utc": "2026-10-17T06:11:29Z",
+  "ordinary_observer_full_lifetime_RSS": "UNKNOWN"
+}

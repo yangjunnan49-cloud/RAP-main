@@ -1,0 +1,218 @@
+{
+  "passed": true,
+  "synthetic_controls": 20,
+  "controls": [
+    {
+      "case": "allowed0",
+      "passed": true,
+      "expected_status": "ACTIVE"
+    },
+    {
+      "case": "allowed99",
+      "passed": true,
+      "expected_status": "ACTIVE"
+    },
+    {
+      "case": "display100_allowed",
+      "passed": true,
+      "expected_status": "ACTIVE"
+    },
+    {
+      "case": "disabled100",
+      "passed": true,
+      "expected_status": "ACCOUNT_ORDINARY_USAGE_DISABLED"
+    },
+    {
+      "case": "disabled_changed_reset_priority",
+      "passed": true,
+      "expected_status": "ACCOUNT_ORDINARY_USAGE_DISABLED"
+    },
+    {
+      "case": "allowed_changed_reset",
+      "passed": true,
+      "expected_status": "WINDOW_CHANGED_STOP"
+    },
+    {
+      "case": "missing_boolean",
+      "passed": true,
+      "expected_status": "READ_UNAVAILABLE_STOP"
+    },
+    {
+      "case": "string_false_not_boolean",
+      "passed": true,
+      "expected_status": "READ_UNAVAILABLE_STOP"
+    },
+    {
+      "case": "invalid_percent",
+      "passed": true,
+      "expected_status": "READ_UNAVAILABLE_STOP"
+    },
+    {
+      "case": "NaN_percent",
+      "passed": true,
+      "expected_status": "READ_UNAVAILABLE_STOP"
+    },
+    {
+      "case": "bool_percent",
+      "passed": true,
+      "expected_status": "READ_UNAVAILABLE_STOP"
+    },
+    {
+      "case": "missing_primary_allowed",
+      "passed": true,
+      "expected_status": "READ_UNAVAILABLE_STOP"
+    },
+    {
+      "case": "disabled_missing_primary",
+      "passed": true,
+      "expected_status": "ACCOUNT_ORDINARY_USAGE_DISABLED"
+    },
+    {
+      "case": "disabled_primary0_no_cause_inference",
+      "passed": true,
+      "expected_status": "ACCOUNT_ORDINARY_USAGE_DISABLED"
+    },
+    {
+      "case": "weekly_display100_ordinary_allowed",
+      "passed": true,
+      "expected_status": "ACTIVE"
+    },
+    {
+      "case": "current_bucket_preferred",
+      "passed": true,
+      "expected_status": "ACTIVE"
+    },
+    {
+      "case": "error_result",
+      "passed": true
+    },
+    {
+      "case": "ambiguous",
+      "passed": true
+    },
+    {
+      "case": "malformed_json",
+      "passed": true
+    },
+    {
+      "case": "invalid_expected_window",
+      "passed": true
+    }
+  ],
+  "saved_actual_observations": [
+    {
+      "file": "ACCOUNT_OBSERVATION_085253.json",
+      "classification": {
+        "ordinaryUsageAllowed": true,
+        "usedPercent": 15,
+        "resetsAt": 1792763091,
+        "expected_reset": 1792763091,
+        "no_reset_cause_inferred": true,
+        "status": "ACTIVE",
+        "confirmed_account_disabled": false,
+        "display100_alone_not_exhaustion": false
+      },
+      "following_clock": {
+        "current_time": "2026-10-23 08:52:53 UTC"
+      }
+    },
+    {
+      "file": "ACCOUNT_OBSERVATION_090716.json",
+      "classification": {
+        "ordinaryUsageAllowed": true,
+        "usedPercent": 33,
+        "resetsAt": 1792763091,
+        "expected_reset": 1792763091,
+        "no_reset_cause_inferred": true,
+        "status": "ACTIVE",
+        "confirmed_account_disabled": false,
+        "display100_alone_not_exhaustion": false
+      },
+      "following_clock": {
+        "current_time": "2026-10-23 09:07:16 UTC"
+      }
+    },
+    {
+      "file": "ACCOUNT_OBSERVATION_091754.json",
+      "classification": {
+        "ordinaryUsageAllowed": true,
+        "usedPercent": 47,
+        "resetsAt": 1792763091,
+        "expected_reset": 1792763091,
+        "no_reset_cause_inferred": true,
+        "status": "ACTIVE",
+        "confirmed_account_disabled": false,
+        "display100_alone_not_exhaustion": false
+      },
+      "following_clock": {
+        "current_time": "2026-10-23 09:17:54 UTC"
+      }
+    },
+    {
+      "file": "ACCOUNT_OBSERVATION_092555.json",
+      "classification": {
+        "ordinaryUsageAllowed": true,
+        "usedPercent": 56,
+        "resetsAt": 1792763091,
+        "expected_reset": 1792763091,
+        "no_reset_cause_inferred": true,
+        "status": "ACTIVE",
+        "confirmed_account_disabled": false,
+        "display100_alone_not_exhaustion": false
+      },
+      "following_clock": {
+        "current_time": "2026-10-23 09:25:55 UTC"
+      }
+    },
+    {
+      "file": "ACCOUNT_OBSERVATION_093030.json",
+      "classification": {
+        "ordinaryUsageAllowed": true,
+        "usedPercent": 64,
+        "resetsAt": 1792763091,
+        "expected_reset": 1792763091,
+        "no_reset_cause_inferred": true,
+        "status": "ACTIVE",
+        "confirmed_account_disabled": false,
+        "display100_alone_not_exhaustion": false
+      },
+      "following_clock": {
+        "current_time": "2026-10-23 09:30:30 UTC"
+      }
+    },
+    {
+      "file": "ACCOUNT_OBSERVATION_093741.json",
+      "classification": {
+        "ordinaryUsageAllowed": true,
+        "usedPercent": 74,
+        "resetsAt": 1792763091,
+        "expected_reset": 1792763091,
+        "no_reset_cause_inferred": true,
+        "status": "ACTIVE",
+        "confirmed_account_disabled": false,
+        "display100_alone_not_exhaustion": false
+      },
+      "following_clock": {
+        "current_time": "2026-10-23 09:37:41 UTC"
+      }
+    },
+    {
+      "file": "START_OBSERVATION.json",
+      "classification": {
+        "ordinaryUsageAllowed": true,
+        "usedPercent": 1,
+        "resetsAt": 1792763091,
+        "expected_reset": 1792763091,
+        "no_reset_cause_inferred": true,
+        "status": "ACTIVE",
+        "confirmed_account_disabled": false,
+        "display100_alone_not_exhaustion": false
+      },
+      "following_clock": {
+        "current_time": "2026-10-23 08:44:50 UTC"
+      }
+    }
+  ],
+  "actual_boundary_observed": false,
+  "numeric_imports": false
+}

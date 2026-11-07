@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "completed_utc": "2026-10-28T12:46:33.993961+00:00",
+  "elapsed_seconds": 0.5620000000344589,
+  "child_lifetime_peak_bytes": 39665664,
+  "audited_read_paths": [
+    "e:\\githouse\\rap-main\\docs\\maintenance\\2026-10-28\\ordinary-pnp-baseline-01\\controls\\cold_arrays.npz",
+    "e:\\githouse\\rap-main\\docs\\maintenance\\2026-10-28\\ordinary-pnp-baseline-01\\synthetic_fixture.json"
+  ],
+  "torch_imported": false,
+  "controls": [
+    {
+      "name": "installed_API_binding",
+      "passed": true
+    },
+    {
+      "name": "rank0_fixture",
+      "passed": true
+    },
+    {
+      "name": "rank1_fixture",
+      "passed": true
+    },
+    {
+      "name": "rank2_fixture",
+      "passed": true
+    },
+    {
+      "name": "rank3_fixture",
+      "passed": true
+    },
+    {
+      "name": "cold_clean_nonplanar_pose",
+      "passed": true,
+      "status": "POSE"
+    },
+    {
+      "name": "forward_metric_camera_direction",
+      "passed": true,
+      "errors": [
+        8.774468842403317e-07,
+        3.064663633036935e-07
+      ]
+    },
+    {
+      "name": "inverse_frame_action",
+      "passed": true,
+      "errors": [
+        5.892937519444736e-07,
+        3.0604888966945626e-07
+      ]
+    },
+    {
+      "name": "metric_scale_tracks_supplied3D_units",
+      "passed": true,
+      "errors": [
+        8.080251007479577e-07,
+        1.930339795066668e-06
+      ]
+    },
+    {
+      "name": "fixed_outlier_control",
+      "passed": true,
+      "errors": [
+        9.627815573981076e-07,
+        3.5384826987035703e-07
+      ]
+    },
+    {
+      "name": "fixed_seed_reproduction",
+      "passed": true
+    },
+    {
+      "name": "below8_explicit_no_pose",
+      "passed": true
+    },
+    {
+      "name": "planar_unsupported_explicit",
+      "passed": true
+    },
+    {
+      "name": "rank0_explicit",
+      "passed": true
+    },
+    {
+      "name": "rank1_explicit",
+      "passed": true
+    },
+    {
+      "name": "rank1_image_explicit",
+      "passed": true
+    },
+    {
+      "name": "nonfinite_explicit",
+      "passed": true
+    },
+    {
+      "name": "invalid_intrinsic_explicit",
+      "passed": true
+    },
+    {
+      "name": "verified_support_and_depth",
+      "passed": true
+    },
+    {
+      "name": "zero_translation_direction_null",
+      "passed": true
+    },
+    {
+      "name": "unit_direction",
+      "passed": true
+    },
+    {
+      "name": "cold_NPZ_roundtrip",
+      "passed": true
+    },
+    {
+      "name": "evaluation_binding_denied",
+      "passed": true
+    }
+  ],
+  "control_count": 23,
+  "source_freeze_sha256": "f45e6e986e5c5e139323037fb59001b81237a3190e830a3579c860b467c6a8ab",
+  "measured_data_or_reference_reads": 0,
+  "first_solver_call_after_strict_read_gate": true,
+  "EPNP_flag": 1
+}

@@ -1,0 +1,11 @@
+# P0 runtime overlap engineering, explicit owner continuation
+
+Owner explicitly continued2026-10-21 after requesting sustained work toward system metrics/deliverables. Complete original R0+S1 raw-core campaign is CLOSED DELIVERED:6762.0941485/7200s, residual437.9058515 is not borrowed or reset. Its36-cell result and all historical stops/failures/seals remain unchanged. No new RAP efficacy/parameter/model/training/source-acquisition/reference/default/install/Git/outreach/scheduler/goal-status work.
+
+Distinct engineering question justified by new measurements: can a bounded FIFO overlap source-independent raw preparation/E0 with ordered native map/closure work, while preserving input bytes/source order and experimental G trajectory? Measured G11.391FPS/p99frame137.363ms, fixed ideal traces suggest substantial overlap headroom but are not performance evidence. Actual throughput, IPC/resource costs and equivalence need direct controls.
+
+New finite P0 engineering account9000 combined enclosing seconds, including all preparation/imports/controls/failures/raw/evaluation/delivery;4GiB per participating Python process,256MiB dossier,GPU0, original12GiB Windows headroom/fresh monotonic<=2s launch guard. This is a separate pipeline/concurrency question, not renewal of old accuracy-family or R0/S1 budgets. Only already-installed runtimes and already-acquired raw scans/configs. No other-process control. Exact owned process-group identity required before stopping this scope's children.
+
+No raw P0 launch is admitted by this planning document alone. First perform finite source/dataflow and old-repeat stability admission; implement one fixed interface, freeze controls/protocol/sources, pass synthetic IPC/order/equivalence checks, then launch only if eligible. If source feedback, unsupported shared state or existing G repeat instability defeats the fixed contract, close before real registration. No alternate queues, seeds, tolerances, partition/count/scene/weight/config or solver rescue.
+
+Current account initial new0%/true/reset1792563859 at01:24:26UTC; actual20%/true at01:37:32UTC is not exhaustion. Stop new payload at actual100%/disallowed/reset identity change; no automatic reset resumption. This explicit owner request authorizes current continuation, not a scheduler. Original research objective unresolved, goal status unchanged.

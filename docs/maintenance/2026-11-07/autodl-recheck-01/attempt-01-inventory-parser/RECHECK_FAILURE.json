@@ -1,0 +1,7 @@
+{
+  "failed_utc": "2026-11-07T00:40:40.935448+00:00",
+  "error": "AssertionError('environment-inventory failed; see original logs')",
+  "traceback": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/rap-recheck-20261107-01/recheck_server.py\", line 257, in <module>\n    main()\n  File \"/root/autodl-tmp/rap-recheck-20261107-01/recheck_server.py\", line 195, in main\n    inventory_raw, _ = command('environment-inventory', [PYTHON, '-I', '-B', '-c', inventory], 90,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/autodl-tmp/rap-recheck-20261107-01/recheck_server.py\", line 104, in command\n    assert result.returncode == 0, name + ' failed; see original logs'\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: environment-inventory failed; see original logs\n",
+  "original_assets_overwritten": false,
+  "training_started": false
+}

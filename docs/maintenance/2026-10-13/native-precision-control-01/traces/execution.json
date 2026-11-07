@@ -1,0 +1,557 @@
+{
+  "utc": "2026-10-13T01:48:06.836851+00:00",
+  "records": [
+    {
+      "name": "S_V_full1",
+      "condition": "S",
+      "arm": "V",
+      "path": "full",
+      "rep": 1,
+      "loss": 7.229944003483979e-06,
+      "terms": {
+        "velocity": 7.229944003483979e-06
+      },
+      "linear_dtypes": {
+        "transformer_layers.10.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.10.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        }
+      },
+      "dispatched_ATen_names": [
+        "aten::_scaled_dot_product_attention_math",
+        "aten::scaled_dot_product_attention"
+      ],
+      "factor": 1024.0
+    },
+    {
+      "name": "S_V_cache1",
+      "condition": "S",
+      "arm": "V",
+      "path": "cache",
+      "rep": 1,
+      "loss": 7.229944003483979e-06,
+      "terms": {
+        "velocity": 7.229944003483979e-06
+      },
+      "linear_dtypes": {
+        "transformer_layers.10.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.10.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        }
+      },
+      "dispatched_ATen_names": [],
+      "factor": 1024.0
+    },
+    {
+      "name": "S_V_full2",
+      "condition": "S",
+      "arm": "V",
+      "path": "full",
+      "rep": 2,
+      "loss": 7.229944003483979e-06,
+      "terms": {
+        "velocity": 7.229944003483979e-06
+      },
+      "linear_dtypes": {
+        "transformer_layers.10.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.10.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        }
+      },
+      "dispatched_ATen_names": [],
+      "factor": 1024.0
+    },
+    {
+      "name": "S_V_cache2",
+      "condition": "S",
+      "arm": "V",
+      "path": "cache",
+      "rep": 2,
+      "loss": 7.229944003483979e-06,
+      "terms": {
+        "velocity": 7.229944003483979e-06
+      },
+      "linear_dtypes": {
+        "transformer_layers.10.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.10.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        }
+      },
+      "dispatched_ATen_names": [],
+      "factor": 1024.0
+    },
+    {
+      "name": "S_P_full1",
+      "condition": "S",
+      "arm": "P",
+      "path": "full",
+      "rep": 1,
+      "loss": 198.32860123110547,
+      "terms": {
+        "translation": 191.62896602357063,
+        "rotation": 6.6763246344275275,
+        "shape": 0.023310573107311487
+      },
+      "linear_dtypes": {
+        "transformer_layers.10.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.10.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        }
+      },
+      "dispatched_ATen_names": [
+        "aten::_scaled_dot_product_attention_math",
+        "aten::scaled_dot_product_attention"
+      ],
+      "factor": 0.0009765625
+    },
+    {
+      "name": "S_P_cache1",
+      "condition": "S",
+      "arm": "P",
+      "path": "cache",
+      "rep": 1,
+      "loss": 198.32860123110547,
+      "terms": {
+        "translation": 191.62896602357063,
+        "rotation": 6.6763246344275275,
+        "shape": 0.023310573107311487
+      },
+      "linear_dtypes": {
+        "transformer_layers.10.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.10.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        }
+      },
+      "dispatched_ATen_names": [],
+      "factor": 0.0009765625
+    },
+    {
+      "name": "S_P_full2",
+      "condition": "S",
+      "arm": "P",
+      "path": "full",
+      "rep": 2,
+      "loss": 198.32860123110547,
+      "terms": {
+        "translation": 191.62896602357063,
+        "rotation": 6.6763246344275275,
+        "shape": 0.023310573107311487
+      },
+      "linear_dtypes": {
+        "transformer_layers.10.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.10.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        }
+      },
+      "dispatched_ATen_names": [],
+      "factor": 0.0009765625
+    },
+    {
+      "name": "S_P_cache2",
+      "condition": "S",
+      "arm": "P",
+      "path": "cache",
+      "rep": 2,
+      "loss": 198.32860123110547,
+      "terms": {
+        "translation": 191.62896602357063,
+        "rotation": 6.6763246344275275,
+        "shape": 0.023310573107311487
+      },
+      "linear_dtypes": {
+        "transformer_layers.10.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.10.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        }
+      },
+      "dispatched_ATen_names": [],
+      "factor": 0.0009765625
+    },
+    {
+      "name": "D_V_full1",
+      "condition": "D",
+      "arm": "V",
+      "path": "full",
+      "rep": 1,
+      "loss": 7.2299423838087396e-06,
+      "terms": {
+        "velocity": 7.2299423838087396e-06
+      },
+      "linear_dtypes": {
+        "transformer_layers.10.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.10.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        }
+      },
+      "dispatched_ATen_names": [
+        "aten::_scaled_dot_product_attention_math",
+        "aten::scaled_dot_product_attention"
+      ],
+      "factor": 1024.0
+    },
+    {
+      "name": "D_V_cache1",
+      "condition": "D",
+      "arm": "V",
+      "path": "cache",
+      "rep": 1,
+      "loss": 7.2299423838087396e-06,
+      "terms": {
+        "velocity": 7.2299423838087396e-06
+      },
+      "linear_dtypes": {
+        "transformer_layers.10.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.10.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        }
+      },
+      "dispatched_ATen_names": [],
+      "factor": 1024.0
+    },
+    {
+      "name": "D_V_full2",
+      "condition": "D",
+      "arm": "V",
+      "path": "full",
+      "rep": 2,
+      "loss": 7.2299423838087396e-06,
+      "terms": {
+        "velocity": 7.2299423838087396e-06
+      },
+      "linear_dtypes": {
+        "transformer_layers.10.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.10.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        }
+      },
+      "dispatched_ATen_names": [],
+      "factor": 1024.0
+    },
+    {
+      "name": "D_V_cache2",
+      "condition": "D",
+      "arm": "V",
+      "path": "cache",
+      "rep": 2,
+      "loss": 7.2299423838087396e-06,
+      "terms": {
+        "velocity": 7.2299423838087396e-06
+      },
+      "linear_dtypes": {
+        "transformer_layers.10.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.10.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        }
+      },
+      "dispatched_ATen_names": [],
+      "factor": 1024.0
+    },
+    {
+      "name": "D_P_full1",
+      "condition": "D",
+      "arm": "P",
+      "path": "full",
+      "rep": 1,
+      "loss": 198.328599909531,
+      "terms": {
+        "translation": 191.6289644314828,
+        "rotation": 6.6763249041798645,
+        "shape": 0.023310573868312468
+      },
+      "linear_dtypes": {
+        "transformer_layers.10.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.10.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        }
+      },
+      "dispatched_ATen_names": [
+        "aten::_scaled_dot_product_attention_math",
+        "aten::scaled_dot_product_attention"
+      ],
+      "factor": 0.0009765625
+    },
+    {
+      "name": "D_P_cache1",
+      "condition": "D",
+      "arm": "P",
+      "path": "cache",
+      "rep": 1,
+      "loss": 198.328599909531,
+      "terms": {
+        "translation": 191.6289644314828,
+        "rotation": 6.6763249041798645,
+        "shape": 0.023310573868312468
+      },
+      "linear_dtypes": {
+        "transformer_layers.10.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.10.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        }
+      },
+      "dispatched_ATen_names": [],
+      "factor": 0.0009765625
+    },
+    {
+      "name": "D_P_full2",
+      "condition": "D",
+      "arm": "P",
+      "path": "full",
+      "rep": 2,
+      "loss": 198.328599909531,
+      "terms": {
+        "translation": 191.6289644314828,
+        "rotation": 6.6763249041798645,
+        "shape": 0.023310573868312468
+      },
+      "linear_dtypes": {
+        "transformer_layers.10.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.10.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        }
+      },
+      "dispatched_ATen_names": [],
+      "factor": 0.0009765625
+    },
+    {
+      "name": "D_P_cache2",
+      "condition": "D",
+      "arm": "P",
+      "path": "cache",
+      "rep": 2,
+      "loss": 198.328599909531,
+      "terms": {
+        "translation": 191.6289644314828,
+        "rotation": 6.6763249041798645,
+        "shape": 0.023310573868312468
+      },
+      "linear_dtypes": {
+        "transformer_layers.10.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.10.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_qkv_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        },
+        "transformer_layers.11.global_out_proj": {
+          "input": "torch.float32",
+          "output": "torch.float32"
+        }
+      },
+      "dispatched_ATen_names": [],
+      "factor": 0.0009765625
+    }
+  ],
+  "strict_checkpoint": {
+    "strict": true,
+    "keys": 344,
+    "weights_only": true,
+    "allowed": [
+      "builtins.dict",
+      "builtins.int",
+      "builtins.list",
+      "collections.defaultdict",
+      "numpy._core.multiarray._reconstruct",
+      "numpy.dtype",
+      "numpy.ndarray",
+      "omegaconf.base.ContainerMetadata",
+      "omegaconf.base.Metadata",
+      "omegaconf.listconfig.ListConfig",
+      "omegaconf.nodes.AnyNode",
+      "typing.Any"
+    ],
+    "descriptor_loaded": false
+  },
+  "native_forwards": 16,
+  "backwards": 16,
+  "prefix_forwards": 4,
+  "initialized_trainables": 443904,
+  "optimizer_calls": 0,
+  "retained_updates": 0,
+  "backend_and_attention_dtype_restored": true,
+  "frozen_parameters_and_modes_preserved": true
+}

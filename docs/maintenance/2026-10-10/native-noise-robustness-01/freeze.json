@@ -1,0 +1,313 @@
+{
+  "utc": "2026-10-10T02:48:37.674870+00:00",
+  "files": {
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/00/times.txt": "99a2899466cdc28dd292b4856d214a8b0aab035b91b02bb6afcb4ff363e7d421",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/times.txt": "9dbaedde20199403177f59a564fc214536bdeacf67968f8c4cee9411eadc0169",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/times.txt": "61c8f09665fb7e89e59515990425f41ec42049bbb2fc94493e69133ca14100cd",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/07/times.txt": "13aa9c27223088b6cf646197767a842f0527e3770f5f8a436a8357bd7fff70a1",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/09/times.txt": "5e46f7b2bf289d693128d64ac8d77631d75e9575d32a2d2686e696a0c406038a",
+    "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/10/times.txt": "a600029792cbd061121b132e83960892a092f5d061e66857675ca826dcfe7e9f",
+    "/mnt/e/githouse/RAP-SLAM/rap_slam/rap_backend.py": "552fe044167b2490ee5a5d390c659a3707fbfc0a31108b6f15bd579623fe90f3",
+    "/mnt/e/githouse/RAP-SLAM/rap_slam/rap_precision.py": "09feea1d7f72c29ae0eaceb28e5675031405560f607c7d1b246f19344ce839a8",
+    "/mnt/e/githouse/RAP-SLAM/rap_slam/real_dataset.py": "ecb438df719e5e61632163d6a620fca114f80f7fce920147a3a8234ea52684d1",
+    "/mnt/e/githouse/RAP-SLAM/rap_slam/structured_motion.py": "73e6140c41c06b06f41b16d83957d89e5cc5aad5843d5329b0b25abfa1910aa6",
+    "/mnt/e/githouse/RAP-SLAM/scripts/native_output_capability.py": "2b0fc89260878b1701436052b4905162e4c877c6540d8b890d498481a860798f",
+    "/mnt/e/githouse/RAP-main/config/RAP_inference.yaml": "1ccff9bf9f86c44a50a479f542302c4895673abd9d5b85c63d4ea69d0d09ce13",
+    "/mnt/e/githouse/RAP-main/config/data/data_tmp.yaml": "00d4a6b40d8da7631291e72be42f64962c985fb2e74dc51375ea47dc2b06b002",
+    "/mnt/e/githouse/RAP-main/config/loggers/wandb.yaml": "abd60f90201ddbc82e5f2487dcef55adbfdf9cd35f2d9824aa3d34334fd33883",
+    "/mnt/e/githouse/RAP-main/config/model/flow_model/point_cloud_dit_10.yaml": "9e1515d5db2ee81f358063588f5f00d292789785425bcced9494b02d9da42b41",
+    "/mnt/e/githouse/RAP-main/config/model/flow_model/point_cloud_dit_12.yaml": "6df19dce55f2d3ab18009d44cb32d6f08e868a0e15921fabc9e12d4c8d95c357",
+    "/mnt/e/githouse/RAP-main/config/model/flow_model/point_cloud_dit_16.yaml": "95f7a3ccab5604f5fd27c7d007287c522b675736e16cfe3ef6737fa29a13bed0",
+    "/mnt/e/githouse/RAP-main/config/model/flow_model/point_cloud_dit_8.yaml": "ca163a9b80543e43950f0d7e5903449defae603b65b0f26a81af84201ed8f772",
+    "/mnt/e/githouse/RAP-main/config/model/lr_scheduler/adamw.yaml": "10123b0e86d6653feca421c63039356af9893eadcd7de1485de97e172499d428",
+    "/mnt/e/githouse/RAP-main/config/model/lr_scheduler/muon.yaml": "2c1b9a196d97b1a1fe6870685f3c82a697c4b502196001afad0add9716741cc4",
+    "/mnt/e/githouse/RAP-main/config/model/optimizer/adamw.yaml": "3332a2ac2be0bc71e4474e0510f5a049b522ad139a39f59ff816d4eece74e4e9",
+    "/mnt/e/githouse/RAP-main/config/model/optimizer/muon.yaml": "ad2c4b1b1c10773a30c1b531e702ca9b7039c4cc41c9c60261a5755dc0c11c4a",
+    "/mnt/e/githouse/RAP-main/config/model/rap_10.yaml": "8fde70c924dbdd7c0db9b274f6e4c56d6ea10efbf54391b7891062ea7fdb84e0",
+    "/mnt/e/githouse/RAP-main/config/model/rap_12.yaml": "26283fa5ccc2fa2483be653ba0d498058c39390611f8dfd1ca294a5fd6891173",
+    "/mnt/e/githouse/RAP-main/config/model/rap_16.yaml": "25cfd743eaeaeb8ed8518831be6d7bd06fa018bff2a314d659893d8a7d264335",
+    "/mnt/e/githouse/RAP-main/config/model/rap_8.yaml": "41aca69f7acadad4724f3b5af4e7e5fa6a3dd404301ee00c9e413b5371fa5d2e",
+    "/mnt/e/githouse/RAP-main/config/trainer/infer.yaml": "ae504e71ea5597bf8f11bcc76c2d06b18ab1f1e2cf45f2ecf2295d0296aed713",
+    "/mnt/e/githouse/RAP-main/config/trainer/main.yaml": "fbdd4dd4a7fc37025f162c2aa55617ad21723f3e0c79586b9dcd15907671704e",
+    "/mnt/e/githouse/RAP-main/config/visualizer/flow.yaml": "caf2f4347a2d47dcbdccaf975f66bd7ddec35c9cafa09505cb3e8e1275292950",
+    "/mnt/e/githouse/RAP-main/dataset_process/extract_sample_features.py": "0d64fb17e9325ca0c7a774a5cdffd2611f181ea6e04b348603f2809495a669d1",
+    "/mnt/e/githouse/RAP-main/dataset_process/utils/__init__.py": "2b5957f071dc62bb54747ee6f89811ef175f605fd958040fbe93105ee5d13a0e",
+    "/mnt/e/githouse/RAP-main/dataset_process/utils/dataset_utils.py": "6047e353c10a22fc64f1cad96f4a98a2dcc42d64c35f65f90c4b9b3e237205a0",
+    "/mnt/e/githouse/RAP-main/dataset_process/utils/feature_extraction_metadata_utils.py": "dc4bacec93bfc89ffd0b296cd2cd2a8bb60802332fcb123c535f7b17201236b4",
+    "/mnt/e/githouse/RAP-main/dataset_process/utils/io_utils.py": "5a4af2f1698866df1d9b01706b9ca0c16fffb32902b4e3f83ccc26d2381de3de",
+    "/mnt/e/githouse/RAP-main/dataset_process/utils/point_sampling_utils.py": "8519c0f59e039981a6ab117b197b31d5b6f3c1134cc9fc6c3d9b7b6d3752b6bb",
+    "/mnt/e/githouse/RAP-main/dataset_process/utils/preview_utils.py": "d2dd2eeb12ab1221d682558b0e1f08b1dcf257e6c5882d87ea52b8f51aa34e9b",
+    "/mnt/e/githouse/RAP-main/dataset_process/utils/processing_utils.py": "42a685e094a60c0bf603cd5372d0298241c9cc6f5b253a4cafd635b31bd8335c",
+    "/mnt/e/githouse/RAP-main/dataset_process/utils/spinnet/__init__.py": "e555e61268017e1d63740ec842391e5ac6fe7aeacb23fac79d560523f003a0db",
+    "/mnt/e/githouse/RAP-main/dataset_process/utils/spinnet/patch_embedder.py": "fcd91ca3678aaf7e033e5961fc178ad66088cea5a8e76fe95c632cf217c60c74",
+    "/mnt/e/githouse/RAP-main/dataset_process/utils/spinnet/patchnet.py": "d1b52bc83f01e2d72e0a59af354c82f190f9f12090c9127428594824106fe667",
+    "/mnt/e/githouse/RAP-main/dataset_process/utils/spinnet/utils/SE3.py": "25b9c9d7f5d1cad4cdc3cc4963c1ae86ea1a30be3506713e5f9f3fe9492f0608",
+    "/mnt/e/githouse/RAP-main/dataset_process/utils/spinnet/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/mnt/e/githouse/RAP-main/dataset_process/utils/spinnet/utils/common.py": "e15796cb46840955a2cc7843349219983f5c7aa1b4ef5852b5c0e53743fb655c",
+    "/mnt/e/githouse/RAP-main/dataset_process/utils/split_utils.py": "21f043e101fff1e0791d45fd960480ebf12dc0b4b30d052253930af98bcdd6f1",
+    "/mnt/e/githouse/RAP-main/dataset_process/utils/submap_utils.py": "021110487c6083f38c04801b48ae8c312c9b020432f97ee17fede74a19ba81f3",
+    "/mnt/e/githouse/RAP-main/dataset_process/utils/validation_utils.py": "e9eaa65ada3275f2cf07b760f4c41fbe6dd5246016262abc6ab36eda02c86061",
+    "/mnt/e/githouse/RAP-main/dataset_process/visualize_registered_pointclouds.py": "c28405865046245a196bf2ff9163aa8d11c6a2af82864ea25bb3263ef9b56512",
+    "/mnt/e/githouse/RAP-main/dataset_process/visualize_sample_features.py": "f2ac6ead6f59b5a5e21ff1b86711e1ac531fd77666a89d9645600c29060f95f4",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-26/e0-frontend-01/full-00-A/source_frames.json": "75521f7d3e90d815b65b7f3fb136b149bc94a96c2fa363faa67ce72408c5f474",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-26/e0-frontend-01/full-05-A/source_frames.json": "0a37b5573d38e9b4ef1ca335cc3c7fceedad98b71edf1b31e25482c03c539e59",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-26/e0-frontend-01/full-06-A/source_frames.json": "92dabea077358b1cd686c1eec7baa175706ff2f58347eead74c4848d014f1220",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-27/e0-heldout-01/full-07-A/source_frames.json": "e2a97aa2e51a2c7ea184d5596955fd570743646321b40c5077a22fd928eefb4d",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-27/e0-heldout-01/full-09-A/source_frames.json": "8f67d0bef8206effdde8709462d5e361f0f2f964d703f4eea70a69c5dec3cbe6",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-27/e0-heldout-01/full-10-A/source_frames.json": "51b53f4d79724f276ab4a8a2c0b495b0d41f2d25f3b17f32a87ccdd4fecbf2d3",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/DELIVERY_SEAL.json": "78deb991ccc8f6f416977b4446f9d5824f2fb899465328ed3f1511e1eb60e5fe",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank/00_000002.npz": "18d65ab5c780f3775d699d42cca2b62711d7daf63ccd9919a1d00af99f64b94f",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/full-bank/bank_seal.json": "9970fc75602c1c3af1b8cf6017686c1e3655ecefaec4eaaffa42e5b0a1efb1a8",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank/00_000002.npz": "bf980509af5fca69c396b60bdd8582305bd9bbd4579d3735aeb179b2df69a1f9",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-08/motion-supervised-readout-01/pose-targets/bank_seal.json": "1888c4e787c35dae851f9f614b3ac4cb7e6df7d93c187baf71b751f0e9ba92f5",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/membership-formation-diagnosis-01/DELIVERY_SEAL.json": "095811dd39fd4d3cbd98bb84123325e4580efd15461d169aaad9cb427759890c",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/OWNER_SCOPE.md": "528a9da59175f76229e5e923f2349da50595a46952a49b12679f8b79587b4c1a",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/PROTOCOL.md": "984b863aa7e0ff3004acc16489e498ec4e4d2af69bcc9448667d334347f9b2fe",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/algorithm_staging.py": "2b0fc89260878b1701436052b4905162e4c877c6540d8b890d498481a860798f",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/data/__init__.py": "bcf8b7f41f9dd3ff70e2bfb0f086ae66c3c08aae534ae76bfef8278092ae9c4c",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/data/datamodule.py": "c5a3d69f75e61692968aed363d7e288bb1df7fa4c32007dc867885854d886f07",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/data/dataset.py": "6f0e85e01b8f6e555a403cdd242cade1e32c0d2170c95e871bff5f6a4d7383cb",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/data/transform.py": "96a7ca142dff2aa8109dd6b17437fd2b3268c801952a1fe24a97aaa08d4eb919",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/eval/evaluator.py": "dbf29bb960d9acf79a6924ea1f1e164c469780e79a31bb3027726f6b166494e8",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/eval/metrics.py": "0a6094db9d0cf3addf0a94e84b162c95f174b69bc4e24281e7a6fe72b7f85359",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/flow_model/__init__.py": "1630f4ccfffe88c9709a6f07dd20eb4e93702a2ae8011515bc38b1cf36fae1b9",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/flow_model/embedding.py": "367f92a980076a62cc5561bbc9264b31766d54278cce1b949c477819abc9253d",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/flow_model/layer.py": "e8e7caabe1da47b8c8aefea0db58ec5ffb910be8fc01b7a541ca6fec345618e8",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/flow_model/norm.py": "730533e067ccd043e1de784fff8c59b09c2a8f62a7a786540e0a0aa33d6e5930",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/flow_model/point_cloud_dit.py": "dd095019f78cc0bfac6bef767061ec6a5a02244874bc32723dd78510f9e6f974",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/modeling.py": "d0d766d6f8b24d04150e5b2e009b54c6496bc3d8ae34a27e2abfcda07f610257",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/procrustes.py": "cb8f6bc040eef491e149bfdb82ec29da4c7865925e8cb6730b9f72b109c5cfe1",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/sampler.py": "6166a9dfd75ab721af64edf7bea99004acbad642c94d310dba55e849e7a4cf25",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/utils/__init__.py": "50c073f77acf5dfde5699812a5927263facbdd9968898b81bfb774fa5918e79e",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/utils/checkpoint.py": "3b6423cf273d2f471d82bbced635806816d12f5e8e818478842c6e2ef2b54c24",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/utils/logging.py": "6cc2e5e50bdb45d3cbf590687e4edf8841746666b3f62b214a2b9bd97952dac0",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/utils/optimizers.py": "48bc165bb9036348c908ccb9503f1756ccf4803927c7490e105e8716af84a71b",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/utils/point_clouds.py": "f73e1eed46b6a95ab3d3f0e592115f73805aebc453762c1118d087f0d2e970fb",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/utils/render.py": "e36c760c61125417bac0c06b8353298e2ce76a1b8c60503a10af60747066a4dc",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/utils/training.py": "e65495638b4b9be993ab4092997bd6a1ed86669c0a3acca26a7e6cf014e38017",
+    "/mnt/e/githouse/RAP-main/rectified_point_flow/visualizer.py": "c99f8452dd2e8bca8dba0b22ad63a95ff901e003108a69d3aca852ece53e15e5",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/c2_feature_channel.py": "281f8dab09b5d41f91d87ce52ce771aa33a8b2d5fce4023ab1a87eb9b74f2883",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/local_motion_common.py": "02af5e8d4518740362a14bb12a447ffb4ed615f6e2f402bfede0abbdcf2f9b2b",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/native_output_capability.py": "3351f426597c2f8197c70c743ac099d24d387c6415d26facf05f92b7ab2564b4",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/validate_native_output_capability.py": "9cd979957a977d329c458ec8b02c24e68f2d484457c86422babd1f7850fe85fc",
+    "/mnt/e/githouse/RAP-main/weights/mini_spinnet_t.pth": "daf910b6e2a79c4346a6ef8eeb18b56ffc15b552cc82af091b8b6c0a18116eef",
+    "/mnt/e/githouse/RAP-main/weights/rap_model_12.ckpt": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/freeze.json": "d325597640928d215ae6066a3e15aa13dea827139b5ff395587044bd020b07cb",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/AMENDMENT_01.md": "97db058846d6285167f288bdd277204a1ec06e86b17fe0e3e43280af66174515",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/FAILURE_run.json": "082750da35ef1b01f6fc94689c63e7fe7cc2b8e656a847946aad5e03d24927e9",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/RESOURCE_LOG.json": "ec05693587437b3145240d30208cf4eabd3707835f51e9ec8c5e1ae45d7fa8e1",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/OWNER_SCOPE.md": "528a9da59175f76229e5e923f2349da50595a46952a49b12679f8b79587b4c1a",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/PROTOCOL.md": "984b863aa7e0ff3004acc16489e498ec4e4d2af69bcc9448667d334347f9b2fe",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/algorithm_staging.py": "2b0fc89260878b1701436052b4905162e4c877c6540d8b890d498481a860798f",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/gradient-diagnosis-01/freeze.json": "b92ecda7c05f34cb8224a9446f820fabcdc37635235d5720ab5b2452ccedc87c",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/gradient-diagnosis-01/output_seal.json": "3ef52f4b2fb8599482beb0e4e6978431ac1fa5ef9b163131d14094b8d5ed1eae",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/gradient-diagnosis-01/results.json": "47c1405e707e6d7ac77d619f3c1639c4abe379a9347026da6ba8bdf6afd71381",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/diagnose_native_gradient.py": "49698d2406486a8fa439ad03649dac8a6bccc03f483dceb606f8d2bf1568be7b",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/native_output_capability_attempt02.py": "b33abf19a6cf301bc7b10b666a20c390b3a282f41b16cd06f9474304e19ac424",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/validate_native_output_capability_attempt02.py": "0606fdcc011a77fcbef039453a6ab95d0f9ea3b13c6910df8b88e1e889d036a0",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/freeze.json": "7896997ef5afd797f27bf2fe0ab3ccae0d0945f5419a3f562939830bc91a92e8",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/validate_native_output_capability_attempt03.py": "28d6d06a4371eb8933b23b34ca53f2ab9344be71ab3530be9eb77db519373372",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/AMENDMENT_02.md": "be894200fef0e16874d2a5230acd41e70fae656f5d3f56026d0fbc599d10c8d9",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank_seal.json": "a998de0c1e0d0f2f7a7ebe906fea52022833dea525a936d9177066cbbf0ad8f9",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank.json": "561e527c959021206580ee018152b682b6e0e3ef5ebd2df82e65d1a7a3922061",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/RESOURCE_LOG_before_validation.json": "b386e31ba875f4f53a221583dc49808b093728be3772802ca959ca3d469e30f2",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/validation-attempt-02/freeze.json": "3edf29e9e45e3544147e5845f31e29fe13f099ccb84b105b46d4404ef61659fa",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/native_noise_census.py": "293ba233c8c9f47544db75ecc8028ef3b0634c51c084bfa33045bce5bab2679b",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/validate_native_noise_census.py": "153d0e0b143990436771752c3b9fe16d4a749cdcdc0f759db2bf21e0e416f408",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-noise-robustness-01/PROTOCOL.md": "ea9b396f205febdebe41bddeef28320a10ea5460abeaa0d31f606c70f20696dc",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-noise-robustness-01/OWNER_SCOPE.md": "c7bec5995abdae2c0200eb0af6642be21053fe20d81c3b2e5b7941059cb55895",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/DELIVERY_SEAL.json": "a823a826a75343ebee1db4cd8978ace42b9e3f6a175c26c72c2847c95708dfed",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/NOISE_PROVENANCE_NOTE.json": "9504a0823412e4557c59a43f8d0e2e82caea751d242efc9ae544647af53fbc3d",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/validation-attempt-02/validation.json": "70b969281c83f0b213c3e8eb9762c58964fd31e8b9e0930d189b42fe599cb4b3",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/validation-attempt-02/validation_seal.json": "b5f4f24508d9a887ac107b0b68143eff628e4eff236ee55c9d18261bb51d5ad9",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/synthetic_fixture.npz": "66b30d790f0bad783022ec7f9fe2a78fcba878b9a3c61a9f7ee7f9a4f50eaedd",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/synthetic_native_lr1e-4/initial.npz": "36d90e23994ec0497a5fd42a0a1a87282bf385700779ec05b0200b293ad9af4a",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/synthetic_native_lr1e-4/parameters_0400.npz": "3228a54028668286f9eefc7d6a1005ffce6fab71a85abb444e8ae2a772e0169e",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/synthetic_native_lr1e-4/evaluation_0000.npz": "40c216c78f6664c42112effd1bb87a6c031c8b30e613dadc6cacdab12ac17a50",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/synthetic_native_lr1e-4/evaluation_0400.npz": "8735bb44cc13c43410a2328c79da0acaf6709020e11256bb331ee9b943850bd4",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/synthetic_native_lr1e-4/fit.json": "3809df1f0e20b5b76a1d5c67fb47fd5076c91fe909cc7d5280e4ceac5c8c2c6f",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/synthetic_native_lr1e-4/seal.json": "e2f13eb73a27da6baa695357ddd7ec991e030aa65981fbaffe374f1ff40da675",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/synthetic_direct/evaluation_0400.npz": "ef1ce1710e5ecd66d1c869e36646ae1f4f5029cbe095f8d3d7da9426f9bef3db",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/synthetic_direct/evaluation_0400.json": "10924f84f61bc98d5a8e0e2aee8767f5fdc387a9c096cdb6cf7357a5b67328dc",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/real_fixture.npz": "eb10ac2eb7197abc03f46188981e159d1439749be1604d7e74863ae32864a4cd",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/real_native/initial.npz": "36d90e23994ec0497a5fd42a0a1a87282bf385700779ec05b0200b293ad9af4a",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/real_native/parameters_0400.npz": "53062ba42e2c3596e9700f554eafa95e86efc7d9361da31234c966b148eb22a8",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/real_native/evaluation_0000.npz": "f024eedef0309f63d12f07a4ac863aa76cb464f5a94868df1c4c2e31901e124c",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/real_native/evaluation_0400.npz": "1b7652ecb6b21e2db20d01fcd6efc99587b5c795d8a46d668d0a26a53da8abe6",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/real_native/fit.json": "56c97453a192a6270eecf1e84a0e95320e12e5fc40d346a7c8031e092c57d589",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/real_native/seal.json": "c07d0c3ae01d7283d9374c6b6d1a521cdebca92513b01ccfd00c23f630cb6315",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/real_direct/evaluation_0400.npz": "2ae3c81dca8fc7c3f45e5e34fa91e9cf6e026cfc81829596f4887dbea9b54b1a",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-10/native-output-capability-01/attempt-02/bank/real_direct/evaluation_0400.json": "7905ac613f941e20df2277dd7fd6d4de36b0e43e2e8fd60c384957eb06e83788"
+  },
+  "repositories": [
+    {
+      "root": "/mnt/e/githouse/RAP-main",
+      "HEAD": "4055d929c594b0033aafc6eed339c910369eef55",
+      "branch": "codex/meeting-20260930",
+      "tracked_dirty": [
+        " M .gitignore",
+        " M AGENTS.md"
+      ]
+    },
+    {
+      "root": "/mnt/e/githouse/RAP-SLAM",
+      "HEAD": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6",
+      "branch": "codex/e0-f1-20260926",
+      "tracked_dirty": [
+        " M rap_slam/loop_closure.py",
+        " M rap_slam/odometry.py",
+        " M rap_slam/pose_graph.py",
+        " M rap_slam/rap_backend.py",
+        " M rap_slam/real_dataset.py",
+        " M scripts/build_s1_features.py",
+        " M scripts/eval_map_consistency.py",
+        " M scripts/eval_paper_metrics.py",
+        " M scripts/run_pipeline.py"
+      ]
+    }
+  ],
+  "noise_rows": [
+    {
+      "name": "fresh_00",
+      "role": "primary",
+      "index": 0,
+      "seed": 1107355703
+    },
+    {
+      "name": "fresh_01",
+      "role": "primary",
+      "index": 1,
+      "seed": 723025940
+    },
+    {
+      "name": "fresh_02",
+      "role": "primary",
+      "index": 2,
+      "seed": 3988203061
+    },
+    {
+      "name": "fresh_03",
+      "role": "primary",
+      "index": 3,
+      "seed": 1659835303
+    },
+    {
+      "name": "fresh_04",
+      "role": "primary",
+      "index": 4,
+      "seed": 3180405657
+    },
+    {
+      "name": "fresh_05",
+      "role": "primary",
+      "index": 5,
+      "seed": 927264121
+    },
+    {
+      "name": "fresh_06",
+      "role": "primary",
+      "index": 6,
+      "seed": 2240646794
+    },
+    {
+      "name": "fresh_07",
+      "role": "primary",
+      "index": 7,
+      "seed": 3908845843
+    },
+    {
+      "name": "fresh_08",
+      "role": "primary",
+      "index": 8,
+      "seed": 1613871681
+    },
+    {
+      "name": "fresh_09",
+      "role": "primary",
+      "index": 9,
+      "seed": 569670899
+    },
+    {
+      "name": "fresh_10",
+      "role": "primary",
+      "index": 10,
+      "seed": 4033985696
+    },
+    {
+      "name": "fresh_11",
+      "role": "primary",
+      "index": 11,
+      "seed": 2599367904
+    },
+    {
+      "name": "fresh_12",
+      "role": "primary",
+      "index": 12,
+      "seed": 2722406397
+    },
+    {
+      "name": "fresh_13",
+      "role": "primary",
+      "index": 13,
+      "seed": 2040977477
+    },
+    {
+      "name": "fresh_14",
+      "role": "primary",
+      "index": 14,
+      "seed": 2869659443
+    },
+    {
+      "name": "fresh_15",
+      "role": "primary",
+      "index": 15,
+      "seed": 149961964
+    },
+    {
+      "name": "training_reference",
+      "role": "old_reference",
+      "index": null,
+      "seed": 850873755
+    },
+    {
+      "name": "old_unseen_reference",
+      "role": "old_reference",
+      "index": null,
+      "seed": 20261011
+    }
+  ],
+  "fixtures": [
+    "synthetic",
+    "real"
+  ],
+  "arms": [
+    "B",
+    "A"
+  ],
+  "optimizer_updates": 0,
+  "native_inferences": 72,
+  "primary_draws": 16,
+  "runtime": {
+    "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+    "torch": "2.7.0+cu128",
+    "numpy": "1.26.4",
+    "gpu": "NVIDIA GeForce RTX 5070",
+    "threads": 1
+  },
+  "gate": {
+    "mean_t_ratio": 0.9,
+    "median_t_gain_m": 0.005,
+    "mean_R_slack_deg": 0.01,
+    "median_R_gain_deg": 0,
+    "joint_nonworse_min": 12,
+    "q90_t_ratio": 1.05,
+    "q90_R_slack_deg": 0.02
+  },
+  "limits": {
+    "wall_seconds": 900,
+    "GPU_bytes": 3221225472,
+    "RSS_bytes": 4294967296,
+    "artifact_bytes": 536870912
+  }
+}

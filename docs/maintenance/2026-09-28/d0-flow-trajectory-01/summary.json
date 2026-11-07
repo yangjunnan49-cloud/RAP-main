@@ -1,0 +1,263 @@
+{
+  "scope": "observed-development saved native trajectory diagnosis",
+  "sequences": {
+    "00": {
+      "final_K4_unavailable": 23,
+      "oracle_strict_by_step": [
+        33,
+        30,
+        33,
+        41,
+        52
+      ],
+      "transient_missing_final": [
+        "00_597_3609",
+        "00_1553_4499",
+        "00_80_1532"
+      ],
+      "first_last_early_step": {
+        "00_597_3609": [
+          0,
+          0
+        ],
+        "00_1553_4499": [
+          2,
+          2
+        ],
+        "00_80_1532": [
+          3,
+          3
+        ]
+      },
+      "methods": {
+        "penultimate": {
+          "strict": 39,
+          "correct_accepts": 18,
+          "incorrect_accepts": 6,
+          "confuser_accepts": 0,
+          "clipped_error": 1.5992123247974934
+        },
+        "final": {
+          "strict": 49,
+          "correct_accepts": 23,
+          "incorrect_accepts": 1,
+          "confuser_accepts": 0,
+          "clipped_error": 1.472846082266669
+        }
+      },
+      "strict_gains": [
+        "00_405_2502"
+      ],
+      "strict_losses": [
+        "00_210_1656",
+        "00_386_3318",
+        "00_924_3865",
+        "00_731_3653",
+        "00_426_2508",
+        "00_752_3676",
+        "00_210_1635",
+        "00_187_1621",
+        "00_178_1649",
+        "00_902_3817",
+        "00_413_2508"
+      ],
+      "new_correct_accepts": [],
+      "lost_correct_accepts": [
+        "00_731_3653",
+        "00_752_3676",
+        "00_210_1635",
+        "00_187_1621",
+        "00_902_3817"
+      ],
+      "newly_incorrect_accepts": [
+        "00_731_3653",
+        "00_752_3676",
+        "00_210_1635",
+        "00_187_1621",
+        "00_902_3817"
+      ],
+      "ordinary_strict_losses": [
+        "00_731_3653",
+        "00_752_3676",
+        "00_210_1635",
+        "00_187_1621",
+        "00_902_3817"
+      ],
+      "by_stratum": {
+        "confuser": {
+          "n": 25,
+          "oracle_by_step": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "selected_step3_strict": 0,
+          "selected_final_strict": 0
+        },
+        "ambiguous_positive": {
+          "n": 25,
+          "oracle_by_step": [
+            12,
+            11,
+            11,
+            19,
+            22
+          ],
+          "selected_step3_strict": 17,
+          "selected_final_strict": 21
+        },
+        "low_overlap": {
+          "n": 25,
+          "oracle_by_step": [
+            1,
+            0,
+            1,
+            2,
+            5
+          ],
+          "selected_step3_strict": 2,
+          "selected_final_strict": 3
+        },
+        "ordinary": {
+          "n": 25,
+          "oracle_by_step": [
+            20,
+            19,
+            21,
+            20,
+            25
+          ],
+          "selected_step3_strict": 20,
+          "selected_final_strict": 25
+        }
+      }
+    },
+    "08": {
+      "final_K4_unavailable": 41,
+      "oracle_strict_by_step": [
+        17,
+        21,
+        25,
+        32,
+        34
+      ],
+      "transient_missing_final": [
+        "08_2491_3880",
+        "08_2532_3838",
+        "08_2542_3838",
+        "08_720_1448"
+      ],
+      "first_last_early_step": {
+        "08_2491_3880": [
+          0,
+          0
+        ],
+        "08_2532_3838": [
+          2,
+          3
+        ],
+        "08_2542_3838": [
+          2,
+          2
+        ],
+        "08_720_1448": [
+          3,
+          3
+        ]
+      },
+      "methods": {
+        "penultimate": {
+          "strict": 30,
+          "correct_accepts": 16,
+          "incorrect_accepts": 10,
+          "confuser_accepts": 0,
+          "clipped_error": 1.6493066240224066
+        },
+        "final": {
+          "strict": 30,
+          "correct_accepts": 17,
+          "incorrect_accepts": 10,
+          "confuser_accepts": 0,
+          "clipped_error": 1.5799304227352056
+        }
+      },
+      "strict_gains": [
+        "08_2532_3838",
+        "08_720_1448",
+        "08_720_1425"
+      ],
+      "strict_losses": [
+        "08_699_1532",
+        "08_699_1540",
+        "08_792_1351"
+      ],
+      "new_correct_accepts": [],
+      "lost_correct_accepts": [
+        "08_778_1448"
+      ],
+      "newly_incorrect_accepts": [],
+      "ordinary_strict_losses": [],
+      "by_stratum": {
+        "confuser": {
+          "n": 25,
+          "oracle_by_step": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "selected_step3_strict": 0,
+          "selected_final_strict": 0
+        },
+        "ambiguous_positive": {
+          "n": 25,
+          "oracle_by_step": [
+            6,
+            8,
+            10,
+            13,
+            13
+          ],
+          "selected_step3_strict": 12,
+          "selected_final_strict": 12
+        },
+        "low_overlap": {
+          "n": 25,
+          "oracle_by_step": [
+            0,
+            0,
+            1,
+            4,
+            6
+          ],
+          "selected_step3_strict": 3,
+          "selected_final_strict": 3
+        },
+        "ordinary": {
+          "n": 25,
+          "oracle_by_step": [
+            11,
+            13,
+            14,
+            15,
+            15
+          ],
+          "selected_step3_strict": 15,
+          "selected_final_strict": 15
+        }
+      }
+    }
+  },
+  "conditions": {
+    "transient_08": false,
+    "fixed_step3_08": false,
+    "accept_safety": false,
+    "00_guard": false,
+    "ordinary_guard": false,
+    "cost": true
+  },
+  "decision": "NO_TRANSIENT_CANDIDATE_EVIDENCE"
+}

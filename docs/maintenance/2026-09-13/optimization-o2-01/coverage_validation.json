@@ -1,0 +1,102 @@
+[
+  {
+    "sequence": "poss",
+    "arms": [
+      {
+        "budget": 12,
+        "proximity_priority_pairs": 4,
+        "sc_only_pairs": 0,
+        "distinct_keyframes": 5,
+        "min_frame_gap": 1394,
+        "max_frame_gap": 1418
+      },
+      {
+        "budget": 40,
+        "proximity_priority_pairs": 4,
+        "sc_only_pairs": 0,
+        "distinct_keyframes": 5,
+        "min_frame_gap": 1394,
+        "max_frame_gap": 1418
+      }
+    ],
+    "shared_measurements": 4,
+    "shared_transform_max_abs_delta": 0.0,
+    "reference_order_matches": true,
+    "reference_ape_delta": -3.6797274116651124e-09
+  },
+  {
+    "sequence": "kitti06",
+    "arms": [
+      {
+        "budget": 12,
+        "proximity_priority_pairs": 12,
+        "sc_only_pairs": 0,
+        "distinct_keyframes": 24,
+        "min_frame_gap": 823,
+        "max_frame_gap": 830
+      },
+      {
+        "budget": 40,
+        "proximity_priority_pairs": 40,
+        "sc_only_pairs": 0,
+        "distinct_keyframes": 80,
+        "min_frame_gap": 811,
+        "max_frame_gap": 836
+      }
+    ],
+    "shared_measurements": 12,
+    "shared_transform_max_abs_delta": 0.0,
+    "reference_order_matches": true,
+    "reference_ape_delta": 2.0992908744688066e-08
+  },
+  {
+    "sequence": "kitti05",
+    "arms": [
+      {
+        "budget": 12,
+        "proximity_priority_pairs": 12,
+        "sc_only_pairs": 0,
+        "distinct_keyframes": 23,
+        "min_frame_gap": 741,
+        "max_frame_gap": 1020
+      },
+      {
+        "budget": 40,
+        "proximity_priority_pairs": 40,
+        "sc_only_pairs": 0,
+        "distinct_keyframes": 66,
+        "min_frame_gap": 740,
+        "max_frame_gap": 1773
+      }
+    ],
+    "shared_measurements": 12,
+    "shared_transform_max_abs_delta": 0.0,
+    "reference_order_matches": true,
+    "reference_ape_delta": 2.3721645092678045e-08
+  },
+  {
+    "sequence": "kitti00",
+    "arms": [
+      {
+        "budget": 12,
+        "proximity_priority_pairs": 12,
+        "sc_only_pairs": 0,
+        "distinct_keyframes": 19,
+        "min_frame_gap": 937,
+        "max_frame_gap": 1454
+      },
+      {
+        "budget": 40,
+        "proximity_priority_pairs": 40,
+        "sc_only_pairs": 0,
+        "distinct_keyframes": 61,
+        "min_frame_gap": 933,
+        "max_frame_gap": 2956
+      }
+    ],
+    "shared_measurements": 12,
+    "shared_transform_max_abs_delta": 0.0,
+    "reference_order_matches": true,
+    "reference_ape_delta": 6.646735624116218e-07
+  }
+]

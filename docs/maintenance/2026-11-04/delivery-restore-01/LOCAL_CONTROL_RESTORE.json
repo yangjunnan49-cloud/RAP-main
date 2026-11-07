@@ -1,0 +1,252 @@
+{
+  "passed": true,
+  "observed_utc": "2026-11-05T00:44:20.136637+00:00",
+  "current_control_count": 81,
+  "late_git_count": 0,
+  "applied": {
+    "written": [
+      {
+        "root": "rap-main",
+        "path": "AGENTS.md",
+        "sha256": "b6fb40ed63600aad97688fce831886746b64a3cb608295d4280461f9050b5f11"
+      },
+      {
+        "root": "rap-main",
+        "path": "README.md",
+        "sha256": "9b17393659edf1e523d6a6b5ab37205787eaee25f3cf63134ba177041b28c80a"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/CONVENTIONS.md",
+        "sha256": "14c2658fdd5f8144a7d62c0c24001e3962e984152912851595bd29f17445b3a3"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/CURRENT_STATE.json",
+        "sha256": "89986ee9ab6be0664a6bef5a402b9aedf0e5326d0bddffc7bf65bae6b41e29f8"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/CURRENT_STATE.md",
+        "sha256": "5a49a9a4d26a06acc426256cfaf2e245c99ad0141508305cb8c9b4bfbc71d879"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/README.md",
+        "sha256": "8a7144ac05ed844908dcfc128623701368f00a4a1df5ea65fa6c8bdded98f8d8"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/assets/PACKAGING.md",
+        "sha256": "3e4066ca83f79ffa4a4ff6cddb6378d15bf6d5135cd6d2597191ca8e6c9a7c0b"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/code/ENTRYPOINTS.jsonl",
+        "sha256": "80362f0b098b12a4aa08ae8e70ec083ef628ed7388a16083ee4c71916a104273"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/code/RUNNING.md",
+        "sha256": "91df6368eb2096863276c714a6620033d3d7cd8ce8eb6ea68dfbde52714687f7"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/experiments/GAPS.md",
+        "sha256": "cd0163f4b3a25ed7d88be2f1e127e03e7fb51107cdac28e4582d2364e77290f7"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/experiments/PATHS.md",
+        "sha256": "e05a7fff94d08baf9243f8a43a7f6d88d2f041df4b1516b93229b2f8ecab1e64"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/maintenance/README.md",
+        "sha256": "da0e1437d62177bc58d60fea4480fd00ae999879aa523c79df51ee4563f26a4d"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/migration/DELIVERY.md",
+        "sha256": "c0ca0e634bc0200727edb7a03e034f7a513782ab27fa09a007c99bfa34d54c6b"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/migration/HANDOFF.md",
+        "sha256": "74b1e34da8f541849d0a39a57e3e60464f01d5c018a7662718bf537cf52f7b67"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/migration/PLAN.md",
+        "sha256": "9cdc53fda0f12c16a0dfd619858af213bdfb8b79b82c76cc66fdef2cf68431ec"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/migration/README.md",
+        "sha256": "ff9f12bbb7f4db9ee477d12f9a82f4e2d8f021f0a3e079373ff2a32f5a8e3d19"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/migration/RESTORE.md",
+        "sha256": "5c4e4918627ed2ad02efaeb1e72e4d527fc1bf0c672f1b8cf08a152052ed0a5b"
+      },
+      {
+        "root": "rap-main",
+        "path": "scripts/migration/delivery.py",
+        "sha256": "6f86cd65aa6a36dab357c853f3ce525ff4ddb4a8707e0247e382c61de3c689bf"
+      },
+      {
+        "root": "rap-slam",
+        "path": "AGENTS.md",
+        "sha256": "8f8470455ba3fb083a7f4733dba17cfb8c775f5f05d61cf697900884e2b24908"
+      },
+      {
+        "root": "rap-slam",
+        "path": "README.md",
+        "sha256": "0566d6dd3cd3e3a6232769162cf564cb59dfa35b15d9c984ce6b7fea2191a02c"
+      },
+      {
+        "root": "reports",
+        "path": "README.md",
+        "sha256": "506f0fc74405fbd14761cd2299bb643d68ec30a15870b321517670d78b8c2aad"
+      },
+      {
+        "root": "workspace-root",
+        "path": "AGENTS.md",
+        "sha256": "fe939d780d6b382d16631330b9110d694e37226087ac5917a4d7bcaba143a0f6"
+      }
+    ],
+    "already_matching": 59,
+    "superseded_versions_preserved": [
+      {
+        "path": "archives/source-versions/A7-control/rap-main/AGENTS.md",
+        "bytes": 7505,
+        "sha256": "52ab2714dc7eaa7a0f4f91795a97f1e5dccd1e7abc424fa0b2c4a2e064dd6614",
+        "source_root": "rap-main",
+        "source_path": "AGENTS.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/README.md",
+        "bytes": 3180,
+        "sha256": "350f3301b342138a7d42df72085cce3cf3cc0819f7309cdb32b22d47a19201a5",
+        "source_root": "rap-main",
+        "source_path": "README.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/CONVENTIONS.md",
+        "bytes": 4668,
+        "sha256": "c1bc18500713c9262354a2101cac54d48916c31d3e626ddef081319e74f4187a",
+        "source_root": "rap-main",
+        "source_path": "docs/CONVENTIONS.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/CURRENT_STATE.json",
+        "bytes": 3769,
+        "sha256": "a5d089ecaa8ca7fed67925189df662280f4b9a00da0f52353389c8fa9f2c9ed6",
+        "source_root": "rap-main",
+        "source_path": "docs/CURRENT_STATE.json"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/CURRENT_STATE.md",
+        "bytes": 3686,
+        "sha256": "4bd2a73b33936939521f7f16372f8b0de3ed85e410c7b5e7d4fbf6196c83db5c",
+        "source_root": "rap-main",
+        "source_path": "docs/CURRENT_STATE.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/README.md",
+        "bytes": 1669,
+        "sha256": "c33f8566ddda0c9f3550bd088bbc0e48631509391d552e85d32256e85bece929",
+        "source_root": "rap-main",
+        "source_path": "docs/README.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/assets/PACKAGING.md",
+        "bytes": 3287,
+        "sha256": "6761d494ba608bf2b1b775b483ef5367b318b37657511c79c31fd82c2edf83de",
+        "source_root": "rap-main",
+        "source_path": "docs/assets/PACKAGING.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/code/ENTRYPOINTS.jsonl",
+        "bytes": 607511,
+        "sha256": "ee8a0205a61af4dae8fdddf970a7485ee9fef02dd4df7047e02eae211115263d",
+        "source_root": "rap-main",
+        "source_path": "docs/code/ENTRYPOINTS.jsonl"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/code/RUNNING.md",
+        "bytes": 6830,
+        "sha256": "abb73a584b8058a0b831532043366d0acccf72d03728f1735a63fd9333e81d9a",
+        "source_root": "rap-main",
+        "source_path": "docs/code/RUNNING.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/experiments/GAPS.md",
+        "bytes": 3494,
+        "sha256": "9bb03b5d2638c603a7d75ddc3472fc71002812fb19221c6a2e18d126339a630c",
+        "source_root": "rap-main",
+        "source_path": "docs/experiments/GAPS.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/experiments/PATHS.md",
+        "bytes": 1934,
+        "sha256": "0fc3e146caa20e989e3bf325f77b013cd2f9f997ee3d487517ef7698b4a45be2",
+        "source_root": "rap-main",
+        "source_path": "docs/experiments/PATHS.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/maintenance/README.md",
+        "bytes": 2534,
+        "sha256": "fe9daf2fa9533ca5c851746f4cea17b123a931f90825fc3ada74ea9fad988b27",
+        "source_root": "rap-main",
+        "source_path": "docs/maintenance/README.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/migration/PLAN.md",
+        "bytes": 13460,
+        "sha256": "a4adba3ef825183cd876fc46bb02e6d01c8caf9005c6b71fb76b3448abe8782f",
+        "source_root": "rap-main",
+        "source_path": "docs/migration/PLAN.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/migration/README.md",
+        "bytes": 4263,
+        "sha256": "9b2c1be969dfbc5bf156ee36a7c2b3caa88e6447daa93f8c713a510f90f6a258",
+        "source_root": "rap-main",
+        "source_path": "docs/migration/README.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-slam/AGENTS.md",
+        "bytes": 2514,
+        "sha256": "42eca69b1c737007c467c49cdec7bf0de1a537ca5cfb5b34c784e5b3097fbb66",
+        "source_root": "rap-slam",
+        "source_path": "AGENTS.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-slam/README.md",
+        "bytes": 3858,
+        "sha256": "5aac52ccfad929580edef030e368a8bfa076f90393a74aad3c4c7e0ee41ea9b9",
+        "source_root": "rap-slam",
+        "source_path": "README.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/reports/README.md",
+        "bytes": 1327,
+        "sha256": "8b39906d8ec1b1b9668abab27ecc4b3cdb2f51a6d45a6ac15ef3ccd97e95b19b",
+        "source_root": "reports",
+        "source_path": "README.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/workspace-root/AGENTS.md",
+        "bytes": 2313,
+        "sha256": "2481125521531fabdccf25b63115a992fe070fbb64b0afb43b4bd64f5a4cbf26",
+        "source_root": "workspace-root",
+        "source_path": "AGENTS.md"
+      }
+    ]
+  },
+  "project_full_byte_check_remains_valid_except_explicit_control_rows": true,
+  "complete_A7_phase_evidence_installation_pending_seal": true,
+  "source_originals_modified_or_removed": false
+}

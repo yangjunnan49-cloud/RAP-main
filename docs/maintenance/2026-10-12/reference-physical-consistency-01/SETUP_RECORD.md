@@ -1,0 +1,3 @@
+# RPC0 setup record
+
+Both new helpers were parsed with the existing WSL Python standard-library AST parser before freezing. No numerical module/model was imported in that syntax check. No installed package/configuration/process changes. The already frozen MGR0 repaired supervisor is reused without editing it. Corpus construction checks reference/odometry row counts as text only; new reference coordinate arithmetic starts after the complete raw corpus seal. The independent validator imports no runner construction/statistics helpers. Frozen transform equations are reconstructed with general matrix solve; each verified stored transform is then used for brute-force cdist distances and deterministic first-index ties.

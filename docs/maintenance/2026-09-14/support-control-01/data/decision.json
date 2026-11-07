@@ -1,0 +1,40 @@
+{
+  "decision": "INCONCLUSIVE_DATA",
+  "roles": {
+    "discovery": {
+      "sequences": [
+        "07",
+        "10"
+      ],
+      "selected": 45,
+      "counts": {
+        "confuser": 25,
+        "ambiguous_positive": 3,
+        "low_overlap": 17,
+        "ordinary": 0
+      },
+      "adequate": false,
+      "candidate_count": 4399,
+      "pooled_selection_independently_verified": true
+    },
+    "confirmation": {
+      "sequences": [
+        "08"
+      ],
+      "selected": 100,
+      "counts": {
+        "confuser": 25,
+        "ambiguous_positive": 25,
+        "low_overlap": 25,
+        "ordinary": 25
+      },
+      "adequate": true,
+      "candidate_count": 11545,
+      "pooled_selection_independently_verified": true
+    }
+  },
+  "hypotheses": 0,
+  "training_started": false,
+  "neural_expansion": "STOPPED",
+  "wall_s": 365.56561358098406
+}

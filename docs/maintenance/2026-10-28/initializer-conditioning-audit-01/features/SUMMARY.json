@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "quantized_source_float32": false,
+      "cases": 34,
+      "byte_equal_cases": 33,
+      "maximum_condition_difference": 7.105427357601002e-15,
+      "maximum_scale_difference": 1.8616219676914625e-12,
+      "maximum_closed_form_error": 2.978762725369677e-08,
+      "maximum_budget_use_ratio": 3.281969280718503e-10
+    },
+    {
+      "quantized_source_float32": true,
+      "cases": 34,
+      "byte_equal_cases": 0,
+      "maximum_condition_difference": 5.960464477539063e-08,
+      "maximum_scale_difference": 4.6485359348480415e-06,
+      "maximum_closed_form_error": 2.979730029384342e-08,
+      "maximum_budget_use_ratio": 0.002897687930675445
+    }
+  ],
+  "role": "Source-bound conditional translation-centering audit, not actual preprocessor/model/pipeline invariance or efficacy"
+}

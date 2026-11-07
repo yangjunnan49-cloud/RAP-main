@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "decision": "PASS_GT_FREE_RESPONSE_PREFLIGHT",
+  "utc": "2026-10-05T08:31:27.219933+00:00",
+  "pairs": 8,
+  "synthetic_cases": 3,
+  "gauged_cases": 11,
+  "max_independent_delta": 1.6646059530778246e-13,
+  "max_decode_delta": 3.216862283039745e-05,
+  "max_gauge_delta": 5.861977570020827e-13,
+  "rigid_wrong_error_m": 1.9999999999999996,
+  "rigid_wrong_response_norm": 1.1863728457425373e-30,
+  "total_wall_s": 2.1260390719398856,
+  "peak_rss_gib": 0.069305419921875,
+  "artifact_bytes_before_report": 199714,
+  "gt_files_read": false,
+  "checks": [
+    "original selected F2 identities and pre-output freeze",
+    "Horn quaternion fits vs SVD",
+    "matrix logarithms vs analytic SE3 log",
+    "all partitions/deletions/full poses/matrices",
+    "PSD and common-gauge invariance",
+    "rigid/deformed/wrong-rigid analytic controls",
+    "resource caps and final frozen integrity"
+  ]
+}

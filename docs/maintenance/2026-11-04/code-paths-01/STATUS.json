@@ -1,0 +1,27 @@
+{
+  "stage": "A3",
+  "status": "COMPLETE_ENTRY_PATH_REFACTOR_WITH_STATIC_BEHAVIOR_CHECKS",
+  "local_date": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "current_offline_tasks": 5,
+  "baseline_backups": 918,
+  "code_role_records": 896,
+  "changed_existing_sources": [
+    "rap-main:demo.py",
+    "rap-main:sample.py",
+    "rap-slam:rap_slam/rap_backend.py",
+    "rap-slam:scripts/run_pipeline.py"
+  ],
+  "unit_tests_passed": 14,
+  "guarded_cli_checks_passed": 7,
+  "scientific_seals_unchanged": true,
+  "known_historical_syntax_error_retained": true,
+  "PGC1_partial_accuracies_interpreted": false,
+  "historical_source_digest_gaps_retained": 5,
+  "historical_AGENTS_version_gaps_retained": 1,
+  "WSL_GPU_model_training_or_research_started": false,
+  "target_model_numerical_execution_validated": false,
+  "next_stage": "A4",
+  "server_selected": false,
+  "server_migration_complete": false
+}

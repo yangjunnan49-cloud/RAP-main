@@ -1,0 +1,162 @@
+{
+  "decision": "SURVIVING_POSS_B_OUTCOME_EXPOSURE_CONFIRMED_SOURCE_IDENTITY_UNAUTHENTICATED",
+  "reported_B_range": [
+    6750,
+    9500
+  ],
+  "reported_scans": 2751,
+  "reported_keyframes": 153,
+  "reported_and_downstream_matching_loops": 12,
+  "stored_relative_transforms": 0,
+  "trajectory_structure": [
+    {
+      "path": "/mnt/e/githouse/RAP-SLAM/output_possb_smoke/odom_poses.txt",
+      "data_rows": 2751,
+      "columns": 12,
+      "coordinates_interpreted": false
+    },
+    {
+      "path": "/mnt/e/githouse/RAP-SLAM/output_possb_smoke/optimized_poses.txt",
+      "data_rows": 2751,
+      "columns": 12,
+      "coordinates_interpreted": false
+    }
+  ],
+  "finite_mean_dist_B": 0,
+  "old_predicate_fit_membership": {
+    "kitti02": 182,
+    "poss_live": 2,
+    "poss_off": 4,
+    "possb": 0
+  },
+  "old_predicate_fit_total": 188,
+  "old_report_prose_parenthetical_inconsistent": true,
+  "B_old_calibration_fit_members": 0,
+  "source_citations": {
+    "/mnt/e/githouse/RAP-SLAM/scripts/download_poss_segment.py": [
+      {
+        "line": 19,
+        "text": "URL = \"http://www.poss.pku.edu.cn/OpenDataResource/poss_odomotry/data_odometry_velodyne.zip\""
+      },
+      {
+        "line": 36,
+        "text": "    if os.path.exists(dest) and os.path.getsize(dest) == info.file_size:"
+      },
+      {
+        "line": 38,
+        "text": "    data = rz.read(member)"
+      },
+      {
+        "line": 42,
+        "text": "    os.replace(tmp, dest)"
+      }
+    ],
+    "/mnt/e/githouse/RAP-SLAM/scripts/eval_calibrated_weighting.py": [
+      {
+        "line": 10,
+        "text": "      possb 12 (output_possb_smoke/summary.json, analysis-only: no T_rel)"
+      },
+      {
+        "line": 125,
+        "text": "                                     \"output_possb_smoke/summary.json\")))"
+      },
+      {
+        "line": 127,
+        "text": "        add(\"possb\", lc[\"i\"], lc[\"j\"], lc[\"overlap\"],"
+      },
+      {
+        "line": 128,
+        "text": "            lc.get(\"mean_dist\", np.nan), float(lc[\"gt_trans_err\"]),"
+      },
+      {
+        "line": 129,
+        "text": "            float(lc[\"gt_rot_err_deg\"]), np.nan)"
+      },
+      {
+        "line": 357,
+        "text": "    fit_edges = [e for e in edges"
+      },
+      {
+        "line": 358,
+        "text": "                 if e[\"ds\"] in (\"kitti02\", \"poss_off\", \"poss_live\", \"possb\")"
+      },
+      {
+        "line": 359,
+        "text": "                 and np.isfinite(e[\"mean_dist\"])]"
+      },
+      {
+        "line": 434,
+        "text": "    lines.append(f\"Fit set: {len(fit_edges)} edges (KITTI-02 182 + POSS 18). \""
+      }
+    ],
+    "/mnt/e/githouse/RAP-SLAM/scripts/eval_gnc_backend.py": [
+      {
+        "line": 109,
+        "text": "                                        \"edge_dataset.json\")))"
+      },
+      {
+        "line": 111,
+        "text": "                 if e[\"ds\"] in (\"kitti02\", \"poss_off\", \"poss_live\", \"possb\")"
+      },
+      {
+        "line": 112,
+        "text": "                 and np.isfinite(e[\"mean_dist\"])]"
+      }
+    ],
+    "/mnt/e/githouse/RAP-SLAM/scripts/build_s1_features.py": [
+      {
+        "line": 152,
+        "text": "    # POSS segment B: the smoke run saved no keyframes.json \u2014 reconstruct"
+      },
+      {
+        "line": 156,
+        "text": "                                      \"output_possb_smoke/odom_poses.txt\"))"
+      },
+      {
+        "line": 158,
+        "text": "    reg[\"possb\"] = DatasetSpec(\"possb\", \"poss\", \"B\", kf_b, None,"
+      }
+    ],
+    "/mnt/e/githouse/RAP-SLAM/rap_slam/real_dataset.py": [
+      {
+        "line": 36,
+        "text": "                  apply_calib: bool = False) -> np.ndarray:"
+      },
+      {
+        "line": 43,
+        "text": "            the LiDAR/world frame and used as-is (POSS convention \u2014 verified:"
+      },
+      {
+        "line": 44,
+        "text": "            the raw POSS pose trajectory is z-up horizontal; applying the"
+      },
+      {
+        "line": 45,
+        "text": "            calib similarity would stand it upright)."
+      },
+      {
+        "line": 143,
+        "text": "                       stride: int = 1, apply_calib: bool = False,"
+      },
+      {
+        "line": 175,
+        "text": "    times_file = os.path.join(seq_dir, \"times.txt\")"
+      }
+    ]
+  },
+  "missing_B_manifest_queries": {
+    "source_frames.json": false,
+    "keyframes.json": false,
+    "run_manifest.json": false,
+    "archive_receipt.json": false
+  },
+  "saved_downloader_URL": "http://www.poss.pku.edu.cn/OpenDataResource/poss_odomotry/data_odometry_velodyne.zip",
+  "existing_file_resume_guard": "os.path.exists(dest) and os.path.getsize(dest) == info.file_size",
+  "durable_archive_receipt_written_by_this_downloader": false,
+  "transfer_CRC_checks_ruled_out": false,
+  "source_frames_or_pose_timing_authenticated": false,
+  "old_PEL_partition_immutable": true,
+  "B_untouched_or_confirmation_admitted": false,
+  "historical_complete_execution_or_full_access_log_proven": false,
+  "new_model_solver_fit_or_metric_calls": 0
+}

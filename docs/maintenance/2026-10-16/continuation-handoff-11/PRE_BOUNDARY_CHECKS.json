@@ -1,0 +1,64 @@
+{
+  "status": "PRE_BOUNDARY_PREPARATION_ONLY_NOT_EXHAUSTION",
+  "utc": "2026-10-16T16:07:39.1578824Z",
+  "existing_seals_match": [
+    {
+      "seal": "docs/maintenance/2026-10-16/official-inference-clarification-01/DELIVERY_SEAL.json",
+      "entries_match": 26
+    },
+    {
+      "seal": "docs/maintenance/2026-10-16/continuation-handoff-10/DELIVERY_SEAL.json",
+      "entries_match": 8
+    },
+    {
+      "seal": "docs/maintenance/2026-10-16/continuation-handoff-11/PREPARATION_SEAL.json",
+      "entries_match": 3
+    }
+  ],
+  "C0_source_bindings_match": 19,
+  "C0_numeric_children_started": 0,
+  "C0_payload_stage_outputs": 0,
+  "C0_Python_syntax_runtime": "UNTESTED",
+  "C0_original_enclosing_prestart_seconds": 2.1993678,
+  "C0_remaining_combined_seconds": 897.8006322,
+  "C0_budget_reset": false,
+  "real_headroom_observations": 30,
+  "maximum_observed_headroom_bytes": 9121394688.0,
+  "minimum_observed_headroom_bytes": 8815341568.0,
+  "required_headroom_bytes": 12884901888,
+  "all_observations_fail_gate": true,
+  "last_recorded_account": {
+    "block": 3,
+    "index": 11,
+    "following_account_clock_UTC": "2026-10-16 16:06:28 UTC",
+    "ordinaryUsageAllowed": true,
+    "primary": {
+      "usedPercent": 84,
+      "windowDurationMins": 300,
+      "resetsAt": 1792176615
+    },
+    "no_C0_launch": true,
+    "memory": {
+      "utc": "2026-10-16T16:06:31.1394587Z",
+      "committed_bytes": 128446025728,
+      "commit_limit_bytes": 137269444608,
+      "headroom_bytes": 8823418880,
+      "required_bytes": 12884901888
+    },
+    "stop_reason": null
+  },
+  "new_scientific_model_fit_solver_pose_calls": 0,
+  "OIC_new_source_body_bytes": 1995,
+  "OIC_outer_command_seconds": 5.6664765,
+  "OIC_retained_controller_seconds": 4.3996329,
+  "overlap_not_added": true,
+  "OIC_final_native_child_OS_peak_bytes": 115580928,
+  "observer_full_lifetime_peak": "UNKNOWN",
+  "ordinary_preparation_RSS": "UNKNOWN",
+  "current_process_census_claim": false,
+  "late_close_source_still_matches": true,
+  "old_seals_stops_and_markers_not_rewritten": true,
+  "original_research_objective_complete": false,
+  "no_new_goal_status": true,
+  "no_automatic_reset_resume": true
+}

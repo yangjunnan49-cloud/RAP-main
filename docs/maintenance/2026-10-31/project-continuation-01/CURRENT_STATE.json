@@ -1,0 +1,57 @@
+{
+  "utc": "2026-10-31T01:00:45.681838+00:00",
+  "official_MAC": "NOT_ADMITTED",
+  "PGC1": "INCOMPLETE_STOPPED_64_ACTION_CAP",
+  "RG1": "COMPLETE_DIAGNOSTIC",
+  "PCS1": "COMPLETE_RANKING_SCREEN_PASS_NOT_SAFE_SYSTEM",
+  "research": "UNRESOLVED",
+  "manuscript": "PAUSED",
+  "recorded_windows_children_reaped": 15,
+  "partial_PGC_accuracy_unread": true,
+  "reference_positive_gate_pass": 33,
+  "reference_positive_pairs": 150,
+  "reference_unique27_gate_pass": 0,
+  "PCS_O_correct": 60,
+  "PCS_A_correct": 70,
+  "cached_R_correct": 73,
+  "cached_L_correct": 82,
+  "PCS_unique_top_by_sequence": {
+    "sequence00": 6,
+    "sequence08": 5
+  },
+  "PCS_effective_near_tie_output_ambiguity": 0,
+  "legacy_correct_accepts": 37,
+  "no_new_acceptance_rule": true,
+  "no_install_training_GPU_WSL_start_production_Git_changes": true,
+  "WSL_current_state": "UNKNOWN_ACCESS_DENIED",
+  "all_scientific_stages_closed": true,
+  "no_queued_work": true,
+  "no_automatic_reset_resume": true,
+  "delivery_audits": [
+    {
+      "directory": "MAC准入_2026-10-31",
+      "entries": 3,
+      "seal_sha256": "242c4717c3932d271bfb44abbf2fdda67184e17b91ef4e8bc2fc4a37201ed7ff",
+      "source_CRC_pass": true
+    },
+    {
+      "directory": "portable_graph_20261031",
+      "entries": 12,
+      "seal_sha256": "06471f640ac9b65d56b4aa7d6c5175a4f47b0526163a0179ad1c45a7454e647c",
+      "source_CRC_pass": true
+    },
+    {
+      "directory": "reference_gate_20261031",
+      "entries": 7,
+      "seal_sha256": "48f5e990ab4e6b65cee14d080043e9caa43e5a58d80d988a89627b9f77568c93",
+      "source_CRC_pass": true
+    },
+    {
+      "directory": "correspondence_score_20261031",
+      "entries": 11,
+      "seal_sha256": "08dae74cf65d43780c30136adef315c229daa2ff55cbdaa7a54bd6114d38cb1c",
+      "source_CRC_pass": true
+    }
+  ],
+  "account_status_excluded_from_seal": true
+}

@@ -1,0 +1,310 @@
+{
+  "decision": "NO_MATERIAL_GEOMETRY_INFORMATION_ADVANTAGE",
+  "bank_sha256": "96c9ef79dabb59eeb2550195b19fa39ed9a83779baa00f71f07be9c1f892c278",
+  "primary_adequate_pairs": 33,
+  "primary_supported_pairs": 33,
+  "primary_fpfh_information_median": 0.00426829268292683,
+  "primary_fpfh_over_c1_median": -0.007224930362116992,
+  "groups": {
+    "00_unavailable": {
+      "pairs": 23,
+      "eligible_pairs": 23,
+      "adequate_pairs": 16,
+      "eligible_fraction": {
+        "mean": 0.15265217391304348,
+        "median": 0.1215
+      },
+      "true_recall": {
+        "mean": 0.005418350828673948,
+        "median": 0.0022172949002217295
+      },
+      "control_mean_recall": {
+        "mean": 0.0014799311916427454,
+        "median": 0.0012254901960784314
+      },
+      "paired_difference": {
+        "mean": 0.003938419637031202,
+        "median": 0.0009700665188470067
+      },
+      "advantage_over_c1": {
+        "mean": -0.00525857920712472,
+        "median": -0.003880266075388027
+      }
+    },
+    "00_available": {
+      "pairs": 52,
+      "eligible_pairs": 52,
+      "adequate_pairs": 52,
+      "eligible_fraction": {
+        "mean": 0.5087019230769231,
+        "median": 0.5145
+      },
+      "true_recall": {
+        "mean": 0.027882513788391922,
+        "median": 0.022105758535124496
+      },
+      "control_mean_recall": {
+        "mean": 0.0013579496399097645,
+        "median": 0.001385023145141712
+      },
+      "paired_difference": {
+        "mean": 0.026524564148482158,
+        "median": 0.0210823635948775
+      },
+      "advantage_over_c1": {
+        "mean": -0.06651106645810141,
+        "median": -0.052881431684727184
+      }
+    },
+    "00_confuser": {
+      "pairs": 25,
+      "eligible_pairs": 0,
+      "adequate_pairs": 0,
+      "eligible_fraction": {
+        "mean": null,
+        "median": null
+      },
+      "true_recall": {
+        "mean": null,
+        "median": null
+      },
+      "control_mean_recall": {
+        "mean": null,
+        "median": null
+      },
+      "paired_difference": {
+        "mean": null,
+        "median": null
+      },
+      "advantage_over_c1": {
+        "mean": null,
+        "median": null
+      }
+    },
+    "00_ambiguous_positive": {
+      "pairs": 25,
+      "eligible_pairs": 25,
+      "adequate_pairs": 25,
+      "eligible_fraction": {
+        "mean": 0.40409999999999996,
+        "median": 0.3555
+      },
+      "true_recall": {
+        "mean": 0.0152110500692487,
+        "median": 0.009852216748768473
+      },
+      "control_mean_recall": {
+        "mean": 0.0013934712854251402,
+        "median": 0.0014185580774365822
+      },
+      "paired_difference": {
+        "mean": 0.013817578783823559,
+        "median": 0.009211327649208283
+      },
+      "advantage_over_c1": {
+        "mean": -0.03661662686120349,
+        "median": -0.02027703604806409
+      }
+    },
+    "00_low_overlap": {
+      "pairs": 25,
+      "eligible_pairs": 25,
+      "adequate_pairs": 18,
+      "eligible_fraction": {
+        "mean": 0.14412,
+        "median": 0.1225
+      },
+      "true_recall": {
+        "mean": 0.005896227408381697,
+        "median": 0.0025575447570332483
+      },
+      "control_mean_recall": {
+        "mean": 0.0013929529602654497,
+        "median": 0.0011329305135951663
+      },
+      "paired_difference": {
+        "mean": 0.004503274448116247,
+        "median": 0.0019181585677749361
+      },
+      "advantage_over_c1": {
+        "mean": -0.004216662167460207,
+        "median": -0.003038194444444444
+      }
+    },
+    "00_ordinary": {
+      "pairs": 25,
+      "eligible_pairs": 25,
+      "adequate_pairs": 25,
+      "eligible_fraction": {
+        "mean": 0.6503200000000001,
+        "median": 0.679
+      },
+      "true_recall": {
+        "mean": 0.04187323396460482,
+        "median": 0.03355704697986577
+      },
+      "control_mean_recall": {
+        "mean": 0.001399647701633046,
+        "median": 0.0014011208967173736
+      },
+      "paired_difference": {
+        "mean": 0.040473586262971775,
+        "median": 0.03220544369873229
+      },
+      "advantage_over_c1": {
+        "mean": -0.10234762207474199,
+        "median": -0.09020236920039487
+      }
+    },
+    "08_unavailable": {
+      "pairs": 41,
+      "eligible_pairs": 41,
+      "adequate_pairs": 33,
+      "eligible_fraction": {
+        "mean": 0.2657560975609756,
+        "median": 0.289
+      },
+      "true_recall": {
+        "mean": 0.006426059484654045,
+        "median": 0.005190311418685121
+      },
+      "control_mean_recall": {
+        "mean": 0.001030978074541423,
+        "median": 0.0009816753926701572
+      },
+      "paired_difference": {
+        "mean": 0.0053950814101126204,
+        "median": 0.004253926701570681
+      },
+      "advantage_over_c1": {
+        "mean": -0.008272401812585825,
+        "median": -0.0044472681067344345
+      }
+    },
+    "08_available": {
+      "pairs": 34,
+      "eligible_pairs": 34,
+      "adequate_pairs": 33,
+      "eligible_fraction": {
+        "mean": 0.5231911764705882,
+        "median": 0.65725
+      },
+      "true_recall": {
+        "mean": 0.022745093110712763,
+        "median": 0.019778008500472247
+      },
+      "control_mean_recall": {
+        "mean": 0.0016180281109226462,
+        "median": 0.0014814611671785868
+      },
+      "paired_difference": {
+        "mean": 0.021127064999790123,
+        "median": 0.01823621124529424
+      },
+      "advantage_over_c1": {
+        "mean": -0.07039040788040468,
+        "median": -0.06359855187855049
+      }
+    },
+    "08_confuser": {
+      "pairs": 25,
+      "eligible_pairs": 1,
+      "adequate_pairs": 0,
+      "eligible_fraction": {
+        "mean": 0.009,
+        "median": 0.009
+      },
+      "true_recall": {
+        "mean": 0.0,
+        "median": 0.0
+      },
+      "control_mean_recall": {
+        "mean": 0.0,
+        "median": 0.0
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "median": 0.0
+      },
+      "advantage_over_c1": {
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "08_ambiguous_positive": {
+      "pairs": 25,
+      "eligible_pairs": 25,
+      "adequate_pairs": 25,
+      "eligible_fraction": {
+        "mean": 0.41229999999999994,
+        "median": 0.359
+      },
+      "true_recall": {
+        "mean": 0.010560921531755297,
+        "median": 0.006934812760055479
+      },
+      "control_mean_recall": {
+        "mean": 0.001103019072728477,
+        "median": 0.0011645962732919255
+      },
+      "paired_difference": {
+        "mean": 0.00945790245902682,
+        "median": 0.005527210884353741
+      },
+      "advantage_over_c1": {
+        "mean": -0.0278745763585152,
+        "median": -0.008913230240549828
+      }
+    },
+    "08_low_overlap": {
+      "pairs": 25,
+      "eligible_pairs": 25,
+      "adequate_pairs": 16,
+      "eligible_fraction": {
+        "mean": 0.13629999999999998,
+        "median": 0.117
+      },
+      "true_recall": {
+        "mean": 0.004058999832783638,
+        "median": 0.0
+      },
+      "control_mean_recall": {
+        "mean": 0.0011705671597350856,
+        "median": 0.0009765625
+      },
+      "paired_difference": {
+        "mean": 0.0028884326730485525,
+        "median": -0.00033783783783783786
+      },
+      "advantage_over_c1": {
+        "mean": -0.005443332296959979,
+        "median": -0.00032552083333333337
+      }
+    },
+    "08_ordinary": {
+      "pairs": 25,
+      "eligible_pairs": 25,
+      "adequate_pairs": 25,
+      "eligible_fraction": {
+        "mean": 0.59878,
+        "median": 0.6725
+      },
+      "true_recall": {
+        "mean": 0.02685214282086306,
+        "median": 0.021561338289962824
+      },
+      "control_mean_recall": {
+        "mean": 0.0016177360406391698,
+        "median": 0.0015841013824884793
+      },
+      "paired_difference": {
+        "mean": 0.025234406780223886,
+        "median": 0.01965613382899628
+      },
+      "advantage_over_c1": {
+        "mean": -0.07597978503451594,
+        "median": -0.0662174721189591
+      }
+    }
+  }
+}

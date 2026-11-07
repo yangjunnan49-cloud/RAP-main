@@ -1,0 +1,34 @@
+{
+  "source_freeze_sha256": "2599d5a8573fa842b01815cd06011f0ccfd6b515a724eedbeb6904042029fc92",
+  "unchanged_copies": [
+    {
+      "path": "baseline_lib.py",
+      "sha256": "2ae8a0af4ca5e7e381df8f7ffc1e3ef208647d2605a37bee925ab9d5c67f0aec"
+    },
+    {
+      "path": "features.py",
+      "sha256": "f080c8e06d1fa3f7abfdcb5cbeaa0cf921324568553be00a867dd109abca2dd7"
+    },
+    {
+      "path": "host.ps1",
+      "sha256": "526970bdc4f7e1041318b8e8d467a42b04c45c9940f626dbbc46f5013a46e850"
+    },
+    {
+      "path": "PREDICTION_INPUTS.json",
+      "sha256": "0367f51575161e2b261dc28965fd0d167a9d260c898acc70cb1ae89565776409"
+    },
+    {
+      "path": "EVALUATION_INPUTS.json",
+      "sha256": "4a7cb6d5180fd9c9ab5696a54a7f6321e69416026eefbd4092a4784a82b32a43"
+    }
+  ],
+  "original_failed_control_sha256": "962fc2bf473d69a4d73594e164eb9840a58129e81fbba5d49034186102612e33",
+  "original_status_sha256": "52b2daf811824113da6878154d1e6ddf90c511496d93fb68f260e3aeca4e0317",
+  "changes": [
+    "New explicit robust geometric refit",
+    "Prediction/control call refit wrapper",
+    "Preserve and evaluate all initial poses",
+    "Audit initial metrics and refinement traces"
+  ],
+  "original_gate_parameters_seed_fixture_unchanged": true
+}

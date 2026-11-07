@@ -1,0 +1,5 @@
+# Owner continuation / distinct numerical prerequisite
+
+Owner said “新的一天，请继续推进” after authorizing autonomous multi-round project advancement. Today's sealed NBR0 and AOD0 evidence justifies one distinct whole-native mathematical-attention reproducibility study. This supersedes AOD0's DESIGN_ONLY boundary only for this newly scoped prerequisite, not fitting or production changes. Original NOC4 loss-increase/replay failures and both INCOMPLETE markers, original failed NBR0 marker, CCR0 failed headroom gates, all previous seals/gaps/unknowns remain.
+
+No optimizer calls or retained parameter updates. Fixed temporary symmetric parameter perturbations test directional derivatives only and are restored exactly after each forward. No old rate/step/scale/noise/init/criterion rescue, adapter fit, new noise, real/nearby/trajectory, official reference edits, environment installation, process restart, production/default/backbone/manuscript change, commit or Git synchronization. Both original HEADs/branches/two-nine tracked dirty sets must remain. Routine preparation/syntax/bookkeeping separate; no approval request needed for this authorized bounded continuation.

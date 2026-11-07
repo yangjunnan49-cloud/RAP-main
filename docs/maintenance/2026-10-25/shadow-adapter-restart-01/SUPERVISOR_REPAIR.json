@@ -1,0 +1,11 @@
+{
+  "classification": "NON_NUMERICAL_SUPERVISOR_EXIT_CAPTURE_DEFECT",
+  "preserved_original_stages": ["supervision/freeze", "supervision/preflight", "supervision/backward"],
+  "observed_child_success": true,
+  "observed_windows_exit_code": null,
+  "model_loaded_before_repair": true,
+  "numerical_payload_before_repair": true,
+  "numerical_results_admitted_from_child_receipts": ["preflight", "backward"],
+  "action": "Preserve all original logs and missing/null shell receipts; use invoke_supervised_wsl.py with subprocess return codes for subsequent stages.",
+  "old_experiments_modified": false
+}

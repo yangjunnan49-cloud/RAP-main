@@ -1,0 +1,146 @@
+{
+  "passed": true,
+  "old_costs_unchanged": 15,
+  "old_ZIP_unchanged": true,
+  "source_files_unchanged": 78,
+  "weights_unchanged": 2,
+  "public_files_unchanged": 8,
+  "normal_JSON_parsed": 478,
+  "Python_AST_parsed": 36,
+  "preserved_invalid_JSON": [
+    "docs\\maintenance\\2026-10-24\\output-contract-01\\run01\\verify\\RESULTS.json"
+  ],
+  "freezes": [
+    {
+      "scope": "tensor-transfer-02",
+      "run": "run01",
+      "frozen_files": 9,
+      "matches": true
+    },
+    {
+      "scope": "backend-constructor-01",
+      "run": "run01",
+      "frozen_files": 10,
+      "matches": true
+    },
+    {
+      "scope": "real-interface-02",
+      "run": "run01",
+      "frozen_files": 11,
+      "matches": true
+    },
+    {
+      "scope": "output-contract-01",
+      "run": "run01",
+      "frozen_files": 6,
+      "matches": true
+    },
+    {
+      "scope": "output-contract-01",
+      "run": "run02",
+      "frozen_files": 6,
+      "matches": true
+    }
+  ],
+  "closed_costs": [
+    {
+      "scope": "tensor-transfer-02",
+      "sha256": "445C7637A2A04CDB75776F7F4CA72D2E9BEFA12368B51C9B35E313757ED8B622",
+      "receipt": {
+        "budget_status": "PASS",
+        "old_caps_reset": false,
+        "old_TT1_failure_preserved": true,
+        "elapsed_seconds": 161.2944106,
+        "model_forward_calls": 0,
+        "status": "NEW_FIXED402_CPU_TRANSFER_PASS",
+        "cap_seconds": 1500
+      }
+    },
+    {
+      "scope": "backend-constructor-01",
+      "sha256": "9AE7A0A0529F6202872AFD794E721A5B4954D038C058448BEB4021A88B4206D6",
+      "receipt": {
+        "neural_forward_calls": 0,
+        "budget_status": "PASS",
+        "cap_seconds": 1200,
+        "status": "ORIGINAL_CPU_CONSTRUCTOR_FIXED402_PASS",
+        "elapsed_seconds": 149.5248144,
+        "old_caps_reset": false
+      }
+    },
+    {
+      "scope": "real-interface-02",
+      "sha256": "028F4DC44C48DA322D808143B8992C6065A257C37A4CDF7E9B2DEE4958A63FF7",
+      "receipt": {
+        "budget_status": "PASS",
+        "status": "PUBLIC_GPU_FUNCTIONAL_OPERABILITY_PASS",
+        "physical_efficacy_admitted": false,
+        "elapsed_seconds": 228.9401883,
+        "RAP_calls": 2,
+        "old_caps_reset": false,
+        "old_RI1_failure_preserved": true,
+        "cap_seconds": 1500
+      }
+    },
+    {
+      "scope": "output-contract-01",
+      "sha256": "3C2F82C85F056CEDD01FFB60594A03770357DB9DB4DDA59D81B1D906D14E83A7",
+      "receipt": {
+        "budget_status": "PASS",
+        "original_failure_preserved": true,
+        "cap_seconds": 900,
+        "status": "SEALED_REAL_OUTPUT_WITNESS_PASS_WITH_SERIALIZATION_REPAIR",
+        "all_attempts_same_origin": true,
+        "old_caps_reset": false,
+        "elapsed_seconds": 192.2964109,
+        "normalization_coordinate_checks": 60000,
+        "model_replay": 0
+      }
+    }
+  ],
+  "RI2_counters": {
+    "point_occurrences_decoded": 56557,
+    "point_occurrences_submitted": 56557,
+    "public_reader_attempted": true,
+    "public_reader_completed": true,
+    "backend_constructor_attempts": 1,
+    "backend_constructor_completed": true,
+    "feature_calls_attempted": 5,
+    "feature_calls_completed": 5,
+    "descriptor_forward_attempts": 5,
+    "descriptor_forward_completed": 5,
+    "RAP_calls_attempted": 2,
+    "RAP_calls_completed": 2,
+    "flow_forward_attempts": 10,
+    "flow_forward_completed": 10,
+    "ICP_calls_completed": 3,
+    "private_reference_reads": 0,
+    "original_torch_load_calls": 0
+  },
+  "OC1_checks": 60000,
+  "five_existing_matrix_exports": true,
+  "AGENTS_previous_suffix_preserved": true,
+  "packages": [
+    {
+      "file": "RAP_public_functional_20261024.zip",
+      "members": 645,
+      "source_files": 644,
+      "source_bytes": 6390403,
+      "ZIP_bytes": 4098178,
+      "sha256": "BBF7FCB2A87DBA232666F4B4B6D269A55460E2E39960E4BBD6A5996FBD254A85",
+      "all_CRC_SHA_match": true
+    },
+    {
+      "file": "RAP_5_common_frame_matrices_20261024.zip",
+      "members": 6,
+      "source_files": 5,
+      "source_bytes": 1246,
+      "ZIP_bytes": 2763,
+      "sha256": "C29F88B6B239E3B91450D5CC85952ED4F04C8B26B7454C1131B7C99D22F004B4",
+      "all_CRC_SHA_match": true
+    }
+  ],
+  "numeric_imports": false,
+  "physical_efficacy_admitted": false,
+  "elapsed_seconds": 1.2969999999622814
+}

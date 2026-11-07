@@ -1,0 +1,251 @@
+{
+  "utc": "2026-10-13T01:42:42.600025+00:00",
+  "records": [
+    {
+      "name": "V_final_mlp_0.001_-1",
+      "arm": "V",
+      "group": "final_mlp",
+      "step": 0.001,
+      "sign": -1,
+      "loss": 7.186114999058191e-06,
+      "analytic": 8.39627030151465e-06,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "V_final_mlp_0.001_+1",
+      "arm": "V",
+      "group": "final_mlp",
+      "step": 0.001,
+      "sign": 1,
+      "loss": 7.202891993074445e-06,
+      "analytic": 8.39627030151465e-06,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "V_final_mlp_0.0003_-1",
+      "arm": "V",
+      "group": "final_mlp",
+      "step": 0.0003,
+      "sign": -1,
+      "loss": 7.191692020569462e-06,
+      "analytic": 8.39627030151465e-06,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "V_final_mlp_0.0003_+1",
+      "arm": "V",
+      "group": "final_mlp",
+      "step": 0.0003,
+      "sign": 1,
+      "loss": 7.196752449090127e-06,
+      "analytic": 8.39627030151465e-06,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "V_final_mlp_0.0001_-1",
+      "arm": "V",
+      "group": "final_mlp",
+      "step": 0.0001,
+      "sign": -1,
+      "loss": 7.193389137682971e-06,
+      "analytic": 8.39627030151465e-06,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "V_final_mlp_0.0001_+1",
+      "arm": "V",
+      "group": "final_mlp",
+      "step": 0.0001,
+      "sign": 1,
+      "loss": 7.195070338639198e-06,
+      "analytic": 8.39627030151465e-06,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "V_LoRA_B_0.001_-1",
+      "arm": "V",
+      "group": "LoRA_B",
+      "step": 0.001,
+      "sign": -1,
+      "loss": 7.2030261435429566e-06,
+      "analytic": -1.2587717913132256e-07,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "V_LoRA_B_0.001_+1",
+      "arm": "V",
+      "group": "LoRA_B",
+      "step": 0.001,
+      "sign": 1,
+      "loss": 7.193602868937887e-06,
+      "analytic": -1.2587717913132256e-07,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "V_LoRA_B_0.0003_-1",
+      "arm": "V",
+      "group": "LoRA_B",
+      "step": 0.0003,
+      "sign": -1,
+      "loss": 7.195095349743497e-06,
+      "analytic": -1.2587717913132256e-07,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "V_LoRA_B_0.0003_+1",
+      "arm": "V",
+      "group": "LoRA_B",
+      "step": 0.0003,
+      "sign": 1,
+      "loss": 7.2043803811538965e-06,
+      "analytic": -1.2587717913132256e-07,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "V_LoRA_B_0.0001_-1",
+      "arm": "V",
+      "group": "LoRA_B",
+      "step": 0.0001,
+      "sign": -1,
+      "loss": 7.203542736533564e-06,
+      "analytic": -1.2587717913132256e-07,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "V_LoRA_B_0.0001_+1",
+      "arm": "V",
+      "group": "LoRA_B",
+      "step": 0.0001,
+      "sign": 1,
+      "loss": 7.198449566203635e-06,
+      "analytic": -1.2587717913132256e-07,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "P_final_mlp_0.001_-1",
+      "arm": "P",
+      "group": "final_mlp",
+      "step": 0.001,
+      "sign": -1,
+      "loss": 198.30375746746716,
+      "analytic": 42.87742855243184,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "P_final_mlp_0.001_+1",
+      "arm": "P",
+      "group": "final_mlp",
+      "step": 0.001,
+      "sign": 1,
+      "loss": 198.3884723442032,
+      "analytic": 42.87742855243184,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "P_final_mlp_0.0003_-1",
+      "arm": "P",
+      "group": "final_mlp",
+      "step": 0.0003,
+      "sign": -1,
+      "loss": 198.3326574226085,
+      "analytic": 42.87742855243184,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "P_final_mlp_0.0003_+1",
+      "arm": "P",
+      "group": "final_mlp",
+      "step": 0.0003,
+      "sign": 1,
+      "loss": 198.35904113730797,
+      "analytic": 42.87742855243184,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "P_final_mlp_0.0001_-1",
+      "arm": "P",
+      "group": "final_mlp",
+      "step": 0.0001,
+      "sign": -1,
+      "loss": 198.34248680627275,
+      "analytic": 42.87742855243184,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "P_final_mlp_0.0001_+1",
+      "arm": "P",
+      "group": "final_mlp",
+      "step": 0.0001,
+      "sign": 1,
+      "loss": 198.35028275291452,
+      "analytic": 42.87742855243184,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "P_LoRA_B_0.001_-1",
+      "arm": "P",
+      "group": "LoRA_B",
+      "step": 0.001,
+      "sign": -1,
+      "loss": 198.501927437923,
+      "analytic": 1.1631471261108004,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "P_LoRA_B_0.001_+1",
+      "arm": "P",
+      "group": "LoRA_B",
+      "step": 0.001,
+      "sign": 1,
+      "loss": 198.45759465120727,
+      "analytic": 1.1631471261108004,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "P_LoRA_B_0.0003_-1",
+      "arm": "P",
+      "group": "LoRA_B",
+      "step": 0.0003,
+      "sign": -1,
+      "loss": 198.57870051840501,
+      "analytic": 1.1631471261108004,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "P_LoRA_B_0.0003_+1",
+      "arm": "P",
+      "group": "LoRA_B",
+      "step": 0.0003,
+      "sign": 1,
+      "loss": 198.652402125406,
+      "analytic": 1.1631471261108004,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "P_LoRA_B_0.0001_-1",
+      "arm": "P",
+      "group": "LoRA_B",
+      "step": 0.0001,
+      "sign": -1,
+      "loss": 198.42470303349612,
+      "analytic": 1.1631471261108004,
+      "parameter_perturbations_only": true
+    },
+    {
+      "name": "P_LoRA_B_0.0001_+1",
+      "arm": "P",
+      "group": "LoRA_B",
+      "step": 0.0001,
+      "sign": 1,
+      "loss": 198.40956849805463,
+      "analytic": 1.1631471261108004,
+      "parameter_perturbations_only": true
+    }
+  ],
+  "native_forwards": 24,
+  "backwards": 0,
+  "optimizer_calls": 0,
+  "retained_updates": 0,
+  "initial_parameters_restored_byteexact": true,
+  "backend_flags_restored": true
+}

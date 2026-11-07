@@ -1,0 +1,82 @@
+{
+  "decision": "NO_TEMPORAL_PERSISTENCE_SCREEN_SIGNAL",
+  "primary_pairs": 6,
+  "primary_p_recoveries": 0,
+  "primary_r_recoveries": 0,
+  "support_fraction_median": 0.802,
+  "positive_losses": {
+    "00": 1,
+    "08": 0
+  },
+  "ordinary_losses": {
+    "00": 0,
+    "08": 0
+  },
+  "groups": {
+    "00_confuser": {
+      "pairs": 4,
+      "t_strict": 0,
+      "p_strict": 0,
+      "r_strict": 0,
+      "p_gains": 0,
+      "p_losses": 0
+    },
+    "00_ambiguous_positive": {
+      "pairs": 4,
+      "t_strict": 4,
+      "p_strict": 3,
+      "r_strict": 4,
+      "p_gains": 0,
+      "p_losses": 1
+    },
+    "00_low_overlap": {
+      "pairs": 3,
+      "t_strict": 0,
+      "p_strict": 0,
+      "r_strict": 0,
+      "p_gains": 0,
+      "p_losses": 0
+    },
+    "00_ordinary": {
+      "pairs": 3,
+      "t_strict": 3,
+      "p_strict": 3,
+      "r_strict": 3,
+      "p_gains": 0,
+      "p_losses": 0
+    },
+    "08_confuser": {
+      "pairs": 2,
+      "t_strict": 0,
+      "p_strict": 0,
+      "r_strict": 0,
+      "p_gains": 0,
+      "p_losses": 0
+    },
+    "08_ambiguous_positive": {
+      "pairs": 4,
+      "t_strict": 4,
+      "p_strict": 4,
+      "r_strict": 4,
+      "p_gains": 0,
+      "p_losses": 0
+    },
+    "08_low_overlap": {
+      "pairs": 4,
+      "t_strict": 0,
+      "p_strict": 0,
+      "r_strict": 0,
+      "p_gains": 0,
+      "p_losses": 0
+    },
+    "08_ordinary": {
+      "pairs": 4,
+      "t_strict": 2,
+      "p_strict": 2,
+      "r_strict": 2,
+      "p_gains": 0,
+      "p_losses": 0
+    }
+  },
+  "bank_sha256": "e5b3ef0c678c0dbcaca2e8e22129a265113e7b901e9f56d4dfbc11b8c9635bb7"
+}

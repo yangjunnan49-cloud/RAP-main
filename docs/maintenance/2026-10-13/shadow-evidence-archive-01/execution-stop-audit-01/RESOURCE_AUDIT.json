@@ -1,0 +1,151 @@
+{
+  "complete_capture": true,
+  "receipts": [
+    {
+      "stage": "freeze",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 21.181251265996252,
+        "peak_RSS_bytes": 21585920,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 410110,
+        "imports_included": true,
+        "optimizer_calls": 0,
+        "neural_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T15:03:43.7775989Z",
+        "wall_seconds": 23.4096984,
+        "host_memory_observations": 30,
+        "minimum_observed_headroom_bytes": 72536494080.0
+      },
+      "launch": {
+        "pid": 52784,
+        "utc_start": "2026-10-13T15:03:20.3679005Z",
+        "script": "scripts/maintenance/shadow_evidence_archive.py",
+        "stage": "freeze",
+        "headroom_before_bytes": 74113687552
+      }
+    },
+    {
+      "stage": "bind",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 19.182877323008142,
+        "peak_RSS_bytes": 21524480,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 420463,
+        "imports_included": true,
+        "optimizer_calls": 0,
+        "neural_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T15:06:06.7101681Z",
+        "wall_seconds": 21.7865028,
+        "host_memory_observations": 28,
+        "minimum_observed_headroom_bytes": 72566624256.0
+      },
+      "launch": {
+        "pid": 20316,
+        "utc_start": "2026-10-13T15:05:44.9236653Z",
+        "script": "scripts/maintenance/shadow_evidence_archive_execution.py",
+        "stage": "bind",
+        "headroom_before_bytes": 74122555392
+      }
+    },
+    {
+      "stage": "compatibility",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 161.8468471320084,
+        "peak_RSS_bytes": 580239360,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 519224,
+        "imports_included": true,
+        "optimizer_calls": 0,
+        "neural_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T15:09:47.1089850Z",
+        "wall_seconds": 173.4651827,
+        "host_memory_observations": 223,
+        "minimum_observed_headroom_bytes": 71361921024.0
+      },
+      "launch": {
+        "pid": 42112,
+        "utc_start": "2026-10-13T15:06:53.6438023Z",
+        "script": "scripts/maintenance/shadow_evidence_archive_execution.py",
+        "stage": "compatibility",
+        "headroom_before_bytes": 74088128512
+      }
+    },
+    {
+      "stage": "pack",
+      "child": {
+        "success": false,
+        "error": "TimeoutError('LCP0 aggregate attempted-child time cap')",
+        "full_resource_capture": true,
+        "wall_seconds": 1602.0098053339898,
+        "peak_RSS_bytes": 580435968,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 1458853671,
+        "imports_included": true,
+        "optimizer_calls": 0,
+        "neural_calls": 0
+      },
+      "host": {
+        "exit_code": 1,
+        "utc_end": "2026-10-13T15:39:35.2763400Z",
+        "wall_seconds": 1717.8052158,
+        "host_memory_observations": 2215,
+        "minimum_observed_headroom_bytes": 67182211072.0
+      },
+      "launch": {
+        "pid": 53480,
+        "utc_start": "2026-10-13T15:10:57.4711242Z",
+        "script": "scripts/maintenance/shadow_evidence_archive_execution.py",
+        "stage": "pack",
+        "headroom_before_bytes": 74074345472
+      }
+    }
+  ],
+  "attempted_scientific_child_seconds_including_imports": 1804.2207810550026,
+  "cap_seconds": 1800,
+  "time_cap_PASS": false,
+  "timer_failure_snapshot": {
+    "error": "TimeoutError('LCP0 aggregate attempted-child time cap')",
+    "wall_seconds": 1597.016555299997,
+    "peak_RSS_bytes": 580435968,
+    "peak_GPU_allocated_bytes": 0,
+    "peak_GPU_reserved_bytes": 0,
+    "artifact_bytes": 1458852334,
+    "imports_included": true,
+    "optimizer_calls": 0,
+    "neural_calls": 0
+  },
+  "peak_RSS_bytes": 580435968,
+  "RSS_cap_PASS": true,
+  "GPU_bytes": 0,
+  "GPU_cap_PASS": true,
+  "partial_new_artifact_bytes_at_child_exit": 1458853671,
+  "artifact_cap_PASS": true,
+  "logging_retries": 0,
+  "logging_gaps": 0,
+  "full_child_and_Windows_exits": true,
+  "ordinary_setup_RSS_unknown": true,
+  "stdlib_stop_bookkeeping_separate": true,
+  "old_caps_gaps_unchanged": true
+}

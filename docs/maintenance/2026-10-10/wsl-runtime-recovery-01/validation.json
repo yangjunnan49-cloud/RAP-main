@@ -1,0 +1,398 @@
+{
+  "passed": true,
+  "decision": "HOST_COMMIT_HEADROOM_RECOVERED_NATIVE_RUNTIME_VERIFIED",
+  "records": [
+    {
+      "stage": "verify02",
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-10T14:33:56.6625751Z",
+        "wall_seconds": 15.7182224,
+        "host_memory_observations": 20,
+        "minimum_observed_headroom_bytes": 46232104960.0
+      },
+      "child": {
+        "success": true,
+        "full_resource_capture": true,
+        "wall_seconds": 9.637795098000424,
+        "peak_RSS_bytes": 2518581248,
+        "peak_GPU_allocated_bytes": 435582464,
+        "peak_GPU_reserved_bytes": 478150656,
+        "result": {
+          "passed": true,
+          "strict_model": {
+            "strict": true,
+            "keys": 344,
+            "weights_only": true,
+            "allowed": [
+              "builtins.dict",
+              "builtins.int",
+              "builtins.list",
+              "collections.defaultdict",
+              "numpy._core.multiarray._reconstruct",
+              "numpy.dtype",
+              "numpy.ndarray",
+              "omegaconf.base.ContainerMetadata",
+              "omegaconf.base.Metadata",
+              "omegaconf.listconfig.ListConfig",
+              "omegaconf.nodes.AnyNode",
+              "typing.Any"
+            ],
+            "descriptor_loaded": false
+          },
+          "full_forwards": 3,
+          "cache_full_byteexact": true,
+          "repeated_full_forward_byteexact": true,
+          "actual_native_steps": 5,
+          "target_or_cache_at_inference": false,
+          "optimizer_calls": 0,
+          "backward_calls": 0,
+          "parameter_state_unchanged": true,
+          "output_sha256": "d5daeff7bfbab4fe8c3a5ff1e8a178320e7985d04d8be83db5120007a7567252",
+          "wall_seconds": 9.626932479000061,
+          "peak_RSS_bytes": 2518581248,
+          "peak_GPU_allocated_bytes": 435582464,
+          "peak_GPU_reserved_bytes": 478150656
+        }
+      },
+      "verification": {
+        "passed": true,
+        "strict_model": {
+          "strict": true,
+          "keys": 344,
+          "weights_only": true,
+          "allowed": [
+            "builtins.dict",
+            "builtins.int",
+            "builtins.list",
+            "collections.defaultdict",
+            "numpy._core.multiarray._reconstruct",
+            "numpy.dtype",
+            "numpy.ndarray",
+            "omegaconf.base.ContainerMetadata",
+            "omegaconf.base.Metadata",
+            "omegaconf.listconfig.ListConfig",
+            "omegaconf.nodes.AnyNode",
+            "typing.Any"
+          ],
+          "descriptor_loaded": false
+        },
+        "full_forwards": 3,
+        "cache_full_byteexact": true,
+        "repeated_full_forward_byteexact": true,
+        "actual_native_steps": 5,
+        "target_or_cache_at_inference": false,
+        "optimizer_calls": 0,
+        "backward_calls": 0,
+        "parameter_state_unchanged": true,
+        "output_sha256": "d5daeff7bfbab4fe8c3a5ff1e8a178320e7985d04d8be83db5120007a7567252",
+        "wall_seconds": 9.626932479000061,
+        "peak_RSS_bytes": 2518581248,
+        "peak_GPU_allocated_bytes": 435582464,
+        "peak_GPU_reserved_bytes": 478150656
+      }
+    },
+    {
+      "stage": "verify03",
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-10T14:34:13.9544816Z",
+        "wall_seconds": 10.9934853,
+        "host_memory_observations": 14,
+        "minimum_observed_headroom_bytes": 44608421888.0
+      },
+      "child": {
+        "success": true,
+        "full_resource_capture": true,
+        "wall_seconds": 8.052304871999695,
+        "peak_RSS_bytes": 2562416640,
+        "peak_GPU_allocated_bytes": 435582464,
+        "peak_GPU_reserved_bytes": 478150656,
+        "result": {
+          "passed": true,
+          "strict_model": {
+            "strict": true,
+            "keys": 344,
+            "weights_only": true,
+            "allowed": [
+              "builtins.dict",
+              "builtins.int",
+              "builtins.list",
+              "collections.defaultdict",
+              "numpy._core.multiarray._reconstruct",
+              "numpy.dtype",
+              "numpy.ndarray",
+              "omegaconf.base.ContainerMetadata",
+              "omegaconf.base.Metadata",
+              "omegaconf.listconfig.ListConfig",
+              "omegaconf.nodes.AnyNode",
+              "typing.Any"
+            ],
+            "descriptor_loaded": false
+          },
+          "full_forwards": 3,
+          "cache_full_byteexact": true,
+          "repeated_full_forward_byteexact": true,
+          "actual_native_steps": 5,
+          "target_or_cache_at_inference": false,
+          "optimizer_calls": 0,
+          "backward_calls": 0,
+          "parameter_state_unchanged": true,
+          "output_sha256": "d5daeff7bfbab4fe8c3a5ff1e8a178320e7985d04d8be83db5120007a7567252",
+          "wall_seconds": 8.042591670000093,
+          "peak_RSS_bytes": 2562416640,
+          "peak_GPU_allocated_bytes": 435582464,
+          "peak_GPU_reserved_bytes": 478150656
+        }
+      },
+      "verification": {
+        "passed": true,
+        "strict_model": {
+          "strict": true,
+          "keys": 344,
+          "weights_only": true,
+          "allowed": [
+            "builtins.dict",
+            "builtins.int",
+            "builtins.list",
+            "collections.defaultdict",
+            "numpy._core.multiarray._reconstruct",
+            "numpy.dtype",
+            "numpy.ndarray",
+            "omegaconf.base.ContainerMetadata",
+            "omegaconf.base.Metadata",
+            "omegaconf.listconfig.ListConfig",
+            "omegaconf.nodes.AnyNode",
+            "typing.Any"
+          ],
+          "descriptor_loaded": false
+        },
+        "full_forwards": 3,
+        "cache_full_byteexact": true,
+        "repeated_full_forward_byteexact": true,
+        "actual_native_steps": 5,
+        "target_or_cache_at_inference": false,
+        "optimizer_calls": 0,
+        "backward_calls": 0,
+        "parameter_state_unchanged": true,
+        "output_sha256": "d5daeff7bfbab4fe8c3a5ff1e8a178320e7985d04d8be83db5120007a7567252",
+        "wall_seconds": 8.042591670000093,
+        "peak_RSS_bytes": 2562416640,
+        "peak_GPU_allocated_bytes": 435582464,
+        "peak_GPU_reserved_bytes": 478150656
+      }
+    }
+  ],
+  "retained_supervisor_failure": {
+    "stage": "verify01",
+    "native_child": {
+      "success": true,
+      "full_resource_capture": true,
+      "wall_seconds": 10.933205688000271,
+      "peak_RSS_bytes": 2509438976,
+      "peak_GPU_allocated_bytes": 435582464,
+      "peak_GPU_reserved_bytes": 478150656,
+      "result": {
+        "passed": true,
+        "strict_model": {
+          "strict": true,
+          "keys": 344,
+          "weights_only": true,
+          "allowed": [
+            "builtins.dict",
+            "builtins.int",
+            "builtins.list",
+            "collections.defaultdict",
+            "numpy._core.multiarray._reconstruct",
+            "numpy.dtype",
+            "numpy.ndarray",
+            "omegaconf.base.ContainerMetadata",
+            "omegaconf.base.Metadata",
+            "omegaconf.listconfig.ListConfig",
+            "omegaconf.nodes.AnyNode",
+            "typing.Any"
+          ],
+          "descriptor_loaded": false
+        },
+        "full_forwards": 3,
+        "cache_full_byteexact": true,
+        "repeated_full_forward_byteexact": true,
+        "actual_native_steps": 5,
+        "target_or_cache_at_inference": false,
+        "optimizer_calls": 0,
+        "backward_calls": 0,
+        "parameter_state_unchanged": true,
+        "output_sha256": "d5daeff7bfbab4fe8c3a5ff1e8a178320e7985d04d8be83db5120007a7567252",
+        "wall_seconds": 10.924278011000297,
+        "peak_RSS_bytes": 2509438976,
+        "peak_GPU_allocated_bytes": 435582464,
+        "peak_GPU_reserved_bytes": 478150656
+      }
+    },
+    "host_exit_status_unknown": true,
+    "periodic_host_observation_gap": true
+  },
+  "full_resource_capture": true,
+  "all_three_native_payload_resource_peaks_captured": true,
+  "two_full_supervised_processes": true,
+  "no_optimizer_or_backward_calls": true,
+  "CAD_stop_calls": 0,
+  "prior_CAD_already_absent_before_action": true,
+  "repeated_native_output_identity": true,
+  "Windows_Event2004_correlated_prior_exits": true,
+  "exact_prior_exit_mechanism_not_traced": true,
+  "new_payload_wall_seconds": 28.62330565800039,
+  "peak_RSS_bytes": 2562416640,
+  "peak_GPU_allocated_bytes": 435582464,
+  "peak_GPU_reserved_bytes": 478150656,
+  "files": [
+    {
+      "path": "AMENDMENT_01.md",
+      "sha256": "47d232fb270092d5a8998f022eec41fea88bb2e112cd76ace548c11154431baf"
+    },
+    {
+      "path": "AMENDMENT_02.md",
+      "sha256": "b0a9165f550fc9646e6b3ab29de3ec7e41d54df6b2f5ea10cc81760d967029fe"
+    },
+    {
+      "path": "DIAGNOSIS.md",
+      "sha256": "6aebfa8eb87ae46b237a2e16c95efb983b5b056760cd4c794c7428f9e99b02c0"
+    },
+    {
+      "path": "HOST_BEFORE.json",
+      "sha256": "5c229031d6d655818c08f5447d97770e9b890306eccb8358815bbfe95223aaf0"
+    },
+    {
+      "path": "HOST_REFRESH.json",
+      "sha256": "4326cb251bac3e83b50db5e45a135355a779551c65e9ac1bc969f444475b6fa5"
+    },
+    {
+      "path": "HOST_REMEDIATION.json",
+      "sha256": "b9ce31746d4421897725954ec7e4b72425b1a6f8286ec6bc9fd51af4ba241ce3"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "sha256": "0c6ead4765ac7560060fefbcd86d8a804e19f8917076b9361c6d1f6fdff71180"
+    },
+    {
+      "path": "amendment_freeze.json",
+      "sha256": "f99e5d5ce9628b5dbbeddcb2b09f35640c17716e66629600dee4df743909dea0"
+    },
+    {
+      "path": "freeze.json",
+      "sha256": "7219d70fef9834ae9bd2fea0087d4c4dc189fb5695e93c9e42f36dca2c826d48"
+    },
+    {
+      "path": "supervision/host_latest.json",
+      "sha256": "956f0183c322d574542ebc5d767bddbf02f0c2113aae484f4c711c212217dd95"
+    },
+    {
+      "path": "supervision/verify01/child_exit.json",
+      "sha256": "b67254c81ccacfddab3583785bae87f7e95502c339e81449369b410195cbf463"
+    },
+    {
+      "path": "supervision/verify01/child_progress.jsonl",
+      "sha256": "8964647814b1cec871985436c0bf87bd5f10d4846c67478d566b0e12a3e91d38"
+    },
+    {
+      "path": "supervision/verify01/host_memory.jsonl",
+      "sha256": "dbe33940e3f9d75d03454cb65d3f78dc584127914c85d9212616af424a18ad0d"
+    },
+    {
+      "path": "supervision/verify01/launch.json",
+      "sha256": "0d60ef71c9ae4080a1c3d6dd1bb87c743c26e43dd033d8809b2bf6216734d604"
+    },
+    {
+      "path": "supervision/verify01/stderr.log",
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    {
+      "path": "supervision/verify01/stdout.log",
+      "sha256": "c5e62e6c1b5acbed352a3ccea53dae3746f2ad7642cd900e48efd22d498f341f"
+    },
+    {
+      "path": "supervision/verify01/trace.npz",
+      "sha256": "a5abb348b4c20ccad5259f2bb0d02e4ec6a57daeb24ea68770f29f71a8f6db93"
+    },
+    {
+      "path": "supervision/verify01/verification.json",
+      "sha256": "dc92c6bd440b3b9da553179f34784bff431500bbe25dbdbe534051edc880b8aa"
+    },
+    {
+      "path": "supervision/verify02/child_exit.json",
+      "sha256": "60795caf67846dc741b64e24d066e2987ec961c8d87afafdada7e81cc59dd569"
+    },
+    {
+      "path": "supervision/verify02/child_progress.jsonl",
+      "sha256": "83923f0eb9dc2bcbd530d7f5b6fdcbdca7e3758ce8d68ee346f94535fc31587c"
+    },
+    {
+      "path": "supervision/verify02/exit.json",
+      "sha256": "375ba232a793e0a46d99ea88316e07ef712ba3d8270962080fcc8373e145c8da"
+    },
+    {
+      "path": "supervision/verify02/host_memory.jsonl",
+      "sha256": "3e1feb8fe99573062e1728230c5a605a97f5092da6b38f3a58b9f4caf398788a"
+    },
+    {
+      "path": "supervision/verify02/launch.json",
+      "sha256": "34203d668409e636c67f5b2473e3994cad8598c52e205919b7fd10b0881109d4"
+    },
+    {
+      "path": "supervision/verify02/stderr.log",
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    {
+      "path": "supervision/verify02/stdout.log",
+      "sha256": "2e867885f8ea3726c66da64c3563a6c496d7f969d36b98bb2db0d7bc96d21b13"
+    },
+    {
+      "path": "supervision/verify02/trace.npz",
+      "sha256": "a5abb348b4c20ccad5259f2bb0d02e4ec6a57daeb24ea68770f29f71a8f6db93"
+    },
+    {
+      "path": "supervision/verify02/verification.json",
+      "sha256": "ad3e3b59d373ce1295c8ca3af90b7d53523ac21ef69325dea9183b09fc01df36"
+    },
+    {
+      "path": "supervision/verify03/child_exit.json",
+      "sha256": "388c55283e97276e2f0b0240f912502af99aedb58d336200e316aa8454ad16cc"
+    },
+    {
+      "path": "supervision/verify03/child_progress.jsonl",
+      "sha256": "4104b5339e20899b1019605c0275910a6c16e1dd36cba1d952d2043d77a4e2f2"
+    },
+    {
+      "path": "supervision/verify03/exit.json",
+      "sha256": "0241193ce6d0b62ba67c7c01a79ec893a6f5687b511d0dfa9813d93441e3de50"
+    },
+    {
+      "path": "supervision/verify03/host_memory.jsonl",
+      "sha256": "e087edf8e0f196ba3d8581bd8788cbe5cdf67701e7f10aeae8dcdae12cea89aa"
+    },
+    {
+      "path": "supervision/verify03/launch.json",
+      "sha256": "d1f87cff8957952e8f3dc40cbf9d25066cb1298dc8b676be64c338e38eb4b9bc"
+    },
+    {
+      "path": "supervision/verify03/stderr.log",
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    {
+      "path": "supervision/verify03/stdout.log",
+      "sha256": "4424907dd56435ca757def851effef4f0042be0125efdec5806fadcee20cf206"
+    },
+    {
+      "path": "supervision/verify03/trace.npz",
+      "sha256": "a5abb348b4c20ccad5259f2bb0d02e4ec6a57daeb24ea68770f29f71a8f6db93"
+    },
+    {
+      "path": "supervision/verify03/verification.json",
+      "sha256": "a076c6c3b8bb0c95a76350d9506f1e9a3f767ebaf88e2c07611374f3194c6462"
+    },
+    {
+      "path": "supervision_repair_freeze.json",
+      "sha256": "bff617656bca901a15cad86b3149b1f33acb39bcce64c03eaae126baa51085a6"
+    }
+  ]
+}

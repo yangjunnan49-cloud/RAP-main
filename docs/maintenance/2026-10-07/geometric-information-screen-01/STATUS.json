@@ -1,0 +1,30 @@
+{
+  "stage": "PFG1",
+  "status": "VALIDATED_NEGATIVE",
+  "decision": "NO_MEASURED_INFORMATION_SHAPE_SIGNAL",
+  "validated_attempt": "attempt-02",
+  "original_attempt": "INCOMPLETE_VALIDATION_PRESERVED",
+  "original_bank_unchanged": true,
+  "gt_free_validation_before_evaluation": true,
+  "original_frozen_identities": 170,
+  "repair_frozen_identities": 362,
+  "loops": 58,
+  "normal_scans": 81,
+  "geometry_rank6_loops": 58,
+  "matched_points": 110069,
+  "cohort_gains": {
+    "development": {
+      "ter_gain_pp": 0.0007532588487128011,
+      "ATE_gain_percent": 0.7102326626865496
+    },
+    "transfer_exposed": {
+      "ter_gain_pp": -0.003555794970011461,
+      "ATE_gain_percent": -0.19401492697881384
+    }
+  },
+  "next": "LC0 PLANNED_NOT_IMPLEMENTED; learned readout DESIGN_ONLY; no training",
+  "training": false,
+  "production_edit": false,
+  "manuscript_edit": false,
+  "git_sync": false
+}

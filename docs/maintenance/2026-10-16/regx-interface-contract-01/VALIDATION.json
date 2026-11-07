@@ -1,0 +1,52 @@
+{
+  "status": "VALIDATED_CUSTOM_INPUT_REFERENCE_CONTRACT_ALL_POINTS",
+  "all_points": 56557,
+  "forward_coordinate_comparisons": 169671,
+  "inverse_coordinate_comparisons": 169671,
+  "max_forward_error_budget_ratio": "0.0065798526019042162735253156337052978808737715449745",
+  "max_inverse_error_budget_ratio": "0.0038025717149948862629083526863496789739670201959109",
+  "details": [
+    {
+      "case": "case-000",
+      "view": "v00",
+      "points": 11250
+    },
+    {
+      "case": "case-000",
+      "view": "v01",
+      "points": 11372
+    },
+    {
+      "case": "case-001",
+      "view": "v00",
+      "points": 11250
+    },
+    {
+      "case": "case-001",
+      "view": "v01",
+      "points": 11313
+    },
+    {
+      "case": "case-001",
+      "view": "v02",
+      "points": 11372
+    }
+  ],
+  "public_files": 8,
+  "consumer_read_paths": [
+    "INDEX.json",
+    "case-000/manifest.json",
+    "case-000/v00.xyz64",
+    "case-000/v01.xyz64",
+    "case-001/manifest.json",
+    "case-001/v00.xyz64",
+    "case-001/v01.xyz64",
+    "case-001/v02.xyz64"
+  ],
+  "all_selected_cases": true,
+  "no_builder_math_import": true,
+  "no_registration_pose_metric": true,
+  "physical_world_truth_authenticated": false,
+  "canonical_batch_reproduced": false,
+  "OS_access_isolation": false
+}

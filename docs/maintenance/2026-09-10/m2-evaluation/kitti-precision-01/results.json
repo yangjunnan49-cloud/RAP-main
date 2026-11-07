@@ -1,0 +1,328 @@
+{
+  "status": "passed",
+  "parent_run_id": "legacy-kitti06_off",
+  "seed_per_pair": 42,
+  "preprocessing": "raw KITTI XYZ, minimum range 1.5 m; backend defaults; no 0.205-degree correction",
+  "scope": "Numerical comparison on saved accepted pair identities; not a candidate recall or full SLAM rerun",
+  "inputs": [
+    {
+      "source_frame_id": 128,
+      "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000128.bin",
+      "sha256": "a2907af6776c241f97e64103395fab3a8df7c2ac89bc5ef954b5a162b1a75c49"
+    },
+    {
+      "source_frame_id": 133,
+      "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000133.bin",
+      "sha256": "2c4dd1a1e2105b1e65247572247e8ff39ab9e4940d564421a39142eb8ac99478"
+    },
+    {
+      "source_frame_id": 138,
+      "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000138.bin",
+      "sha256": "5059fe9b83f08d65a7ee00b6475e01ba675769d382379faf56aa7f6acc043f96"
+    },
+    {
+      "source_frame_id": 958,
+      "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000958.bin",
+      "sha256": "553e5d6c8f3272ed049e5738754a6558672431a4e9c91ed0b8ba1790a81516d6"
+    },
+    {
+      "source_frame_id": 963,
+      "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000963.bin",
+      "sha256": "c6f92159736bb2bea798bc5d16ebb92dac726bb034e35f98dbfd682255860d99"
+    },
+    {
+      "source_frame_id": 968,
+      "path": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/sequences/06/velodyne/000968.bin",
+      "sha256": "2b52b34985e9a907157438d4b1a1cd0a4fc9b5bf0505dc6134b89d9d0941e5b2"
+    }
+  ],
+  "weights": [
+    {
+      "path": "/mnt/e/githouse/RAP-main/weights/rap_model_12.ckpt",
+      "sha256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200"
+    },
+    {
+      "path": "/mnt/e/githouse/RAP-main/weights/mini_spinnet_t.pth",
+      "sha256": "daf910b6e2a79c4346a6ef8eeb18b56ffc15b552cc82af091b8b6c0a18116eef"
+    }
+  ],
+  "rows": [
+    {
+      "arm": "fresh_tf32_legacy",
+      "source_frame_ids": [
+        133,
+        963
+      ],
+      "orthogonality": 0.0011028933566802346,
+      "det_error": 0.0010900130034314781,
+      "T_rel": [
+        [
+          0.9994107120120719,
+          -0.008540349328687549,
+          -0.00038136028334056696,
+          0.16552115639969678
+        ],
+        [
+          0.008671046707440514,
+          0.9994192232794983,
+          -0.00022335249554173393,
+          0.17768123849798112
+        ],
+        [
+          0.00038510757025426545,
+          0.00022750430911491366,
+          1.0000054641337728,
+          0.03953852668285629
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "diagnostics": {
+        "n_a": 4000,
+        "n_b": 4000,
+        "scale": 113.35533953899326,
+        "anchor_idx": 0,
+        "overlap_ratio": 0.916125,
+        "mean_dist": 0.5156347941816399,
+        "t_preprocess": 1.2769982814788818,
+        "t_inference": 0.9664876461029053,
+        "t_total": 2.2485086917877197
+      }
+    },
+    {
+      "arm": "ieee_repaired",
+      "source_frame_ids": [
+        133,
+        963
+      ],
+      "orthogonality": 2.09392100369854e-06,
+      "det_error": 1.0987092537995125e-06,
+      "T_rel": [
+        [
+          0.9999634791110814,
+          -0.008659966269116325,
+          -0.00038000130381631004,
+          0.165770555410913
+        ],
+        [
+          0.008659591669993513,
+          0.999962505485306,
+          -0.00021911102100478994,
+          0.17435913413354154
+        ],
+        [
+          0.0003818863371749853,
+          0.00021581319050972193,
+          0.9999999285601902,
+          0.04003397308738732
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "diagnostics": {
+        "n_a": 4000,
+        "n_b": 4000,
+        "scale": 113.35533953899326,
+        "anchor_idx": 0,
+        "overlap_ratio": 0.9159999999999999,
+        "mean_dist": 0.5160310859823056,
+        "t_preprocess": 0.38236117362976074,
+        "t_inference": 0.5211050510406494,
+        "t_total": 0.9079997539520264
+      }
+    },
+    {
+      "arm": "fresh_tf32_legacy",
+      "source_frame_ids": [
+        128,
+        958
+      ],
+      "orthogonality": 0.0006632866198885701,
+      "det_error": 0.0006624198624971545,
+      "T_rel": [
+        [
+          1.0003121293026622,
+          -0.0033657388012541564,
+          -0.005271375924240231,
+          -0.628191396791107
+        ],
+        [
+          0.0033378293375104107,
+          1.0003205499043522,
+          -0.00012158059675080942,
+          0.16416607160173857
+        ],
+        [
+          0.005271573311277306,
+          0.00010192803490820051,
+          0.9999906022806974,
+          0.029804931739263463
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "diagnostics": {
+        "n_a": 4000,
+        "n_b": 4000,
+        "scale": 114.77767231371207,
+        "anchor_idx": 0,
+        "overlap_ratio": 0.877,
+        "mean_dist": 0.5928619663004742,
+        "t_preprocess": 0.37836337089538574,
+        "t_inference": 0.5128157138824463,
+        "t_total": 0.8959379196166992
+      }
+    },
+    {
+      "arm": "ieee_repaired",
+      "source_frame_ids": [
+        128,
+        958
+      ],
+      "orthogonality": 1.5888105986405776e-06,
+      "det_error": 1.205223943978595e-06,
+      "T_rel": [
+        [
+          0.9999815268881195,
+          -0.003332907762413839,
+          -0.005237031031444815,
+          -0.6290447713357614
+        ],
+        [
+          0.003332189368634434,
+          0.999994792364024,
+          -0.00014439350805877461,
+          0.1657664549385025
+        ],
+        [
+          0.00523748098950401,
+          0.00012693931181507516,
+          0.9999863324820686,
+          0.030440761311902653
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "diagnostics": {
+        "n_a": 4000,
+        "n_b": 4000,
+        "scale": 114.77767231371207,
+        "anchor_idx": 0,
+        "overlap_ratio": 0.8771249999999999,
+        "mean_dist": 0.5926029604352943,
+        "t_preprocess": 0.37899041175842285,
+        "t_inference": 0.5069026947021484,
+        "t_total": 0.8907206058502197
+      }
+    },
+    {
+      "arm": "fresh_tf32_legacy",
+      "source_frame_ids": [
+        138,
+        968
+      ],
+      "orthogonality": 0.0009446028218759173,
+      "det_error": 0.0004654833060159236,
+      "T_rel": [
+        [
+          0.9999599144929487,
+          -0.008153182566822311,
+          0.0005655202354040138,
+          1.089570526522658
+        ],
+        [
+          0.008129715172207713,
+          0.9994912579091657,
+          0.0024841885061940277,
+          0.2534103967468968
+        ],
+        [
+          -0.0005837671109056191,
+          -0.002479547400172074,
+          1.0000105561359807,
+          0.03631815983997222
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "diagnostics": {
+        "n_a": 4000,
+        "n_b": 4000,
+        "scale": 119.95004640496708,
+        "anchor_idx": 0,
+        "overlap_ratio": 0.868375,
+        "mean_dist": 0.6099779870257269,
+        "t_preprocess": 0.3837254047393799,
+        "t_inference": 0.5084419250488281,
+        "t_total": 0.8967227935791016
+      }
+    },
+    {
+      "arm": "ieee_repaired",
+      "source_frame_ids": [
+        138,
+        968
+      ],
+      "orthogonality": 1.2192115929066105e-06,
+      "det_error": 2.8631384818567085e-07,
+      "T_rel": [
+        [
+          0.9999662030384001,
+          -0.008127125074783186,
+          0.0005706549748791573,
+          1.0887138905096858
+        ],
+        [
+          0.008125544646508153,
+          0.9999643868491984,
+          0.0024864080209324726,
+          0.25390529082065116
+        ],
+        [
+          -0.0005908414083831057,
+          -0.002481692702382702,
+          0.9999965773870553,
+          0.03531803769677111
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "diagnostics": {
+        "n_a": 4000,
+        "n_b": 4000,
+        "scale": 119.95004640496708,
+        "anchor_idx": 0,
+        "overlap_ratio": 0.8685,
+        "mean_dist": 0.610096069210981,
+        "t_preprocess": 0.376406192779541,
+        "t_inference": 0.5115275382995605,
+        "t_total": 0.8924944400787354
+      }
+    }
+  ],
+  "source_edges_sha256": "8962182cc538742edacdda36e37472752878a9e23fe92523aeb1d62ee286a85d"
+}

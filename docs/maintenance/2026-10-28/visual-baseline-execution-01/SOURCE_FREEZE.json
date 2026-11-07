@@ -1,0 +1,81 @@
+{
+  "utc": "2026-10-28T06:56:01.760335+00:00",
+  "files": [
+    {
+      "path": "METHOD.json",
+      "bytes": 856,
+      "sha256": "8dac561a1f6fa291d64eadd214622678e04bfcb1be9ac64f4ce55036f4a6ed8e",
+      "role": "shared"
+    },
+    {
+      "path": "baseline_lib.py",
+      "bytes": 10222,
+      "sha256": "2ae8a0af4ca5e7e381df8f7ffc1e3ef208647d2605a37bee925ab9d5c67f0aec",
+      "role": "shared"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 7727,
+      "sha256": "335e1c3b73a084d658295a8fcc0cd6860b599a39b8a7c37e13ce7b5cc6089680",
+      "role": "shared"
+    },
+    {
+      "path": "PREDICTION_INPUTS.json",
+      "bytes": 128427,
+      "sha256": "0367f51575161e2b261dc28965fd0d167a9d260c898acc70cb1ae89565776409",
+      "role": "prediction"
+    },
+    {
+      "path": "EVALUATION_INPUTS.json",
+      "bytes": 1152,
+      "sha256": "4a7cb6d5180fd9c9ab5696a54a7f6321e69416026eefbd4092a4784a82b32a43",
+      "role": "evaluation"
+    },
+    {
+      "path": "controls.py",
+      "bytes": 5777,
+      "sha256": "20ac31fbacc716243aa9cdc090f2e34652c7104b347b6fbd2300716c1c6e5f38",
+      "role": "controls"
+    },
+    {
+      "path": "features.py",
+      "bytes": 2620,
+      "sha256": "f080c8e06d1fa3f7abfdcb5cbeaa0cf921324568553be00a867dd109abca2dd7",
+      "role": "prediction"
+    },
+    {
+      "path": "predict.py",
+      "bytes": 2586,
+      "sha256": "23c06aacbeaeeb352cf50093eeb59496e00b3723a1552df36a15e272f2476869",
+      "role": "prediction"
+    },
+    {
+      "path": "evaluate.py",
+      "bytes": 6910,
+      "sha256": "7ed83630d50df7e9ea3af58e7d95fb25f666adbf582aa90206415ba5934536cb",
+      "role": "evaluation"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 11065,
+      "sha256": "5c927abae6c0ef0da2c5dc1012ed17e91f286371b38be7f96238735dc2f927b5",
+      "role": "audit"
+    },
+    {
+      "path": "host.ps1",
+      "bytes": 6645,
+      "sha256": "526970bdc4f7e1041318b8e8d467a42b04c45c9940f626dbbc46f5013a46e850",
+      "role": "host"
+    },
+    {
+      "path": "prepare.py",
+      "bytes": 6633,
+      "sha256": "1ac0a9737c388a0d32fe0abcb1437a20a0fb757e675129ad6d3e5747166b56d5",
+      "role": "preparation"
+    }
+  ],
+  "image_payload_decodes": 0,
+  "pose_payload_decodes": 0,
+  "actual_matching_or_solver_calls": 0,
+  "all_sources_parse": true
+}

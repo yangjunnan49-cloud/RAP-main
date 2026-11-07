@@ -1,0 +1,21 @@
+{
+  "name": "V_cache2",
+  "arm": "V",
+  "path": "cache",
+  "rep": 2,
+  "loss": 7.194211775640724e-06,
+  "terms": {
+    "velocity": 7.194211775640724e-06
+  },
+  "factor": 1024.0,
+  "parameters_unchanged_byteexact": true,
+  "optimizer_calls": 0,
+  "hook_modules": [
+    "transformer_layers.10.global_qkv_proj",
+    "transformer_layers.10.global_out_proj",
+    "transformer_layers.11.global_qkv_proj",
+    "transformer_layers.11.global_out_proj"
+  ],
+  "rank_linear_extra_calls": 4,
+  "dispatched_ATen_names": []
+}

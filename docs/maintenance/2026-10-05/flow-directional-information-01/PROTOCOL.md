@@ -1,0 +1,23 @@
+# FDI1: complete saved-flow directional information screen
+
+Freeze all source/input/evaluator identities before any new full bank or labels. The passed eight-pair response preflight is exposed engineering development, not confirmation. This study uses all 200 original F2 pairs in their frozen input order, only native N0 for the response and pose. Original N0–N3 stored poses are copied GT-free solely to recover the already defined native-K4-availability cohort after sealing. No new neural inference, point selection, candidate generation, pose change, acceptance or graph run.
+
+## Fixed mechanism and controls
+
+Reuse exactly the response preflight extraction: eight common FPS regions, last three endpoints, joint deletion plus temporal dispersion. J is C_joint+C_time; I is C_independent+C_time; T is C_time; S is trace-matched isotropic (all scalar-only response measures have the same directional score). No matrix scaling, region count, step or seed sweep.
+
+G is an equal-anchor-point fixed-correspondence geometric-conditioning control. For each anchor source point x in original scan coordinates, stack J_x=[-skew(x),Identity]. H=sum J_x^T J_x, K=H^-1. Relative right-tangent K_rel=Ad_(T_pred^-1) K_A Ad_(T_pred^-1)^T+K_B. This is a geometric conditioning matrix under unit iid point noise, not calibrated ICP uncertainty. It uses the same source points and the same native predicted relative pose, preserving rotation/translation coupling. Synthetic known lever-arm checks and independent direct-Jacobian recomputation are required.
+
+Use D=diag(.03 rad x3,.20 m x3), fixed from existing graph units. Cn=D^-1 C D^-1. After full bank seal, compute e=D^-1 Log(T_N0^-1 T_GT) with rotation-then-translation right-tangent order. For SE(3) logarithms and G's adjoint, T_N0 is the double-precision rigid fit of the same final native endpoint (already used to anchor response), required to match the stored float32 pose within 2e-4. This avoids treating serialization nonorthogonality as physical deformation. Strict labels always use the original stored native poses; no candidate or graph pose is replaced. Directional capture s=e^T Cn e/(e^T e trace(Cn)), in [0,1]. Isotropic score is 1/6. If normalized e norm <1e-6 or matrix trace <1e-16, record undefined; require >=90% primary coverage or stop. No ridge rescue. Scores are directional association, not calibrated uncertainty, corrected poses, success rate or graph benefit.
+
+## Evaluator cohorts and unchanged gates
+
+Reconstruct official LiDAR GT from raw pose/calibration files; retain original strict 1 m/5 deg labels. Positive means GT endpoint distance <=15 m, matching the original F2 place cohort; expect 75 positives per sequence. Primary hard08 is a positive with no strict original N0–N3 pose; expect the original 41. Count mismatch fails validation instead of redefining cohort. Ordinary00 safety includes all 75 positives. Negative pairs and native-available positives are descriptive controls, not a route to promotion.
+
+Material primary signal requires median paired J-minus-S >=0.05, J-minus-G >=0.05, J-minus-I >=0.03, J-minus-T >=0.02, and >=60% positive paired differences against each of G/I/T. Coverage must pass. Ordinary00 median paired differences against S/G/I/T must each be >=-0.03. All conditions must pass. These are newly prospective information-screen margins; they are not altered old gates or clinical/statistical confidence guarantees. Bootstrap/statistical significance is not claimed. Failure stops this exact directional-response arm without region, step, weighting, cohort or axis rescue.
+
+## Integrity and verification
+
+Verify all 1,000 selected input/generation NPZ identities against the immutable original F2 artifact manifest. Bank contains 200 complete matrix/pose/partition/deletion files and original native pose arrays, sealed before evaluator GT. Independent validator uses Horn quaternion fits, matrix logarithms, direct point Jacobians, independent calibrated GT reconstruction, strict labels, every score, cohort, aggregation and gate. Separate freeze/bank/evaluate/validate stages. Preserve engineering failures and any correction explicitly; do not edit frozen sources.
+
+Caps: combined bank/evaluator/validator <=900 s, peak RSS <1 GiB, new artifacts <20 MB. All current bank files must remain immutable. No training, production/default/manuscript edit, commit or Git sync. A pass only licenses a separately frozen online paired system experiment; F2 direction information is neither online metric improvement nor independent confirmation nor proof of original novelty. Rigid-wrong counterexample and the 09 discrepancy remain limitations.

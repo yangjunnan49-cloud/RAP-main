@@ -1,0 +1,3 @@
+# FHR0 owner autonomous continuation
+
+After complete FCE0 source extraction/isolation, scope a distinct CPU-only metric residual head derivative/interface prerequisite. All frozen RAP feature arrays stay inputs; no model/checkpoint/backbone execution or gradient. Use only OBS/current target-free unadapted FP32 tau1 geometric poses, no truth/teacher/pose error. Twelve actual CPU head backwards and temporary finite-difference head coefficients, zero retained fit/optimizer. No exact HFIT0 noise bank retry or original native backward repair. Keep all old incomplete markers/failures/retired physical routes/reference/HEADs/branches/dirty work/unknowns; no real/trajectory/default/production/ref/install/acquisition/restart/manuscript/commit/Git sync.

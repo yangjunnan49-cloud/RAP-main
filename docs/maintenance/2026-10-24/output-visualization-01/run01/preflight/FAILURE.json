@@ -1,0 +1,4 @@
+{
+  "error": "FileNotFoundError(2, 'No such file or directory')",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-24/output-visualization-01/runtime/worker.py\", line 27, in <module>\n    p=SOURCE/name;assert p.stat().st_size==row['bytes'] and sha(p)==row['sha256']\n                         ^^^^^^^^\n  File \"/usr/lib/python3.12/pathlib.py\", line 842, in stat\n    return os.stat(self, follow_symlinks=follow_symlinks)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-24/real-interface-02/run01/real/E:\\\\githouse\\\\RAP-main\\\\docs\\\\maintenance\\\\2026-10-24\\\\real-interface-02\\\\run01\\\\real\\\\case-000_RAP_OUTPUT.json'\n"
+}

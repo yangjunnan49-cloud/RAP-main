@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "updated_local_date": "2026-11-06",
+  "timezone": "Asia/Shanghai",
+  "current_work": "AutoDL迁移验收与后续研究训练准备",
+  "owner_scope": "完整研究资产；服务器继续研究与训练；全部实验历史常驻服务器；保留仓库边界；当前文档中文、代码标识英文、历史原文保留",
+  "migration": {
+    "server_selected": true,
+    "server_provider": "AutoDL",
+    "server_endpoint": "connect.weste.seetacloud.com:23243",
+    "actual_server_migration_explicitly_authorized": true,
+    "history_resident_on_server_required": true,
+    "A0": "COMPLETE",
+    "A1": "COMPLETE_WINDOWS_VISIBLE_ROOTS_WITH_HOLDS",
+    "A2": "COMPLETE_DOCUMENTATION_AND_CATALOG",
+    "A3": "COMPLETE_ENTRY_PATH_REFACTOR_WITH_STATIC_BEHAVIOR_CHECKS",
+    "A4": "AUDIT_AND_GUIDE_COMPLETE_WITH_TRAINING_AND_TARGET_HOLDS",
+    "A5": "COMPLETE_WINDOWS_BASE_CONTENT_PACKAGE_WITH_PROVENANCE_AND_A7_HOLDS",
+    "A6": "CATALOG_LINEAGE_AND_PORTABLE_PREPARATION_COMPLETE_WITH_VERSION_REFERENCE_AND_EXPORT_HOLDS",
+    "A7": "LOCAL_LAYERED_PROJECT_AND_CONTROL_DELIVERY_COMPLETE_WITH_LINUX_TARGET_AND_SERVER_HOLDS",
+    "server_migration_complete": true,
+    "A8": "SERVER_FILES_ENVIRONMENT_AND_BOUNDED_MODEL_IO_ACCEPTED_WITH_TRAINING_HOLDS",
+    "server_files_restored_and_hash_verified": true
+  },
+  "research": {
+    "status": "UNRESOLVED",
+    "manuscript": "PAUSED",
+    "GCG1_correct_accepted": 37,
+    "GCG1_wrong_accepted": 8,
+    "PGC1": "INCOMPLETE_STOPPED_UNREAD_PARTIALS",
+    "PGC1_original_actions": 64,
+    "PGC1_stop_pair": 8,
+    "PGC1_partial_accuracies_interpreted": false,
+    "official_MAC": "UNRUN_NUMERICS_NOT_ADMITTED",
+    "SSC1": "STOP_THIS_STEREO_SUPPORT_ROUTE_BEFORE_CANDIDATE_SCORING_OR_TRAINING",
+    "SSC1_oldunique00_08": [
+      18,
+      3
+    ],
+    "SSC1_frozen_target_minimum_each": 5,
+    "E0_engineering_positive_retained": true,
+    "new_safe_increment_or_training_qualification": false,
+    "no_automatic_reset_or_queued_resume": true,
+    "last_research_closeout": "docs/maintenance/2026-11-03/CURRENT_HANDOFF.md"
+  },
+  "preservation_holds": {
+    "historical_source_digest_gaps": 5,
+    "historical_AGENTS_version_gaps": 1,
+    "linux_environment_hash_claim_occurrences_pending_A4": 0,
+    "external_dynamic_reference_closure_complete": false,
+    "original_raw_OXTS_package_authentication_complete": false,
+    "training_entry_and_resume_chain_validated": false,
+    "meeting_final_versions_and_authoring_chain_reviewed": true,
+    "source": "docs/maintenance/2026-11-03/migration-audit-01/PRESERVATION_GAPS.json",
+    "linux_environment_hash_claim_occurrences_exact_matched_in_A4": 72,
+    "pytorch3d_original_build_commit_recovered": false,
+    "clean_environment_and_target_GPU_model_IO_validated": true,
+    "A5_full_target_link_permission_and_final_incremental_restore_validated": true,
+    "unexported_Linux_environment_and_wheel_in_A5_base": false,
+    "all_meeting_final_variants_and_new_native_exports_confirmed": false,
+    "historical_meeting_reference_PDF_exact_bytes_recovered": false,
+    "A7_local_project_restore_and_full_byte_recheck_passed": true,
+    "A7_local_relative_internal_links_verified": 25,
+    "external_personal_runtime_junctions_recreated": false,
+    "actual_target_Linux_modes_owners_ACLs_environment_or_GPU_validated": false,
+    "actual_target_relative_links_verified": 25,
+    "actual_target_regular_mode_policy_verified": "0644",
+    "actual_target_uid_gid_observed": [
+      [
+        0,
+        0
+      ]
+    ],
+    "original_owner_and_ACL_authenticated": false,
+    "bounded_target_GPU_extension_and_one_pair_model_IO_validated": true
+  },
+  "next_step": {
+    "stage": "TRAINING_ENTRY_AND_RESUME_PREREQUISITES",
+    "purpose": "完整训练入口/配置、Muon来源、数据资格及断点恢复另行实现/验收；不自动开训",
+    "automatic_deploy_training_or_research_authorized": false
+  },
+  "evidence": [
+    "docs/maintenance/2026-11-03/round-close-01/REPORT.md",
+    "docs/maintenance/2026-11-03/migration-audit-01/REPORT_CN.md",
+    "docs/maintenance/2026-11-03/migration-audit-01/CHECKS.json",
+    "docs/maintenance/2026-11-03/context-index-01/AUTHORITY.md",
+    "docs/maintenance/2026-11-04/code-paths-01/REPORT_CN.md",
+    "docs/maintenance/2026-11-04/environment-readiness-01/REPORT_CN.md",
+    "docs/maintenance/2026-11-04/assets-package-01/REPORT_CN.md",
+    "docs/maintenance/2026-11-04/meeting-lineage-01/REPORT_CN.md",
+    "docs/maintenance/2026-11-04/delivery-restore-01/REPORT_CN.md",
+    "docs/maintenance/2026-11-06/autodl-migration-01/AUTHORITY.md",
+    "docs/migration/AUTODL.md",
+    "docs/maintenance/2026-11-06/autodl-migration-01/REPORT_CN.md"
+  ],
+  "maintenance_summary": "文件、环境与有界模型I/O验收通过；完整训练/恢复链仍有保留项。A5/A7全量589文件及112972文件恢复树已在真实服务器校验；A8接续当日本地22份增量与维护证据，旧版本保留。科学来源/版本缺口和原PyTorch3D构建提交未因迁移关闭。"
+}

@@ -1,0 +1,72 @@
+{
+  "started_utc": "2026-11-06T05:35:53.674159+00:00",
+  "scope": "MIGRATION_IO_ONLY",
+  "registration_pairs": 1,
+  "scientific_comparison": false,
+  "training_or_backward_calls": 0,
+  "harness_sha256": "b898a66d8ea4a70a35570ee2f85e311b78a7d00cc2c78258f9cf69fec822c488",
+  "input_hashes_verified": [
+    {
+      "path": "RAP-main/weights/rap_model_12.ckpt",
+      "bytes": 355667736,
+      "sha256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200"
+    },
+    {
+      "path": "RAP-main/weights/mini_spinnet_t.pth",
+      "bytes": 3671729,
+      "sha256": "daf910b6e2a79c4346a6ef8eeb18b56ffc15b552cc82af091b8b6c0a18116eef"
+    },
+    {
+      "path": "RAP-main/demo_example_data/indoor_scan_arena/scan000.ply",
+      "bytes": 2275852,
+      "sha256": "f59cba7d5eb55e5233375f9791c979efc910856cfbf6146398419bdf6029a8d3"
+    },
+    {
+      "path": "RAP-main/demo_example_data/indoor_scan_arena/scan001.ply",
+      "bytes": 2599013,
+      "sha256": "d9a5754ed8c94ff784f9411bf8c2312c633ad993a0b8e5a849234e1e18da53c0"
+    }
+  ],
+  "torch": "2.7.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "capability": [
+    8,
+    9
+  ],
+  "reused_extension_probe_sha256": "4ba2cf9e1805be2fc737ea5f3d0f39f8cee59df5b95a78b131b6bd36cce5ce8c",
+  "four_point_GPU_extension_gate_passed": true,
+  "both_model_state_dicts_strictly_matched": true,
+  "real_feature_observations": [
+    {
+      "points": 4000,
+      "finite": true,
+      "nonzero_descriptor_rows": 4000
+    },
+    {
+      "points": 4000,
+      "finite": true,
+      "nonzero_descriptor_rows": 4000
+    }
+  ],
+  "passed": true,
+  "transform_shape": [
+    4,
+    4
+  ],
+  "transform_finite": true,
+  "convention": "b_to_a",
+  "preprocessed_points": [
+    4000,
+    4000
+  ],
+  "features_enabled": true,
+  "unchanged_backend_defaults": true,
+  "model_euler_steps": 5,
+  "matmul_precision_restored": true,
+  "cudnn_policy_retained": true,
+  "peak_allocated_bytes": 2758687232,
+  "peak_reserved_bytes": 4037017600,
+  "accuracy_evaluated": false,
+  "wall_seconds": 8.791666976874694
+}

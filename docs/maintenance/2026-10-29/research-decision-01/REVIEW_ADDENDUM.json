@@ -1,0 +1,72 @@
+{
+  "utc": "2026-10-29T07:43:45.020657+00:00",
+  "inputs": [
+    {
+      "path": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\outputs\\feature_geometry_20261029\\predict\\PREDICTIONS.json",
+      "bytes": 8258150,
+      "sha256": "16b076b7a763987a3f1b58cd32c9c86733b4ad8f4182bfbeb9ef2640ecb7ff77"
+    },
+    {
+      "path": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\outputs\\feature_geometry_20261029\\evaluate\\ROWS.json",
+      "bytes": 1193860,
+      "sha256": "0d49f93c9960a6ab54a967c1dadedaa8074523879636d25cefe471d5f2018d89"
+    },
+    {
+      "path": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-29\\yue-d\\outputs\\feature_geometry_20261029\\aliasing\\ROWS.json",
+      "bytes": 195270,
+      "sha256": "3e3bab15ca74802bf38631735b514e66dc4631fcb3c7311aa3203f8283dad93c"
+    }
+  ],
+  "source_sha256": "24d5ae40239d9909a732ec68256c19e269a2ee120276523d24a11da03d86dc52",
+  "J_incompatible_pose_pairs": 87,
+  "minimum_translation_separation_m": 2.288366771314341,
+  "all_reported_J_ambiguities_certified_by_translation_alone": true,
+  "secondary_wrong_accepts": [
+    {
+      "key": "00_80_1532",
+      "stratum": "ambiguous_positive",
+      "historical_category": "proposal_unavailable",
+      "selected": "learned_FGR+GICP",
+      "overlap_1m": 0.7065,
+      "mean_NN_m": 1.0195143889733607,
+      "clipped_squared_NN": 1.1962390305460422,
+      "rotation_error_deg": 179.72737063683653,
+      "translation_error_m": 33.33385808079917,
+      "primary_correct_candidate_available": false,
+      "R_rotation_deg": 0.9478793197729508,
+      "R_translation_m": 1.8408267850637952
+    },
+    {
+      "key": "08_207_1688",
+      "stratum": "low_overlap",
+      "historical_category": "proposal_unavailable",
+      "selected": "learned_extra_1+GICP",
+      "overlap_1m": 0.7485,
+      "mean_NN_m": 0.7929858937974773,
+      "clipped_squared_NN": 0.9170405722612724,
+      "rotation_error_deg": 0.6365741485501056,
+      "translation_error_m": 2.943008412903904,
+      "primary_correct_candidate_available": false,
+      "R_rotation_deg": 0.6808925524680147,
+      "R_translation_m": 2.892055302403894
+    }
+  ],
+  "tracked_git_observation": {
+    "main_HEAD": "4055d929c594b0033aafc6eed339c910369eef55",
+    "SLAM_HEAD": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6",
+    "main_tracked_dirty_paths": [
+      ".gitignore",
+      "AGENTS.md"
+    ],
+    "SLAM_tracked_dirty_path_count": 9,
+    "HEADs_and_path_sets_match_prior_observation": true,
+    "untracked_remote_and_entire_worktree_content_not_audited": true
+  },
+  "visual_review": {
+    "comparison": true,
+    "bottleneck": true,
+    "all5_case_PNGs": true,
+    "case_XZ_metric_aspect_preserved": true
+  },
+  "no_new_prediction_or_gate": true
+}

@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "controls": [
+    {
+      "case": "independent_struct_0",
+      "shape": [
+        2
+      ],
+      "stride": [
+        1
+      ],
+      "passed": true
+    },
+    {
+      "case": "independent_struct_1",
+      "shape": [
+        2
+      ],
+      "stride": [
+        1
+      ],
+      "passed": true
+    },
+    {
+      "case": "independent_struct_2",
+      "shape": [
+        2
+      ],
+      "stride": [
+        1
+      ],
+      "passed": true
+    },
+    {
+      "case": "independent_struct_3",
+      "shape": [],
+      "stride": [],
+      "passed": true
+    },
+    {
+      "case": "independent_struct_4",
+      "shape": [
+        2
+      ],
+      "stride": [
+        1
+      ],
+      "passed": true
+    },
+    {
+      "case": "independent_struct_5",
+      "shape": [
+        1,
+        2,
+        1
+      ],
+      "stride": [
+        17,
+        1,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "case": "independent_struct_6",
+      "shape": [
+        16,
+        3,
+        1,
+        1
+      ],
+      "stride": [
+        3,
+        1,
+        3,
+        3
+      ],
+      "passed": true
+    },
+    {
+      "case": "reject_hash",
+      "passed": true
+    },
+    {
+      "case": "reject_bytes",
+      "passed": true
+    },
+    {
+      "case": "reject_offset",
+      "passed": true
+    },
+    {
+      "case": "reject_stride",
+      "passed": true
+    },
+    {
+      "case": "reject_dtype",
+      "passed": true
+    },
+    {
+      "case": "reject_alias",
+      "passed": true
+    },
+    {
+      "case": "reject_negative_singleton",
+      "passed": true
+    },
+    {
+      "case": "reject_transpose",
+      "passed": true
+    },
+    {
+      "case": "reject_nan",
+      "passed": true
+    },
+    {
+      "case": "reject_inf",
+      "passed": true
+    }
+  ],
+  "count": 17,
+  "actual_checkpoint_tensors_decoded": 0,
+  "CUDA_initialized": false
+}

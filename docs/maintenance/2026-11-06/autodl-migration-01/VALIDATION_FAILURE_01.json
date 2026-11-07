@@ -1,0 +1,8 @@
+{
+  "scope": "local tiny upload-gate fixtures only; not a migration upload/restore failure",
+  "error": "WinError 5 while creating children of default TemporaryDirectory under the Windows sandbox temp directory",
+  "tests_passed_in_initial_attempt": false,
+  "project_or_server_data_modified": false,
+  "correction": "Use explicitly created 0755 fixture directories inside the authorized phase, retain tiny fixture bytes as validation evidence, avoid recursive cleanup",
+  "automatic_approval_review_rejection": false
+}

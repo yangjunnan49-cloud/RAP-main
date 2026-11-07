@@ -1,0 +1,9 @@
+# CB1 closed at safe-container admission failure
+
+The78 source/config and two local weight hash preflight passes. CPU authentication stops on the first RAP checkpoint: torch.load(weights_only=True) raises UnpicklingError for unsupported GLOBAL omegaconf.listconfig.ListConfig. The original error/traceback and counters are retained. No unsafe deserialization fallback, allowlist change, model constructor, neural forward, public point decode or private-reference read occurred. Successful safe-load counter is0 and constructor attempts0.
+
+Initialization/checkpoint compatibility is INCOMPLETE, not a model defect or evidence of corrupted tensors. The failure specifically establishes that this complete container is not accepted by the current default weights-only loader. PyTorch worker peak843,067,392 bytes; watchdog observed914,198,528 bytes, below4GiB. Worker returned1, watcher/host returned2; cleanup succeeded. The host shell itself returning0 is not a scientific success receipt.
+
+This scope is CLOSED without retry, fallback to weights_only=False or altered safe-global admission. Source loaders remain unchanged and unexecuted. The previously planned constructor/key/value checks were not reached. Next permitted independent work is nonexecuting ZIP/pickle opcode metadata inspection to identify structure and unsupported globals, without loading classes or tensors. RI1 remains closed at its original GPU-free failure and FC1 candidate remains uninstalled. No inference or physical efficacy follows.
+
+Preparation attempted two nonexistent flat source paths before rg resolved the real package paths; errors and all preparation remain charged. PRE_EXECUTION_CORRECTION preserves pre-execution runtime/freeze before the mechanical preflight60s cap and identity-evidence correction; no worker had run and no cap was reset.

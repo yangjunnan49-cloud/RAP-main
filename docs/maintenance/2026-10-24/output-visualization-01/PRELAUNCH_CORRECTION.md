@@ -1,0 +1,5 @@
+# Mechanical status-query repair before admission
+
+The outer PowerShell state query failed by selecting String.Replace(char,char) while supplying an empty replacement. The exact failed invocation is closed and preserved in PRELAUNCH_FAILURE.json; it never invoked the frozen host, preflight worker or plot worker and wrote no WSL_INITIAL receipt. This was a status-receipt preparation defect, not a missing dependency or a failed array/render execution.
+
+The next state query uses explicit string overload Replace([string][char]0,'') to remove NULs from the wsl listing. No frozen runtime, dependency/environment, input identity, numerical transform, rendering choice, cap or origin changes. No successful computation is replayed. The earlier protocol's failure-stop rule is retained for an admitted preflight/render worker; this narrowly documented preparation correction permits their first admission under the existing owner request. It does not turn the failed outer invocation into a success. All preparation, failure, repair and subsequent work remain charged from07:23:19UTC to the same original900s limit.

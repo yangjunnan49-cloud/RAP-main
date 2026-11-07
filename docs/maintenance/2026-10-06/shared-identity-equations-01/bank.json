@@ -1,0 +1,2176 @@
+{
+  "stage": "SID0",
+  "freeze_sha256": "68b09366d9ae6dea43b05dcdddc6e3427d90b714d42d70691f78a5898c0eeae2",
+  "rows": [
+    {
+      "id": "00_single",
+      "kind": "single",
+      "trial": 0,
+      "file": "cases/00_single.npz"
+    },
+    {
+      "id": "00_one_shared",
+      "kind": "one_shared",
+      "trial": 0,
+      "file": "cases/00_one_shared.npz"
+    },
+    {
+      "id": "00_consistent",
+      "kind": "consistent",
+      "trial": 0,
+      "file": "cases/00_consistent.npz"
+    },
+    {
+      "id": "00_conflict",
+      "kind": "conflict",
+      "trial": 0,
+      "file": "cases/00_conflict.npz"
+    },
+    {
+      "id": "00_gauge",
+      "kind": "gauge",
+      "trial": 0,
+      "reference_id": "00_conflict",
+      "file": "cases/00_gauge.npz"
+    },
+    {
+      "id": "00_common_gauge",
+      "kind": "common_gauge",
+      "trial": 0,
+      "reference_id": "00_conflict",
+      "file": "cases/00_common_gauge.npz"
+    },
+    {
+      "id": "00_scale",
+      "kind": "scale",
+      "trial": 0,
+      "reference_id": "00_conflict",
+      "file": "cases/00_scale.npz"
+    },
+    {
+      "id": "00_permutation",
+      "kind": "permutation",
+      "trial": 0,
+      "reference_id": "00_conflict",
+      "file": "cases/00_permutation.npz"
+    },
+    {
+      "id": "00_idempotent",
+      "kind": "idempotent",
+      "trial": 0,
+      "reference_id": "00_conflict",
+      "file": "cases/00_idempotent.npz"
+    },
+    {
+      "id": "00_unique_residual",
+      "kind": "unique_residual",
+      "trial": 0,
+      "reference_id": "00_conflict",
+      "file": "cases/00_unique_residual.npz"
+    },
+    {
+      "id": "01_single",
+      "kind": "single",
+      "trial": 1,
+      "file": "cases/01_single.npz"
+    },
+    {
+      "id": "01_one_shared",
+      "kind": "one_shared",
+      "trial": 1,
+      "file": "cases/01_one_shared.npz"
+    },
+    {
+      "id": "01_consistent",
+      "kind": "consistent",
+      "trial": 1,
+      "file": "cases/01_consistent.npz"
+    },
+    {
+      "id": "01_conflict",
+      "kind": "conflict",
+      "trial": 1,
+      "file": "cases/01_conflict.npz"
+    },
+    {
+      "id": "01_gauge",
+      "kind": "gauge",
+      "trial": 1,
+      "reference_id": "01_conflict",
+      "file": "cases/01_gauge.npz"
+    },
+    {
+      "id": "01_common_gauge",
+      "kind": "common_gauge",
+      "trial": 1,
+      "reference_id": "01_conflict",
+      "file": "cases/01_common_gauge.npz"
+    },
+    {
+      "id": "01_scale",
+      "kind": "scale",
+      "trial": 1,
+      "reference_id": "01_conflict",
+      "file": "cases/01_scale.npz"
+    },
+    {
+      "id": "01_permutation",
+      "kind": "permutation",
+      "trial": 1,
+      "reference_id": "01_conflict",
+      "file": "cases/01_permutation.npz"
+    },
+    {
+      "id": "01_idempotent",
+      "kind": "idempotent",
+      "trial": 1,
+      "reference_id": "01_conflict",
+      "file": "cases/01_idempotent.npz"
+    },
+    {
+      "id": "01_unique_residual",
+      "kind": "unique_residual",
+      "trial": 1,
+      "reference_id": "01_conflict",
+      "file": "cases/01_unique_residual.npz"
+    },
+    {
+      "id": "02_single",
+      "kind": "single",
+      "trial": 2,
+      "file": "cases/02_single.npz"
+    },
+    {
+      "id": "02_one_shared",
+      "kind": "one_shared",
+      "trial": 2,
+      "file": "cases/02_one_shared.npz"
+    },
+    {
+      "id": "02_consistent",
+      "kind": "consistent",
+      "trial": 2,
+      "file": "cases/02_consistent.npz"
+    },
+    {
+      "id": "02_conflict",
+      "kind": "conflict",
+      "trial": 2,
+      "file": "cases/02_conflict.npz"
+    },
+    {
+      "id": "02_gauge",
+      "kind": "gauge",
+      "trial": 2,
+      "reference_id": "02_conflict",
+      "file": "cases/02_gauge.npz"
+    },
+    {
+      "id": "02_common_gauge",
+      "kind": "common_gauge",
+      "trial": 2,
+      "reference_id": "02_conflict",
+      "file": "cases/02_common_gauge.npz"
+    },
+    {
+      "id": "02_scale",
+      "kind": "scale",
+      "trial": 2,
+      "reference_id": "02_conflict",
+      "file": "cases/02_scale.npz"
+    },
+    {
+      "id": "02_permutation",
+      "kind": "permutation",
+      "trial": 2,
+      "reference_id": "02_conflict",
+      "file": "cases/02_permutation.npz"
+    },
+    {
+      "id": "02_idempotent",
+      "kind": "idempotent",
+      "trial": 2,
+      "reference_id": "02_conflict",
+      "file": "cases/02_idempotent.npz"
+    },
+    {
+      "id": "02_unique_residual",
+      "kind": "unique_residual",
+      "trial": 2,
+      "reference_id": "02_conflict",
+      "file": "cases/02_unique_residual.npz"
+    },
+    {
+      "id": "03_single",
+      "kind": "single",
+      "trial": 3,
+      "file": "cases/03_single.npz"
+    },
+    {
+      "id": "03_one_shared",
+      "kind": "one_shared",
+      "trial": 3,
+      "file": "cases/03_one_shared.npz"
+    },
+    {
+      "id": "03_consistent",
+      "kind": "consistent",
+      "trial": 3,
+      "file": "cases/03_consistent.npz"
+    },
+    {
+      "id": "03_conflict",
+      "kind": "conflict",
+      "trial": 3,
+      "file": "cases/03_conflict.npz"
+    },
+    {
+      "id": "03_gauge",
+      "kind": "gauge",
+      "trial": 3,
+      "reference_id": "03_conflict",
+      "file": "cases/03_gauge.npz"
+    },
+    {
+      "id": "03_common_gauge",
+      "kind": "common_gauge",
+      "trial": 3,
+      "reference_id": "03_conflict",
+      "file": "cases/03_common_gauge.npz"
+    },
+    {
+      "id": "03_scale",
+      "kind": "scale",
+      "trial": 3,
+      "reference_id": "03_conflict",
+      "file": "cases/03_scale.npz"
+    },
+    {
+      "id": "03_permutation",
+      "kind": "permutation",
+      "trial": 3,
+      "reference_id": "03_conflict",
+      "file": "cases/03_permutation.npz"
+    },
+    {
+      "id": "03_idempotent",
+      "kind": "idempotent",
+      "trial": 3,
+      "reference_id": "03_conflict",
+      "file": "cases/03_idempotent.npz"
+    },
+    {
+      "id": "03_unique_residual",
+      "kind": "unique_residual",
+      "trial": 3,
+      "reference_id": "03_conflict",
+      "file": "cases/03_unique_residual.npz"
+    },
+    {
+      "id": "04_single",
+      "kind": "single",
+      "trial": 4,
+      "file": "cases/04_single.npz"
+    },
+    {
+      "id": "04_one_shared",
+      "kind": "one_shared",
+      "trial": 4,
+      "file": "cases/04_one_shared.npz"
+    },
+    {
+      "id": "04_consistent",
+      "kind": "consistent",
+      "trial": 4,
+      "file": "cases/04_consistent.npz"
+    },
+    {
+      "id": "04_conflict",
+      "kind": "conflict",
+      "trial": 4,
+      "file": "cases/04_conflict.npz"
+    },
+    {
+      "id": "04_gauge",
+      "kind": "gauge",
+      "trial": 4,
+      "reference_id": "04_conflict",
+      "file": "cases/04_gauge.npz"
+    },
+    {
+      "id": "04_common_gauge",
+      "kind": "common_gauge",
+      "trial": 4,
+      "reference_id": "04_conflict",
+      "file": "cases/04_common_gauge.npz"
+    },
+    {
+      "id": "04_scale",
+      "kind": "scale",
+      "trial": 4,
+      "reference_id": "04_conflict",
+      "file": "cases/04_scale.npz"
+    },
+    {
+      "id": "04_permutation",
+      "kind": "permutation",
+      "trial": 4,
+      "reference_id": "04_conflict",
+      "file": "cases/04_permutation.npz"
+    },
+    {
+      "id": "04_idempotent",
+      "kind": "idempotent",
+      "trial": 4,
+      "reference_id": "04_conflict",
+      "file": "cases/04_idempotent.npz"
+    },
+    {
+      "id": "04_unique_residual",
+      "kind": "unique_residual",
+      "trial": 4,
+      "reference_id": "04_conflict",
+      "file": "cases/04_unique_residual.npz"
+    },
+    {
+      "id": "05_single",
+      "kind": "single",
+      "trial": 5,
+      "file": "cases/05_single.npz"
+    },
+    {
+      "id": "05_one_shared",
+      "kind": "one_shared",
+      "trial": 5,
+      "file": "cases/05_one_shared.npz"
+    },
+    {
+      "id": "05_consistent",
+      "kind": "consistent",
+      "trial": 5,
+      "file": "cases/05_consistent.npz"
+    },
+    {
+      "id": "05_conflict",
+      "kind": "conflict",
+      "trial": 5,
+      "file": "cases/05_conflict.npz"
+    },
+    {
+      "id": "05_gauge",
+      "kind": "gauge",
+      "trial": 5,
+      "reference_id": "05_conflict",
+      "file": "cases/05_gauge.npz"
+    },
+    {
+      "id": "05_common_gauge",
+      "kind": "common_gauge",
+      "trial": 5,
+      "reference_id": "05_conflict",
+      "file": "cases/05_common_gauge.npz"
+    },
+    {
+      "id": "05_scale",
+      "kind": "scale",
+      "trial": 5,
+      "reference_id": "05_conflict",
+      "file": "cases/05_scale.npz"
+    },
+    {
+      "id": "05_permutation",
+      "kind": "permutation",
+      "trial": 5,
+      "reference_id": "05_conflict",
+      "file": "cases/05_permutation.npz"
+    },
+    {
+      "id": "05_idempotent",
+      "kind": "idempotent",
+      "trial": 5,
+      "reference_id": "05_conflict",
+      "file": "cases/05_idempotent.npz"
+    },
+    {
+      "id": "05_unique_residual",
+      "kind": "unique_residual",
+      "trial": 5,
+      "reference_id": "05_conflict",
+      "file": "cases/05_unique_residual.npz"
+    },
+    {
+      "id": "06_single",
+      "kind": "single",
+      "trial": 6,
+      "file": "cases/06_single.npz"
+    },
+    {
+      "id": "06_one_shared",
+      "kind": "one_shared",
+      "trial": 6,
+      "file": "cases/06_one_shared.npz"
+    },
+    {
+      "id": "06_consistent",
+      "kind": "consistent",
+      "trial": 6,
+      "file": "cases/06_consistent.npz"
+    },
+    {
+      "id": "06_conflict",
+      "kind": "conflict",
+      "trial": 6,
+      "file": "cases/06_conflict.npz"
+    },
+    {
+      "id": "06_gauge",
+      "kind": "gauge",
+      "trial": 6,
+      "reference_id": "06_conflict",
+      "file": "cases/06_gauge.npz"
+    },
+    {
+      "id": "06_common_gauge",
+      "kind": "common_gauge",
+      "trial": 6,
+      "reference_id": "06_conflict",
+      "file": "cases/06_common_gauge.npz"
+    },
+    {
+      "id": "06_scale",
+      "kind": "scale",
+      "trial": 6,
+      "reference_id": "06_conflict",
+      "file": "cases/06_scale.npz"
+    },
+    {
+      "id": "06_permutation",
+      "kind": "permutation",
+      "trial": 6,
+      "reference_id": "06_conflict",
+      "file": "cases/06_permutation.npz"
+    },
+    {
+      "id": "06_idempotent",
+      "kind": "idempotent",
+      "trial": 6,
+      "reference_id": "06_conflict",
+      "file": "cases/06_idempotent.npz"
+    },
+    {
+      "id": "06_unique_residual",
+      "kind": "unique_residual",
+      "trial": 6,
+      "reference_id": "06_conflict",
+      "file": "cases/06_unique_residual.npz"
+    },
+    {
+      "id": "07_single",
+      "kind": "single",
+      "trial": 7,
+      "file": "cases/07_single.npz"
+    },
+    {
+      "id": "07_one_shared",
+      "kind": "one_shared",
+      "trial": 7,
+      "file": "cases/07_one_shared.npz"
+    },
+    {
+      "id": "07_consistent",
+      "kind": "consistent",
+      "trial": 7,
+      "file": "cases/07_consistent.npz"
+    },
+    {
+      "id": "07_conflict",
+      "kind": "conflict",
+      "trial": 7,
+      "file": "cases/07_conflict.npz"
+    },
+    {
+      "id": "07_gauge",
+      "kind": "gauge",
+      "trial": 7,
+      "reference_id": "07_conflict",
+      "file": "cases/07_gauge.npz"
+    },
+    {
+      "id": "07_common_gauge",
+      "kind": "common_gauge",
+      "trial": 7,
+      "reference_id": "07_conflict",
+      "file": "cases/07_common_gauge.npz"
+    },
+    {
+      "id": "07_scale",
+      "kind": "scale",
+      "trial": 7,
+      "reference_id": "07_conflict",
+      "file": "cases/07_scale.npz"
+    },
+    {
+      "id": "07_permutation",
+      "kind": "permutation",
+      "trial": 7,
+      "reference_id": "07_conflict",
+      "file": "cases/07_permutation.npz"
+    },
+    {
+      "id": "07_idempotent",
+      "kind": "idempotent",
+      "trial": 7,
+      "reference_id": "07_conflict",
+      "file": "cases/07_idempotent.npz"
+    },
+    {
+      "id": "07_unique_residual",
+      "kind": "unique_residual",
+      "trial": 7,
+      "reference_id": "07_conflict",
+      "file": "cases/07_unique_residual.npz"
+    },
+    {
+      "id": "08_single",
+      "kind": "single",
+      "trial": 8,
+      "file": "cases/08_single.npz"
+    },
+    {
+      "id": "08_one_shared",
+      "kind": "one_shared",
+      "trial": 8,
+      "file": "cases/08_one_shared.npz"
+    },
+    {
+      "id": "08_consistent",
+      "kind": "consistent",
+      "trial": 8,
+      "file": "cases/08_consistent.npz"
+    },
+    {
+      "id": "08_conflict",
+      "kind": "conflict",
+      "trial": 8,
+      "file": "cases/08_conflict.npz"
+    },
+    {
+      "id": "08_gauge",
+      "kind": "gauge",
+      "trial": 8,
+      "reference_id": "08_conflict",
+      "file": "cases/08_gauge.npz"
+    },
+    {
+      "id": "08_common_gauge",
+      "kind": "common_gauge",
+      "trial": 8,
+      "reference_id": "08_conflict",
+      "file": "cases/08_common_gauge.npz"
+    },
+    {
+      "id": "08_scale",
+      "kind": "scale",
+      "trial": 8,
+      "reference_id": "08_conflict",
+      "file": "cases/08_scale.npz"
+    },
+    {
+      "id": "08_permutation",
+      "kind": "permutation",
+      "trial": 8,
+      "reference_id": "08_conflict",
+      "file": "cases/08_permutation.npz"
+    },
+    {
+      "id": "08_idempotent",
+      "kind": "idempotent",
+      "trial": 8,
+      "reference_id": "08_conflict",
+      "file": "cases/08_idempotent.npz"
+    },
+    {
+      "id": "08_unique_residual",
+      "kind": "unique_residual",
+      "trial": 8,
+      "reference_id": "08_conflict",
+      "file": "cases/08_unique_residual.npz"
+    },
+    {
+      "id": "09_single",
+      "kind": "single",
+      "trial": 9,
+      "file": "cases/09_single.npz"
+    },
+    {
+      "id": "09_one_shared",
+      "kind": "one_shared",
+      "trial": 9,
+      "file": "cases/09_one_shared.npz"
+    },
+    {
+      "id": "09_consistent",
+      "kind": "consistent",
+      "trial": 9,
+      "file": "cases/09_consistent.npz"
+    },
+    {
+      "id": "09_conflict",
+      "kind": "conflict",
+      "trial": 9,
+      "file": "cases/09_conflict.npz"
+    },
+    {
+      "id": "09_gauge",
+      "kind": "gauge",
+      "trial": 9,
+      "reference_id": "09_conflict",
+      "file": "cases/09_gauge.npz"
+    },
+    {
+      "id": "09_common_gauge",
+      "kind": "common_gauge",
+      "trial": 9,
+      "reference_id": "09_conflict",
+      "file": "cases/09_common_gauge.npz"
+    },
+    {
+      "id": "09_scale",
+      "kind": "scale",
+      "trial": 9,
+      "reference_id": "09_conflict",
+      "file": "cases/09_scale.npz"
+    },
+    {
+      "id": "09_permutation",
+      "kind": "permutation",
+      "trial": 9,
+      "reference_id": "09_conflict",
+      "file": "cases/09_permutation.npz"
+    },
+    {
+      "id": "09_idempotent",
+      "kind": "idempotent",
+      "trial": 9,
+      "reference_id": "09_conflict",
+      "file": "cases/09_idempotent.npz"
+    },
+    {
+      "id": "09_unique_residual",
+      "kind": "unique_residual",
+      "trial": 9,
+      "reference_id": "09_conflict",
+      "file": "cases/09_unique_residual.npz"
+    },
+    {
+      "id": "10_single",
+      "kind": "single",
+      "trial": 10,
+      "file": "cases/10_single.npz"
+    },
+    {
+      "id": "10_one_shared",
+      "kind": "one_shared",
+      "trial": 10,
+      "file": "cases/10_one_shared.npz"
+    },
+    {
+      "id": "10_consistent",
+      "kind": "consistent",
+      "trial": 10,
+      "file": "cases/10_consistent.npz"
+    },
+    {
+      "id": "10_conflict",
+      "kind": "conflict",
+      "trial": 10,
+      "file": "cases/10_conflict.npz"
+    },
+    {
+      "id": "10_gauge",
+      "kind": "gauge",
+      "trial": 10,
+      "reference_id": "10_conflict",
+      "file": "cases/10_gauge.npz"
+    },
+    {
+      "id": "10_common_gauge",
+      "kind": "common_gauge",
+      "trial": 10,
+      "reference_id": "10_conflict",
+      "file": "cases/10_common_gauge.npz"
+    },
+    {
+      "id": "10_scale",
+      "kind": "scale",
+      "trial": 10,
+      "reference_id": "10_conflict",
+      "file": "cases/10_scale.npz"
+    },
+    {
+      "id": "10_permutation",
+      "kind": "permutation",
+      "trial": 10,
+      "reference_id": "10_conflict",
+      "file": "cases/10_permutation.npz"
+    },
+    {
+      "id": "10_idempotent",
+      "kind": "idempotent",
+      "trial": 10,
+      "reference_id": "10_conflict",
+      "file": "cases/10_idempotent.npz"
+    },
+    {
+      "id": "10_unique_residual",
+      "kind": "unique_residual",
+      "trial": 10,
+      "reference_id": "10_conflict",
+      "file": "cases/10_unique_residual.npz"
+    },
+    {
+      "id": "11_single",
+      "kind": "single",
+      "trial": 11,
+      "file": "cases/11_single.npz"
+    },
+    {
+      "id": "11_one_shared",
+      "kind": "one_shared",
+      "trial": 11,
+      "file": "cases/11_one_shared.npz"
+    },
+    {
+      "id": "11_consistent",
+      "kind": "consistent",
+      "trial": 11,
+      "file": "cases/11_consistent.npz"
+    },
+    {
+      "id": "11_conflict",
+      "kind": "conflict",
+      "trial": 11,
+      "file": "cases/11_conflict.npz"
+    },
+    {
+      "id": "11_gauge",
+      "kind": "gauge",
+      "trial": 11,
+      "reference_id": "11_conflict",
+      "file": "cases/11_gauge.npz"
+    },
+    {
+      "id": "11_common_gauge",
+      "kind": "common_gauge",
+      "trial": 11,
+      "reference_id": "11_conflict",
+      "file": "cases/11_common_gauge.npz"
+    },
+    {
+      "id": "11_scale",
+      "kind": "scale",
+      "trial": 11,
+      "reference_id": "11_conflict",
+      "file": "cases/11_scale.npz"
+    },
+    {
+      "id": "11_permutation",
+      "kind": "permutation",
+      "trial": 11,
+      "reference_id": "11_conflict",
+      "file": "cases/11_permutation.npz"
+    },
+    {
+      "id": "11_idempotent",
+      "kind": "idempotent",
+      "trial": 11,
+      "reference_id": "11_conflict",
+      "file": "cases/11_idempotent.npz"
+    },
+    {
+      "id": "11_unique_residual",
+      "kind": "unique_residual",
+      "trial": 11,
+      "reference_id": "11_conflict",
+      "file": "cases/11_unique_residual.npz"
+    },
+    {
+      "id": "12_single",
+      "kind": "single",
+      "trial": 12,
+      "file": "cases/12_single.npz"
+    },
+    {
+      "id": "12_one_shared",
+      "kind": "one_shared",
+      "trial": 12,
+      "file": "cases/12_one_shared.npz"
+    },
+    {
+      "id": "12_consistent",
+      "kind": "consistent",
+      "trial": 12,
+      "file": "cases/12_consistent.npz"
+    },
+    {
+      "id": "12_conflict",
+      "kind": "conflict",
+      "trial": 12,
+      "file": "cases/12_conflict.npz"
+    },
+    {
+      "id": "12_gauge",
+      "kind": "gauge",
+      "trial": 12,
+      "reference_id": "12_conflict",
+      "file": "cases/12_gauge.npz"
+    },
+    {
+      "id": "12_common_gauge",
+      "kind": "common_gauge",
+      "trial": 12,
+      "reference_id": "12_conflict",
+      "file": "cases/12_common_gauge.npz"
+    },
+    {
+      "id": "12_scale",
+      "kind": "scale",
+      "trial": 12,
+      "reference_id": "12_conflict",
+      "file": "cases/12_scale.npz"
+    },
+    {
+      "id": "12_permutation",
+      "kind": "permutation",
+      "trial": 12,
+      "reference_id": "12_conflict",
+      "file": "cases/12_permutation.npz"
+    },
+    {
+      "id": "12_idempotent",
+      "kind": "idempotent",
+      "trial": 12,
+      "reference_id": "12_conflict",
+      "file": "cases/12_idempotent.npz"
+    },
+    {
+      "id": "12_unique_residual",
+      "kind": "unique_residual",
+      "trial": 12,
+      "reference_id": "12_conflict",
+      "file": "cases/12_unique_residual.npz"
+    },
+    {
+      "id": "13_single",
+      "kind": "single",
+      "trial": 13,
+      "file": "cases/13_single.npz"
+    },
+    {
+      "id": "13_one_shared",
+      "kind": "one_shared",
+      "trial": 13,
+      "file": "cases/13_one_shared.npz"
+    },
+    {
+      "id": "13_consistent",
+      "kind": "consistent",
+      "trial": 13,
+      "file": "cases/13_consistent.npz"
+    },
+    {
+      "id": "13_conflict",
+      "kind": "conflict",
+      "trial": 13,
+      "file": "cases/13_conflict.npz"
+    },
+    {
+      "id": "13_gauge",
+      "kind": "gauge",
+      "trial": 13,
+      "reference_id": "13_conflict",
+      "file": "cases/13_gauge.npz"
+    },
+    {
+      "id": "13_common_gauge",
+      "kind": "common_gauge",
+      "trial": 13,
+      "reference_id": "13_conflict",
+      "file": "cases/13_common_gauge.npz"
+    },
+    {
+      "id": "13_scale",
+      "kind": "scale",
+      "trial": 13,
+      "reference_id": "13_conflict",
+      "file": "cases/13_scale.npz"
+    },
+    {
+      "id": "13_permutation",
+      "kind": "permutation",
+      "trial": 13,
+      "reference_id": "13_conflict",
+      "file": "cases/13_permutation.npz"
+    },
+    {
+      "id": "13_idempotent",
+      "kind": "idempotent",
+      "trial": 13,
+      "reference_id": "13_conflict",
+      "file": "cases/13_idempotent.npz"
+    },
+    {
+      "id": "13_unique_residual",
+      "kind": "unique_residual",
+      "trial": 13,
+      "reference_id": "13_conflict",
+      "file": "cases/13_unique_residual.npz"
+    },
+    {
+      "id": "14_single",
+      "kind": "single",
+      "trial": 14,
+      "file": "cases/14_single.npz"
+    },
+    {
+      "id": "14_one_shared",
+      "kind": "one_shared",
+      "trial": 14,
+      "file": "cases/14_one_shared.npz"
+    },
+    {
+      "id": "14_consistent",
+      "kind": "consistent",
+      "trial": 14,
+      "file": "cases/14_consistent.npz"
+    },
+    {
+      "id": "14_conflict",
+      "kind": "conflict",
+      "trial": 14,
+      "file": "cases/14_conflict.npz"
+    },
+    {
+      "id": "14_gauge",
+      "kind": "gauge",
+      "trial": 14,
+      "reference_id": "14_conflict",
+      "file": "cases/14_gauge.npz"
+    },
+    {
+      "id": "14_common_gauge",
+      "kind": "common_gauge",
+      "trial": 14,
+      "reference_id": "14_conflict",
+      "file": "cases/14_common_gauge.npz"
+    },
+    {
+      "id": "14_scale",
+      "kind": "scale",
+      "trial": 14,
+      "reference_id": "14_conflict",
+      "file": "cases/14_scale.npz"
+    },
+    {
+      "id": "14_permutation",
+      "kind": "permutation",
+      "trial": 14,
+      "reference_id": "14_conflict",
+      "file": "cases/14_permutation.npz"
+    },
+    {
+      "id": "14_idempotent",
+      "kind": "idempotent",
+      "trial": 14,
+      "reference_id": "14_conflict",
+      "file": "cases/14_idempotent.npz"
+    },
+    {
+      "id": "14_unique_residual",
+      "kind": "unique_residual",
+      "trial": 14,
+      "reference_id": "14_conflict",
+      "file": "cases/14_unique_residual.npz"
+    },
+    {
+      "id": "15_single",
+      "kind": "single",
+      "trial": 15,
+      "file": "cases/15_single.npz"
+    },
+    {
+      "id": "15_one_shared",
+      "kind": "one_shared",
+      "trial": 15,
+      "file": "cases/15_one_shared.npz"
+    },
+    {
+      "id": "15_consistent",
+      "kind": "consistent",
+      "trial": 15,
+      "file": "cases/15_consistent.npz"
+    },
+    {
+      "id": "15_conflict",
+      "kind": "conflict",
+      "trial": 15,
+      "file": "cases/15_conflict.npz"
+    },
+    {
+      "id": "15_gauge",
+      "kind": "gauge",
+      "trial": 15,
+      "reference_id": "15_conflict",
+      "file": "cases/15_gauge.npz"
+    },
+    {
+      "id": "15_common_gauge",
+      "kind": "common_gauge",
+      "trial": 15,
+      "reference_id": "15_conflict",
+      "file": "cases/15_common_gauge.npz"
+    },
+    {
+      "id": "15_scale",
+      "kind": "scale",
+      "trial": 15,
+      "reference_id": "15_conflict",
+      "file": "cases/15_scale.npz"
+    },
+    {
+      "id": "15_permutation",
+      "kind": "permutation",
+      "trial": 15,
+      "reference_id": "15_conflict",
+      "file": "cases/15_permutation.npz"
+    },
+    {
+      "id": "15_idempotent",
+      "kind": "idempotent",
+      "trial": 15,
+      "reference_id": "15_conflict",
+      "file": "cases/15_idempotent.npz"
+    },
+    {
+      "id": "15_unique_residual",
+      "kind": "unique_residual",
+      "trial": 15,
+      "reference_id": "15_conflict",
+      "file": "cases/15_unique_residual.npz"
+    },
+    {
+      "id": "16_single",
+      "kind": "single",
+      "trial": 16,
+      "file": "cases/16_single.npz"
+    },
+    {
+      "id": "16_one_shared",
+      "kind": "one_shared",
+      "trial": 16,
+      "file": "cases/16_one_shared.npz"
+    },
+    {
+      "id": "16_consistent",
+      "kind": "consistent",
+      "trial": 16,
+      "file": "cases/16_consistent.npz"
+    },
+    {
+      "id": "16_conflict",
+      "kind": "conflict",
+      "trial": 16,
+      "file": "cases/16_conflict.npz"
+    },
+    {
+      "id": "16_gauge",
+      "kind": "gauge",
+      "trial": 16,
+      "reference_id": "16_conflict",
+      "file": "cases/16_gauge.npz"
+    },
+    {
+      "id": "16_common_gauge",
+      "kind": "common_gauge",
+      "trial": 16,
+      "reference_id": "16_conflict",
+      "file": "cases/16_common_gauge.npz"
+    },
+    {
+      "id": "16_scale",
+      "kind": "scale",
+      "trial": 16,
+      "reference_id": "16_conflict",
+      "file": "cases/16_scale.npz"
+    },
+    {
+      "id": "16_permutation",
+      "kind": "permutation",
+      "trial": 16,
+      "reference_id": "16_conflict",
+      "file": "cases/16_permutation.npz"
+    },
+    {
+      "id": "16_idempotent",
+      "kind": "idempotent",
+      "trial": 16,
+      "reference_id": "16_conflict",
+      "file": "cases/16_idempotent.npz"
+    },
+    {
+      "id": "16_unique_residual",
+      "kind": "unique_residual",
+      "trial": 16,
+      "reference_id": "16_conflict",
+      "file": "cases/16_unique_residual.npz"
+    },
+    {
+      "id": "17_single",
+      "kind": "single",
+      "trial": 17,
+      "file": "cases/17_single.npz"
+    },
+    {
+      "id": "17_one_shared",
+      "kind": "one_shared",
+      "trial": 17,
+      "file": "cases/17_one_shared.npz"
+    },
+    {
+      "id": "17_consistent",
+      "kind": "consistent",
+      "trial": 17,
+      "file": "cases/17_consistent.npz"
+    },
+    {
+      "id": "17_conflict",
+      "kind": "conflict",
+      "trial": 17,
+      "file": "cases/17_conflict.npz"
+    },
+    {
+      "id": "17_gauge",
+      "kind": "gauge",
+      "trial": 17,
+      "reference_id": "17_conflict",
+      "file": "cases/17_gauge.npz"
+    },
+    {
+      "id": "17_common_gauge",
+      "kind": "common_gauge",
+      "trial": 17,
+      "reference_id": "17_conflict",
+      "file": "cases/17_common_gauge.npz"
+    },
+    {
+      "id": "17_scale",
+      "kind": "scale",
+      "trial": 17,
+      "reference_id": "17_conflict",
+      "file": "cases/17_scale.npz"
+    },
+    {
+      "id": "17_permutation",
+      "kind": "permutation",
+      "trial": 17,
+      "reference_id": "17_conflict",
+      "file": "cases/17_permutation.npz"
+    },
+    {
+      "id": "17_idempotent",
+      "kind": "idempotent",
+      "trial": 17,
+      "reference_id": "17_conflict",
+      "file": "cases/17_idempotent.npz"
+    },
+    {
+      "id": "17_unique_residual",
+      "kind": "unique_residual",
+      "trial": 17,
+      "reference_id": "17_conflict",
+      "file": "cases/17_unique_residual.npz"
+    },
+    {
+      "id": "18_single",
+      "kind": "single",
+      "trial": 18,
+      "file": "cases/18_single.npz"
+    },
+    {
+      "id": "18_one_shared",
+      "kind": "one_shared",
+      "trial": 18,
+      "file": "cases/18_one_shared.npz"
+    },
+    {
+      "id": "18_consistent",
+      "kind": "consistent",
+      "trial": 18,
+      "file": "cases/18_consistent.npz"
+    },
+    {
+      "id": "18_conflict",
+      "kind": "conflict",
+      "trial": 18,
+      "file": "cases/18_conflict.npz"
+    },
+    {
+      "id": "18_gauge",
+      "kind": "gauge",
+      "trial": 18,
+      "reference_id": "18_conflict",
+      "file": "cases/18_gauge.npz"
+    },
+    {
+      "id": "18_common_gauge",
+      "kind": "common_gauge",
+      "trial": 18,
+      "reference_id": "18_conflict",
+      "file": "cases/18_common_gauge.npz"
+    },
+    {
+      "id": "18_scale",
+      "kind": "scale",
+      "trial": 18,
+      "reference_id": "18_conflict",
+      "file": "cases/18_scale.npz"
+    },
+    {
+      "id": "18_permutation",
+      "kind": "permutation",
+      "trial": 18,
+      "reference_id": "18_conflict",
+      "file": "cases/18_permutation.npz"
+    },
+    {
+      "id": "18_idempotent",
+      "kind": "idempotent",
+      "trial": 18,
+      "reference_id": "18_conflict",
+      "file": "cases/18_idempotent.npz"
+    },
+    {
+      "id": "18_unique_residual",
+      "kind": "unique_residual",
+      "trial": 18,
+      "reference_id": "18_conflict",
+      "file": "cases/18_unique_residual.npz"
+    },
+    {
+      "id": "19_single",
+      "kind": "single",
+      "trial": 19,
+      "file": "cases/19_single.npz"
+    },
+    {
+      "id": "19_one_shared",
+      "kind": "one_shared",
+      "trial": 19,
+      "file": "cases/19_one_shared.npz"
+    },
+    {
+      "id": "19_consistent",
+      "kind": "consistent",
+      "trial": 19,
+      "file": "cases/19_consistent.npz"
+    },
+    {
+      "id": "19_conflict",
+      "kind": "conflict",
+      "trial": 19,
+      "file": "cases/19_conflict.npz"
+    },
+    {
+      "id": "19_gauge",
+      "kind": "gauge",
+      "trial": 19,
+      "reference_id": "19_conflict",
+      "file": "cases/19_gauge.npz"
+    },
+    {
+      "id": "19_common_gauge",
+      "kind": "common_gauge",
+      "trial": 19,
+      "reference_id": "19_conflict",
+      "file": "cases/19_common_gauge.npz"
+    },
+    {
+      "id": "19_scale",
+      "kind": "scale",
+      "trial": 19,
+      "reference_id": "19_conflict",
+      "file": "cases/19_scale.npz"
+    },
+    {
+      "id": "19_permutation",
+      "kind": "permutation",
+      "trial": 19,
+      "reference_id": "19_conflict",
+      "file": "cases/19_permutation.npz"
+    },
+    {
+      "id": "19_idempotent",
+      "kind": "idempotent",
+      "trial": 19,
+      "reference_id": "19_conflict",
+      "file": "cases/19_idempotent.npz"
+    },
+    {
+      "id": "19_unique_residual",
+      "kind": "unique_residual",
+      "trial": 19,
+      "reference_id": "19_conflict",
+      "file": "cases/19_unique_residual.npz"
+    },
+    {
+      "id": "20_single",
+      "kind": "single",
+      "trial": 20,
+      "file": "cases/20_single.npz"
+    },
+    {
+      "id": "20_one_shared",
+      "kind": "one_shared",
+      "trial": 20,
+      "file": "cases/20_one_shared.npz"
+    },
+    {
+      "id": "20_consistent",
+      "kind": "consistent",
+      "trial": 20,
+      "file": "cases/20_consistent.npz"
+    },
+    {
+      "id": "20_conflict",
+      "kind": "conflict",
+      "trial": 20,
+      "file": "cases/20_conflict.npz"
+    },
+    {
+      "id": "20_gauge",
+      "kind": "gauge",
+      "trial": 20,
+      "reference_id": "20_conflict",
+      "file": "cases/20_gauge.npz"
+    },
+    {
+      "id": "20_common_gauge",
+      "kind": "common_gauge",
+      "trial": 20,
+      "reference_id": "20_conflict",
+      "file": "cases/20_common_gauge.npz"
+    },
+    {
+      "id": "20_scale",
+      "kind": "scale",
+      "trial": 20,
+      "reference_id": "20_conflict",
+      "file": "cases/20_scale.npz"
+    },
+    {
+      "id": "20_permutation",
+      "kind": "permutation",
+      "trial": 20,
+      "reference_id": "20_conflict",
+      "file": "cases/20_permutation.npz"
+    },
+    {
+      "id": "20_idempotent",
+      "kind": "idempotent",
+      "trial": 20,
+      "reference_id": "20_conflict",
+      "file": "cases/20_idempotent.npz"
+    },
+    {
+      "id": "20_unique_residual",
+      "kind": "unique_residual",
+      "trial": 20,
+      "reference_id": "20_conflict",
+      "file": "cases/20_unique_residual.npz"
+    },
+    {
+      "id": "21_single",
+      "kind": "single",
+      "trial": 21,
+      "file": "cases/21_single.npz"
+    },
+    {
+      "id": "21_one_shared",
+      "kind": "one_shared",
+      "trial": 21,
+      "file": "cases/21_one_shared.npz"
+    },
+    {
+      "id": "21_consistent",
+      "kind": "consistent",
+      "trial": 21,
+      "file": "cases/21_consistent.npz"
+    },
+    {
+      "id": "21_conflict",
+      "kind": "conflict",
+      "trial": 21,
+      "file": "cases/21_conflict.npz"
+    },
+    {
+      "id": "21_gauge",
+      "kind": "gauge",
+      "trial": 21,
+      "reference_id": "21_conflict",
+      "file": "cases/21_gauge.npz"
+    },
+    {
+      "id": "21_common_gauge",
+      "kind": "common_gauge",
+      "trial": 21,
+      "reference_id": "21_conflict",
+      "file": "cases/21_common_gauge.npz"
+    },
+    {
+      "id": "21_scale",
+      "kind": "scale",
+      "trial": 21,
+      "reference_id": "21_conflict",
+      "file": "cases/21_scale.npz"
+    },
+    {
+      "id": "21_permutation",
+      "kind": "permutation",
+      "trial": 21,
+      "reference_id": "21_conflict",
+      "file": "cases/21_permutation.npz"
+    },
+    {
+      "id": "21_idempotent",
+      "kind": "idempotent",
+      "trial": 21,
+      "reference_id": "21_conflict",
+      "file": "cases/21_idempotent.npz"
+    },
+    {
+      "id": "21_unique_residual",
+      "kind": "unique_residual",
+      "trial": 21,
+      "reference_id": "21_conflict",
+      "file": "cases/21_unique_residual.npz"
+    },
+    {
+      "id": "22_single",
+      "kind": "single",
+      "trial": 22,
+      "file": "cases/22_single.npz"
+    },
+    {
+      "id": "22_one_shared",
+      "kind": "one_shared",
+      "trial": 22,
+      "file": "cases/22_one_shared.npz"
+    },
+    {
+      "id": "22_consistent",
+      "kind": "consistent",
+      "trial": 22,
+      "file": "cases/22_consistent.npz"
+    },
+    {
+      "id": "22_conflict",
+      "kind": "conflict",
+      "trial": 22,
+      "file": "cases/22_conflict.npz"
+    },
+    {
+      "id": "22_gauge",
+      "kind": "gauge",
+      "trial": 22,
+      "reference_id": "22_conflict",
+      "file": "cases/22_gauge.npz"
+    },
+    {
+      "id": "22_common_gauge",
+      "kind": "common_gauge",
+      "trial": 22,
+      "reference_id": "22_conflict",
+      "file": "cases/22_common_gauge.npz"
+    },
+    {
+      "id": "22_scale",
+      "kind": "scale",
+      "trial": 22,
+      "reference_id": "22_conflict",
+      "file": "cases/22_scale.npz"
+    },
+    {
+      "id": "22_permutation",
+      "kind": "permutation",
+      "trial": 22,
+      "reference_id": "22_conflict",
+      "file": "cases/22_permutation.npz"
+    },
+    {
+      "id": "22_idempotent",
+      "kind": "idempotent",
+      "trial": 22,
+      "reference_id": "22_conflict",
+      "file": "cases/22_idempotent.npz"
+    },
+    {
+      "id": "22_unique_residual",
+      "kind": "unique_residual",
+      "trial": 22,
+      "reference_id": "22_conflict",
+      "file": "cases/22_unique_residual.npz"
+    },
+    {
+      "id": "23_single",
+      "kind": "single",
+      "trial": 23,
+      "file": "cases/23_single.npz"
+    },
+    {
+      "id": "23_one_shared",
+      "kind": "one_shared",
+      "trial": 23,
+      "file": "cases/23_one_shared.npz"
+    },
+    {
+      "id": "23_consistent",
+      "kind": "consistent",
+      "trial": 23,
+      "file": "cases/23_consistent.npz"
+    },
+    {
+      "id": "23_conflict",
+      "kind": "conflict",
+      "trial": 23,
+      "file": "cases/23_conflict.npz"
+    },
+    {
+      "id": "23_gauge",
+      "kind": "gauge",
+      "trial": 23,
+      "reference_id": "23_conflict",
+      "file": "cases/23_gauge.npz"
+    },
+    {
+      "id": "23_common_gauge",
+      "kind": "common_gauge",
+      "trial": 23,
+      "reference_id": "23_conflict",
+      "file": "cases/23_common_gauge.npz"
+    },
+    {
+      "id": "23_scale",
+      "kind": "scale",
+      "trial": 23,
+      "reference_id": "23_conflict",
+      "file": "cases/23_scale.npz"
+    },
+    {
+      "id": "23_permutation",
+      "kind": "permutation",
+      "trial": 23,
+      "reference_id": "23_conflict",
+      "file": "cases/23_permutation.npz"
+    },
+    {
+      "id": "23_idempotent",
+      "kind": "idempotent",
+      "trial": 23,
+      "reference_id": "23_conflict",
+      "file": "cases/23_idempotent.npz"
+    },
+    {
+      "id": "23_unique_residual",
+      "kind": "unique_residual",
+      "trial": 23,
+      "reference_id": "23_conflict",
+      "file": "cases/23_unique_residual.npz"
+    },
+    {
+      "id": "24_single",
+      "kind": "single",
+      "trial": 24,
+      "file": "cases/24_single.npz"
+    },
+    {
+      "id": "24_one_shared",
+      "kind": "one_shared",
+      "trial": 24,
+      "file": "cases/24_one_shared.npz"
+    },
+    {
+      "id": "24_consistent",
+      "kind": "consistent",
+      "trial": 24,
+      "file": "cases/24_consistent.npz"
+    },
+    {
+      "id": "24_conflict",
+      "kind": "conflict",
+      "trial": 24,
+      "file": "cases/24_conflict.npz"
+    },
+    {
+      "id": "24_gauge",
+      "kind": "gauge",
+      "trial": 24,
+      "reference_id": "24_conflict",
+      "file": "cases/24_gauge.npz"
+    },
+    {
+      "id": "24_common_gauge",
+      "kind": "common_gauge",
+      "trial": 24,
+      "reference_id": "24_conflict",
+      "file": "cases/24_common_gauge.npz"
+    },
+    {
+      "id": "24_scale",
+      "kind": "scale",
+      "trial": 24,
+      "reference_id": "24_conflict",
+      "file": "cases/24_scale.npz"
+    },
+    {
+      "id": "24_permutation",
+      "kind": "permutation",
+      "trial": 24,
+      "reference_id": "24_conflict",
+      "file": "cases/24_permutation.npz"
+    },
+    {
+      "id": "24_idempotent",
+      "kind": "idempotent",
+      "trial": 24,
+      "reference_id": "24_conflict",
+      "file": "cases/24_idempotent.npz"
+    },
+    {
+      "id": "24_unique_residual",
+      "kind": "unique_residual",
+      "trial": 24,
+      "reference_id": "24_conflict",
+      "file": "cases/24_unique_residual.npz"
+    },
+    {
+      "id": "25_single",
+      "kind": "single",
+      "trial": 25,
+      "file": "cases/25_single.npz"
+    },
+    {
+      "id": "25_one_shared",
+      "kind": "one_shared",
+      "trial": 25,
+      "file": "cases/25_one_shared.npz"
+    },
+    {
+      "id": "25_consistent",
+      "kind": "consistent",
+      "trial": 25,
+      "file": "cases/25_consistent.npz"
+    },
+    {
+      "id": "25_conflict",
+      "kind": "conflict",
+      "trial": 25,
+      "file": "cases/25_conflict.npz"
+    },
+    {
+      "id": "25_gauge",
+      "kind": "gauge",
+      "trial": 25,
+      "reference_id": "25_conflict",
+      "file": "cases/25_gauge.npz"
+    },
+    {
+      "id": "25_common_gauge",
+      "kind": "common_gauge",
+      "trial": 25,
+      "reference_id": "25_conflict",
+      "file": "cases/25_common_gauge.npz"
+    },
+    {
+      "id": "25_scale",
+      "kind": "scale",
+      "trial": 25,
+      "reference_id": "25_conflict",
+      "file": "cases/25_scale.npz"
+    },
+    {
+      "id": "25_permutation",
+      "kind": "permutation",
+      "trial": 25,
+      "reference_id": "25_conflict",
+      "file": "cases/25_permutation.npz"
+    },
+    {
+      "id": "25_idempotent",
+      "kind": "idempotent",
+      "trial": 25,
+      "reference_id": "25_conflict",
+      "file": "cases/25_idempotent.npz"
+    },
+    {
+      "id": "25_unique_residual",
+      "kind": "unique_residual",
+      "trial": 25,
+      "reference_id": "25_conflict",
+      "file": "cases/25_unique_residual.npz"
+    },
+    {
+      "id": "26_single",
+      "kind": "single",
+      "trial": 26,
+      "file": "cases/26_single.npz"
+    },
+    {
+      "id": "26_one_shared",
+      "kind": "one_shared",
+      "trial": 26,
+      "file": "cases/26_one_shared.npz"
+    },
+    {
+      "id": "26_consistent",
+      "kind": "consistent",
+      "trial": 26,
+      "file": "cases/26_consistent.npz"
+    },
+    {
+      "id": "26_conflict",
+      "kind": "conflict",
+      "trial": 26,
+      "file": "cases/26_conflict.npz"
+    },
+    {
+      "id": "26_gauge",
+      "kind": "gauge",
+      "trial": 26,
+      "reference_id": "26_conflict",
+      "file": "cases/26_gauge.npz"
+    },
+    {
+      "id": "26_common_gauge",
+      "kind": "common_gauge",
+      "trial": 26,
+      "reference_id": "26_conflict",
+      "file": "cases/26_common_gauge.npz"
+    },
+    {
+      "id": "26_scale",
+      "kind": "scale",
+      "trial": 26,
+      "reference_id": "26_conflict",
+      "file": "cases/26_scale.npz"
+    },
+    {
+      "id": "26_permutation",
+      "kind": "permutation",
+      "trial": 26,
+      "reference_id": "26_conflict",
+      "file": "cases/26_permutation.npz"
+    },
+    {
+      "id": "26_idempotent",
+      "kind": "idempotent",
+      "trial": 26,
+      "reference_id": "26_conflict",
+      "file": "cases/26_idempotent.npz"
+    },
+    {
+      "id": "26_unique_residual",
+      "kind": "unique_residual",
+      "trial": 26,
+      "reference_id": "26_conflict",
+      "file": "cases/26_unique_residual.npz"
+    },
+    {
+      "id": "27_single",
+      "kind": "single",
+      "trial": 27,
+      "file": "cases/27_single.npz"
+    },
+    {
+      "id": "27_one_shared",
+      "kind": "one_shared",
+      "trial": 27,
+      "file": "cases/27_one_shared.npz"
+    },
+    {
+      "id": "27_consistent",
+      "kind": "consistent",
+      "trial": 27,
+      "file": "cases/27_consistent.npz"
+    },
+    {
+      "id": "27_conflict",
+      "kind": "conflict",
+      "trial": 27,
+      "file": "cases/27_conflict.npz"
+    },
+    {
+      "id": "27_gauge",
+      "kind": "gauge",
+      "trial": 27,
+      "reference_id": "27_conflict",
+      "file": "cases/27_gauge.npz"
+    },
+    {
+      "id": "27_common_gauge",
+      "kind": "common_gauge",
+      "trial": 27,
+      "reference_id": "27_conflict",
+      "file": "cases/27_common_gauge.npz"
+    },
+    {
+      "id": "27_scale",
+      "kind": "scale",
+      "trial": 27,
+      "reference_id": "27_conflict",
+      "file": "cases/27_scale.npz"
+    },
+    {
+      "id": "27_permutation",
+      "kind": "permutation",
+      "trial": 27,
+      "reference_id": "27_conflict",
+      "file": "cases/27_permutation.npz"
+    },
+    {
+      "id": "27_idempotent",
+      "kind": "idempotent",
+      "trial": 27,
+      "reference_id": "27_conflict",
+      "file": "cases/27_idempotent.npz"
+    },
+    {
+      "id": "27_unique_residual",
+      "kind": "unique_residual",
+      "trial": 27,
+      "reference_id": "27_conflict",
+      "file": "cases/27_unique_residual.npz"
+    },
+    {
+      "id": "28_single",
+      "kind": "single",
+      "trial": 28,
+      "file": "cases/28_single.npz"
+    },
+    {
+      "id": "28_one_shared",
+      "kind": "one_shared",
+      "trial": 28,
+      "file": "cases/28_one_shared.npz"
+    },
+    {
+      "id": "28_consistent",
+      "kind": "consistent",
+      "trial": 28,
+      "file": "cases/28_consistent.npz"
+    },
+    {
+      "id": "28_conflict",
+      "kind": "conflict",
+      "trial": 28,
+      "file": "cases/28_conflict.npz"
+    },
+    {
+      "id": "28_gauge",
+      "kind": "gauge",
+      "trial": 28,
+      "reference_id": "28_conflict",
+      "file": "cases/28_gauge.npz"
+    },
+    {
+      "id": "28_common_gauge",
+      "kind": "common_gauge",
+      "trial": 28,
+      "reference_id": "28_conflict",
+      "file": "cases/28_common_gauge.npz"
+    },
+    {
+      "id": "28_scale",
+      "kind": "scale",
+      "trial": 28,
+      "reference_id": "28_conflict",
+      "file": "cases/28_scale.npz"
+    },
+    {
+      "id": "28_permutation",
+      "kind": "permutation",
+      "trial": 28,
+      "reference_id": "28_conflict",
+      "file": "cases/28_permutation.npz"
+    },
+    {
+      "id": "28_idempotent",
+      "kind": "idempotent",
+      "trial": 28,
+      "reference_id": "28_conflict",
+      "file": "cases/28_idempotent.npz"
+    },
+    {
+      "id": "28_unique_residual",
+      "kind": "unique_residual",
+      "trial": 28,
+      "reference_id": "28_conflict",
+      "file": "cases/28_unique_residual.npz"
+    },
+    {
+      "id": "29_single",
+      "kind": "single",
+      "trial": 29,
+      "file": "cases/29_single.npz"
+    },
+    {
+      "id": "29_one_shared",
+      "kind": "one_shared",
+      "trial": 29,
+      "file": "cases/29_one_shared.npz"
+    },
+    {
+      "id": "29_consistent",
+      "kind": "consistent",
+      "trial": 29,
+      "file": "cases/29_consistent.npz"
+    },
+    {
+      "id": "29_conflict",
+      "kind": "conflict",
+      "trial": 29,
+      "file": "cases/29_conflict.npz"
+    },
+    {
+      "id": "29_gauge",
+      "kind": "gauge",
+      "trial": 29,
+      "reference_id": "29_conflict",
+      "file": "cases/29_gauge.npz"
+    },
+    {
+      "id": "29_common_gauge",
+      "kind": "common_gauge",
+      "trial": 29,
+      "reference_id": "29_conflict",
+      "file": "cases/29_common_gauge.npz"
+    },
+    {
+      "id": "29_scale",
+      "kind": "scale",
+      "trial": 29,
+      "reference_id": "29_conflict",
+      "file": "cases/29_scale.npz"
+    },
+    {
+      "id": "29_permutation",
+      "kind": "permutation",
+      "trial": 29,
+      "reference_id": "29_conflict",
+      "file": "cases/29_permutation.npz"
+    },
+    {
+      "id": "29_idempotent",
+      "kind": "idempotent",
+      "trial": 29,
+      "reference_id": "29_conflict",
+      "file": "cases/29_idempotent.npz"
+    },
+    {
+      "id": "29_unique_residual",
+      "kind": "unique_residual",
+      "trial": 29,
+      "reference_id": "29_conflict",
+      "file": "cases/29_unique_residual.npz"
+    },
+    {
+      "id": "30_single",
+      "kind": "single",
+      "trial": 30,
+      "file": "cases/30_single.npz"
+    },
+    {
+      "id": "30_one_shared",
+      "kind": "one_shared",
+      "trial": 30,
+      "file": "cases/30_one_shared.npz"
+    },
+    {
+      "id": "30_consistent",
+      "kind": "consistent",
+      "trial": 30,
+      "file": "cases/30_consistent.npz"
+    },
+    {
+      "id": "30_conflict",
+      "kind": "conflict",
+      "trial": 30,
+      "file": "cases/30_conflict.npz"
+    },
+    {
+      "id": "30_gauge",
+      "kind": "gauge",
+      "trial": 30,
+      "reference_id": "30_conflict",
+      "file": "cases/30_gauge.npz"
+    },
+    {
+      "id": "30_common_gauge",
+      "kind": "common_gauge",
+      "trial": 30,
+      "reference_id": "30_conflict",
+      "file": "cases/30_common_gauge.npz"
+    },
+    {
+      "id": "30_scale",
+      "kind": "scale",
+      "trial": 30,
+      "reference_id": "30_conflict",
+      "file": "cases/30_scale.npz"
+    },
+    {
+      "id": "30_permutation",
+      "kind": "permutation",
+      "trial": 30,
+      "reference_id": "30_conflict",
+      "file": "cases/30_permutation.npz"
+    },
+    {
+      "id": "30_idempotent",
+      "kind": "idempotent",
+      "trial": 30,
+      "reference_id": "30_conflict",
+      "file": "cases/30_idempotent.npz"
+    },
+    {
+      "id": "30_unique_residual",
+      "kind": "unique_residual",
+      "trial": 30,
+      "reference_id": "30_conflict",
+      "file": "cases/30_unique_residual.npz"
+    },
+    {
+      "id": "31_single",
+      "kind": "single",
+      "trial": 31,
+      "file": "cases/31_single.npz"
+    },
+    {
+      "id": "31_one_shared",
+      "kind": "one_shared",
+      "trial": 31,
+      "file": "cases/31_one_shared.npz"
+    },
+    {
+      "id": "31_consistent",
+      "kind": "consistent",
+      "trial": 31,
+      "file": "cases/31_consistent.npz"
+    },
+    {
+      "id": "31_conflict",
+      "kind": "conflict",
+      "trial": 31,
+      "file": "cases/31_conflict.npz"
+    },
+    {
+      "id": "31_gauge",
+      "kind": "gauge",
+      "trial": 31,
+      "reference_id": "31_conflict",
+      "file": "cases/31_gauge.npz"
+    },
+    {
+      "id": "31_common_gauge",
+      "kind": "common_gauge",
+      "trial": 31,
+      "reference_id": "31_conflict",
+      "file": "cases/31_common_gauge.npz"
+    },
+    {
+      "id": "31_scale",
+      "kind": "scale",
+      "trial": 31,
+      "reference_id": "31_conflict",
+      "file": "cases/31_scale.npz"
+    },
+    {
+      "id": "31_permutation",
+      "kind": "permutation",
+      "trial": 31,
+      "reference_id": "31_conflict",
+      "file": "cases/31_permutation.npz"
+    },
+    {
+      "id": "31_idempotent",
+      "kind": "idempotent",
+      "trial": 31,
+      "reference_id": "31_conflict",
+      "file": "cases/31_idempotent.npz"
+    },
+    {
+      "id": "31_unique_residual",
+      "kind": "unique_residual",
+      "trial": 31,
+      "reference_id": "31_conflict",
+      "file": "cases/31_unique_residual.npz"
+    },
+    {
+      "id": "tree_chain",
+      "kind": "tree_chain",
+      "file": "cases/tree_chain.npz"
+    },
+    {
+      "id": "tree_star",
+      "kind": "tree_star",
+      "file": "cases/tree_star.npz"
+    },
+    {
+      "id": "wrong_consistent",
+      "kind": "wrong_consistent",
+      "file": "cases/wrong_consistent.npz"
+    },
+    {
+      "id": "coincident",
+      "kind": "coincident",
+      "expected_error": "undefined_fit",
+      "file": "cases/coincident.npz"
+    },
+    {
+      "id": "collinear",
+      "kind": "collinear",
+      "expected_error": "undefined_fit",
+      "file": "cases/collinear.npz"
+    },
+    {
+      "id": "collapsed_target",
+      "kind": "collapsed_target",
+      "expected_error": "undefined_fit",
+      "file": "cases/collapsed_target.npz"
+    },
+    {
+      "id": "reflected_ambiguous",
+      "kind": "reflected_ambiguous",
+      "expected_error": "undefined_fit",
+      "file": "cases/reflected_ambiguous.npz"
+    },
+    {
+      "id": "disconnected",
+      "kind": "disconnected",
+      "expected_error": "undefined_fit",
+      "file": "cases/disconnected.npz"
+    },
+    {
+      "id": "toy_constant_velocity",
+      "kind": "toy_constant_velocity",
+      "file": "cases/toy_constant_velocity.npz"
+    },
+    {
+      "id": "toy_state_dependent",
+      "kind": "toy_state_dependent",
+      "file": "cases/toy_state_dependent.npz"
+    }
+  ],
+  "wall_seconds": 1.1579695001710206,
+  "peak_rss_bytes": 41951232,
+  "artifact_bytes": 6757383
+}

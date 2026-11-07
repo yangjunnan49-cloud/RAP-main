@@ -1,0 +1,9 @@
+# TT2 complete CPU tensor-transfer revision
+
+The new revision passes17 independent struct/layout controls and complete transfer of344 RAP plus58 miniSpinNet descriptor state tensors. Both strict=True loads have no missing/unexpected keys. Every loaded CPU state's bytes match its sealed checkpoint storage SHA and finite-value gate. Each model has an exclusive result and SHA seal before the next model; aggregate402 success exists. No unpickling, neural forward, real point or reference read occurs, and the candidate is uninstalled.
+
+The exact frozen SL1 predicate accepts singleton-axis strides without changing logical row-major addresses and retains transpose/alias/offset/hash/size/dtype/nonfinite rejection. TT1's original source/canonical gate, failed result and cost remain unchanged. A preparatory shell string replacement initially did not match newline formatting; the explicit source patch corrected the new candidate before freeze or any worker, with all preparation charged to TT2. No successful old payload is relabelled.
+
+Torch/NumPy seed42 occurs once before sequential CPU architecture construction. Full small tracked states and hashes are recorded at five boundaries. Parameter transfer itself leaves tracked Torch CPU and NumPy state bytes unchanged for both models. This does not certify every hidden/Python/native/GPU state or legacy constructor equivalence; original-backend integration is the next separate prerequisite.
+
+Worker peak1,747,140,608 bytes, watcher observed1,748,946,944 bytes, below4GiB. Transfer worker10.419s is a stage time only; original inclusive1500s cost includes all preparation/control/analysis/closure. Actual RAP/descriptor forward calls0; no physical efficacy or GPU feasibility follows. Closed CB1/TT1/RI1 and old scientific limits remain. Complete CPU success permits a separately frozen constructor integration, not automatic inference.

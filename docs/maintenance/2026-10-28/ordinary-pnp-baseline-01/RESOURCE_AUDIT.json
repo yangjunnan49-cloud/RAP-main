@@ -1,0 +1,63 @@
+{
+  "utc": "2026-10-28T12:53:32.164127+00:00",
+  "origin_utc": "2026-10-28T12:37:44+00:00",
+  "inclusive_seconds": 948.164127,
+  "whole_scope_cap_seconds": 3600,
+  "cap_pass": true,
+  "stage_receipts": [
+    {
+      "stage": "controls",
+      "exit_utc": "2026-10-28T12:46:34.1133092+00:00",
+      "elapsed_seconds": 0.9078534,
+      "passed": true,
+      "no_live_owned_process": true,
+      "child_lifetime_peak_bytes": 39665664,
+      "forced_stop": false,
+      "host_poll_peak_bytes": 39493632,
+      "error": null,
+      "exit_code": 0
+    },
+    {
+      "stage": "predict",
+      "error": null,
+      "passed": true,
+      "exit_code": 0,
+      "host_poll_peak_bytes": 40493056,
+      "child_lifetime_peak_bytes": 40493056,
+      "elapsed_seconds": 0.9867376,
+      "exit_utc": "2026-10-28T12:47:07.6082178+00:00",
+      "no_live_owned_process": true,
+      "forced_stop": false
+    },
+    {
+      "stage": "evaluate",
+      "host_poll_peak_bytes": 32489472,
+      "error": null,
+      "exit_code": 0,
+      "elapsed_seconds": 0.5546433,
+      "no_live_owned_process": true,
+      "child_lifetime_peak_bytes": 35672064,
+      "passed": true,
+      "forced_stop": false,
+      "exit_utc": "2026-10-28T12:47:33.9878315+00:00"
+    },
+    {
+      "stage": "audit",
+      "exit_utc": "2026-10-28T12:47:38.2826047+00:00",
+      "host_poll_peak_bytes": 34242560,
+      "error": null,
+      "exit_code": 0,
+      "passed": true,
+      "elapsed_seconds": 0.8045603,
+      "child_lifetime_peak_bytes": 47562752,
+      "forced_stop": false,
+      "no_live_owned_process": true
+    }
+  ],
+  "sum_child_host_wall_seconds": 3.2537946,
+  "max_child_lifetime_peak_bytes": 47562752,
+  "dossier_bytes_before_closure": 939554,
+  "dossier_cap_bytes": 16777216,
+  "all_owned_children_reaped": true,
+  "no_other_process_or_WSL_state_claim": true
+}

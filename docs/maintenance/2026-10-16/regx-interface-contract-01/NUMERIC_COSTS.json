@@ -1,0 +1,53 @@
+{
+  "accounting_scope": "Four original launcher invocations plus retained original prestart stop; metadata preparation/receipt inspection separate",
+  "original_prestart_charged_seconds": 2.1993678,
+  "new_enclosing_tool_command_seconds": 20.4152262,
+  "combined_charged_seconds": 22.614594,
+  "remaining_original_900_seconds": 877.385406,
+  "original_cap_seconds": 900,
+  "no_cap_reset": true,
+  "overlap_rule": "Supervisor and Linux-child durations are nested within each tool-command duration, not added again",
+  "new_invocations": [
+    {
+      "stage": "synthetic",
+      "receipt": {
+        "chunk_id": "7b5a2c",
+        "wall_time_seconds": 4.5420148000000005,
+        "exit_code": 0,
+        "original_token_count": 57,
+        "output": "{\"stage\": \"synthetic\", \"success\": true, \"no_model_solver\": true}\r\n{\"exit_code\":0,\"utc_end\":\"2026-10-17T12:20:31.6675892Z\",\"wall_seconds\":3.958214,\"host_memory_observations\":5,\"minimum_observed_headroom_bytes\":106401820672.0}\r\n"
+      }
+    },
+    {
+      "stage": "build",
+      "receipt": {
+        "chunk_id": "ef81e5",
+        "wall_time_seconds": 9.2008154,
+        "exit_code": 0,
+        "original_token_count": 56,
+        "output": "{\"stage\": \"build\", \"success\": true, \"no_model_solver\": true}\r\n{\"exit_code\":0,\"utc_end\":\"2026-10-17T12:20:58.0794620Z\",\"wall_seconds\":8.6561326,\"host_memory_observations\":11,\"minimum_observed_headroom_bytes\":105580855296.0}\r\n"
+      }
+    },
+    {
+      "stage": "consume",
+      "receipt": {
+        "chunk_id": "da7f82",
+        "wall_time_seconds": 3.7366513,
+        "exit_code": 0,
+        "original_token_count": 57,
+        "output": "{\"stage\": \"consume\", \"success\": true, \"no_model_solver\": true}\r\n{\"exit_code\":0,\"utc_end\":\"2026-10-17T12:21:17.9288282Z\",\"wall_seconds\":3.1763801,\"host_memory_observations\":4,\"minimum_observed_headroom_bytes\":106057285632.0}\r\n"
+      }
+    },
+    {
+      "stage": "validation",
+      "receipt": {
+        "chunk_id": "fd2012",
+        "wall_time_seconds": 2.9357447,
+        "exit_code": 0,
+        "original_token_count": 59,
+        "output": "{\"points\": 56557, \"coordinate_checks_each\": 169671, \"independent\": true}\r\n{\"exit_code\":0,\"utc_end\":\"2026-10-17T12:21:32.5615061Z\",\"wall_seconds\":2.3924799,\"host_memory_observations\":3,\"minimum_observed_headroom_bytes\":105862979584.0}\r\n"
+      }
+    }
+  ],
+  "full_native_process_tree_and_observer_peak_RSS": "UNKNOWN"
+}

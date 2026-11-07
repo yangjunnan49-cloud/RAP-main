@@ -1,0 +1,26 @@
+{
+  "name": "V1",
+  "arm": "V",
+  "rep": 1,
+  "loss_before": 7.229966710778734e-06,
+  "gradient_L2_norm": 0.002268190009600849,
+  "predetermined_radius": 3.1875489620250323e-06,
+  "steps": [
+    {
+      "sign": -1,
+      "loss": 7.222755401442041e-06,
+      "actual_gradient_dot": -7.229966710781719e-09,
+      "actual_parameter_L2_norm": 3.1875489620263486e-06
+    },
+    {
+      "sign": 1,
+      "loss": 7.237215334725144e-06,
+      "actual_gradient_dot": 7.229966710781719e-09,
+      "actual_parameter_L2_norm": 3.1875489620263486e-06
+    }
+  ],
+  "restored_output_byteexact": true,
+  "actual_transient_signed_parameter_steps": 2,
+  "optimizer_API_calls": 0,
+  "retained_updates": 0
+}

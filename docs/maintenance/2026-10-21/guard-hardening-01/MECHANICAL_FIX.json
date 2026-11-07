@@ -1,0 +1,6 @@
+{
+  "original_failure": "Host attempted exact stop after child already exited",
+  "old_case_retained": true,
+  "fix": "Missing original process is an idempotent safe completion; no signal to another process",
+  "same360s_cap": true
+}

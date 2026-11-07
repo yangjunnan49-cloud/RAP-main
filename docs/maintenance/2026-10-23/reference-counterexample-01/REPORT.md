@@ -1,0 +1,9 @@
+# RC1 exact reference-admission memo
+
+The invented translation example proves that inverse-augmentation consistency alone cannot authenticate physical registration truth. Let physical corresponding coordinates be P, purported world coordinates W_i=P+D_i, and augmented inputs X_i=W_i+A_i. Published inverse augmentations Q_i=-A_i return Q_i(X_i)=W_i exactly. A deliberately inadmissible label-copying oracle therefore scores zero against those labels even if the independently stipulated physical offsets D_i differ.
+
+For source s and reference r, the published relative translation is A_r-A_s; the independent physical mapping requires A_r+D_r-A_s-D_s. Their error is D_s-D_r. Invented offsets0,(5,0,0),(0,7,0) give exact squared discrepancies0,25,49,74 across all9 ordered pairs. These arbitrary numbers are mathematical examples, not registration results or real-dataset measurements. No generic inverse/fit/recovery implementation or retired benchmark family is executed.
+
+This does not establish that actual author data is wrong. If its common world frame/calibration/alignment were independently authenticated, inverse augmentation could inherit a valid reference. The currently missing evidence is that authentication and an appropriate unexposed cohort, not another algebraic roundtrip. The example supports RA1's existing physical-efficacy NOT_ADMITTED decision without reading any actual author world, private reference, point, weight or model file. No new RAP prediction or score is produced.
+
+Fraction/integer arithmetic verifies the translation identities exactly. Owned stdlib process exits0 with observed peak12,283,904 bytes, within128MiB. This post-bundle documentary addendum leaves the immutable1109-member delivery snapshot unchanged; its own source freeze, result and original600s cost are separate.

@@ -1,0 +1,11 @@
+# Current closeout - 2026-10-22
+
+Owner requested final closeout and records only. All current work is CLOSED; no new experiment or automatic quota-reset continuation is pending. Authoritative final record: C:/Users/AAA/Documents/Codex/2026-10-21/y/outputs/closeout_20261022/REPORT_CN.md, CURRENT_STATE.json and BOUNDARY_CORRECTION.json; repository snapshot: docs/maintenance/2026-10-22/closeout-01/snapshot.
+
+The Oct21 evening limit was actually observed at 2026-10-21 14:14:09 UTC: 100 percent, ordinary usage false, reset1792606846. The earlier reset1792606845 differs by one second. Original ACCOUNT_STOP/BOUNDARY_CLOSE incorrectly prioritized that change as WINDOW_CHANGED_NOT_EXHAUSTION. The additive correction supersedes that classification only; original bytes remain intact. No cause or window-rollover inference is established. The old finite closeout was already CLOSED at 309/900 seconds, PASS; today's documentary closeout is separate. Prior 240-second failed closure at 21286.351482 seconds and every scientific cap/failure remain unchanged.
+
+Research state: P0 queue4 remains CLOSED_EQUIVALENCE_FAIL; N1 remains incomplete at its original 16 MiB recording cap. N2 completed two serial coarse G06 controls (2202 frames): first visible difference at ICP return, frame564/event6340 after 6340 equal recorded events; final translation-matrix element difference about 2.71 micrometers, cause UNKNOWN, no explanation of the historical 4.31 mm. Two coarse trajectories are sealed and exported. C0 was already complete on Oct17; CN1 passed 17 synthetic controls only and authenticates neither actual RAP outputs nor canonical preprocessing. Existing two-part backend recovery is algebraically consistent under its assumptions; do not rebuild a supposedly missing generic recovery layer.
+
+Original research objective remains UNRESOLVED and manuscript drafting paused; no new RAP efficacy demonstrated. Next planning prerequisite is source-bound custom/N-way batch, anchor/features, output transform semantics and external-reference separation (see evening NEXT_SOURCE_BINDING_PLAN.md). No numerical payload admitted. Preserve all original stops, source/reference boundaries, defaults, production, Git, installation, outreach, scheduler and goal-status limits. Historical ACTIVE text below is retained evidence and is superseded by this dated closeout.
+
+---

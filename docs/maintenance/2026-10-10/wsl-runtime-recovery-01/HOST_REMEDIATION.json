@@ -1,0 +1,56 @@
+{
+  "utc_start": "2026-10-10T14:31:44.3471600Z",
+  "utc_end": "2026-10-10T14:31:49.2344469Z",
+  "action": "Human-approved targeted NVIDIA Overlay restart",
+  "original_root_pid": 18820,
+  "new_root_pid": 194792,
+  "affected_pids": [
+    18820,
+    21788,
+    21304,
+    22624,
+    23352
+  ],
+  "CAD_before": [],
+  "CAD_process_preserved": true,
+  "prior_CAD_193076_absent_before_action": true,
+  "CAD_stop_calls": 0,
+  "before_memory": {
+    "CommittedBytes": 62675546112,
+    "CommitLimit": 96467255296,
+    "AvailableBytes": 11636039680
+  },
+  "after_memory": {
+    "CommittedBytes": 43592843264,
+    "CommitLimit": 96467255296,
+    "AvailableBytes": 12459868160
+  },
+  "new_overlay_processes": [
+    {
+      "Id": 93048,
+      "PrivateMemorySize64": 129990656,
+      "WorkingSet64": 83779584
+    },
+    {
+      "Id": 188484,
+      "PrivateMemorySize64": 177061888,
+      "WorkingSet64": 218681344
+    },
+    {
+      "Id": 192900,
+      "PrivateMemorySize64": 88764416,
+      "WorkingSet64": 132288512
+    },
+    {
+      "Id": 194640,
+      "PrivateMemorySize64": 9732096,
+      "WorkingSet64": 25530368
+    },
+    {
+      "Id": 285104,
+      "PrivateMemorySize64": 13996032,
+      "WorkingSet64": 36921344
+    }
+  ],
+  "commit_released_bytes": 19082702848
+}

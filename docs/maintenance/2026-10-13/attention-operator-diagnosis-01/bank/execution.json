@@ -1,0 +1,144 @@
+{
+  "utc": "2026-10-13T01:28:18.712838+00:00",
+  "records": [
+    {
+      "name": "V_default1",
+      "arm": "V",
+      "backend": "default",
+      "rep": 1,
+      "wall_seconds": 2.4956865929998457,
+      "dispatched_ATen_names": [
+        "aten::_scaled_dot_product_flash_attention",
+        "aten::_scaled_dot_product_flash_attention_backward",
+        "aten::scaled_dot_product_attention"
+      ],
+      "archive_forward_max_delta": 0.0,
+      "heads": 8,
+      "head_dim": 64
+    },
+    {
+      "name": "V_default2",
+      "arm": "V",
+      "backend": "default",
+      "rep": 2,
+      "wall_seconds": 2.1749331559985876,
+      "dispatched_ATen_names": [],
+      "archive_forward_max_delta": 0.0,
+      "heads": 8,
+      "head_dim": 64
+    },
+    {
+      "name": "V_math1",
+      "arm": "V",
+      "backend": "math",
+      "rep": 1,
+      "wall_seconds": 2.6923815100017237,
+      "dispatched_ATen_names": [
+        "aten::_scaled_dot_product_attention_math",
+        "aten::scaled_dot_product_attention"
+      ],
+      "archive_forward_max_delta": 0.00390625,
+      "heads": 8,
+      "head_dim": 64
+    },
+    {
+      "name": "V_math2",
+      "arm": "V",
+      "backend": "math",
+      "rep": 2,
+      "wall_seconds": 2.5977493280006456,
+      "dispatched_ATen_names": [],
+      "archive_forward_max_delta": 0.00390625,
+      "heads": 8,
+      "head_dim": 64
+    },
+    {
+      "name": "P_default1",
+      "arm": "P",
+      "backend": "default",
+      "rep": 1,
+      "wall_seconds": 2.384891843998048,
+      "dispatched_ATen_names": [
+        "aten::_scaled_dot_product_flash_attention",
+        "aten::_scaled_dot_product_flash_attention_backward",
+        "aten::scaled_dot_product_attention"
+      ],
+      "archive_forward_max_delta": 0.0,
+      "heads": 8,
+      "head_dim": 64
+    },
+    {
+      "name": "P_default2",
+      "arm": "P",
+      "backend": "default",
+      "rep": 2,
+      "wall_seconds": 2.3488431830046466,
+      "dispatched_ATen_names": [],
+      "archive_forward_max_delta": 0.0,
+      "heads": 8,
+      "head_dim": 64
+    },
+    {
+      "name": "P_math1",
+      "arm": "P",
+      "backend": "math",
+      "rep": 1,
+      "wall_seconds": 2.4474894309969386,
+      "dispatched_ATen_names": [
+        "aten::_scaled_dot_product_attention_math",
+        "aten::scaled_dot_product_attention"
+      ],
+      "archive_forward_max_delta": 0.00390625,
+      "heads": 8,
+      "head_dim": 64
+    },
+    {
+      "name": "P_math2",
+      "arm": "P",
+      "backend": "math",
+      "rep": 2,
+      "wall_seconds": 2.365318727999693,
+      "dispatched_ATen_names": [],
+      "archive_forward_max_delta": 0.00390625,
+      "heads": 8,
+      "head_dim": 64
+    }
+  ],
+  "projection": [
+    {
+      "arm": "V",
+      "cotangent_repeated_byteexact": true
+    },
+    {
+      "arm": "P",
+      "cotangent_repeated_byteexact": true
+    }
+  ],
+  "strict_checkpoint": {
+    "strict": true,
+    "keys": 344,
+    "weights_only": true,
+    "allowed": [
+      "builtins.dict",
+      "builtins.int",
+      "builtins.list",
+      "collections.defaultdict",
+      "numpy._core.multiarray._reconstruct",
+      "numpy.dtype",
+      "numpy.ndarray",
+      "omegaconf.base.ContainerMetadata",
+      "omegaconf.base.Metadata",
+      "omegaconf.listconfig.ListConfig",
+      "omegaconf.nodes.AnyNode",
+      "typing.Any"
+    ],
+    "descriptor_loaded": false
+  },
+  "operator_VJPs": 8,
+  "projection_VJPs": 4,
+  "native_whole_forwards": 0,
+  "prefix_calls": 0,
+  "optimizer_calls": 0,
+  "parameter_updates": 0,
+  "backend_flags_restored": true
+}

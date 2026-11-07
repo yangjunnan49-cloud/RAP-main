@@ -1,0 +1,5 @@
+# Window ended by reset; no automatic scientific continuation
+
+Read CURRENT_STATE.json,WINDOW_BOUNDARY.json,REPORT.md and CHECKS.json here. PR1 complete200 outputs/evaluation/audit:17numerical metric-camera poses/all00,none08;no added coverage of64 old missing-proposal IDs. PT1 real-backend normalization screen complete68cases:plain pretranslation is analytically recentered under fixed-point conditions,not actual model/pipeline invariance. No model/training/WSL/install. All old failures/caps/source limitations remain; researchUNRESOLVED/manuscriptPAUSED.
+
+Current account changed to1%/TRUE/reset1793254601 after priorlast54%/TRUE/reset1793208661. PrioractualexhaustionUNOBSERVED. No new explicit scientific renewal after this reset; stop at documentary handoff. No pending worker,automation or goal-status action. Do not rerun closed hosts. A future direct renewal may prepare a distinct justified full-cohort common-raw geometry/public-initializer comparison under its own controls/source/resources,not automatically run a model or old failed family.

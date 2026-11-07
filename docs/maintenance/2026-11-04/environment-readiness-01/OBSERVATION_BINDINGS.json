@@ -1,0 +1,32 @@
+{
+  "binding_collected_after_execution": true,
+  "not_an_execution_time_signature": true,
+  "scripts": [
+    {
+      "path": "docs\\maintenance\\2026-11-04\\environment-readiness-01\\collect_linux.py",
+      "sha256": "7d7c5a57f650e588de3d280c653a1eb150d739261f92dabd7dd4df99fd5c7bd2"
+    },
+    {
+      "path": "docs\\maintenance\\2026-11-04\\environment-readiness-01\\collect_supplement.py",
+      "sha256": "9e58bb50d96ae3518dfafbbdb3269f797075522af5cf424f0a65934d8d34dd99"
+    },
+    {
+      "path": "scripts\\environment\\cpu_probe.py",
+      "sha256": "36f6c670c2a519915c381151f3e2bc6bfcb3b4cdc96d273e1ef1d9e0cfbc1742"
+    }
+  ],
+  "receipts": [
+    {
+      "path": "LINUX_OBSERVATION.json",
+      "sha256": "a9a2956fdd8d8fffe9d1a98927fd22a39cc4399ebf48c01b7f7db2387be2527e"
+    },
+    {
+      "path": "LINUX_SUPPLEMENT.json",
+      "sha256": "526583feecd73668c0f57c26d1c55fbfa211f9211a0186b2abcd7b87e44508e7"
+    },
+    {
+      "path": "CPU_PROBE.json",
+      "sha256": "0e706c57816e9ad54d42fe22e3f93b532e5adceb39244981cd1fa5a8e5d3ec1b"
+    }
+  ]
+}

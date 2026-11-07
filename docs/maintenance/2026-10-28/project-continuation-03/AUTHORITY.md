@@ -1,0 +1,7 @@
+# Explicit new-window human renewal
+
+The owner again directly requested "请继续推进至5h额度耗尽" after the preceding finite scientific children had completed. A fresh account receipt followed by2026-10-28 12:31:02UTC reports0%/ordinaryUsageAllowedTRUE/reset1793208661. The old window's last actual observation was85%/TRUE/reset1793187718, adjacent to07:32:43UTC. No actual exhaustion/ordinary-disabled observation is available for that old window. The changed reset identity is observed now; its exact transition time/cause is not inferred.
+
+This direct human renewal authorizes useful project continuation in the new current window. It is not automatic reset resume, an automation, or goal-status action. Preserve every earlier finite source/payload failure, resource limit and scientific negative result. Completed ER1/VR1/SD1 stages are not replayed; their later documentary additions are dated separately from primary output seals.
+
+Immediate work: close the already-complete SD1 source-depth adequacy records with exact limitations and protocol deviations, then prepare a complete separately frozen ordinary camera PnP baseline on all200 cases. Its input depth assignments are proximity hypotheses, not authenticated correspondences. No PnP numerical payload is admitted until its own implementation/API/control/source/resource contract is complete. No model/adapter training, manuscript completion, metric raw/corrected-LiDAR equivalence, system/default/production/Git writes/network/install/WSL/outreach/scheduler/goal-status action is automatic from this renewal.

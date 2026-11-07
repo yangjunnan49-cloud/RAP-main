@@ -1,0 +1,105 @@
+{
+  "utc": "2026-10-28T07:04:39.152735+00:00",
+  "files": [
+    {
+      "path": "baseline_lib.py",
+      "bytes": 10222,
+      "sha256": "2ae8a0af4ca5e7e381df8f7ffc1e3ef208647d2605a37bee925ab9d5c67f0aec",
+      "role": "shared"
+    },
+    {
+      "path": "refine_lib.py",
+      "bytes": 6205,
+      "sha256": "7d6c29ab8eaf11d16409cf32306d0e9f6f410d61f6cdfd02e00d2a19ea3cc083",
+      "role": "shared"
+    },
+    {
+      "path": "METHOD.json",
+      "bytes": 1116,
+      "sha256": "202c91baa94312620451ae67abe8cdf6b2fc6982605537fb76e6ef0aaf0f3b41",
+      "role": "shared"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 6141,
+      "sha256": "e09be0f39383d2148acb8cb6620cdc9913a59fe8f0cdf37b25f85739bc07363a",
+      "role": "shared"
+    },
+    {
+      "path": "REFERENCE_PROTOCOL.md",
+      "bytes": 7727,
+      "sha256": "335e1c3b73a084d658295a8fcc0cd6860b599a39b8a7c37e13ce7b5cc6089680",
+      "role": "shared"
+    },
+    {
+      "path": "ORIGINAL_BINDING.json",
+      "bytes": 1271,
+      "sha256": "2bb6524a506fe95ab44bbadc23c4cd52816d3d30fc983b07191f2917decb75b7",
+      "role": "shared"
+    },
+    {
+      "path": "controls.py",
+      "bytes": 6683,
+      "sha256": "c18b6cf57d841b59b28bde0e8d736f3a5a24c704a857dfa51157f1046ecf32b9",
+      "role": "controls"
+    },
+    {
+      "path": "features.py",
+      "bytes": 2620,
+      "sha256": "f080c8e06d1fa3f7abfdcb5cbeaa0cf921324568553be00a867dd109abca2dd7",
+      "role": "prediction"
+    },
+    {
+      "path": "predict.py",
+      "bytes": 2611,
+      "sha256": "7b3de34d847977334339cdfb26dc3aa0b47772a28633a21a226503a4a915db1d",
+      "role": "prediction"
+    },
+    {
+      "path": "PREDICTION_INPUTS.json",
+      "bytes": 128427,
+      "sha256": "0367f51575161e2b261dc28965fd0d167a9d260c898acc70cb1ae89565776409",
+      "role": "prediction"
+    },
+    {
+      "path": "evaluate.py",
+      "bytes": 8226,
+      "sha256": "e6b3ab2da0aa20ed4978a004c991ca2b03db554fb29a2ad1e27369c2359cdf7a",
+      "role": "evaluation"
+    },
+    {
+      "path": "EVALUATION_INPUTS.json",
+      "bytes": 1152,
+      "sha256": "4a7cb6d5180fd9c9ab5696a54a7f6321e69416026eefbd4092a4784a82b32a43",
+      "role": "evaluation"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 12741,
+      "sha256": "5549af9dbaf5799d86a98006a0260448f8c67e857d2cfa7426d3c0df96f51f86",
+      "role": "audit"
+    },
+    {
+      "path": "host.ps1",
+      "bytes": 6645,
+      "sha256": "526970bdc4f7e1041318b8e8d467a42b04c45c9940f626dbbc46f5013a46e850",
+      "role": "host"
+    },
+    {
+      "path": "prepare.py",
+      "bytes": 8346,
+      "sha256": "a7a33caf30274bad3a534ca3a1850148529df3775620f90f651c2be81e233736",
+      "role": "preparation"
+    },
+    {
+      "path": "audit_refit.py",
+      "bytes": 5876,
+      "sha256": "bbb16e68dcb23369231f536255a86ff2bbea85ade442fc70a0f90d4d7e1cf0fb",
+      "role": "audit"
+    }
+  ],
+  "measured_image_feature_or_pose_calls": 0,
+  "supplied_reference_decodes": 0,
+  "original_VB1_fail_unchanged": true,
+  "refit_parameters_frozen_before_controls_and_images": true
+}

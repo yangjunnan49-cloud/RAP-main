@@ -1,0 +1,173 @@
+{
+  "descriptive_only": true,
+  "source_result_sha256": "76901a022ed27a8fe576378d64c73156ce117b8304622324adbbe872d81e30a9",
+  "sources": {
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/analyze_weekly_strategy.py": "e8dafb8d359fb88adeebcfddc69d852f8357f7632c869d5eed521137c53f04c8",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-20/weekly-system-handoff-01/STRATEGY_ANALYSIS_SCOPE.md": "345a771655760331d5475ea32a4f1bd32436b80542200a12871108f4fb83dc38"
+  },
+  "groups": {
+    "original_targets": {
+      "sequences": [
+        "00",
+        "05"
+      ],
+      "means": {
+        "B": {
+          "ate": 2.024568166085057,
+          "ter": 0.41932185374280373,
+          "rer": 0.14963161401969838
+        },
+        "G": {
+          "ate": 0.6233933843993613,
+          "ter": 0.4473676737385082,
+          "rer": 0.1279910316355754
+        },
+        "KISS": {
+          "ate": 0.7887741018838121,
+          "ter": 0.5462611619004349,
+          "rer": 0.18485753866464003
+        }
+      },
+      "G_ATE_gain_vs_B_pct": 69.20857519928173,
+      "G_ATE_gain_vs_KISS_pct": 20.966803688087076
+    },
+    "remaining_four": {
+      "sequences": [
+        "06",
+        "07",
+        "09",
+        "10"
+      ],
+      "means": {
+        "B": {
+          "ate": 0.6243234021362882,
+          "ter": 0.46108921444778184,
+          "rer": 0.13358702047930363
+        },
+        "G": {
+          "ate": 0.6608073947576862,
+          "ter": 0.4467445812257926,
+          "rer": 0.1424276041185987
+        },
+        "KISS": {
+          "ate": 0.6551459901180137,
+          "ter": 0.4447902991080116,
+          "rer": 0.13962119890927793
+        }
+      },
+      "G_ATE_gain_vs_B_pct": -5.843765025715575,
+      "G_ATE_gain_vs_KISS_pct": -0.8641439808938944
+    },
+    "all_six": {
+      "sequences": [
+        "00",
+        "05",
+        "06",
+        "07",
+        "09",
+        "10"
+      ],
+      "means": {
+        "B": {
+          "ate": 1.0910716567858778,
+          "ter": 0.44716676087945584,
+          "rer": 0.13893521832610187
+        },
+        "G": {
+          "ate": 0.6483360579715779,
+          "ter": 0.4469522787300311,
+          "rer": 0.13761541329092425
+        },
+        "KISS": {
+          "ate": 0.6996886940399465,
+          "ter": 0.47861392003881936,
+          "rer": 0.15469997882773195
+        }
+      },
+      "G_ATE_gain_vs_B_pct": 40.57804966893998,
+      "G_ATE_gain_vs_KISS_pct": 7.339354845347379
+    }
+  },
+  "contributions": {
+    "00": {
+      "B_minus_G_ATE_m": 1.8670692820248367,
+      "share_of_signed_total_pct": 70.28533836090418,
+      "G_minus_B_ter_pp": 0.05548622284411453
+    },
+    "05": {
+      "B_minus_G_ATE_m": 0.935280281346555,
+      "share_of_signed_total_pct": 35.20838335759724,
+      "G_minus_B_ter_pp": 0.0006054171472944514
+    },
+    "06": {
+      "B_minus_G_ATE_m": -0.018241327135253782,
+      "share_of_signed_total_pct": -0.6866900238767893,
+      "G_minus_B_ter_pp": 0.004274115563817571
+    },
+    "07": {
+      "B_minus_G_ATE_m": 0.0018815117651395652,
+      "share_of_signed_total_pct": 0.0708290218879501,
+      "G_minus_B_ter_pp": 0.012555432660537935
+    },
+    "09": {
+      "B_minus_G_ATE_m": -0.12957615511528275,
+      "share_of_signed_total_pct": -4.877860716505272,
+      "G_minus_B_ter_pp": -0.07420808076066598
+    },
+    "10": {
+      "B_minus_G_ATE_m": -1.9473311851925246e-13,
+      "share_of_signed_total_pct": -7.330677686666394e-12,
+      "G_minus_B_ter_pp": -3.516466007269514e-10
+    }
+  },
+  "new_trial_or_gate": false,
+  "primary_gate_unchanged": {
+    "means": {
+      "B": {
+        "ate": 1.0910716567858778,
+        "ter": 0.44716676087945584,
+        "rer": 0.13893521832610187
+      },
+      "G": {
+        "ate": 0.6483360579715779,
+        "ter": 0.4469522787300311,
+        "rer": 0.13761541329092425
+      },
+      "KISS": {
+        "ate": 0.6996886940399465,
+        "ter": 0.47861392003881936,
+        "rer": 0.15469997882773195
+      }
+    },
+    "primary": {
+      "mean_ATE_better": true,
+      "mean_ter_nonworse": true
+    },
+    "safety": {
+      "00_ter": true,
+      "00_rer": true,
+      "05_ter": true,
+      "05_rer": true,
+      "06_ter": true,
+      "06_rer": true,
+      "07_ter": false,
+      "07_rer": true,
+      "09_ter": true,
+      "09_rer": true,
+      "10_ter": true,
+      "10_rer": false
+    },
+    "primary_passed": true,
+    "safety_passed": false,
+    "deployable": false,
+    "ATE_gain5pct": true,
+    "ATE_harm_over5pct": {
+      "00": false,
+      "05": false,
+      "06": true,
+      "07": false,
+      "09": false,
+      "10": true
+    }
+  }
+}

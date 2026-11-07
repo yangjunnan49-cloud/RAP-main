@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-09",
+  "scope": "Read-only source and opaque checkpoint hashing only.",
+  "source_bindings": [
+    {
+      "relative_path": "rectified_point_flow/modeling.py",
+      "source_path": "E:\\githouse\\RAP-main\\rectified_point_flow\\modeling.py",
+      "snapshot_path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-09\\local-generative-adaptation-design-01\\source_snapshot\\rectified_point_flow__modeling.py",
+      "sha256": "d0d766d6f8b24d04150e5b2e009b54c6496bc3d8ae34a27e2abfcda07f610257",
+      "matches_RLP2_full_bank_freeze": true
+    },
+    {
+      "relative_path": "rectified_point_flow/sampler.py",
+      "source_path": "E:\\githouse\\RAP-main\\rectified_point_flow\\sampler.py",
+      "snapshot_path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-09\\local-generative-adaptation-design-01\\source_snapshot\\rectified_point_flow__sampler.py",
+      "sha256": "6166a9dfd75ab721af64edf7bea99004acbad642c94d310dba55e849e7a4cf25",
+      "matches_RLP2_full_bank_freeze": true
+    },
+    {
+      "relative_path": "rectified_point_flow/procrustes.py",
+      "source_path": "E:\\githouse\\RAP-main\\rectified_point_flow\\procrustes.py",
+      "snapshot_path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-09\\local-generative-adaptation-design-01\\source_snapshot\\rectified_point_flow__procrustes.py",
+      "sha256": "cb8f6bc040eef491e149bfdb82ec29da4c7865925e8cb6730b9f72b109c5cfe1",
+      "matches_RLP2_full_bank_freeze": true
+    },
+    {
+      "relative_path": "rectified_point_flow/flow_model/point_cloud_dit.py",
+      "source_path": "E:\\githouse\\RAP-main\\rectified_point_flow\\flow_model\\point_cloud_dit.py",
+      "snapshot_path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-09\\local-generative-adaptation-design-01\\source_snapshot\\rectified_point_flow__flow_model__point_cloud_dit.py",
+      "sha256": "dd095019f78cc0bfac6bef767061ec6a5a02244874bc32723dd78510f9e6f974",
+      "matches_RLP2_full_bank_freeze": true
+    },
+    {
+      "relative_path": "rectified_point_flow/flow_model/layer.py",
+      "source_path": "E:\\githouse\\RAP-main\\rectified_point_flow\\flow_model\\layer.py",
+      "snapshot_path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-09\\local-generative-adaptation-design-01\\source_snapshot\\rectified_point_flow__flow_model__layer.py",
+      "sha256": "e8e7caabe1da47b8c8aefea0db58ec5ffb910be8fc01b7a541ca6fec345618e8",
+      "matches_RLP2_full_bank_freeze": true
+    },
+    {
+      "relative_path": "rectified_point_flow/flow_model/norm.py",
+      "source_path": "E:\\githouse\\RAP-main\\rectified_point_flow\\flow_model\\norm.py",
+      "snapshot_path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-09\\local-generative-adaptation-design-01\\source_snapshot\\rectified_point_flow__flow_model__norm.py",
+      "sha256": "730533e067ccd043e1de784fff8c59b09c2a8f62a7a786540e0a0aa33d6e5930",
+      "matches_RLP2_full_bank_freeze": true
+    },
+    {
+      "relative_path": "config/model/flow_model/point_cloud_dit_12.yaml",
+      "source_path": "E:\\githouse\\RAP-main\\config\\model\\flow_model\\point_cloud_dit_12.yaml",
+      "snapshot_path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-09\\local-generative-adaptation-design-01\\source_snapshot\\config__model__flow_model__point_cloud_dit_12.yaml",
+      "sha256": "6df19dce55f2d3ab18009d44cb32d6f08e868a0e15921fabc9e12d4c8d95c357",
+      "matches_RLP2_full_bank_freeze": true
+    },
+    {
+      "relative_path": "config/model/rap_12.yaml",
+      "source_path": "E:\\githouse\\RAP-main\\config\\model\\rap_12.yaml",
+      "snapshot_path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-09\\local-generative-adaptation-design-01\\source_snapshot\\config__model__rap_12.yaml",
+      "sha256": "26283fa5ccc2fa2483be653ba0d498058c39390611f8dfd1ca294a5fd6891173",
+      "matches_RLP2_full_bank_freeze": true
+    }
+  ],
+  "checkpoint": {
+    "path": "E:\\githouse\\RAP-main\\weights\\rap_model_12.ckpt",
+    "sha256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200",
+    "matches_RLP2_full_bank_freeze": true,
+    "deserialized": false
+  },
+  "raw_cloud_payload_read": false,
+  "numeric_pose_payload_read": false,
+  "model_instantiated": false,
+  "model_inference": false,
+  "optimizer_updates": 0
+}

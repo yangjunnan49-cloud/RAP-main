@@ -1,0 +1,165 @@
+{
+  "observed_utc": "2026-11-06T02:00:26.359942+00:00",
+  "uname": {
+    "system": "Linux",
+    "node": "autodl-container-e1a2l2ecb5-1c7001d8",
+    "release": "5.15.0-78-generic",
+    "version": "#85-Ubuntu SMP Fri Jul 7 15:25:09 UTC 2023",
+    "machine": "x86_64",
+    "processor": "x86_64"
+  },
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "python_executable": "/root/miniconda3/bin/python",
+  "os_release": "PRETTY_NAME=\"Ubuntu 22.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"22.04\"\nVERSION=\"22.04.5 LTS (Jammy Jellyfish)\"\nVERSION_CODENAME=jammy\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=jammy\n",
+  "disks": [
+    {
+      "path": "/",
+      "total": 32212254720,
+      "used": 54624256,
+      "free": 32157630464,
+      "device": 96,
+      "top_level_names": [
+        ".dockerenv",
+        "autodl-fs",
+        "autodl-pub",
+        "bin",
+        "boot",
+        "cuda-keyring_1.1-1_all.deb",
+        "dev",
+        "etc",
+        "home",
+        "init",
+        "lib",
+        "lib32",
+        "lib64",
+        "libx32",
+        "media",
+        "mnt",
+        "opt",
+        "proc",
+        "root",
+        "run",
+        "sbin",
+        "srv",
+        "sys",
+        "tmp",
+        "usr",
+        "var"
+      ]
+    },
+    {
+      "path": "/root",
+      "total": 32212254720,
+      "used": 54624256,
+      "free": 32157630464,
+      "device": 96,
+      "top_level_names": [
+        ".bashrc",
+        ".cache",
+        ".conda",
+        ".condarc",
+        ".ipython",
+        ".jupyter",
+        ".local",
+        ".profile",
+        ".ssh",
+        "autodl-fs",
+        "autodl-pub",
+        "autodl-tmp",
+        "miniconda3",
+        "tf-logs"
+      ]
+    },
+    {
+      "path": "/root/autodl-tmp",
+      "total": 322122547200,
+      "used": 20480,
+      "free": 322122526720,
+      "device": 2304,
+      "top_level_names": [
+        ".autodl"
+      ]
+    },
+    {
+      "path": "/root/autodl-fs",
+      "total": 214748364800,
+      "used": 0,
+      "free": 214748364800,
+      "device": 91,
+      "top_level_names": []
+    },
+    {
+      "path": "/autodl-fs",
+      "total": 15360594018304,
+      "used": 12479234437120,
+      "free": 2881359581184,
+      "device": 2304,
+      "top_level_names": [
+        "data"
+      ]
+    }
+  ],
+  "environment_directories": [],
+  "installed_metadata_versions_current_python": {
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "torchaudio": null,
+    "numpy": "2.3.2",
+    "scipy": null,
+    "pytorch3d": null,
+    "torch-cluster": null,
+    "kiss-icp": null,
+    "gtsam": null,
+    "open3d": null,
+    "evo": null,
+    "lightning": null,
+    "pytorch-lightning": null,
+    "hydra-core": null,
+    "omegaconf": null,
+    "diffusers": null,
+    "muon": null,
+    "transformers": null,
+    "h5py": null,
+    "einops": null,
+    "timm": null,
+    "paramiko": null
+  },
+  "commands": [
+    {
+      "argv": [
+        "df",
+        "-hT"
+      ],
+      "exit_code": 0,
+      "stdout": "Filesystem                Type         Size  Used Avail Use% Mounted on\noverlay                   overlay       30G   53M   30G   1% /\ntmpfs                     tmpfs         64M     0   64M   0% /dev\n/dev/md0                  xfs          150M     0  150M   0% /init\n172.30.54.6:/data         nfs4         7.3T  1.6T  5.3T  24% /autodl-pub\nAutoFS:fswestbthird824941 fuse.autofs  200G     0  200G   0% /autodl-fs/data\nshm                       tmpfs         36G     0   36G   0% /dev/shm\n/dev/nvme0n1p2            ext4         879G   21G  814G   3% /usr/bin/nvidia-smi\ntmpfs                     tmpfs        4.0K  4.0K     0 100% /run/nvidia-ctk-hook\ntmpfs                     tmpfs        378G     0  378G   0% /proc/asound\ntmpfs                     tmpfs        378G     0  378G   0% /proc/acpi\ntmpfs                     tmpfs        378G     0  378G   0% /proc/scsi\ntmpfs                     tmpfs        378G     0  378G   0% /sys/firmware\ntmpfs                     tmpfs        378G     0  378G   0% /sys/devices/virtual/powercap\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "nvidia-smi",
+        "--query-gpu=name,memory.total,driver_version",
+        "--format=csv,noheader"
+      ],
+      "exit_code": 0,
+      "stdout": "NVIDIA GeForce RTX 4090, 49140 MiB, 595.71.05\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "nvcc",
+        "--version"
+      ],
+      "error": "FileNotFoundError(2, 'No such file or directory')"
+    },
+    {
+      "argv": [
+        "git",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "git version 2.34.1\n",
+      "stderr": ""
+    }
+  ],
+  "models_datasets_checkpoints_or_training_loaded": false
+}

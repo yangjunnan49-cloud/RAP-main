@@ -1,0 +1,9 @@
+# Camera observation continuation
+
+Owner provides completed gray ZIP. Frozen IA1 archive/member admission passes after a preserved sandbox-only CIM denial before content work; same original limits and one content worker. IP1 complete273 original PNGs, checksum/full decode/dimensions and supplied projection/time associations pass. Actual new Tr evidence remains absent.
+
+VR1/VC1 check known existing runtimes without install; no cv2 found and initial WSLStopped restored. Owner separately approves fixed official OCM1 metadata, then exact OVI1 wheel/isolated install proposal. OVI1 closes read-timeout/incomplete at34,603,008bytes before install. Owner separately approves OVR1 fixed9,222,954byte range; it also closes read-timeout with0 newly saved body bytes, no install. Both partial copies/failed receipts retained; no third request or alternative source. Owner is asked for manual fixed-wheel local path and requests explanation of current work; explanation delivered, task retained.
+
+Independent complete CF1 finite-image projected-support diagnostic passes5 controls/400directions/16000 Decimal checks, with all200pairs unchanged. Original75 positive pairs per sequence include15/42 both-zero finite-frustum upper cases; all confusers also reported. No image correspondence, pose fitting/accuracy, model or training. Supplementary timing correction records plan after producer exit/before first result inspection; old primary bytes preserved.
+
+All eight finite scopes closed. Current blocker is complete compatible runtime file, not the now-available image packet. Next ordinary visual5DoF baseline is a draft requiring actual runtime/implementation/controls/freeze/admission; no metric-scale/RAP increment claim. Research UNRESOLVED/manuscript PAUSED, old negatives/caps untouched. No existing-environment/default/production/Git/outreach/scheduler/goal-status change, no automatic reset resume.

@@ -1,0 +1,53 @@
+{
+  "claims_from_local_acquisition_scripts": [
+    {
+      "source_asset": "rap-slam:scripts/download_poss_segment.py",
+      "source_sha256": "5866cce263cdc2acf4a09d711625707d9f39e98f8d201868b525070e4c37ed43",
+      "url_claims": [
+        {
+          "line": 19,
+          "url_text_as_written": "http://www.poss.pku.edu.cn/OpenDataResource/poss_odomotry/data_odometry_velodyne.zip"
+        }
+      ],
+      "source_executed_or_URL_contacted_in_A5": false,
+      "physical_file_origin_authenticated": false
+    },
+    {
+      "source_asset": "rap-slam:scripts/download_spires.sh",
+      "source_sha256": "781520cf5784a2eba457ffb5479e97d671ddb7c36957c3b4858f635966845366",
+      "url_claims": [
+        {
+          "line": 10,
+          "url_text_as_written": "https://hf-mirror.com"
+        }
+      ],
+      "source_executed_or_URL_contacted_in_A5": false,
+      "physical_file_origin_authenticated": false
+    },
+    {
+      "source_asset": "rap-main:scripts/download_weights_and_demo_data.sh",
+      "source_sha256": "dd29ab60382480351d46cdd23509b34f130f3639b16cd32e987200f440a1d70d",
+      "url_claims": [
+        {
+          "line": 4,
+          "url_text_as_written": "https://www.ipb.uni-bonn.de/html/projects/rap/weights.zip"
+        },
+        {
+          "line": 9,
+          "url_text_as_written": "https://www.ipb.uni-bonn.de/html/projects/rap/demo_example_data.zip"
+        }
+      ],
+      "source_executed_or_URL_contacted_in_A5": false,
+      "physical_file_origin_authenticated": false
+    }
+  ],
+  "historical_download_log": {
+    "source_asset": "rap-slam:data/poss/download_b.log",
+    "sha256": "9e313161ad06e280628080ba364f70229acb960a4dbab5ed8647f44dd733396e",
+    "declared_files_to_fetch": 2751,
+    "declared_final_marker": "DONE",
+    "historical_declaration_not_new_download_or_provider_integrity_proof": true
+  },
+  "new_downloads_or_source_authentication": false,
+  "PGC1_or_raw_OXTS_route_resumed": false
+}

@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-12T14:14:22.531921+00:00",
+  "passed": true,
+  "repositories": {
+    "main": {
+      "head": "4055d929c594b0033aafc6eed339c910369eef55",
+      "branch": "codex/meeting-20260930",
+      "tracked_status": [
+        "M .gitignore",
+        " M AGENTS.md"
+      ]
+    },
+    "slam": {
+      "head": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6",
+      "branch": "codex/e0-f1-20260926",
+      "tracked_status": [
+        "M rap_slam/loop_closure.py",
+        " M rap_slam/odometry.py",
+        " M rap_slam/pose_graph.py",
+        " M rap_slam/rap_backend.py",
+        " M rap_slam/real_dataset.py",
+        " M scripts/build_s1_features.py",
+        " M scripts/eval_map_consistency.py",
+        " M scripts/eval_paper_metrics.py",
+        " M scripts/run_pipeline.py"
+      ]
+    }
+  },
+  "old_NOC4_markers_preserved": true,
+  "new_RPC0_marker_closed": true,
+  "Windows_sibling_status_limitation": "HEAD/branch read succeeds; status reports must be run in work tree; fresh WSL status matches original freeze",
+  "final_command_preparation_failure": "Nested PowerShell/Python quoting caused SyntaxError before any statement executed; corrected standalone standard-library helper",
+  "helper_sha256": "e7299c6877e2481aeed9fa1f722439629d8dfd39f0f1d7c808a06fcc2bf1fec1",
+  "new_raw_model_optimizer_calls": 0,
+  "commit_or_sync": false
+}

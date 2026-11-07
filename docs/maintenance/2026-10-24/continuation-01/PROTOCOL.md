@@ -1,0 +1,9 @@
+# Explicit October24 renewal and additive recovery
+
+The owner again explicitly requests advancing the saved plan until the current five-hour quota is exhausted. Observation followed by2026-10-24 02:07:47UTC:27%/ordinary usage allowed/reset1792825078. This is new human authorization, not automatic reset resume or permission to change an old cap/failure. No scheduler/goal-status changes.
+
+Separate documentary recovery600s inclusive,120s closure reserve; UTC/monotonic origin precedes preparation. Preserve the prior quota-review failure in new records only. Last prior API observation in the conversation was99%/ordinaryTRUE/reset1792763091 followed by2026-10-23 09:56:34UTC; last saved pointer may still be98%. The following composite tool action was rejected before execution because automatic approval review hit the usage limit. No exact failure UTC/API ordinaryFALSE receipt was captured. Do not invent either or rewrite old authority. All15 previous scopes were already closed; no stopped gap is excluded from an open old account, and previous documentary budget failures remain unchanged.
+
+The saved NEXT_SOURCE_PLAN permits a later explicitly authorized finite tensor-only revision. Prepare a new TT2 scope using the frozen SL1 singleton predicate, complete per-model seals, strict402-tensor byte/finiteness checks and recorded CPU/NumPy RNG boundaries. Do not modify/relabel/retry TT1 or use its budget. CPU-only transfer must pass before any separate functional scope can be considered. Physical efficacy remains NOT_ADMITTED; source/default/production/install/Git/outreach and all old scientific limits remain.
+
+Stop the renewed owner continuation on actual ordinary-disabled evidence, explicit quota review failure, or changed window without fresh authorization. Display100% with ordinaryTRUE is insufficient. This recovery admits no model/data computation itself.

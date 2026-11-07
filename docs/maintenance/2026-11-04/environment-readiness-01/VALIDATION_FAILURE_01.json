@@ -1,0 +1,10 @@
+{
+  "action": "Supplemental build-log evidence read",
+  "exit_code": 1,
+  "error": "ModuleNotFoundError: No module named 'run_cpu_audit'",
+  "cause": "The host controller was run with -I, so the sibling helper was not on sys.path.",
+  "WSL_started_before_failure": false,
+  "production_or_scientific_assets_modified": false,
+  "preserved_driver": "attempt01/run_build_audit.py",
+  "correction": "Load the exact sibling helper by importlib file specification; keep isolated interpreter mode."
+}

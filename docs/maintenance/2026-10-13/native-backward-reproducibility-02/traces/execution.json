@@ -1,0 +1,214 @@
+{
+  "utc": "2026-10-13T01:19:47.488427+00:00",
+  "traces": [
+    {
+      "name": "V_full1",
+      "arm": "V",
+      "path": "full",
+      "rep": 1,
+      "loss": 7.210629973997129e-06,
+      "terms": {
+        "velocity": 7.210629973997129e-06
+      },
+      "factor": 1024.0,
+      "parameters_unchanged_byteexact": true,
+      "optimizer_calls": 0,
+      "hook_modules": [
+        "transformer_layers.10.global_qkv_proj",
+        "transformer_layers.10.global_out_proj",
+        "transformer_layers.11.global_qkv_proj",
+        "transformer_layers.11.global_out_proj"
+      ],
+      "rank_linear_extra_calls": 4
+    },
+    {
+      "name": "V_cache1",
+      "arm": "V",
+      "path": "cache",
+      "rep": 1,
+      "loss": 7.210629973997129e-06,
+      "terms": {
+        "velocity": 7.210629973997129e-06
+      },
+      "factor": 1024.0,
+      "parameters_unchanged_byteexact": true,
+      "optimizer_calls": 0,
+      "hook_modules": [
+        "transformer_layers.10.global_qkv_proj",
+        "transformer_layers.10.global_out_proj",
+        "transformer_layers.11.global_qkv_proj",
+        "transformer_layers.11.global_out_proj"
+      ],
+      "rank_linear_extra_calls": 4
+    },
+    {
+      "name": "V_full2",
+      "arm": "V",
+      "path": "full",
+      "rep": 2,
+      "loss": 7.210629973997129e-06,
+      "terms": {
+        "velocity": 7.210629973997129e-06
+      },
+      "factor": 1024.0,
+      "parameters_unchanged_byteexact": true,
+      "optimizer_calls": 0,
+      "hook_modules": [
+        "transformer_layers.10.global_qkv_proj",
+        "transformer_layers.10.global_out_proj",
+        "transformer_layers.11.global_qkv_proj",
+        "transformer_layers.11.global_out_proj"
+      ],
+      "rank_linear_extra_calls": 4
+    },
+    {
+      "name": "V_cache2",
+      "arm": "V",
+      "path": "cache",
+      "rep": 2,
+      "loss": 7.210629973997129e-06,
+      "terms": {
+        "velocity": 7.210629973997129e-06
+      },
+      "factor": 1024.0,
+      "parameters_unchanged_byteexact": true,
+      "optimizer_calls": 0,
+      "hook_modules": [
+        "transformer_layers.10.global_qkv_proj",
+        "transformer_layers.10.global_out_proj",
+        "transformer_layers.11.global_qkv_proj",
+        "transformer_layers.11.global_out_proj"
+      ],
+      "rank_linear_extra_calls": 4
+    },
+    {
+      "name": "P_full1",
+      "arm": "P",
+      "path": "full",
+      "rep": 1,
+      "loss": 198.48916069256828,
+      "terms": {
+        "translation": 191.91284799809245,
+        "rotation": 6.553030262800471,
+        "shape": 0.023282431675369218
+      },
+      "factor": 0.0009765625,
+      "parameters_unchanged_byteexact": true,
+      "optimizer_calls": 0,
+      "hook_modules": [
+        "transformer_layers.10.global_qkv_proj",
+        "transformer_layers.10.global_out_proj",
+        "transformer_layers.11.global_qkv_proj",
+        "transformer_layers.11.global_out_proj"
+      ],
+      "rank_linear_extra_calls": 4
+    },
+    {
+      "name": "P_cache1",
+      "arm": "P",
+      "path": "cache",
+      "rep": 1,
+      "loss": 198.48916069256828,
+      "terms": {
+        "translation": 191.91284799809245,
+        "rotation": 6.553030262800471,
+        "shape": 0.023282431675369218
+      },
+      "factor": 0.0009765625,
+      "parameters_unchanged_byteexact": true,
+      "optimizer_calls": 0,
+      "hook_modules": [
+        "transformer_layers.10.global_qkv_proj",
+        "transformer_layers.10.global_out_proj",
+        "transformer_layers.11.global_qkv_proj",
+        "transformer_layers.11.global_out_proj"
+      ],
+      "rank_linear_extra_calls": 4
+    },
+    {
+      "name": "P_full2",
+      "arm": "P",
+      "path": "full",
+      "rep": 2,
+      "loss": 198.48916069256828,
+      "terms": {
+        "translation": 191.91284799809245,
+        "rotation": 6.553030262800471,
+        "shape": 0.023282431675369218
+      },
+      "factor": 0.0009765625,
+      "parameters_unchanged_byteexact": true,
+      "optimizer_calls": 0,
+      "hook_modules": [
+        "transformer_layers.10.global_qkv_proj",
+        "transformer_layers.10.global_out_proj",
+        "transformer_layers.11.global_qkv_proj",
+        "transformer_layers.11.global_out_proj"
+      ],
+      "rank_linear_extra_calls": 4
+    },
+    {
+      "name": "P_cache2",
+      "arm": "P",
+      "path": "cache",
+      "rep": 2,
+      "loss": 198.48916069256828,
+      "terms": {
+        "translation": 191.91284799809245,
+        "rotation": 6.553030262800471,
+        "shape": 0.023282431675369218
+      },
+      "factor": 0.0009765625,
+      "parameters_unchanged_byteexact": true,
+      "optimizer_calls": 0,
+      "hook_modules": [
+        "transformer_layers.10.global_qkv_proj",
+        "transformer_layers.10.global_out_proj",
+        "transformer_layers.11.global_qkv_proj",
+        "transformer_layers.11.global_out_proj"
+      ],
+      "rank_linear_extra_calls": 4
+    }
+  ],
+  "strict_checkpoint": {
+    "strict": true,
+    "keys": 344,
+    "weights_only": true,
+    "allowed": [
+      "builtins.dict",
+      "builtins.int",
+      "builtins.list",
+      "collections.defaultdict",
+      "numpy._core.multiarray._reconstruct",
+      "numpy.dtype",
+      "numpy.ndarray",
+      "omegaconf.base.ContainerMetadata",
+      "omegaconf.base.Metadata",
+      "omegaconf.listconfig.ListConfig",
+      "omegaconf.nodes.AnyNode",
+      "typing.Any"
+    ],
+    "descriptor_loaded": false
+  },
+  "frozen_parameters_sha256": "50d4c63f8dfcf749b48717a0141b9ca99ba054e4bdd2c2d5cb1109730e217c98",
+  "native_forwards": 8,
+  "prefix_forwards": 2,
+  "backwards": 8,
+  "optimizer_calls": 0,
+  "retained_updates": 0,
+  "settings_before": {
+    "tf32_matmul": false,
+    "tf32_cudnn": true,
+    "deterministic_algorithms": false,
+    "cudnn_deterministic": false,
+    "flash_sdp": true,
+    "memory_efficient_sdp": true,
+    "math_sdp": true,
+    "cudnn_sdp": true,
+    "active_SDPA_backend": "not profiled; enabled flags do not prove dispatch"
+  },
+  "initialized_trainables": 443904,
+  "instrumented": true,
+  "mode_inventory_sha256": "b202d27add89597ddee018d6c2973052b020dd326910a366b8ce8dcc82f0b07f",
+  "mode_validation_sha256": "be39b0cc6ee922cc952d5a165b41e182867adbd360c53ce0a2bae04ebee55d9f"
+}

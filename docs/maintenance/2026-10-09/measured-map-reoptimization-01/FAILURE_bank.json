@@ -1,0 +1,5 @@
+{
+  "utc": "2026-10-09T03:49:05.691261+00:00",
+  "error": "ValueError('all input arrays must have the same shape')",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/e/githouse/RAP-main/scripts/maintenance/measured_map_exploration.py\", line 284, in run_stage\n    globals()[stage]()\n  File \"/mnt/e/githouse/RAP-main/scripts/maintenance/measured_map_exploration.py\", line 200, in bank\n    clouds = np.stack([process(seq, frame) for frame in ids])\n  File \"/root/miniconda3/envs/rap-inference/lib/python3.10/site-packages/numpy/core/shape_base.py\", line 449, in stack\n    raise ValueError('all input arrays must have the same shape')\nValueError: all input arrays must have the same shape\n"
+}

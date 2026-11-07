@@ -1,0 +1,2296 @@
+{
+  "utc": "2026-10-13T01:19:58.907392+00:00",
+  "pairs": [
+    {
+      "left": "V_full1",
+      "right": "V_full2",
+      "details": {
+        "output.npz": {
+          "output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "velocity": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "upstream": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "gradients.npz": {
+          "transformer_layers.10.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 262144,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 512,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 131072,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 256,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.4.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 768,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "hooks.npz": {
+          "transformer_layers.10.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        }
+      },
+      "all_byte_equal": true
+    },
+    {
+      "left": "V_cache1",
+      "right": "V_cache2",
+      "details": {
+        "output.npz": {
+          "output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "velocity": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "upstream": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "gradients.npz": {
+          "transformer_layers.10.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 262144,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 512,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 131072,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 256,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.4.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 768,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "hooks.npz": {
+          "transformer_layers.10.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        }
+      },
+      "all_byte_equal": true
+    },
+    {
+      "left": "P_full1",
+      "right": "P_full2",
+      "details": {
+        "output.npz": {
+          "output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "velocity": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "upstream": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "gradients.npz": {
+          "transformer_layers.10.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj.B": {
+            "byte_equal": false,
+            "different": 4680,
+            "size": 12288,
+            "max_abs": 0.125,
+            "relative_L2": 0.0004427045584828731
+          },
+          "transformer_layers.10.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.B": {
+            "byte_equal": false,
+            "different": 1537,
+            "size": 4096,
+            "max_abs": 0.0078125,
+            "relative_L2": 0.00025362160498526267
+          },
+          "transformer_layers.11.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.B": {
+            "byte_equal": false,
+            "different": 2,
+            "size": 12288,
+            "max_abs": 0.00048828125,
+            "relative_L2": 1.345032037898569e-06
+          },
+          "transformer_layers.11.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 262144,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 512,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 131072,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 256,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.4.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 768,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "hooks.npz": {
+          "transformer_layers.10.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|scaled_gradient": {
+            "byte_equal": false,
+            "different": 3,
+            "size": 4608000,
+            "max_abs": 5.960464477539063e-08,
+            "relative_L2": 6.927021890019638e-06
+          },
+          "transformer_layers.10.global_out_proj|scaled_gradient": {
+            "byte_equal": false,
+            "different": 16231,
+            "size": 1536000,
+            "max_abs": 1.1920928955078125e-07,
+            "relative_L2": 0.0002653953443482922
+          },
+          "transformer_layers.10.global_qkv_proj|scaled_gradient": {
+            "byte_equal": false,
+            "different": 125450,
+            "size": 4608000,
+            "max_abs": 6.031990051269531e-05,
+            "relative_L2": 0.0008921671765023868
+          }
+        }
+      },
+      "all_byte_equal": false
+    },
+    {
+      "left": "P_cache1",
+      "right": "P_cache2",
+      "details": {
+        "output.npz": {
+          "output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "velocity": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "upstream": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "gradients.npz": {
+          "transformer_layers.10.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj.B": {
+            "byte_equal": false,
+            "different": 4745,
+            "size": 12288,
+            "max_abs": 0.25,
+            "relative_L2": 0.0008093793256605127
+          },
+          "transformer_layers.10.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.B": {
+            "byte_equal": false,
+            "different": 1398,
+            "size": 4096,
+            "max_abs": 0.0078125,
+            "relative_L2": 0.0002444564445483936
+          },
+          "transformer_layers.11.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 262144,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 512,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 131072,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 256,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.4.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 768,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "hooks.npz": {
+          "transformer_layers.10.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|scaled_gradient": {
+            "byte_equal": false,
+            "different": 2,
+            "size": 4608000,
+            "max_abs": 5.960464477539063e-08,
+            "relative_L2": 5.65588966967246e-06
+          },
+          "transformer_layers.10.global_out_proj|scaled_gradient": {
+            "byte_equal": false,
+            "different": 16181,
+            "size": 1536000,
+            "max_abs": 1.1920928955078125e-07,
+            "relative_L2": 0.0002646689668241154
+          },
+          "transformer_layers.10.global_qkv_proj|scaled_gradient": {
+            "byte_equal": false,
+            "different": 123532,
+            "size": 4608000,
+            "max_abs": 6.55055046081543e-05,
+            "relative_L2": 0.0009913813053142489
+          }
+        }
+      },
+      "all_byte_equal": false
+    },
+    {
+      "left": "V_full1",
+      "right": "V_cache1",
+      "details": {
+        "output.npz": {
+          "output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "velocity": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "upstream": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "gradients.npz": {
+          "transformer_layers.10.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 262144,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 512,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 131072,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 256,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.4.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 768,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "hooks.npz": {
+          "transformer_layers.10.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        }
+      },
+      "all_byte_equal": true
+    },
+    {
+      "left": "V_full2",
+      "right": "V_cache2",
+      "details": {
+        "output.npz": {
+          "output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "velocity": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "upstream": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "gradients.npz": {
+          "transformer_layers.10.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 262144,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 512,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 131072,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 256,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.4.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 768,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "hooks.npz": {
+          "transformer_layers.10.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        }
+      },
+      "all_byte_equal": true
+    },
+    {
+      "left": "P_full1",
+      "right": "P_cache1",
+      "details": {
+        "output.npz": {
+          "output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "velocity": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "upstream": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "gradients.npz": {
+          "transformer_layers.10.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj.B": {
+            "byte_equal": false,
+            "different": 4427,
+            "size": 12288,
+            "max_abs": 0.125,
+            "relative_L2": 0.0003321694676220799
+          },
+          "transformer_layers.10.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.B": {
+            "byte_equal": false,
+            "different": 1287,
+            "size": 4096,
+            "max_abs": 0.0078125,
+            "relative_L2": 0.00022443702859613847
+          },
+          "transformer_layers.11.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.B": {
+            "byte_equal": false,
+            "different": 3,
+            "size": 12288,
+            "max_abs": 0.00048828125,
+            "relative_L2": 1.3553389475826667e-06
+          },
+          "transformer_layers.11.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 262144,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 512,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 131072,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 256,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.4.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 768,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "hooks.npz": {
+          "transformer_layers.10.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|scaled_gradient": {
+            "byte_equal": false,
+            "different": 3,
+            "size": 4608000,
+            "max_abs": 5.960464477539063e-08,
+            "relative_L2": 6.927021896667312e-06
+          },
+          "transformer_layers.10.global_out_proj|scaled_gradient": {
+            "byte_equal": false,
+            "different": 11503,
+            "size": 1536000,
+            "max_abs": 1.1920928955078125e-07,
+            "relative_L2": 0.0002233627046357517
+          },
+          "transformer_layers.10.global_qkv_proj|scaled_gradient": {
+            "byte_equal": false,
+            "different": 97661,
+            "size": 4608000,
+            "max_abs": 6.67572021484375e-05,
+            "relative_L2": 0.0006810119518555084
+          }
+        }
+      },
+      "all_byte_equal": false
+    },
+    {
+      "left": "P_full2",
+      "right": "P_cache2",
+      "details": {
+        "output.npz": {
+          "output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "velocity": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "upstream": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "gradients.npz": {
+          "transformer_layers.10.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj.B": {
+            "byte_equal": false,
+            "different": 5189,
+            "size": 12288,
+            "max_abs": 0.375,
+            "relative_L2": 0.0012022065581815547
+          },
+          "transformer_layers.10.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.B": {
+            "byte_equal": false,
+            "different": 1680,
+            "size": 4096,
+            "max_abs": 0.0078125,
+            "relative_L2": 0.00028632708944417945
+          },
+          "transformer_layers.11.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.B": {
+            "byte_equal": false,
+            "different": 1,
+            "size": 12288,
+            "max_abs": 6.103515625e-05,
+            "relative_L2": 1.668306918403101e-07
+          },
+          "transformer_layers.11.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 262144,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 512,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 131072,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 256,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.4.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 768,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "hooks.npz": {
+          "transformer_layers.10.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|scaled_gradient": {
+            "byte_equal": false,
+            "different": 4,
+            "size": 4608000,
+            "max_abs": 5.960464477539063e-08,
+            "relative_L2": 7.998635878136679e-06
+          },
+          "transformer_layers.10.global_out_proj|scaled_gradient": {
+            "byte_equal": false,
+            "different": 27079,
+            "size": 1536000,
+            "max_abs": 1.1920928955078125e-07,
+            "relative_L2": 0.0003424302170362559
+          },
+          "transformer_layers.10.global_qkv_proj|scaled_gradient": {
+            "byte_equal": false,
+            "different": 176012,
+            "size": 4608000,
+            "max_abs": 6.67572021484375e-05,
+            "relative_L2": 0.0012150966993522536
+          }
+        }
+      },
+      "all_byte_equal": false
+    }
+  ],
+  "old_comparisons": [
+    {
+      "arm": "V",
+      "path": "cache",
+      "gradients": {
+        "transformer_layers.10.global_qkv_proj.A": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.10.global_qkv_proj.B": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 12288,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.10.global_out_proj.A": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.10.global_out_proj.B": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.11.global_qkv_proj.A": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.11.global_qkv_proj.B": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 12288,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.11.global_out_proj.A": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.11.global_out_proj.B": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.0.weight": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 262144,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.0.bias": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 512,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.2.weight": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 131072,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.2.bias": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 256,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.4.weight": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 768,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        }
+      }
+    },
+    {
+      "arm": "V",
+      "path": "full",
+      "gradients": {
+        "transformer_layers.10.global_qkv_proj.A": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.10.global_qkv_proj.B": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 12288,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.10.global_out_proj.A": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.10.global_out_proj.B": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.11.global_qkv_proj.A": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.11.global_qkv_proj.B": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 12288,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.11.global_out_proj.A": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.11.global_out_proj.B": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.0.weight": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 262144,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.0.bias": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 512,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.2.weight": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 131072,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.2.bias": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 256,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.4.weight": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 768,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        }
+      }
+    },
+    {
+      "arm": "P",
+      "path": "cache",
+      "gradients": {
+        "transformer_layers.10.global_qkv_proj.A": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.10.global_qkv_proj.B": {
+          "byte_equal": false,
+          "different": 4546,
+          "size": 12288,
+          "max_abs": 0.25,
+          "relative_L2": 0.0006188479415568023
+        },
+        "transformer_layers.10.global_out_proj.A": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.10.global_out_proj.B": {
+          "byte_equal": false,
+          "different": 1447,
+          "size": 4096,
+          "max_abs": 0.0078125,
+          "relative_L2": 0.00024230374069147902
+        },
+        "transformer_layers.11.global_qkv_proj.A": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.11.global_qkv_proj.B": {
+          "byte_equal": false,
+          "different": 1,
+          "size": 12288,
+          "max_abs": 6.103515625e-05,
+          "relative_L2": 1.6683069183473118e-07
+        },
+        "transformer_layers.11.global_out_proj.A": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.11.global_out_proj.B": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.0.weight": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 262144,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.0.bias": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 512,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.2.weight": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 131072,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.2.bias": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 256,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.4.weight": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 768,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        }
+      }
+    },
+    {
+      "arm": "P",
+      "path": "full",
+      "gradients": {
+        "transformer_layers.10.global_qkv_proj.A": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.10.global_qkv_proj.B": {
+          "byte_equal": false,
+          "different": 5023,
+          "size": 12288,
+          "max_abs": 0.25,
+          "relative_L2": 0.0007278013828752245
+        },
+        "transformer_layers.10.global_out_proj.A": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.10.global_out_proj.B": {
+          "byte_equal": false,
+          "different": 1647,
+          "size": 4096,
+          "max_abs": 0.0078125,
+          "relative_L2": 0.0002806192254735387
+        },
+        "transformer_layers.11.global_qkv_proj.A": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.11.global_qkv_proj.B": {
+          "byte_equal": false,
+          "different": 3,
+          "size": 12288,
+          "max_abs": 0.000244140625,
+          "relative_L2": 7.078026791876314e-07
+        },
+        "transformer_layers.11.global_out_proj.A": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "transformer_layers.11.global_out_proj.B": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 4096,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.0.weight": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 262144,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.0.bias": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 512,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.2.weight": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 131072,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.2.bias": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 256,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        },
+        "final_mlp.4.weight": {
+          "byte_equal": true,
+          "different": 0,
+          "size": 768,
+          "max_abs": 0.0,
+          "relative_L2": 0.0
+        }
+      }
+    }
+  ],
+  "all_instrumented_pairs_byte_equal": false,
+  "decision": "INSTRUMENTED_BACKWARD_MISMATCH_LOCALIZED",
+  "unique_cause_resolved": false,
+  "native_fit_admitted": false,
+  "optimizer_calls": 0
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "selections_and_labels": 1400,
+  "candidate_gates": 1600,
+  "diagnostic_rows": 400,
+  "verified_parent_counts": {
+    "2026-09-15/proposal-context-dev-01": 830,
+    "2026-09-14/support-control-02": 835,
+    "2026-09-14/hl-v2/pilot-01": 829
+  },
+  "max_translation_label_delta": 2.2737367544323206e-13,
+  "max_rotation_label_delta_deg": 2.842170943040401e-14,
+  "rotation_note": "Labels reconstructed with linear solves and the original atan2 definition; dispersion uses scipy rotation projection.",
+  "recovery_note": "First attempt stopped before diagnostic outputs: translation subtraction did not preserve inverse-GT metric under finite GT precision. Original freeze retained; corrected exact metric semantics in v2.",
+  "raw_geometry_recomputed": false,
+  "raw_clouds_rehashed": false
+}

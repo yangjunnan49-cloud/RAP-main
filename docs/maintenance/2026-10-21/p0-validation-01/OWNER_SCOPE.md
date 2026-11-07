@@ -1,0 +1,15 @@
+# Explicit owner-authorized independent validation
+
+Owner instruction: "批准你的决策。推进至 5h quota耗尽". This approves the previously delivered strategy and its distinct finite 1200-second validation scope. Original P0 remains budget FAIL (9316.8147729 seconds before documentary closure); no old cap is reset or borrowed. Start reference 2026-10-21T06:58:45Z, conservative local monotonic prelude retained. Account actual primary32%, ordinary allowed, reset1792582782 was observed with following06:58:45UTC. Later account observations must be recorded separately. No automatic continuation across a reset.
+
+Only immutable bank02 is consumed. No raw registration, solver rerun, queue/seed/threshold change, successful-cell replay, default/installed/production/model/reference change, Git operation, outreach, scheduler or goal-status action is included.
+
+New scripts and outputs reside in this chat workspace. A path facade routes original bank/seal/schedule/protocol and controller receipts read-only, while every new scientific output is exclusively created in this directory. Original source verification still executes. Metric source differs only in core import, hashlib import, and loop variable names; assessor/audit differ only in module routing. All numeric constants are compared with their originals. Original helpers remain frozen.
+
+Total validation deadline1200s includes all preparation, failures, tests, audit, evaluation and close. Scientific launch/processing stops by1140s to reserve60s. Live Windows UTC-derived elapsed, Windows Stopwatch elapsed and reported Linux global monotonic elapsed are bounded by their maximum; own-side times are compared as elapsed durations. Identity-confirmed process-group termination and heartbeat loss are enforced. The two-second memory challenge retains12GiB minimum. Per numerical Python4GiB/GPU0; original dossier plus all new work/output bytes remains <=256MiB, new work/output capped64MiB, with1MiB conservative counter reserve.
+
+Preparation failures preserved: initial supervisor DateTime reparse projected an invalid extra8h and prevented launch; explicit DateTimeOffset cast corrects the local binding while original stays immutable. Initial probe setsid failed because WSL already supplied a process-group leader; new entry retains that existing group and creates a session only when needed. Neither failure decoded real data; both consume the same deadline. These local findings do not establish the original P0 Windows/Linux319.625655s discrepancy cause.
+
+Synthetic PASS: five stop-decision fixtures; actual exact-owned timeout termination; two wholly synthetic metric cases through actual adapted evaluator with896 independent segments, maxmetricdelta8.191342305606779e-14; sealed-byte corruption rejected. No real GT read during these controls.
+
+All72 input/source/graph/packet audit precedes real GT metrics and performance assessment. Every original paired-equivalence/runtime gate is retained; G and K qualify separately. Original research objective remains unresolved even if an engineering result passes. All historical stops/seals and owner outreach decline persist.

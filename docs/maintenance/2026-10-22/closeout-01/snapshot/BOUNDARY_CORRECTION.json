@@ -1,0 +1,43 @@
+{
+  "correction": "ACTUAL_ACCOUNT_LIMIT_OBSERVED_WITH_RESET_ID_CHANGE",
+  "supersedes_classification_only": "WINDOW_CHANGED_NOT_EXHAUSTION",
+  "observed": {
+    "used_percent": 100,
+    "window_minutes": 300,
+    "reset_id": 1792606846,
+    "ordinary_usage_allowed": false,
+    "following_utc": "2026-10-21 14:14:09 UTC"
+  },
+  "previous_reset_id": 1792606845,
+  "observed_reset_id": 1792606846,
+  "reset_id_delta_seconds": 1,
+  "reason": "The old branch prioritized reset-id inequality, despite the same observation reporting 100 percent and ordinary usage disabled. Those observed limit fields establish an account limit. The cause of the one-second reset change and a window-rollover explanation are not established.",
+  "original_records": [
+    {
+      "path": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-21\\y\\outputs\\evening_handoff_20261021\\ACCOUNT_STATE.json",
+      "sha256": "169612CB1D2B2CDC5C96935B12634FC53F371E6D710CC4D42AE904FECAA57930",
+      "preserved_as": "original_boundary/ACCOUNT_STATE.json"
+    },
+    {
+      "path": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-21\\y\\outputs\\evening_handoff_20261021\\ACCOUNT_STOP.json",
+      "sha256": "01F44E304FCCDA416A0E65A5ED8A0EC81C6C92026E499F475445677FFD6728ED",
+      "preserved_as": "original_boundary/ACCOUNT_STOP.json"
+    },
+    {
+      "path": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-21\\y\\outputs\\evening_handoff_20261021\\BOUNDARY_CLOSE.json",
+      "sha256": "01F44E304FCCDA416A0E65A5ED8A0EC81C6C92026E499F475445677FFD6728ED",
+      "preserved_as": "original_boundary/BOUNDARY_CLOSE.json"
+    },
+    {
+      "path": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-21\\y\\outputs\\evening_handoff_20261021\\IMMUTABLE_DELIVERY_SEAL.json",
+      "sha256": "FBE4A5A195DB6C8FB4CA2860ABC15CEC76D9D21F132F28DD879BB97E078A55F7",
+      "preserved_as": "original_boundary/IMMUTABLE_DELIVERY_SEAL.json"
+    }
+  ],
+  "original_files_unchanged": true,
+  "old_boundary_elapsed_seconds": 309,
+  "old_boundary_cap_seconds": 900,
+  "old_boundary_budget_compliant": true,
+  "overnight_idle_not_part_of_already_closed_old_scope": true,
+  "automatic_reset_resume": false
+}

@@ -1,0 +1,549 @@
+{
+  "started_utc": "2026-11-03T06:43:56.8955668Z",
+  "finished_utc": "2026-11-03T06:44:03.5502841Z",
+  "elapsed_seconds": 6.6548255,
+  "wall_limit_seconds": 300,
+  "observation": "metadata only; logical bytes may count hardlinks and duplicates repeatedly; contents not hashed; no coherent snapshot claimed",
+  "excluded_phase": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-11-03\\migration-preflight-01",
+  "no_reparse_point_traversal": true,
+  "roots": [
+    {
+      "id": "rap-main",
+      "path": "E:\\githouse\\RAP-main",
+      "recursive": true,
+      "files": 42535,
+      "directories": 3787,
+      "logical_bytes": 36762143766,
+      "errors": 0,
+      "skipped_reparse_points": 27,
+      "excluded_phase_directories": 1,
+      "enumeration_complete": true,
+      "stop_reason": null
+    },
+    {
+      "id": "rap-slam",
+      "path": "E:\\githouse\\RAP-SLAM",
+      "recursive": true,
+      "files": 6044,
+      "directories": 382,
+      "logical_bytes": 8295279420,
+      "errors": 0,
+      "skipped_reparse_points": 0,
+      "excluded_phase_directories": 0,
+      "enumeration_complete": true,
+      "stop_reason": null
+    },
+    {
+      "id": "reports",
+      "path": "E:\\githouse\\RAP-SLAM-report",
+      "recursive": true,
+      "files": 311,
+      "directories": 39,
+      "logical_bytes": 191533590,
+      "errors": 0,
+      "skipped_reparse_points": 0,
+      "excluded_phase_directories": 0,
+      "enumeration_complete": true,
+      "stop_reason": null
+    },
+    {
+      "id": "datasets",
+      "path": "E:\\githouse\\Datasets",
+      "recursive": true,
+      "files": 43616,
+      "directories": 51,
+      "logical_bytes": 84793100970,
+      "errors": 0,
+      "skipped_reparse_points": 0,
+      "excluded_phase_directories": 0,
+      "enumeration_complete": true,
+      "stop_reason": null
+    },
+    {
+      "id": "codex-records",
+      "path": "C:\\Users\\AAA\\Documents\\Codex",
+      "recursive": true,
+      "files": 14247,
+      "directories": 216,
+      "logical_bytes": 737435012,
+      "errors": 0,
+      "skipped_reparse_points": 0,
+      "excluded_phase_directories": 0,
+      "enumeration_complete": true,
+      "stop_reason": null
+    },
+    {
+      "id": "meeting-decks",
+      "path": "E:\\githouse\\decks",
+      "recursive": true,
+      "files": 0,
+      "directories": 0,
+      "logical_bytes": 0,
+      "errors": 1,
+      "skipped_reparse_points": 0,
+      "excluded_phase_directories": 0,
+      "enumeration_complete": false,
+      "stop_reason": "root_missing_or_inaccessible"
+    },
+    {
+      "id": "weekly-20261101",
+      "path": "E:\\githouse\\weekly_20261101",
+      "recursive": true,
+      "files": 0,
+      "directories": 0,
+      "logical_bytes": 0,
+      "errors": 1,
+      "skipped_reparse_points": 0,
+      "excluded_phase_directories": 0,
+      "enumeration_complete": false,
+      "stop_reason": "root_missing_or_inaccessible"
+    },
+    {
+      "id": "workspace-root",
+      "path": "E:\\githouse",
+      "recursive": false,
+      "files": 1,
+      "directories": 4,
+      "logical_bytes": 24622,
+      "errors": 0,
+      "skipped_reparse_points": 0,
+      "excluded_phase_directories": 0,
+      "enumeration_complete": true,
+      "stop_reason": null
+    }
+  ],
+  "buckets": [
+    {
+      "root": "rap-slam",
+      "directory": "output_submap_nway",
+      "files": 34,
+      "logical_bytes": 74862
+    },
+    {
+      "root": "workspace-root",
+      "directory": "[root-files]",
+      "files": 1,
+      "logical_bytes": 24622
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_rap_retrieval",
+      "files": 6,
+      "logical_bytes": 9962853
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_kitti05_smoke",
+      "files": 6,
+      "logical_bytes": 111923795
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_multigen",
+      "files": 4,
+      "logical_bytes": 325392
+    },
+    {
+      "root": "rap-slam",
+      "directory": "data",
+      "files": 4233,
+      "logical_bytes": 4222135305
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_nway_matrix",
+      "files": 56,
+      "logical_bytes": 230372
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_poss_conformal",
+      "files": 8,
+      "logical_bytes": 60271573
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_odom_refine",
+      "files": 3,
+      "logical_bytes": 199180
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_poss_nms_check",
+      "files": 6,
+      "logical_bytes": 60268588
+    },
+    {
+      "root": "rap-main",
+      "directory": ".git",
+      "files": 3480,
+      "logical_bytes": 2918982673
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_kitti04_smoke",
+      "files": 6,
+      "logical_bytes": 26829664
+    },
+    {
+      "root": "rap-main",
+      "directory": "__pycache__",
+      "files": 1,
+      "logical_bytes": 7315
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_poss_sc5",
+      "files": 6,
+      "logical_bytes": 60354279
+    },
+    {
+      "root": "datasets",
+      "directory": "data_odometry_velodyne",
+      "files": 43607,
+      "logical_bytes": 84781293626
+    },
+    {
+      "root": "rap-slam",
+      "directory": "ros2",
+      "files": 19,
+      "logical_bytes": 211557
+    },
+    {
+      "root": "rap-main",
+      "directory": "scripts",
+      "files": 639,
+      "logical_bytes": 4977020
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_prods",
+      "files": 83,
+      "logical_bytes": 1182342463
+    },
+    {
+      "root": "reports",
+      "directory": "ppt_weekly_20260823",
+      "files": 104,
+      "logical_bytes": 19793998
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_meeting",
+      "files": 41,
+      "logical_bytes": 339321775
+    },
+    {
+      "root": "codex-records",
+      "directory": "2026-10-31",
+      "files": 1968,
+      "logical_bytes": 63851982
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_deskew_smoke_off",
+      "files": 8,
+      "logical_bytes": 6767606
+    },
+    {
+      "root": "rap-slam",
+      "directory": "[root-files]",
+      "files": 29,
+      "logical_bytes": 335939
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_hier_nway",
+      "files": 34,
+      "logical_bytes": 76226
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_gnc_backend",
+      "files": 2,
+      "logical_bytes": 11746
+    },
+    {
+      "root": "codex-records",
+      "directory": "2026-10-21",
+      "files": 1242,
+      "logical_bytes": 49722002
+    },
+    {
+      "root": "reports",
+      "directory": "ppt",
+      "files": 68,
+      "logical_bytes": 20544852
+    },
+    {
+      "root": "reports",
+      "directory": "paper",
+      "files": 49,
+      "logical_bytes": 32140544
+    },
+    {
+      "root": "rap-main",
+      "directory": "dataset_process",
+      "files": 36,
+      "logical_bytes": 857923
+    },
+    {
+      "root": "rap-main",
+      "directory": "rectified_point_flow",
+      "files": 46,
+      "logical_bytes": 566477
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_verifier_swap",
+      "files": 20,
+      "logical_bytes": 3091790
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_s1",
+      "files": 20,
+      "logical_bytes": 6553096
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_clique_weighting",
+      "files": 2,
+      "logical_bytes": 11991
+    },
+    {
+      "root": "rap-main",
+      "directory": "demo_output",
+      "files": 15,
+      "logical_bytes": 389569
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_kitti205",
+      "files": 2,
+      "logical_bytes": 3740
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_kitti00_smoke",
+      "files": 6,
+      "logical_bytes": 184756429
+    },
+    {
+      "root": "codex-records",
+      "directory": "2026-10-29",
+      "files": 11035,
+      "logical_bytes": 623858078
+    },
+    {
+      "root": "rap-main",
+      "directory": "demo_example_data",
+      "files": 156,
+      "logical_bytes": 478400579
+    },
+    {
+      "root": "rap-slam",
+      "directory": "scripts",
+      "files": 396,
+      "logical_bytes": 4873215
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_kitti00_bigbudget_nms",
+      "files": 6,
+      "logical_bytes": 177618554
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output",
+      "files": 109,
+      "logical_bytes": 18772156
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_map_consistency",
+      "files": 2,
+      "logical_bytes": 3574
+    },
+    {
+      "root": "reports",
+      "directory": "advisor_report",
+      "files": 90,
+      "logical_bytes": 119054196
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_ros2",
+      "files": 136,
+      "logical_bytes": 68465411
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_calibrated",
+      "files": 3,
+      "logical_bytes": 212658
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_paper_metrics",
+      "files": 4,
+      "logical_bytes": 39729
+    },
+    {
+      "root": "codex-records",
+      "directory": "2026-09-17",
+      "files": 2,
+      "logical_bytes": 2950
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_kitti06_mg",
+      "files": 6,
+      "logical_bytes": 48259555
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_deskew_smoke",
+      "files": 8,
+      "logical_bytes": 6980704
+    },
+    {
+      "root": "rap-main",
+      "directory": "config",
+      "files": 18,
+      "logical_bytes": 9437
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_possb_smoke",
+      "files": 6,
+      "logical_bytes": 115797408
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_submap_nway_chain",
+      "files": 69,
+      "logical_bytes": 156559
+    },
+    {
+      "root": "rap-main",
+      "directory": ".maintenance-archive",
+      "files": 1593,
+      "logical_bytes": 4641098782
+    },
+    {
+      "root": "rap-slam",
+      "directory": "rap_slam",
+      "files": 45,
+      "logical_bytes": 324617
+    },
+    {
+      "root": "rap-main",
+      "directory": "[root-files]",
+      "files": 13,
+      "logical_bytes": 779324
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_poss_sc",
+      "files": 6,
+      "logical_bytes": 60267690
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_deskew",
+      "files": 56,
+      "logical_bytes": 987238952
+    },
+    {
+      "root": "rap-slam",
+      "directory": ".git",
+      "files": 501,
+      "logical_bytes": 1695862
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_poss_gate",
+      "files": 6,
+      "logical_bytes": 60267714
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_poss_mg",
+      "files": 6,
+      "logical_bytes": 60320891
+    },
+    {
+      "root": "rap-main",
+      "directory": "weights",
+      "files": 5,
+      "logical_bytes": 686395153
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_nway",
+      "files": 5,
+      "logical_bytes": 21653
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_kitti06_smoke",
+      "files": 6,
+      "logical_bytes": 48207248
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_poss_default_check",
+      "files": 6,
+      "logical_bytes": 60268568
+    },
+    {
+      "root": "rap-main",
+      "directory": "docs",
+      "files": 36233,
+      "logical_bytes": 27557234974
+    },
+    {
+      "root": "rap-main",
+      "directory": "working files",
+      "files": 300,
+      "logical_bytes": 472444540
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_hier_nway_64k",
+      "files": 10,
+      "logical_bytes": 32201
+    },
+    {
+      "root": "datasets",
+      "directory": "part2",
+      "files": 4,
+      "logical_bytes": 3332142
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_poss_prox5",
+      "files": 6,
+      "logical_bytes": 61458761
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_kitti00_bigbudget",
+      "files": 6,
+      "logical_bytes": 177667985
+    },
+    {
+      "root": "rap-slam",
+      "directory": "output_poss",
+      "files": 6,
+      "logical_bytes": 60267534
+    },
+    {
+      "root": "datasets",
+      "directory": "oxford_spires",
+      "files": 5,
+      "logical_bytes": 8475202
+    }
+  ]
+}

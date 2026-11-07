@@ -1,0 +1,5 @@
+# Complete measured-image ordinary camera baseline
+
+Read REPORT.md, STATUS.json, RESOURCE_AUDIT.json, DELIVERY_SEAL.json and runtime03/evaluate plus runtime03/audit. All273 feature caches/200 initial-and-final predictions are complete and prediction-sealed before reference evaluation.30/200 poses, all00;08=0/100.23/200 in the frozen5/15-degree bin,24/200 in10/30. Refit worsens both means and does not add bin successes. No overall gain, metric translation, RAP increment or physical/generalization claim. All old failures/caps remain; research UNRESOLVED/manuscript PAUSED.
+
+Do not rerun original failed VB1, old download/install hosts or ER1 one-launch stages. Cold-import failures, seven-row byte-preserving continuation, metadata assertion and read-set audit correction are explicit additive receipts, not erased attempts. All children reaped. No pending numerical worker. Current owner continuation/account availability is managed separately in project-continuation-02; this finite stage is complete and does not automatically resume at reset.

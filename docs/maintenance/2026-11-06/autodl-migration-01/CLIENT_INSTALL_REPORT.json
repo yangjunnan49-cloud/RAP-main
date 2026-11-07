@@ -1,0 +1,437 @@
+{
+  "version": "1",
+  "pip_version": "26.2.2",
+  "install": [
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/a9/90/a744336f5af32c433bd09af7854599682a383b37cfd78f7de263de6ad6cb/paramiko-4.0.0-py3-none-any.whl",
+        "archive_info": {
+          "hashes": {
+            "sha256": "0e20e00ac666503bf0b4eda3b6d833465a2b7aff2e2b3d79a8bba5ef144ee3b9"
+          },
+          "hash": "sha256=0e20e00ac666503bf0b4eda3b6d833465a2b7aff2e2b3d79a8bba5ef144ee3b9"
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "paramiko",
+        "version": "4.0.0",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "SSH2 protocol library",
+        "description": "|version| |python| |license| |ci| |coverage|\n\n.. |version| image:: https://img.shields.io/pypi/v/paramiko\n    :target: https://pypi.org/project/paramiko/\n    :alt: PyPI - Package Version\n.. |python| image:: https://img.shields.io/pypi/pyversions/paramiko\n    :target: https://pypi.org/project/paramiko/\n    :alt: PyPI - Python Version\n.. |license| image:: https://img.shields.io/pypi/l/paramiko\n    :target: https://github.com/paramiko/paramiko/blob/main/LICENSE\n    :alt: PyPI - License\n.. |ci| image:: https://img.shields.io/circleci/build/github/paramiko/paramiko/main\n    :target: https://app.circleci.com/pipelines/github/paramiko/paramiko\n    :alt: CircleCI\n.. |coverage| image:: https://img.shields.io/codecov/c/gh/paramiko/paramiko\n    :target: https://app.codecov.io/gh/paramiko/paramiko\n    :alt: Codecov\n\nWelcome to Paramiko!\n====================\n\nParamiko is a pure-Python [#]_ implementation of the SSHv2 protocol [#]_,\nproviding both client and server functionality. It provides the foundation for\nthe high-level SSH library `Fabric <https://fabfile.org>`_, which is what we\nrecommend you use for common client use-cases such as running remote shell\ncommands or transferring files.\n\nDirect use of Paramiko itself is only intended for users who need\nadvanced/low-level primitives or want to run an in-Python sshd.\n\nFor installation information, changelogs, FAQs and similar, please visit `our\nmain project website <https://paramiko.org>`_; for API details, see `the\nversioned docs <https://docs.paramiko.org>`_. Additionally, the project\nmaintainer keeps a `roadmap <http://bitprophet.org/projects#roadmap>`_ on his\npersonal site.\n\n.. [#]\n    Paramiko relies on `cryptography <https://cryptography.io>`_ for crypto\n    functionality, which makes use of C and Rust extensions but has many\n    precompiled options available. See `our installation page\n    <https://www.paramiko.org/installing.html>`_ for details.\n\n.. [#]\n    OpenSSH's RFC specification page is a fantastic resource and collection of\n    links that we won't bother replicating here:\n    https://www.openssh.com/specs.html\n\n    OpenSSH itself also happens to be our primary reference implementation:\n    when in doubt, we consult how they do things, unless there are good reasons\n    not to. There are always some gaps, but we do our best to reconcile them\n    when possible.\n",
+        "description_content_type": "text/x-rst",
+        "author_email": "Jeff Forcier <jeff@bitprophet.org>",
+        "license_expression": "LGPL-2.1",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Operating System :: OS Independent",
+          "Topic :: Internet",
+          "Topic :: Security :: Cryptography",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13"
+        ],
+        "requires_dist": [
+          "bcrypt>=3.2",
+          "cryptography>=3.3",
+          "invoke>=2.0",
+          "pynacl>=1.5",
+          "pyasn1>=0.1.7; extra == \"gssapi\"",
+          "gssapi>=1.4.1; platform_system != \"Windows\" and extra == \"gssapi\"",
+          "pywin32>=2.1.8; platform_system == \"Windows\" and extra == \"gssapi\""
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "Docs, https://docs.paramiko.org",
+          "Source, https://github.com/paramiko/paramiko",
+          "Changelog, https://www.paramiko.org/changelog.html",
+          "CI, https://app.circleci.com/pipelines/github/paramiko/paramiko",
+          "Issues, https://github.com/paramiko/paramiko/issues"
+        ],
+        "provides_extra": [
+          "gssapi"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/9f/b9/9d9a641194a730bda138b3dfe53f584d61c58cd5230e37566e83ec2ffa0d/bcrypt-5.0.0-cp39-abi3-win_amd64.whl",
+        "archive_info": {
+          "hashes": {
+            "sha256": "64ee8434b0da054d830fa8e89e1c8bf30061d539044a39524ff7dec90481e5c2"
+          },
+          "hash": "sha256=64ee8434b0da054d830fa8e89e1c8bf30061d539044a39524ff7dec90481e5c2"
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "bcrypt",
+        "version": "5.0.0",
+        "summary": "Modern password hashing for your software and your servers",
+        "description": "bcrypt\n======\n\n.. image:: https://img.shields.io/pypi/v/bcrypt.svg\n    :target: https://pypi.org/project/bcrypt/\n    :alt: Latest Version\n\n.. image:: https://github.com/pyca/bcrypt/workflows/CI/badge.svg?branch=main\n    :target: https://github.com/pyca/bcrypt/actions?query=workflow%3ACI+branch%3Amain\n\nAcceptable password hashing for your software and your servers (but you should\nreally use argon2id or scrypt)\n\n\nInstallation\n============\n\nTo install bcrypt, simply:\n\n.. code:: console\n\n    $ pip install bcrypt\n\nNote that bcrypt should build very easily on Linux provided you have a C\ncompiler and a Rust compiler (the minimum supported Rust version is 1.56.0).\n\nFor Debian and Ubuntu, the following command will ensure that the required dependencies are installed:\n\n.. code:: console\n\n    $ sudo apt-get install build-essential cargo\n\nFor Fedora and RHEL-derivatives, the following command will ensure that the required dependencies are installed:\n\n.. code:: console\n\n    $ sudo yum install gcc cargo\n\nFor Alpine, the following command will ensure that the required dependencies are installed:\n\n.. code:: console\n\n    $ apk add --update musl-dev gcc cargo\n\n\nAlternatives\n============\n\nWhile bcrypt remains an acceptable choice for password storage, depending on your specific use case you may also want to consider using scrypt (either via `standard library`_ or `cryptography`_) or argon2id via `argon2_cffi`_.\n\nChangelog\n=========\n\n5.0.0\n-----\n\n* Bumped MSRV to 1.74.\n* Added support for Python 3.14 and free-threaded Python 3.14.\n* Added support for Windows on ARM.\n* Passing ``hashpw`` a password longer than 72 bytes now raises a\n  ``ValueError``. Previously the password was silently truncated, following the\n  behavior of the original OpenBSD ``bcrypt`` implementation.\n\n4.3.0\n-----\n\n* Dropped support for Python 3.7.\n* We now support free-threaded Python 3.13.\n* We now support PyPy 3.11.\n* We now publish wheels for free-threaded Python 3.13, for PyPy 3.11 on\n  ``manylinux``, and for ARMv7l on ``manylinux``.\n\n4.2.1\n-----\n\n* Bump Rust dependency versions - this should resolve crashes on Python 3.13\n  free-threaded builds.\n* We no longer build ``manylinux`` wheels for PyPy 3.9.\n\n4.2.0\n-----\n\n* Bump Rust dependency versions\n* Removed the ``BCRYPT_ALLOW_RUST_163`` environment variable.\n\n4.1.3\n-----\n\n* Bump Rust dependency versions\n\n4.1.2\n-----\n\n* Publish both ``py37`` and ``py39`` wheels. This should resolve some errors\n  relating to initializing a module multiple times per process.\n\n4.1.1\n-----\n\n* Fixed the type signature on the ``kdf`` method.\n* Fixed packaging bug on Windows.\n* Fixed incompatibility with passlib package detection assumptions.\n\n4.1.0\n-----\n\n* Dropped support for Python 3.6.\n* Bumped MSRV to 1.64. (Note: Rust 1.63 can be used by setting the ``BCRYPT_ALLOW_RUST_163`` environment variable)\n\n4.0.1\n-----\n\n* We now build PyPy ``manylinux`` wheels.\n* Fixed a bug where passing an invalid ``salt`` to ``checkpw`` could result in\n  a ``pyo3_runtime.PanicException``. It now correctly raises a ``ValueError``.\n\n4.0.0\n-----\n\n* ``bcrypt`` is now implemented in Rust. Users building from source will need\n  to have a Rust compiler available. Nothing will change for users downloading\n  wheels.\n* We no longer ship ``manylinux2010`` wheels. Users should upgrade to the latest\n  ``pip`` to ensure this doesn’t cause issues downloading wheels on their\n  platform. We now ship ``manylinux_2_28`` wheels for users on new enough platforms.\n* ``NUL`` bytes are now allowed in inputs.\n\n\n3.2.2\n-----\n\n* Fixed packaging of ``py.typed`` files in wheels so that ``mypy`` works.\n\n3.2.1\n-----\n\n* Added support for compilation on z/OS\n* The next release of ``bcrypt`` with be 4.0 and it will require Rust at\n  compile time, for users building from source. There will be no additional\n  requirement for users who are installing from wheels. Users on most\n  platforms will be able to obtain a wheel by making sure they have an up to\n  date ``pip``. The minimum supported Rust version will be 1.56.0.\n* This will be the final release for which we ship ``manylinux2010`` wheels.\n  Going forward the minimum supported manylinux ABI for our wheels will be\n  ``manylinux2014``. The vast majority of users will continue to receive\n  ``manylinux`` wheels provided they have an up to date ``pip``.\n\n\n3.2.0\n-----\n\n* Added typehints for library functions.\n* Dropped support for Python versions less than 3.6 (2.7, 3.4, 3.5).\n* Shipped ``abi3`` Windows wheels (requires pip >= 20).\n\n3.1.7\n-----\n\n* Set a ``setuptools`` lower bound for PEP517 wheel building.\n* We no longer distribute 32-bit ``manylinux1`` wheels. Continuing to produce\n  them was a maintenance burden.\n\n3.1.6\n-----\n\n* Added support for compilation on Haiku.\n\n3.1.5\n-----\n\n* Added support for compilation on AIX.\n* Dropped Python 2.6 and 3.3 support.\n* Switched to using ``abi3`` wheels for Python 3. If you are not getting a\n  wheel on a compatible platform please upgrade your ``pip`` version.\n\n3.1.4\n-----\n\n* Fixed compilation with mingw and on illumos.\n\n3.1.3\n-----\n* Fixed a compilation issue on Solaris.\n* Added a warning when using too few rounds with ``kdf``.\n\n3.1.2\n-----\n* Fixed a compile issue affecting big endian platforms.\n* Fixed invalid escape sequence warnings on Python 3.6.\n* Fixed building in non-UTF8 environments on Python 2.\n\n3.1.1\n-----\n* Resolved a ``UserWarning`` when used with ``cffi`` 1.8.3.\n\n3.1.0\n-----\n* Added support for ``checkpw``, a convenience method for verifying a password.\n* Ensure that you get a ``$2y$`` hash when you input a ``$2y$`` salt.\n* Fixed a regression where ``$2a`` hashes were vulnerable to a wraparound bug.\n* Fixed compilation under Alpine Linux.\n\n3.0.0\n-----\n* Switched the C backend to code obtained from the OpenBSD project rather than\n  openwall.\n* Added support for ``bcrypt_pbkdf`` via the ``kdf`` function.\n\n2.0.0\n-----\n* Added support for an adjustible prefix when calling ``gensalt``.\n* Switched to CFFI 1.0+\n\nUsage\n-----\n\nPassword Hashing\n~~~~~~~~~~~~~~~~\n\nHashing and then later checking that a password matches the previous hashed\npassword is very simple:\n\n.. code:: pycon\n\n    >>> import bcrypt\n    >>> password = b\"super secret password\"\n    >>> # Hash a password for the first time, with a randomly-generated salt\n    >>> hashed = bcrypt.hashpw(password, bcrypt.gensalt())\n    >>> # Check that an unhashed password matches one that has previously been\n    >>> # hashed\n    >>> if bcrypt.checkpw(password, hashed):\n    ...     print(\"It Matches!\")\n    ... else:\n    ...     print(\"It Does not Match :(\")\n\nKDF\n~~~\n\nAs of 3.0.0 ``bcrypt`` now offers a ``kdf`` function which does ``bcrypt_pbkdf``.\nThis KDF is used in OpenSSH's newer encrypted private key format.\n\n.. code:: pycon\n\n    >>> import bcrypt\n    >>> key = bcrypt.kdf(\n    ...     password=b'password',\n    ...     salt=b'salt',\n    ...     desired_key_bytes=32,\n    ...     rounds=100)\n\n\nAdjustable Work Factor\n~~~~~~~~~~~~~~~~~~~~~~\nOne of bcrypt's features is an adjustable logarithmic work factor. To adjust\nthe work factor merely pass the desired number of rounds to\n``bcrypt.gensalt(rounds=12)`` which defaults to 12):\n\n.. code:: pycon\n\n    >>> import bcrypt\n    >>> password = b\"super secret password\"\n    >>> # Hash a password for the first time, with a certain number of rounds\n    >>> hashed = bcrypt.hashpw(password, bcrypt.gensalt(14))\n    >>> # Check that a unhashed password matches one that has previously been\n    >>> #   hashed\n    >>> if bcrypt.checkpw(password, hashed):\n    ...     print(\"It Matches!\")\n    ... else:\n    ...     print(\"It Does not Match :(\")\n\n\nAdjustable Prefix\n~~~~~~~~~~~~~~~~~\n\nAnother one of bcrypt's features is an adjustable prefix to let you define what\nlibraries you'll remain compatible with. To adjust this, pass either ``2a`` or\n``2b`` (the default) to ``bcrypt.gensalt(prefix=b\"2b\")`` as a bytes object.\n\nAs of 3.0.0 the ``$2y$`` prefix is still supported in ``hashpw`` but deprecated.\n\nMaximum Password Length\n~~~~~~~~~~~~~~~~~~~~~~~\n\nThe bcrypt algorithm only handles passwords up to 72 characters, any characters\nbeyond that are ignored. To work around this, a common approach is to hash a\npassword with a cryptographic hash (such as ``sha256``) and then base64\nencode it to prevent NULL byte problems before hashing the result with\n``bcrypt``:\n\n.. code:: pycon\n\n    >>> password = b\"an incredibly long password\" * 10\n    >>> hashed = bcrypt.hashpw(\n    ...     base64.b64encode(hashlib.sha256(password).digest()),\n    ...     bcrypt.gensalt()\n    ... )\n\nCompatibility\n-------------\n\nThis library should be compatible with py-bcrypt and it will run on Python\n3.8+ (including free-threaded builds), and PyPy 3.\n\nSecurity\n--------\n\n``bcrypt`` follows the `same security policy as cryptography`_, if you\nidentify a vulnerability, we ask you to contact us privately.\n\n.. _`same security policy as cryptography`: https://cryptography.io/en/latest/security.html\n.. _`standard library`: https://docs.python.org/3/library/hashlib.html#hashlib.scrypt\n.. _`argon2_cffi`: https://argon2-cffi.readthedocs.io\n.. _`cryptography`: https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions/#cryptography.hazmat.primitives.kdf.scrypt.Scrypt\n",
+        "description_content_type": "text/x-rst",
+        "author_email": "The Python Cryptographic Authority developers <cryptography-dev@python.org>",
+        "license": "Apache-2.0",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "License :: OSI Approved :: Apache Software License",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: Free Threading :: 3 - Stable"
+        ],
+        "requires_dist": [
+          "pytest!=3.3.0,>=3.2.1; extra == \"tests\"",
+          "mypy; extra == \"typecheck\""
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "homepage, https://github.com/pyca/bcrypt/"
+        ],
+        "provides_extra": [
+          "tests",
+          "typecheck"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/9a/4f/adfc442765721292fff86d314ce385d3249d22db42295c0dd057727b60f3/cryptography-50.0.2-cp311-abi3-win_amd64.whl",
+        "archive_info": {
+          "hashes": {
+            "sha256": "7afa5a6602a9f29af1f3a2965f831bae7c9d5d597b7cbb716d41ab3b7d89879c"
+          },
+          "hash": "sha256=7afa5a6602a9f29af1f3a2965f831bae7c9d5d597b7cbb716d41ab3b7d89879c"
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "cryptography",
+        "version": "50.0.2",
+        "summary": "cryptography is a package which provides cryptographic recipes and primitives to Python developers.",
+        "description": "pyca/cryptography\n=================\n\n.. image:: https://img.shields.io/pypi/v/cryptography.svg\n    :target: https://pypi.org/project/cryptography/\n    :alt: Latest Version\n\n.. image:: https://readthedocs.org/projects/cryptography/badge/?version=latest\n    :target: https://cryptography.io\n    :alt: Latest Docs\n\n.. image:: https://github.com/pyca/cryptography/actions/workflows/ci.yml/badge.svg\n    :target: https://github.com/pyca/cryptography/actions/workflows/ci.yml?query=branch%3Amain\n\n``cryptography`` is a package which provides cryptographic recipes and\nprimitives to Python developers. Our goal is for it to be your \"cryptographic\nstandard library\". It supports Python 3.9+ and PyPy3 7.3.11+.\n\n``cryptography`` includes both high level recipes and low level interfaces to\ncommon cryptographic algorithms such as symmetric ciphers, message digests, and\nkey derivation functions. For example, to encrypt something with\n``cryptography``'s high level symmetric encryption recipe:\n\n.. code-block:: pycon\n\n    >>> from cryptography.fernet import Fernet\n    >>> # Put this somewhere safe!\n    >>> key = Fernet.generate_key()\n    >>> f = Fernet(key)\n    >>> token = f.encrypt(b\"A really secret message. Not for prying eyes.\")\n    >>> token\n    b'...'\n    >>> f.decrypt(token)\n    b'A really secret message. Not for prying eyes.'\n\nYou can find more information in the `documentation`_.\n\nYou can install ``cryptography`` with:\n\n.. code-block:: console\n\n    $ pip install cryptography\n\nFor full details see `the installation documentation`_.\n\nDiscussion\n~~~~~~~~~~\n\nIf you run into bugs, you can file them in our `issue tracker`_.\n\nWe maintain a `cryptography-dev`_ mailing list for development discussion.\n\nYou can also join ``#pyca`` on ``irc.libera.chat`` to ask questions or get\ninvolved.\n\nSecurity\n~~~~~~~~\n\nNeed to report a security issue? Please consult our `security reporting`_\ndocumentation.\n\n\n.. _`documentation`: https://cryptography.io/\n.. _`the installation documentation`: https://cryptography.io/en/latest/installation/\n.. _`issue tracker`: https://github.com/pyca/cryptography/issues\n.. _`cryptography-dev`: https://mail.python.org/mailman/listinfo/cryptography-dev\n.. _`security reporting`: https://cryptography.io/en/latest/security/\n\n",
+        "description_content_type": "text/x-rst; charset=UTF-8",
+        "author_email": "The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>",
+        "license_expression": "Apache-2.0 OR BSD-3-Clause",
+        "license_file": [
+          "LICENSE",
+          "LICENSE.APACHE",
+          "LICENSE.BSD"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Natural Language :: English",
+          "Operating System :: MacOS :: MacOS X",
+          "Operating System :: POSIX",
+          "Operating System :: POSIX :: BSD",
+          "Operating System :: POSIX :: Linux",
+          "Operating System :: Microsoft :: Windows",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3.15",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Programming Language :: Python :: Free Threading :: 3 - Stable",
+          "Topic :: Security :: Cryptography"
+        ],
+        "requires_dist": [
+          "cffi>=2.0.0 ; platform_python_implementation != 'PyPy'",
+          "typing-extensions>=4.13.2 ; python_full_version < '3.11'",
+          "bcrypt>=3.1.5 ; extra == 'ssh'"
+        ],
+        "requires_python": ">=3.9, !=3.9.0, !=3.9.1",
+        "project_url": [
+          "changelog, https://cryptography.io/en/latest/changelog/",
+          "documentation, https://cryptography.io/",
+          "homepage, https://github.com/pyca/cryptography",
+          "issues, https://github.com/pyca/cryptography/issues",
+          "source, https://github.com/pyca/cryptography/"
+        ],
+        "provides_extra": [
+          "ssh"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/d9/79/615cc094e2fb508cade7de88d3b4f6c4ec2bab695c97bce9153dc65aadf5/cffi-2.1.1-cp312-cp312-win_amd64.whl",
+        "archive_info": {
+          "hashes": {
+            "sha256": "f53e442b08449d42821fa4a4fba000095af9f62742a500f978a9f557ec44339a"
+          },
+          "hash": "sha256=f53e442b08449d42821fa4a4fba000095af9f62742a500f978a9f557ec44339a"
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "cffi",
+        "version": "2.1.1",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Foreign Function Interface for Python calling C code.",
+        "description": "[![GitHub Actions Status](https://github.com/python-cffi/cffi/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/python-cffi/cffi/actions/workflows/ci.yaml?query=branch%3Amain++)\n[![PyPI version](https://img.shields.io/pypi/v/cffi.svg)](https://pypi.org/project/cffi)\n[![Read the Docs](https://img.shields.io/badge/docs-latest-blue.svg)][Documentation]\n\n\nCFFI\n====\n\nForeign Function Interface for Python calling C code.\n\nPlease see the [Documentation] or uncompiled in the `doc/` subdirectory.\n\nDownload\n--------\n\n[Download page](https://github.com/python-cffi/cffi/releases)\n\nSource Code\n-----------\n\nSource code is publicly available on\n[GitHub](https://github.com/python-cffi/cffi).\n\nContact\n-------\n\n[Mailing list](https://groups.google.com/forum/#!forum/python-cffi)\n\nTesting/development tips\n------------------------\n\nAfter `git clone` or `wget && tar`, we will get a directory called `cffi` or `cffi-x.x.x`. We call it `repo-directory`. To run tests under CPython, run the following in the `repo-directory`:\n\n    pip install pytest\n    pip install -e .  # editable install of CFFI for local development\n    pytest src/c/ testing/\n\n[Documentation]: http://cffi.readthedocs.org/\n",
+        "description_content_type": "text/markdown",
+        "author": "Armin Rigo, Maciej Fijalkowski",
+        "maintainer": "Matt Davis, Matt Clay",
+        "license_expression": "MIT-0",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3.15",
+          "Programming Language :: Python :: Free Threading :: 2 - Beta",
+          "Programming Language :: Python :: Implementation :: CPython"
+        ],
+        "requires_dist": [
+          "pycparser; implementation_name != \"PyPy\""
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Documentation, https://cffi.readthedocs.io/",
+          "Changelog, https://cffi.readthedocs.io/en/latest/whatsnew.html",
+          "Download, https://github.com/python-cffi/cffi/releases",
+          "Contact, https://groups.google.com/forum/#!forum/python-cffi",
+          "Source Code, https://github.com/python-cffi/cffi",
+          "Issue Tracker, https://github.com/python-cffi/cffi/issues"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/5a/de/bbc12563bbf979618d17625a4e753ff7a078523e28d870d3626daa97261a/invoke-3.0.3-py3-none-any.whl",
+        "archive_info": {
+          "hashes": {
+            "sha256": "f11327165e5cbb89b2ad1d88d3292b5113332c43b8553b494da435d6ec6f5053"
+          },
+          "hash": "sha256=f11327165e5cbb89b2ad1d88d3292b5113332c43b8553b494da435d6ec6f5053"
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "invoke",
+        "version": "3.0.3",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Pythonic task execution",
+        "description": "|version| |python| |license| |ci| |coverage|\n\n.. |version| image:: https://img.shields.io/pypi/v/invoke\n    :target: https://pypi.org/project/invoke/\n    :alt: PyPI - Package Version\n.. |python| image:: https://img.shields.io/pypi/pyversions/invoke\n    :target: https://pypi.org/project/invoke/\n    :alt: PyPI - Python Version\n.. |license| image:: https://img.shields.io/pypi/l/invoke\n    :target: https://github.com/pyinvoke/invoke/blob/main/LICENSE\n    :alt: PyPI - License\n.. |ci| image:: https://img.shields.io/circleci/build/github/pyinvoke/invoke/main\n    :target: https://app.circleci.com/pipelines/github/pyinvoke/invoke\n    :alt: CircleCI\n.. |coverage| image:: https://img.shields.io/codecov/c/gh/pyinvoke/invoke\n    :target: https://app.codecov.io/gh/pyinvoke/invoke\n    :alt: Codecov\n\nWelcome to Invoke!\n==================\n\nInvoke is a Python library for managing shell-oriented subprocesses and\norganizing executable Python code into CLI-invokable tasks. It draws\ninspiration from various sources (``make``/``rake``, Fabric 1.x, etc) to arrive\nat a powerful & clean feature set.\n\nTo find out what's new in this version of Invoke, please see `the changelog\n<https://pyinvoke.org/changelog.html#{}>`_.\n\nFor a high level introduction, including example code, please see `our main\nproject website <https://pyinvoke.org>`_; or for detailed API docs, see `the\nversioned API website <https://docs.pyinvoke.org>`_.\n\nThe project maintainer keeps a `roadmap\n<https://bitprophet.org/projects#roadmap>`_ on his website.\n",
+        "description_content_type": "text/x-rst",
+        "author_email": "Jeff Forcier <jeff@bitprophet.org>",
+        "license_expression": "BSD-2-Clause",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Console",
+          "Intended Audience :: Developers",
+          "Intended Audience :: System Administrators",
+          "Operating System :: POSIX",
+          "Operating System :: Unix",
+          "Operating System :: MacOS :: MacOS X",
+          "Operating System :: Microsoft :: Windows",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Topic :: Software Development",
+          "Topic :: Software Development :: Build Tools",
+          "Topic :: Software Development :: Libraries",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Topic :: System :: Software Distribution",
+          "Topic :: System :: Systems Administration"
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "Docs, https://docs.pyinvoke.org",
+          "Source, https://github.com/pyinvoke/invoke",
+          "Changelog, https://www.pyinvoke.org/changelog.html",
+          "CI, https://app.circleci.com/pipelines/github/pyinvoke/invoke",
+          "Issues, https://github.com/pyinvoke/invoke/issues"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/41/ad/334600e8cacc7d86587fe5f565480fde569dfb487389c8e1be56ac21d8ac/pynacl-1.6.2-cp38-abi3-win_amd64.whl",
+        "archive_info": {
+          "hashes": {
+            "sha256": "62985f233210dee6548c223301b6c25440852e13d59a8b81490203c3227c5ba0"
+          },
+          "hash": "sha256=62985f233210dee6548c223301b6c25440852e13d59a8b81490203c3227c5ba0"
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "PyNaCl",
+        "version": "1.6.2",
+        "dynamic": [
+          "description",
+          "home-page",
+          "license-file"
+        ],
+        "summary": "Python binding to the Networking and Cryptography (NaCl) library",
+        "description": "===============================================\nPyNaCl: Python binding to the libsodium library\n===============================================\n\n.. image:: https://img.shields.io/pypi/v/pynacl.svg\n    :target: https://pypi.org/project/PyNaCl/\n    :alt: Latest Version\n\nPyNaCl is a Python binding to `libsodium`_, which is a fork of the\n`Networking and Cryptography library`_. These libraries have a stated goal of\nimproving usability, security and speed. It supports Python 3.8+ as well as\nPyPy 3.\n\n.. _libsodium: https://github.com/jedisct1/libsodium\n.. _Networking and Cryptography library: https://nacl.cr.yp.to/\n\nFeatures\n--------\n\n* Digital signatures\n* Secret-key encryption\n* Public-key encryption\n* Hashing and message authentication\n* Password based key derivation and password hashing\n\n`Changelog`_\n------------\n\n.. _Changelog: https://pynacl.readthedocs.io/en/latest/changelog/\n\nInstallation\n============\n\nBinary wheel install\n--------------------\n\nPyNaCl ships as a binary wheel on macOS, Windows and Linux ``manylinux1`` [#many]_ ,\nso all dependencies are included. Make sure you have an up-to-date pip\nand run:\n\n.. code-block:: console\n\n    $ pip install pynacl\n\nFaster wheel build\n------------------\n\nYou can define the environment variable ``LIBSODIUM_MAKE_ARGS`` to pass arguments to ``make``\nand enable `parallelization`_:\n\n.. code-block:: console\n\n    $ LIBSODIUM_MAKE_ARGS=-j4 pip install pynacl\n\nLinux source build\n------------------\n\nPyNaCl relies on `libsodium`_, a portable C library. A copy is bundled\nwith PyNaCl so to install you can run:\n\n.. code-block:: console\n\n    $ pip install pynacl\n\nIf you'd prefer to use the version of ``libsodium`` provided by your\ndistribution, you can disable the bundled copy during install by running:\n\n.. code-block:: console\n\n    $ SODIUM_INSTALL=system pip install pynacl\n\n.. warning:: Usage of the legacy ``easy_install`` command provided by setuptools\n   is generally discouraged, and is completely unsupported in PyNaCl's case.\n\n.. _parallelization: https://www.gnu.org/software/make/manual/html_node/Parallel.html\n\n.. _libsodium: https://github.com/jedisct1/libsodium\n\n.. [#many] `manylinux1 wheels <https://www.python.org/dev/peps/pep-0513/>`_\n    are built on a baseline linux environment based on Centos 5.11\n    and should work on most x86 and x86_64 glibc based linux environments.\n\nGNU Make (gmake) may be required for newer versions of PyNaCl. You can\nset the binary to use by setting the ``MAKE`` environment variable:\n\n.. code-block:: console\n\n    $ MAKE=gmake pip install pynacl\n\nChangelog\n=========\n\n1.6.2 (2026-01-01)\n------------------\n* Updated ``libsodium`` to 1.0.20-stable (2025-12-31 build) to resolve\n  ``CVE-2025-69277``.\n\n1.6.1 (2025-11-10)\n------------------\n* The ``MAKE`` environment variable can now be used to specify the ``make``\n  binary that should be used in the build process.\n\n1.6.0 (2025-09-11)\n------------------\n* **BACKWARDS INCOMPATIBLE:** Removed support for Python 3.6 and 3.7.\n* Added support for the low level AEAD AES bindings.\n* Added support for ``crypto_core_ed25519_from_uniform``.\n* Update ``libsodium`` to 1.0.20-stable (2025-08-27 build).\n* Added support for free-threaded Python 3.14.\n* Added support for Windows on ARM wheels.\n\n1.5.0 (2022-01-07)\n------------------\n\n* **BACKWARDS INCOMPATIBLE:** Removed support for Python 2.7 and Python 3.5.\n* **BACKWARDS INCOMPATIBLE:** We no longer distribute ``manylinux1``\n  wheels.\n* Added ``manylinux2014``, ``manylinux_2_24``, ``musllinux``, and macOS\n  ``universal2`` wheels (the latter supports macOS ``arm64``).\n* Update ``libsodium`` to 1.0.18-stable (July 25, 2021 release).\n* Add inline type hints.\n\n1.4.0 (2020-05-25)\n------------------\n\n* Update ``libsodium`` to 1.0.18.\n* **BACKWARDS INCOMPATIBLE:** We no longer distribute 32-bit ``manylinux1``\n  wheels. Continuing to produce them was a maintenance burden.\n* Added support for Python 3.8, and removed support for Python 3.4.\n* Add low level bindings for extracting the seed and the public key\n  from crypto_sign_ed25519 secret key\n* Add low level bindings for deterministic random generation.\n* Add ``wheel`` and ``setuptools`` setup_requirements in ``setup.py`` (#485)\n* Fix checks on very slow builders (#481, #495)\n* Add low-level bindings to ed25519 arithmetic functions\n* Update low-level blake2b state implementation\n* Fix wrong short-input behavior of SealedBox.decrypt() (#517)\n* Raise CryptPrefixError exception instead of InvalidkeyError when trying\n  to check a password against a verifier stored in a unknown format (#519)\n* Add support for minimal builds of libsodium. Trying to call functions\n  not available in a minimal build will raise an UnavailableError\n  exception. To compile a minimal build of the bundled libsodium, set\n  the SODIUM_INSTALL_MINIMAL environment variable to any non-empty\n  string (e.g. ``SODIUM_INSTALL_MINIMAL=1``) for setup.\n\n1.3.0 2018-09-26\n----------------\n\n* Added support for Python 3.7.\n* Update ``libsodium`` to 1.0.16.\n* Run and test all code examples in PyNaCl docs through sphinx's\n  doctest builder.\n* Add low-level bindings for chacha20-poly1305 AEAD constructions.\n* Add low-level bindings for the chacha20-poly1305 secretstream constructions.\n* Add low-level bindings for ed25519ph pre-hashed signing construction.\n* Add low-level bindings for constant-time increment and addition\n  on fixed-precision big integers represented as little-endian\n  byte sequences.\n* Add low-level bindings for the ISO/IEC 7816-4 compatible padding API.\n* Add low-level bindings for libsodium's crypto_kx... key exchange\n  construction.\n* Set hypothesis deadline to None in tests/test_pwhash.py to avoid\n  incorrect test failures on slower processor architectures.  GitHub\n  issue #370\n\n1.2.1 - 2017-12-04\n------------------\n\n* Update hypothesis minimum allowed version.\n* Infrastructure: add proper configuration for readthedocs builder\n  runtime environment.\n\n1.2.0 - 2017-11-01\n------------------\n\n* Update ``libsodium`` to 1.0.15.\n* Infrastructure: add jenkins support for automatic build of\n  ``manylinux1`` binary wheels\n* Added support for ``SealedBox`` construction.\n* Added support for ``argon2i`` and ``argon2id`` password hashing constructs\n  and restructured high-level password hashing implementation to expose\n  the same interface for all hashers.\n* Added support for 128 bit ``siphashx24`` variant of ``siphash24``.\n* Added support for ``from_seed`` APIs for X25519 key pair generation.\n* Dropped support for Python 3.3.\n\n1.1.2 - 2017-03-31\n------------------\n\n* reorder link time library search path when using bundled\n  libsodium\n\n1.1.1 - 2017-03-15\n------------------\n\n* Fixed a circular import bug in ``nacl.utils``.\n\n1.1.0 - 2017-03-14\n------------------\n\n* Dropped support for Python 2.6.\n* Added ``shared_key()`` method on ``Box``.\n* You can now pass ``None`` to ``nonce`` when encrypting with ``Box`` or\n  ``SecretBox`` and it will automatically generate a random nonce.\n* Added support for ``siphash24``.\n* Added support for ``blake2b``.\n* Added support for ``scrypt``.\n* Update ``libsodium`` to 1.0.11.\n* Default to the bundled ``libsodium`` when compiling.\n* All raised exceptions are defined mixing-in\n  ``nacl.exceptions.CryptoError``\n\n1.0.1 - 2016-01-24\n------------------\n\n* Fix an issue with absolute paths that prevented the creation of wheels.\n\n1.0 - 2016-01-23\n----------------\n\n* PyNaCl has been ported to use the new APIs available in cffi 1.0+.\n  Due to this change we no longer support PyPy releases older than 2.6.\n* Python 3.2 support has been dropped.\n* Functions to convert between Ed25519 and Curve25519 keys have been added.\n\n0.3.0 - 2015-03-04\n------------------\n\n* The low-level API (`nacl.c.*`) has been changed to match the\n  upstream NaCl C/C++ conventions (as well as those of other NaCl bindings).\n  The order of arguments and return values has changed significantly. To\n  avoid silent failures, `nacl.c` has been removed, and replaced with\n  `nacl.bindings` (with the new argument ordering). If you have code which\n  calls these functions (e.g. `nacl.c.crypto_box_keypair()`), you must review\n  the new docstrings and update your code/imports to match the new\n  conventions.\n",
+        "home_page": "https://github.com/pyca/pynacl/",
+        "author_email": "The PyNaCl developers <cryptography-dev@python.org>",
+        "license": "Apache-2.0",
+        "license_file": [
+          "LICENSE",
+          "licenses/LICENSE.libsodium.txt"
+        ],
+        "classifier": [
+          "License :: OSI Approved :: Apache Software License",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Programming Language :: Python :: Free Threading :: 3 - Stable",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14"
+        ],
+        "requires_dist": [
+          "cffi>=1.4.1; platform_python_implementation != \"PyPy\" and python_version < \"3.9\"",
+          "cffi>=2.0.0; platform_python_implementation != \"PyPy\" and python_version >= \"3.9\"",
+          "pytest>=7.4.0; extra == \"tests\"",
+          "pytest-cov>=2.10.1; extra == \"tests\"",
+          "pytest-xdist>=3.5.0; extra == \"tests\"",
+          "hypothesis>=3.27.0; extra == \"tests\"",
+          "sphinx<7; extra == \"docs\"",
+          "sphinx_rtd_theme; extra == \"docs\""
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "Homepage, https://github.com/pyca/pynacl",
+          "Bug Tracker, https://github.com/pyca/pynacl/issues",
+          "Documentation, https://pynacl.readthedocs.io"
+        ],
+        "provides_extra": [
+          "tests",
+          "docs"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/b6/ae/315bbeee126a769cbde43cf4908acb4b40408d8bf8bbf334dd7368d8dadf/pycparser-3.12-py3-none-any.whl",
+        "archive_info": {
+          "hashes": {
+            "sha256": "a076f3f489b39b43ed13563a1dafe42447445bec2e294154ec5c57fcdda4c85e"
+          },
+          "hash": "sha256=a076f3f489b39b43ed13563a1dafe42447445bec2e294154ec5c57fcdda4c85e"
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "pycparser",
+        "version": "3.12",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "C parser in Python",
+        "description": "=========\npycparser\n=========\n\n\n.. image:: https://github.com/eliben/pycparser/workflows/pycparser-tests/badge.svg\n  :align: center\n  :target: https://github.com/eliben/pycparser/actions\n\n----\n\n.. contents::\n    :backlinks: none\n\n.. sectnum::\n\nIntroduction\n============\n\nWhat is pycparser?\n------------------\n\n**pycparser** is a parser for the C language, written in pure Python. It is a\nmodule designed to be easily integrated into applications that need to parse\nC source code.\n\nWhat is it good for?\n--------------------\n\nAnything that needs C code to be parsed. The following are some uses for\n**pycparser**, taken from real user reports:\n\n* C code obfuscator\n* Front-end for various specialized C compilers\n* Static code checker\n* Automatic unit-test discovery\n* Adding specialized extensions to the C language\n\nOne of the most popular uses of **pycparser** is in the `cffi\n<https://cffi.readthedocs.io/en/latest/>`_ library, which uses it to parse the\ndeclarations of C functions and types in order to auto-generate FFIs.\n\n**pycparser** is unique in the sense that it's written in pure Python - a very\nhigh level language that's easy to experiment with and tweak. To people familiar\nwith Lex and Yacc, **pycparser**'s code will be simple to understand. It also\nhas no external dependencies (except for a Python interpreter), making it very\nsimple to install and deploy.\n\nWhich version of C does pycparser support?\n------------------------------------------\n\n**pycparser** aims to support the full C11 language, including earlier\nrevisions like C99.\n\nC23 support is conditional on a ``dialect=\"c23\"`` setting, since this revision\nintroduces new keywords like ``bool`` that would conflict with existing C code\nif not handled properly.\n\n**pycparser** supports very few GCC extensions, but it's fairly easy to set\nthings up so that it parses code with a lot of GCC-isms successfully. See the\n`FAQ <https://github.com/eliben/pycparser/wiki/FAQ>`_ for more details.\n\nWhat grammar does pycparser follow?\n-----------------------------------\n\n**pycparser** very closely follows the C grammar provided in Annex A of the C99\nstandard (ISO/IEC 9899).\n\nHow is pycparser licensed?\n--------------------------\n\n`BSD license <https://github.com/eliben/pycparser/blob/main/LICENSE>`_.\n\nContact details\n---------------\n\nFor reporting problems with **pycparser** or submitting feature requests, please\nopen an `issue <https://github.com/eliben/pycparser/issues>`_, or submit a\npull request.\n\n\nInstalling\n==========\n\nPrerequisites\n-------------\n\n**pycparser** is being tested with modern versions of Python on\nLinux, macOS and Windows. See `the CI dashboard <https://github.com/eliben/pycparser/actions/workflows/ci.yml>`__\nfor details.\n\n**pycparser** has no external dependencies.\n\nInstallation process\n--------------------\n\nThe recommended way to install **pycparser** is with ``pip``::\n\n    > pip install pycparser\n\nUsing\n=====\n\nInteraction with the C preprocessor\n-----------------------------------\n\nIn order to be compilable, C code must be preprocessed by the C preprocessor -\n``cpp``. A compatible ``cpp`` handles preprocessing directives like ``#include`` and\n``#define``, removes comments, and performs other minor tasks that prepare the C\ncode for compilation.\n\nFor all but the most trivial snippets of C code **pycparser**, like a C\ncompiler, must receive preprocessed C code in order to function correctly. If\nyou import the top-level ``parse_file`` function from the **pycparser** package,\nit will interact with ``cpp`` for you, as long as it's in your PATH, or you\nprovide a path to it.\n\nNote also that you can use ``gcc -E`` or ``clang -E`` instead of ``cpp``. See\nthe ``using_gcc_E_libc.py`` example for more details. Windows users can download\nand install a binary build of Clang for Windows `from this website\n<http://llvm.org/releases/download.html>`_.\n\nWhat about the standard C library headers?\n------------------------------------------\n\nC code almost always ``#include``\\s various header files from the standard C\nlibrary, like ``stdio.h``. While (with some effort) **pycparser** can be made to\nparse the standard headers from any C compiler, it's much simpler to use the\nprovided \"fake\" standard includes for C11 in ``utils/fake_libc_include``. These\nare standard C header files that contain only the bare necessities to allow\nvalid parsing of the files that use them. As a bonus, since they're minimal, it\ncan significantly improve the performance of parsing large C files.\n\nThe key point to understand here is that **pycparser** doesn't really care about\nthe semantics of types. It only needs to know whether some token encountered in\nthe source is a previously defined type. This is essential in order to be able\nto parse C correctly.\n\nSee `this blog post\n<https://eli.thegreenplace.net/2015/on-parsing-c-type-declarations-and-fake-headers>`_\nfor more details.\n\nNote that the fake headers are not included in the ``pip`` package nor installed\nvia the package build (`#224 <https://github.com/eliben/pycparser/issues/224>`_).\n\nBasic usage\n-----------\n\nTake a look at the |examples|_ directory of the distribution for a few examples\nof using **pycparser**. These should be enough to get you started. Please note\nthat most realistic C code samples would require running the C preprocessor\nbefore passing the code to **pycparser**; see the previous sections for more\ndetails.\n\nFor example, to parse C23 source with a preprocessor that supports ``-std=c23``::\n\n    from pycparser import CParser, parse_file\n\n    ast = parse_file(\n        \"example.c\",\n        use_cpp=True,\n        cpp_args=[\"-std=c23\"],\n        parser=CParser(dialect=\"c23\"),\n    )\n\nThe parser's dialect does not configure the external preprocessor; select its\nlanguage mode separately through ``cpp_args``.\n\n.. |examples| replace:: ``examples``\n.. _examples: examples\n\n\nAdvanced usage\n--------------\n\nThe public interface of **pycparser** is well documented with comments in\n``pycparser/c_parser.py``. For a detailed overview of the various AST nodes\ncreated by the parser, see ``pycparser/_c_ast.cfg``.\n\nThe root node is a ``FileAST``, whose ``ext`` attribute is a list of top-level\ndeclarations and function definitions. Explore nodes through their named fields,\nand use ``show()`` on a subtree to inspect just that part of the AST::\n\n    from pycparser import CParser\n\n    ast = CParser().parse(\"int x; int f(void) { return x; }\")\n    print(len(ast.ext))  # 2\n    func = ast.ext[1]\n    func.body.show()\n\nFor generic exploration, call ``children()`` to get a tuple of ``(field_name,\nchild_node)`` pairs for the immediate children. The tuple supports length and\nindexing directly::\n\n    children = func.children()\n    print(len(children))  # 2: decl and body\n    name, child = children[0]\n    print(name)  # decl\n    child.show()\n\nIterating over a node directly (``for child in node``) yields just the child\nnodes, without their names. For a guided walkthrough, see\n`examples/explore_ast.py <examples/explore_ast.py>`_; for recursive traversal,\nsee the ``NodeVisitor`` example in `examples/func_defs.py <examples/func_defs.py>`_.\n\nThere's also a `FAQ available here <https://github.com/eliben/pycparser/wiki/FAQ>`_.\nIn any case, you can always drop me an `email <eliben@gmail.com>`_ for help.\n\n\nModifying\n=========\n\nThere are a few points to keep in mind when modifying **pycparser**:\n\n* The code for **pycparser**'s AST nodes is automatically generated from a\n  configuration file - ``_c_ast.cfg``, by ``_ast_gen.py``. If you modify the AST\n  configuration or the generator, run ``make regen-ast`` from the repository\n  root to re-generate ``pycparser/c_ast.py`` and run ``make format``.\n* Read the docstring in the constructor of the ``CParser`` class for details\n  on configuration and compatibility arguments.\n\n\nPackage contents\n================\n\nOnce you unzip the ``pycparser`` package, you'll see the following files and\ndirectories:\n\nREADME.rst:\n  This README file.\n\nLICENSE:\n  The pycparser license\n\nsetup.py:\n  Legacy installation script (build metadata lives in ``pyproject.toml``).\n\npyproject.toml:\n  Package metadata and build configuration.\n\nexamples/:\n  A directory with some examples of using **pycparser**\n\npycparser/:\n  The **pycparser** module source code.\n\ntests/:\n  Unit tests.\n\nutils/fake_libc_include:\n  Minimal standard C library include files that should allow to parse any C code.\n  Note that these headers now include C11 code, so they may not work when the\n  preprocessor is configured to an earlier C standard (like ``-std=c99``).\n\nutils/internal/:\n  Internal utilities for my own use. You probably don't need them.\n\n\nContributors\n============\n\nSome people have contributed to **pycparser** by opening issues on bugs they've\nfound and/or submitting patches. The list of contributors is in the CONTRIBUTORS\nfile in the source distribution. After **pycparser** moved to Github I stopped\nupdating this list because Github does a much better job at tracking\ncontributions.\n",
+        "description_content_type": "text/x-rst",
+        "author_email": "Eli Bendersky <eliben@gmail.com>",
+        "maintainer_email": "Eli Bendersky <eliben@gmail.com>",
+        "license_expression": "BSD-3-Clause",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3.15"
+        ],
+        "requires_python": ">=3.11",
+        "project_url": [
+          "Homepage, https://github.com/eliben/pycparser"
+        ]
+      }
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.12.14",
+    "os_name": "nt",
+    "platform_machine": "AMD64",
+    "platform_release": "11",
+    "platform_system": "Windows",
+    "platform_version": "10.0.26200",
+    "python_full_version": "3.12.14",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.12",
+    "sys_platform": "win32"
+  }
+}

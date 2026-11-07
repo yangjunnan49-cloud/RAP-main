@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "count": 7,
+  "controls": [
+    {
+      "case": "none",
+      "passed": true,
+      "descriptive_only": true
+    },
+    {
+      "case": "symbolic_os_system",
+      "passed": true,
+      "descriptive_only": true
+    },
+    {
+      "case": "symbolic_BUILD",
+      "passed": true,
+      "descriptive_only": true
+    },
+    {
+      "case": "truncated",
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "case": "missing_stop",
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "case": "trailing_bytes",
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "case": "oversized",
+      "passed": true,
+      "rejected": true
+    }
+  ]
+}

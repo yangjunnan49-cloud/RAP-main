@@ -1,0 +1,16 @@
+{
+  "arguments": [
+    "-d",
+    "Ubuntu-24.04",
+    "-u",
+    "root",
+    "--exec",
+    "/usr/lib/wsl/lib/nvidia-smi",
+    "--query-gpu=name,driver_version,memory.total",
+    "--format=csv,noheader"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 2.1818875,
+  "stdout": "NVIDIA GeForce RTX 5070, 610.62, 12227 MiB\n",
+  "stderr": "wsl: 检测到 localhost 代理配置，但未镜像到 WSL。NAT 模式下的 WSL 不支持 localhost 代理。\r\n"
+}

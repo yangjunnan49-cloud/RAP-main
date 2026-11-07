@@ -1,0 +1,7 @@
+# 2026-10-29 records update complete
+
+This update follows the owner's request to save records and meet in the next conversation. It adds a compact current handoff/state and a dated phase addendum, verifies the preceding closeout seal, and prepends an owner-close header to AGENTS.md while retaining its exact prior bytes. Earlier sealed files and the original day phase snapshot are unchanged.
+
+The scientific conclusions remain unchanged:17/200 numerical metric-camera PnP outputs, all00; no08 output and no PnP output among64 historical missing-proposal IDs. Available-output mean errors0.623degree/0.664metre are supplied-reference measurements with denominator17. The normalization screen establishes conditional centering erasure, not full-model invariance. No RAP gain, new training, physical/generalization authentication or corrected-LiDAR equivalence is added.
+
+No numerical experiment, solver, source acquisition, runtime installation, WSL start, fresh account probe, background monitor, Git index/commit/push, outreach, scheduler or goal-status action was performed. The current main HEAD/tracked dirty-path inspection is retained in CHECKS; other repository/remote observations remain historical. No automatic reset resume is authorized. All old failures/caps/deviations remain. Research UNRESOLVED; manuscript PAUSED. The next scientific task is not implemented, frozen or queued by this request.

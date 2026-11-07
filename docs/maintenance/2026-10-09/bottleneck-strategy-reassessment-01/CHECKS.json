@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-09",
+  "scope": "Bounded research identity and document checks, not a rerun of historical scientific closure",
+  "source_checks": [
+    {
+      "path": "rectified_point_flow/modeling.py",
+      "sha256": "d0d766d6f8b24d04150e5b2e009b54c6496bc3d8ae34a27e2abfcda07f610257",
+      "matches_previous": true
+    },
+    {
+      "path": "rectified_point_flow/sampler.py",
+      "sha256": "6166a9dfd75ab721af64edf7bea99004acbad642c94d310dba55e849e7a4cf25",
+      "matches_previous": true
+    },
+    {
+      "path": "rectified_point_flow/procrustes.py",
+      "sha256": "cb8f6bc040eef491e149bfdb82ec29da4c7865925e8cb6730b9f72b109c5cfe1",
+      "matches_previous": true
+    },
+    {
+      "path": "rectified_point_flow/flow_model/point_cloud_dit.py",
+      "sha256": "dd095019f78cc0bfac6bef767061ec6a5a02244874bc32723dd78510f9e6f974",
+      "matches_previous": true
+    },
+    {
+      "path": "rectified_point_flow/flow_model/layer.py",
+      "sha256": "e8e7caabe1da47b8c8aefea0db58ec5ffb910be8fc01b7a541ca6fec345618e8",
+      "matches_previous": true
+    },
+    {
+      "path": "rectified_point_flow/flow_model/norm.py",
+      "sha256": "730533e067ccd043e1de784fff8c59b09c2a8f62a7a786540e0a0aa33d6e5930",
+      "matches_previous": true
+    },
+    {
+      "path": "config/model/flow_model/point_cloud_dit_12.yaml",
+      "sha256": "6df19dce55f2d3ab18009d44cb32d6f08e868a0e15921fabc9e12d4c8d95c357",
+      "matches_previous": true
+    },
+    {
+      "path": "config/model/rap_12.yaml",
+      "sha256": "26283fa5ccc2fa2483be653ba0d498058c39390611f8dfd1ca294a5fd6891173",
+      "matches_previous": true
+    }
+  ],
+  "opaque_checkpoint": {
+    "sha256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200",
+    "matches_previous": true,
+    "deserialized": false
+  },
+  "previous_adaptation_delivery": {
+    "files": 19,
+    "all_match": true
+  },
+  "local_report_links": [
+    {
+      "target": "../../2026-09-26/e0-frontend-01/REPORT.md",
+      "exists": true
+    },
+    {
+      "target": "../../2026-09-27/e0-heldout-01/REPORT.md",
+      "exists": true
+    },
+    {
+      "target": "../../2026-10-08/motion-supervised-readout-01/REPORT.md",
+      "exists": true
+    },
+    {
+      "target": "../../2026-10-05/joint-loop-oracle-01/REPORT.md",
+      "exists": true
+    },
+    {
+      "target": "../../2026-10-07/retrieval-placement-audit-01/REPORT.md",
+      "exists": true
+    },
+    {
+      "target": "../../2026-10-07/metric-conflict-decomposition-01/REPORT.md",
+      "exists": true
+    },
+    {
+      "target": "../../2026-10-05/online-geometry-consistency-01/REPORT.md",
+      "exists": true
+    },
+    {
+      "target": "../local-generative-adaptation-design-01/REPORT.md",
+      "exists": true
+    }
+  ],
+  "resource_accounting": {
+    "fit_seconds": 571.2176751166116,
+    "independent_fit_replay_seconds": 529.6328322722111,
+    "recorded_total_seconds": 6124.146613696823,
+    "fit_fraction": 0.09327302416945205,
+    "old_budget_amended": false
+  },
+  "repositories": {
+    "main_head": "4055d929c594b0033aafc6eed339c910369eef55",
+    "main_branch": "codex/meeting-20260930",
+    "main_tracked_dirty_count": 2,
+    "main_tracked_dirty_paths": [
+      " M .gitignore",
+      " M AGENTS.md"
+    ],
+    "slam_head": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6",
+    "slam_branch": "codex/e0-f1-20260926",
+    "slam_tracked_dirty_count": 9,
+    "slam_status_before_after_matches": true
+  },
+  "documents": {
+    "report_sha256": "64d6c522290d589ab427aa7d12b530052b74c5178dcc27eb704341db5c0df4b1",
+    "status_sha256": "2bfa9f52f1296fd9d38ebf606b56cf39df8f9867b2a7edbb0745fe77b2f74e38",
+    "status_json_parsed": true
+  },
+  "no_new_experiment": true,
+  "passed": true
+}

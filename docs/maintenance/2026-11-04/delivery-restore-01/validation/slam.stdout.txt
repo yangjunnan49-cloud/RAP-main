@@ -1,0 +1,75 @@
+{
+  "task": "slam",
+  "mode": "check",
+  "cwd": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-SLAM",
+  "argv": [
+    "C:\\Users\\AAA\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-SLAM\\scripts\\run_pipeline.py",
+    "--rap-root",
+    "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main",
+    "--output",
+    "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-runs\\slam\\a7-acceptance-slam",
+    "--rap-ckpt",
+    "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main\\weights\\rap_model_12.ckpt",
+    "--spinnet-ckpt",
+    "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main\\weights\\mini_spinnet_t.pth",
+    "--map",
+    "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main\\demo_example_data\\map_kitti\\kitti00.ply",
+    "--real-root",
+    "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\Datasets\\data_odometry_velodyne",
+    "--spires-root",
+    "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\Datasets\\oxford_spires",
+    "--source",
+    "real",
+    "--real-seq",
+    "00",
+    "--real-start",
+    "0",
+    "--real-end",
+    "10",
+    "--real-apply-calib"
+  ],
+  "output": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-runs\\slam\\a7-acceptance-slam",
+  "paths": {
+    "workspace": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace",
+    "rap_root": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main",
+    "slam_root": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-SLAM",
+    "datasets_root": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\Datasets",
+    "weights_root": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main\\weights",
+    "output_root": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-runs",
+    "cache_root": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\.cache\\rap",
+    "sample_checkpoint": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main\\weights\\rap_model_12.ckpt",
+    "demo_checkpoint": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main\\weights\\rap_model_12.ckpt",
+    "backend_checkpoint": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main\\weights\\rap_model_12.ckpt",
+    "spinnet_checkpoint": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main\\weights\\mini_spinnet_t.pth"
+  },
+  "path_sources": {
+    "workspace": "json",
+    "rap_root": "layout",
+    "slam_root": "layout",
+    "datasets_root": "layout",
+    "weights_root": "layout",
+    "output_root": "json",
+    "cache_root": "json",
+    "sample_checkpoint": "json",
+    "demo_checkpoint": "json",
+    "backend_checkpoint": "layout",
+    "spinnet_checkpoint": "layout"
+  },
+  "required_paths": [
+    {
+      "role": "entry point",
+      "path": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-SLAM\\scripts\\run_pipeline.py",
+      "kind": "file"
+    },
+    {
+      "role": "SLAM CLI module",
+      "path": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-SLAM\\rap_slam\\cli.py",
+      "kind": "file"
+    }
+  ],
+  "errors": [],
+  "validation_scope": "Path/CLI checks only; no data provenance, model, dependency, or numerical validation"
+}
+__A7_IMPORT_AUDIT__{"numeric_or_model_modules_loaded": [], "exit_code": 0}

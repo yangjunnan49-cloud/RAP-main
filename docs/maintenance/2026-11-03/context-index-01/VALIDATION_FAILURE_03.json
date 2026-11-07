@@ -1,0 +1,16 @@
+{
+  "stage": "A2 original asset metadata verification",
+  "verifier_exit_code": 1,
+  "failure": "A Git object mtime differed from the A1 observation while its bytes and SHA256 were unchanged",
+  "entry": "rap-main:.git/objects/ff/143d194fa6604b793053f099b7c63fd63b0919",
+  "original_bytes": 293,
+  "observed_bytes": 293,
+  "original_and_observed_sha256": "4567440615b1ded595f4584b915db5aea01c91dbdadcd5888de6f0440542d30c",
+  "mtime_change_cause": "not attributed",
+  "preserved_before_fix": "attempt03/verify_context.py",
+  "repair": "For Git entries with changed metadata, require original size and byte-exact SHA256 equality; record each timestamp-only difference and independently check branch/HEAD. All non-Git original metadata guards remain strict.",
+  "source_or_experimental_result_changed": false,
+  "historical_record_rewritten": false,
+  "partial_PGC1_accuracy_read": false,
+  "scientific_rerun": false
+}

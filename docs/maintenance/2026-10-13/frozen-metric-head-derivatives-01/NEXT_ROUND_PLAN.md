@@ -1,0 +1,3 @@
+# Next baseline prerequisite — DESIGN_ONLY
+
+Inspect a distinct target-free copied-descriptor geometric correspondence control on the original synthetic OBS, with all-source ambiguity/support census, prediction seal before fixture truth and independent brute-force correspondence/rigid/metric validation. This could establish an exposed numerical-control ceiling, not a real-data baseline or admission to training. Do not resume HFIT0 or native400 fits, manufacture a RAP-specific claim, or skip raw-observation/strong geometry/common-stat/equal-work controls before later real efficacy. No new baseline runner/protocol/metrics or head fitting executed by this closure.

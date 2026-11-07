@@ -1,0 +1,5 @@
+# NOC0 amendment 02: independent-validator centroid precision
+
+Before executing the independent validator, static review found that its separate normalization reconstruction calls mean() on the reused float32 real-point arrays. Native normalization explicitly casts points to float64 before computing centres. The synthetic fixture was already float64; the real fixture would spuriously fail a strict centre/scale agreement check. This was detected before running that validator, not a new failed scientific/fitting stage.
+
+Preserve both originally frozen validator sources. A separately hash-bound attempt03 validator changes only the independent reconstruction's centre computation to p.astype(np.float64).mean(0), and routes its freeze/results/seal into attempt-02/validation-attempt-02. No neural weight, point, target, optimizer, fit, inference, metric formula, tolerance, gate or cap changes. Existing training and bank seals remain byte-identical. Validation-source freeze and the preceding resource-ledger snapshot bind this correction before audit execution. No training replay or extra trial is added.

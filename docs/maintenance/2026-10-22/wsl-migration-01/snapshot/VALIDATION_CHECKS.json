@@ -1,0 +1,60 @@
+{
+  "utc": "2026-10-22T01:58:30.7097455+00:00",
+  "passed": true,
+  "image_byte_identical_before_first_boot": true,
+  "backup_byte_identical": true,
+  "distribution_name_unchanged": true,
+  "default_uid_unchanged": true,
+  "default_user": "aaa",
+  "default_home": "/home/aaa",
+  "environment_count": 4,
+  "stable_environment_metadata_and_source_hashes_equal": true,
+  "gpu_metadata_equal": true,
+  "rap_imports": {
+    "cuda_available": true,
+    "device_name": "NVIDIA GeForce RTX 5070",
+    "imported": [
+      "pytorch3d",
+      "pytorch3d._C",
+      "open3d",
+      "gtsam",
+      "hydra",
+      "lightning"
+    ],
+    "mode": "rap",
+    "model_loads": 0,
+    "research_runs": 0,
+    "solver_runs": 0,
+    "torch": "2.7.0+cu128"
+  },
+  "native_imports": {
+    "imported": [
+      "numpy",
+      "scipy",
+      "open3d",
+      "kiss_icp",
+      "kiss_slam",
+      "map_closures",
+      "kiss_icp.pybind.kiss_icp_pybind",
+      "map_closures.pybind.map_closures_pybind"
+    ],
+    "mode": "native",
+    "model_loads": 0,
+    "research_runs": 0,
+    "solver_runs": 0
+  },
+  "wslconfig_unchanged": true,
+  "C_free_bytes": 59800449024,
+  "E_free_bytes": 538412298240,
+  "C_free_before_bytes": 14759260160,
+  "C_free_change_bytes": 45041188864,
+  "old_source_physical_copy_present": false,
+  "legacy_path_compatibility_junction": true,
+  "legacy_path_resolves_to_E": true,
+  "backup_retained": true,
+  "no_research_reruns": true,
+  "no_model_loads": true,
+  "no_installations": true,
+  "pagefile_or_hibernation_changed": false,
+  "unrelated_cleanup": false
+}

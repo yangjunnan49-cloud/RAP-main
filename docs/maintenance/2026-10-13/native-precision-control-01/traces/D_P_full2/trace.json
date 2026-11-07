@@ -1,0 +1,33 @@
+{
+  "name": "D_P_full2",
+  "condition": "D",
+  "arm": "P",
+  "path": "full",
+  "rep": 2,
+  "loss": 198.328599909531,
+  "terms": {
+    "translation": 191.6289644314828,
+    "rotation": 6.6763249041798645,
+    "shape": 0.023310573868312468
+  },
+  "linear_dtypes": {
+    "transformer_layers.10.global_qkv_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    },
+    "transformer_layers.10.global_out_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    },
+    "transformer_layers.11.global_qkv_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    },
+    "transformer_layers.11.global_out_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    }
+  },
+  "dispatched_ATen_names": [],
+  "factor": 0.0009765625
+}

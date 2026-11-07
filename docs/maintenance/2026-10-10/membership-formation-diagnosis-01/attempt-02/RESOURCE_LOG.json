@@ -1,0 +1,58 @@
+[
+  {
+    "stage": "freeze",
+    "utc": "2026-10-10T02:03:41.949892+00:00",
+    "wall_s": 2.6465401260647923,
+    "peak_rss_bytes": 41189376,
+    "passed": true
+  },
+  {
+    "stage": "preflight",
+    "utc": "2026-10-10T02:03:46.143384+00:00",
+    "wall_s": 1.4649661059956998,
+    "peak_rss_bytes": 41951232,
+    "passed": true
+  },
+  {
+    "stage": "bank",
+    "utc": "2026-10-10T02:03:58.517995+00:00",
+    "wall_s": 5.0654127520974725,
+    "peak_rss_bytes": 69152768,
+    "passed": true
+  },
+  {
+    "stage": "validate_bank",
+    "utc": "2026-10-10T02:04:08.711677+00:00",
+    "wall_s": 2.0190388311166316,
+    "peak_rss_bytes": 57921536,
+    "passed": false
+  },
+  {
+    "stage": "amendment_freeze",
+    "utc": "2026-10-10T02:05:46.406056+00:00",
+    "wall_s": 4.414825015002862,
+    "peak_rss_bytes": 39714816,
+    "passed": true
+  },
+  {
+    "stage": "validate_bank",
+    "utc": "2026-10-10T02:05:59.694604+00:00",
+    "wall_s": 3.637414311990142,
+    "peak_rss_bytes": 66682880,
+    "passed": true
+  },
+  {
+    "stage": "evaluate",
+    "utc": "2026-10-10T02:06:12.088605+00:00",
+    "wall_s": 2.082946819951758,
+    "peak_rss_bytes": 43089920,
+    "passed": true
+  },
+  {
+    "stage": "validate_evaluate",
+    "utc": "2026-10-10T02:06:19.352579+00:00",
+    "wall_s": 3.523963916115463,
+    "peak_rss_bytes": 48271360,
+    "passed": true
+  }
+]

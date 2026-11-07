@@ -1,0 +1,120 @@
+{
+  "claims": [
+    {
+      "claim": "regx_reference",
+      "path": "docs/maintenance/2026-10-23/reference-admission-01/REPORT.md",
+      "line": 3,
+      "source_sha256": "F385B992BD4C5361CD44A54BB000CC7CD26BCAF50E11A1ED8857905CC77312A1",
+      "literal_line": "All 19 original C0 source identities and all eight public files (1,358,570 bytes) still match. The private reference hash matches, but its values were not decoded. Existing consumer requests contain exactly INDEX, two manifests and five XYZ files; this is cooperative separation rather than OS isolation. Both existing cases are exposed and must be retained. Existing local RAP/miniSpinNet weights were byte-hashed only; their current identities are in CHECKS.json, without any claim about pretraining exclusion.",
+      "authority": "existing bounded local report, not independent physical authentication"
+    },
+    {
+      "claim": "regx_shared_views",
+      "path": "docs/maintenance/2026-10-16/regx-reference-package-01/REPORT.md",
+      "line": 20,
+      "source_sha256": "448103AADA537892031844F1754B2056282E67480AD900D0B6509BD35224406F",
+      "literal_line": "000/002双视图，第914行是000/001/002三视图。二者全部保留，未根据重叠、误差",
+      "authority": "existing bounded local report, not independent physical authentication"
+    },
+    {
+      "claim": "regx_physical",
+      "path": "docs/maintenance/2026-10-16/regx-reference-package-01/REPORT.md",
+      "line": 26,
+      "source_sha256": "448103AADA537892031844F1754B2056282E67480AD900D0B6509BD35224406F",
+      "literal_line": "作者发布的来源说明，不构成独立实测真值、训练排除或跨域泛化认证。已有固定",
+      "authority": "existing bounded local report, not independent physical authentication"
+    },
+    {
+      "claim": "regx_direction",
+      "path": "docs/maintenance/2026-10-16/regx-reference-code-01/REPORT.md",
+      "line": 15,
+      "source_sha256": "113C5C4A5D0269A7716F0223C28C598D830D3E76357D6F0F388C0904BBA7BE21",
+      "literal_line": "- _render第614–619行读取world，并实际写出X_i=T_i W_i；T是world→view。",
+      "authority": "existing bounded local report, not independent physical authentication"
+    },
+    {
+      "claim": "kitti_exposure",
+      "path": "docs/maintenance/2026-10-14/physical-source-role-feasibility-01/REPORT.md",
+      "line": 7,
+      "source_sha256": "C10AFC1B363E8D19EE4E29B6F34EC5BE3B3E7E18F4612CA6BD7931DACB49D6B9",
+      "literal_line": "KITTI00-05 remains exposed fit/calibration/development,06 development,07-10 exposed evaluation/development.11-21 raw availability does not supply local official supervised labels. Checkpoint membership and physical site exclusion remain UNKNOWN throughout. Oxford has only the five known GT text files; Boreas retains the ten original access objects including only two first-scan examples. Neither is an authenticated complete independent confirmation cohort. POSS and sibling KITTI roots exist but only immediate entries were inspected; their deeper availability/exposure remains for a distinct bounded inventory.",
+      "authority": "existing bounded local report, not independent physical authentication"
+    },
+    {
+      "claim": "kitti_unlabelled",
+      "path": "docs/maintenance/2026-10-14/physical-source-role-feasibility-01/REPORT.md",
+      "line": 7,
+      "source_sha256": "C10AFC1B363E8D19EE4E29B6F34EC5BE3B3E7E18F4612CA6BD7931DACB49D6B9",
+      "literal_line": "KITTI00-05 remains exposed fit/calibration/development,06 development,07-10 exposed evaluation/development.11-21 raw availability does not supply local official supervised labels. Checkpoint membership and physical site exclusion remain UNKNOWN throughout. Oxford has only the five known GT text files; Boreas retains the ten original access objects including only two first-scan examples. Neither is an authenticated complete independent confirmation cohort. POSS and sibling KITTI roots exist but only immediate entries were inspected; their deeper availability/exposure remains for a distinct bounded inventory.",
+      "authority": "existing bounded local report, not independent physical authentication"
+    },
+    {
+      "claim": "poss_configured",
+      "path": "docs/maintenance/2026-10-14/poss-exposure-lineage-01/REPORT.md",
+      "line": 15,
+      "source_sha256": "939A5E8528EFE37E572A86D1EB395F5DE4F25B21ED6CECC755143D8FE6A28E0A",
+      "literal_line": "Exact category runs: {\"known_source_exposure_or_binding\": [[3850, 5268]], \"configured_only_execution_unproven\": [[6750, 9500]], \"surviving_records_unclassified\": []}. Every current ID appears once in the complete partition. Explicit source-frame manifests and bound raw-input identities establish information exposure/binding; a configured range alone is not a proven model execution. Unclassified IDs are UNKNOWN, not newly discovered unseen or independent data.",
+      "authority": "existing bounded local report, not independent physical authentication"
+    },
+    {
+      "claim": "poss_missing",
+      "path": "docs/maintenance/2026-10-14/continuation-handoff-05/AUTHENTICATION_DEPENDENCIES.md",
+      "line": 18,
+      "source_sha256": "2FE73E93828731FCADBC282F28F44E012513AF37AF41AE7800C86EEFFB6FE7DC",
+      "literal_line": "For current POSS00,4170 scans exist in3850-5268 and6750-9500;5269-6749 is missing.",
+      "authority": "existing bounded local report, not independent physical authentication"
+    },
+    {
+      "claim": "demo_physical",
+      "path": "docs/maintenance/2026-10-15/joint-mechanism-assessment-01/REPORT.md",
+      "line": 79,
+      "source_sha256": "6A57BD47BB916931712E92053D5A99F020FD9351498831C4BEA0B9DF6299DAC5",
+      "literal_line": "coordinate references. Whether these clouds are already registered and how that",
+      "authority": "existing bounded local report, not independent physical authentication"
+    },
+    {
+      "claim": "mechanism_not_novel",
+      "path": "docs/maintenance/2026-10-15/joint-mechanism-assessment-01/REPORT.md",
+      "line": 22,
+      "source_sha256": "6A57BD47BB916931712E92053D5A99F020FD9351498831C4BEA0B9DF6299DAC5",
+      "literal_line": "running the original model on those tasks is not a new algorithmic contribution.",
+      "authority": "existing bounded local report, not independent physical authentication"
+    },
+    {
+      "claim": "cycles_not_accuracy",
+      "path": "docs/maintenance/2026-10-15/joint-mechanism-assessment-01/REPORT.md",
+      "line": 53,
+      "source_sha256": "6A57BD47BB916931712E92053D5A99F020FD9351498831C4BEA0B9DF6299DAC5",
+      "literal_line": "Cycle closure derived from one shared set of predicted poses is not independent",
+      "authority": "existing bounded local report, not independent physical authentication"
+    },
+    {
+      "claim": "no_more_prereq",
+      "path": "docs/maintenance/2026-10-14/continuation-handoff-05/NEXT_SCIENCE_DESIGN.md",
+      "line": 72,
+      "source_sha256": "48B20DADE55F00A54F4ED9A91A6B401AE320FE6027CC586738BD045FE95653AB",
+      "literal_line": "or permission to retry old LCP0/HFIT0. Stop extra prototype expansion unless",
+      "authority": "existing bounded local report, not independent physical authentication"
+    },
+    {
+      "claim": "source_before_acquisition",
+      "path": "docs/maintenance/2026-10-14/continuation-handoff-05/AUTHENTICATION_DEPENDENCIES.md",
+      "line": 85,
+      "source_sha256": "2FE73E93828731FCADBC282F28F44E012513AF37AF41AE7800C86EEFFB6FE7DC",
+      "literal_line": "Before external retrieval, the owner must separately authorize the source,",
+      "authority": "existing bounded local report, not independent physical authentication"
+    },
+    {
+      "claim": "outreach_unsent",
+      "path": "docs/maintenance/2026-10-15/joint-mechanism-assessment-01/AUTHOR_REQUEST_READY_TO_SEND.md",
+      "line": 4,
+      "source_sha256": "61E2FFD7E313A05DBBF1CD4AEB57D012D2AFB5AE07BCACA2CC7A63BC80ABF76B",
+      "literal_line": "No email/draft/API message has been sent. No external transmission is authorized.",
+      "authority": "existing bounded local report, not independent physical authentication"
+    }
+  ],
+  "claims_verified": 14,
+  "source_files_verified": 22,
+  "physical_reference_admitted": false,
+  "new_raw_private_weight_or_model_reads": 0
+}

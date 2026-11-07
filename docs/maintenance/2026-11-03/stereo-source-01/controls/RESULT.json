@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "utc": "2026-11-03T04:41:50.685931+00:00",
+  "elapsed_seconds": 0.0470000000204891,
+  "child_lifetime_peak_bytes": 42868736,
+  "read_paths": [
+    "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-11-03\\stereo-source-01\\controls\\000001_ff56f9c7e3d5455a987dab0e1b864f61_response.json"
+  ],
+  "cv2_version": "5.0.0",
+  "numpy_version": "2.3.5",
+  "threads": 1,
+  "opencl": false,
+  "synthetic_shift_controls": [
+    {
+      "disparity": 8,
+      "median": 8.0,
+      "valid_fraction": 1.0
+    },
+    {
+      "disparity": 16,
+      "median": 16.0,
+      "valid_fraction": 1.0
+    },
+    {
+      "disparity": 32,
+      "median": 32.0,
+      "valid_fraction": 1.0
+    }
+  ],
+  "nonunit_baseline_depth": 8.999999999999998,
+  "repeat_rival_costs": [
+    0,
+    0,
+    0
+  ],
+  "geometry_full_rank_alias": true,
+  "distinct_appearance_can_discriminate": true,
+  "identical_appearance_remains_ambiguous": true,
+  "real_input_bound": false,
+  "torch_imported": false
+}

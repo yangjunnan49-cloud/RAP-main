@@ -1,0 +1,5 @@
+# Before-map frontend eligibility control
+
+Complete12296-frame prepared-byte certificate passes. Before spending on the new36-cell map run, exercise the fixed explicit-float32 frontend on all six in original order using the existing KISS runtime. The original1e-5 source-pose correspondence remains mandatory; no GT metric, parameter search or alternate runtime. Each actual prepared frame must also match the complete original prepared hash. Save fresh odometry before the assertion; first mismatch stops and retains evidence. No failed sequence is replaced or loosened.
+
+This is a source-interface prerequisite, not a new efficacy experiment or a new frontend selected by accuracy. These eligibility poses are not inputs to the eventual complete-raw benchmark: every real G benchmark cell recomputes its frontend. Same shared R0+S17200s/4GiB/256MiB/GPU0 and12GiB launch guard; all prior failures charged. If it fails, S1 single-runtime registration route stops without another numerical adjustment. If it passes, continue the exact predeclared36-cell/one-retained-K schedule.

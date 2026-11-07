@@ -1,0 +1,228 @@
+{
+  "equal_prior_events": 6340,
+  "first_index": 6340,
+  "frame": 564,
+  "exact_recorded_before_event": {
+    "boundary": "ICP",
+    "components": {
+      "criteria": {
+        "dtype": "f8",
+        "endian": "little",
+        "nbytes": 24,
+        "order": "C_logical",
+        "role": "input",
+        "sha256": "dfbc30fd7f594812185e42e443ad0a50afc0f1d87f464150c0e33f41543f01b1",
+        "shape": [
+          3
+        ],
+        "strides": [
+          8
+        ],
+        "type": "array"
+      },
+      "initial_guess": {
+        "dtype": "f8",
+        "endian": "little",
+        "nbytes": 128,
+        "order": "C_logical",
+        "role": "input",
+        "sha256": "310909896b1936aa260211bfbf5f474d44dba1866157c39512c2db136af7674c",
+        "shape": [
+          4,
+          4
+        ],
+        "strides": [
+          8,
+          32
+        ],
+        "type": "array"
+      },
+      "source_normals": {
+        "dtype": "f4",
+        "endian": "little",
+        "nbytes": 463992,
+        "order": "C_logical",
+        "role": "input",
+        "sha256": "65bc33157d2ef64d2f74a861d91bfa52ec98332abc79b20073af8cb56f5f6333",
+        "shape": [
+          38666,
+          3
+        ],
+        "strides": [
+          12,
+          4
+        ],
+        "type": "array"
+      },
+      "source_points": {
+        "dtype": "f4",
+        "endian": "little",
+        "nbytes": 463992,
+        "order": "C_logical",
+        "role": "input",
+        "sha256": "09aa7214877ac404c7193af1d73f87cb0543d53221a0dcb22e234fa4526a5b15",
+        "shape": [
+          38666,
+          3
+        ],
+        "strides": [
+          12,
+          4
+        ],
+        "type": "array"
+      },
+      "target_normals": {
+        "dtype": "f4",
+        "endian": "little",
+        "nbytes": 583776,
+        "order": "C_logical",
+        "role": "input",
+        "sha256": "cc70fcf804e2009f7a5304efb1f16b8bcfecf375dbefd9f7cb397bf538b91eb4",
+        "shape": [
+          48648,
+          3
+        ],
+        "strides": [
+          12,
+          4
+        ],
+        "type": "array"
+      },
+      "target_points": {
+        "dtype": "f4",
+        "endian": "little",
+        "nbytes": 583776,
+        "order": "C_logical",
+        "role": "input",
+        "sha256": "8883f568a7923c73c1a1c994b86ff2d2f26b2157ea2b5450ab118f61be8ba122",
+        "shape": [
+          48648,
+          3
+        ],
+        "strides": [
+          12,
+          4
+        ],
+        "type": "array"
+      },
+      "threshold": {
+        "dtype": "f8",
+        "endian": "little",
+        "nbytes": 8,
+        "order": "C_logical",
+        "role": "input",
+        "sha256": "572795c1c3a16ad76ab41668e6c9221a652061c8d7281d95f28d66b2235587bb",
+        "shape": [],
+        "strides": [],
+        "type": "array"
+      }
+    },
+    "frame": 564,
+    "index": 6339,
+    "native_state": "UNKNOWN",
+    "phase": "before"
+  },
+  "changed_output_components": [
+    "inlier_rmse",
+    "transform"
+  ],
+  "left_output": {
+    "boundary": "ICP",
+    "components": {
+      "fitness": {
+        "dtype": "f8",
+        "endian": "little",
+        "nbytes": 8,
+        "order": "C_logical",
+        "role": "output",
+        "sha256": "3b9e4bf818ae7e7bb8136e06e062ac5ae1dfb2d88dff523f1aa6775625e75481",
+        "shape": [],
+        "strides": [],
+        "type": "array"
+      },
+      "inlier_rmse": {
+        "dtype": "f8",
+        "endian": "little",
+        "nbytes": 8,
+        "order": "C_logical",
+        "role": "output",
+        "sha256": "668245bed2898fadaf660b89fd6ade02bac730656af030f10ebd587839e44f32",
+        "shape": [],
+        "strides": [],
+        "type": "array"
+      },
+      "transform": {
+        "dtype": "f8",
+        "endian": "little",
+        "nbytes": 128,
+        "order": "C_logical",
+        "role": "output",
+        "sha256": "129dac92ef08193d9e9d46fc0d44a658844f17cbec60404968f6fe93e9fb20ae",
+        "shape": [
+          4,
+          4
+        ],
+        "strides": [
+          32,
+          8
+        ],
+        "type": "array"
+      }
+    },
+    "frame": 564,
+    "index": 6340,
+    "native_state": "UNKNOWN",
+    "phase": "after"
+  },
+  "right_output": {
+    "boundary": "ICP",
+    "components": {
+      "fitness": {
+        "dtype": "f8",
+        "endian": "little",
+        "nbytes": 8,
+        "order": "C_logical",
+        "role": "output",
+        "sha256": "3b9e4bf818ae7e7bb8136e06e062ac5ae1dfb2d88dff523f1aa6775625e75481",
+        "shape": [],
+        "strides": [],
+        "type": "array"
+      },
+      "inlier_rmse": {
+        "dtype": "f8",
+        "endian": "little",
+        "nbytes": 8,
+        "order": "C_logical",
+        "role": "output",
+        "sha256": "6124fd6d9b158b77b5560e5f7ffd528d0e64ded3a57f8683c0d51ca23a14f7e1",
+        "shape": [],
+        "strides": [],
+        "type": "array"
+      },
+      "transform": {
+        "dtype": "f8",
+        "endian": "little",
+        "nbytes": 128,
+        "order": "C_logical",
+        "role": "output",
+        "sha256": "b10f3bf5e95b900727f876aeeafa88f3842934e7dc62a055bfdd24e4e6594cc5",
+        "shape": [
+          4,
+          4
+        ],
+        "strides": [
+          32,
+          8
+        ],
+        "type": "array"
+      }
+    },
+    "frame": 564,
+    "index": 6340,
+    "native_state": "UNKNOWN",
+    "phase": "after"
+  },
+  "hidden_state": "UNKNOWN",
+  "causal_mechanism": "UNKNOWN",
+  "before_hashes_are_recording_assertions_not_independent_authenticity": true
+}

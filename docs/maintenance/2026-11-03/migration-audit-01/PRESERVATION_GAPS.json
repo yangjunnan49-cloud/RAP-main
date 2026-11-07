@@ -1,0 +1,106 @@
+{
+  "review_categories": {
+    "exact_bytes_preserved_at_other_path": 6449,
+    "exact_historical_bytes_recovered": 18,
+    "expected_negative_control": 1,
+    "linux_environment_not_inspected": 72,
+    "unrecovered_historical_mutable_context": 1,
+    "external_runtime_digest_verified": 3,
+    "historical_windows_runtime_changed": 1,
+    "unrecovered_historical_source_or_asset": 17,
+    "intentionally_corrupted_synthetic_fixture": 1,
+    "virtual_synthetic_source_declaration": 1001
+  },
+  "unrecovered_entries": [
+    {
+      "manifest": "rap-main:docs/maintenance/2026-10-20/weekly-system-handoff-01/ACCOUNT_STOP_SEAL.json",
+      "json_location": "$.files.E:\\githouse\\RAP-main\\AGENTS.md",
+      "recorded_path": "E:\\githouse\\RAP-main\\AGENTS.md",
+      "sha256": "1044715deb7ec959ecec68810450f0245907755913c97c7884d6cd0b071c5261",
+      "raw_status": "recorded_current_bytes_differ_no_exact_copy_in_scope",
+      "review_category": "unrecovered_historical_mutable_context",
+      "next_step": "A2 在历史上下文索引中保留旧哈希和版本缺口；当前入口校验由新证明承担，不重写旧 seal。",
+      "evidence": "RECOVERED_SOURCES.json; existing context full texts and Git byte search",
+      "original_modified": false
+    },
+    {
+      "manifest": "rap-main:docs/maintenance/2026-09-15/rejection-diagnostic-01/input_freeze.json",
+      "json_location": "$.hashes./mnt/e/githouse/RAP-main/scripts/maintenance/diagnose_rejection.py",
+      "recorded_path": "/mnt/e/githouse/RAP-main/scripts/maintenance/diagnose_rejection.py",
+      "sha256": "b523e3608c7abb42065b2550fb4d6207ad357c2e5f6c8c98fc0e5e668b9baca0",
+      "raw_status": "recorded_current_bytes_differ_no_exact_copy_in_scope",
+      "review_category": "unrecovered_historical_source_or_asset",
+      "next_step": "保留原路径、旧哈希和当前字节；在实验索引明列复现缺口，不能将现代码替换成旧源码证明。",
+      "evidence": "RECOVERED_SOURCES.json; ARCHIVE_SOURCE_SEARCH.json",
+      "original_modified": false
+    },
+    {
+      "manifest": "rap-main:docs/maintenance/2026-09-14/support-control-01/data/cohort_freeze.json",
+      "json_location": "$.source_hashes./mnt/e/githouse/RAP-SLAM/rap_slam/odometry.py",
+      "recorded_path": "/mnt/e/githouse/RAP-SLAM/rap_slam/odometry.py",
+      "sha256": "677ec6d410358ba30cfc3a1e3c022753b5f955d214a5d7888439070d17f547c1",
+      "raw_status": "recorded_current_bytes_differ_no_exact_copy_in_scope",
+      "review_category": "unrecovered_historical_source_or_asset",
+      "next_step": "保留原路径、旧哈希和当前字节；在实验索引明列复现缺口，不能将现代码替换成旧源码证明。",
+      "evidence": "RECOVERED_SOURCES.json; ARCHIVE_SOURCE_SEARCH.json",
+      "original_modified": false
+    },
+    {
+      "manifest": "rap-main:docs/maintenance/2026-09-11/m3-logging/final_source_manifest.json",
+      "json_location": "$[4]",
+      "recorded_path": "scripts/run_pipeline.py",
+      "sha256": "afdf15de7ff3779207d04795e8fe3d03c5adb7b8f419f2fd4c121d5426bc27be",
+      "raw_status": "recorded_current_bytes_differ_no_exact_copy_in_scope",
+      "review_category": "unrecovered_historical_source_or_asset",
+      "next_step": "保留原路径、旧哈希和当前字节；在实验索引明列复现缺口，不能将现代码替换成旧源码证明。",
+      "evidence": "RECOVERED_SOURCES.json; ARCHIVE_SOURCE_SEARCH.json",
+      "original_modified": false
+    },
+    {
+      "manifest": "rap-main:docs/maintenance/2026-09-11/full-poss-01/input_manifest.json",
+      "json_location": "$./mnt/e/githouse/RAP-SLAM/scripts/run_pipeline.py",
+      "recorded_path": "/mnt/e/githouse/RAP-SLAM/scripts/run_pipeline.py",
+      "sha256": "afdf15de7ff3779207d04795e8fe3d03c5adb7b8f419f2fd4c121d5426bc27be",
+      "raw_status": "recorded_current_bytes_differ_no_exact_copy_in_scope",
+      "review_category": "unrecovered_historical_source_or_asset",
+      "next_step": "保留原路径、旧哈希和当前字节；在实验索引明列复现缺口，不能将现代码替换成旧源码证明。",
+      "evidence": "RECOVERED_SOURCES.json; ARCHIVE_SOURCE_SEARCH.json",
+      "original_modified": false
+    },
+    {
+      "manifest": "rap-main:docs/maintenance/2026-09-10/m2-evaluation/final_source_manifest.json",
+      "json_location": "$.files[0]",
+      "recorded_path": "rap_slam/rap_backend.py",
+      "sha256": "fbf27bafd36dadcf02167f53b8320e70fb7f82e1e66ee0118c01cfbec67d98be",
+      "raw_status": "recorded_current_bytes_differ_no_exact_copy_in_scope",
+      "review_category": "unrecovered_historical_source_or_asset",
+      "next_step": "保留原路径、旧哈希和当前字节；在实验索引明列复现缺口，不能将现代码替换成旧源码证明。",
+      "evidence": "RECOVERED_SOURCES.json; ARCHIVE_SOURCE_SEARCH.json",
+      "original_modified": false
+    },
+    {
+      "manifest": "rap-main:docs/maintenance/2026-09-10/m2-evaluation/final_source_manifest.json",
+      "json_location": "$.files[4]",
+      "recorded_path": "rap_slam/odometry.py",
+      "sha256": "677ec6d410358ba30cfc3a1e3c022753b5f955d214a5d7888439070d17f547c1",
+      "raw_status": "recorded_current_bytes_differ_no_exact_copy_in_scope",
+      "review_category": "unrecovered_historical_source_or_asset",
+      "next_step": "保留原路径、旧哈希和当前字节；在实验索引明列复现缺口，不能将现代码替换成旧源码证明。",
+      "evidence": "RECOVERED_SOURCES.json; ARCHIVE_SOURCE_SEARCH.json",
+      "original_modified": false
+    },
+    {
+      "manifest": "rap-main:docs/maintenance/2026-09-10/m2-evaluation/final_source_manifest.json",
+      "json_location": "$.files[8]",
+      "recorded_path": "scripts/run_pipeline.py",
+      "sha256": "482d9b285384abb3489211ff621acb9fcf5646227a12151aca1b3c8d8a3e4c41",
+      "raw_status": "recorded_current_bytes_differ_no_exact_copy_in_scope",
+      "review_category": "unrecovered_historical_source_or_asset",
+      "next_step": "保留原路径、旧哈希和当前字节；在实验索引明列复现缺口，不能将现代码替换成旧源码证明。",
+      "evidence": "RECOVERED_SOURCES.json; ARCHIVE_SOURCE_SEARCH.json",
+      "original_modified": false
+    }
+  ],
+  "unique_missing_source_digests": 5,
+  "note": "Pre-existing provenance gaps, not files deleted by this audit. Linux environment is uninspected rather than declared missing; virtual and negative fixtures retained."
+}

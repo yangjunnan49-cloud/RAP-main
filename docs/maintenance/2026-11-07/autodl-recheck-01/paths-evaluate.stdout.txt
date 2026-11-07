@@ -1,0 +1,71 @@
+{
+  "task": "evaluate",
+  "mode": "check",
+  "cwd": "/root/autodl-tmp/rap-workspace-20261106/RAP-SLAM",
+  "argv": [
+    "/root/autodl-tmp/rap-envs/rap-20261106/bin/python",
+    "-B",
+    "/root/autodl-tmp/rap-workspace-20261106/RAP-SLAM/scripts/eval_external_trajectory.py",
+    "--poses-dir",
+    "/root/autodl-tmp/rap-workspace-20261106/RAP-main/docs/maintenance/2026-09-19/horizontal-comparison-01/b-kiss-slam/poses",
+    "--dataset-root",
+    "/root/autodl-tmp/rap-workspace-20261106/Datasets/data_odometry_velodyne/dataset",
+    "--method-label",
+    "migration-recheck-only",
+    "--sequences",
+    "00",
+    "--out",
+    "/root/autodl-tmp/rap-workspace-20261106/RAP-runs/evaluate/recheck-20261107-evaluate"
+  ],
+  "output": "/root/autodl-tmp/rap-workspace-20261106/RAP-runs/evaluate/recheck-20261107-evaluate",
+  "paths": {
+    "workspace": "/root/autodl-tmp/rap-workspace-20261106",
+    "rap_root": "/root/autodl-tmp/rap-workspace-20261106/RAP-main",
+    "slam_root": "/root/autodl-tmp/rap-workspace-20261106/RAP-SLAM",
+    "datasets_root": "/root/autodl-tmp/rap-workspace-20261106/Datasets",
+    "weights_root": "/root/autodl-tmp/rap-workspace-20261106/RAP-main/weights",
+    "output_root": "/root/autodl-tmp/rap-workspace-20261106/RAP-runs",
+    "cache_root": "/root/autodl-tmp/rap-workspace-20261106/.cache/rap",
+    "sample_checkpoint": "/root/autodl-tmp/rap-workspace-20261106/RAP-main/weights/rap_model_12.ckpt",
+    "demo_checkpoint": "/root/autodl-tmp/rap-workspace-20261106/RAP-main/weights/rap_model_12.ckpt",
+    "backend_checkpoint": "/root/autodl-tmp/rap-workspace-20261106/RAP-main/weights/rap_model_12.ckpt",
+    "spinnet_checkpoint": "/root/autodl-tmp/rap-workspace-20261106/RAP-main/weights/mini_spinnet_t.pth"
+  },
+  "path_sources": {
+    "workspace": "json",
+    "rap_root": "layout",
+    "slam_root": "layout",
+    "datasets_root": "layout",
+    "weights_root": "layout",
+    "output_root": "json",
+    "cache_root": "json",
+    "sample_checkpoint": "json",
+    "demo_checkpoint": "json",
+    "backend_checkpoint": "layout",
+    "spinnet_checkpoint": "layout"
+  },
+  "required_paths": [
+    {
+      "role": "entry point",
+      "path": "/root/autodl-tmp/rap-workspace-20261106/RAP-SLAM/scripts/eval_external_trajectory.py",
+      "kind": "file"
+    },
+    {
+      "role": "external trajectory",
+      "path": "/root/autodl-tmp/rap-workspace-20261106/RAP-main/docs/maintenance/2026-09-19/horizontal-comparison-01/b-kiss-slam/poses/kitti00_poses_kitti.txt",
+      "kind": "file"
+    },
+    {
+      "role": "reference trajectory",
+      "path": "/root/autodl-tmp/rap-workspace-20261106/Datasets/data_odometry_velodyne/dataset/poses/00.txt",
+      "kind": "file"
+    },
+    {
+      "role": "calibration",
+      "path": "/root/autodl-tmp/rap-workspace-20261106/Datasets/data_odometry_velodyne/dataset/sequences/00/calib.txt",
+      "kind": "file"
+    }
+  ],
+  "errors": [],
+  "validation_scope": "Path/CLI checks only; no data provenance, model, dependency, or numerical validation"
+}

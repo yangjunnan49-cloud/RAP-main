@@ -1,0 +1,60 @@
+{
+  "started_utc": "2026-11-04T03:49:37.879782+00:00",
+  "events": [
+    {
+      "argv": [
+        "wsl.exe",
+        "--list",
+        "--running",
+        "--quiet"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "wsl.exe",
+        "-d",
+        "Ubuntu-24.04",
+        "--user",
+        "root",
+        "--exec",
+        "/usr/bin/env",
+        "CUDA_VISIBLE_DEVICES=",
+        "HF_HUB_OFFLINE=1",
+        "/usr/bin/python3",
+        "-I",
+        "-S",
+        "-B",
+        "/mnt/e/githouse/RAP-main/docs/maintenance/2026-11-04/environment-readiness-01/collect_build_evidence.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"log_checks\": [{\"path\": \"/root/build_pytorch3d.sh\", \"state\": \"NOT_PRESENT\"}, {\"path\": \"/root/pytorch3d_build.log\", \"bytes\": 1677, \"commit_candidates\": [], \"cuda_arch_flags\": [], \"torch_cuda_mentions\": []}, {\"path\": \"/root/pytorch3d_build2.log\", \"bytes\": 243554, \"commit_candidates\": [], \"cuda_arch_flags\": [\"compute_120\", \"sm_120\"], \"torch_cuda_mentions\": [\"cuda-12.8\"]}, {\"path\": \"/root/pytorch3d_build3.log\", \"state\": \"NOT_PRESENT\"}], \"directory_candidates\": [], \"preserved_files\": 2}\n",
+      "stderr": "wsl: 检测到 localhost 代理配置，但未镜像到 WSL。NAT 模式下的 WSL 不支持 localhost 代理。\r\n"
+    },
+    {
+      "argv": [
+        "wsl.exe",
+        "--terminate",
+        "Ubuntu-24.04"
+      ],
+      "exit_code": 0,
+      "stdout": "操作成功完成。 \r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "wsl.exe",
+        "--list",
+        "--running",
+        "--quiet"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "restored_initial_stopped_state": true,
+  "finished_utc": "2026-11-04T03:49:43.595181+00:00"
+}

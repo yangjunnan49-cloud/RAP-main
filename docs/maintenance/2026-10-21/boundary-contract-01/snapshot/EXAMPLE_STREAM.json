@@ -1,0 +1,56 @@
+{
+  "binding": {
+    "config_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "runtime": "synthetic-stdlib",
+    "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "events": [
+    {
+      "index": 0,
+      "previous": "e3907ed113c2a91c4c234f64c54057c55ffc99001bdf0a419d4c0ebc806004f8",
+      "event": {
+        "boundary": "map.integrate",
+        "components": {
+          "output": {
+            "byteorder": "na",
+            "dtype": "u1",
+            "nbytes": 1,
+            "order": "C",
+            "role": "output",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [
+              1
+            ]
+          },
+          "points": {
+            "byteorder": "little",
+            "dtype": "f4",
+            "nbytes": 24,
+            "order": "C",
+            "role": "prepared_input",
+            "sha256": "24ae2dfe8df57c1b80e54cef3d90ac3b417fd98973345a5f616bbc9a75dcc202",
+            "shape": [
+              2,
+              3
+            ]
+          },
+          "pose": {
+            "byteorder": "little",
+            "dtype": "f8",
+            "nbytes": 16,
+            "order": "C",
+            "role": "derived_input",
+            "sha256": "fc62429c3e69001d65972cdeb94fb9aa18a7d9c16bc449e1e474e7e41bb95a7d",
+            "shape": [
+              2
+            ]
+          }
+        },
+        "id": "frame:0",
+        "state_coverage": "unobserved"
+      },
+      "seal": "d602541a56de34eb04c5ba9c686fcd65b2d366d26b06274b60cab606ef355559"
+    }
+  ],
+  "final_seal": "d602541a56de34eb04c5ba9c686fcd65b2d366d26b06274b60cab606ef355559"
+}

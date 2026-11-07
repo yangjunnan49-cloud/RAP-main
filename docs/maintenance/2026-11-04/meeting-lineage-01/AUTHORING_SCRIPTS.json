@@ -1,0 +1,1100 @@
+[
+  {
+    "asset": "rap-main:docs/meeting_20260921/make_ablation_fig.py",
+    "sha256": "0ab25ede140801b299dddd22de7dfae26c121cb4f5137a65e45a92edf75302f1",
+    "imports_static": [
+      "daimon_runtime",
+      "json",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "os",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20260921/make_innovation_fig.py",
+    "sha256": "cac472f8dfff5e07e7813e662b122908ed04f09e65cc19687aec22ff93deddc3",
+    "imports_static": [
+      "daimon_runtime",
+      "json",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "os",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 24,
+        "text": "SLAM = \"E:/githouse/RAP-SLAM\""
+      },
+      {
+        "line": 30,
+        "text": "p = f\"E:/githouse/Datasets/data_odometry_velodyne/dataset/sequences/{seq}/velodyne/{frame:06d}.bin\""
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20260921/make_ppt.py",
+    "sha256": "f8b85dd35494218d5f4cc473089097b977d714220aea6c1a6473ed069b5f6b9b",
+    "imports_static": [
+      "os",
+      "pptx",
+      "pptx.dml.color",
+      "pptx.enum.shapes",
+      "pptx.enum.text",
+      "pptx.oxml.ns",
+      "pptx.util"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20260921/render_maps.py",
+    "sha256": "f2f6d011bbbf61fa93b2950968a00f97c041f79f44fb257e34d4a88253eb906e",
+    "imports_static": [
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "os",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 20,
+        "text": "SLAM = \"E:/githouse/RAP-SLAM/output_meeting\""
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20260930/.build/build_deck.mjs",
+    "sha256": "bbdf97c369c4e63eb8efbe38af7695afaa0d61306a5fb2fb1408a6c9eaf696a3",
+    "imports_static": [],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 8,
+        "text": "const root='E:/githouse/RAP-main/docs/meeting_20260930';"
+      },
+      {
+        "line": 10,
+        "text": "const skill='C:/Users/AAA/.codex/plugins/cache/openai-primary-runtime/presentations/26.929.10730/skills/presentations';"
+      },
+      {
+        "line": 11,
+        "text": "GlobalFonts.registerFromPath('C:/Windows/Fonts/simsun.ttc');"
+      },
+      {
+        "line": 12,
+        "text": "GlobalFonts.registerFromPath('C:/Windows/Fonts/times.ttf');"
+      },
+      {
+        "line": 13,
+        "text": "GlobalFonts.registerFromPath('C:/Windows/Fonts/timesbd.ttf');"
+      },
+      {
+        "line": 89,
+        "text": "`Sources: system-opportunity-audit-01 REPORT.md, results.json, validation.json and NEXT_ROUND_PLAN.md; actual E:/githouse/RAP-SLAM/rap_slam/pose_graph.py propagate_to_full_trajectory. GT replacement is one edge at a time, same endpoints, evaluator only, never an executable method or all-edge ceiling. 71 attempted/58 accepted. Retrieval shortlist is incomplete, so no recall claim. Current propagation is previous-keyframe constant left correction, "
+      },
+      {
+        "line": 115,
+        "text": "execFileSync('C:/Users/AAA/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe',[path.join(build,'patch_ppt_fonts.py'),candidate],{stdio:'inherit'});"
+      },
+      {
+        "line": 122,
+        "text": "const result=await finalizePresentation({workspaceDir:root,candidatePath:candidate,finalPath:path.join(root,'output','RAP_SLAM_周会_20260930_无实验编号.pptx'),pythonExecutable:'C:/Users/AAA/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe',integrityValidatorPath:path.join(skill,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(skill,'container_tools/inspect_presentation_layout_geometry.p"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20260930/.build/build_doc.py",
+    "sha256": "e4c3581deb9d3bed5362bcfb0a254541954bf7976ba95be8a0b2bb5d46aa38c9",
+    "imports_static": [
+      "docx",
+      "docx.enum.table",
+      "docx.enum.text",
+      "docx.oxml",
+      "docx.oxml.ns",
+      "docx.shared",
+      "pathlib",
+      "re"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 10,
+        "text": "ROOT=Path('E:/githouse/RAP-main/docs/meeting_20260930')"
+      },
+      {
+        "line": 194,
+        "text": "p('以下路径均相对 E:/githouse/RAP-main/docs/maintenance/。报告链接给出每轮输入、门槛、结果与独立验证入口。',size=10.5)"
+      },
+      {
+        "line": 204,
+        "text": "'[7] 引用统计快照：E:/githouse/RAP-main/docs/meeting_20260930/evidence/openalex_{rap,kiss_icp,kiss_slam}.json。公共记录：https://openalex.org/W4416981898；https://openalex.org/W4315778466；https://openalex.org/W4416750767。查询日2026-09-30。']"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20260930/.build/patch_ppt_fonts.py",
+    "sha256": "4de485df5d4ca4adcae497b23c0e7d03ffac9a2a49d603d1298249cb2ea8a2f1",
+    "imports_static": [
+      "lxml",
+      "pathlib",
+      "sys",
+      "zipfile"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20260930/.build/remove_labels.py",
+    "sha256": "a26277bfe2ad0b85fd9facec1d7611a1aa0b90c34bb5722b775185c69ecf347b",
+    "imports_static": [
+      "pathlib",
+      "re"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20260930/.build/verify_delivery.py",
+    "sha256": "d72b5feda0ce015396e4b709389a331622889197f3a0e5e4b54399ad37cb4daa",
+    "imports_static": [
+      "PIL",
+      "hashlib",
+      "json",
+      "lxml",
+      "pathlib",
+      "pypdf",
+      "re",
+      "zipfile"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 6,
+        "text": "root=Path('E:/githouse/RAP-main/docs/meeting_20260930')"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20260930/.build/verify_no_labels.py",
+    "sha256": "ffb35cfaf14dfb3056f6dff1d6fdb42e8f99a79c1a6c5b33cf31590db758a7db",
+    "imports_static": [
+      "hashlib",
+      "json",
+      "lxml",
+      "pathlib",
+      "pypdf",
+      "re",
+      "zipfile"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 5,
+        "text": "r=Path('E:/githouse/RAP-main/docs/meeting_20260930')"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20260930/create_speech_docx.js",
+    "sha256": "4459b20ed551bceaa8676ada1f28129ab64d96dad752311bb666c61640fe23f3",
+    "imports_static": [],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261011/.build/benchmark_report.py",
+    "sha256": "3b305fc00bfa6f308c932d176f07fc3750e58bf9286b738c149d899e2e2fe61e",
+    "imports_static": [
+      "datetime",
+      "hashlib",
+      "json",
+      "pathlib"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 3,
+        "text": "ROOT=Path('E:/githouse/RAP-main/docs/meeting_20261011');B=ROOT/'benchmark';A=B/'attempt03'"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261011/.build/build_deck.mjs",
+    "sha256": "4526e5e00cde0c9e0a2d42dffa48421c73f104a9fdf4fbdfccdfb07e4cc2c6fe",
+    "imports_static": [],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 6,
+        "text": "const root='E:/githouse/RAP-main/docs/meeting_20261011';"
+      },
+      {
+        "line": 8,
+        "text": "const skill='C:/Users/AAA/.codex/plugins/cache/openai-primary-runtime/presentations/26.1007.11041/skills/presentations';"
+      },
+      {
+        "line": 9,
+        "text": "const python='C:/Users/AAA/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';"
+      },
+      {
+        "line": 10,
+        "text": "GlobalFonts.registerFromPath('C:/Windows/Fonts/simsun.ttc');"
+      },
+      {
+        "line": 11,
+        "text": "GlobalFonts.registerFromPath('C:/Windows/Fonts/times.ttf');"
+      },
+      {
+        "line": 14,
+        "text": "const geo=JSON.parse(await fs.readFile('E:/githouse/RAP-main/docs/maintenance/2026-10-05/online-geotransformer-01/results.json','utf8'));"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261011/.build/build_doc.py",
+    "sha256": "e7c637c7c72e6e0b3b42bb0d40b2608a49b3ff5c83f62ddd6d864aa945f042bc",
+    "imports_static": [
+      "docx",
+      "docx.enum.table",
+      "docx.enum.text",
+      "docx.oxml",
+      "docx.oxml.ns",
+      "docx.shared",
+      "json",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 9,
+        "text": "ROOT=Path('E:/githouse/RAP-main/docs/meeting_20261011')"
+      },
+      {
+        "line": 250,
+        "text": "p('所有入口位于 E:/githouse/RAP-main/docs/maintenance/，各目录内优先读 REPORT.md；下列编号只用于定位文件，不在PPT正文作为实验名称。',size=10)"
+      },
+      {
+        "line": 253,
+        "text": "p('本次完整重测：E:/githouse/RAP-main/docs/meeting_20261011/benchmark/attempt03/。结果看 results.json，独立核验看 validation.json。此前启动参数失败、完成但超限的运行以及新的前瞻资源范围均单独保存，没有把失败补判通过。当前重测的两段Windows主机日志缺口保留；各实验子进程的完整资源峰值和退出状态另行检查，不能声称主机监控从未中断。',size=9.5)"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261011/.build/delivery_audit.py",
+    "sha256": "0b95b7a87662fcbcf6edae2c6411ad5f73cdc0e0566490543000d91d8949a2ce",
+    "imports_static": [
+      "hashlib",
+      "json",
+      "pathlib",
+      "pypdf",
+      "xml.etree.ElementTree",
+      "zipfile"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 4,
+        "text": "ROOT=Path('E:/githouse/RAP-main/docs/meeting_20261011')"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261011/.build/render_office.ps1",
+    "sha256": "7b6505918af1e42eb71ba468bb08bd59427c497ef21b11a82c5f1a1f32844050",
+    "imports_static": [],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261018/.build/build_slides.mjs",
+    "sha256": "294aa1b8894c5f9a9a1ea5d807146340ef89639586f6707e834718e3fc6a1671",
+    "imports_static": [],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 4,
+        "text": "import { Presentation, PresentationFile } from 'file:///C:/Users/AAA/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/@oai/artifact-tool/dist/artifact_tool.mjs';"
+      },
+      {
+        "line": 7,
+        "text": "process.env.RUNTIME_NODE_MODULES='C:/Users/AAA/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules';"
+      },
+      {
+        "line": 12,
+        "text": "const SKILL='C:/Users/AAA/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';"
+      },
+      {
+        "line": 13,
+        "text": "const PY='C:/Users/AAA/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261018/.build/build_word.py",
+    "sha256": "ca6345448a3b84a1f53e79760eca310a7d5ec2405305c80f3458f53985413931",
+    "imports_static": [
+      "docx",
+      "docx.enum.table",
+      "docx.enum.text",
+      "docx.oxml",
+      "docx.oxml.ns",
+      "docx.shared",
+      "hashlib",
+      "json",
+      "pathlib",
+      "zipfile"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 12,
+        "text": "SOURCE=Path('C:/Users/AAA/Downloads/RAP_SLAM_组会讲解与问答_20261011 (1).docx')"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261018/.build/check_delivery.py",
+    "sha256": "8b363c143f160b82dbc95c63948d2005a08ac0c5ef401dde545de438674c6a17",
+    "imports_static": [
+      "PIL",
+      "hashlib",
+      "json",
+      "lxml",
+      "pathlib",
+      "pypdf",
+      "re",
+      "zipfile"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261018/.build/inspect_sources.py",
+    "sha256": "98a74bdc1dd2d14d5aa4d555d1d425cfb51118c74da42fd67ae7b95a0fce4bcb",
+    "imports_static": [
+      "docx",
+      "hashlib",
+      "json",
+      "lxml",
+      "pathlib",
+      "pypdf",
+      "pypdfium2",
+      "zipfile"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 10,
+        "text": "DOC = Path('C:/Users/AAA/Downloads/RAP_SLAM_组会讲解与问答_20261011 (1).docx')"
+      },
+      {
+        "line": 11,
+        "text": "PDF = Path('C:/Users/AAA/Downloads/RAP_SLAM_20261011.pdf')"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261018/.build/prepare_content.py",
+    "sha256": "8314706b4d3c0809b4a3b4ee20ec63cfc59da20a9d3949750ab6e8b9a9a0ba34",
+    "imports_static": [
+      "hashlib",
+      "json",
+      "numpy",
+      "pathlib"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261018/.build/rasterize_pdf.py",
+    "sha256": "2c0aa462279b78033feafc35b095213467f0295125f3e7372195e40a92bda62e",
+    "imports_static": [
+      "argparse",
+      "pathlib",
+      "pypdfium2"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261018/.build/render_with_powerpoint.ps1",
+    "sha256": "3d4827b50e678d18920c505ee86924086766b3f85631bf47f051f62d87ab5f38",
+    "imports_static": [],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261018/.build/render_with_word.ps1",
+    "sha256": "2670cc52e0954697bedd1ca1b95c92b5e46e39342f7042bb411bafda447fd8e9",
+    "imports_static": [],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261025/calculate_metrics.py",
+    "sha256": "b6f234b6af2fde08298f577b548f3643af0429bec358c5ca2d45e2f734c5a5f5",
+    "imports_static": [
+      "json",
+      "pathlib"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261025/eval_paper_metrics_reference.py",
+    "sha256": "c20ad4d614e64bf21bc350b1ebc1c4716e9091232a2ee9733f5c7074a7fcf595",
+    "imports_static": [
+      "argparse",
+      "json",
+      "logging",
+      "numpy",
+      "os",
+      "rap_slam",
+      "rap_slam.trajectory_protocol",
+      "sys",
+      "typing"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 46,
+        "text": "KITTI_ROOT = \"/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset\""
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261025/evaluate_reference.py",
+    "sha256": "0dbe756335f00e1128b7d23ae599882a556fa2b6458f64ca3122220ba17f4281",
+    "imports_static": [
+      "evo.core",
+      "evo.core.trajectory",
+      "logging",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "open3d",
+      "os",
+      "typing"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261025/rap_slam_weekly/build_speaker_notes.js",
+    "sha256": "1e27af01bd08307b43960a840c8fcdab8752bd61450d4ed775d2a251c81a1151",
+    "imports_static": [],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261025/rap_slam_weekly/build_speaker_notes.mjs",
+    "sha256": "ea0102e571c635217016b8995b8e1bccd284ffeb28c6129e45e17def43b110b1",
+    "imports_static": [],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:docs/meeting_20261025/real_dataset_reference.py",
+    "sha256": "ecb438df719e5e61632163d6a620fca114f80f7fce920147a3a8234ea52684d1",
+    "imports_static": [
+      "glob",
+      "logging",
+      "numpy",
+      "os",
+      "trajectory_protocol",
+      "typing"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:working files/decks/rap_slam_weekly-b5533638/build_trajectory_atlas.py",
+    "sha256": "b8961a0e0a1254d9e44a10edc1d2b35aa865a5055915357a40f82d2c4ff1f211",
+    "imports_static": [
+      "json",
+      "matplotlib.lines",
+      "matplotlib.patches",
+      "matplotlib.pyplot",
+      "numpy",
+      "pathlib"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:working files/decks/rap_slam_weekly-b5533638/build_weekly_20261101.py",
+    "sha256": "400c42eb7c2b3853eeb654af34c130783368f260c73a0db5780bda327c9aeccf",
+    "imports_static": [
+      "json",
+      "matplotlib.lines",
+      "matplotlib.patches",
+      "matplotlib.pyplot",
+      "numpy",
+      "pathlib",
+      "shutil"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 13,
+        "text": "CLOUD_SOURCE = Path(\"E:/githouse/Datasets/data_odometry_velodyne/dataset/sequences/05/velodyne\")"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:working files/decks/rap_slam_weekly-b5533638/build_weekly_20261101_seq09.py",
+    "sha256": "d24a35d70f1033ca38f58c3ca9c63b0d1fe2bcf26944a6dceb4f4f6e27b4d0cb",
+    "imports_static": [
+      "json",
+      "matplotlib.patches",
+      "matplotlib.pyplot",
+      "numpy",
+      "pathlib",
+      "shutil"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 14,
+        "text": "CLOUD_SOURCE = Path(f\"E:/githouse/Datasets/data_odometry_velodyne/dataset/sequences/{SEQ}/velodyne\")"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:working files/weekly_20261101/analyze_seq09.py",
+    "sha256": "b9837ef58a52d15ee104fa272b8349479a18a4ce11759dc20c3c3be8d3934579",
+    "imports_static": [
+      "json",
+      "numpy",
+      "pathlib"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 5,
+        "text": "ROOT = Path(r\"E:/githouse/RAP-main\")"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:working files/weekly_20261101/create_weekly_script.js",
+    "sha256": "2ee86ee859e94de15085e80ee3f363542ad9fca5a5f309d764eca325d12f4427",
+    "imports_static": [],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 12,
+        "text": "const deckImage = T`E:\\githouse\\RAP-main\\working files\\weekly_20261101\\review_v3\\page-3.png`;"
+      },
+      {
+        "line": 13,
+        "text": "const mechanismImage = T`E:\\githouse\\RAP-main\\working files\\decks\\rap_slam_weekly-b5533638\\media\\mcv1_mechanism.png`;"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:working files/weekly_20261101/docx_runtime.py",
+    "sha256": "48aa3d23b1c5c6721e5ac2aadb81d5e9e161d967348cbfc760d19f4ae11cec45",
+    "imports_static": [
+      "importlib.util",
+      "os",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 6,
+        "text": "DOCX_PY = Path(r\"C:/Users/AAA/AppData/Roaming/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/plugins/managed/kimi-word/skills/kimi-word/scripts/docx.py\")"
+      },
+      {
+        "line": 7,
+        "text": "NODE = os.environ[\"KIMI_DESKTOP_RUNTIME_NODE\"]"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "rap-main:working files/weekly_20261101/select_zoom_window.py",
+    "sha256": "c7eaac0bbc1b3bfcee2a5f7c80396b48001888849cad95209eaa5b555ff93ae6",
+    "imports_static": [
+      "json",
+      "numpy",
+      "pathlib"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 5,
+        "text": "ROOT = Path(\"E:/githouse/RAP-main\")"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/build_pdf.py",
+    "sha256": "059beddc4c8b680878709a0847d107b880a07549bf466aa4e012aeff9f5f1f57",
+    "imports_static": [
+      "PIL",
+      "pathlib",
+      "reportlab.lib",
+      "reportlab.lib.pagesizes",
+      "reportlab.lib.styles",
+      "reportlab.lib.units",
+      "reportlab.pdfbase",
+      "reportlab.pdfbase.ttfonts",
+      "reportlab.platypus",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/make_figures.py",
+    "sha256": "8c457cece0f66b3316e9552eb09af33b6eaa7a7b3ff8773efaedbe94b70aec9b",
+    "imports_static": [
+      "daimon_runtime",
+      "datetime",
+      "json",
+      "matplotlib",
+      "matplotlib.dates",
+      "matplotlib.patches",
+      "matplotlib.pyplot",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 29,
+        "text": "SLAM = Path(r\"E:\\githouse\\RAP-SLAM\")"
+      },
+      {
+        "line": 30,
+        "text": "KITTI = Path(r\"E:\\githouse\\Datasets\\data_odometry_velodyne\\dataset\")"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/common.py",
+    "sha256": "b1aaf1733d1b6ec0dbb0f0a30345fcee52a08ae489abe965dfe43dbec775e2c7",
+    "imports_static": [
+      "daimon_runtime",
+      "json",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "pathlib",
+      "re",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 19,
+        "text": "DATA = Path(\"E:/githouse/RAP-main/advisor_report/data\")"
+      },
+      {
+        "line": 20,
+        "text": "OUT = Path(\"E:/githouse/RAP-main/advisor_report/ppt/images\")"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/explore.py",
+    "sha256": "ef300a17ae1ccf65fdff6641432d29c6ac28ce65b51a3133dfb8ebef93dd59bb",
+    "imports_static": [
+      "json",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 4,
+        "text": "D = Path(\"E:/githouse/RAP-main/advisor_report/data\")"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/fig01_map_hero.py",
+    "sha256": "11bd2a7311c14db9605dde8bb3f0d6b7aa5dd53b62697fff80ce74fefc7955bd",
+    "imports_static": [
+      "common",
+      "matplotlib.pyplot",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/fig02_map_duo.py",
+    "sha256": "2b41460c89c4dff2fdf36f5c628198c55358de2aab5d85c14fc7cfd7caa5748b",
+    "imports_static": [
+      "common",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/fig03_traj_poss.py",
+    "sha256": "21b460410f359f9a9a529a877b52bd9826e151dff30227fe5c356038bcc53180",
+    "imports_static": [
+      "common",
+      "json",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/fig04_ape_poss.py",
+    "sha256": "2ee5a0109423aa72815af02b8e29400750e936d720b47d5d5a07ec697d2a31d6",
+    "imports_static": [
+      "common",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/fig05_registration.py",
+    "sha256": "400da0ed001fd726108c531e46c673b4434951622e860bd545c9db9bb0aa0048",
+    "imports_static": [
+      "common",
+      "json",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/fig06_traj_k02.py",
+    "sha256": "b0cf13e710937ff3d50a669a1113057b2f93a9baee6bedaa89b576b14020f030",
+    "imports_static": [
+      "common",
+      "json",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/fig07_map_k02.py",
+    "sha256": "e7fc7de01c41eeafaa5bf9fe243a982235feb90aa5fae0ef35de01ebdbfdb92b",
+    "imports_static": [
+      "common",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/fig08_k06_duo.py",
+    "sha256": "e2cf63e438a80e50347271500eb7b04cd9303f6c890c52643e46366f3f260af0",
+    "imports_static": [
+      "common",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/fig09_gate.py",
+    "sha256": "c2c38a8a8b2f91aae3ffd4fe12fe02fe49be49a2f0ec9eb28f19eb03985209b5",
+    "imports_static": [
+      "common",
+      "json",
+      "numpy",
+      "pathlib",
+      "re",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/fig10_retrieval.py",
+    "sha256": "4ce1670febc4b3e7898edc746754d23cac4cd34cfceee14dc2f727bfafb5c5bf",
+    "imports_static": [
+      "common",
+      "json",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/fig11_pgo_variants.py",
+    "sha256": "7a0e33e83a7ee5d2c30513f33960713579c36501980468d0bea29404eb67486d",
+    "imports_static": [
+      "common",
+      "json",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/fig12_noise_sweep.py",
+    "sha256": "fff9d129ca7aaf5da078d6f569375a6147e8581d5beda9e34e13961ad6a77ee5",
+    "imports_static": [
+      "common",
+      "json",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/fig13_nway.py",
+    "sha256": "08aa8c42a4569c939e6aebe7fcf1caa8e39c087e31d040ed775874b26027cca8",
+    "imports_static": [
+      "common",
+      "json",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/fig14_scoreboard.py",
+    "sha256": "027e37d51d0054aaffaf9d59152476b322b3e589c29d20bb604eb5a061d69083",
+    "imports_static": [
+      "common",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:advisor_report/scripts/fig15_timing.py",
+    "sha256": "738b74e7db6342ee2254a64ab0d60e4b0fa27885f422d9f5bf63527a295738a7",
+    "imports_static": [
+      "common",
+      "json",
+      "numpy",
+      "pathlib",
+      "re",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:ppt/gen_figures.py",
+    "sha256": "fc1e24b0f5c881f5feb628585fb857bedf5dc52eeeade3dae57f137a5b68974b",
+    "imports_static": [
+      "daimon_runtime",
+      "json",
+      "matplotlib",
+      "matplotlib.patches",
+      "matplotlib.pyplot",
+      "numpy",
+      "pathlib",
+      "rap_slam.scan_context",
+      "re",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 23,
+        "text": "SLAM = Path(r\"E:\\githouse\\RAP-SLAM\")"
+      },
+      {
+        "line": 258,
+        "text": "gt_k2 = load_3x4(r\"E:\\githouse\\Datasets\\data_odometry_velodyne\\dataset\\poses\\02.txt\")"
+      },
+      {
+        "line": 260,
+        "text": "with open(r\"E:\\githouse\\Datasets\\data_odometry_velodyne\\dataset\\sequences\\02\\calib.txt\") as f:"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:ppt/gen_figures2.py",
+    "sha256": "8b58c99d98423562e05b93f4cbbba4f3fa55c9020ba74c14c682a45c07afb65b",
+    "imports_static": [
+      "PIL",
+      "daimon_runtime",
+      "json",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "pathlib",
+      "re",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 18,
+        "text": "SLAM = Path(r\"E:\\githouse\\RAP-SLAM\")"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:ppt/rap_flow_viz_gpu.py",
+    "sha256": "d04be5416967676d3a75bfab99da6f2ddd7d00981c7ea772e4747a1428e4d672",
+    "imports_static": [
+      "numpy",
+      "pathlib",
+      "rap_slam.rap_backend",
+      "rectified_point_flow.procrustes",
+      "sys",
+      "torch"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 4,
+        "text": "/root/miniconda3/envs/rap-inference/bin/python rap_flow_viz_gpu.py"
+      },
+      {
+        "line": 14,
+        "text": "SLAM = Path(\"/mnt/e/githouse/RAP-SLAM\")"
+      },
+      {
+        "line": 18,
+        "text": "OUT = Path(\"/mnt/e/githouse/RAP-main/ppt/media\")"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:ppt_weekly_20260823/gen_cheatsheet.py",
+    "sha256": "2775be6c7aa5914b750f3df61010591efffacb87c020d991fb8cfe1dded7aa6d",
+    "imports_static": [
+      "os",
+      "pathlib",
+      "reportlab.lib.colors",
+      "reportlab.lib.pagesizes",
+      "reportlab.lib.styles",
+      "reportlab.lib.units",
+      "reportlab.pdfbase",
+      "reportlab.pdfbase.ttfonts",
+      "reportlab.platypus"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 14,
+        "text": "OUT = Path(r\"E:\\githouse\\RAP-SLAM-report\\ppt_weekly_20260823\\汇报小抄_20260823.pdf\")"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:ppt_weekly_20260823/gen_figures.py",
+    "sha256": "2dfbbfbe14cdd98281372201c0634186f62e309258ec4f337c8e3aafed16074c",
+    "imports_static": [
+      "daimon_runtime",
+      "json",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 20,
+        "text": "SLAM = Path(r\"E:\\githouse\\RAP-SLAM\")"
+      },
+      {
+        "line": 21,
+        "text": "DATA = Path(r\"E:\\githouse\\Datasets\")"
+      },
+      {
+        "line": 22,
+        "text": "OUT = Path(r\"E:\\githouse\\RAP-SLAM-report\\ppt_weekly_20260823\\rap_slam_weekly\\media\")"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:ppt_weekly_20260823/gen_figures_v2.py",
+    "sha256": "1ec696f56bc7bce46ede41a100580b7df858a764aee4372589b776ab4c92ef78",
+    "imports_static": [
+      "daimon_runtime",
+      "json",
+      "matplotlib",
+      "matplotlib.colors",
+      "matplotlib.pyplot",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [
+      {
+        "line": 23,
+        "text": "OUT = Path(r\"E:\\githouse\\RAP-SLAM-report\\ppt_weekly_20260823\\rap_slam_weekly_v2\\media\")"
+      },
+      {
+        "line": 26,
+        "text": "SLAM = Path(r\"E:\\githouse\\RAP-SLAM\")"
+      },
+      {
+        "line": 29,
+        "text": "KITTI_ROOT = Path(r\"E:\\githouse\\Datasets\\data_odometry_velodyne\\dataset\")"
+      }
+    ],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:paper/build.sh",
+    "sha256": "0711fbba29e50484151cccbd889d31238597abc44928882c9909dfddf568558f",
+    "imports_static": [],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  },
+  {
+    "asset": "reports:paper/figsrc/render_figs.py",
+    "sha256": "a36ad01fec48ca64ebf35ecd5a3d12d4ff67f697e0388b7f5d7637b990368ff3",
+    "imports_static": [
+      "daimon_runtime",
+      "json",
+      "matplotlib.lines",
+      "matplotlib.pyplot",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "machine_or_runtime_reference_lines": [],
+    "executed_in_A6": false
+  }
+]

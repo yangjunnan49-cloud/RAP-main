@@ -1,0 +1,3 @@
+# Next bounded comparison — DESIGN_ONLY
+
+A finite shadow descent witness supports designing a separate conditioning/fit feasibility comparison, with explicit precision/function/capacity controls, fixed exposure and independent retained-update/sampler/heldout gates. Do not run original400 fits or treat this shadow as original native forward. Before useful real metric claims, still need measured incremental RAP value versus strong geometry, untouched official references/edges and complete trajectories; CCR0 retired family cannot be rescued. No next protocol/runner/freeze/fit/trajectory executed here.

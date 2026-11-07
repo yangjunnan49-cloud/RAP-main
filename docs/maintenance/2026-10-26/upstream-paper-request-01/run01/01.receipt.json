@@ -1,0 +1,73 @@
+{
+  "index": 1,
+  "role": "paper",
+  "url": "https://arxiv.org/pdf/2310.16542.pdf",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "RAP-source-audit/1.0",
+    "Accept": "application/pdf",
+    "Accept-Encoding": "identity",
+    "Connection": "close"
+  },
+  "body_bytes": 217,
+  "EOF": true,
+  "status": 301,
+  "reason": "Moved Permanently",
+  "response_headers": [
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Content-Length",
+      "217"
+    ],
+    [
+      "server",
+      "Google Frontend"
+    ],
+    [
+      "content-type",
+      "text/html; charset=utf-8"
+    ],
+    [
+      "via",
+      "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish"
+    ],
+    [
+      "location",
+      "/pdf/2310.16542"
+    ],
+    [
+      "x-cloud-trace-context",
+      "5e2bcb3d41dcdebcf09a79f2a66095ce"
+    ],
+    [
+      "Accept-Ranges",
+      "bytes"
+    ],
+    [
+      "Age",
+      "0"
+    ],
+    [
+      "Date",
+      "Mon, 26 Oct 2026 02:28:45 GMT"
+    ],
+    [
+      "X-Served-By",
+      "cache-lga-kjfk8660024-LGA, cache-lga-kjfk8660024-LGA, cache-lga-kjfk8660024-LGA, cache-nrt-rjaa8190029-NRT"
+    ],
+    [
+      "X-Cache",
+      "MISS, MISS, MISS"
+    ],
+    [
+      "X-Timer",
+      "S1792981725.168492,VS0,VE235"
+    ]
+  ],
+  "redirect_to": "https://arxiv.org/pdf/2310.16542",
+  "body_file": "01.body",
+  "body_sha256": "b8857a6e292e4def033b19d9db3cdc1ab368e64726d58f010e57429c494d6a7b"
+}

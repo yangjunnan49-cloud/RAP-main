@@ -1,0 +1,5 @@
+# AL1 terminal account-record policy
+
+Separate450s inclusive documentary scope,90s closure reserve; stdlib truth-table stage60s/128MiB observed working set/output2MiB. No account API/network/scheduler/goal changes or scientific payload. Preserve AQ2 classifier and all old records; change only the new continuation's supplied-receipt writer after independent pure-policy controls pass.
+
+A prior terminal marker/current terminal status cannot automatically become ACTIVE through replay. An older ACTIVE receipt cannot replace a newer ACTIVE pointer. Actual ordinary-disabled evidence retains priority even if its following clock is inconsistent; retain the anomaly rather than invent time or lose positive disabled evidence. Malformed active clocks stop without an exhaustion claim. Check7 fixed literal decision cases. Verify the AQ2 classifier hash before importing it, and bind the new policy to its frozen hash. The writer never changes old continuation authorities or a terminal receipt. No automatic reset resume; future human authorization must use a fresh scope/window record.

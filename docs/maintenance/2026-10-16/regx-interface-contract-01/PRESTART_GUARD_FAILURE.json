@@ -1,0 +1,20 @@
+{
+  "stage_directory_created": false,
+  "exact_failure_observation_UTC": "UNKNOWN; preceding tool result retained",
+  "subsequent_observation": {
+    "commit_limit_bytes": 137269444608,
+    "required_bytes": 12884901888,
+    "utc": "2026-10-16T08:01:44.8486107Z",
+    "pass": false,
+    "headroom_bytes": 10819575808,
+    "committed_bytes": 126449868800
+  },
+  "failure": "Launch commit guard",
+  "retrospective_recorded_UTC": "2026-10-16T08:01:44.8486107Z",
+  "source": "invoke_regx_contract_wsl.ps1 line15",
+  "Linux_child_started": false,
+  "budget_reset": false,
+  "status": "PRESTART_COMMIT_HEADROOM_GUARD_STOP",
+  "original_observed_headroom_bytes": "UNKNOWN; guard did not print numeric value",
+  "original_guard_unchanged": true
+}

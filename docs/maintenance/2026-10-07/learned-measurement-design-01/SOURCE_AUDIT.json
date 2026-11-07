@@ -1,0 +1,108 @@
+{
+  "scope": "Read-only source and filesystem metadata; no payload/model/GT read or scored output",
+  "source_sha256": {
+    "rectified_point_flow/modeling.py": "d0d766d6f8b24d04150e5b2e009b54c6496bc3d8ae34a27e2abfcda07f610257",
+    "rectified_point_flow/flow_model/point_cloud_dit.py": "dd095019f78cc0bfac6bef767061ec6a5a02244874bc32723dd78510f9e6f974",
+    "rectified_point_flow/flow_model/layer.py": "e8e7caabe1da47b8c8aefea0db58ec5ffb910be8fc01b7a541ca6fec345618e8",
+    "rectified_point_flow/sampler.py": "6166a9dfd75ab721af64edf7bea99004acbad642c94d310dba55e849e7a4cf25",
+    "config/model/flow_model/point_cloud_dit_12.yaml": "6df19dce55f2d3ab18009d44cb32d6f08e868a0e15921fabc9e12d4c8d95c357"
+  },
+  "local_kitti": [
+    {
+      "sequence": "00",
+      "raw_scan_files": 4541,
+      "gt_file_exists": true,
+      "calibration_exists": true,
+      "timestamps_exists": true,
+      "image_2_exists": false
+    },
+    {
+      "sequence": "01",
+      "raw_scan_files": 1101,
+      "gt_file_exists": true,
+      "calibration_exists": true,
+      "timestamps_exists": true,
+      "image_2_exists": false
+    },
+    {
+      "sequence": "02",
+      "raw_scan_files": 4661,
+      "gt_file_exists": true,
+      "calibration_exists": true,
+      "timestamps_exists": true,
+      "image_2_exists": false
+    },
+    {
+      "sequence": "03",
+      "raw_scan_files": 801,
+      "gt_file_exists": true,
+      "calibration_exists": true,
+      "timestamps_exists": true,
+      "image_2_exists": false
+    },
+    {
+      "sequence": "04",
+      "raw_scan_files": 271,
+      "gt_file_exists": true,
+      "calibration_exists": true,
+      "timestamps_exists": true,
+      "image_2_exists": false
+    },
+    {
+      "sequence": "05",
+      "raw_scan_files": 2761,
+      "gt_file_exists": true,
+      "calibration_exists": true,
+      "timestamps_exists": true,
+      "image_2_exists": false
+    },
+    {
+      "sequence": "06",
+      "raw_scan_files": 1101,
+      "gt_file_exists": true,
+      "calibration_exists": true,
+      "timestamps_exists": true,
+      "image_2_exists": false
+    },
+    {
+      "sequence": "07",
+      "raw_scan_files": 1101,
+      "gt_file_exists": true,
+      "calibration_exists": true,
+      "timestamps_exists": true,
+      "image_2_exists": false
+    },
+    {
+      "sequence": "08",
+      "raw_scan_files": 4071,
+      "gt_file_exists": true,
+      "calibration_exists": true,
+      "timestamps_exists": true,
+      "image_2_exists": false
+    },
+    {
+      "sequence": "09",
+      "raw_scan_files": 1591,
+      "gt_file_exists": true,
+      "calibration_exists": true,
+      "timestamps_exists": true,
+      "image_2_exists": false
+    },
+    {
+      "sequence": "10",
+      "raw_scan_files": 1201,
+      "gt_file_exists": true,
+      "calibration_exists": true,
+      "timestamps_exists": true,
+      "image_2_exists": false
+    }
+  ],
+  "observed_dataset_directories": [
+    "data_odometry_velodyne",
+    "oxford_spires",
+    "part2"
+  ],
+  "pretrained_membership": "UNKNOWN",
+  "planned_mechanism": "Learned original-point correspondence readout from frozen joint RAP tokens",
+  "training_authorized": false
+}

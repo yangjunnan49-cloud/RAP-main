@@ -1,0 +1,9 @@
+# Explicit second October24 continuation
+
+The owner explicitly renewed continuation until the current five-hour account limit. The first new receipt is4%/ordinaryUsageAllowed=true/reset1792844337, followed by2026-10-24 07:18:58UTC. This is human renewal, never automatic reset resume. Stop on ordinary-disabled evidence, explicit quota review failure, or an unapproved window change. Display100 alone does not establish exhaustion.
+
+Separate documentary recovery has an inclusive900s cap from07:18:58UTC, including source review/preparation and120s closure reserve. All seven prior scopes were already closed. Preserve their original costs, failures and delivery packages; no stopped interval is removed from an old open scope.
+
+The previous conversation reached100%/ordinaryTRUE/reset1792825078 at02:33:40UTC. The subsequent composite save/query has no verified completion receipt; the saved pointer is98%/ordinaryTRUE at02:33:16UTC and no ACCOUNT_STOP exists. Context truncation is not evidence of quota rejection. Record this gap as UNOBSERVED_PREVIOUS_WINDOW_BOUNDARY, without inventing an exact failure time, ordinaryFALSE or reset cause.
+
+The saved NEXT_PLAN now permits source-only physical-reference/cohort decision work. Existing public GPU results are closed, not pending replay. Review existing source/provenance/exposure records and identify a concrete evidence dependency. Do not add numerical prerequisites to rescue a scientifically unjustified construction. New external acquisition/outreach, real models/benchmarks, production integration and independent-confirmation claims require their stated prospective evidence/authorization; none is admitted by this recovery. All retired families and old budgets/stops remain closed. No Git/install/scheduler/goal-status changes; research UNRESOLVED/manuscript PAUSED.

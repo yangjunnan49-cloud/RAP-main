@@ -1,0 +1,54 @@
+{
+  "attempts": [
+    {
+      "path": "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-15/public-release-identity-01/supervision/freeze",
+      "exit_code": 1,
+      "Windows_seconds": 8.6133694,
+      "Linux_child_seconds": 6.10393273999216,
+      "Linux_RSS_bytes": 19136512,
+      "host_observations": 11,
+      "failure_retained": true
+    },
+    {
+      "path": "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-15/public-release-identity-01/identity-attempt-02/supervision/audit",
+      "exit_code": 0,
+      "Windows_seconds": 10.9485818,
+      "Linux_child_seconds": 9.171281984017696,
+      "Linux_RSS_bytes": 19611648,
+      "host_observations": 14,
+      "failure_retained": false
+    },
+    {
+      "path": "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-15/public-release-identity-01/identity-attempt-02/supervision/freeze",
+      "exit_code": 0,
+      "Windows_seconds": 6.3090563,
+      "Linux_child_seconds": 5.2970572070044,
+      "Linux_RSS_bytes": 19218432,
+      "host_observations": 8,
+      "failure_retained": false
+    },
+    {
+      "path": "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-15/public-release-identity-01/identity-attempt-02/supervision/validate",
+      "exit_code": 0,
+      "Windows_seconds": 10.2211233,
+      "Linux_child_seconds": 6.186140538979089,
+      "Linux_RSS_bytes": 17555456,
+      "host_observations": 13,
+      "failure_retained": false
+    }
+  ],
+  "attempt_count": 4,
+  "successes": 3,
+  "retained_prefreeze_failures": 1,
+  "total_Windows_seconds": 36.0921308,
+  "total_Linux_child_seconds": 26.758412469993345,
+  "maximum_Linux_RSS_bytes": 19611648,
+  "GPU_bytes": 0,
+  "Windows_time_includes_startup_imports": true,
+  "ordinary_preparation_and_closure_RSS": "UNKNOWN",
+  "whole_original_and_attempt02_dossier_cap_bytes": 8388608,
+  "logging_retries": 0,
+  "expected_new_child_and_Windows_exit_receipts": 4,
+  "all_expected_exit_receipts_present": true,
+  "historical_resource_gaps_not_repaired": true
+}

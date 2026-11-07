@@ -1,0 +1,51 @@
+{
+  "sequence": "06",
+  "candidates": 445,
+  "sc": 28,
+  "proximity": 445,
+  "supported_candidates": 0,
+  "selected": 0,
+  "strata": [
+    {
+      "stratum": "confuser",
+      "population": 0,
+      "supported": 0,
+      "selected": 0,
+      "reasons": {}
+    },
+    {
+      "stratum": "ambiguous_positive",
+      "population": 0,
+      "supported": 0,
+      "selected": 0,
+      "reasons": {}
+    },
+    {
+      "stratum": "low_overlap",
+      "population": 0,
+      "supported": 0,
+      "selected": 0,
+      "reasons": {}
+    },
+    {
+      "stratum": "ordinary",
+      "population": 445,
+      "supported": 0,
+      "selected": 0,
+      "reasons": {
+        "unsupported": 445
+      }
+    }
+  ],
+  "exclusions": {
+    "unsupported": 445
+  },
+  "adequate": false,
+  "decision": "INCONCLUSIVE",
+  "H1": "NOT EVALUATED",
+  "H2": "NOT EVALUATED",
+  "generations": 0,
+  "elapsed_wall_s": 10.579635066038463,
+  "gpu_inference_s": 0.0,
+  "completed_utc": "2026-09-14T02:47:08.476507+00:00"
+}

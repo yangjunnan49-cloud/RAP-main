@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "arm": "V",
+      "loss": 7.229966710778734e-06,
+      "gradient_norms": {
+        "A": 0.0,
+        "B": 2.3841010847600566e-05,
+        "MLP": 0.0022680647093623373
+      },
+      "gradient_values": 443904,
+      "exact_DTC0_initial_gradient_replay": true,
+      "finite_float64": true,
+      "retained_updates": 0,
+      "parameters_unchanged": true
+    },
+    {
+      "arm": "P",
+      "loss": 198.3299895558426,
+      "gradient_norms": {
+        "A": 0.0,
+        "B": 842.3272877019367,
+        "MLP": 30958.81632782542
+      },
+      "gradient_values": 443904,
+      "exact_DTC0_initial_gradient_replay": true,
+      "finite_float64": true,
+      "retained_updates": 0,
+      "parameters_unchanged": true
+    }
+  ],
+  "strict_tail": {
+    "strict": true,
+    "keys": 344,
+    "weights_only": true,
+    "allowed": [
+      "builtins.dict",
+      "builtins.int",
+      "builtins.list",
+      "collections.defaultdict",
+      "numpy._core.multiarray._reconstruct",
+      "numpy.dtype",
+      "numpy.ndarray",
+      "omegaconf.base.ContainerMetadata",
+      "omegaconf.base.Metadata",
+      "omegaconf.listconfig.ListConfig",
+      "omegaconf.nodes.AnyNode",
+      "typing.Any"
+    ],
+    "descriptor_loaded": false
+  },
+  "strict_prefix": {
+    "strict": true,
+    "keys": 344,
+    "weights_only": true,
+    "allowed": [
+      "builtins.dict",
+      "builtins.int",
+      "builtins.list",
+      "collections.defaultdict",
+      "numpy._core.multiarray._reconstruct",
+      "numpy.dtype",
+      "numpy.ndarray",
+      "omegaconf.base.ContainerMetadata",
+      "omegaconf.base.Metadata",
+      "omegaconf.listconfig.ListConfig",
+      "omegaconf.nodes.AnyNode",
+      "typing.Any"
+    ],
+    "descriptor_loaded": false
+  },
+  "initialized_trainables": 443904,
+  "shadow_tail_forwards": 2,
+  "backwards": 2,
+  "actual_retained_updates": 0,
+  "optimizer_API_calls": 0,
+  "original_live_values_dtypes_restored": true
+}

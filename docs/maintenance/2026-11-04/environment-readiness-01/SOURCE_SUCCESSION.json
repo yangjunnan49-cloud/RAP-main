@@ -1,0 +1,64 @@
+{
+  "changed_maintenance_sources": [
+    {
+      "root": "rap-main",
+      "path": "scripts/maintenance/index_code_entries.py",
+      "before_sha256": "687bfb01c9a021696a5d34ccfb2accfdc61bbb68752f411f5fe609d38541bcff",
+      "after_sha256": "e34ca3b53c02794f0c042c9c8045c679f25ecb513c82303df74924945e91e1de",
+      "before": "before/rap-main/scripts/maintenance/index_code_entries.py"
+    },
+    {
+      "root": "rap-main",
+      "path": "scripts/maintenance/render_current_state.py",
+      "before_sha256": "2d7661dd9319d5f2708b426909e3a5e2735713cc5f7a06cf52dd2b959d04f437",
+      "after_sha256": "a3a9266cb4269a3d5b42e56a83223cba3e43d19c0c5cc9b720e253c331561309",
+      "before": "before/rap-main/scripts/maintenance/render_current_state.py"
+    }
+  ],
+  "added_tools_tests_reference_profiles": [
+    {
+      "root": "rap-main",
+      "path": "environment/requirements/core.txt",
+      "bytes": 430,
+      "sha256": "48b4a9888452dcd4a7d1c64208d7fb35b2ad4ee26068c0433cb9fa42bb633abc"
+    },
+    {
+      "root": "rap-main",
+      "path": "environment/requirements/observed-rap.constraints.txt",
+      "bytes": 3794,
+      "sha256": "853a7a2b7a8932e593f093251cee690ab11adf3f5916c7f1171e51ecb92b6424"
+    },
+    {
+      "root": "rap-main",
+      "path": "environment/requirements/render-ui.txt",
+      "bytes": 169,
+      "sha256": "6e44e0d688e1aeabb3b843df7e1f789435f611da45d8ece291e0f19f56a97f65"
+    },
+    {
+      "root": "rap-main",
+      "path": "environment/requirements/slam.txt",
+      "bytes": 151,
+      "sha256": "fbd8eec1aeb6a4fb174b4526e6858e39f922252a09b7d53370b84aa1cad77eae"
+    },
+    {
+      "root": "rap-main",
+      "path": "scripts/environment/cpu_probe.py",
+      "bytes": 5220,
+      "sha256": "36f6c670c2a519915c381151f3e2bc6bfcb3b4cdc96d273e1ef1d9e0cfbc1742"
+    },
+    {
+      "root": "rap-main",
+      "path": "scripts/environment/inspect_metadata.py",
+      "bytes": 2106,
+      "sha256": "c8d0d5d9848ccdec6fac9a5f477222cb0020e323661d0d24fcc8ddfa2e9fe55c"
+    },
+    {
+      "root": "rap-main",
+      "path": "tests/test_environment_tools.py",
+      "bytes": 3535,
+      "sha256": "44b4e627970d3e7f5791b0c91f5fd0f60f7b2210366b749ce53031a16915cbe6"
+    }
+  ],
+  "other_baseline_code_config_files_unchanged": 894,
+  "production_or_training_source_changed": false
+}

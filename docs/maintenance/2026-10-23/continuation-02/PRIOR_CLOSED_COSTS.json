@@ -1,0 +1,121 @@
+{
+  "source-binding-01": {
+    "sha256": "050B76254FE79BA1AA218BF646704484665FB660CEBB6F4ABD538A1709839E4F",
+    "receipt": {
+      "scope": "S2_STATIC_SOURCE_BINDING_20261023",
+      "origin_utc": "2026-10-23T01:50:00Z",
+      "finished_utc": "2026-10-23T01:57:05.7266713+00:00",
+      "inclusive_UTC_elapsed_seconds": 425.7266713,
+      "cap_seconds": 1200,
+      "close_reserve_seconds": 180,
+      "budget_basis": "Conservative UTC prelude; no initial monotonic receipt or gapless clock-observation claim",
+      "original_helper_failure_retained": true,
+      "cap_reset": false,
+      "new_numerical_runs": 0,
+      "status": "COMPLETE_STATIC_ONLY",
+      "budget_pass": true,
+      "scope_file_bytes": 507051.0
+    }
+  },
+  "source-interface-01": {
+    "sha256": "6737211FA8495B88C648D733F1908EF0C28072BB247DF875922AD11BF64360B1",
+    "receipt": {
+      "scope": "SI1_ACTUAL_SOURCE_SYNTHETIC_20261023",
+      "closed_utc": "2026-10-23T02:08:00.5721627+00:00",
+      "origin_utc": "2026-10-23T01:57:06Z",
+      "UTC_elapsed_seconds": 654.5728321,
+      "monotonic_elapsed_seconds": 654.5714783,
+      "charged_max_elapsed_seconds": 654.5728321,
+      "cap_seconds": 1800,
+      "budget_pass": true,
+      "original_prelude_charged": 106.2465777,
+      "preflight_routes": [
+        "run01",
+        "run02"
+      ],
+      "numeric_routes": [
+        "run02"
+      ],
+      "assertions_pass": true,
+      "negative_control_classification": "One mislabeled translation-bias control does not prove omitted centering",
+      "status": "CLOSED_SOURCE_ASSERTIONS_PASS_WITH_CONTROL_LIMITATION",
+      "worker_peak_RSS_bytes": 505446400,
+      "watcher_observed_peak_RSS_bytes": 587706368,
+      "source_output_bytes": 139687.0,
+      "original_caps_reset": false,
+      "RAP_model_calls": 0,
+      "real_point_reads": 0,
+      "documentary_close_included": true
+    }
+  },
+  "source-export-verifier-01": {
+    "sha256": "D764783DDBAC2F988FD2C7C4BD34C2283FD339813CA83363362FECC0D204EDE6",
+    "receipt": {
+      "scope": "EV1_SEALED_EXPORT_VERIFICATION_20261023",
+      "status": "CLOSED_COMPLETE_SYNTHETIC_ONLY",
+      "origin_utc": "2026-10-23T10:08:00.5284588+08:00",
+      "closed_utc": "2026-10-23T02:10:45.9943646+00:00",
+      "UTC_elapsed_seconds": 165.4659058,
+      "monotonic_elapsed_seconds": 165.4725662,
+      "charged_max_elapsed_seconds": 165.4725662,
+      "cap_seconds": 600,
+      "budget_pass": true,
+      "scope_bytes": 52860.0,
+      "original_SI1_unchanged": true,
+      "source_fit_or_model_replays": 0,
+      "all_documentary_work_included": true
+    }
+  },
+  "reference-admission-01": {
+    "sha256": "760041D5349E8C349B6B9D5AC020D61E74CF3EF666597522E26D6DFCF1863169",
+    "receipt": {
+      "scope": "RA1_REFERENCE_METADATA_20261023",
+      "status": "CLOSED_METADATA_COMPLETE_PHYSICAL_EFFICACY_NOT_ADMITTED",
+      "origin_utc": "2026-10-23T02:10:46Z",
+      "closed_utc": "2026-10-23T02:16:52.9944040+00:00",
+      "inclusive_conservative_UTC_seconds": 366.994404,
+      "cap_seconds": 900,
+      "budget_pass": true,
+      "clock_basis": "Conservative UTC prelude; no initial monotonic receipt",
+      "point_or_private_reference_values_decoded": false,
+      "RAP_model_calls": 0
+    }
+  },
+  "real-interface-01": {
+    "sha256": "EBA50F4A0375F4708D3DDE91A81EB3E0C44E356A0543D1E0358A5527478B97D3",
+    "receipt": {
+      "scope": "RI1_REAL_PUBLIC_INTERFACE_20261023",
+      "status": "CLOSED_PRESTART_GPU_HEADROOM_FAIL",
+      "origin_utc": "2026-10-23T10:16:56.3627667+08:00",
+      "closed_utc": "2026-10-23T02:20:40.5421627+00:00",
+      "UTC_elapsed_seconds": 224.179396,
+      "monotonic_elapsed_seconds": 224.1879007,
+      "charged_max_elapsed_seconds": 224.1879007,
+      "cap_seconds": 1500,
+      "budget_pass": true,
+      "model_loads": 0,
+      "point_values_decoded": 0,
+      "retry_permitted_this_continuation": false,
+      "original_GPU_free_threshold_MiB": 9216,
+      "source_files": 78
+    }
+  },
+  "feature-failure-01": {
+    "sha256": "CB86B7158983200B0EF7CD9B7A16A91552DF4C7777FE46D448C8AF511841A2B4",
+    "receipt": {
+      "scope": "FF1_FEATURE_WRAPPER_SOURCE_CONTROL_20261023",
+      "status": "CLOSED_COMPLETE_CONFIRMED_FALLBACK_DEFECT",
+      "origin_utc": "2026-10-23T10:20:40.6005019+08:00",
+      "closed_utc": "2026-10-23T02:23:28.4076561+00:00",
+      "UTC_elapsed_seconds": 167.8071542,
+      "monotonic_elapsed_seconds": 167.8184971,
+      "charged_max_elapsed_seconds": 167.8184971,
+      "cap_seconds": 300,
+      "budget_pass": true,
+      "actual_models": 0,
+      "source_file_modified": false,
+      "controls": 10,
+      "case_replays": 0
+    }
+  }
+}

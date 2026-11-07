@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "fixtures": [
+    {
+      "name": "asymmetric",
+      "expected_full_support": true,
+      "support": {
+        "full_coordinate_support": true,
+        "different_coordinate_candidate_ambiguity": 0,
+        "candidate_count": 6,
+        "coincident_extra_candidates": 0,
+        "max_first_signature_distance_m": 0.0
+      }
+    },
+    {
+      "name": "coincident_coordinate",
+      "expected_full_support": true,
+      "support": {
+        "full_coordinate_support": true,
+        "different_coordinate_candidate_ambiguity": 0,
+        "candidate_count": 9,
+        "coincident_extra_candidates": 2,
+        "max_first_signature_distance_m": 0.0
+      }
+    },
+    {
+      "name": "distinct_coordinate_cube_symmetry",
+      "expected_full_support": false,
+      "support": {
+        "full_coordinate_support": false,
+        "different_coordinate_candidate_ambiguity": 8,
+        "candidate_count": 64,
+        "coincident_extra_candidates": 56,
+        "max_first_signature_distance_m": 0.0
+      }
+    }
+  ],
+  "model_or_descriptor_calls": 0
+}

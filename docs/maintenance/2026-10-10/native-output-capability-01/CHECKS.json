@@ -1,0 +1,63 @@
+{
+  "original_freeze_entries": 92,
+  "retry_freeze_entries": 102,
+  "all_original_sources_inputs_failure_and_INCOMPLETE_preserved": true,
+  "original_optimizer_updates": 0,
+  "numerical_loss_scale_repair_only": true,
+  "independent_validator_centroid_precision_only_repair": true,
+  "independent_validator_static_repair_freeze_entries": 8,
+  "helper_unchanged": true,
+  "old_delivery_entries": {
+    "measured-map-reoptimization-01": 35,
+    "shared-plane-map-pilot-01": 42,
+    "structural-holdout-map-pilot-01": 37,
+    "cross-visit-map-pilot-01": 42,
+    "rotation-protected-map-pilot-01": 39,
+    "membership-formation-diagnosis-01": 56,
+    "experiment-review-01": 6
+  },
+  "RLP2_top_level_delivery_entries": 12,
+  "RLP2_full_bank_or_training_replayed": false,
+  "checkpoint_sha256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200",
+  "strict_weights_only_model_load": true,
+  "descriptor_checkpoint_not_loaded": true,
+  "noise_provenance_note": "NOISE_PROVENANCE_NOTE.json",
+  "independent_validation": {
+    "passed": true,
+    "independent_Horn_decode": true,
+    "all_saved_metrics_and_gates_checked": true,
+    "all_sampler_recurrences_checked": true,
+    "selected_final_checkpoint_full_forwards": true,
+    "full_optimizer_replay": false,
+    "preflight_FD_independently_replayed": false,
+    "synthetic_exact_target_errors": [
+      {
+        "part": 1,
+        "t_m": 1.7451155465312816e-08,
+        "R_deg": 6.729250549030031e-08
+      },
+      {
+        "part": 2,
+        "t_m": 1.4454547989112402e-08,
+        "R_deg": 3.978352356844375e-08
+      }
+    ],
+    "evaluation_records": 12,
+    "fit_parameter_counts": {
+      "real_direct": 406019,
+      "real_native": 443904,
+      "synthetic_direct": 406019,
+      "synthetic_native_lr1e-4": 443904
+    },
+    "maximum_metric_delta": 2.9534708012590727e-13,
+    "maximum_pose_delta": 3.7192471324942744e-14,
+    "maximum_sampler_recurrence_delta": 7.395315423375237e-07,
+    "maximum_selected_forward_delta": 0.0,
+    "decision": "TINY_NATIVE_SAMPLER_CAPABILITY_PRESENT",
+    "wall_seconds": 19.247424516128376,
+    "peak_RSS_bytes": 2359091200,
+    "peak_GPU_allocated_bytes": 431287808,
+    "peak_GPU_reserved_bytes": 480247808,
+    "artifact_bytes": 55124603
+  }
+}

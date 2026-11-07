@@ -1,0 +1,53 @@
+{
+  "status": "ACTUAL_ALLOWANCE_RESET_IDENTITY_CHANGED_WITHOUT_OBSERVED_EXHAUSTION",
+  "initial_reset_identity": 1792217489,
+  "announced_reset_UTC": "2026-10-17T06:11:29Z",
+  "terminal_observation": {
+    "following_account_clock_UTC": "2026-10-17 06:14:15 UTC",
+    "primary": {
+      "usedPercent": 0,
+      "windowDurationMins": 300,
+      "resetsAt": 1792235525
+    },
+    "secondary": {
+      "usedPercent": 78,
+      "windowDurationMins": 10080,
+      "resetsAt": 1792652445
+    },
+    "ordinaryUsageAllowed": true,
+    "scope": "Active in-turn C0 eligibility observation; no scientific payload"
+  },
+  "last_original_window_observation": {
+    "following_account_clock_UTC": "2026-10-17 06:09:08 UTC",
+    "primary": {
+      "usedPercent": 53,
+      "windowDurationMins": 300,
+      "resetsAt": 1792217489
+    },
+    "secondary": {
+      "usedPercent": 78,
+      "windowDurationMins": 10080,
+      "resetsAt": 1792652445
+    },
+    "ordinaryUsageAllowed": true,
+    "scope": "Active in-turn C0 eligibility observation; no scientific payload",
+    "resource": {
+      "utc": "2026-10-17T06:09:14.0146474Z",
+      "committed_bytes": 129113673728,
+      "commit_limit_bytes": 137269444608,
+      "headroom_bytes": 8155770880,
+      "required_bytes": 12884901888
+    }
+  },
+  "maximum_observed_original_window_primary": 53.0,
+  "original_window_account_observations": 63,
+  "observed_original_window_primary_100": false,
+  "observed_original_window_ordinary_disallowed": false,
+  "exact_tool_timestamps": "Not independently supplied; following UTC clocks retained",
+  "record_write_UTC": "2026-10-17T06:14:46.6619711Z",
+  "active_observation_ended": true,
+  "no_automatic_reset_resume": true,
+  "post_terminal_work": "Necessary closing bookkeeping only, no science or new active observer",
+  "original_research_objective_complete": false,
+  "no_goal_status_changed": true
+}

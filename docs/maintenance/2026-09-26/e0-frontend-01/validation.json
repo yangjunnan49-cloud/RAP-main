@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "checks": [
+    "00-O: geometry, exact IDs, independent ATE and metric recomputation",
+    "00-A: geometry, exact IDs, independent ATE and metric recomputation",
+    "00-B: geometry, exact IDs, independent ATE and metric recomputation",
+    "00-C: geometry, exact IDs, independent ATE and metric recomputation",
+    "05-O: geometry, exact IDs, independent ATE and metric recomputation",
+    "05-A: geometry, exact IDs, independent ATE and metric recomputation",
+    "05-B: geometry, exact IDs, independent ATE and metric recomputation",
+    "05-C: geometry, exact IDs, independent ATE and metric recomputation",
+    "06-O: geometry, exact IDs, independent ATE and metric recomputation",
+    "06-A: geometry, exact IDs, independent ATE and metric recomputation",
+    "06-B: geometry, exact IDs, independent ATE and metric recomputation",
+    "06-C: geometry, exact IDs, independent ATE and metric recomputation",
+    "00-full: matching frontend, frame/source binding, measurement edges and metrics",
+    "05-full: matching frontend, frame/source binding, measurement edges and metrics",
+    "06-full: matching frontend, frame/source binding, measurement edges and metrics"
+  ],
+  "selected": "A",
+  "decision": "FREEZE_DEVELOPMENT_SUCCESSOR",
+  "old_mean": {
+    "ter": 0.7616552167961049,
+    "ate": 1.6299424485429512
+  },
+  "new_mean": {
+    "ter": 0.38871841553411285,
+    "ate": 1.460663493498114
+  },
+  "accepted_historical_labels": {
+    "safe": 36
+  },
+  "accepted_strict_correct": 34,
+  "accepted_strict_incorrect": 2,
+  "execution": {
+    "wall_s": 827.0913066680077,
+    "completed_utc": "2026-09-26T22:15:46.885818+00:00"
+  },
+  "validator_sha256": "ba1f10182370f0cfc433e3e21569a8d94b7eb8a5ca32f5050ce61dee07c1cdf2",
+  "amendment": "E0-AMENDMENT-01: anchored independent NumPy ATE crosscheck; see AMENDMENT_01.md"
+}

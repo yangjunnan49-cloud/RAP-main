@@ -1,0 +1,48 @@
+{
+  "started_utc": "2026-10-20T03:35:55.038767+00:00",
+  "utc": "2026-10-20T03:35:59.438367+00:00",
+  "rows": {
+    "00": {
+      "baseline_replay_max_delta": 3.990089680883102e-08,
+      "Q": {
+        "iterations": 2,
+        "initial_error": 36.299731107447855,
+        "final_error": 36.127379228359096,
+        "nodes": 670,
+        "factors": 682,
+        "matching_callback_calls": 0,
+        "wall_seconds": 0.05969278699998881
+      },
+      "D": {
+        "iterations": 8,
+        "initial_error": 36.29973110744782,
+        "final_error": 35.95742910280163,
+        "nodes": 670,
+        "factors": 682,
+        "matching_callback_calls": 240,
+        "wall_seconds": 1.1560276140000099
+      }
+    },
+    "05": {
+      "baseline_replay_max_delta": 1.6414391623698066e-08,
+      "Q": {
+        "iterations": 2,
+        "initial_error": 36.22013008996796,
+        "final_error": 35.98294145502681,
+        "nodes": 374,
+        "factors": 386,
+        "matching_callback_calls": 0,
+        "wall_seconds": 0.03019500999999991
+      },
+      "D": {
+        "iterations": 9,
+        "initial_error": 36.22013008996796,
+        "final_error": 35.71689481520132,
+        "nodes": 374,
+        "factors": 386,
+        "matching_callback_calls": 264,
+        "wall_seconds": 1.240078952999994
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "failed_check": "A5 original metadata changed in .git/objects",
+  "cause": "旧 Git 对象写时间发生变化，初版终验要求全部冻结路径元数据相同而未为 Git 时间差异要求字节复核。",
+  "observed_git_metadata_differences": 2877,
+  "affected_bytes_freshly_rehashed": 721934575,
+  "all_byte_hashes_match_A5": true,
+  "timestamp_reset_or_origin_attribution": false,
+  "git_head_index_or_branch_mutated_by_A6": false,
+  "detail": "GIT_METADATA_TIMESTAMP_OBSERVATION.json",
+  "original_verifier": "attempt02/verify_a6.py"
+}

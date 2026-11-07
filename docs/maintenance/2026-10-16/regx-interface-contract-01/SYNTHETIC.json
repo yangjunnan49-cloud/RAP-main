@@ -1,0 +1,24 @@
+{
+  "status": "EXACT_SYNTHETIC_CONTRACT_PASS",
+  "positive_checks": [
+    "view0:exact inverse/roundtrip/row-column",
+    "view1:exact inverse/roundtrip/row-column",
+    "view2:exact inverse/roundtrip/row-column"
+  ],
+  "exact_relative_left_gauge": true,
+  "permutation_invariant_when_paired": true,
+  "rejected_semantic_negatives": [
+    "wrong_inverse",
+    "wrong_row_form",
+    "right_gauge",
+    "wrong_view_reference_order"
+  ],
+  "rejected_schema_negatives": [
+    "reference_key",
+    "private_path",
+    "unknown_view_key",
+    "wrong_size",
+    "wrong_view_order"
+  ],
+  "actual_data_read": false
+}

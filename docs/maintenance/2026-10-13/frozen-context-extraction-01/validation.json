@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "decision": "FROZEN_FEATURE_EXTRACTION_AND_CONTEXT_ISOLATION_BINDINGS_VALID",
+  "records": [
+    {
+      "noise": "fit_00",
+      "layout": "J_joint",
+      "repeat_and_full_hook_byteexact": true,
+      "part0_pointwise_unchanged": true,
+      "part0_changed_prefix_entries": 511999,
+      "part0_max_prefix_delta": 4.302494049072266,
+      "separated_isolation_pass": null
+    },
+    {
+      "noise": "fit_00",
+      "layout": "I_separated",
+      "repeat_and_full_hook_byteexact": true,
+      "part0_pointwise_unchanged": true,
+      "part0_changed_prefix_entries": 0,
+      "part0_max_prefix_delta": 0.0,
+      "separated_isolation_pass": true
+    },
+    {
+      "noise": "eval_00",
+      "layout": "J_joint",
+      "repeat_and_full_hook_byteexact": true,
+      "part0_pointwise_unchanged": true,
+      "part0_changed_prefix_entries": 511998,
+      "part0_max_prefix_delta": 3.5608959197998047,
+      "separated_isolation_pass": null
+    },
+    {
+      "noise": "eval_00",
+      "layout": "I_separated",
+      "repeat_and_full_hook_byteexact": true,
+      "part0_pointwise_unchanged": true,
+      "part0_changed_prefix_entries": 0,
+      "part0_max_prefix_delta": 0.0,
+      "separated_isolation_pass": true
+    }
+  ],
+  "SAR0_initial_joint_prefix_byteexact": true,
+  "joint_prefix_context_dependence_observed": true,
+  "separated_part0_causal_input_isolation_byteexact": true,
+  "pointwise_features_same_in_all_layouts": true,
+  "pooled_features_shape": [
+    3,
+    512
+  ],
+  "pooled_feature_role": "fixed float64 means; no head or capacity claim yet",
+  "no_GT_pose_metric_or_training": true,
+  "source_sampler_calls": 0,
+  "original_native_FP16_equivalence": false,
+  "not_physical_or_system_headroom": true
+}

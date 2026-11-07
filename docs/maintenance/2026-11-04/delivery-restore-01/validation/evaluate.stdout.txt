@@ -1,0 +1,72 @@
+{
+  "task": "evaluate",
+  "mode": "check",
+  "cwd": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-SLAM",
+  "argv": [
+    "C:\\Users\\AAA\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-SLAM\\scripts\\eval_external_trajectory.py",
+    "--poses-dir",
+    "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main\\docs\\maintenance\\2026-09-19\\horizontal-comparison-01\\b-kiss-slam\\poses",
+    "--dataset-root",
+    "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\Datasets\\data_odometry_velodyne\\dataset",
+    "--method-label",
+    "a7-path-contract-only",
+    "--sequences",
+    "00",
+    "--out",
+    "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-runs\\evaluate\\a7-acceptance-evaluate"
+  ],
+  "output": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-runs\\evaluate\\a7-acceptance-evaluate",
+  "paths": {
+    "workspace": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace",
+    "rap_root": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main",
+    "slam_root": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-SLAM",
+    "datasets_root": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\Datasets",
+    "weights_root": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main\\weights",
+    "output_root": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-runs",
+    "cache_root": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\.cache\\rap",
+    "sample_checkpoint": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main\\weights\\rap_model_12.ckpt",
+    "demo_checkpoint": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main\\weights\\rap_model_12.ckpt",
+    "backend_checkpoint": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main\\weights\\rap_model_12.ckpt",
+    "spinnet_checkpoint": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main\\weights\\mini_spinnet_t.pth"
+  },
+  "path_sources": {
+    "workspace": "json",
+    "rap_root": "layout",
+    "slam_root": "layout",
+    "datasets_root": "layout",
+    "weights_root": "layout",
+    "output_root": "json",
+    "cache_root": "json",
+    "sample_checkpoint": "json",
+    "demo_checkpoint": "json",
+    "backend_checkpoint": "layout",
+    "spinnet_checkpoint": "layout"
+  },
+  "required_paths": [
+    {
+      "role": "entry point",
+      "path": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-SLAM\\scripts\\eval_external_trajectory.py",
+      "kind": "file"
+    },
+    {
+      "role": "external trajectory",
+      "path": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\RAP-main\\docs\\maintenance\\2026-09-19\\horizontal-comparison-01\\b-kiss-slam\\poses\\kitti00_poses_kitti.txt",
+      "kind": "file"
+    },
+    {
+      "role": "reference trajectory",
+      "path": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\Datasets\\data_odometry_velodyne\\dataset\\poses\\00.txt",
+      "kind": "file"
+    },
+    {
+      "role": "calibration",
+      "path": "E:\\githouse\\RAP-main\\.maintenance-archive\\migration\\A7-restore-20261104-02\\workspace\\Datasets\\data_odometry_velodyne\\dataset\\sequences\\00\\calib.txt",
+      "kind": "file"
+    }
+  ],
+  "errors": [],
+  "validation_scope": "Path/CLI checks only; no data provenance, model, dependency, or numerical validation"
+}
+__A7_IMPORT_AUDIT__{"numeric_or_model_modules_loaded": [], "exit_code": 0}

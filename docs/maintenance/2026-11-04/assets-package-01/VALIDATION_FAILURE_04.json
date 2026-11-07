@@ -1,0 +1,9 @@
+{
+  "failed_check": "Broken current link: REPORT_CN.md -> GIT_ADDITIONS_OBSERVATION.json",
+  "failed_verifier_exit_code": 1,
+  "cause": "报告先引用了在同一校验器后段才生成的 Git 补充观察，链接检查先于产物生成。",
+  "correction": "先从已经冻结并入包的清单生成该观察，再进行完整终验。",
+  "source_or_payload_modified": false,
+  "verifier_logic_changed_for_this_retry": false,
+  "affected_production_or_research_behavior": false
+}

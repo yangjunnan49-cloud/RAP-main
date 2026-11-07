@@ -1,0 +1,95 @@
+{
+  "stages": [
+    {
+      "stage": "freeze",
+      "success": true,
+      "utc": "2026-10-10T02:48:37.833573+00:00",
+      "wall_seconds": 4.346719478955492,
+      "peak_RSS_bytes": 543084544,
+      "peak_GPU_allocated_bytes": 0,
+      "peak_GPU_reserved_bytes": 0,
+      "artifact_bytes": 66451
+    },
+    {
+      "stage": "noise_bank",
+      "success": true,
+      "utc": "2026-10-10T02:48:56.328324+00:00",
+      "wall_seconds": 3.309230922954157,
+      "peak_RSS_bytes": 662736896,
+      "peak_GPU_allocated_bytes": 36352,
+      "peak_GPU_reserved_bytes": 2097152,
+      "artifact_bytes": 1674669
+    },
+    {
+      "stage": "native_predictions",
+      "success": true,
+      "utc": "2026-10-10T02:49:48.360510+00:00",
+      "wall_seconds": 47.56357077485882,
+      "peak_RSS_bytes": 2541633536,
+      "peak_GPU_allocated_bytes": 429134848,
+      "peak_GPU_reserved_bytes": 465567744,
+      "artifact_bytes": 53634299
+    },
+    {
+      "stage": "teacher_diagnosis",
+      "success": true,
+      "utc": "2026-10-10T02:51:25.690831+00:00",
+      "wall_seconds": 63.190248765051365,
+      "peak_RSS_bytes": 2262417408,
+      "peak_GPU_allocated_bytes": 428773888,
+      "peak_GPU_reserved_bytes": 465567744,
+      "artifact_bytes": 79637320
+    },
+    {
+      "stage": "validation",
+      "success": false,
+      "utc": "2026-10-10T02:53:04.941032+00:00",
+      "wall_seconds": 1.9005298020783812,
+      "peak_RSS_bytes": 508235776,
+      "peak_GPU_allocated_bytes": 0,
+      "peak_GPU_reserved_bytes": 0,
+      "artifact_bytes": 79637621,
+      "error": "FileNotFoundError(2, 'No such file or directory')"
+    },
+    {
+      "stage": "evaluation",
+      "success": true,
+      "utc": "2026-10-10T02:53:35.364957+00:00",
+      "wall_seconds": 38.87532696290873,
+      "peak_RSS_bytes": 537255936,
+      "peak_GPU_allocated_bytes": 0,
+      "peak_GPU_reserved_bytes": 0,
+      "artifact_bytes": 80183397
+    },
+    {
+      "stage": "independent_validation",
+      "success": true,
+      "utc": "2026-10-10T02:56:21.628550+00:00",
+      "wall_seconds": 60.55370175791904,
+      "peak_RSS_bytes": 2490175488,
+      "peak_GPU_allocated_bytes": 429171200,
+      "peak_GPU_reserved_bytes": 465567744,
+      "artifact_bytes": 80185745
+    }
+  ],
+  "combined_recorded_wall_seconds": 219.739328464726,
+  "peak_RSS_bytes": 2541633536,
+  "peak_GPU_allocated_bytes": 429171200,
+  "peak_GPU_reserved_bytes": 465567744,
+  "all_attempted_RSS_captured": true,
+  "all_failed_stages_counted": true,
+  "limits": {
+    "wall_seconds": 900,
+    "GPU_bytes": 3221225472,
+    "RSS_bytes": 4294967296,
+    "artifact_bytes": 536870912
+  },
+  "recorded_caps_pass": true,
+  "exclusions": [
+    "module imports",
+    "WSL startup",
+    "design/docs",
+    "final identity/seal bookkeeping"
+  ],
+  "production_latency": false
+}

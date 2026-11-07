@@ -1,0 +1,52 @@
+{
+  "task": "measured-map-reoptimization-01",
+  "date": "2026-10-09",
+  "status": "COMPLETE_WITH_PRESERVED_IMPLEMENTATION_FAILURE",
+  "decision": "NO_DECLARED_LOCAL_POINT_PLANE_SIGNAL",
+  "research_recommendation": "INVESTIGATE_SHARED_MAP_STRUCTURE_AND_REVISIT_CONSTRAINTS",
+  "owner_selected_mainline": "measured-point local/map reoptimization",
+  "scope": "CPU synthetic preflight plus four exposed development eight-scan windows",
+  "original_attempt": {
+    "state": "INCOMPLETE_PRESERVED",
+    "failure": "Variable scan lengths cannot be stacked",
+    "optimization_started": false,
+    "real_prediction_generated": false,
+    "numeric_gt_parsed": false,
+    "freeze_entries": 54
+  },
+  "validated_attempt": {
+    "path": "attempt-02",
+    "state": "VALIDATED_NEGATIVE_FOR_DECLARED_SIGNALS",
+    "freeze_entries": 61,
+    "same_canonical_algorithm": true,
+    "same_frames_points_gates": true,
+    "windows": 4,
+    "raw_scans": 32,
+    "retained_points": 190332,
+    "fixed_association_pose_signals": 0,
+    "rematched_pose_signals": 0,
+    "fixed_association_probe_signals": 0,
+    "rematched_probe_signals": 0,
+    "rematched_aligned_local_ate_improved_windows": 3,
+    "full_independent_optimizer_replay": false
+  },
+  "post_outcome_diagnosis": {
+    "path": "objective-diagnosis-01",
+    "state": "VALIDATED_ARITHMETIC",
+    "optimizer_calls": 0,
+    "reference_cost_exceeds_initial_fixed_cost_windows": 4,
+    "independent_cost_records": 52,
+    "independent_cost_max_delta": 1.1546319456101628e-14,
+    "physical_cause_identified": false,
+    "official_gt_incorrectness_claim": false
+  },
+  "new_shared_map_arm_implemented": false,
+  "new_full_sequence_protocol_frozen": false,
+  "full_system_metrics_computed": false,
+  "new_model_load_training_or_rap_inference": false,
+  "production_default_backbone_manuscript_change": false,
+  "acquisition_install_commit_git_sync": false,
+  "original_breakthrough_established": false,
+  "old_scientific_stops_seals_metrics_unchanged": true,
+  "checkpoint_site_exposure_and_09_unknowns_persist": true
+}

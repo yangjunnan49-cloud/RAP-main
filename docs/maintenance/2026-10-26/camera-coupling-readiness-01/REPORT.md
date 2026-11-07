@@ -1,0 +1,13 @@
+# CC1 intrinsic-correction/camera coupling constraint
+
+This static application audit binds the current intrinsic-correction function to its preserved October14 source. Their numeric-body AST hashes match. Neither function is imported or executed; no point, image, pose or model value is read. The source formula is existing engineering, not a newly discovered correction or efficacy result.
+
+For horizontal unit points p+=(1,0,0) and p-=(-1,0,0), the ideal source formula at angle delta gives C(p+)=(cos(delta),0,sin(delta)) and C(p-)=(-cos(delta),0,sin(delta)). Their original distance is2, while the corrected distance is2*cos(delta), different for the declared positive0.205-degree angle. A global rigid transformation preserves pair distance. Hence this point-dependent operation cannot be represented by one fixed SE(3) matrix. This is an algebraic consequence of the source formula, not a fresh floating-point experiment or a claim of bitwise equivalence across NumPy versions.
+
+The existing shared-scale/centering pose-recovery contract does not thereby supply an exact rigid conjugation between the uncorrected benchmark coordinates and corrected geometry. Do not invent a constant camera-extrinsic rotation for C or silently apply an assumed global C inverse to a RAP pose. The unchanged original devkit's projection statement applies to its declared benchmark coordinates; whether projection after an additional intrinsic correction better matches actual images remains untested.
+
+A later appearance experiment must retain original point identities/coordinates and explicitly distinguish camera observation projection, corrected RAP geometry and the visual estimator's coordinates. Using a RAP estimate as an initializer for a common estimator is a declared approximate proposal role, not an exact frame-conversion proof. Ordinary visual-only and geometry controls need the same measured observations and conventions. Any pointwise inverse requires its own domain/branch contract and cannot be assumed to be a rigid pose transform.
+
+This does not invalidate E0's measured benefits, alter its implementation, diagnose09, repair an old family or establish a better calibration. It limits an untested fusion claim before implementation. No image solver or conversion helper is built. SOURCE_BINDINGS names the exact current/preserved files and AST identities.
+
+Conservative900s source/design scope from07:05:12UTC includes the earlier planning and first source inspection; CLOSE_CHECKS records its inclusive close. The source-binding command took0.3169062s, with no retained full native peak; no all-process bound is asserted. Original research UNRESOLVED/manuscript PAUSED. No production/default/source/trust/install/Git/outreach/scheduler/goal-status changes.

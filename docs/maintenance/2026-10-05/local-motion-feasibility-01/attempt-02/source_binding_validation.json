@@ -1,0 +1,53 @@
+{
+  "utc": "2026-10-05T13:14:51.105633+00:00",
+  "passed": true,
+  "raw_scans": 18,
+  "points": 18000,
+  "feature_values": 576000,
+  "noise_rows": 18000,
+  "rows": [
+    {
+      "seq": "00",
+      "scans": 3,
+      "points": 3000,
+      "point_feature_noise_max_delta": 0.0
+    },
+    {
+      "seq": "05",
+      "scans": 3,
+      "points": 3000,
+      "point_feature_noise_max_delta": 0.0
+    },
+    {
+      "seq": "06",
+      "scans": 3,
+      "points": 3000,
+      "point_feature_noise_max_delta": 0.0
+    },
+    {
+      "seq": "07",
+      "scans": 3,
+      "points": 3000,
+      "point_feature_noise_max_delta": 0.0
+    },
+    {
+      "seq": "09",
+      "scans": 3,
+      "points": 3000,
+      "point_feature_noise_max_delta": 0.0
+    },
+    {
+      "seq": "10",
+      "scans": 3,
+      "points": 3000,
+      "point_feature_noise_max_delta": 0.0
+    }
+  ],
+  "gt_files_read": false,
+  "flow_inference_rerun": false,
+  "supplement_wall_s": 7.3291290160268545,
+  "successful_bank_primary_and_supplement_wall_s": 37.58045219327323,
+  "peak_rss_gib": 2.6465187072753906,
+  "artifact_bytes_before_report": 10581362,
+  "note": "Primary total_wall_s was sampled before its final identity recheck; total here uses its full validator_wall_s. No cap/gate changed."
+}

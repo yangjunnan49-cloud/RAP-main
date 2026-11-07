@@ -1,0 +1,100 @@
+{
+  "stage": "freeze",
+  "utc": "2026-10-16T13:52:55.4043722Z",
+  "native_exit_code": 0,
+  "child_pid": 27228,
+  "error": null,
+  "enclosing_seconds": 1.3936437,
+  "previous_enclosing_seconds": 0.0,
+  "running_queries": [
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 2879488,
+      "working_set": 2879488,
+      "peak_commit": 528384
+    },
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 47599616,
+      "working_set": 47599616,
+      "peak_commit": 13271040
+    },
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 74805248,
+      "working_set": 74805248,
+      "peak_commit": 23240704
+    },
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 82022400,
+      "working_set": 81559552,
+      "peak_commit": 28385280
+    },
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 84946944,
+      "working_set": 84946944,
+      "peak_commit": 29138944
+    },
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 93630464,
+      "working_set": 92512256,
+      "peak_commit": 33759232
+    }
+  ],
+  "final_queries": [
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 93630464,
+      "working_set": 172032,
+      "peak_commit": 33759232
+    },
+    {
+      "success": true,
+      "error": 0,
+      "error_relevant": false,
+      "structure_bytes": 72,
+      "peak_working_set": 93630464,
+      "working_set": 172032,
+      "peak_commit": 33759232
+    }
+  ],
+  "running_query_gaps": 0,
+  "final_child_OS_peak_known": true,
+  "child_peak_cap_bytes": 536870912,
+  "observer_to_snapshot": {
+    "success": true,
+    "error": 0,
+    "error_relevant": false,
+    "structure_bytes": 72,
+    "peak_working_set": 165613568,
+    "working_set": 165613568,
+    "peak_commit": 77484032
+  },
+  "observer_full_lifetime_peak": "UNKNOWN",
+  "ordinary_preparation_RSS": "UNKNOWN",
+  "all_native_process_tree_claim": false
+}

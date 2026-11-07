@@ -1,0 +1,29 @@
+{
+  "source": "docs\\maintenance\\2026-10-13\\shadow-conditioned-fit-pilot-01\\execution-stop-audit-01\\RESOURCE_AUDIT.json",
+  "sha256": "AE539532EF591A330A1D8743631049264C2C9577CB3376BB36ABE68666EC1478",
+  "original_combined_seconds": 422.63368256003014,
+  "stages": [
+    {
+      "stage": "freeze",
+      "child_wall_seconds": 19.05705637500796
+    },
+    {
+      "stage": "preflight",
+      "child_wall_seconds": 28.882944513999973
+    },
+    {
+      "stage": "fit",
+      "child_wall_seconds": 102.67229431400483
+    },
+    {
+      "stage": "validate_fit",
+      "child_wall_seconds": 74.15731278700696
+    },
+    {
+      "stage": "predict",
+      "child_wall_seconds": 197.86407457001042
+    }
+  ],
+  "prediction_incomplete": true,
+  "estimates_not_fresh_full_training_benchmark": true
+}

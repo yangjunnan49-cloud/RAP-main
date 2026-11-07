@@ -1,0 +1,9 @@
+# DA1 independent closeout and delivery
+
+All15 prior cost hashes and the prior delivery ZIP match. Current78 code/configs, two checkpoints and eight public file identities remain unchanged. Four new runtime families and both OC1 runtimes match their freezes. Normal receipts478/Python syntax parse; exactly one preserved OC1 run01 truncated RESULTS is intentionally invalid and never accepted as PASS. RI2 counters, two case seals,402 parameter before-after identities and OC1 final60000 checks/five exports agree. No numerical import/model replay occurs in this audit.
+
+The full local evidence ZIP contains645 members/644 source files,6,390,403 source bytes and4,098,178 compressed bytes. SHA256BBF7FCB2A87DBA232666F4B4B6D269A55460E2E39960E4BBD6A5996FBD254A85. The active five-common-frame-matrix ZIP has6 members/2763 bytes, SHA256C29F88B6B239E3B91450D5CC85952ED4F04C8B26B7454C1131B7C99D22F004B4. Every ZIP member CRC/SHA/name passes. These are estimated poses and pre-boundary evidence, not GT/physical-efficacy/account-exhaustion artifacts. Live account state is excluded.
+
+Read-only platform checks confirm Ubuntu Stopped, E BasePath/UID1000/WSL2, retained Junction and identical active file ID, unchanged .wslconfig and local Git HEADs. The full prior backup hash is not repeated; retained backup metadata is recorded. Real RAP GPU normal use succeeded through the compatibility path, which does not establish direct boot without Junction or resolve the stale-reference cause. No registry/service/configuration/link/backup change, install, Git mutation or remote sync occurs.
+
+Audit-owned Windows process exits0, peak observed25,673,728 bytes under256MiB. Original scientific failures and research UNRESOLVED/manuscript PAUSED remain. No additional real run is pending; further work in this owner window is account/record closure only.

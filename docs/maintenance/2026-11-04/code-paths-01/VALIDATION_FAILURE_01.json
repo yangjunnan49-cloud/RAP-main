@@ -1,0 +1,12 @@
+{
+  "stage": "A3",
+  "attempt": 1,
+  "exit_code": 1,
+  "failure": "AssertionError: Broken current link: REPORT_CN.md -> CHECKS.json",
+  "cause": "The verifier checked the report link before creating its own final CHECKS.json receipt.",
+  "passed_before_failure": ["14 unit tests", "8 cases of 55 non-path arguments and numerical source AST equivalence", "code role index comparison", "7 guarded real CLI path/help checks"],
+  "preserved_verifier": "attempt01/verify_a3.py",
+  "preserved_logs": "attempt01/validation",
+  "correction": "Defer only this verifier's own receipt link until immediately after writing the successful receipt; all other links remain strict.",
+  "production_or_scientific_files_changed_by_correction": false
+}

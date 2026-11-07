@@ -1,0 +1,24 @@
+{
+  "success": false,
+  "error": "TimeoutError('timed out')",
+  "elapsed_seconds": 10.375,
+  "peak_working_set_bytes": 29048832,
+  "cumulative_delivered_body_bytes": 0,
+  "requests": 1,
+  "all_request_rows": [
+    {
+      "index": 0,
+      "url": "https://huggingface.co/datasets/YuePanEdward/regx-benchmark/resolve/c8deb301b32bb887acd48371ae93221251a056b5/regx_multiview_samples_v2.json",
+      "method": "GET",
+      "request_headers": {
+        "User-Agent": "RAP-source-audit/1.0",
+        "Accept": "application/json,text/plain,application/octet-stream",
+        "Accept-Encoding": "identity",
+        "Connection": "close"
+      },
+      "body_bytes": 0,
+      "EOF": false
+    }
+  ],
+  "whole_scope_not_retried": true
+}

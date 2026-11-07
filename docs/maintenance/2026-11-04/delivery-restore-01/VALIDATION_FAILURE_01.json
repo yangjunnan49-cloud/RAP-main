@@ -1,0 +1,10 @@
+{
+  "operation": "complete base restore",
+  "error": "WinError 206: file name or extension too long",
+  "cause": "恢复根比原目录深，Git checkpoint 的原路径在普通 Windows 路径模式下超出长度限制。",
+  "failure_before_archive_payload_restore": true,
+  "correction": "新恢复目标使用 Windows extended absolute paths；增加长路径回归测试；首个部分目录树保留。",
+  "source_or_base_package_modified": false,
+  "original_tool": "used/delivery.py",
+  "original_driver_and_failure": "attempt01"
+}

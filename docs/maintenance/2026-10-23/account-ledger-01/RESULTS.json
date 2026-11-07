@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "controls": [
+    {
+      "case": "forward_active",
+      "expected": "WRITE_ACTIVE",
+      "passed": true
+    },
+    {
+      "case": "stale_active",
+      "expected": "REJECT_STALE_ACTIVE",
+      "passed": true
+    },
+    {
+      "case": "marker_prevents_reactivation",
+      "expected": "RETAIN_TERMINAL",
+      "passed": true
+    },
+    {
+      "case": "terminal_pointer_prevents_reactivation",
+      "expected": "RETAIN_TERMINAL",
+      "passed": true
+    },
+    {
+      "case": "disabled_evidence_clock_priority",
+      "expected": "WRITE_DISABLED",
+      "passed": true
+    },
+    {
+      "case": "changed_window_stop",
+      "expected": "WRITE_OBSERVATION_STOP",
+      "passed": true
+    },
+    {
+      "case": "invalid_active_clock",
+      "expected": "WRITE_CLOCK_UNCERTAINTY_STOP",
+      "passed": true
+    }
+  ],
+  "count": 7,
+  "actual_account_state_mutations": 0,
+  "elapsed_seconds": 0.015000000013969839
+}

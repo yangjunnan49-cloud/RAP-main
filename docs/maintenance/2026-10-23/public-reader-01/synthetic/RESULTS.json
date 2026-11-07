@@ -1,0 +1,166 @@
+{
+  "passed": true,
+  "count": 38,
+  "controls": [
+    {
+      "case": "valid_two_and_three_view_exact_rows",
+      "passed": true
+    },
+    {
+      "case": "original_AST_positive_contract",
+      "passed": true
+    },
+    {
+      "case": "inference_API_fields_only",
+      "passed": true
+    },
+    {
+      "case": "reject_unknown_reference",
+      "passed": true
+    },
+    {
+      "case": "reject_view_transform",
+      "passed": true
+    },
+    {
+      "case": "reject_private_path",
+      "passed": true
+    },
+    {
+      "case": "reject_absolute_path",
+      "passed": true
+    },
+    {
+      "case": "reject_version_bool",
+      "passed": true
+    },
+    {
+      "case": "reject_wrong_version",
+      "passed": true
+    },
+    {
+      "case": "reject_view_count_bool",
+      "passed": true
+    },
+    {
+      "case": "reject_points_bool",
+      "passed": true
+    },
+    {
+      "case": "reject_bytes_bool",
+      "passed": true
+    },
+    {
+      "case": "reject_wrong_order",
+      "passed": true
+    },
+    {
+      "case": "reject_duplicate_view_id",
+      "passed": true
+    },
+    {
+      "case": "reject_wrong_hash",
+      "passed": true
+    },
+    {
+      "case": "reject_invalid_hash",
+      "passed": true
+    },
+    {
+      "case": "reject_negative_count",
+      "passed": true
+    },
+    {
+      "case": "reject_huge_count",
+      "passed": true
+    },
+    {
+      "case": "reject_wrong_size",
+      "passed": true
+    },
+    {
+      "case": "reject_views_wrong_type",
+      "passed": true
+    },
+    {
+      "case": "reject_duplicate_json_key",
+      "passed": true
+    },
+    {
+      "case": "reject_json_nan",
+      "passed": true
+    },
+    {
+      "case": "reject_invalid_utf8",
+      "passed": true
+    },
+    {
+      "case": "reject_index_private_field",
+      "passed": true
+    },
+    {
+      "case": "reject_index_wrong_order",
+      "passed": true
+    },
+    {
+      "case": "reject_index_version_bool",
+      "passed": true
+    },
+    {
+      "case": "reject_truncated_xyz",
+      "passed": true
+    },
+    {
+      "case": "reject_extra_xyz_record",
+      "passed": true
+    },
+    {
+      "case": "reject_byte_tamper",
+      "passed": true
+    },
+    {
+      "case": "reject_nan_xyz",
+      "passed": true
+    },
+    {
+      "case": "reject_infinite_xyz",
+      "passed": true
+    },
+    {
+      "case": "reject_catalog_private_path",
+      "passed": true
+    },
+    {
+      "case": "reject_catalog_missing",
+      "passed": true
+    },
+    {
+      "case": "reject_catalog_wrong_hash",
+      "passed": true
+    },
+    {
+      "case": "reject_catalog_wrong_size",
+      "passed": true
+    },
+    {
+      "case": "reject_Windows_reparse",
+      "passed": true,
+      "simulated_stat_only": true
+    },
+    {
+      "case": "reject_POSIX_symlink",
+      "passed": true,
+      "simulated_stat_only": true
+    },
+    {
+      "case": "strict_version_type_vs_original_equality",
+      "passed": true,
+      "original_accepts_bool_version": true,
+      "pinned_hash_still_required_in_original_real_case": true
+    }
+  ],
+  "real_point_reads": 0,
+  "private_attempts": 0,
+  "original_C0_stages_invoked": 0,
+  "simulated_reparse_not_OS_proof": true
+}

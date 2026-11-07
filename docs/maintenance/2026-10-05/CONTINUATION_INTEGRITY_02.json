@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "utc": "2026-10-05T08:52:52.749113+00:00",
+  "identity_checks": 3040,
+  "unique_files_checked": 2626,
+  "experiments": {
+    "dense-propagation-screen-01": {
+      "stage": "VALIDATED",
+      "decision": "NO_FIXED_INTERPOLATION_SIGNAL",
+      "validation_passed": true
+    },
+    "joint-loop-oracle-01": {
+      "stage": "VALIDATED",
+      "decision": "MATERIAL_CURRENT_EDGE_JOINT_HEADROOM",
+      "validation_passed": true
+    },
+    "geotransformer-feasibility-01": {
+      "stage": "VALIDATED",
+      "decision": "PASS_ISOLATED_SYNTHETIC_FEASIBILITY",
+      "validation_passed": true
+    },
+    "online-geotransformer-01": {
+      "stage": "VALIDATED",
+      "decision": "NO_MATERIAL_COMMON_GATE_SYSTEM_SIGNAL",
+      "validation_passed": true
+    },
+    "online-geometry-consistency-01": {
+      "stage": "VALIDATED",
+      "decision": "SHARED_09_GEOMETRY_LABEL_DISCREPANCY",
+      "validation_passed": true
+    },
+    "temporal-identity-audit-01": {
+      "stage": "VALIDATED",
+      "decision": "LOCAL_09_CONSISTENT_CROSS_VISIT_DISCREPANCY",
+      "validation_passed": true
+    },
+    "flow-directional-response-01": {
+      "stage": "VALIDATED",
+      "decision": "PASS_GT_FREE_RESPONSE_PREFLIGHT",
+      "validation_passed": true
+    },
+    "flow-directional-information-01": {
+      "stage": "VALIDATED",
+      "decision": "NO_MATERIAL_JOINT_DIRECTIONAL_INFORMATION",
+      "validation_passed": true
+    }
+  },
+  "heads": {
+    "RAP-main": "4055d929c594b0033aafc6eed339c910369eef55",
+    "RAP-SLAM": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6"
+  },
+  "continuity_sha256": {
+    "AGENTS.md": "ec08214b4d474fb9ea4a684f986f35ba386c47cdc67492dd8523625b869e7a0d",
+    "README.md": "a43cd777defbdad9de4451b830782e6786a3f551f399f8ed95b985e97f8678a1",
+    "PHASE_RECORD.md": "e1218db7389a7e361aa7ff534b165be80037664c9854a63a35e9f7e06bf80623",
+    "MAINLINE_UPDATE.md": "154f31d29c65a1d361710809eb09a6add16ba15cbb995f66153794feaf7c42e5"
+  },
+  "scope": "artifact/source/freeze integrity and unchanged HEADs; no numeric recomputation"
+}

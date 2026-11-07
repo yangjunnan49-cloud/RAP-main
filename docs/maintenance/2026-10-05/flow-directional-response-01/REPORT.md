@@ -1,0 +1,13 @@
+# Saved-flow directional response: engineering result
+
+Decision **PASS_GT_FREE_RESPONSE_PREFLIGHT**. Protocol and 26 source/input identities froze before extraction. Eight pairs are the first four original input-list entries in each F2 00/08 sequence, native N0 only. Their identities match the original F2 artifact manifest. No evaluator GT or model was loaded; no registration candidate, selection, admission or graph changed.
+
+The extractor decodes the last three raw clean endpoints, deletes eight shared spatial regions jointly from the two anchors, and retains a six-dimensional right-tangent response matrix plus late-endpoint dispersion. Independent-view deletion is the paired control. Details and limits are in RESEARCH_MEMO.md and PROTOCOL.md. The full 22-case bank (eight saved flows, three analytic cases and eleven common-gauge transforms) was sealed before independent validation.
+
+All frozen engineering gates pass. Independent Horn quaternion fits and matrix logarithms reproduce the SVD/analytic extractor with maximum array discrepancy 1.665e-13. Final native pose reproduction differs by at most 3.217e-5 (below the 2e-4 native float32 tolerance); common-gauge maximum pose/matrix discrepancy is 5.862e-13. Matrices are finite, symmetric and PSD; all deletions retain at least 626 real points per anchor. Total extraction/validation wall 2.126 s, peak RSS 0.0693 GiB, artifacts before report 199,714 bytes; all caps pass.
+
+The eight normalized matrices have leading-eigenvalue fractions 0.747–0.995. Joint spatial matrices differ from summed independent-view matrices by relative Frobenius amounts 0.163–0.635. These are GT-free descriptive facts: directional structure and coupling can be extracted, but usefulness is unmeasured. No pose-error or metric gain follows.
+
+The mandatory rigid-wrong analytic case has a 2.0 m pose error and response norm 1.186e-30. Thus the proxy can assign almost zero response to a perfectly rigid wrong result. It is a sensitivity measurement, not calibrated covariance or correctness confidence. This blind spot is central to the next information screen, especially given the unresolved 09 geometry/label discrepancy.
+
+Next: separately freeze a complete F2 native-N0 directional information audit before any new matrix bank or labels. It must compare joint response against independent-view, trace-isotropic, temporal-only and equal-point geometric-conditioning controls. Advancement requires a material paired signal on the fixed hard08 cohort and ordinary00 safety; executable matrices alone are insufficient. All old negative stops persist; no training, production/default/manuscript edit, commit or Git sync. Novelty and system benefit remain unproven.

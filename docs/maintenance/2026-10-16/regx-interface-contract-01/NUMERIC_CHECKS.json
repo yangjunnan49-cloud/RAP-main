@@ -1,0 +1,168 @@
+{
+  "utc": "2026-10-17T12:24:32.5903102Z",
+  "status": "VALIDATED_CUSTOM_INPUT_REFERENCE_CONTRACT_ALL_POINTS_INTERFACE_ONLY",
+  "original_preparation_seal_entries_verified": 27,
+  "source_bindings_verified": 19,
+  "records": [
+    {
+      "stage": "synthetic",
+      "launch": {
+        "pid": 96564,
+        "utc_start": "2026-10-17T12:20:27.7093752Z",
+        "script": "scripts/maintenance/regx_interface_contract_execution02.py",
+        "stage": "synthetic",
+        "headroom_before_bytes": 108039331840
+      },
+      "supervisor": {
+        "exit_code": 0,
+        "utc_end": "2026-10-17T12:20:31.6675892Z",
+        "wall_seconds": 3.958214,
+        "host_memory_observations": 5,
+        "minimum_observed_headroom_bytes": 106401820672.0
+      },
+      "child": {
+        "success": true,
+        "error": null,
+        "child_seconds": 0.7491981770144776,
+        "maxrss_bytes": 17244160,
+        "GPU": 0,
+        "registration_model_solver": 0
+      }
+    },
+    {
+      "stage": "build",
+      "launch": {
+        "pid": 76084,
+        "utc_start": "2026-10-17T12:20:49.4233294Z",
+        "script": "scripts/maintenance/regx_interface_contract_execution02.py",
+        "stage": "build",
+        "headroom_before_bytes": 106438377472
+      },
+      "supervisor": {
+        "exit_code": 0,
+        "utc_end": "2026-10-17T12:20:58.079462Z",
+        "wall_seconds": 8.6561326,
+        "host_memory_observations": 11,
+        "minimum_observed_headroom_bytes": 105580855296.0
+      },
+      "child": {
+        "success": true,
+        "error": null,
+        "child_seconds": 5.942687416973058,
+        "maxrss_bytes": 24199168,
+        "GPU": 0,
+        "registration_model_solver": 0
+      }
+    },
+    {
+      "stage": "consume",
+      "launch": {
+        "pid": 20388,
+        "utc_start": "2026-10-17T12:21:14.7524481Z",
+        "script": "scripts/maintenance/regx_interface_contract_execution02.py",
+        "stage": "consume",
+        "headroom_before_bytes": 106634342400
+      },
+      "supervisor": {
+        "exit_code": 0,
+        "utc_end": "2026-10-17T12:21:17.9288282Z",
+        "wall_seconds": 3.1763801,
+        "host_memory_observations": 4,
+        "minimum_observed_headroom_bytes": 106057285632.0
+      },
+      "child": {
+        "success": true,
+        "error": null,
+        "child_seconds": 0.7375931069836952,
+        "maxrss_bytes": 18083840,
+        "GPU": 0,
+        "registration_model_solver": 0
+      }
+    },
+    {
+      "stage": "validation",
+      "launch": {
+        "pid": 46336,
+        "utc_start": "2026-10-17T12:21:30.1690262Z",
+        "script": "scripts/maintenance/validate_regx_interface_contract_binding02.py",
+        "stage": "validation",
+        "headroom_before_bytes": 105922633728
+      },
+      "supervisor": {
+        "exit_code": 0,
+        "utc_end": "2026-10-17T12:21:32.5615061Z",
+        "wall_seconds": 2.3924799,
+        "host_memory_observations": 3,
+        "minimum_observed_headroom_bytes": 105862979584.0
+      },
+      "child": {
+        "success": true,
+        "error": null,
+        "child_seconds": 1.7073890829924494,
+        "maxrss_bytes": 31461376,
+        "GPU": 0,
+        "registration_model_solver": 0
+      }
+    }
+  ],
+  "validation": {
+    "status": "VALIDATED_CUSTOM_INPUT_REFERENCE_CONTRACT_ALL_POINTS",
+    "all_points": 56557,
+    "forward_coordinate_comparisons": 169671,
+    "inverse_coordinate_comparisons": 169671,
+    "max_forward_error_budget_ratio": "0.0065798526019042162735253156337052978808737715449745",
+    "max_inverse_error_budget_ratio": "0.0038025717149948862629083526863496789739670201959109",
+    "details": [
+      {
+        "case": "case-000",
+        "view": "v00",
+        "points": 11250
+      },
+      {
+        "case": "case-000",
+        "view": "v01",
+        "points": 11372
+      },
+      {
+        "case": "case-001",
+        "view": "v00",
+        "points": 11250
+      },
+      {
+        "case": "case-001",
+        "view": "v01",
+        "points": 11313
+      },
+      {
+        "case": "case-001",
+        "view": "v02",
+        "points": 11372
+      }
+    ],
+    "public_files": 8,
+    "consumer_read_paths": [
+      "INDEX.json",
+      "case-000/manifest.json",
+      "case-000/v00.xyz64",
+      "case-000/v01.xyz64",
+      "case-001/manifest.json",
+      "case-001/v00.xyz64",
+      "case-001/v01.xyz64",
+      "case-001/v02.xyz64"
+    ],
+    "all_selected_cases": true,
+    "no_builder_math_import": true,
+    "no_registration_pose_metric": true,
+    "physical_world_truth_authenticated": false,
+    "canonical_batch_reproduced": false,
+    "OS_access_isolation": false
+  },
+  "all_public_files": 8,
+  "public_bytes": 1358570,
+  "representation_error_budget_only": true,
+  "physical_world_truth_authenticated": false,
+  "canonical_batch_reproduced": false,
+  "OS_access_isolation": false,
+  "new_model_fit_registration_or_pose_metric": false,
+  "original_research_goal_complete": false
+}

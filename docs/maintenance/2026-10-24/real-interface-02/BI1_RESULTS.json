@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "model": "RAP",
+      "tensors": 344,
+      "receipt": "RAP_SOURCE_CONSTRUCTOR.json",
+      "sha256": "83ADA439A4B8CFDAD0A51CE69768F915881373E5A40A9E4E44E7D5922BEB3B21"
+    },
+    {
+      "model": "miniSpinNet",
+      "tensors": 58,
+      "receipt": "miniSpinNet_SOURCE_CONSTRUCTOR.json",
+      "sha256": "4586FB3FEF518B448FF86134B92801627980CB39A7403F7BEE85D9F5566F0A9A"
+    }
+  ],
+  "bridge_calls": [
+    {
+      "index": 0,
+      "path": "/mnt/e/githouse/RAP-main/weights/rap_model_12.ckpt",
+      "map_location": "cpu",
+      "source_weights_only": false,
+      "original_torch_load_executed": false,
+      "success": true,
+      "tensors": 344,
+      "archive": {
+        "byteorder_marker": "little",
+        "legacy_default_little": false,
+        "ignored_non_Desc_tensors": 0
+      },
+      "tracked_RNG_unchanged": true
+    },
+    {
+      "index": 1,
+      "path": "/mnt/e/githouse/RAP-main/weights/mini_spinnet_t.pth",
+      "map_location": "cpu",
+      "source_weights_only": false,
+      "original_torch_load_executed": false,
+      "success": true,
+      "tensors": 58,
+      "archive": {
+        "byteorder_marker": null,
+        "legacy_default_little": true,
+        "ignored_non_Desc_tensors": 47
+      },
+      "tracked_RNG_unchanged": true
+    }
+  ],
+  "source_state_calls": [
+    {
+      "module": "RectifiedPointFlow",
+      "source_strict": false,
+      "tensors": 344,
+      "missing": [],
+      "unexpected": []
+    },
+    {
+      "module": "MiniSpinNet",
+      "source_strict": false,
+      "tensors": 58,
+      "missing": [],
+      "unexpected": []
+    }
+  ],
+  "seed_calls": [
+    {
+      "library": "Torch",
+      "seed": 42
+    },
+    {
+      "library": "NumPy",
+      "seed": 42
+    }
+  ],
+  "counters": {
+    "backend_constructor_attempts": 1,
+    "backend_constructor_completed": true,
+    "neural_forward_attempts": 0,
+    "original_torch_load_calls": 0,
+    "point_reads": 0,
+    "reference_reads": 0
+  },
+  "precision_policy_preserved": true,
+  "CUDA_initialized": false,
+  "torch_version": "2.7.0+cu128",
+  "numpy_version": "1.26.4",
+  "candidate_installed": false,
+  "claim": "Original CPU backend constructor integration and complete fixed tensor values only"
+}

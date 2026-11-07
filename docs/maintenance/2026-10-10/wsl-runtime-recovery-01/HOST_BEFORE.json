@@ -1,0 +1,104 @@
+{
+  "utc": "2026-10-10T14:03:50.3659665Z",
+  "memory": {
+    "CommittedBytes": 131760308224,
+    "CommitLimit": 137269444608,
+    "AvailableBytes": 6511423488
+  },
+  "processes": [
+    {
+      "Id": 18820,
+      "ProcessName": "NVIDIA Overlay",
+      "PrivateMemorySize64": 17475600384,
+      "WorkingSet64": 201355264,
+      "MainWindowTitle": "NVIDIA GeForce Overlay DT",
+      "Path": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe"
+    },
+    {
+      "Id": 21304,
+      "ProcessName": "NVIDIA Overlay",
+      "PrivateMemorySize64": 15998976,
+      "WorkingSet64": 21192704,
+      "MainWindowTitle": "",
+      "Path": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe"
+    },
+    {
+      "Id": 21788,
+      "ProcessName": "NVIDIA Overlay",
+      "PrivateMemorySize64": 140734464,
+      "WorkingSet64": 39641088,
+      "MainWindowTitle": "",
+      "Path": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe"
+    },
+    {
+      "Id": 22624,
+      "ProcessName": "NVIDIA Overlay",
+      "PrivateMemorySize64": 9740288,
+      "WorkingSet64": 5509120,
+      "MainWindowTitle": "",
+      "Path": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe"
+    },
+    {
+      "Id": 23352,
+      "ProcessName": "NVIDIA Overlay",
+      "PrivateMemorySize64": 1846591488,
+      "WorkingSet64": 1019695104,
+      "MainWindowTitle": "",
+      "Path": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe"
+    },
+    {
+      "Id": 193076,
+      "ProcessName": "SLDWORKS",
+      "PrivateMemorySize64": 67989544960,
+      "WorkingSet64": 1858699264,
+      "MainWindowTitle": "SOLIDWORKS 2025 SP0.0 - [moter-modules-104-104-104-v2 *]",
+      "Path": "E:\\SW2025\\SOLIDWORKS\\SLDWORKS.exe"
+    }
+  ],
+  "events": [
+    {
+      "TimeCreated": "2026-10-10T21:39:47.2973959+08:00",
+      "Id": 2004,
+      "ProviderName": "Microsoft-Windows-Resource-Exhaustion-Detector",
+      "Message": "Windows 成功诊断出虚拟内存不足的情况。以下程序使用了大部分虚拟内存: SLDWORKS.exe (193076) 使用了 67989610496 字节；NVIDIA Overlay.exe (18820) 使用了 17464745984 字节；vmmemWSL (309732) 使用了 6706352128 字节。"
+    },
+    {
+      "TimeCreated": "2026-10-10T21:38:07.3975674+08:00",
+      "Id": 2004,
+      "ProviderName": "Microsoft-Windows-Resource-Exhaustion-Detector",
+      "Message": "Windows 成功诊断出虚拟内存不足的情况。以下程序使用了大部分虚拟内存: SLDWORKS.exe (193076) 使用了 67989512192 字节；NVIDIA Overlay.exe (18820) 使用了 17463975936 字节；vmmemWSL (304864) 使用了 7003467776 字节。"
+    },
+    {
+      "TimeCreated": "2026-10-10T21:37:21.6628036+08:00",
+      "Id": 2004,
+      "ProviderName": "Microsoft-Windows-Resource-Exhaustion-Detector",
+      "Message": "Windows 成功诊断出虚拟内存不足的情况。以下程序使用了大部分虚拟内存: SLDWORKS.exe (193076) 使用了 67989577728 字节；NVIDIA Overlay.exe (18820) 使用了 17465749504 字节；CefSharp.BrowserSubprocess.exe (98616) 使用了 2625036288 字节。"
+    },
+    {
+      "TimeCreated": "2026-10-10T21:36:37.7217466+08:00",
+      "Id": 2004,
+      "ProviderName": "Microsoft-Windows-Resource-Exhaustion-Detector",
+      "Message": "Windows 成功诊断出虚拟内存不足的情况。以下程序使用了大部分虚拟内存: SLDWORKS.exe (193076) 使用了 67989512192 字节；NVIDIA Overlay.exe (18820) 使用了 17465401344 字节；vmmemWSL (6940) 使用了 6826315776 字节。"
+    },
+    {
+      "TimeCreated": "2026-10-10T21:35:17.9005095+08:00",
+      "Id": 2004,
+      "ProviderName": "Microsoft-Windows-Resource-Exhaustion-Detector",
+      "Message": "Windows 成功诊断出虚拟内存不足的情况。以下程序使用了大部分虚拟内存: SLDWORKS.exe (193076) 使用了 67989544960 字节；NVIDIA Overlay.exe (18820) 使用了 17462693888 字节；CefSharp.BrowserSubprocess.exe (98616) 使用了 2624266240 字节。"
+    },
+    {
+      "TimeCreated": "2026-10-10T21:33:40.9853486+08:00",
+      "Id": 2004,
+      "ProviderName": "Microsoft-Windows-Resource-Exhaustion-Detector",
+      "Message": "Windows 成功诊断出虚拟内存不足的情况。以下程序使用了大部分虚拟内存: SLDWORKS.exe (193076) 使用了 67989811200 字节；NVIDIA Overlay.exe (18820) 使用了 17461952512 字节；vmmemWSL (29808) 使用了 5975674880 字节。"
+    }
+  ],
+  "pagefiles": {
+    "Name": "D:\\pagefile.sys",
+    "AllocatedBaseSize": 98304,
+    "CurrentUsage": 12745,
+    "PeakUsage": 19111
+  },
+  "wslconfig_sha256": "8FD36EE0789EBE92BB06729A08FAD9C1779C8CC3EAEF8310905E5B7EBC8BB4DC",
+  "wslconfig": "[wsl2]\nvmIdleTimeout=-1\n"
+}

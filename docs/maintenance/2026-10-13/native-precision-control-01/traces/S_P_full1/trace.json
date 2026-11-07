@@ -1,0 +1,36 @@
+{
+  "name": "S_P_full1",
+  "condition": "S",
+  "arm": "P",
+  "path": "full",
+  "rep": 1,
+  "loss": 198.32860123110547,
+  "terms": {
+    "translation": 191.62896602357063,
+    "rotation": 6.6763246344275275,
+    "shape": 0.023310573107311487
+  },
+  "linear_dtypes": {
+    "transformer_layers.10.global_qkv_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    },
+    "transformer_layers.10.global_out_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    },
+    "transformer_layers.11.global_qkv_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    },
+    "transformer_layers.11.global_out_proj": {
+      "input": "torch.float32",
+      "output": "torch.float32"
+    }
+  },
+  "dispatched_ATen_names": [
+    "aten::_scaled_dot_product_attention_math",
+    "aten::scaled_dot_product_attention"
+  ],
+  "factor": 0.0009765625
+}

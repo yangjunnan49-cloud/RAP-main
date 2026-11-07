@@ -1,0 +1,18 @@
+{
+  "precision": "ieee_float32_matmul_scope",
+  "seed_policy": "sha256(root_seed,physical_sequence,ordered_pair,generation)",
+  "checkpoint_sha256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200",
+  "spinnet_sha256": "daf910b6e2a79c4346a6ef8eeb18b56ffc15b552cc82af091b8b6c0a18116eef",
+  "source_sha256": {
+    "rap_slam/rap_backend.py": "fbf27bafd36dadcf02167f53b8320e70fb7f82e1e66ee0118c01cfbec67d98be",
+    "rap_slam/rap_precision.py": "09feea1d7f72c29ae0eaceb28e5675031405560f607c7d1b246f19344ce839a8",
+    "rap_slam/measurement.py": "a511cdf74e98527093cc4936ef0c8b7b46a146a9e4d694120b3012f8c250aea1",
+    "scripts/build_s1_dataset_v2.py": "faf2d0d3c9e7e585bd56ab250a78a4343f2b72b823ce92816669cabcdd65d007"
+  },
+  "torch": "2.7.0+cu128",
+  "sampling_steps": 5,
+  "max_points_per_scan": 4000,
+  "voxel_m": 0.4,
+  "preprocessing": "range >=1.5m, backend outlier filter and features enabled; no KITTI205",
+  "sc_provenance": "Recomputed raw-scan descriptors and saved keyframes, full causal pool; historical budget/shortlist not claimed"
+}

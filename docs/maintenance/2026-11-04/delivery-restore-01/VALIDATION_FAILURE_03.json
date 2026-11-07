@@ -1,0 +1,9 @@
+{
+  "operation": "Git tracked-mode collection at end of project freeze",
+  "failure": "RAP-SLAM git ls-files exited 128: cannot change to sibling repository, Permission denied",
+  "ordinary_file_inventory_and_delta_already_frozen": true,
+  "current_git_indexes_changed": false,
+  "correction": "核对当前两仓库 index 与 A1 保存的 index.snapshot/STATE 完整 SHA256 相同，再读取该精确索引所对应的已保存 ls-files --stage 输出；不更改 Git 配置/索引或盲重跑已冻结清单。",
+  "no_source_or_base_package_modified": true,
+  "followup": "finish_freeze.py"
+}

@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-08T02:15:49.363794+00:00",
+  "passed": true,
+  "decision": "PASS_INDEPENDENT_CONTEXT_ENGINEERING",
+  "rows": [
+    {
+      "seq": "00",
+      "t": 200,
+      "groups_and_five_states_exact": true,
+      "source_descriptors_noise_exact": true,
+      "repeat_and_third_noise_independence_exact": true
+    },
+    {
+      "seq": "05",
+      "t": 200,
+      "groups_and_five_states_exact": true,
+      "source_descriptors_noise_exact": true,
+      "repeat_and_third_noise_independence_exact": true
+    },
+    {
+      "seq": "06",
+      "t": 200,
+      "groups_and_five_states_exact": true,
+      "source_descriptors_noise_exact": true,
+      "repeat_and_third_noise_independence_exact": true
+    },
+    {
+      "seq": "07",
+      "t": 200,
+      "groups_and_five_states_exact": true,
+      "source_descriptors_noise_exact": true,
+      "repeat_and_third_noise_independence_exact": true
+    }
+  ],
+  "source_scans": 12,
+  "points": 12000,
+  "descriptor_values": 384000,
+  "independent_pose_max_delta": 5.46229728115577e-14,
+  "gt_read": false,
+  "flow_inference_rerun": false,
+  "training": false,
+  "wall_s": 10.086956672137603,
+  "rss_gib": 1.7570343017578125,
+  "gpu_gib": 1.0656304359436035,
+  "artifact_bytes": 207534646
+}

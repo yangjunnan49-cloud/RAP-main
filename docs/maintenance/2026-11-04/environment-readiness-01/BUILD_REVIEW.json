@@ -1,0 +1,8 @@
+{
+  "build_log_1": {"path": "/root/pytorch3d_build.log", "result": "FAILED_GIT_CLONE", "line": 13, "failed_fetch_object_id": "aecb54d1bfeeecfcc90570a68552f97011780cec", "object_is_not_authenticated_as_installed_build_commit": true},
+  "build_log_2": {"path": "/root/pytorch3d_build2.log", "result": "LOG_REPORTS_SUCCESSFUL_LOCAL_BUILD_AND_INSTALL", "success_line": 1574, "installed_version": "0.7.9", "source_commit_bound_by_log": false, "architecture_flags": ["compute_120", "sm_120"]},
+  "build_script": {"path": "/root/build_pytorch3d.sh", "source_reference": "git+https://github.com/facebookresearch/pytorch3d.git@stable", "fixed_commit": null, "executed_in_A4": false},
+  "raw_scan_presence_label_error": {"path": "/root/build_pytorch3d.sh", "incorrect_first_label": "NOT_PRESENT", "cause": "The first build scan processed .log files only and its fallback mislabeled the discovered .sh path.", "corrected_evidence": "BUILD_SCRIPT_EVIDENCE.json", "actual_file_bytes_preserved": 313, "original_scan_retained": true},
+  "pytorch3d_original_successful_build_commit_recovered": false,
+  "research_or_training_started": false
+}

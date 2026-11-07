@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-05T14:20:00.774565+00:00",
+  "passed": true,
+  "decision": "NO_CAUSAL_LOCAL_MOTION_SIGNAL",
+  "windows": 58,
+  "max_error_aggregate_delta": 4.417355370378573e-12,
+  "bank_validation_sha256": "96792c592edbee17823c3045ee109035c4dbee65d9f7721d43c01e06d61a3e83",
+  "results_sha256": "996b611637886bd6d714c64d262497e8a0c0776c4b17424e4585c422f4e693ec",
+  "wall_s": 5.580592152895406,
+  "total_successful_wall_s": 104.63207170995884,
+  "peak_rss_gib": 2.604534149169922,
+  "artifact_bytes_before_report": 60710565,
+  "checks": [
+    "frozen identities/census/complete bank/pre-GT validation seals",
+    "174 independent raw/feature/noise arrays and all Horn/control/KISS poses",
+    "independent calibrated GT direction and polar/atan2 errors",
+    "every row/aggregate/sign/material/context/sequence safety decision",
+    "stage ordering/resources/final identity"
+  ]
+}

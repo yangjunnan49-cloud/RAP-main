@@ -1,0 +1,255 @@
+{
+  "success": true,
+  "error": null,
+  "elapsed_seconds": 2.7339999999967404,
+  "peak_working_set_bytes": 39821312,
+  "cumulative_delivered_body_bytes": 4777213,
+  "requests": 3,
+  "all_request_rows": [
+    {
+      "index": 0,
+      "role": "abstract",
+      "url": "https://arxiv.org/abs/2310.16542",
+      "method": "GET",
+      "request_headers": {
+        "User-Agent": "RAP-source-audit/1.0",
+        "Accept": "text/html,application/xhtml+xml",
+        "Accept-Encoding": "identity",
+        "Connection": "close"
+      },
+      "body_bytes": 41722,
+      "EOF": true,
+      "status": 200,
+      "reason": "OK",
+      "response_headers": [
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Length",
+          "41722"
+        ],
+        [
+          "content-type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "x-frame-options",
+          "SAMEORIGIN"
+        ],
+        [
+          "cache-control",
+          "max-age=3600"
+        ],
+        [
+          "via",
+          "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish"
+        ],
+        [
+          "content-security-policy",
+          "frame-ancestors 'none'"
+        ],
+        [
+          "server",
+          "Google Frontend"
+        ],
+        [
+          "x-cloud-trace-context",
+          "997364af2b8a196384f8566c256c6734"
+        ],
+        [
+          "last-modified",
+          "Mon, 24 Aug 2026 20:19:39 GMT"
+        ],
+        [
+          "Accept-Ranges",
+          "bytes"
+        ],
+        [
+          "Age",
+          "418091"
+        ],
+        [
+          "Date",
+          "Mon, 26 Oct 2026 02:28:44 GMT"
+        ],
+        [
+          "X-Served-By",
+          "cache-lga-kjfk8660072-LGA, cache-lga-kjfk8660072-LGA, cache-lga-kjfk8660067-LGA, cache-nrt-rjaa8190052-NRT"
+        ],
+        [
+          "X-Cache",
+          "MISS, HIT, HIT"
+        ],
+        [
+          "X-Timer",
+          "S1792981725.504423,VS0,VE3"
+        ]
+      ],
+      "body_file": "00.body",
+      "body_sha256": "0a92284ecf8229ca1e8d847a4496df93b4c0c99307b1ae353cd7326815b0b7ed"
+    },
+    {
+      "index": 1,
+      "role": "paper",
+      "url": "https://arxiv.org/pdf/2310.16542.pdf",
+      "method": "GET",
+      "request_headers": {
+        "User-Agent": "RAP-source-audit/1.0",
+        "Accept": "application/pdf",
+        "Accept-Encoding": "identity",
+        "Connection": "close"
+      },
+      "body_bytes": 217,
+      "EOF": true,
+      "status": 301,
+      "reason": "Moved Permanently",
+      "response_headers": [
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Length",
+          "217"
+        ],
+        [
+          "server",
+          "Google Frontend"
+        ],
+        [
+          "content-type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "via",
+          "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish"
+        ],
+        [
+          "location",
+          "/pdf/2310.16542"
+        ],
+        [
+          "x-cloud-trace-context",
+          "5e2bcb3d41dcdebcf09a79f2a66095ce"
+        ],
+        [
+          "Accept-Ranges",
+          "bytes"
+        ],
+        [
+          "Age",
+          "0"
+        ],
+        [
+          "Date",
+          "Mon, 26 Oct 2026 02:28:45 GMT"
+        ],
+        [
+          "X-Served-By",
+          "cache-lga-kjfk8660024-LGA, cache-lga-kjfk8660024-LGA, cache-lga-kjfk8660024-LGA, cache-nrt-rjaa8190029-NRT"
+        ],
+        [
+          "X-Cache",
+          "MISS, MISS, MISS"
+        ],
+        [
+          "X-Timer",
+          "S1792981725.168492,VS0,VE235"
+        ]
+      ],
+      "redirect_to": "https://arxiv.org/pdf/2310.16542",
+      "body_file": "01.body",
+      "body_sha256": "b8857a6e292e4def033b19d9db3cdc1ab368e64726d58f010e57429c494d6a7b"
+    },
+    {
+      "index": 2,
+      "role": "paper",
+      "url": "https://arxiv.org/pdf/2310.16542",
+      "method": "GET",
+      "request_headers": {
+        "User-Agent": "RAP-source-audit/1.0",
+        "Accept": "application/pdf",
+        "Accept-Encoding": "identity",
+        "Connection": "close"
+      },
+      "body_bytes": 4735274,
+      "EOF": true,
+      "status": 200,
+      "reason": "OK",
+      "response_headers": [
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Content-Length",
+          "4735274"
+        ],
+        [
+          "last-modified",
+          "Wed, 05 Jun 2024 01:00:57 GMT"
+        ],
+        [
+          "content-disposition",
+          "inline; filename=\"2310.16542v3.pdf\""
+        ],
+        [
+          "content-type",
+          "application/pdf"
+        ],
+        [
+          "via",
+          "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish"
+        ],
+        [
+          "x-cloud-trace-context",
+          "a8c722ca85535b12cd080da67d075f2f"
+        ],
+        [
+          "etag",
+          "\"sha256:26b652576177bfb5160a108d432205e23d66a2e0f1c7284b2f318aaf05708675\""
+        ],
+        [
+          "link",
+          "<https://arxiv.org/pdf/2310.16542>; rel='canonical'"
+        ],
+        [
+          "server",
+          "Google Frontend"
+        ],
+        [
+          "access-control-allow-origin",
+          "*"
+        ],
+        [
+          "Accept-Ranges",
+          "bytes"
+        ],
+        [
+          "Age",
+          "654794"
+        ],
+        [
+          "Date",
+          "Mon, 26 Oct 2026 02:28:45 GMT"
+        ],
+        [
+          "X-Served-By",
+          "cache-lga-kjfk8660027-LGA, cache-lga-kjfk8660027-LGA, cache-lga-kjfk8660041-LGA, cache-nrt-rjaa8190035-NRT"
+        ],
+        [
+          "X-Cache",
+          "MISS, HIT, HIT"
+        ],
+        [
+          "X-Timer",
+          "S1792981726.968835,VS0,VE2"
+        ]
+      ],
+      "body_file": "02.body",
+      "body_sha256": "be0fa636b79f3a3524b3e8bcc2a08299f52a7ea9167f0f86bbdd0b720b3225be"
+    }
+  ]
+}

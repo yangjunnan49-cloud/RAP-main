@@ -1,0 +1,13 @@
+{
+  "stage": "A2 original asset metadata verification",
+  "verifier_exit_code": 1,
+  "failure": "Path.exists dereferenced an original LX_SYMLINK and Windows returned WinError 1920",
+  "entry": "rap-main:docs/meeting_20261011/benchmark/attempt03/r03-10-KISS-SLAM/slam_output/latest",
+  "original_link_modified": false,
+  "preserved_before_fix": "attempt02/verify_context.py",
+  "repair": "Use lstat on the original entry, then skip content dereference for reparse points",
+  "basis": "A1 already preserved and resolved all 27 reparse metadata records; this is a verifier interface error, not evidence that the link or target is missing",
+  "catalog_or_scientific_source_modified_by_repair": false,
+  "partial_PGC1_accuracy_read": false,
+  "scientific_rerun": false
+}

@@ -1,0 +1,56 @@
+{
+  "utc": "2026-10-23T02:26:38.7438590+00:00",
+  "source_code_files": 78,
+  "all_live_code_hashes_unchanged": true,
+  "weight_files": 2,
+  "all_weights_unchanged": true,
+  "public_files": 8,
+  "all_C0_public_hashes_unchanged": true,
+  "manifest_entries": 291,
+  "manifest_bytes": 809177.0,
+  "JSON_receipts_parsed": 166,
+  "all_scope_budgets_pass": true,
+  "scopes": [
+    {
+      "scope": "source-binding-01",
+      "status": "COMPLETE_STATIC_ONLY",
+      "budget_pass": true
+    },
+    {
+      "scope": "source-interface-01",
+      "status": "CLOSED_SOURCE_ASSERTIONS_PASS_WITH_CONTROL_LIMITATION",
+      "budget_pass": true
+    },
+    {
+      "scope": "source-export-verifier-01",
+      "status": "CLOSED_COMPLETE_SYNTHETIC_ONLY",
+      "budget_pass": true
+    },
+    {
+      "scope": "reference-admission-01",
+      "status": "CLOSED_METADATA_COMPLETE_PHYSICAL_EFFICACY_NOT_ADMITTED",
+      "budget_pass": true
+    },
+    {
+      "scope": "real-interface-01",
+      "status": "CLOSED_PRESTART_GPU_HEADROOM_FAIL",
+      "budget_pass": true
+    },
+    {
+      "scope": "feature-failure-01",
+      "status": "CLOSED_COMPLETE_CONFIRMED_FALLBACK_DEFECT",
+      "budget_pass": true
+    }
+  ],
+  "original_agents_suffix_preserved": true,
+  "RI1_model_constructor_attempts": 0,
+  "RI1_RAP_calls": 0,
+  "RI1_point_decode_count": 0,
+  "all_numeric_scopes_closed": true,
+  "WSL_restored_stopped": true,
+  "scoped_live_helpers": 0,
+  "global_process_certification": false,
+  "physical_efficacy_admitted": false,
+  "uninstalled_candidate_patch_only": true,
+  "remote_sync_checked": false
+}

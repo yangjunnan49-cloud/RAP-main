@@ -1,0 +1,35 @@
+{
+  "preflight_data_sha256": "0f298615e32239bb4233fef6c006c2249ab88267ebb50b3ff4cffbb56331f3bc",
+  "source_sha256": {
+    "/mnt/e/githouse/RAP-SLAM/scripts/hl1_cohort_audit.py": "fd967ae3728aaad8e8f5c016052f5bd12fc36e71468db0717f56d5445fcb84ec",
+    "/mnt/e/githouse/RAP-SLAM/scripts/hl0_preflight.py": "4c9b043501062e56f5c17ed520dfa4e28c0a000228f74f5bc70b512c6876d50f",
+    "/mnt/e/githouse/RAP-SLAM/rap_slam/scan_context.py": "f06ae0d5d9bdf3b2e1de38d0dfcef389329ba8614b6470d4897e9608b125a45c",
+    "/mnt/e/githouse/RAP-SLAM/rap_slam/rap_backend.py": "552fe044167b2490ee5a5d390c659a3707fbfc0a31108b6f15bd579623fe90f3",
+    "/mnt/e/githouse/RAP-SLAM/scripts/eval_paper_metrics.py": "c20ad4d614e64bf21bc350b1ebc1c4716e9091232a2ee9733f5c7074a7fcf595",
+    "/mnt/e/githouse/RAP-SLAM/rap_slam/real_dataset.py": "ecb438df719e5e61632163d6a620fca114f80f7fce920147a3a8234ea52684d1",
+    "/mnt/e/githouse/RAP-SLAM/rap_slam/trajectory_protocol.py": "29550223bf174fff20cd3d99e2ab41d5148e08536d66ff82187d56a936d9b1ea"
+  },
+  "parent": "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-11/full-kitti05-01",
+  "parent_files": {
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-11/full-kitti05-01/pipeline/accepted_loops.json": "f92dcf794aa8a23e70cc54df75133a73e52cbcaa123ac045a1285c451c3522b5",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-11/full-kitti05-01/pipeline/inference_provenance.json": "dd828a4076e9a14ab0107afd56dfcf253993bc65ffda7d4e7cf919ec3db019ed",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-11/full-kitti05-01/pipeline/keyframes.json": "275794d3ab767d8f444b4d273f405eaa9fc916df02cc339097178b7ff9e85ba6",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-11/full-kitti05-01/pipeline/run_manifest.json": "8ac427c7a83f8e0b33cef890699dfcec9494deea8cea57d8c28821ff11f9bcac",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-11/full-kitti05-01/pipeline/source_frames.json": "0a37b5573d38e9b4ef1ca335cc3c7fceedad98b71edf1b31e25482c03c539e59",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-11/full-kitti05-01/pipeline/summary.json": "acf4a0c3616aa4aa06901d65a8f15b72d115809e6fb52b927d8f7fc86b20de16",
+    "/mnt/e/githouse/RAP-main/docs/maintenance/2026-09-11/full-kitti05-01/pipeline/verification_summary.json": "1e4768e5e8ec1a4f818bb7a5ebc6c8ccf3c69b7d471a7f3c3a6c9c7145ad1ce4"
+  },
+  "checkpoint_identity": {
+    "checkpoint_sha256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200",
+    "spinnet_sha256": "daf910b6e2a79c4346a6ef8eeb18b56ffc15b552cc82af091b8b6c0a18116eef",
+    "precision": "ieee_float32_matmul_scope",
+    "source_sha256": {
+      "rap_slam/rap_backend.py": "552fe044167b2490ee5a5d390c659a3707fbfc0a31108b6f15bd579623fe90f3",
+      "rap_slam/verification_log.py": "a2368328013c41e5a1aabf64c7eb1c1df9b3d189aacc4c9f8ddb9d50dbfb0a45",
+      "rap_slam/measurement.py": "2bec179e4ba3b6f382eb164993a0b4eb5018c3ed4e00796d7f7edbd107b042b3",
+      "rap_slam/loop_closure.py": "582acd6e59c374ce68a08e5a3bbb637ff2cc84f3caf591002e12b46847baa178",
+      "scripts/run_pipeline.py": "afdf15de7ff3779207d04795e8fe3d03c5adb7b8f419f2fd4c121d5426bc27be"
+    }
+  },
+  "note": "Checkpoints not loaded in data-only adequacy audit"
+}

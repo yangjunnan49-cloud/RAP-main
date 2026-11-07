@@ -1,0 +1,32 @@
+{
+  "stage": "RAD1",
+  "status": "VALIDATED_NEGATIVE",
+  "attempt": 2,
+  "decision": "NO_RAW_ASSOCIATION_DECODER_SIGNAL",
+  "utc": "2026-10-07T01:18:14.529619+00:00",
+  "owner_authorized_execution": true,
+  "identities": 1501,
+  "pairs": 200,
+  "synthetic_npz": 101,
+  "bank_npz": 200,
+  "independent_synthetic_passed": true,
+  "independent_bank_passed": true,
+  "independent_evaluation_passed": true,
+  "hard08_selected_recovery": 0,
+  "hard08_oracle_recovery": 0,
+  "gt_read": true,
+  "new_inference": false,
+  "training": false,
+  "graph_or_trajectory": false,
+  "originality_established": false,
+  "original_attempt_status": "INCOMPLETE",
+  "original_bank_preserved": true,
+  "repair": "../AMENDMENT_01.md",
+  "all_scientific_gates_unchanged": true,
+  "official_metrics_unchanged": true,
+  "next_stage": {
+    "status": "PLANNED_READ_ONLY_NOT_STARTED",
+    "plan": "../NEXT_ROUND_PLAN.md",
+    "online71_licensed": false
+  }
+}

@@ -1,0 +1,5 @@
+# CD1 closed primary output, later documentary additive
+
+The sole synthetic worker passed13 controls, exited0 and was reaped; its primary files were host-sealed at2026-10-28T06:59:32.5834117+00:00. Primary inclusive origin-to-seal time was67.5834110/900 seconds. The fixed analytic candidate's0.2-degree rotation error has maximum forward/reverse line distances0.8896101915873307/0.8639366247991574 pixels on all96 clean correspondences, demonstrating that1-pixel consensus alone is not a0.1-degree rotation certificate. No failed native pose estimator was replayed. No measured images/reference/model/training input; no real-image admission. VB1 remains failed.
+
+This report is written later at2026-10-28T07:22:09.388731+00:00, outside the earlier primary controls/SEAL.json, under the separately dated documentary closure. It is not backdated into that primary seal or charged as a new scientific payload. The inherited launcher console 'VB1 controls PASS' identifies this directory's CD1 controls only, not a reversal of original VB1. No automatic stage or quota-reset resume.

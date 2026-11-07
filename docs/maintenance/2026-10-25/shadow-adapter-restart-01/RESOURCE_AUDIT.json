@@ -1,0 +1,191 @@
+{
+  "passed": true,
+  "successful_scientific_children": 10,
+  "interrupted_outer_attempts": [
+    {
+      "stage": "predict",
+      "outer_wall_seconds": 300,
+      "child_exit": false,
+      "output_admitted": false
+    },
+    {
+      "stage": "evaluate",
+      "attempt": 1,
+      "outer_wall_seconds": 300,
+      "child_exit": false,
+      "output_admitted": false
+    },
+    {
+      "stage": "evaluate",
+      "attempt": 2,
+      "outer_wall_seconds": 300,
+      "child_exit": false,
+      "output_admitted": false
+    }
+  ],
+  "combined_seconds_including_interruptions": 1494.2878365789948,
+  "successful_child_seconds": 594.2878365789948,
+  "peak_RSS_bytes": 2832056320,
+  "peak_GPU_allocated_bytes": 4389534720,
+  "peak_GPU_reserved_bytes": 4961861632,
+  "artifact_bytes": 2584299589,
+  "artifact_cap_bytes": 4294967296,
+  "minimum_observed_host_headroom_bytes": 93078155264,
+  "host_memory_observations": 378,
+  "receipts": [
+    {
+      "stage": "freeze",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 27.82276991798426,
+        "peak_RSS_bytes": 24969216,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 344221,
+        "optimizer_calls": 0,
+        "imports_included": true
+      }
+    },
+    {
+      "stage": "preflight",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 37.614048465999076,
+        "peak_RSS_bytes": 2470162432,
+        "peak_GPU_allocated_bytes": 2093688320,
+        "peak_GPU_reserved_bytes": 2728394752,
+        "artifact_bytes": 60426283,
+        "optimizer_calls": 0,
+        "imports_included": true
+      }
+    },
+    {
+      "stage": "backward",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 30.85599712000112,
+        "peak_RSS_bytes": 2598158336,
+        "peak_GPU_allocated_bytes": 4389462528,
+        "peak_GPU_reserved_bytes": 4961861632,
+        "artifact_bytes": 67588279,
+        "optimizer_calls": 0,
+        "imports_included": true
+      }
+    },
+    {
+      "stage": "fit",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 163.15468579300796,
+        "peak_RSS_bytes": 2832056320,
+        "peak_GPU_allocated_bytes": 4389534720,
+        "peak_GPU_reserved_bytes": 4961861632,
+        "artifact_bytes": 1052982717,
+        "optimizer_calls": 0,
+        "imports_included": true
+      }
+    },
+    {
+      "stage": "validate_fit",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 128.61244525099755,
+        "peak_RSS_bytes": 468008960,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 1053045299,
+        "optimizer_calls": 0,
+        "imports_included": true
+      }
+    },
+    {
+      "stage": "predict_resume",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 116.94836187499459,
+        "peak_RSS_bytes": 2418843648,
+        "peak_GPU_allocated_bytes": 2093688320,
+        "peak_GPU_reserved_bytes": 2728394752,
+        "artifact_bytes": 2583729190,
+        "optimizer_calls": 0,
+        "imports_included": true
+      }
+    },
+    {
+      "stage": "evaluate_U",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 24.70339193198015,
+        "peak_RSS_bytes": 98811904,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 2583753229,
+        "optimizer_calls": 0,
+        "imports_included": true
+      }
+    },
+    {
+      "stage": "evaluate_V",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 24.464523562026443,
+        "peak_RSS_bytes": 99102720,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 2583765854,
+        "optimizer_calls": 0,
+        "imports_included": true
+      }
+    },
+    {
+      "stage": "evaluate_P",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 23.553367699001683,
+        "peak_RSS_bytes": 99237888,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 2583778474,
+        "optimizer_calls": 0,
+        "imports_included": true
+      }
+    },
+    {
+      "stage": "summarize",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 16.558244963001925,
+        "peak_RSS_bytes": 67657728,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 2583876154,
+        "optimizer_calls": 0,
+        "imports_included": true
+      }
+    }
+  ],
+  "imports_included": true,
+  "early_null_shell_exit_records_preserved": true,
+  "prediction_recovery": "42 existing complete cases retained; exactly 9 missing P cases generated",
+  "old_caps_and_failures_preserved": true
+}

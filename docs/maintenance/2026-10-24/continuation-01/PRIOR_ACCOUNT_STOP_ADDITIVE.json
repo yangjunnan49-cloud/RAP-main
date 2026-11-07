@@ -1,0 +1,41 @@
+{
+  "classification": "EXPLICIT_QUOTA_REVIEW_FAILURE",
+  "source": "Prior conversation tool result; recovered after new explicit owner authorization",
+  "last_conversation_API": {
+    "usedPercent": 99,
+    "ordinaryUsageAllowed": true,
+    "resetsAt": 1792763091,
+    "following_clock": "2026-10-23 09:56:34 UTC"
+  },
+  "last_persisted_record": {
+    "classification": {
+      "ordinaryUsageAllowed": true,
+      "usedPercent": 98,
+      "resetsAt": 1792763091,
+      "expected_reset": 1792763091,
+      "no_reset_cause_inferred": true,
+      "status": "ACTIVE",
+      "confirmed_account_disabled": false,
+      "display100_alone_not_exhaustion": false
+    },
+    "raw_observation": "ACCOUNT_OBSERVATION_095612.json",
+    "raw_SHA256": "8B537F187C7743F14AF98984DA63325B5D8B05DA90026D1BE1A7E3CD0827E711",
+    "following_clock": {
+      "current_time": "2026-10-23 09:56:12 UTC"
+    },
+    "no_pending_experiment": true,
+    "no_automatic_resume": true,
+    "research": "UNRESOLVED",
+    "manuscript": "PAUSED",
+    "classifier_sha256": "50BF6CC6331E67E87DAF50F23C3A09696B9A11B3C4192B419A22D6ECF5C574A4",
+    "ledger_policy_sha256": "115984DEEEEE508A50FCEF31AF6B3D6D7BB04E6512C50E9C9AD9C6082848A06F",
+    "ledger_decision": "WRITE_ACTIVE"
+  },
+  "exact_review_failure_utc": null,
+  "API_ordinary_false_receipt_captured": false,
+  "failed_action": "Composite attempt to save99% observation, update local pointer and read quota; review rejected before execution",
+  "review_message_summary": "You have hit your usage limit; action not executed because automatic approval review could not be completed, not a determination that the action was unsafe",
+  "no_reset_cause_inferred": true,
+  "old_authoritative_files_untouched": true,
+  "no_automatic_resume": true
+}

@@ -1,0 +1,58 @@
+{
+  "attempts": [
+    {
+      "path": "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-15/demo-source-role-01/supervision/audit",
+      "exit_code": 1,
+      "Windows_seconds": 7.1160561,
+      "Linux_child_seconds": 6.361204735003412,
+      "Linux_RSS_bytes": 23056384,
+      "host_observations": 9
+    },
+    {
+      "path": "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-15/demo-source-role-01/supervision/freeze",
+      "exit_code": 0,
+      "Windows_seconds": 8.6765077,
+      "Linux_child_seconds": 5.791895317990566,
+      "Linux_RSS_bytes": 20512768,
+      "host_observations": 11
+    },
+    {
+      "path": "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-15/demo-source-role-01/source-attempt-02/supervision/audit",
+      "exit_code": 0,
+      "Windows_seconds": 14.8263359,
+      "Linux_child_seconds": 11.522652093000943,
+      "Linux_RSS_bytes": 23855104,
+      "host_observations": 19
+    },
+    {
+      "path": "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-15/demo-source-role-01/source-attempt-02/supervision/freeze",
+      "exit_code": 0,
+      "Windows_seconds": 7.0890476,
+      "Linux_child_seconds": 4.968963998981053,
+      "Linux_RSS_bytes": 20566016,
+      "host_observations": 9
+    },
+    {
+      "path": "/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-15/demo-source-role-01/source-attempt-02/supervision/validate",
+      "exit_code": 0,
+      "Windows_seconds": 13.2931551,
+      "Linux_child_seconds": 7.866687911009649,
+      "Linux_RSS_bytes": 21688320,
+      "host_observations": 17
+    }
+  ],
+  "attempt_count": 5,
+  "successes": 4,
+  "retained_assertion_failure": 1,
+  "total_Windows_seconds": 51.0011024,
+  "total_Linux_child_seconds": 36.51140405598562,
+  "maximum_Linux_RSS_bytes": 23855104,
+  "GPU_bytes": 0,
+  "time_includes_startup_imports": true,
+  "ordinary_preparation_and_closure_RSS": "UNKNOWN",
+  "whole_original_and_attempt02_dossier_cap_bytes": 8388608,
+  "logging_retries": 0,
+  "expected_new_child_and_Windows_exit_receipts": 5,
+  "all_expected_exit_receipts_present": true,
+  "old_gaps_unchanged": true
+}

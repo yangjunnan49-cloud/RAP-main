@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "l": 80,
+      "limit": 90,
+      "identity": true,
+      "h": 91,
+      "age": 0,
+      "expect": "deadline"
+    },
+    {
+      "l": 91,
+      "limit": 90,
+      "identity": true,
+      "h": 80,
+      "age": 0,
+      "expect": "deadline"
+    },
+    {
+      "l": 80,
+      "limit": 90,
+      "identity": true,
+      "h": 80,
+      "age": 6,
+      "expect": "heartbeat"
+    },
+    {
+      "l": 80,
+      "limit": 90,
+      "identity": false,
+      "h": 80,
+      "age": 0,
+      "expect": "identity"
+    },
+    {
+      "l": 80,
+      "limit": 90,
+      "identity": true,
+      "h": 80,
+      "age": 0,
+      "expect": ""
+    }
+  ],
+  "passed": true,
+  "elapsed": 299.6949776
+}

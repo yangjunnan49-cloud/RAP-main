@@ -1,0 +1,59 @@
+[
+  {
+    "stage": "freeze",
+    "utc": "2026-10-09T08:24:02.404014+00:00",
+    "wall_s": 0.5482580640818924,
+    "peak_rss_bytes": 67665920,
+    "passed": true
+  },
+  {
+    "stage": "preflight",
+    "utc": "2026-10-09T08:24:14.359641+00:00",
+    "wall_s": 0.12192452582530677,
+    "peak_rss_bytes": 69349376,
+    "passed": true
+  },
+  {
+    "stage": "bank",
+    "utc": "2026-10-09T08:24:25.854153+00:00",
+    "wall_s": 2.736973379040137,
+    "peak_rss_bytes": 77492224,
+    "passed": true
+  },
+  {
+    "stage": "validate_bank",
+    "utc": "2026-10-09T08:24:36.543988+00:00",
+    "wall_s": 0.6896001079585403,
+    "peak_rss_bytes": 71249920,
+    "passed": true
+  },
+  {
+    "stage": "evaluate",
+    "utc": "2026-10-09T08:24:45.502979+00:00",
+    "wall_s": 0.1737188920378685,
+    "peak_rss_bytes": 69615616,
+    "passed": true
+  },
+  {
+    "stage": "validate_evaluate",
+    "utc": "2026-10-09T08:24:52.972722+00:00",
+    "wall_s": 0.1617244069930166,
+    "peak_rss_bytes": 69349376,
+    "passed": true
+  },
+  {
+    "stage": "next_design_metadata_audit_original_failed",
+    "utc": "2026-10-09T08:28:58.548219+00:00",
+    "wall_s": 2.6586884,
+    "peak_rss_bytes": null,
+    "passed": false,
+    "wall_from_external_tool_includes_startup_imports": true
+  },
+  {
+    "stage": "next_design_metadata_audit_attempt02",
+    "utc": "2026-10-09T08:28:58.548251+00:00",
+    "wall_s": 0.5661666330415756,
+    "peak_rss_bytes": 67510272,
+    "passed": true
+  }
+]

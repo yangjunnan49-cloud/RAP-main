@@ -1,0 +1,17 @@
+{
+  "scope": "OIC0 three scoped native commands; conservative outer command clock supplement, not replay",
+  "source": "Actual exec_command wall_time_seconds retained in this chat's tool receipts",
+  "commands": [
+    {"stage": "freeze", "outer_command_seconds": 1.9140582},
+    {"stage": "fetch", "outer_command_seconds": 2.1227979},
+    {"stage": "validate", "outer_command_seconds": 1.6296204}
+  ],
+  "outer_command_seconds_total": 5.6664765,
+  "retained_controller_seconds_total": 4.3996329,
+  "intervals_overlap_do_not_add": true,
+  "combined_execution_cap_seconds": 300,
+  "outer_command_cap_pass": true,
+  "permission_review_service_time_in_outer_command_clock": "UNKNOWN",
+  "ordinary_preparation_and_closure_RSS": "UNKNOWN",
+  "original_OIC0_sources_reports_and_26_entry_seal_unchanged": true
+}

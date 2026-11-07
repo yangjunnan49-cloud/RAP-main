@@ -1,0 +1,12 @@
+{
+  "scope": "Separate post-outcome metadata-only next-design audit",
+  "error": "KeyError: 2378",
+  "cause": "source_frames.json is a record with source_frame_ids; original audit incorrectly indexed the outer dict as a list",
+  "stage": "Frame binding before any raw-file hash or coordinate parsing",
+  "optimizer_calls": 0,
+  "scientific_SMP2_bank_or_metric_failure": false,
+  "external_tool_wall_s": 2.6586884,
+  "external_tool_wall_includes_startup_and_imports": true,
+  "failed_process_peak_rss_unavailable": true,
+  "original_source_and_freeze_preserved": true
+}

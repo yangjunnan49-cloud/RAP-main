@@ -1,0 +1,11 @@
+# Final current handoff — October21 P0 round closed
+
+This supersedes ACTIVE_HANDOFF.md live status; that file remains historical. All72 raw cells/controller/wrapper finished successfully. P0 is RAW_COMPLETE_UNVALIDATED_CAP_EXCEEDED, documentary closure COMPLETE. No scientific or observer task remains intentionally running; exact owned-session check is separately recorded. No automatic resume.
+
+Original maximum-receipt9000s account:9316.8147729s from completed stages before documentary close, FAIL. Windows run02=9082.9120766s versus Linux wrapper8763.286421554993s. Clock discrepancy cause UNKNOWN; original monotonic enforcement did not implement live maximum of host/Linux clocks. No cap reset or executable repair. All arrays/GT/paired-equivalence/performance assessment remain unexecuted; prepared helpers are source-only and not approved by this close for later launch.
+
+Read REPORT.md, STATUS.json, BUDGET_GUARD_INCIDENT.md, CAPTURE_CHECKS.json, ZIP_CHECKS.json, COSTS_FINAL.json and CLOSE_DELIVERY_SEAL.json. Raw bank02 and archive retain exact bytes. Old first-cell metadata NameError and single mechanical binding02 repair/cost remain. Do not replay successful cells, change gates/queue/seed, select favorable subsets, or treat worker self-reports as independent source/graph validation.
+
+S1 is separately COMPLETE DELIVERED: all36 raw-core cells, meanG/KATE0.648334140963/0.698991712360m andter0.446953334008/0.478490321918%; individual07ter/10rer protection FAIL; GATE worse06/07/10;00ter not every-repeat better. G11.391FPS/K27.092, no stable online10Hz. Original S1 close hash7176381cdfad92ba5d7ebe34f8b86721a6cc0ba5f050b1a78fce7863ff828383 matches; original6762.0941485/7200s account immutable. October11 full CLI benchmark remains a distinct scope; no new RAP increment/default promotion.
+
+Actual current account100%/ordinary false atfollowing04:09:41UTC/reset1792563859 was observed, then owner explicitly requested finishing this current round and records. No credits/account reset/alternate model/new candidate claimed. Original research objective unresolved; all old stops/seals/outreach decline and production/default/install/reference/model/Git/scheduler/goal-status limits preserved.

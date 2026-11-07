@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-28T13:29:52.213408+00:00",
+  "inclusive_seconds": 1428.213408,
+  "cap_seconds": 2400,
+  "cap_pass": true,
+  "stage_receipts": [
+    {
+      "stage": "controls",
+      "exit_utc": "2026-10-28T13:25:28.5746689+00:00",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.3802568,
+      "no_live_owned_process": true,
+      "child_lifetime_peak_bytes": 39456768,
+      "error": null,
+      "forced_stop": false,
+      "host_poll_peak_bytes": 30408704
+    },
+    {
+      "stage": "features",
+      "forced_stop": false,
+      "no_live_owned_process": true,
+      "host_poll_peak_bytes": 46592000,
+      "elapsed_seconds": 0.7920471,
+      "passed": true,
+      "exit_utc": "2026-10-28T13:25:32.7512269+00:00",
+      "child_lifetime_peak_bytes": 46653440,
+      "error": null,
+      "exit_code": 0
+    }
+  ],
+  "raw_slots": 200,
+  "available_initializers": 17,
+  "metamorphic_cases": 68,
+  "Decimal60_checks": 1632,
+  "no_model_reference_or_registration_calls": true,
+  "all_owned_children_reaped": true,
+  "full_pipeline_or_model_invariance_claimed": false
+}

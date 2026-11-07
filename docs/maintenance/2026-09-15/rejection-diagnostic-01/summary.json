@@ -1,0 +1,1037 @@
+{
+  "00/A-R4": {
+    "counts": {
+      "incorrect_rejected": 45,
+      "correct_rejected": 31,
+      "correct_accepted": 22,
+      "incorrect_accepted": 2
+    },
+    "by_stratum": {
+      "ambiguous_positive": {
+        "correct_rejected": 18,
+        "incorrect_rejected": 4,
+        "correct_accepted": 3
+      },
+      "confuser": {
+        "incorrect_rejected": 25
+      },
+      "low_overlap": {
+        "correct_rejected": 8,
+        "incorrect_rejected": 16,
+        "incorrect_accepted": 1
+      },
+      "ordinary": {
+        "correct_rejected": 5,
+        "correct_accepted": 19,
+        "incorrect_accepted": 1
+      }
+    },
+    "correct_rejected_clauses": {
+      "overlap+distance": 28,
+      "overlap": 3
+    },
+    "incorrect_accepted_legacy_unsafe": 0,
+    "groups": {
+      "correct_accepted": {
+        "n": 22,
+        "features": {
+          "overlap": {
+            "min": 0.7133750000000001,
+            "q25": 0.8155000000000001,
+            "median": 0.8309375,
+            "q75": 0.89215625,
+            "max": 0.94575
+          },
+          "mean_distance": {
+            "min": 0.42577113358327684,
+            "q25": 0.5368117000144451,
+            "median": 0.8597917360653776,
+            "q75": 0.9702758208133931,
+            "max": 2.1105473963777
+          },
+          "rigidity": {
+            "min": 0.2362748682498932,
+            "q25": 0.2689197063446045,
+            "median": 0.3056289851665497,
+            "q75": 0.3260364755988121,
+            "max": 0.42486438155174255
+          },
+          "translation_spread_m": {
+            "min": 0.052036387925724986,
+            "q25": 0.0789942839034995,
+            "median": 0.09621641893746732,
+            "q75": 0.11304378521098354,
+            "max": 0.1503869287470342
+          },
+          "rotation_spread_deg": {
+            "min": 0.09095139959357681,
+            "q25": 0.16817456782029294,
+            "median": 0.21654454524344108,
+            "q75": 0.23504727297429773,
+            "max": 0.3084473454193135
+          },
+          "selected_neighbors": {
+            "min": 3.0,
+            "q25": 3.0,
+            "median": 3.0,
+            "q75": 3.0,
+            "max": 3.0
+          }
+        },
+        "selected_neighbor_histogram": {
+          "3": 22
+        }
+      },
+      "incorrect_accepted": {
+        "n": 2,
+        "features": {
+          "overlap": {
+            "min": 0.72,
+            "q25": 0.75903125,
+            "median": 0.7980625,
+            "q75": 0.83709375,
+            "max": 0.876125
+          },
+          "mean_distance": {
+            "min": 0.9430512605187524,
+            "q25": 1.0271284611793572,
+            "median": 1.111205661839962,
+            "q75": 1.1952828625005667,
+            "max": 1.2793600631611715
+          },
+          "rigidity": {
+            "min": 0.3118570148944855,
+            "q25": 0.3214414492249489,
+            "median": 0.3310258835554123,
+            "q75": 0.3406103178858757,
+            "max": 0.3501947522163391
+          },
+          "translation_spread_m": {
+            "min": 0.09861743288440193,
+            "q25": 0.10011312489843942,
+            "median": 0.1016088169124769,
+            "q75": 0.10310450892651439,
+            "max": 0.10460020094055188
+          },
+          "rotation_spread_deg": {
+            "min": 0.1660370649630404,
+            "q25": 0.19680535896072263,
+            "median": 0.22757365295840487,
+            "q75": 0.2583419469560871,
+            "max": 0.2891102409537693
+          },
+          "selected_neighbors": {
+            "min": 3.0,
+            "q25": 3.0,
+            "median": 3.0,
+            "q75": 3.0,
+            "max": 3.0
+          }
+        },
+        "selected_neighbor_histogram": {
+          "3": 2
+        }
+      },
+      "correct_rejected": {
+        "n": 31,
+        "features": {
+          "overlap": {
+            "min": 0.1275,
+            "q25": 0.34,
+            "median": 0.43625,
+            "q75": 0.6134999999999999,
+            "max": 0.6976249999999999
+          },
+          "mean_distance": {
+            "min": 1.9880699138553946,
+            "q25": 2.8379636441540725,
+            "median": 4.152503364622466,
+            "q75": 6.050349680404318,
+            "max": 9.873244631934675
+          },
+          "rigidity": {
+            "min": 0.2847351133823395,
+            "q25": 0.3646997660398483,
+            "median": 0.4204018712043762,
+            "q75": 0.4596268981695175,
+            "max": 0.8304681777954102
+          },
+          "translation_spread_m": {
+            "min": 0.07011083410849504,
+            "q25": 0.11736898088736497,
+            "median": 0.20571246558928832,
+            "q75": 0.41797621744803415,
+            "max": 129.47347362919743
+          },
+          "rotation_spread_deg": {
+            "min": 0.13752090209810497,
+            "q25": 0.24432398187938908,
+            "median": 0.3642919907112991,
+            "q75": 0.6438993929159316,
+            "max": 162.65810792037308
+          },
+          "selected_neighbors": {
+            "min": 0.0,
+            "q25": 3.0,
+            "median": 3.0,
+            "q75": 3.0,
+            "max": 3.0
+          }
+        },
+        "selected_neighbor_histogram": {
+          "3": 27,
+          "2": 2,
+          "0": 1,
+          "1": 1
+        }
+      },
+      "incorrect_rejected": {
+        "n": 45,
+        "features": {
+          "overlap": {
+            "min": 0.0005,
+            "q25": 0.091,
+            "median": 0.17762499999999998,
+            "q75": 0.37087499999999995,
+            "max": 0.660875
+          },
+          "mean_distance": {
+            "min": 1.1960715737489713,
+            "q25": 4.761350313326549,
+            "median": 8.894000528378964,
+            "q75": 11.203213624419648,
+            "max": 42.241311819917144
+          },
+          "rigidity": {
+            "min": 0.34000054001808167,
+            "q25": 0.45845794677734375,
+            "median": 0.6950977444648743,
+            "q75": 0.808981716632843,
+            "max": 2.540649175643921
+          },
+          "translation_spread_m": {
+            "min": 0.1734246269181415,
+            "q25": 0.42413166338888175,
+            "median": 13.153743883802756,
+            "q75": 32.879537505496224,
+            "max": 130.13775290083663
+          },
+          "rotation_spread_deg": {
+            "min": 0.2880613633546004,
+            "q25": 0.683859624460174,
+            "median": 3.442943799484483,
+            "q75": 72.22372808528806,
+            "max": 179.9828866068241
+          },
+          "selected_neighbors": {
+            "min": 0.0,
+            "q25": 0.0,
+            "median": 0.0,
+            "q75": 3.0,
+            "max": 3.0
+          }
+        },
+        "selected_neighbor_histogram": {
+          "0": 25,
+          "3": 14,
+          "2": 3,
+          "1": 3
+        }
+      }
+    },
+    "accepted_correctness_auc": {
+      "overlap": 0.6136363636363636,
+      "mean_distance": 0.7727272727272727,
+      "rigidity": 0.6818181818181818,
+      "translation_spread_m": 0.5681818181818182,
+      "rotation_spread_deg": 0.5909090909090909,
+      "selected_neighbors": 0.5
+    },
+    "incorrect_accepted_pairs": [
+      "00_187_1621",
+      "00_1381_3530"
+    ],
+    "incorrect_unique_source_i": 2,
+    "incorrect_unique_source_j": 2,
+    "accepted_unique_scan_ids": 46
+  },
+  "00/P-R4": {
+    "counts": {
+      "incorrect_rejected": 43,
+      "correct_rejected": 33,
+      "correct_accepted": 22,
+      "incorrect_accepted": 2
+    },
+    "by_stratum": {
+      "ambiguous_positive": {
+        "correct_rejected": 20,
+        "correct_accepted": 3,
+        "incorrect_rejected": 2
+      },
+      "confuser": {
+        "incorrect_rejected": 25
+      },
+      "low_overlap": {
+        "correct_rejected": 8,
+        "incorrect_rejected": 16,
+        "incorrect_accepted": 1
+      },
+      "ordinary": {
+        "correct_rejected": 5,
+        "correct_accepted": 19,
+        "incorrect_accepted": 1
+      }
+    },
+    "correct_rejected_clauses": {
+      "overlap+distance": 30,
+      "overlap": 3
+    },
+    "incorrect_accepted_legacy_unsafe": 0,
+    "groups": {
+      "correct_accepted": {
+        "n": 22,
+        "features": {
+          "overlap": {
+            "min": 0.712125,
+            "q25": 0.81365625,
+            "median": 0.8296874999999999,
+            "q75": 0.8935625,
+            "max": 0.9472499999999999
+          },
+          "mean_distance": {
+            "min": 0.42572917169917757,
+            "q25": 0.5411240369782868,
+            "median": 0.8651504664331737,
+            "q75": 0.9707516782469192,
+            "max": 2.1009676149686562
+          },
+          "rigidity": {
+            "min": 0.2562360167503357,
+            "q25": 0.2783251032233238,
+            "median": 0.29655708372592926,
+            "q75": 0.3349854424595833,
+            "max": 0.47741183638572693
+          },
+          "translation_spread_m": {
+            "min": 0.05310895162111839,
+            "q25": 0.06634605559500596,
+            "median": 0.10399080034107964,
+            "q75": 0.12164110181898,
+            "max": 0.18234942909473031
+          },
+          "rotation_spread_deg": {
+            "min": 0.08797631592695083,
+            "q25": 0.14123410345122733,
+            "median": 0.19318466077434576,
+            "q75": 0.23062765193096996,
+            "max": 0.3085002285250326
+          },
+          "selected_neighbors": {
+            "min": 3.0,
+            "q25": 3.0,
+            "median": 3.0,
+            "q75": 3.0,
+            "max": 3.0
+          }
+        },
+        "selected_neighbor_histogram": {
+          "3": 22
+        }
+      },
+      "incorrect_accepted": {
+        "n": 2,
+        "features": {
+          "overlap": {
+            "min": 0.717,
+            "q25": 0.75634375,
+            "median": 0.7956875,
+            "q75": 0.83503125,
+            "max": 0.874375
+          },
+          "mean_distance": {
+            "min": 0.947073310880206,
+            "q25": 1.030711787178189,
+            "median": 1.114350263476172,
+            "q75": 1.197988739774155,
+            "max": 1.281627216072138
+          },
+          "rigidity": {
+            "min": 0.3422671854496002,
+            "q25": 0.35158583521842957,
+            "median": 0.3609044849872589,
+            "q75": 0.37022313475608826,
+            "max": 0.3795417845249176
+          },
+          "translation_spread_m": {
+            "min": 0.0814197704010153,
+            "q25": 0.09990467839595665,
+            "median": 0.11838958639089801,
+            "q75": 0.13687449438583937,
+            "max": 0.15535940238078072
+          },
+          "rotation_spread_deg": {
+            "min": 0.2542384492181887,
+            "q25": 0.2726159876919975,
+            "median": 0.2909935261658063,
+            "q75": 0.3093710646396151,
+            "max": 0.3277486031134239
+          },
+          "selected_neighbors": {
+            "min": 3.0,
+            "q25": 3.0,
+            "median": 3.0,
+            "q75": 3.0,
+            "max": 3.0
+          }
+        },
+        "selected_neighbor_histogram": {
+          "3": 2
+        }
+      },
+      "correct_rejected": {
+        "n": 33,
+        "features": {
+          "overlap": {
+            "min": 0.1345,
+            "q25": 0.339875,
+            "median": 0.438625,
+            "q75": 0.6034999999999999,
+            "max": 0.6968749999999999
+          },
+          "mean_distance": {
+            "min": 1.9887383664097973,
+            "q25": 2.8520061913828223,
+            "median": 4.172913963194318,
+            "q75": 6.015803190322631,
+            "max": 9.82116515432167
+          },
+          "rigidity": {
+            "min": 0.27444982528686523,
+            "q25": 0.33924853801727295,
+            "median": 0.38108551502227783,
+            "q75": 0.40943026542663574,
+            "max": 0.6309422850608826
+          },
+          "translation_spread_m": {
+            "min": 0.08142190416100638,
+            "q25": 0.1344262870554868,
+            "median": 0.19717019418514656,
+            "q75": 0.3052648321171059,
+            "max": 138.3421284201107
+          },
+          "rotation_spread_deg": {
+            "min": 0.08689614913002035,
+            "q25": 0.20991201349279015,
+            "median": 0.2800232386862441,
+            "q75": 0.4629425592809758,
+            "max": 2.4452064199582977
+          },
+          "selected_neighbors": {
+            "min": 0.0,
+            "q25": 3.0,
+            "median": 3.0,
+            "q75": 3.0,
+            "max": 3.0
+          }
+        },
+        "selected_neighbor_histogram": {
+          "3": 31,
+          "2": 1,
+          "0": 1
+        }
+      },
+      "incorrect_rejected": {
+        "n": 43,
+        "features": {
+          "overlap": {
+            "min": 0.0,
+            "q25": 0.0676875,
+            "median": 0.165625,
+            "q75": 0.279625,
+            "max": 0.61425
+          },
+          "mean_distance": {
+            "min": 1.2878386877130201,
+            "q25": 5.7716791205492886,
+            "median": 8.762970538248831,
+            "q75": 11.993621643282655,
+            "max": 45.57028012221245
+          },
+          "rigidity": {
+            "min": 0.3046787679195404,
+            "q25": 0.5101718306541443,
+            "median": 0.5762968063354492,
+            "q75": 0.7756973803043365,
+            "max": 1.6312763690948486
+          },
+          "translation_spread_m": {
+            "min": 0.18699660024897477,
+            "q25": 7.642461633417925,
+            "median": 15.604644775500306,
+            "q75": 46.89030914404301,
+            "max": 149.98673619204146
+          },
+          "rotation_spread_deg": {
+            "min": 0.2547269317650767,
+            "q25": 1.006657265049355,
+            "median": 8.954984386348222,
+            "q75": 58.04670251382312,
+            "max": 179.9751391064931
+          },
+          "selected_neighbors": {
+            "min": 0.0,
+            "q25": 0.0,
+            "median": 0.0,
+            "q75": 1.5,
+            "max": 3.0
+          }
+        },
+        "selected_neighbor_histogram": {
+          "0": 25,
+          "1": 7,
+          "3": 7,
+          "2": 4
+        }
+      }
+    },
+    "accepted_correctness_auc": {
+      "overlap": 0.6363636363636364,
+      "mean_distance": 0.7727272727272727,
+      "rigidity": 0.7954545454545454,
+      "translation_spread_m": 0.6363636363636364,
+      "rotation_spread_deg": 0.9318181818181818,
+      "selected_neighbors": 0.5
+    },
+    "incorrect_accepted_pairs": [
+      "00_187_1621",
+      "00_1381_3530"
+    ],
+    "incorrect_unique_source_i": 2,
+    "incorrect_unique_source_j": 2,
+    "accepted_unique_scan_ids": 46
+  },
+  "08/A-R4": {
+    "counts": {
+      "incorrect_rejected": 59,
+      "correct_rejected": 16,
+      "correct_accepted": 16,
+      "incorrect_accepted": 9
+    },
+    "by_stratum": {
+      "ambiguous_positive": {
+        "correct_rejected": 12,
+        "correct_accepted": 2,
+        "incorrect_rejected": 11
+      },
+      "confuser": {
+        "incorrect_rejected": 25
+      },
+      "low_overlap": {
+        "incorrect_rejected": 20,
+        "correct_rejected": 3,
+        "incorrect_accepted": 2
+      },
+      "ordinary": {
+        "correct_accepted": 14,
+        "incorrect_rejected": 3,
+        "incorrect_accepted": 7,
+        "correct_rejected": 1
+      }
+    },
+    "correct_rejected_clauses": {
+      "overlap": 3,
+      "overlap+distance": 13
+    },
+    "incorrect_accepted_legacy_unsafe": 0,
+    "groups": {
+      "correct_accepted": {
+        "n": 16,
+        "features": {
+          "overlap": {
+            "min": 0.7055,
+            "q25": 0.7771250000000001,
+            "median": 0.8181875000000001,
+            "q75": 0.83378125,
+            "max": 0.900625
+          },
+          "mean_distance": {
+            "min": 0.5767447794850145,
+            "q25": 0.8035812397192791,
+            "median": 1.088524231480514,
+            "q75": 1.2624912910898054,
+            "max": 2.0553791696444246
+          },
+          "rigidity": {
+            "min": 0.25768664479255676,
+            "q25": 0.2835988700389862,
+            "median": 0.3024265170097351,
+            "q75": 0.3155147060751915,
+            "max": 0.3416289985179901
+          },
+          "translation_spread_m": {
+            "min": 0.05883519063056849,
+            "q25": 0.07910815889749567,
+            "median": 0.09581838874423819,
+            "q75": 0.10396392122291145,
+            "max": 0.13737046645013362
+          },
+          "rotation_spread_deg": {
+            "min": 0.04998413843549681,
+            "q25": 0.13893087661776807,
+            "median": 0.18394162884909376,
+            "q75": 0.20475240805612344,
+            "max": 0.3001595873182943
+          },
+          "selected_neighbors": {
+            "min": 3.0,
+            "q25": 3.0,
+            "median": 3.0,
+            "q75": 3.0,
+            "max": 3.0
+          }
+        },
+        "selected_neighbor_histogram": {
+          "3": 16
+        }
+      },
+      "incorrect_accepted": {
+        "n": 9,
+        "features": {
+          "overlap": {
+            "min": 0.7010000000000001,
+            "q25": 0.762625,
+            "median": 0.76525,
+            "q75": 0.830625,
+            "max": 0.8456250000000001
+          },
+          "mean_distance": {
+            "min": 0.6931246719490485,
+            "q25": 0.7416880474981951,
+            "median": 0.877902288847205,
+            "q75": 1.057772487895841,
+            "max": 1.4688143101943025
+          },
+          "rigidity": {
+            "min": 0.22794771194458008,
+            "q25": 0.25578054785728455,
+            "median": 0.277932733297348,
+            "q75": 0.2822014391422272,
+            "max": 0.30499696731567383
+          },
+          "translation_spread_m": {
+            "min": 0.06476214098280038,
+            "q25": 0.07708009168842844,
+            "median": 0.09430683515648458,
+            "q75": 0.11677010031034568,
+            "max": 0.1878257284502331
+          },
+          "rotation_spread_deg": {
+            "min": 0.11543461935301148,
+            "q25": 0.14148791125063376,
+            "median": 0.1787741186870155,
+            "q75": 0.22151663074991684,
+            "max": 0.2527649623573217
+          },
+          "selected_neighbors": {
+            "min": 3.0,
+            "q25": 3.0,
+            "median": 3.0,
+            "q75": 3.0,
+            "max": 3.0
+          }
+        },
+        "selected_neighbor_histogram": {
+          "3": 9
+        }
+      },
+      "correct_rejected": {
+        "n": 16,
+        "features": {
+          "overlap": {
+            "min": 0.16462500000000002,
+            "q25": 0.3340625,
+            "median": 0.48112499999999997,
+            "q75": 0.57115625,
+            "max": 0.6965
+          },
+          "mean_distance": {
+            "min": 1.8384954324031084,
+            "q25": 3.3932068428816664,
+            "median": 4.141121818821006,
+            "q75": 6.230540696881469,
+            "max": 10.391403948592167
+          },
+          "rigidity": {
+            "min": 0.28407126665115356,
+            "q25": 0.36567583680152893,
+            "median": 0.4008885771036148,
+            "q75": 0.5045350193977356,
+            "max": 0.9867483377456665
+          },
+          "translation_spread_m": {
+            "min": 0.06548356507476566,
+            "q25": 0.12919069230281177,
+            "median": 0.1966078743186633,
+            "q75": 17.842730947180556,
+            "max": 133.8641863225577
+          },
+          "rotation_spread_deg": {
+            "min": 0.16079344810134077,
+            "q25": 0.260510124721722,
+            "median": 0.31257669733322446,
+            "q75": 2.6943223493839676,
+            "max": 178.0092919134372
+          },
+          "selected_neighbors": {
+            "min": 1.0,
+            "q25": 2.0,
+            "median": 3.0,
+            "q75": 3.0,
+            "max": 3.0
+          }
+        },
+        "selected_neighbor_histogram": {
+          "3": 11,
+          "1": 1,
+          "2": 4
+        }
+      },
+      "incorrect_rejected": {
+        "n": 59,
+        "features": {
+          "overlap": {
+            "min": 0.0,
+            "q25": 0.114125,
+            "median": 0.265125,
+            "q75": 0.5719375,
+            "max": 0.6985
+          },
+          "mean_distance": {
+            "min": 1.0899782804821931,
+            "q25": 2.4547024499954393,
+            "median": 5.753218984453305,
+            "q75": 8.470174220066301,
+            "max": 27.13109906542484
+          },
+          "rigidity": {
+            "min": 0.23604677617549896,
+            "q25": 0.3130592107772827,
+            "median": 0.4787576198577881,
+            "q75": 0.6594059765338898,
+            "max": 2.3529179096221924
+          },
+          "translation_spread_m": {
+            "min": 0.06635402455904435,
+            "q25": 0.22570135769051342,
+            "median": 4.24047024873351,
+            "q75": 31.89475694321223,
+            "max": 139.120466914517
+          },
+          "rotation_spread_deg": {
+            "min": 0.13123205230793392,
+            "q25": 0.29795562708966317,
+            "median": 1.9431179934295046,
+            "q75": 12.404643935706689,
+            "max": 174.285679805552
+          },
+          "selected_neighbors": {
+            "min": 0.0,
+            "q25": 0.0,
+            "median": 2.0,
+            "q75": 3.0,
+            "max": 3.0
+          }
+        },
+        "selected_neighbor_histogram": {
+          "0": 28,
+          "1": 1,
+          "3": 28,
+          "2": 2
+        }
+      }
+    },
+    "accepted_correctness_auc": {
+      "overlap": 0.6041666666666666,
+      "mean_distance": 0.4166666666666667,
+      "rigidity": 0.16666666666666666,
+      "translation_spread_m": 0.5277777777777778,
+      "rotation_spread_deg": 0.5347222222222222,
+      "selected_neighbors": 0.5
+    },
+    "incorrect_accepted_pairs": [
+      "08_242_1650",
+      "08_207_1688",
+      "08_748_1454",
+      "08_2483_3868",
+      "08_2483_3874",
+      "08_2532_3868",
+      "08_2503_3868",
+      "08_2518_3856",
+      "08_2532_3862"
+    ],
+    "incorrect_unique_source_i": 7,
+    "incorrect_unique_source_j": 7,
+    "accepted_unique_scan_ids": 30
+  },
+  "08/P-R4": {
+    "counts": {
+      "incorrect_rejected": 56,
+      "correct_accepted": 17,
+      "correct_rejected": 18,
+      "incorrect_accepted": 9
+    },
+    "by_stratum": {
+      "ambiguous_positive": {
+        "correct_accepted": 3,
+        "correct_rejected": 12,
+        "incorrect_rejected": 10
+      },
+      "confuser": {
+        "incorrect_rejected": 25
+      },
+      "low_overlap": {
+        "incorrect_rejected": 18,
+        "correct_rejected": 5,
+        "incorrect_accepted": 2
+      },
+      "ordinary": {
+        "correct_accepted": 14,
+        "incorrect_rejected": 3,
+        "incorrect_accepted": 7,
+        "correct_rejected": 1
+      }
+    },
+    "correct_rejected_clauses": {
+      "overlap": 2,
+      "overlap+distance": 16
+    },
+    "incorrect_accepted_legacy_unsafe": 0,
+    "groups": {
+      "correct_accepted": {
+        "n": 17,
+        "features": {
+          "overlap": {
+            "min": 0.7001250000000001,
+            "q25": 0.76475,
+            "median": 0.81725,
+            "q75": 0.8305,
+            "max": 0.900375
+          },
+          "mean_distance": {
+            "min": 0.5778521212929784,
+            "q25": 0.8216828715445841,
+            "median": 1.1175097460612182,
+            "q75": 1.3102909534175653,
+            "max": 2.048375900223471
+          },
+          "rigidity": {
+            "min": 0.26677200198173523,
+            "q25": 0.28585878014564514,
+            "median": 0.30297747254371643,
+            "q75": 0.3237123191356659,
+            "max": 0.3313924968242645
+          },
+          "translation_spread_m": {
+            "min": 0.06672328612272006,
+            "q25": 0.08337195770980407,
+            "median": 0.09399378832877424,
+            "q75": 0.1359076720080933,
+            "max": 0.22336904590783688
+          },
+          "rotation_spread_deg": {
+            "min": 0.09234247260582464,
+            "q25": 0.11347714833638091,
+            "median": 0.1791434489576445,
+            "q75": 0.2381572841909332,
+            "max": 0.3826199910504287
+          },
+          "selected_neighbors": {
+            "min": 3.0,
+            "q25": 3.0,
+            "median": 3.0,
+            "q75": 3.0,
+            "max": 3.0
+          }
+        },
+        "selected_neighbor_histogram": {
+          "3": 17
+        }
+      },
+      "incorrect_accepted": {
+        "n": 9,
+        "features": {
+          "overlap": {
+            "min": 0.7015,
+            "q25": 0.7601249999999999,
+            "median": 0.764875,
+            "q75": 0.8294999999999999,
+            "max": 0.8465
+          },
+          "mean_distance": {
+            "min": 0.6954320996140628,
+            "q25": 0.7466184855436526,
+            "median": 0.8829983960664074,
+            "q75": 1.0549560992406892,
+            "max": 1.4714997892598851
+          },
+          "rigidity": {
+            "min": 0.23810116946697235,
+            "q25": 0.25951120257377625,
+            "median": 0.2645868957042694,
+            "q75": 0.27654871344566345,
+            "max": 0.30045464634895325
+          },
+          "translation_spread_m": {
+            "min": 0.08374650067028114,
+            "q25": 0.11824155174964948,
+            "median": 0.12844959733301994,
+            "q75": 0.1476035967392099,
+            "max": 0.17188331216984992
+          },
+          "rotation_spread_deg": {
+            "min": 0.10858564954299313,
+            "q25": 0.1474912442258569,
+            "median": 0.16387873500938285,
+            "q75": 0.21345372866854476,
+            "max": 0.2815522018779248
+          },
+          "selected_neighbors": {
+            "min": 3.0,
+            "q25": 3.0,
+            "median": 3.0,
+            "q75": 3.0,
+            "max": 3.0
+          }
+        },
+        "selected_neighbor_histogram": {
+          "3": 9
+        }
+      },
+      "correct_rejected": {
+        "n": 18,
+        "features": {
+          "overlap": {
+            "min": 0.114875,
+            "q25": 0.33359375,
+            "median": 0.442625,
+            "q75": 0.520875,
+            "max": 0.684875
+          },
+          "mean_distance": {
+            "min": 2.0097528484923988,
+            "q25": 3.7082483820388714,
+            "median": 4.290240989191328,
+            "q75": 6.229756414317266,
+            "max": 11.837118136070044
+          },
+          "rigidity": {
+            "min": 0.31824228167533875,
+            "q25": 0.3605310767889023,
+            "median": 0.4173850864171982,
+            "q75": 0.6302534937858582,
+            "max": 1.1721439361572266
+          },
+          "translation_spread_m": {
+            "min": 0.1336988008925112,
+            "q25": 0.20642356500432907,
+            "median": 0.2463910731340336,
+            "q75": 0.5204770867810848,
+            "max": 66.293665849747
+          },
+          "rotation_spread_deg": {
+            "min": 0.1041959029860663,
+            "q25": 0.30208531052435084,
+            "median": 0.3631816413715525,
+            "q75": 0.5869231457244619,
+            "max": 177.56893734837598
+          },
+          "selected_neighbors": {
+            "min": 2.0,
+            "q25": 3.0,
+            "median": 3.0,
+            "q75": 3.0,
+            "max": 3.0
+          }
+        },
+        "selected_neighbor_histogram": {
+          "2": 3,
+          "3": 15
+        }
+      },
+      "incorrect_rejected": {
+        "n": 56,
+        "features": {
+          "overlap": {
+            "min": 0.00475,
+            "q25": 0.12309375,
+            "median": 0.2741875,
+            "q75": 0.570875,
+            "max": 0.697375
+          },
+          "mean_distance": {
+            "min": 1.0932413063758921,
+            "q25": 2.6495621207908804,
+            "median": 5.463621731027169,
+            "q75": 8.203107167488163,
+            "max": 38.33661681021955
+          },
+          "rigidity": {
+            "min": 0.24758806824684143,
+            "q25": 0.3174384906888008,
+            "median": 0.5100579410791397,
+            "q75": 0.6250522285699844,
+            "max": 2.4604921340942383
+          },
+          "translation_spread_m": {
+            "min": 0.06461795889144689,
+            "q25": 0.19688055403560684,
+            "median": 4.370609851472798,
+            "q75": 51.65993737960065,
+            "max": 195.12589516211858
+          },
+          "rotation_spread_deg": {
+            "min": 0.1099636513870135,
+            "q25": 0.25110611670417904,
+            "median": 1.5407549810899133,
+            "q75": 24.385422603958208,
+            "max": 179.89196291027474
+          },
+          "selected_neighbors": {
+            "min": 0.0,
+            "q25": 0.0,
+            "median": 1.0,
+            "q75": 3.0,
+            "max": 3.0
+          }
+        },
+        "selected_neighbor_histogram": {
+          "0": 25,
+          "1": 4,
+          "3": 27
+        }
+      }
+    },
+    "accepted_correctness_auc": {
+      "overlap": 0.565359477124183,
+      "mean_distance": 0.39215686274509803,
+      "rigidity": 0.1111111111111111,
+      "translation_spread_m": 0.6862745098039216,
+      "rotation_spread_deg": 0.5098039215686274,
+      "selected_neighbors": 0.5
+    },
+    "incorrect_accepted_pairs": [
+      "08_242_1650",
+      "08_207_1688",
+      "08_748_1454",
+      "08_2483_3868",
+      "08_2483_3874",
+      "08_2532_3868",
+      "08_2503_3868",
+      "08_2518_3856",
+      "08_2532_3862"
+    ],
+    "incorrect_unique_source_i": 7,
+    "incorrect_unique_source_j": 7,
+    "accepted_unique_scan_ids": 30
+  }
+}

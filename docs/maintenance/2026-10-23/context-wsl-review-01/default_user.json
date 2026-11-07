@@ -1,0 +1,15 @@
+{
+  "arguments": [
+    "-d",
+    "Ubuntu-24.04",
+    "--exec",
+    "/usr/bin/python3",
+    "-B",
+    "-c",
+    "import os,pwd,json; u=pwd.getpwuid(os.getuid()); print(json.dumps(dict(uid=os.getuid(),user=u.pw_name,home=os.path.expanduser(\"~\")),sort_keys=True))"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 3.4721082,
+  "stdout": "{\"home\": \"/home/aaa\", \"uid\": 1000, \"user\": \"aaa\"}\n",
+  "stderr": "wsl: 检测到 localhost 代理配置，但未镜像到 WSL。NAT 模式下的 WSL 不支持 localhost 代理。\r\n"
+}

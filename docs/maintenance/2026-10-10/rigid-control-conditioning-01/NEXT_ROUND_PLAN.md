@@ -1,0 +1,3 @@
+# Next decision after NOC3
+
+The metric fixed-anchor rigid controls and both loss routes pass the prospective feasibility conjunction. Next DESIGN_ONLY: a distinct tiny same-capacity native velocity-versus-pose comparison with zero-update fp16 gradient/clipping/parameter-step preflight and fresh-noise gates, reset from frozen original parameters. Preserve NOC2 as stopped; do not resume its affine/AdamW gate or infer that these CPU pose parameters transfer optimizer feasibility to443904 neural parameters. Primary actual unmodified five-step sampler outcomes remain mandatory, rather than low first-endpoint loss. A concrete new optimizer/gradient-scale/resource scope must be frozen before updates; no such native fit/protocol is executed/frozen here.

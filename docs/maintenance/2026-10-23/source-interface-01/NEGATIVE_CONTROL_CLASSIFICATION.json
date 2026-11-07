@@ -1,0 +1,13 @@
+{
+  "classification": "SOURCE_ASSERTIONS_PASS_WITH_ONE_NEGATIVE_CONTROL_SEMANTICS_LIMITATION",
+  "original_numeric_results_unchanged": true,
+  "original_case_count": 57,
+  "original_coordinate_checks": 233577,
+  "original_max_budget_ratio": "0.00847591892462892001715135959401721995245226667",
+  "affected_case": "omitted_centering",
+  "actual_injection": "Added fixed (2,-3,4) translation bias to a correct relative matrix",
+  "missing_proof": "Did not construct s*t without the source -R*c term",
+  "original_failure_or_cap_reset": false,
+  "next": "Independent sealed-export verifier may construct the actual omitted-center matrix from public synthetic fixture centroids; no source or fit replay",
+  "new_RAP_efficacy": false
+}

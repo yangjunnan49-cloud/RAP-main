@@ -1,0 +1,7 @@
+# BI1 original CPU constructor integration complete
+
+Ten pure routing/format controls pass. The unchanged RAPBackend constructor completes exactly once on CPU through the fixed tensor reader; original torch.load/pickle execution and all neural forwards remain0. Both source state loads request strict=False, as recorded, while the cooperating boundary enforces complete key/shape/dtype admission and empty missing/unexpected results. Final344 RAP/58 miniSpinNet parameters independently match all402 original storage hashes and finite gates, with separate per-model seals. This is not described as a source strict=True call.
+
+The original constructor calls Torch seed42 then NumPy seed42 once each. Both bound tensor reads preserve tracked Torch CPU/NumPy RNG bytes, with full small states recorded. Matmul/cuDNN policy remains unchanged. The reader returns only consumed state mappings, omits irrelevant checkpoint config/RNG objects and47 non-Desc mini tensors, and never reconstructs them. This is an isolated uninstalled CPU integration, not a claim about arbitrary checkpoints, hidden RNG or original unsafe deserialization.
+
+Worker OS peak1,744,175,104 bytes and watcher1,746,092,032 bytes are below4GiB. No descriptor/RAP prediction, real points, private reference or metric is used; CUDA uninitialized. Original CB1/TT1/RI1 failures remain closed. The complete CPU prerequisite now permits considering a separately frozen public-only GPU operability scope, subject to the unchanged9216MiB free-memory gate and its own stop on failure. No physical efficacy is admitted.

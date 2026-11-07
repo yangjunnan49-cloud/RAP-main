@@ -1,0 +1,46 @@
+{
+  "unique_models_or_weight_artifacts": [
+    {
+      "sha256": "0c5b9f20ee4dfe2345c3cd47dd0632a3d807a3da69c7653900a755cd06564200",
+      "bytes": 355667736,
+      "physical_aliases": [
+        "rap-main:.maintenance-archive/2026-09-09-m0/files/weights/rap_model_12.ckpt",
+        "rap-main:weights/rap_model_12.ckpt"
+      ],
+      "source_url_or_original_release": null,
+      "metadata_content_inspected_with_pickle_or_torch": false,
+      "training_resume_state_certified": false,
+      "architecture_identity_from_filename_only": true
+    },
+    {
+      "sha256": "432ab2f4f9c0e22d2420e0de994b9179334001e954ebcae9ff05d41503c2ee7a",
+      "bytes": 327055496,
+      "physical_aliases": [
+        "rap-main:.maintenance-archive/2026-09-09-m0/files/weights/rap_model_10.ckpt",
+        "rap-main:weights/rap_model_10.ckpt"
+      ],
+      "source_url_or_original_release": null,
+      "metadata_content_inspected_with_pickle_or_torch": false,
+      "training_resume_state_certified": false,
+      "architecture_identity_from_filename_only": true
+    },
+    {
+      "sha256": "daf910b6e2a79c4346a6ef8eeb18b56ffc15b552cc82af091b8b6c0a18116eef",
+      "bytes": 3671729,
+      "physical_aliases": [
+        "rap-main:.maintenance-archive/2026-09-09-m0/files/weights/mini_spinnet_t.pth",
+        "rap-main:weights/mini_spinnet_t.pth"
+      ],
+      "source_url_or_original_release": null,
+      "metadata_content_inspected_with_pickle_or_torch": false,
+      "training_resume_state_certified": false,
+      "architecture_identity_from_filename_only": true
+    }
+  ],
+  "current_runtime_weight_filenames": [
+    "weights/mini_spinnet_t.pth",
+    "weights/rap_model_10.ckpt",
+    "weights/rap_model_12.ckpt"
+  ],
+  "RAPBackend_default_checkpoint_remains_rap_model_12": true
+}

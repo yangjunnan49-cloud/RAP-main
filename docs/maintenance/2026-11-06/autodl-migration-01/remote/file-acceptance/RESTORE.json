@@ -1,0 +1,584 @@
+{
+  "project": {
+    "base": {
+      "passed": true,
+      "ordinary_files_restored": 111629,
+      "logical_bytes": 134910234709,
+      "unique_objects_and_volume_hashes_verified": 98854,
+      "volumes_full_hash_verified": 30,
+      "superseded_base_versions_preserved": [],
+      "wall_seconds": 732.4640529199969,
+      "links_or_permissions_restored_by_this_operation": false,
+      "model_or_scientific_array_loading": false
+    },
+    "delta": {
+      "passed": true,
+      "ordinary_files_restored": 1072,
+      "logical_bytes": 186134097,
+      "unique_objects_and_volume_hashes_verified": 833,
+      "volumes_full_hash_verified": 1,
+      "superseded_base_versions_preserved": [
+        {
+          "path": "archives/source-versions/A5/rap-main/AGENTS.md",
+          "bytes": 6172,
+          "sha256": "a948ea91b564274306c0395db876b3701c558df8ce11cc482f570b6c06b944cd",
+          "source_root": "rap-main",
+          "source_path": "AGENTS.md"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-main/docs/code/ENTRYPOINTS.jsonl",
+          "bytes": 606262,
+          "sha256": "2fc202e3f6c73c16a27aa470ef4c510022e9c48792cda9aa264f5d80428359b7",
+          "source_root": "rap-main",
+          "source_path": "docs/code/ENTRYPOINTS.jsonl"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-main/docs/code/README.md",
+          "bytes": 5302,
+          "sha256": "c5d4f4d67c77b40d646cb71e900823372757594b54eabf4e65eefe24b922a0e3",
+          "source_root": "rap-main",
+          "source_path": "docs/code/README.md"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-main/docs/CONVENTIONS.md",
+          "bytes": 4673,
+          "sha256": "7ed286793ca8cbc1a17d876f510cc34cc7c0d02c20889d8f764c76fda1057880",
+          "source_root": "rap-main",
+          "source_path": "docs/CONVENTIONS.md"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-main/docs/CURRENT_STATE.json",
+          "bytes": 3281,
+          "sha256": "4c5d4061469668f3bd1181dc736d68877be89b8c3dcba767e3cc6aa4df757dc4",
+          "source_root": "rap-main",
+          "source_path": "docs/CURRENT_STATE.json"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-main/docs/CURRENT_STATE.md",
+          "bytes": 3307,
+          "sha256": "14274491c3c94568363577aa90f67b61e703dd2dcc27d6989ee28caaba932ebb",
+          "source_root": "rap-main",
+          "source_path": "docs/CURRENT_STATE.md"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-main/docs/experiments/GAPS.md",
+          "bytes": 3304,
+          "sha256": "164d56b9714e4016a5ffdab36dd395a081836627c0bb72193d7633d20c98446c",
+          "source_root": "rap-main",
+          "source_path": "docs/experiments/GAPS.md"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-main/docs/experiments/MEETINGS.md",
+          "bytes": 1225,
+          "sha256": "c827e7359fa68a1789f35546a8b94cc1d3353e102c96d22890434bd4ed775148",
+          "source_root": "rap-main",
+          "source_path": "docs/experiments/MEETINGS.md"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-main/docs/experiments/README.md",
+          "bytes": 3664,
+          "sha256": "197577ab6844c43ec45903fd866cfe4640500e3f497618b1fbd3247be01f1f0f",
+          "source_root": "rap-main",
+          "source_path": "docs/experiments/README.md"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-main/docs/maintenance/README.md",
+          "bytes": 2233,
+          "sha256": "6b3f48cef02ce512df2e04116b2915488c2eb66dcf8effc8e09db738242af7df",
+          "source_root": "rap-main",
+          "source_path": "docs/maintenance/README.md"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-main/docs/migration/PLAN.md",
+          "bytes": 12211,
+          "sha256": "09339bd0c787a920c4294c420e91a5f35975c8c5c25d511b365772b7aff2f55f",
+          "source_root": "rap-main",
+          "source_path": "docs/migration/PLAN.md"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-main/docs/migration/README.md",
+          "bytes": 3497,
+          "sha256": "fd85b6023054aeb29a33ddde87f59db63e72de53179a1c5f914739c9204efbe0",
+          "source_root": "rap-main",
+          "source_path": "docs/migration/README.md"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-main/docs/README.md",
+          "bytes": 1456,
+          "sha256": "a6945a9114466d9f2bd1109ddd5c51988daeb18de461da2159c6b67c363f948c",
+          "source_root": "rap-main",
+          "source_path": "docs/README.md"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-main/README.md",
+          "bytes": 2966,
+          "sha256": "e7b54d6ca54db07c6ea1c02ca4d244a837e0894de133c354fde032e0e1d5d8c1",
+          "source_root": "rap-main",
+          "source_path": "README.md"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-main/scripts/maintenance/index_code_entries.py",
+          "bytes": 5824,
+          "sha256": "e34ca3b53c02794f0c042c9c8045c679f25ecb513c82303df74924945e91e1de",
+          "source_root": "rap-main",
+          "source_path": "scripts/maintenance/index_code_entries.py"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-main/scripts/maintenance/render_current_state.py",
+          "bytes": 3818,
+          "sha256": "a3a9266cb4269a3d5b42e56a83223cba3e43d19c0c5cc9b720e253c331561309",
+          "source_root": "rap-main",
+          "source_path": "scripts/maintenance/render_current_state.py"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-slam/AGENTS.md",
+          "bytes": 2366,
+          "sha256": "4009690ae8723b3594f5837cf71c061dde61e63e430a6a85c093c9c4f3aed04a",
+          "source_root": "rap-slam",
+          "source_path": "AGENTS.md"
+        },
+        {
+          "path": "archives/source-versions/A5/rap-slam/README.md",
+          "bytes": 3651,
+          "sha256": "cecbfb0e91a4a7e8d0d789bc179d35149774e1ba634ce8324bed5675c4b9ecd0",
+          "source_root": "rap-slam",
+          "source_path": "README.md"
+        },
+        {
+          "path": "archives/source-versions/A5/workspace-root/AGENTS.md",
+          "bytes": 2335,
+          "sha256": "4a831167260790687a3c5f1279ea174a80bedb6fca9f4c96c6ed8bd4cf71c6fc",
+          "source_root": "workspace-root",
+          "source_path": "AGENTS.md"
+        }
+      ],
+      "wall_seconds": 2.5595504839438945,
+      "links_or_permissions_restored_by_this_operation": false,
+      "model_or_scientific_array_loading": false
+    },
+    "fresh_restored_tree_check": {
+      "passed": true,
+      "ordinary_files_freshly_rehashed": 112682,
+      "bytes_freshly_rehashed": 135095691259,
+      "superseded_versions_freshly_rehashed": 19,
+      "scientific_or_model_loads": 0
+    },
+    "links": [
+      {
+        "root": "rap-main",
+        "path": "docs/maintenance/2026-09-19/horizontal-comparison-01/b-kiss-slam/runs/kitti00/slam_output/latest",
+        "relative_target": "2026-09-19_10-50-43",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/maintenance/2026-09-19/horizontal-comparison-01/b-kiss-slam/runs/kitti05/slam_output/latest",
+        "relative_target": "2026-09-19_10-52-35",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/maintenance/2026-09-19/horizontal-comparison-01/b-kiss-slam/runs/kitti06/slam_output/latest",
+        "relative_target": "2026-09-19_11-16-36",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/maintenance/2026-09-19/horizontal-comparison-01/b-kiss-slam/smoke/kitti00/slam_output/latest",
+        "relative_target": "2026-09-19_10-47-28",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/maintenance/2026-09-27/e0-heldout-01/kiss-07/slam_output/latest",
+        "relative_target": "2026-09-27_20-26-25",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/maintenance/2026-09-27/e0-heldout-01/kiss-09/slam_output/latest",
+        "relative_target": "2026-09-27_20-30-38",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/maintenance/2026-09-27/e0-heldout-01/kiss-10/slam_output/latest",
+        "relative_target": "2026-09-27_20-33-26",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20260930/.build/node_modules",
+        "state": "external_dependency_not_recreated"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/.build/node_modules",
+        "state": "external_dependency_not_recreated"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r01-00-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_09-53-35",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r01-05-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_09-58-07",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r01-06-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_10-00-30",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r01-07-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_10-02-29",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r01-09-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_10-05-27",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r01-10-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_10-07-35",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r02-00-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_10-14-58",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r02-05-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_10-19-33",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r02-06-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_10-21-57",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r02-07-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_10-24-01",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r02-09-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_10-27-06",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r02-10-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_10-29-19",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r03-00-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_10-36-12",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r03-05-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_10-40-42",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r03-06-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_10-43-09",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r03-07-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_10-45-19",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r03-09-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_10-48-27",
+        "state": "created_and_resolved"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/meeting_20261011/benchmark/attempt03/r03-10-KISS-SLAM/slam_output/latest",
+        "relative_target": "2026-10-11_10-50-37",
+        "state": "created_and_resolved"
+      }
+    ],
+    "POSIX_permission_policy": {
+      "applied": true,
+      "files": 112682,
+      "directories": 5292,
+      "target_owner_or_ACL_certified": false
+    },
+    "server_acceptance_validated": false
+  },
+  "evidence": {
+    "passed": true,
+    "evidence_files_full_bytes_checked": 249,
+    "evidence_archive_full_hash_verified": true,
+    "final_controls_written": [
+      {
+        "root": "rap-main",
+        "path": "AGENTS.md",
+        "sha256": "b6fb40ed63600aad97688fce831886746b64a3cb608295d4280461f9050b5f11"
+      },
+      {
+        "root": "rap-main",
+        "path": "README.md",
+        "sha256": "9b17393659edf1e523d6a6b5ab37205787eaee25f3cf63134ba177041b28c80a"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/CONVENTIONS.md",
+        "sha256": "14c2658fdd5f8144a7d62c0c24001e3962e984152912851595bd29f17445b3a3"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/CURRENT_STATE.json",
+        "sha256": "89986ee9ab6be0664a6bef5a402b9aedf0e5326d0bddffc7bf65bae6b41e29f8"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/CURRENT_STATE.md",
+        "sha256": "5a49a9a4d26a06acc426256cfaf2e245c99ad0141508305cb8c9b4bfbc71d879"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/README.md",
+        "sha256": "8a7144ac05ed844908dcfc128623701368f00a4a1df5ea65fa6c8bdded98f8d8"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/assets/PACKAGING.md",
+        "sha256": "3e4066ca83f79ffa4a4ff6cddb6378d15bf6d5135cd6d2597191ca8e6c9a7c0b"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/code/ENTRYPOINTS.jsonl",
+        "sha256": "80362f0b098b12a4aa08ae8e70ec083ef628ed7388a16083ee4c71916a104273"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/code/RUNNING.md",
+        "sha256": "91df6368eb2096863276c714a6620033d3d7cd8ce8eb6ea68dfbde52714687f7"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/experiments/GAPS.md",
+        "sha256": "cd0163f4b3a25ed7d88be2f1e127e03e7fb51107cdac28e4582d2364e77290f7"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/experiments/PATHS.md",
+        "sha256": "e05a7fff94d08baf9243f8a43a7f6d88d2f041df4b1516b93229b2f8ecab1e64"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/maintenance/README.md",
+        "sha256": "da0e1437d62177bc58d60fea4480fd00ae999879aa523c79df51ee4563f26a4d"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/migration/DELIVERY.md",
+        "sha256": "c0ca0e634bc0200727edb7a03e034f7a513782ab27fa09a007c99bfa34d54c6b"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/migration/HANDOFF.md",
+        "sha256": "74b1e34da8f541849d0a39a57e3e60464f01d5c018a7662718bf537cf52f7b67"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/migration/PLAN.md",
+        "sha256": "9cdc53fda0f12c16a0dfd619858af213bdfb8b79b82c76cc66fdef2cf68431ec"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/migration/README.md",
+        "sha256": "ff9f12bbb7f4db9ee477d12f9a82f4e2d8f021f0a3e079373ff2a32f5a8e3d19"
+      },
+      {
+        "root": "rap-main",
+        "path": "docs/migration/RESTORE.md",
+        "sha256": "5c4e4918627ed2ad02efaeb1e72e4d527fc1bf0c672f1b8cf08a152052ed0a5b"
+      },
+      {
+        "root": "rap-main",
+        "path": "scripts/migration/delivery.py",
+        "sha256": "6f86cd65aa6a36dab357c853f3ce525ff4ddb4a8707e0247e382c61de3c689bf"
+      },
+      {
+        "root": "rap-slam",
+        "path": "AGENTS.md",
+        "sha256": "8f8470455ba3fb083a7f4733dba17cfb8c775f5f05d61cf697900884e2b24908"
+      },
+      {
+        "root": "rap-slam",
+        "path": "README.md",
+        "sha256": "0566d6dd3cd3e3a6232769162cf564cb59dfa35b15d9c984ce6b7fea2191a02c"
+      },
+      {
+        "root": "reports",
+        "path": "README.md",
+        "sha256": "506f0fc74405fbd14761cd2299bb643d68ec30a15870b321517670d78b8c2aad"
+      },
+      {
+        "root": "workspace-root",
+        "path": "AGENTS.md",
+        "sha256": "fe939d780d6b382d16631330b9110d694e37226087ac5917a4d7bcaba143a0f6"
+      }
+    ],
+    "final_controls_already_matching": 59,
+    "superseded_current_versions_preserved": [
+      {
+        "path": "archives/source-versions/A7-control/rap-main/AGENTS.md",
+        "bytes": 7505,
+        "sha256": "52ab2714dc7eaa7a0f4f91795a97f1e5dccd1e7abc424fa0b2c4a2e064dd6614",
+        "source_root": "rap-main",
+        "source_path": "AGENTS.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/README.md",
+        "bytes": 3180,
+        "sha256": "350f3301b342138a7d42df72085cce3cf3cc0819f7309cdb32b22d47a19201a5",
+        "source_root": "rap-main",
+        "source_path": "README.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/CONVENTIONS.md",
+        "bytes": 4668,
+        "sha256": "c1bc18500713c9262354a2101cac54d48916c31d3e626ddef081319e74f4187a",
+        "source_root": "rap-main",
+        "source_path": "docs/CONVENTIONS.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/CURRENT_STATE.json",
+        "bytes": 3769,
+        "sha256": "a5d089ecaa8ca7fed67925189df662280f4b9a00da0f52353389c8fa9f2c9ed6",
+        "source_root": "rap-main",
+        "source_path": "docs/CURRENT_STATE.json"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/CURRENT_STATE.md",
+        "bytes": 3686,
+        "sha256": "4bd2a73b33936939521f7f16372f8b0de3ed85e410c7b5e7d4fbf6196c83db5c",
+        "source_root": "rap-main",
+        "source_path": "docs/CURRENT_STATE.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/README.md",
+        "bytes": 1669,
+        "sha256": "c33f8566ddda0c9f3550bd088bbc0e48631509391d552e85d32256e85bece929",
+        "source_root": "rap-main",
+        "source_path": "docs/README.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/assets/PACKAGING.md",
+        "bytes": 3287,
+        "sha256": "6761d494ba608bf2b1b775b483ef5367b318b37657511c79c31fd82c2edf83de",
+        "source_root": "rap-main",
+        "source_path": "docs/assets/PACKAGING.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/code/ENTRYPOINTS.jsonl",
+        "bytes": 607511,
+        "sha256": "ee8a0205a61af4dae8fdddf970a7485ee9fef02dd4df7047e02eae211115263d",
+        "source_root": "rap-main",
+        "source_path": "docs/code/ENTRYPOINTS.jsonl"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/code/RUNNING.md",
+        "bytes": 6830,
+        "sha256": "abb73a584b8058a0b831532043366d0acccf72d03728f1735a63fd9333e81d9a",
+        "source_root": "rap-main",
+        "source_path": "docs/code/RUNNING.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/experiments/GAPS.md",
+        "bytes": 3494,
+        "sha256": "9bb03b5d2638c603a7d75ddc3472fc71002812fb19221c6a2e18d126339a630c",
+        "source_root": "rap-main",
+        "source_path": "docs/experiments/GAPS.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/experiments/PATHS.md",
+        "bytes": 1934,
+        "sha256": "0fc3e146caa20e989e3bf325f77b013cd2f9f997ee3d487517ef7698b4a45be2",
+        "source_root": "rap-main",
+        "source_path": "docs/experiments/PATHS.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/maintenance/README.md",
+        "bytes": 2534,
+        "sha256": "fe9daf2fa9533ca5c851746f4cea17b123a931f90825fc3ada74ea9fad988b27",
+        "source_root": "rap-main",
+        "source_path": "docs/maintenance/README.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/migration/PLAN.md",
+        "bytes": 13460,
+        "sha256": "a4adba3ef825183cd876fc46bb02e6d01c8caf9005c6b71fb76b3448abe8782f",
+        "source_root": "rap-main",
+        "source_path": "docs/migration/PLAN.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-main/docs/migration/README.md",
+        "bytes": 4263,
+        "sha256": "9b2c1be969dfbc5bf156ee36a7c2b3caa88e6447daa93f8c713a510f90f6a258",
+        "source_root": "rap-main",
+        "source_path": "docs/migration/README.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-slam/AGENTS.md",
+        "bytes": 2514,
+        "sha256": "42eca69b1c737007c467c49cdec7bf0de1a537ca5cfb5b34c784e5b3097fbb66",
+        "source_root": "rap-slam",
+        "source_path": "AGENTS.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/rap-slam/README.md",
+        "bytes": 3858,
+        "sha256": "5aac52ccfad929580edef030e368a8bfa076f90393a74aad3c4c7e0ee41ea9b9",
+        "source_root": "rap-slam",
+        "source_path": "README.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/reports/README.md",
+        "bytes": 1327,
+        "sha256": "8b39906d8ec1b1b9668abab27ecc4b3cdb2f51a6d45a6ac15ef3ccd97e95b19b",
+        "source_root": "reports",
+        "source_path": "README.md"
+      },
+      {
+        "path": "archives/source-versions/A7-control/workspace-root/AGENTS.md",
+        "bytes": 2313,
+        "sha256": "2481125521531fabdccf25b63115a992fe070fbb64b0afb43b4bd64f5a4cbf26",
+        "source_root": "workspace-root",
+        "source_path": "AGENTS.md"
+      }
+    ],
+    "source_originals_changed": false,
+    "server_acceptance_validated": false
+  }
+}

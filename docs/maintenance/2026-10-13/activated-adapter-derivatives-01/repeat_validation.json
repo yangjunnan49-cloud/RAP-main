@@ -1,0 +1,1132 @@
+{
+  "passed": true,
+  "all_pairs_byteexact": true,
+  "pairs": [
+    {
+      "arm": "V",
+      "details": {
+        "output.npz": {
+          "velocity": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "upstream": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "gradients.npz": {
+          "transformer_layers.10.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 262144,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 512,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 131072,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 256,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.4.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 768,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "parameters_after.npz": {
+          "transformer_layers.10.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 262144,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 512,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 131072,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 256,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.4.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 768,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "hooks.npz": {
+          "transformer_layers.10.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        }
+      },
+      "all_byteexact": true
+    },
+    {
+      "arm": "P",
+      "details": {
+        "output.npz": {
+          "velocity": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "output": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "upstream": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 9000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "gradients.npz": {
+          "transformer_layers.10.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 262144,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 512,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 131072,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 256,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.4.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 768,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "parameters_after.npz": {
+          "transformer_layers.10.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 12288,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.A": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj.B": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4096,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 262144,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.0.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 512,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 131072,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.2.bias": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 256,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "final_mlp.4.weight": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 768,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "hooks.npz": {
+          "transformer_layers.10.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|input": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|rank": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 24000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_out_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_out_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 1536000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj|scaled_gradient": {
+            "byte_equal": true,
+            "different": 0,
+            "size": 4608000,
+            "max_abs": 0.0,
+            "relative_L2": 0.0
+          }
+        }
+      },
+      "all_byteexact": true
+    }
+  ],
+  "tail_AST_only_final_float_to_double": true,
+  "independent_loss_max_delta": 2.7569058147491887e-12,
+  "V_upstream_max_delta": 4.235164736271502e-22,
+  "P_output_FD": [
+    {
+      "name": "P1",
+      "direction": 0,
+      "error": 4.7421781346201897e-07,
+      "bound": 0.25119903480089084
+    },
+    {
+      "name": "P1",
+      "direction": 1,
+      "error": 2.7593705453909934e-07,
+      "bound": 0.22889349047034105
+    },
+    {
+      "name": "P1",
+      "direction": 2,
+      "error": 1.98651832761243e-08,
+      "bound": 0.09006441413887957
+    },
+    {
+      "name": "P1",
+      "direction": 3,
+      "error": 5.337033925911783e-09,
+      "bound": 0.00015599950714317856
+    },
+    {
+      "name": "P1",
+      "direction": 4,
+      "error": 8.244541689350626e-07,
+      "bound": 0.00011375299123983497
+    },
+    {
+      "name": "P1",
+      "direction": 5,
+      "error": 2.739820814667837e-08,
+      "bound": 0.00011629835540816204
+    },
+    {
+      "name": "P1",
+      "direction": 6,
+      "error": 3.913393076260263e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "P1",
+      "direction": 7,
+      "error": 1.1118848419755523e-06,
+      "bound": 0.0003278346063950721
+    },
+    {
+      "name": "P1",
+      "direction": 8,
+      "error": 3.400479684501079e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "P1",
+      "direction": 9,
+      "error": 1.6802506053181787e-07,
+      "bound": 0.00032353085501313217
+    },
+    {
+      "name": "P1",
+      "direction": 10,
+      "error": 1.3543784476155452e-06,
+      "bound": 0.00029756972054428843
+    },
+    {
+      "name": "P1",
+      "direction": 11,
+      "error": 7.158329555778664e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "P2",
+      "direction": 0,
+      "error": 4.7421781346201897e-07,
+      "bound": 0.25119903480089084
+    },
+    {
+      "name": "P2",
+      "direction": 1,
+      "error": 2.7593705453909934e-07,
+      "bound": 0.22889349047034105
+    },
+    {
+      "name": "P2",
+      "direction": 2,
+      "error": 1.98651832761243e-08,
+      "bound": 0.09006441413887957
+    },
+    {
+      "name": "P2",
+      "direction": 3,
+      "error": 5.337033925911783e-09,
+      "bound": 0.00015599950714317856
+    },
+    {
+      "name": "P2",
+      "direction": 4,
+      "error": 8.244541689350626e-07,
+      "bound": 0.00011375299123983497
+    },
+    {
+      "name": "P2",
+      "direction": 5,
+      "error": 2.739820814667837e-08,
+      "bound": 0.00011629835540816204
+    },
+    {
+      "name": "P2",
+      "direction": 6,
+      "error": 3.913393076260263e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "P2",
+      "direction": 7,
+      "error": 1.1118848419755523e-06,
+      "bound": 0.0003278346063950721
+    },
+    {
+      "name": "P2",
+      "direction": 8,
+      "error": 3.400479684501079e-07,
+      "bound": 0.0001
+    },
+    {
+      "name": "P2",
+      "direction": 9,
+      "error": 1.6802506053181787e-07,
+      "bound": 0.00032353085501313217
+    },
+    {
+      "name": "P2",
+      "direction": 10,
+      "error": 1.3543784476155452e-06,
+      "bound": 0.00029756972054428843
+    },
+    {
+      "name": "P2",
+      "direction": 11,
+      "error": 7.158329555778664e-07,
+      "bound": 0.0001
+    }
+  ],
+  "original_prefix_byteexact": true,
+  "original_A_gradient_zero": true,
+  "local_A_B_checks": [
+    {
+      "trace": "V1",
+      "module": "transformer_layers.10.global_out_proj",
+      "group": "A",
+      "delta": 7.496324301261813e-25,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 7.549516567451064e-15
+    },
+    {
+      "trace": "V1",
+      "module": "transformer_layers.10.global_out_proj",
+      "group": "B",
+      "delta": 3.8116482626443515e-21,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 7.549516567451064e-15
+    },
+    {
+      "trace": "V1",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "group": "A",
+      "delta": 1.1632227364026952e-24,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 2.6645352591003757e-15
+    },
+    {
+      "trace": "V1",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "group": "B",
+      "delta": 3.5998900258307764e-21,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 2.6645352591003757e-15
+    },
+    {
+      "trace": "V1",
+      "module": "transformer_layers.11.global_out_proj",
+      "group": "A",
+      "delta": 1.0856745539758488e-24,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 4.440892098500626e-15
+    },
+    {
+      "trace": "V1",
+      "module": "transformer_layers.11.global_out_proj",
+      "group": "B",
+      "delta": 4.446922973085077e-21,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 4.440892098500626e-15
+    },
+    {
+      "trace": "V1",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "group": "A",
+      "delta": 9.822769774067204e-25,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 5.773159728050814e-15
+    },
+    {
+      "trace": "V1",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "group": "B",
+      "delta": 4.870439446712227e-21,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 5.773159728050814e-15
+    },
+    {
+      "trace": "V2",
+      "module": "transformer_layers.10.global_out_proj",
+      "group": "A",
+      "delta": 7.496324301261813e-25,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 7.549516567451064e-15
+    },
+    {
+      "trace": "V2",
+      "module": "transformer_layers.10.global_out_proj",
+      "group": "B",
+      "delta": 3.8116482626443515e-21,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 7.549516567451064e-15
+    },
+    {
+      "trace": "V2",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "group": "A",
+      "delta": 1.1632227364026952e-24,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 2.6645352591003757e-15
+    },
+    {
+      "trace": "V2",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "group": "B",
+      "delta": 3.5998900258307764e-21,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 2.6645352591003757e-15
+    },
+    {
+      "trace": "V2",
+      "module": "transformer_layers.11.global_out_proj",
+      "group": "A",
+      "delta": 1.0856745539758488e-24,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 4.440892098500626e-15
+    },
+    {
+      "trace": "V2",
+      "module": "transformer_layers.11.global_out_proj",
+      "group": "B",
+      "delta": 4.446922973085077e-21,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 4.440892098500626e-15
+    },
+    {
+      "trace": "V2",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "group": "A",
+      "delta": 9.822769774067204e-25,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 5.773159728050814e-15
+    },
+    {
+      "trace": "V2",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "group": "B",
+      "delta": 4.870439446712227e-21,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 5.773159728050814e-15
+    },
+    {
+      "trace": "P1",
+      "module": "transformer_layers.10.global_out_proj",
+      "group": "A",
+      "delta": 2.949029909160572e-17,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 7.549516567451064e-15
+    },
+    {
+      "trace": "P1",
+      "module": "transformer_layers.10.global_out_proj",
+      "group": "B",
+      "delta": 1.7719159473017498e-13,
+      "bound": 2.3555032611216334e-09,
+      "pass_bound": true,
+      "rank_delta": 7.549516567451064e-15
+    },
+    {
+      "trace": "P1",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "group": "A",
+      "delta": 3.7730235602495554e-17,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 2.6645352591003757e-15
+    },
+    {
+      "trace": "P1",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "group": "B",
+      "delta": 3.410605131648481e-13,
+      "bound": 1.7662605031196482e-08,
+      "pass_bound": true,
+      "rank_delta": 2.6645352591003757e-15
+    },
+    {
+      "trace": "P1",
+      "module": "transformer_layers.11.global_out_proj",
+      "group": "A",
+      "delta": 3.117081245895825e-17,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 4.440892098500626e-15
+    },
+    {
+      "trace": "P1",
+      "module": "transformer_layers.11.global_out_proj",
+      "group": "B",
+      "delta": 2.2293278334473143e-13,
+      "bound": 2.8508269872413177e-09,
+      "pass_bound": true,
+      "rank_delta": 4.440892098500626e-15
+    },
+    {
+      "trace": "P1",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "group": "A",
+      "delta": 1.3010426069826053e-17,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 5.773159728050814e-15
+    },
+    {
+      "trace": "P1",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "group": "B",
+      "delta": 1.9895196601282805e-13,
+      "bound": 5.238495699264765e-09,
+      "pass_bound": true,
+      "rank_delta": 5.773159728050814e-15
+    },
+    {
+      "trace": "P2",
+      "module": "transformer_layers.10.global_out_proj",
+      "group": "A",
+      "delta": 2.949029909160572e-17,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 7.549516567451064e-15
+    },
+    {
+      "trace": "P2",
+      "module": "transformer_layers.10.global_out_proj",
+      "group": "B",
+      "delta": 1.7719159473017498e-13,
+      "bound": 2.3555032611216334e-09,
+      "pass_bound": true,
+      "rank_delta": 7.549516567451064e-15
+    },
+    {
+      "trace": "P2",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "group": "A",
+      "delta": 3.7730235602495554e-17,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 2.6645352591003757e-15
+    },
+    {
+      "trace": "P2",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "group": "B",
+      "delta": 3.410605131648481e-13,
+      "bound": 1.7662605031196482e-08,
+      "pass_bound": true,
+      "rank_delta": 2.6645352591003757e-15
+    },
+    {
+      "trace": "P2",
+      "module": "transformer_layers.11.global_out_proj",
+      "group": "A",
+      "delta": 3.117081245895825e-17,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 4.440892098500626e-15
+    },
+    {
+      "trace": "P2",
+      "module": "transformer_layers.11.global_out_proj",
+      "group": "B",
+      "delta": 2.2293278334473143e-13,
+      "bound": 2.8508269872413177e-09,
+      "pass_bound": true,
+      "rank_delta": 4.440892098500626e-15
+    },
+    {
+      "trace": "P2",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "group": "A",
+      "delta": 1.3010426069826053e-17,
+      "bound": 1e-10,
+      "pass_bound": true,
+      "rank_delta": 5.773159728050814e-15
+    },
+    {
+      "trace": "P2",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "group": "B",
+      "delta": 1.9895196601282805e-13,
+      "bound": 5.238495699264765e-09,
+      "pass_bound": true,
+      "rank_delta": 5.773159728050814e-15
+    }
+  ],
+  "activated_A": [
+    {
+      "trace": "V1",
+      "module": "transformer_layers.10.global_out_proj",
+      "A_nonzero": 4096
+    },
+    {
+      "trace": "V1",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "A_nonzero": 4096
+    },
+    {
+      "trace": "V1",
+      "module": "transformer_layers.11.global_out_proj",
+      "A_nonzero": 4096
+    },
+    {
+      "trace": "V1",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "A_nonzero": 4096
+    },
+    {
+      "trace": "V2",
+      "module": "transformer_layers.10.global_out_proj",
+      "A_nonzero": 4096
+    },
+    {
+      "trace": "V2",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "A_nonzero": 4096
+    },
+    {
+      "trace": "V2",
+      "module": "transformer_layers.11.global_out_proj",
+      "A_nonzero": 4096
+    },
+    {
+      "trace": "V2",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "A_nonzero": 4096
+    },
+    {
+      "trace": "P1",
+      "module": "transformer_layers.10.global_out_proj",
+      "A_nonzero": 4096
+    },
+    {
+      "trace": "P1",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "A_nonzero": 4096
+    },
+    {
+      "trace": "P1",
+      "module": "transformer_layers.11.global_out_proj",
+      "A_nonzero": 4096
+    },
+    {
+      "trace": "P1",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "A_nonzero": 4096
+    },
+    {
+      "trace": "P2",
+      "module": "transformer_layers.10.global_out_proj",
+      "A_nonzero": 4096
+    },
+    {
+      "trace": "P2",
+      "module": "transformer_layers.10.global_qkv_proj",
+      "A_nonzero": 4096
+    },
+    {
+      "trace": "P2",
+      "module": "transformer_layers.11.global_out_proj",
+      "A_nonzero": 4096
+    },
+    {
+      "trace": "P2",
+      "module": "transformer_layers.11.global_qkv_proj",
+      "A_nonzero": 4096
+    }
+  ],
+  "prerequisite_conjunction": true
+}

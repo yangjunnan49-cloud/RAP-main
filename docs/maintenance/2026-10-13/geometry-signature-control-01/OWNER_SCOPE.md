@@ -1,0 +1,3 @@
+# GSG0 distinct coordinate-only numerical ceiling
+
+Scope one fixed, all-point coordinate-only observability control on the original exposed congruent synthetic pointset. Do not read descriptors or failed CDG0 matches; CDG0 remains a complete negative support prerequisite. No descriptor tie/subset rescue, RAP/head fitting, real pipeline or old HFIT0 bank retry. Predeclare coincident-coordinate multiplicity versus genuinely distinct-coordinate symmetry, and validate both before actual matching. Seal complete coordinate predictions before known original-fixture truth. Old failures/markers/caps/seals/reference/HEADs/branches/dirty work/unknowns remain; no production/install/acquisition/restart/manuscript/commit/Git sync.

@@ -1,0 +1,73 @@
+{
+  "scope": "Late preparation, not actual allowance exhaustion",
+  "source": {
+    "utc": "2026-10-17T05:58:33.0377416Z",
+    "matched_C0_source_entries": 19,
+    "absent_stage_paths": [
+      "synthetic",
+      "build",
+      "consume",
+      "validation",
+      "inputs"
+    ],
+    "close_source_and_snapshot_match": true,
+    "C0_syntax_runtime": "UNTESTED",
+    "C0_charged_seconds": 2.1993678,
+    "C0_remaining_seconds": 897.8006322
+  },
+  "git": {
+    "utc": "2026-10-17T05:58:38.2558703Z",
+    "scope": "HEAD branch and tracked dirty paths only, not all file content or process absence",
+    "repositories": [
+      {
+        "HEAD": "4055d929c594b0033aafc6eed339c910369eef55",
+        "root": "E:/githouse/RAP-main",
+        "tracked_dirty": [
+          " M .gitignore",
+          " M AGENTS.md"
+        ],
+        "branch": "codex/meeting-20260930"
+      },
+      {
+        "HEAD": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6",
+        "root": "E:/githouse/RAP-SLAM",
+        "tracked_dirty": [
+          " M rap_slam/loop_closure.py",
+          " M rap_slam/odometry.py",
+          " M rap_slam/pose_graph.py",
+          " M rap_slam/rap_backend.py",
+          " M rap_slam/real_dataset.py",
+          " M scripts/build_s1_features.py",
+          " M scripts/eval_map_consistency.py",
+          " M scripts/eval_paper_metrics.py",
+          " M scripts/run_pipeline.py"
+        ],
+        "branch": "codex/e0-f1-20260926"
+      }
+    ]
+  },
+  "repositories_match_original_metadata": true,
+  "latest_account_observation": {
+    "following_account_clock_UTC": "2026-10-17 05:58:17 UTC",
+    "primary": {
+      "usedPercent": 49,
+      "windowDurationMins": 300,
+      "resetsAt": 1792217489
+    },
+    "secondary": {
+      "usedPercent": 77,
+      "windowDurationMins": 10080,
+      "resetsAt": 1792652445
+    },
+    "ordinaryUsageAllowed": true,
+    "scope": "Active in-turn C0 eligibility observation; no scientific payload",
+    "resource": {
+      "utc": "2026-10-17T05:58:21.9119924Z",
+      "committed_bytes": 129073967104,
+      "commit_limit_bytes": 137269444608,
+      "headroom_bytes": 8195477504,
+      "required_bytes": 12884901888
+    }
+  },
+  "original_research_goal_complete": false
+}

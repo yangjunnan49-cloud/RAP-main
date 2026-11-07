@@ -1,0 +1,43 @@
+{
+  "stage": "SID0",
+  "status": "VALIDATED",
+  "decision": "PASS_SHARED_IDENTITY_EQUATION_PREFLIGHT",
+  "updated_utc": "2026-10-06T06:51:23.756553+00:00",
+  "case_count": 330,
+  "expected_rejections": 5,
+  "freeze_identity_count": 10,
+  "sealed_file_count": 331,
+  "bank_complete": true,
+  "independent_validation_complete": true,
+  "accuracy_result": false,
+  "originality_established": false,
+  "synthetic_only": true,
+  "dataset_gt_read": false,
+  "model_inference": false,
+  "failure_or_repair": false,
+  "pre_freeze_design_clarification": "Shared-variable objective stopping excludes unique-factor constant residuals",
+  "max_independent_delta": 7.275957614183426e-12,
+  "max_next_block_pose_delta": 7.735751164972271e-06,
+  "combined_cpu_wall_seconds": 3.3259278000332415,
+  "peak_rss_bytes": 45805568,
+  "npz_bytes": 6757383,
+  "next_stage": {
+    "id": "D1",
+    "status": "PLANNED_NOT_IMPLEMENTED",
+    "plan": "NEXT_ROUND_PLAN.md",
+    "four_pair_engineering_frozen": false,
+    "real_bank_or_inference": false
+  },
+  "preserved_boundaries": [
+    "all old stops and immutable banks",
+    "official labels and metrics",
+    "unknown checkpoint training membership",
+    "original breakthrough requirement",
+    "no training/production/default/model/manuscript edit",
+    "no commit or Git sync"
+  ],
+  "rap_head": "4055d929c594b0033aafc6eed339c910369eef55",
+  "rap_branch": "codex/meeting-20260930",
+  "slam_head": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6",
+  "slam_branch": "codex/e0-f1-20260926"
+}

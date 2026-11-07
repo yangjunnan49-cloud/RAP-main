@@ -1,0 +1,357 @@
+{
+  "passed": false,
+  "records": [
+    {
+      "arm": "V",
+      "loss_before": 7.210629973997129e-06,
+      "loss_after": 0.0009050254011526704,
+      "gradient_norm": 0.002249948418061588,
+      "gradient_groups": {
+        "A": 0.0,
+        "B": 2.6795602028400093e-05,
+        "MLP": 0.0022497888522369776
+      },
+      "gradient_parameters": {
+        "transformer_layers.10.global_qkv_proj.A": {
+          "finite": true,
+          "nonzero": 0,
+          "size": 4096
+        },
+        "transformer_layers.10.global_qkv_proj.B": {
+          "finite": true,
+          "nonzero": 8170,
+          "size": 12288
+        },
+        "transformer_layers.10.global_out_proj.A": {
+          "finite": true,
+          "nonzero": 0,
+          "size": 4096
+        },
+        "transformer_layers.10.global_out_proj.B": {
+          "finite": true,
+          "nonzero": 4096,
+          "size": 4096
+        },
+        "transformer_layers.11.global_qkv_proj.A": {
+          "finite": true,
+          "nonzero": 0,
+          "size": 4096
+        },
+        "transformer_layers.11.global_qkv_proj.B": {
+          "finite": true,
+          "nonzero": 10836,
+          "size": 12288
+        },
+        "transformer_layers.11.global_out_proj.A": {
+          "finite": true,
+          "nonzero": 0,
+          "size": 4096
+        },
+        "transformer_layers.11.global_out_proj.B": {
+          "finite": true,
+          "nonzero": 4096,
+          "size": 4096
+        },
+        "final_mlp.0.weight": {
+          "finite": true,
+          "nonzero": 262144,
+          "size": 262144
+        },
+        "final_mlp.0.bias": {
+          "finite": true,
+          "nonzero": 512,
+          "size": 512
+        },
+        "final_mlp.2.weight": {
+          "finite": true,
+          "nonzero": 131072,
+          "size": 131072
+        },
+        "final_mlp.2.bias": {
+          "finite": true,
+          "nonzero": 256,
+          "size": 256
+        },
+        "final_mlp.4.weight": {
+          "finite": true,
+          "nonzero": 768,
+          "size": 768
+        }
+      },
+      "clip1_counterfactual": 1.0,
+      "clipping_applied": false,
+      "backward_multiplier": 1024.0,
+      "analytic": 6.287874566623941e-05,
+      "finite_difference": 6.287882570177317e-05,
+      "FD_delta": 8.003553375601768e-11,
+      "parameter_changes": {
+        "norms": {
+          "A": 0.0,
+          "B": 0.011510038318099625,
+          "MLP": 0.0591841465772688
+        },
+        "parameters": {
+          "transformer_layers.10.global_qkv_proj.A": {
+            "nonzero": 0,
+            "max_abs": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj.B": {
+            "nonzero": 8170,
+            "max_abs": 9.990184480557218e-05
+          },
+          "transformer_layers.10.global_out_proj.A": {
+            "nonzero": 0,
+            "max_abs": 0.0
+          },
+          "transformer_layers.10.global_out_proj.B": {
+            "nonzero": 4096,
+            "max_abs": 9.885190956993029e-05
+          },
+          "transformer_layers.11.global_qkv_proj.A": {
+            "nonzero": 0,
+            "max_abs": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.B": {
+            "nonzero": 10836,
+            "max_abs": 9.932158718584105e-05
+          },
+          "transformer_layers.11.global_out_proj.A": {
+            "nonzero": 0,
+            "max_abs": 0.0
+          },
+          "transformer_layers.11.global_out_proj.B": {
+            "nonzero": 4096,
+            "max_abs": 9.901917655952275e-05
+          },
+          "final_mlp.0.weight": {
+            "nonzero": 262144,
+            "max_abs": 9.998399764299393e-05
+          },
+          "final_mlp.0.bias": {
+            "nonzero": 512,
+            "max_abs": 9.976513683795929e-05
+          },
+          "final_mlp.2.weight": {
+            "nonzero": 131072,
+            "max_abs": 9.99942421913147e-05
+          },
+          "final_mlp.2.bias": {
+            "nonzero": 256,
+            "max_abs": 9.997189044952393e-05
+          },
+          "final_mlp.4.weight": {
+            "nonzero": 768,
+            "max_abs": 0.00010000169277191162
+          }
+        },
+        "max_abs": 0.00010000169277191162
+      },
+      "tests": {
+        "finite_gradient": true,
+        "A_zero_at_B0": true,
+        "each_B_active": true,
+        "MLP_active": true,
+        "output_weight_FD": true,
+        "each_B_changes": true,
+        "MLP_changes": true,
+        "A_unchanged": true,
+        "finite_step": true,
+        "bounded_step": true,
+        "loss_decreases": false
+      },
+      "passed": false,
+      "optimizer_probe_calls": 1,
+      "retained_updates": 0,
+      "parameters_restored_byteexact": true,
+      "forward": "cache"
+    },
+    {
+      "arm": "P",
+      "loss_before": 198.48916069256828,
+      "loss_after": 384.97443963232786,
+      "gradient_norm": 30983.083112790315,
+      "gradient_groups": {
+        "A": 0.0,
+        "B": 864.415380993116,
+        "MLP": 30971.022347077516
+      },
+      "gradient_parameters": {
+        "transformer_layers.10.global_qkv_proj.A": {
+          "finite": true,
+          "nonzero": 0,
+          "size": 4096
+        },
+        "transformer_layers.10.global_qkv_proj.B": {
+          "finite": true,
+          "nonzero": 8745,
+          "size": 12288
+        },
+        "transformer_layers.10.global_out_proj.A": {
+          "finite": true,
+          "nonzero": 0,
+          "size": 4096
+        },
+        "transformer_layers.10.global_out_proj.B": {
+          "finite": true,
+          "nonzero": 4096,
+          "size": 4096
+        },
+        "transformer_layers.11.global_qkv_proj.A": {
+          "finite": true,
+          "nonzero": 0,
+          "size": 4096
+        },
+        "transformer_layers.11.global_qkv_proj.B": {
+          "finite": true,
+          "nonzero": 11264,
+          "size": 12288
+        },
+        "transformer_layers.11.global_out_proj.A": {
+          "finite": true,
+          "nonzero": 0,
+          "size": 4096
+        },
+        "transformer_layers.11.global_out_proj.B": {
+          "finite": true,
+          "nonzero": 4096,
+          "size": 4096
+        },
+        "final_mlp.0.weight": {
+          "finite": true,
+          "nonzero": 262144,
+          "size": 262144
+        },
+        "final_mlp.0.bias": {
+          "finite": true,
+          "nonzero": 512,
+          "size": 512
+        },
+        "final_mlp.2.weight": {
+          "finite": true,
+          "nonzero": 131072,
+          "size": 131072
+        },
+        "final_mlp.2.bias": {
+          "finite": true,
+          "nonzero": 256,
+          "size": 256
+        },
+        "final_mlp.4.weight": {
+          "finite": true,
+          "nonzero": 768,
+          "size": 768
+        }
+      },
+      "clip1_counterfactual": 3.2275677548280656e-05,
+      "clipping_applied": false,
+      "backward_multiplier": 0.0009765625,
+      "analytic": 979.94921875,
+      "finite_difference": 980.013986533919,
+      "FD_delta": 0.06476778391902371,
+      "parameter_changes": {
+        "norms": {
+          "A": 0.0,
+          "B": 0.01679311517518477,
+          "MLP": 0.06282936331611834
+        },
+        "parameters": {
+          "transformer_layers.10.global_qkv_proj.A": {
+            "nonzero": 0,
+            "max_abs": 0.0
+          },
+          "transformer_layers.10.global_qkv_proj.B": {
+            "nonzero": 8745,
+            "max_abs": 0.00010000001202570274
+          },
+          "transformer_layers.10.global_out_proj.A": {
+            "nonzero": 0,
+            "max_abs": 0.0
+          },
+          "transformer_layers.10.global_out_proj.B": {
+            "nonzero": 4096,
+            "max_abs": 0.00010000001202570274
+          },
+          "transformer_layers.11.global_qkv_proj.A": {
+            "nonzero": 0,
+            "max_abs": 0.0
+          },
+          "transformer_layers.11.global_qkv_proj.B": {
+            "nonzero": 11264,
+            "max_abs": 0.00010000001202570274
+          },
+          "transformer_layers.11.global_out_proj.A": {
+            "nonzero": 0,
+            "max_abs": 0.0
+          },
+          "transformer_layers.11.global_out_proj.B": {
+            "nonzero": 4096,
+            "max_abs": 0.00010000001202570274
+          },
+          "final_mlp.0.weight": {
+            "nonzero": 262144,
+            "max_abs": 0.00010000169277191162
+          },
+          "final_mlp.0.bias": {
+            "nonzero": 512,
+            "max_abs": 0.00010000169277191162
+          },
+          "final_mlp.2.weight": {
+            "nonzero": 131072,
+            "max_abs": 0.00010001659393310547
+          },
+          "final_mlp.2.bias": {
+            "nonzero": 256,
+            "max_abs": 0.00010000169277191162
+          },
+          "final_mlp.4.weight": {
+            "nonzero": 768,
+            "max_abs": 0.00010000169277191162
+          }
+        },
+        "max_abs": 0.00010001659393310547
+      },
+      "tests": {
+        "finite_gradient": true,
+        "A_zero_at_B0": true,
+        "each_B_active": true,
+        "MLP_active": true,
+        "output_weight_FD": true,
+        "each_B_changes": true,
+        "MLP_changes": true,
+        "A_unchanged": true,
+        "finite_step": true,
+        "bounded_step": true,
+        "loss_decreases": false
+      },
+      "passed": false,
+      "optimizer_probe_calls": 1,
+      "retained_updates": 0,
+      "parameters_restored_byteexact": true,
+      "forward": "cache"
+    }
+  ],
+  "optimizer_probe_calls": 2,
+  "retained_updates": 0,
+  "initial_cache_full_delta": 0.0,
+  "checkpoint": {
+    "strict": true,
+    "keys": 344,
+    "weights_only": true,
+    "allowed": [
+      "builtins.dict",
+      "builtins.int",
+      "builtins.list",
+      "collections.defaultdict",
+      "numpy._core.multiarray._reconstruct",
+      "numpy.dtype",
+      "numpy.ndarray",
+      "omegaconf.base.ContainerMetadata",
+      "omegaconf.base.Metadata",
+      "omegaconf.listconfig.ListConfig",
+      "omegaconf.nodes.AnyNode",
+      "typing.Any"
+    ],
+    "descriptor_loaded": false
+  },
+  "frozen_sha256": "50d4c63f8dfcf749b48717a0141b9ca99ba054e4bdd2c2d5cb1109730e217c98"
+}

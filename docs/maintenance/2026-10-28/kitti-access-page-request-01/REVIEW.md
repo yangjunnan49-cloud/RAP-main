@@ -1,0 +1,7 @@
+# Concrete source-only action for owner review
+
+The saved official page's exact published download destination is user_login.php. A single anonymous main-HTML read can clarify the next access dependency without signing in or acquiring data. The source rule is AUTHENTICATION_DEPENDENCIES.md: "Before external retrieval, the owner must separately authorize the source, objects, storage/network/compute envelope and permitted read/verification task." The earlier eval_odometry.php approval covers a different object and is not reused here.
+
+Request limits: exact URL and same-path HTTPS redirects only,4 requests total,256KiB cumulative application body,60s worker/120s full transport,128MiB worker,2MiB dossier,900s complete source scope including180s closure reserve; fresh12GiB headroom/query<=2s. No retries, cookie/header reuse, browser session, credential discovery, form submission, script execution, linked page or archive. HTML form field names and published prose may be read as text; values are not supplied or submitted. Stop on a new path/host redirect, TLS failure, MIME/body/resource/deadline violation or account requirement.
+
+Transport source is derived from the already successful KCS1 fixed-page worker with only the exact URL/path constants changed. No transport run is authorized by its preparation or by static source validation. A later exact human answer must be captured before binding AUTHORIZATION.json and the final SOURCE_FREEZE.json. There is no pending automatic launch.

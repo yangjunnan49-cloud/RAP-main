@@ -1,0 +1,76 @@
+{
+  "account": {
+    "ordinaryUsageAllowed": true,
+    "rateLimits": {
+      "limitId": "codex",
+      "limitName": null,
+      "normalModelSlug": null,
+      "primary": {
+        "usedPercent": 8,
+        "windowDurationMins": 300,
+        "resetsAt": 1792254347
+      },
+      "secondary": {
+        "usedPercent": 81,
+        "windowDurationMins": 10080,
+        "resetsAt": 1792652445
+      },
+      "credits": {
+        "hasCredits": false,
+        "unlimited": false,
+        "balance": "0"
+      },
+      "individualLimit": null,
+      "spendControlReached": false,
+      "planType": "plus",
+      "rateLimitReachedType": null
+    },
+    "rateLimitsByLimitId": {
+      "codex": {
+        "limitId": "codex",
+        "limitName": null,
+        "normalModelSlug": null,
+        "primary": {
+          "usedPercent": 8,
+          "windowDurationMins": 300,
+          "resetsAt": 1792254347
+        },
+        "secondary": {
+          "usedPercent": 81,
+          "windowDurationMins": 10080,
+          "resetsAt": 1792652445
+        },
+        "credits": {
+          "hasCredits": false,
+          "unlimited": false,
+          "balance": "0"
+        },
+        "individualLimit": null,
+        "spendControlReached": false,
+        "planType": "plus",
+        "rateLimitReachedType": null
+      }
+    },
+    "rateLimitResetCredits": {
+      "availableCount": 0,
+      "credits": []
+    },
+    "accountId": "c7417a4a-8e36-4557-ad82-db6960af98e6",
+    "rateLimitUpsell": null
+  },
+  "following_account_clock_UTC": "2026-10-17 12:19:36 UTC",
+  "resource": {
+    "utc": "2026-10-17T12:19:34.9819310Z",
+    "committed_bytes": 87325163520,
+    "commit_limit_bytes": 137269444608,
+    "headroom_bytes": 49944281088,
+    "required_bytes": 12884901888
+  },
+  "source_check": {
+    "utc": "2026-10-17T12:19:49.5388591Z",
+    "matched_source_bindings": 19,
+    "absent_stage_paths": 5
+  },
+  "C0_original_charged_seconds": 2.1993678,
+  "C0_remaining_before_restart": 897.8006322
+}

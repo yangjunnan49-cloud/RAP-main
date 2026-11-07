@@ -1,0 +1,21 @@
+{
+  "manifest_documents": 1071,
+  "document_status": {
+    "no_supported_file_hash_claims": 258,
+    "hash_claims_found": 813
+  },
+  "file_hash_claims": 225390,
+  "claim_status": {
+    "match_at_recorded_resolution": 217826,
+    "recorded_path_unresolved_but_exact_bytes_preserved": 6397,
+    "exact_historical_bytes_recovered": 18,
+    "recorded_path_differs_but_exact_bytes_preserved": 52,
+    "expected_negative_control_digest_mismatch": 1,
+    "recorded_path_unresolved_no_exact_copy_in_scope": 1073,
+    "recorded_current_bytes_differ_no_exact_copy_in_scope": 19,
+    "referenced_external_runtime_matches": 3,
+    "historical_external_runtime_changed": 1
+  },
+  "protected_assets_from_claims": 54254,
+  "scope_limit": "Supported path+sha256 records in selected manifest/seal/freeze/proof/registry JSON; arbitrary dynamic validators not executed; PGC1 opaque tree excluded from semantic parsing."
+}

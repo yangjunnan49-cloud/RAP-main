@@ -1,0 +1,96 @@
+{
+  "task": "cross-visit-map-pilot-01",
+  "status": "VALIDATED_EXPLORATORY_COMPLETE_WITH_IMPLEMENTATION_REPAIR",
+  "decision": "NO_FULL_POSE_CROSS_VISIT_CONJUNCTION",
+  "owner_authorization": "\u6267\u884c\u4e0b\u4e00\u8f6e\u65b9\u6848",
+  "primary_scientific_attempt": "attempt-02",
+  "original_preflight_failure_preserved": true,
+  "original_INCOMPLETE_preserved": true,
+  "original_freeze_entries": 51,
+  "retry_freeze_entries": 67,
+  "scans": 16,
+  "retained_points": 96000,
+  "cross_visit_patches": 216,
+  "train_patches": 163,
+  "holdout_patches": 53,
+  "all_supported": true,
+  "comparisons": {
+    "FvsB": {
+      "valid": true,
+      "denominators_positive": true,
+      "joint_ate_gain": 0.05344245242711709,
+      "endpoint_translation_gain": 0.07955385766497503,
+      "endpoint_rotation_regression_deg": 0.026465535239147964,
+      "visit_changes": {
+        "A": {
+          "ate_gain": 0.0,
+          "translation_gain": 0.0,
+          "rotation_regression_deg": 0.0
+        },
+        "B": {
+          "ate_gain": -2.729372283738485e-12,
+          "translation_gain": -3.751887689418254e-12,
+          "rotation_regression_deg": -8.049116928532385e-16
+        }
+      },
+      "visit_safety": true,
+      "holdout_rms_ratio": 0.986665735801225,
+      "holdout_safety": true,
+      "eligible": false
+    },
+    "JvsB": {
+      "valid": true,
+      "denominators_positive": true,
+      "joint_ate_gain": 0.05643711335928936,
+      "endpoint_translation_gain": 0.08204686390744098,
+      "endpoint_rotation_regression_deg": 0.030760017572118048,
+      "visit_changes": {
+        "A": {
+          "ate_gain": 0.03275622736218986,
+          "translation_gain": 0.00441237084252033,
+          "rotation_regression_deg": -0.0024953160702471666
+        },
+        "B": {
+          "ate_gain": 0.004354217340500788,
+          "translation_gain": -0.007916337834051657,
+          "rotation_regression_deg": 0.0017052645014497547
+        }
+      },
+      "visit_safety": true,
+      "holdout_rms_ratio": 0.9830991550407924,
+      "holdout_safety": true,
+      "eligible": false
+    },
+    "JvsF": {
+      "valid": true,
+      "denominators_positive": true,
+      "joint_ate_gain": 0.0031637388977047154,
+      "endpoint_translation_gain": 0.0027084759529130142,
+      "endpoint_rotation_regression_deg": 0.004294482332970084,
+      "visit_changes": {
+        "A": {
+          "ate_gain": 0.03275622736218986,
+          "translation_gain": 0.00441237084252033,
+          "rotation_regression_deg": -0.0024953160702471666
+        },
+        "B": {
+          "ate_gain": 0.004354217343218392,
+          "translation_gain": -0.007916337830270015,
+          "rotation_regression_deg": 0.0017052645014505596
+        }
+      },
+      "visit_safety": true,
+      "holdout_rms_ratio": 0.9963852187919181,
+      "holdout_safety": true,
+      "eligible": false
+    }
+  },
+  "research_finding": "PARTIAL_RIGID_TRANSLATION_ATE_SIGNAL_WITH_ROTATION_TRADEOFF",
+  "internal_pose_value_established": false,
+  "whole_system_or_independent_gain": false,
+  "next_fixed_rotation_translation_design_only": true,
+  "new_cohort_or_arm_executed": false,
+  "full_optimizer_replay": false,
+  "official_GT_metrics_changed": false,
+  "new_model_training_RAP_inference": false
+}

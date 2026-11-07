@@ -1,0 +1,3 @@
+# PR1 finite baseline complete
+
+Read REPORT.md/STATUS.json/RESOURCE_AUDIT.json/DELIVERY_SEAL.json. All200 predictions sealed before reference evaluation and independently audited.17 numerical metric-camera poses/all00;08zero;183noevidence. All17 in frozen5deg/2m bin, denominator200; meanR0.623331734deg/t0.664157493m has denominator17. Source-depth hypotheses remain unverified correspondences, no physical scale/corrected-LiDAR/RAP claim.23 prospective controls passed. No retries or model/training. No pending worker or automatic resume; do not rerun closed hosts. All old failures/caps remain; researchUNRESOLVED/manuscriptPAUSED. Current owner/account continuation is separate in project-continuation-03.

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "accept_reject_failure_all_logged_and_duplicate_attempts_unique",
+    "multigen_selected_transform_metrics_label_and_ID_match",
+    "partial_generation_retained_after_later_failure",
+    "invalid_transform_logged_and_not_accepted",
+    "evidence_write_failure_is_fatal",
+    "selected_metrics_mismatch_is_fatal",
+    "existing_log_rejected",
+    "legacy_call_without_recorder_still_works"
+  ]
+}

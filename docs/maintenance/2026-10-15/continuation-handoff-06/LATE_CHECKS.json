@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "independent_verification": {
+    "new_scientific_or_network_payload_calls": 0,
+    "utc": "2026-10-15T01:58:13.5923501Z",
+    "retained_markers": 10,
+    "frozen_available_delivery_paths": 552,
+    "successes": 14,
+    "enclosing_exit_receipts": 17,
+    "handoff_entries": 12,
+    "passed": true,
+    "ordinary_preparation_RSS": "UNKNOWN",
+    "total_Linux_child_seconds": 118.19910964992596,
+    "retained_failures": 3,
+    "total_Windows_seconds": 159.60396690000005,
+    "independent_Windows_SHA256_and_sizes": true,
+    "repositories": {
+      "slam": {
+        "tracked_status": [
+          "M rap_slam/loop_closure.py",
+          " M rap_slam/odometry.py",
+          " M rap_slam/pose_graph.py",
+          " M rap_slam/rap_backend.py",
+          " M rap_slam/real_dataset.py",
+          " M scripts/build_s1_features.py",
+          " M scripts/eval_map_consistency.py",
+          " M scripts/eval_paper_metrics.py",
+          " M scripts/run_pipeline.py"
+        ],
+        "branch": "codex/e0-f1-20260926",
+        "head": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6"
+      },
+      "main": {
+        "tracked_status": [
+          "M .gitignore",
+          " M AGENTS.md"
+        ],
+        "branch": "codex/meeting-20260930",
+        "head": "4055d929c594b0033aafc6eed339c910369eef55"
+      }
+    }
+  },
+  "independent_catalog_verification": {
+    "physical_scene_or_all_history_absence_claim": false,
+    "revision": "c8deb301b32bb887acd48371ae93221251a056b5",
+    "ordinary_preparation_RSS": "UNKNOWN",
+    "admitted_requests": 9,
+    "nonLFS_size_matches": 0,
+    "catalog_point_files": 3243,
+    "catalog_unique_entries": 4577,
+    "requests": 10,
+    "independent_Windows_reconstruction": true,
+    "new_network_point_model_pose_or_metric_calls": 0,
+    "passed": true,
+    "LFS_SHA256_point_files": 3215,
+    "nonLFS_point_files": 28,
+    "LFS_exact_matches": 0,
+    "utc": "2026-10-15T01:59:24.6153525Z",
+    "local_file_denominator": 156,
+    "acquired_body_bytes": 1273695
+  },
+  "Python_snapshot_AST_checks": 56,
+  "no_new_scientific_or_network_payload": true,
+  "ordinary_preparation_RSS": "UNKNOWN",
+  "original_12_entry_handoff_seal_not_modified": true
+}

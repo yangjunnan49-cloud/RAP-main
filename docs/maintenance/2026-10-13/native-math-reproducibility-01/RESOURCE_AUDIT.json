@@ -1,0 +1,137 @@
+{
+  "passed": true,
+  "scientific_children": 4,
+  "combined_seconds": 161.3718568089971,
+  "peak_RSS_bytes": 3171844096,
+  "peak_GPU_allocated_bytes": 2080926720,
+  "peak_GPU_reserved_bytes": 2287992832,
+  "imports_included": true,
+  "full_child_and_Windows_exits": true,
+  "logging_retries": 0,
+  "logging_gaps": 0,
+  "receipts": [
+    {
+      "stage": "freeze",
+      "child": {
+        "utc": "2026-10-13T01:40:39.058834+00:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 8.434243435003737,
+        "peak_RSS_bytes": 23826432,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 163271,
+        "optimizer_calls": 0,
+        "imports_included_in_time": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:40:39.1985634Z",
+        "wall_seconds": 10.9643457,
+        "host_memory_observations": 14,
+        "minimum_observed_headroom_bytes": 94466514944.0
+      },
+      "launch": {
+        "pid": 40104,
+        "utc_start": "2026-10-13T01:40:28.2342177Z",
+        "script": "scripts/maintenance/native_math_reproducibility.py",
+        "stage": "freeze",
+        "headroom_before_bytes": 95881998336
+      }
+    },
+    {
+      "stage": "diagnose",
+      "child": {
+        "utc": "2026-10-13T01:42:05.594602+00:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 72.11766498799989,
+        "peak_RSS_bytes": 3171844096,
+        "peak_GPU_allocated_bytes": 2080926720,
+        "peak_GPU_reserved_bytes": 2287992832,
+        "artifact_bytes": 436609855,
+        "optimizer_calls": 0,
+        "imports_included_in_time": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:42:07.3397358Z",
+        "wall_seconds": 75.6736605,
+        "host_memory_observations": 97,
+        "minimum_observed_headroom_bytes": 86275473408.0
+      },
+      "launch": {
+        "pid": 38204,
+        "utc_start": "2026-10-13T01:40:51.6660753Z",
+        "script": "scripts/maintenance/native_math_reproducibility.py",
+        "stage": "diagnose",
+        "headroom_before_bytes": 94492348416
+      }
+    },
+    {
+      "stage": "directions",
+      "child": {
+        "utc": "2026-10-13T01:42:43.264087+00:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 25.89197683499515,
+        "peak_RSS_bytes": 2841411584,
+        "peak_GPU_allocated_bytes": 1057406976,
+        "peak_GPU_reserved_bytes": 1126170624,
+        "artifact_bytes": 484635759,
+        "optimizer_calls": 0,
+        "imports_included_in_time": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:42:44.1194362Z",
+        "wall_seconds": 28.1174544,
+        "host_memory_observations": 36,
+        "minimum_observed_headroom_bytes": 88043630592.0
+      },
+      "launch": {
+        "pid": 42956,
+        "utc_start": "2026-10-13T01:42:16.0019818Z",
+        "script": "scripts/maintenance/native_math_reproducibility.py",
+        "stage": "directions",
+        "headroom_before_bytes": 89189224448
+      }
+    },
+    {
+      "stage": "validate",
+      "child": {
+        "utc": "2026-10-13T01:43:50.433724+00:00",
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 54.927971550998336,
+        "peak_RSS_bytes": 433041408,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 484708973,
+        "optimizer_calls": 0,
+        "imports_included_in_time": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:43:50.7181230Z",
+        "wall_seconds": 57.5235106,
+        "host_memory_observations": 74,
+        "minimum_observed_headroom_bytes": 89566367744.0
+      },
+      "launch": {
+        "pid": 6644,
+        "utc_start": "2026-10-13T01:42:53.1946124Z",
+        "script": "scripts/maintenance/native_math_reproducibility.py",
+        "stage": "validate",
+        "headroom_before_bytes": 89667481600
+      }
+    }
+  ],
+  "old_caps_and_gaps_unchanged": true,
+  "setup_RSS_unknown": true,
+  "bookkeeping_separate": true
+}

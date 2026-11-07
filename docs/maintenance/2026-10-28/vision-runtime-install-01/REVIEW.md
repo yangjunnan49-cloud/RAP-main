@@ -1,0 +1,9 @@
+# Concrete isolated classical-vision runtime proposal
+
+Official metadata identifies one compatible current Windows wheel opencv_python_headless-5.0.0.93-cp37-abi3-win_amd64.whl,43825962bytes,SHA256829717b6a95554f273e49e357cee3b3a2a26b6f4842fbc1bed2b45bdd8f87e0e. Exact immutable files.pythonhosted.org URL is in REQUEST_PLAN.json. Active dependency numpy>=2 is already satisfied by bundled NumPy2.3.5; do not download/change NumPy or resolve dependencies. Current5.x API capability is not assumed: probe actual required APIs before method admission.
+
+Download exactly this one object with TLS verification/identity encoding, no redirects/retries/cookies. Require declared exact length, streamed SHA256, wheel path/count/uncompressed-size safety before installation. Install offline only into this new dossier's site-packages using --no-index --no-deps --no-compile --no-cache-dir --target. Use a dossier-local temporary directory; no existing environment/PATH/default/production changes. Base Python explicitly inserts this target only for the approved API probe or a future separately frozen experiment; no persistent activation.
+
+Limits:120s worker/180s complete download,180s install,60s probe,1GiB per process/1GiB complete dossier,1200s inclusive scope with180s closure reserve, fresh12GiB/query<=2s before stages. Probe only version/origin and classical SIFT/ORB/matcher/PnP/essential APIs/documentation, single CPU thread and OpenCL off; no images/models/features/solver/training/GPU. Save all failures; no automatic version/dependency/threshold fallback.
+
+The current exact metadata-only authorization does not authorize this new wheel object, installation or code import. AUTHENTICATION_DEPENDENCIES.md requires separate object/envelope/task permission, and current handoff excludes automatic package selection/install. The complete concrete action is prepared for a human decision; nothing launches automatically.

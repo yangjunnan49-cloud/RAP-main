@@ -1,0 +1,113 @@
+{
+  "selection_recomputed": true,
+  "sequences": [
+    {
+      "sequence": "poss",
+      "common": 4,
+      "added": 0,
+      "removed": 0,
+      "common_transform_max_abs_delta": 0.0,
+      "baseline": {
+        "n": 4,
+        "gt_translation_error_m": 0.3993058631734958,
+        "gt_rotation_error_deg": 0.25542099437213733
+      },
+      "balanced": {
+        "n": 4,
+        "gt_translation_error_m": 0.3993058631734958,
+        "gt_rotation_error_deg": 0.25542099437213733
+      },
+      "added_measurements": {
+        "n": 0,
+        "gt_translation_error_m": null,
+        "gt_rotation_error_deg": null
+      },
+      "removed_measurements": {
+        "n": 0,
+        "gt_translation_error_m": null,
+        "gt_rotation_error_deg": null
+      }
+    },
+    {
+      "sequence": "kitti06",
+      "common": 8,
+      "added": 4,
+      "removed": 4,
+      "common_transform_max_abs_delta": 0.05046567192636653,
+      "baseline": {
+        "n": 12,
+        "gt_translation_error_m": 0.06745690224007153,
+        "gt_rotation_error_deg": 0.10098832596846863
+      },
+      "balanced": {
+        "n": 12,
+        "gt_translation_error_m": 0.0651460020999246,
+        "gt_rotation_error_deg": 0.09961502458722453
+      },
+      "added_measurements": {
+        "n": 4,
+        "gt_translation_error_m": 0.029512844303852648,
+        "gt_rotation_error_deg": 0.17035403980506414
+      },
+      "removed_measurements": {
+        "n": 4,
+        "gt_translation_error_m": 0.06057992862087197,
+        "gt_rotation_error_deg": 0.11156057445934578
+      }
+    },
+    {
+      "sequence": "kitti05",
+      "common": 8,
+      "added": 4,
+      "removed": 4,
+      "common_transform_max_abs_delta": 0.01835089031398085,
+      "baseline": {
+        "n": 12,
+        "gt_translation_error_m": 0.08584638819260651,
+        "gt_rotation_error_deg": 0.14007662645460617
+      },
+      "balanced": {
+        "n": 12,
+        "gt_translation_error_m": 0.09753752391752638,
+        "gt_rotation_error_deg": 0.15577017649497465
+      },
+      "added_measurements": {
+        "n": 4,
+        "gt_translation_error_m": 0.18399907450766198,
+        "gt_rotation_error_deg": 0.13962946762769454
+      },
+      "removed_measurements": {
+        "n": 4,
+        "gt_translation_error_m": 0.1457845765562239,
+        "gt_rotation_error_deg": 0.09297315476721707
+      }
+    },
+    {
+      "sequence": "kitti00",
+      "common": 6,
+      "added": 6,
+      "removed": 6,
+      "common_transform_max_abs_delta": 0.0,
+      "baseline": {
+        "n": 12,
+        "gt_translation_error_m": 0.8756915620580923,
+        "gt_rotation_error_deg": 0.19056325236354146
+      },
+      "balanced": {
+        "n": 12,
+        "gt_translation_error_m": 0.8207592238633139,
+        "gt_rotation_error_deg": 0.2601454142246971
+      },
+      "added_measurements": {
+        "n": 6,
+        "gt_translation_error_m": 0.7184812378366636,
+        "gt_rotation_error_deg": 0.6932910565846468
+      },
+      "removed_measurements": {
+        "n": 6,
+        "gt_translation_error_m": 0.9954159714912368,
+        "gt_rotation_error_deg": 0.2827533691994234
+      }
+    }
+  ]
+}

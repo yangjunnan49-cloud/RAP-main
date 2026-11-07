@@ -1,0 +1,55 @@
+[
+  {
+    "stage": "freeze",
+    "success": true,
+    "utc": "2026-10-10T13:32:23.991184+00:00",
+    "wall_seconds": 3.0659637809731066,
+    "peak_RSS_bytes": 543002624,
+    "peak_GPU_allocated_bytes": 0,
+    "peak_GPU_reserved_bytes": 0,
+    "artifact_bytes": 76586
+  },
+  {
+    "stage": "prepare",
+    "success": false,
+    "utc": "2026-10-10T13:32:51.752359+00:00",
+    "wall_seconds": 1.4939210782758892,
+    "peak_RSS_bytes": 506310656,
+    "peak_GPU_allocated_bytes": 0,
+    "peak_GPU_reserved_bytes": 0,
+    "artifact_bytes": 76859,
+    "error": "AssertionError()"
+  },
+  {
+    "stage": "preflight",
+    "success": false,
+    "utc": "2026-10-10T13:32:59.217912+00:00",
+    "wall_seconds": 1.3824536190368235,
+    "peak_RSS_bytes": 510251008,
+    "peak_GPU_allocated_bytes": 0,
+    "peak_GPU_reserved_bytes": 0,
+    "artifact_bytes": 77384,
+    "error": "AssertionError()"
+  },
+  {
+    "stage": "math_and_noise",
+    "success": true,
+    "utc": "2026-10-10T13:33:29.597300+00:00",
+    "wall_seconds": 4.147078156005591,
+    "peak_RSS_bytes": 674684928,
+    "peak_GPU_allocated_bytes": 36352,
+    "peak_GPU_reserved_bytes": 2097152,
+    "artifact_bytes": 1521309
+  },
+  {
+    "stage": "preflight",
+    "success": false,
+    "utc": "2026-10-10T13:36:37.015800+00:00",
+    "wall_seconds": 6.151502650000001,
+    "peak_RSS_bytes": 1851199488,
+    "peak_GPU_allocated_bytes": 345046528,
+    "peak_GPU_reserved_bytes": 360710144,
+    "artifact_bytes": 1522137,
+    "error": "FileExistsError(17, 'File exists')"
+  }
+]

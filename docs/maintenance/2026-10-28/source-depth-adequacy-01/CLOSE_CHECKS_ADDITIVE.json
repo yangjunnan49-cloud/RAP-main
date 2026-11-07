@@ -1,0 +1,56 @@
+{
+  "utc": "2026-10-28T12:35:36.168310+00:00",
+  "primary_end_utc": "2026-10-28T07:35:22.412405+00:00",
+  "primary_inclusive_seconds_to_final_audit_seal": 457.412405,
+  "primary_cap_seconds": 1800,
+  "primary_cap_pass": true,
+  "later_documentary_additive_separate_from_primary": true,
+  "successful_receipts": [
+    {
+      "stage": "controls_runtime02",
+      "exit_utc": "2026-10-28T07:32:43.6701329+00:00",
+      "host_poll_peak_bytes": 35454976,
+      "error": null,
+      "elapsed_seconds": 0.3897241,
+      "child_lifetime_peak_bytes": 38051840,
+      "exit_code": 0,
+      "forced_stop": false,
+      "passed": true,
+      "no_live_owned_process": true
+    },
+    {
+      "stage": "features",
+      "error": null,
+      "child_lifetime_peak_bytes": 63053824,
+      "exit_utc": "2026-10-28T07:33:11.9965011+00:00",
+      "elapsed_seconds": 6.3623985,
+      "no_live_owned_process": true,
+      "passed": true,
+      "exit_code": 0,
+      "forced_stop": false,
+      "host_poll_peak_bytes": 63053824
+    },
+    {
+      "stage": "audit",
+      "exit_utc": "2026-10-28T07:35:22.3988032+00:00",
+      "no_live_owned_process": true,
+      "forced_stop": false,
+      "elapsed_seconds": 1.0599203,
+      "child_lifetime_peak_bytes": 45613056,
+      "host_poll_peak_bytes": 45613056,
+      "error": null,
+      "passed": true,
+      "exit_code": 0
+    }
+  ],
+  "original_control_child_exit_code": "NOT_RECORDED",
+  "original_control_final_host_receipt": "MISSING_JSON_PARSE_FAILURE",
+  "original_control_outer_wall_seconds_charged": 1.1237349,
+  "blocked_data_precheck_outer_seconds": 0.3570315,
+  "current_dossier_bytes": 1260579,
+  "dossier_cap_bytes": 16777216,
+  "scoped_original_PID_absent_at_later_check": true,
+  "protocol_deviation": "Required rank fixtures omitted before primary; added4 fixtures only in post-primary audit",
+  "PnP_or_new_pose_calls": 0,
+  "reference_pose_reads": 0
+}

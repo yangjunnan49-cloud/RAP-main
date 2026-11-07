@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "discovery_freeze_unchanged": true,
+  "data_freeze_unchanged": true,
+  "roles": {
+    "discovery": {
+      "hypotheses": 400,
+      "valid": 400,
+      "failed_or_invalid": 0,
+      "valid_support": 400,
+      "max_orthogonality": 2.779158594923281e-06
+    },
+    "confirmation": {
+      "hypotheses": 400,
+      "valid": 400,
+      "failed_or_invalid": 0,
+      "valid_support": 400,
+      "max_orthogonality": 2.830647824692001e-06
+    }
+  },
+  "scope": "All800 seeds, identities, transforms, support combinations, bank hashes and independent metrics verified",
+  "source_sha256": {
+    "/mnt/e/githouse/RAP-SLAM/scripts/hl_v2_bank.py": "5247e8571c493141c9b76343d7118b92ca8ae806df3f95872d326e31c636a836",
+    "/mnt/e/githouse/RAP-SLAM/scripts/evaluate_hl_v2.py": "5b0fa15bd588fe0d8ea9c0fe29cf6dd827ab072fe60e7e00cfa9cec9afc76898",
+    "/mnt/e/githouse/RAP-SLAM/scripts/validate_hl_v2_results.py": "d4168177f3eca30f2b23c84dc7fe6d85d6683c0a621e4ee11069b90f214ae958",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/finalize_hl_v2.py": "563868457acc0b09e43b168a855fd23675febd334a71724006e7ba5dadd95d35"
+  }
+}

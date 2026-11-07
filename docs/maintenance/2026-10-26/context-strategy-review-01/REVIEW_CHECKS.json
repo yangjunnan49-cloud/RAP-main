@@ -1,0 +1,455 @@
+{
+  "utc": "2026-10-26T02:22:22.4552159+00:00",
+  "local_date": "2026-10-26",
+  "timezone": "Asia/Shanghai",
+  "status": "DOCUMENTARY_CONTEXT_AND_STRATEGY_REVIEW_COMPLETE",
+  "scientific_execution": false,
+  "new_experiment_authorized_or_pending": false,
+  "selected_SR1_seal_entries": [
+    {
+      "path": "REPORT.md",
+      "bytes": 3480,
+      "sha256": "c4c1bea5180e429e8c6ca53bccf08beeb5c4262d11f1960c75c9e58b28e945f0",
+      "matches": true
+    },
+    {
+      "path": "STATUS.json",
+      "bytes": 436,
+      "sha256": "4da250fe2df0f003fe2084ccfb2249bff1f89a9d5bfc8d3dafbec55a5a0babc5",
+      "matches": true
+    },
+    {
+      "path": "RESOURCE_AUDIT.json",
+      "bytes": 5343,
+      "sha256": "45c60159be776be51c1f05eebf45ad60f02dffaf89692d082c70befeb8523c99",
+      "matches": true
+    },
+    {
+      "path": "results.json",
+      "bytes": 46931,
+      "sha256": "80101f0b5e022bd26f3d03a51d6af6c7de615cb043d2be5fb879ef35f01d9059",
+      "matches": true
+    },
+    {
+      "path": "validation.json",
+      "bytes": 50460,
+      "sha256": "60c46add95619be4b8e9d166968403560600ced298aad2fcaf7c350140f39e19",
+      "matches": true
+    },
+    {
+      "path": "fit_validation.json",
+      "bytes": 45654,
+      "sha256": "e4f17651827f384836843053d35cdfba580e52353aa7c4a7221557019b4c10cf",
+      "matches": true
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 2880,
+      "sha256": "2dc709699a6237ad4e57ff041e064cb930e508d05c0e52ce0cf801fe9545ecf2",
+      "matches": true
+    },
+    {
+      "path": "OWNER_SCOPE.md",
+      "bytes": 1430,
+      "sha256": "8e8e2d006dcb5f9cc8fa7ea9590e9ad64baf3247371b75f9fd2535d31d34473f",
+      "matches": true
+    },
+    {
+      "path": "NEXT_PLAN.md",
+      "bytes": 349,
+      "sha256": "34b65082f19bf55e5ac2d005ab72baff6626ff744fb733f08bd9eebd390eee0f",
+      "matches": true
+    },
+    {
+      "path": "CHECKS.json",
+      "bytes": 310,
+      "sha256": "a4276d5c303cbc8157c836ed22a1b22ace5fb0251558d247a0ce44b298afa94d",
+      "matches": true
+    },
+    {
+      "path": "FINAL_IDENTITY_CHECK.json",
+      "bytes": 900,
+      "sha256": "f682453ae17dfbbb88eb85c27c20b6cdd1beea5fe7c57391b5393d0440d4f4fa",
+      "matches": true
+    },
+    {
+      "path": "source_snapshot/shadow_conditioned_fit.py",
+      "bytes": 15431,
+      "sha256": "71f2d5c1916871d8c4f0b14cf07163631ba880054ad226a1733a39b4acd7bbf8",
+      "matches": true
+    },
+    {
+      "path": "source_snapshot/shadow_adapter_restart.py",
+      "bytes": 7808,
+      "sha256": "c6a79be9ffdb4b4d4a25187658ba1f090bc715b09a8c5c16153285a6b37410e2",
+      "matches": true
+    }
+  ],
+  "SR1_seal_total_entries": 711,
+  "full_SR1_dossier_rehashed": false,
+  "predictions_or_gradients_replayed": false,
+  "evidence_identities": [
+    {
+      "path": "docs/maintenance/2026-10-08/motion-supervised-readout-01/REPORT.md",
+      "bytes": 9977,
+      "sha256": "bf1680dcb16cda23b4c7aa706bf510e62c98c274745a2394005e9c65cec3a39b",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-10/native-conditioned-comparison-01/attempt-02/REPORT.md",
+      "bytes": 5115,
+      "sha256": "5956082d48623f4a0b904074dd5acf9ad501ea5cf2d0e4be6c438e4ebb2c6c92",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-13/copied-descriptor-geometry-control-01/REPORT.md",
+      "bytes": 2653,
+      "sha256": "8843167c89c7c7d6e0cc784a10a7b058d3d731e447366fc76cebb32ef4b7eeac",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-13/geometry-signature-control-01/REPORT.md",
+      "bytes": 2453,
+      "sha256": "28456598b6f51f655d40d9aa2370c16ec0c3dd55b525e85a3c77f5f2e177c461",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-13/native-double-tail-control-01/REPORT.md",
+      "bytes": 3854,
+      "sha256": "7593f0c108a560c8fba1e89718c3d71c39b67bb7f36dafc410d76e05a941c9d5",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-13/shadow-conditioned-fit-pilot-01/execution-stop-audit-01/REPORT.md",
+      "bytes": 2061,
+      "sha256": "68aea936f13b45fb98b1c088e1f31ba38b877a9d914f2fd097dadcead8170bbe",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-13/shadow-conditioned-fit-pilot-01/METRIC_GATE.json",
+      "bytes": 530,
+      "sha256": "5b8bab62301bb17f036ed22d90eb42fa9773eee5dd01299849492654c978c9e6",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-14/bounded-native-residual-feasibility-01/REPORT.md",
+      "bytes": 3241,
+      "sha256": "db50d835310870571d1ecb8d6e77917ba28fddfea6d7f6427a3b8a4ec5da0b2d",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-15/joint-mechanism-assessment-01/REPORT.md",
+      "bytes": 6810,
+      "sha256": "6a57bd47bb916931712e92053d5a99f020fd9351498831c4bea0b9df6299dac5",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-20/raw-input-contract-01/CURRENT_HANDOFF.md",
+      "bytes": 2218,
+      "sha256": "44775df468a85eb6d04ea1e50ee84d8aceb27ba6932cd713fac0bb8a809daa59",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-20/raw-input-contract-01/REPORT.md",
+      "bytes": 4725,
+      "sha256": "c6efccca6c2aa7a90507b77e75b10c0cfc32bf90513e0cc82254edd27b4040e2",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-20/weekly-system-handoff-01/REPORT.md",
+      "bytes": 6813,
+      "sha256": "740f269fc084c4d4777127976ebba93a3f42659ea9165fcf49463e7b4a36f39e",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-21/continuation-final-01/REPORT_CN.md",
+      "bytes": 4090,
+      "sha256": "9b5019afd0c2080b46f77047d17c06289bc0c58e30459050dfdc56040a8b57f8",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-21/current-state-audit-01/snapshot/CURRENT_STATE.json",
+      "bytes": 7692,
+      "sha256": "d41e5d73eb0fe170724166b8c6a9abe46037eee017fea7443073a5f994502b06",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-21/native-stability-review-01/snapshot/REPORT_CN.md",
+      "bytes": 3727,
+      "sha256": "d8f76ebe17243a91b7b2d9aff40f257797d731f89c03db603fe3a4591309efba",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-21/native-stability-stream-02/REPORT_CN.md",
+      "bytes": 3178,
+      "sha256": "3c5fba937452a4a7c800b0f3df27c3171aa22a1ea6c14a7383926687d63cc4a9",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-21/p0-validation-01/STATUS.json",
+      "bytes": 426,
+      "sha256": "c289b230f73587cd2aebda60225579964f6cebcee957f0daec5937a9e90caaee",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-24/continuation-01/RESULTS_REPORT.md",
+      "bytes": 3811,
+      "sha256": "767207c870a180add432dddc4437b350c9e0979163a4fd100456d15e2de105ad",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-24/continuation-02/CURRENT_HANDOFF.md",
+      "bytes": 5197,
+      "sha256": "8ba4a15a348b17f7de67d4bb7011529153ab746a7ca5b7ca70fa4096a16ba3c7",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-24/reference-cohort-decision-01/CONDITIONAL_COMPARISON.md",
+      "bytes": 3270,
+      "sha256": "3d8f62edf95431b1317804f6794a5d450f4a8c00131c49883db3fc26b3e48502",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-24/reference-cohort-decision-01/EVIDENCE_REQUEST.md",
+      "bytes": 3221,
+      "sha256": "ded0b3b956044eb2b0bdd49b84a91b217d93e8e193a5b3068a3e54ca27497276",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-24/reference-cohort-decision-01/REPORT.md",
+      "bytes": 5034,
+      "sha256": "c97a221a3454707e7f1a42c98659f516b8f71596f2921d5a206fb07739bca83e",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-25/adapter-readiness-01/REPORT.md",
+      "bytes": 5456,
+      "sha256": "da0ca7b1fcee69711a6ddfea6e5cb5fe4deb8afb2a3928d39dc2e10e46b06ff0",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-25/PHASE_RECORD.md",
+      "bytes": 2368,
+      "sha256": "aacf4082e1da2e5a755ddf8da02a9739c40fc3d81e6029c8b801a02acb234386",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-25/shadow-adapter-restart-01/DELIVERY_SEAL.json",
+      "bytes": 119559,
+      "sha256": "14238e27da78cafe5ce714623f595e59ccfe83920b0edaa8ac9ca9fb93e84a8b",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-25/shadow-adapter-restart-01/REPORT.md",
+      "bytes": 3480,
+      "sha256": "c4c1bea5180e429e8c6ca53bccf08beeb5c4262d11f1960c75c9e58b28e945f0",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-25/upstream-page-01/NEXT_PLAN.md",
+      "bytes": 1960,
+      "sha256": "c01435a88bee5419f8eb675126b25733d0dbddc5c8f731817a1e06493b9b2a9f",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    },
+    {
+      "path": "docs/maintenance/2026-10-25/upstream-page-01/REPORT.md",
+      "bytes": 4220,
+      "sha256": "51258da5581ea064e3618680e5a4460d9b1f85b1c03d5db83407b925529ae7bb",
+      "check_scope": "Current identity recorded; not a fresh full historical seal audit"
+    }
+  ],
+  "descriptive_saved_scalar_arithmetic": {
+    "fits": [
+      {
+        "arm": "V",
+        "updates": 20,
+        "first_loss": 7.229966710778735E-06,
+        "last_loss": 7.0871262539393965E-06,
+        "relative_drop_percent": 1.9756724000732362,
+        "all_Armijo": true
+      },
+      {
+        "arm": "P",
+        "updates": 20,
+        "first_loss": 198.32998955584299,
+        "last_loss": 194.40188763416648,
+        "relative_drop_percent": 1.9805889822681055,
+        "all_Armijo": true
+      }
+    ],
+    "noise_cells": [
+      {
+        "arm": "V",
+        "part": 1,
+        "joint_nonworse": 3,
+        "passed": false,
+        "mean_t_gain_micrometers": 26.27267002451193,
+        "mean_t_gain_percent": 0.02155840157625236
+      },
+      {
+        "arm": "V",
+        "part": 2,
+        "joint_nonworse": 5,
+        "passed": false,
+        "mean_t_gain_micrometers": 17.728507969918574,
+        "mean_t_gain_percent": 0.014394410568843921
+      },
+      {
+        "arm": "P",
+        "part": 1,
+        "joint_nonworse": 5,
+        "passed": false,
+        "mean_t_gain_micrometers": 9.296996222419446,
+        "mean_t_gain_percent": 0.00762877841608118
+      },
+      {
+        "arm": "P",
+        "part": 2,
+        "joint_nonworse": 3,
+        "passed": false,
+        "mean_t_gain_micrometers": 15.496202756897903,
+        "mean_t_gain_percent": 0.01258192201618555
+      }
+    ],
+    "new_pose_metrics": false
+  },
+  "repositories": {
+    "main": {
+      "head": "4055d929c594b0033aafc6eed339c910369eef55",
+      "branch": "codex/meeting-20260930",
+      "tracked_dirty_paths": [
+        ".gitignore",
+        "AGENTS.md"
+      ]
+    },
+    "slam": {
+      "head": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6",
+      "branch": "codex/e0-f1-20260926",
+      "tracked_dirty_paths": [
+        "rap_slam/loop_closure.py",
+        "rap_slam/odometry.py",
+        "rap_slam/pose_graph.py",
+        "rap_slam/rap_backend.py",
+        "rap_slam/real_dataset.py",
+        "scripts/build_s1_features.py",
+        "scripts/eval_map_consistency.py",
+        "scripts/eval_paper_metrics.py",
+        "scripts/run_pipeline.py"
+      ],
+      "read_only_escalation_allowed": true
+    },
+    "remote_checked": false,
+    "git_mutation": false
+  },
+  "AGENTS_preservation": {
+    "before_bytes": 395351,
+    "backup_sha256": "47c6fe6af47dad47461c6fd3a659891d90aa94a4bca6ad7a359d670a172fb0f6",
+    "prefix_bytes": 2317,
+    "after_bytes": 397668,
+    "prior_bytes_exact_suffix": true,
+    "single_new_header": true,
+    "after_sha256": "19b56ab1ee0e3cfd2407f3d52ff2f2b57af0c3e2e47461c4bfa9f10690e9d42c"
+  },
+  "report_links": [
+    {
+      "target": "../../2026-10-25/shadow-adapter-restart-01/REPORT.md",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-25\\shadow-adapter-restart-01\\REPORT.md"
+    },
+    {
+      "target": "../../2026-10-13/shadow-conditioned-fit-pilot-01/execution-stop-audit-01/REPORT.md",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-13\\shadow-conditioned-fit-pilot-01\\execution-stop-audit-01\\REPORT.md"
+    },
+    {
+      "target": "../../2026-10-10/native-conditioned-comparison-01/attempt-02/REPORT.md",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-10\\native-conditioned-comparison-01\\attempt-02\\REPORT.md"
+    },
+    {
+      "target": "../../2026-10-08/motion-supervised-readout-01/REPORT.md",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-08\\motion-supervised-readout-01\\REPORT.md"
+    },
+    {
+      "target": "../../2026-10-14/bounded-native-residual-feasibility-01/REPORT.md",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-14\\bounded-native-residual-feasibility-01\\REPORT.md"
+    },
+    {
+      "target": "../../2026-10-24/continuation-01/RESULTS_REPORT.md",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-24\\continuation-01\\RESULTS_REPORT.md"
+    },
+    {
+      "target": "../../2026-10-21/current-state-audit-01/snapshot/CURRENT_STATE.json",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-21\\current-state-audit-01\\snapshot\\CURRENT_STATE.json"
+    },
+    {
+      "target": "../../2026-10-25/upstream-page-01/REPORT.md",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-25\\upstream-page-01\\REPORT.md"
+    },
+    {
+      "target": "../../2026-10-13/geometry-signature-control-01/REPORT.md",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-13\\geometry-signature-control-01\\REPORT.md"
+    },
+    {
+      "target": "../../2026-10-20/raw-input-contract-01/CURRENT_HANDOFF.md",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-20\\raw-input-contract-01\\CURRENT_HANDOFF.md"
+    },
+    {
+      "target": "../../2026-10-20/raw-input-contract-01/REPORT.md",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-20\\raw-input-contract-01\\REPORT.md"
+    },
+    {
+      "target": "../../2026-10-21/p0-validation-01/STATUS.json",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-21\\p0-validation-01\\STATUS.json"
+    },
+    {
+      "target": "../../2026-10-21/current-state-audit-01/snapshot/CURRENT_STATE.json",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-21\\current-state-audit-01\\snapshot\\CURRENT_STATE.json"
+    },
+    {
+      "target": "../../2026-10-21/native-stability-stream-02/REPORT_CN.md",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-21\\native-stability-stream-02\\REPORT_CN.md"
+    },
+    {
+      "target": "../../2026-10-15/joint-mechanism-assessment-01/REPORT.md",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-15\\joint-mechanism-assessment-01\\REPORT.md"
+    },
+    {
+      "target": "../../2026-10-24/reference-cohort-decision-01/EVIDENCE_REQUEST.md",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-24\\reference-cohort-decision-01\\EVIDENCE_REQUEST.md"
+    },
+    {
+      "target": "../../2026-10-24/reference-cohort-decision-01/CONDITIONAL_COMPARISON.md",
+      "exists": true,
+      "resolved": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-24\\reference-cohort-decision-01\\CONDITIONAL_COMPARISON.md"
+    }
+  ],
+  "documentary_record_recovery": {
+    "first_error": "PowerShell used bare false instead of $false while constructing the check object",
+    "error_after": "Report/phase creation and exact additive AGENTS preservation",
+    "correction": "Construct check record with PowerShell Boolean literals; verify existing header and backup without repeating mutation",
+    "scientific_execution": false
+  },
+  "limitations": [
+    "Selected document/source identities only; no all-history audit",
+    "No independent complete model/optimizer replay claimed",
+    "October25 runtime resources and WSL closure are historical observations",
+    "Missing historical report aliases resolved through actual snapshot/status records",
+    "No account or current resource observation performed"
+  ],
+  "original_research": "UNRESOLVED",
+  "manuscript": "PAUSED"
+}

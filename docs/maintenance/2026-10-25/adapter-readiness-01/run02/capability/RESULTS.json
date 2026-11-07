@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+  "executable": "/root/miniconda3/envs/rap-inference/bin/python",
+  "packages": {
+    "torch": "2.7.0+cu128",
+    "numpy": "1.26.4",
+    "einops": "MISSING",
+    "omegaconf": "2.3.1",
+    "hydra-core": "1.3.2"
+  },
+  "torch_CUDA_build": "12.8",
+  "device": "NVIDIA GeForce RTX 5070",
+  "device_capability": [
+    12,
+    0
+  ],
+  "GPU_preflight": {
+    "index": 0,
+    "name": "NVIDIA GeForce RTX 5070",
+    "driver": "610.62",
+    "total_MiB": 12227,
+    "free_MiB": 9556
+  },
+  "probes": [
+    {
+      "probe": "tiny_low_rank_matrix_backward",
+      "dtype": "torch.float32",
+      "passed": true
+    },
+    {
+      "probe": "tiny_low_rank_matrix_backward",
+      "dtype": "torch.float64",
+      "passed": true
+    },
+    {
+      "probe": "tiny_float64_math_SDPA_backward",
+      "passed": true
+    },
+    {
+      "probe": "tiny_float64_matrix_SVD_backward",
+      "passed": true
+    }
+  ],
+  "torch_peak_allocated_bytes": 17071616,
+  "torch_peak_reserved_bytes": 23068672,
+  "WSL_logical_free_bytes": 983805550592,
+  "WSL_logical_disk_bytes": 1081101176832,
+  "actual_RAP_model_or_checkpoint_loads": 0,
+  "adapter_training_or_optimizer_calls": 0,
+  "real_data_or_reference_reads": 0,
+  "actual_native_adapter_backward_validated": false,
+  "old_loss_descent_replay_or_artifact_failures_repaired": false,
+  "scope": "Generic installed-runtime and tiny CUDA capabilities only"
+}

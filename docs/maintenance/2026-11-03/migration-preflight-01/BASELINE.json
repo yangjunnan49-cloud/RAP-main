@@ -1,0 +1,59 @@
+{
+  "captured_utc": "2026-11-03T06:43:27.2338592Z",
+  "rap_main": {
+    "head": "4055d929c594b0033aafc6eed339c910369eef55",
+    "branch": "codex/meeting-20260930",
+    "tracked_dirty": [
+      ".gitignore",
+      "AGENTS.md"
+    ]
+  },
+  "rap_slam": {
+    "head": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6",
+    "branch": "codex/e0-f1-20260926",
+    "tracked_dirty": [
+      "rap_slam/loop_closure.py",
+      "rap_slam/odometry.py",
+      "rap_slam/pose_graph.py",
+      "rap_slam/rap_backend.py",
+      "rap_slam/real_dataset.py",
+      "scripts/build_s1_features.py",
+      "scripts/eval_map_consistency.py",
+      "scripts/eval_paper_metrics.py",
+      "scripts/run_pipeline.py"
+    ],
+    "read_retry": "Initial sandbox Git chdir denied; escalated read-only retry succeeded."
+  },
+  "reports_git_repository": false,
+  "untracked_audit": "Not yet audited through Git; metadata inventory follows.",
+  "remote_state": "Not queried",
+  "drives": [
+    {
+      "name": "C",
+      "used_bytes": 190785622016,
+      "free_bytes": 23753023488
+    },
+    {
+      "name": "D",
+      "used_bytes": 115809456128,
+      "free_bytes": 724266639360
+    },
+    {
+      "name": "E",
+      "used_bytes": 418980786176,
+      "free_bytes": 524737609728
+    }
+  ],
+  "authority_backups": [
+    {
+      "path": "before/RAP-main.AGENTS.md",
+      "bytes": 452440,
+      "sha256": "a0efa56d2412b0f34c91e9ebb7b70b169dae48c338e51d5636abbb66a4610ddd"
+    },
+    {
+      "path": "before/workspace.AGENTS.md",
+      "bytes": 24622,
+      "sha256": "19baba85a4db93fa3fcb8f8ac936b6d89c8d4a6514265327026373b1f50aca4b"
+    }
+  ]
+}

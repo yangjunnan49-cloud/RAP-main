@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-22T01:51:30.7701638+00:00",
+  "original_command_exit_code": -1,
+  "original_error": "Wsl/Service/MoveDistro/E_ACCESSDENIED",
+  "observed": "Image moved, old C image absent, registration still pointed at old C path",
+  "moved_image_verified_before_repair": true,
+  "backup_verified": true,
+  "registry_export": "C:\\Users\\AAA\\Documents\\Codex\\2026-10-21\\y\\outputs\\wsl_migration_20261022\\REGISTRATION_BEFORE_REPAIR.reg",
+  "key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Lxss\\{b747c46b-d03b-4b14-8c3e-186c6a17f4ee}",
+  "changed_values": [
+    "BasePath"
+  ],
+  "old_BasePath": "C:\\Users\\AAA\\AppData\\Local\\wsl\\{b747c46b-d03b-4b14-8c3e-186c6a17f4ee}",
+  "new_BasePath": "E:\\WSL\\Ubuntu-24.04",
+  "default_uid_preserved": true,
+  "all_other_registry_values_and_types_preserved": true,
+  "file_acl_changed_by_repair": false,
+  "manual_image_deletion": false,
+  "distro_unregistered": false
+}

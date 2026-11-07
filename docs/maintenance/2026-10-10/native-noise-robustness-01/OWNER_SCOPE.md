@@ -1,0 +1,3 @@
+# Owner execution boundary
+
+On2026-10-10 owner said "探索并且执行下一轮" after NOC0 recommended a same-window noise census without updates. This authorizes the concrete prospective PROTOCOL.md:16 fresh paired draws/two fixed references, frozen native versus the two existing fitted native adapters on the same synthetic/real tasks, separate teacher-state/rigidity diagnosis, zero optimizers, new900s/3GiB GPU/4GiB RSS/512MiB caps. No further permission is pending for this scope. Prior design-only boundary is superseded for NOC1 only. No nearby-window/trajectory or training expansion is inferred; failed gate stops extra census rescue. Originality exploration relaxation persists and ordinary adaptation remains eligible, with no original-mechanism/system-gain claim.

@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "archived_raw_projection_GO_exact": true,
+  "all_normalized_inputs_exact": true,
+  "records": [
+    {
+      "arm": "V",
+      "backend": "default",
+      "normalized_inputs_byteexact": true,
+      "components": [
+        {
+          "component": "Q",
+          "different": 0,
+          "max_abs": 0.0
+        },
+        {
+          "component": "K",
+          "different": 0,
+          "max_abs": 0.0
+        },
+        {
+          "component": "V",
+          "different": 0,
+          "max_abs": 0.0
+        }
+      ]
+    },
+    {
+      "arm": "V",
+      "backend": "math",
+      "normalized_inputs_byteexact": true,
+      "components": [
+        {
+          "component": "Q",
+          "different": 0,
+          "max_abs": 0.0
+        },
+        {
+          "component": "K",
+          "different": 0,
+          "max_abs": 0.0
+        },
+        {
+          "component": "V",
+          "different": 0,
+          "max_abs": 0.0
+        }
+      ]
+    },
+    {
+      "arm": "P",
+      "backend": "default",
+      "normalized_inputs_byteexact": true,
+      "components": [
+        {
+          "component": "Q",
+          "different": 13,
+          "max_abs": 5.960464477539063e-08
+        },
+        {
+          "component": "K",
+          "different": 0,
+          "max_abs": 0.0
+        },
+        {
+          "component": "V",
+          "different": 0,
+          "max_abs": 0.0
+        }
+      ]
+    },
+    {
+      "arm": "P",
+      "backend": "math",
+      "normalized_inputs_byteexact": true,
+      "components": [
+        {
+          "component": "Q",
+          "different": 0,
+          "max_abs": 0.0
+        },
+        {
+          "component": "K",
+          "different": 0,
+          "max_abs": 0.0
+        },
+        {
+          "component": "V",
+          "different": 0,
+          "max_abs": 0.0
+        }
+      ]
+    }
+  ],
+  "operator_reruns": 0
+}

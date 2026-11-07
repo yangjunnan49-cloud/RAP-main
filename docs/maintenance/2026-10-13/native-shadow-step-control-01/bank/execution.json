@@ -1,0 +1,136 @@
+{
+  "records": [
+    {
+      "name": "V1",
+      "arm": "V",
+      "rep": 1,
+      "loss_before": 7.229966710778734e-06,
+      "gradient_L2_norm": 0.002268190009600849,
+      "predetermined_radius": 3.1875489620250323e-06,
+      "steps": [
+        {
+          "sign": -1,
+          "loss": 7.222755401442041e-06,
+          "actual_gradient_dot": -7.229966710781719e-09,
+          "actual_parameter_L2_norm": 3.1875489620263486e-06
+        },
+        {
+          "sign": 1,
+          "loss": 7.237215334725144e-06,
+          "actual_gradient_dot": 7.229966710781719e-09,
+          "actual_parameter_L2_norm": 3.1875489620263486e-06
+        }
+      ],
+      "restored_output_byteexact": true,
+      "actual_transient_signed_parameter_steps": 2,
+      "optimizer_API_calls": 0,
+      "retained_updates": 0
+    },
+    {
+      "name": "V2",
+      "arm": "V",
+      "rep": 2,
+      "loss_before": 7.229966710778734e-06,
+      "gradient_L2_norm": 0.002268190009600849,
+      "predetermined_radius": 3.1875489620250323e-06,
+      "steps": [
+        {
+          "sign": -1,
+          "loss": 7.222755401442041e-06,
+          "actual_gradient_dot": -7.229966710781719e-09,
+          "actual_parameter_L2_norm": 3.1875489620263486e-06
+        },
+        {
+          "sign": 1,
+          "loss": 7.237215334725144e-06,
+          "actual_gradient_dot": 7.229966710781719e-09,
+          "actual_parameter_L2_norm": 3.1875489620263486e-06
+        }
+      ],
+      "restored_output_byteexact": true,
+      "actual_transient_signed_parameter_steps": 2,
+      "optimizer_API_calls": 0,
+      "retained_updates": 0
+    },
+    {
+      "name": "P1",
+      "arm": "P",
+      "rep": 1,
+      "loss_before": 198.3299895558426,
+      "gradient_L2_norm": 30970.27322578277,
+      "predetermined_radius": 6.403882462061483e-06,
+      "steps": [
+        {
+          "sign": -1,
+          "loss": 198.1317125687217,
+          "actual_gradient_dot": -0.1983299895558075,
+          "actual_parameter_L2_norm": 6.403882462060349e-06
+        },
+        {
+          "sign": 1,
+          "loss": 198.52837254860694,
+          "actual_gradient_dot": 0.1983299895558075,
+          "actual_parameter_L2_norm": 6.403882462060349e-06
+        }
+      ],
+      "restored_output_byteexact": true,
+      "actual_transient_signed_parameter_steps": 2,
+      "optimizer_API_calls": 0,
+      "retained_updates": 0
+    },
+    {
+      "name": "P2",
+      "arm": "P",
+      "rep": 2,
+      "loss_before": 198.3299895558426,
+      "gradient_L2_norm": 30970.27322578277,
+      "predetermined_radius": 6.403882462061483e-06,
+      "steps": [
+        {
+          "sign": -1,
+          "loss": 198.1317125687217,
+          "actual_gradient_dot": -0.1983299895558075,
+          "actual_parameter_L2_norm": 6.403882462060349e-06
+        },
+        {
+          "sign": 1,
+          "loss": 198.52837254860694,
+          "actual_gradient_dot": 0.1983299895558075,
+          "actual_parameter_L2_norm": 6.403882462060349e-06
+        }
+      ],
+      "restored_output_byteexact": true,
+      "actual_transient_signed_parameter_steps": 2,
+      "optimizer_API_calls": 0,
+      "retained_updates": 0
+    }
+  ],
+  "strict_checkpoint": {
+    "strict": true,
+    "keys": 344,
+    "weights_only": true,
+    "allowed": [
+      "builtins.dict",
+      "builtins.int",
+      "builtins.list",
+      "collections.defaultdict",
+      "numpy._core.multiarray._reconstruct",
+      "numpy.dtype",
+      "numpy.ndarray",
+      "omegaconf.base.ContainerMetadata",
+      "omegaconf.base.Metadata",
+      "omegaconf.listconfig.ListConfig",
+      "omegaconf.nodes.AnyNode",
+      "typing.Any"
+    ],
+    "descriptor_loaded": false
+  },
+  "shadow_tail_forwards": 16,
+  "backwards": 4,
+  "whole_native_forwards": 0,
+  "actual_transient_signed_parameter_steps": 8,
+  "optimizer_API_calls": 0,
+  "retained_updates": 0,
+  "fit_iterations": 0,
+  "parameters_dtype_flags_hooks_restored": true
+}

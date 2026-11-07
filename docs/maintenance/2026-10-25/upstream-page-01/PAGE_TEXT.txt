@@ -1,0 +1,53 @@
+NPM3D Benchmark Suite
+ParisLuco3D
+Password is: npm3d-ParisLuco3D
+ParisLuco3D is a dataset specifically designed for cross-domain evaluation of LiDAR Perception.
+All details about the dataset, the scripts and ground truth scans are in the readme.txt
+LiDAR Semantic Segmentation:
+The online benchmarks are open on Codalab: https://codalab.lisn.upsaclay.fr/competitions/16707
+We keep track below on the best published methods on ParisLuco3D (last edit on December 2023)
+SemanticKITTI -> ParisLuco3D (mIoU on 19 classes):
+Methods
+SK -> PL
+Reference
+SRUNet + RayDrop trained on SK
+61.7 -> 37.0
+ParisLuco3D: A high-quality target dataset for domain generalization of LiDAR perception https://arxiv.org/pdf/2310.16542.pdf
+nuScenes -> ParisLuco3D (mIoU on 16 classes):
+Methods
+NS -> PL
+Reference
+SRUNet + IBN-Net trained on NS
+67.3 -> 35.6
+ParisLuco3D: A high-quality target dataset for domain generalization of LiDAR perception https://arxiv.org/pdf/2310.16542.pdf
+COLA multi-source -> ParisLuco3D (mIoU on 7 classes):
+Methods
+PL
+Reference
+Cylinder3D trained on SK+NS+K-360+Waymo
+68.3
+COLA: COarse-LAbel multi-source LiDAR semantic segmentation for autonomous driving: https://arxiv.org/pdf/2311.03017.pdf
+LiDAR Object Detection:
+(to appear soon)
+LiDAR Tracking:
+(to appear soon)
+You can find more details about the creation of the dataset in the following article:
+Sanchez et al., 2023, ParisLuco3D: A high-quality target dataset for domain generalization of LiDAR perception
+Do not forget to cite our article if you use this dataset.
+@ARTICLE{2023arXiv231016542S,
+author = {{Sanchez}, Jules and {Soum-Fontez}, Louis and {Deschaud}, Jean-Emmanuel and {Goulette}, Francois},
+title = "{ParisLuco3D: A high-quality target dataset for domain generalization of LiDAR perception}",
+journal = {arXiv e-prints},
+keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Robotics},
+year = 2023,
+month = oct,
+eid = {arXiv:2310.16542},
+pages = {arXiv:2310.16542},
+doi = {10.48550/arXiv.2310.16542},
+archivePrefix = {arXiv},
+eprint = {2310.16542},
+primaryClass = {cs.CV},
+adsurl = {https://ui.adsabs.harvard.edu/abs/2023arXiv231016542S},
+adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+ParisLuco3D dataset is made available under the Creative Commons Attribution Non-Commercial No Derivatives (CC-BY-NC-ND-3.0) License.

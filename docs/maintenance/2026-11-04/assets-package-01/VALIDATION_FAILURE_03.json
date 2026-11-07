@@ -1,0 +1,16 @@
+{
+  "failed_check": "Original Git bytes differ",
+  "failed_verifier_exit_code": 1,
+  "cause": "最终校验器错误地要求 A5 所有 Git 文件总数等于 A1 的原路径数量，未区分后来出现的 loose objects。",
+  "original_A1_git_files": 3982,
+  "original_A1_git_byte_mismatches": 0,
+  "additional_loose_objects_present_at_A5_freeze": 47,
+  "additional_bytes": 2869646,
+  "all_additions_are_rap_main_git_objects": true,
+  "origin_attributed": false,
+  "new_objects_deleted_or_rewritten": false,
+  "all_additions_in_source_byte_checks_and_verified_payload": true,
+  "corrected_check": "核对全部 3982 原路径字节一致，另列冻结前已存在的 47 对象；保全共 4029 Git 文件，继续直接核对 HEAD/分支。",
+  "original_verifier": "attempt03/verify_a5.py",
+  "detail": "GIT_ADDITIONS_OBSERVATION.json"
+}

@@ -1,0 +1,3 @@
+# 2026-10-29 owner-requested records update
+
+The owner requested records/update and ended this conversation. records-update-01 provides the latest compact state/handoff and exact AGENTS backup. The preceding closeout seal was freshly verified; old scientific files and PHASE_RECORD.md are unchanged. No new scientific/solver/model/runtime/installation/WSL/account probe/Git write/outreach/scheduler/goal-status action. No pending worker, automatic reset continuation or queued experiment. PR1/MR1/PT1 conclusions, all old failures/caps/source limitations and SD1 deviation remain; research UNRESOLVED/manuscript PAUSED. Await the next conversation's explicit continuation.

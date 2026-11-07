@@ -1,0 +1,11 @@
+# Current explicit continuation
+
+New owner continuation observed0%/ordinaryAllowed true/reset1792523562 at14:12:42UTC;22%/true at14:25:46UTC is not exhaustion. Previous100%/false account stop remains the old window's immutable record. No automatic reset continuation.
+
+R0 source/input freeze complete:133 source/config identities,12296 original raw byte identities, all36 G/K cells fixed before numeric execution. Both existing KISS-ICP runtimes1.3.0 have equal Python sources and E0 configs; native ABI build equivalence is not assumed. Synthetic raw frontend/map correspondence0, noncommuting fine no-op4.56e-15; known14-frame reset observer agrees. No real raw numeric cell had launched at this preparation snapshot.
+
+Use raw_system_integration02.py and its retained original/INSTRUMENTATION02/VARIANT02_FREEZE. The only changes are timing/evidence serialization separation, pass-through source-frame reset events and their synthetic control; numerical-call ASTs unchanged. Keep all original G parameters and failed protections. New complete-raw7200s cap includes preflight3.9400232s, freeze153.1773855s, prepare02 2.3874752s and synthetic3.1898567s, no cap reset. Original LMB1073.9382182/1800s stays separate/historical.
+
+The long run uses launch_raw_integration_run.py as a current-turn wrapper. It creates an OWNED process group/session, writes run/owned_session.json with PID/PGID/session/start ticks/source identity, and launches only sequential36 fresh native workers. No background scheduler or independent future wakeup. At an actual quota/owner/resource boundary, inspect this exact owned session before any scoped interrupt; never stop other processes. Parent/child/Windows clocks overlap, charge the run once by enclosing maximum. Each native worker also needs fresh<=2s Windows headroom>=12GiB; no polling/retry on failure.
+
+GT numeric evaluation only after all36 predictions seal. Report new complete raw-scan trajectory-core timing, excluding large CLI map/occupancy exports for both; private evidence outputs differ and are separately timed. No default/installed/production/model/reference/Git/outreach/goal-status change. All6 exposed/09 retained; original research goal unresolved.

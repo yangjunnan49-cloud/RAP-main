@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "controls": [
+    {
+      "case": "independent_struct_float32",
+      "passed": true
+    },
+    {
+      "case": "independent_struct_float64",
+      "passed": true
+    },
+    {
+      "case": "independent_struct_int64",
+      "passed": true
+    },
+    {
+      "case": "independent_struct_int64_scalar",
+      "passed": true
+    },
+    {
+      "case": "independent_struct_uint8",
+      "passed": true
+    },
+    {
+      "case": "reject_hash",
+      "passed": true
+    },
+    {
+      "case": "reject_byte_length",
+      "passed": true
+    },
+    {
+      "case": "reject_offset",
+      "passed": true
+    },
+    {
+      "case": "reject_stride",
+      "passed": true
+    },
+    {
+      "case": "reject_dtype",
+      "passed": true
+    },
+    {
+      "case": "reject_nan",
+      "passed": true
+    },
+    {
+      "case": "reject_inf",
+      "passed": true
+    }
+  ],
+  "count": 12,
+  "CUDA_initialized": false,
+  "actual_checkpoint_tensors_decoded": 0
+}

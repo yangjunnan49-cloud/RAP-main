@@ -1,0 +1,3 @@
+# Next distinct full-native numerical prerequisite — DESIGN_ONLY
+
+The observed local Flash backward variation and exact math repeats justify a separately scoped process-local math-backend full/native-cache repeatability test on the original fixture/initialization. It must freeze original default control, flag restoration, new forward differences, all gradients and whole-direction derivative checks, with zero updates and its own resource envelope before fitting. Isolated math stability does not certify full-model reproducibility or first-step descent. Preserve original NOC4 loss increases and failed gates; no rate/step/scale/noise/init rescue or automatic400-update fit. No new full-native math protocol/runner/freeze/backward was executed by AOD0.

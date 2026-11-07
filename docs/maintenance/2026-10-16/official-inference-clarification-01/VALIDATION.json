@@ -1,0 +1,23 @@
+{
+  "status": "EXACT_PUBLIC_REPLY_IDENTITY_AND_SCHEMA_VALIDATED",
+  "response_sha256": "42e89a942ab8a0192650f2a31b997fa1f9f813f331ece35cbbf897ded47fe87a",
+  "delivered_body_bytes": 1995,
+  "combined_metadata_body_bytes": 1359461,
+  "combined_metadata_cap_pass": true,
+  "complete_page_supported": true,
+  "comment_count": 1,
+  "comments": [
+    {
+      "id": 3789335062,
+      "login": "YuePanEdward",
+      "author_association": "MEMBER",
+      "created_at": "2026-01-23T09:41:37Z",
+      "updated_at": "2026-01-23T09:41:37Z",
+      "html_url": "https://github.com/PRBonn/RAP/issues/3#issuecomment-3789335062",
+      "body": "Thanks so much for the kind words! We’re really glad to hear the model is working well for you on real-world data.\nI have uploaded the 12-layer model which is used by the current online Gradio demo. Please do  `bash ./scripts/download_weights_and_demo_data.sh` again to download this model. A new model with better handling of free 360 degree rotation will be updated soon."
+    }
+  ],
+  "independent_body_rehash": true,
+  "network_requests": 0,
+  "no_model_or_pose_arithmetic": true
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "stage": "freeze",
+    "success": true,
+    "utc": "2026-10-10T02:23:07.832619+00:00",
+    "wall_seconds": 2.514633184997365,
+    "peak_RSS_bytes": 505212928,
+    "peak_GPU_allocated_bytes": 0,
+    "peak_GPU_reserved_bytes": 0,
+    "artifact_bytes": 62630
+  },
+  {
+    "stage": "run",
+    "success": false,
+    "utc": "2026-10-10T02:23:28.726577+00:00",
+    "wall_seconds": 11.614555751206353,
+    "peak_RSS_bytes": 2703933440,
+    "peak_GPU_allocated_bytes": 641918464,
+    "peak_GPU_reserved_bytes": 671088640,
+    "artifact_bytes": 4833024,
+    "error": "AssertionError()"
+  }
+]

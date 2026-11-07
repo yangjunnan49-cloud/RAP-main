@@ -1,0 +1,22 @@
+{
+  "helper_sha256": {
+    "/mnt/e/githouse/RAP-SLAM/scripts/hl0_preflight.py": "4c9b043501062e56f5c17ed520dfa4e28c0a000228f74f5bc70b512c6876d50f",
+    "/mnt/e/githouse/RAP-SLAM/scripts/validate_hl0_preflight.py": "5563e559a8e5afc88dabc2c97ff361efd37cd36fc72eaefd1057ff203c56bcff",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/hl0_provenance.py": "5a4aee447bd36aff69ca6d241bf2c34ac01129096ab883234136aaf8ce462f76",
+    "/mnt/e/githouse/RAP-main/scripts/maintenance/finalize_hl0.py": "bcca309d88cf7a6f5d093965defd9204f0685a3a2320c782597f9deb1bb7fbee"
+  },
+  "final_stability_hashes_rechecked": 163,
+  "used_profile_scan_count": 15,
+  "git": {
+    "/mnt/e/githouse/RAP-main": {
+      "head": "4055d929c594b0033aafc6eed339c910369eef55",
+      "branch": "main",
+      "status": " M .gitignore\n M AGENTS.md\n?? docs/\n?? scripts/maintenance/\n"
+    },
+    "/mnt/e/githouse/RAP-SLAM": {
+      "head": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6",
+      "branch": "main",
+      "status": " M rap_slam/loop_closure.py\n M rap_slam/odometry.py\n M rap_slam/pose_graph.py\n M rap_slam/rap_backend.py\n M rap_slam/real_dataset.py\n M scripts/build_s1_features.py\n M scripts/eval_map_consistency.py\n M scripts/eval_paper_metrics.py\n M scripts/run_pipeline.py\n?? rap_slam/measurement.py\n?? rap_slam/rap_precision.py\n?? rap_slam/trajectory_protocol.py\n?? rap_slam/verification_log.py\n?? scripts/build_s1_dataset_v2.py\n?? scripts/hl0_preflight.py\n?? scripts/replay_core_candidates.py\n?? scripts/validate_hl0_preflight.py\n"
+    }
+  }
+}

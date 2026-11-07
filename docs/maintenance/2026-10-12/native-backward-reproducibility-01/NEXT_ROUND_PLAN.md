@@ -1,0 +1,5 @@
+# Next distinct repair — DESIGN_ONLY
+
+Read STOP_SCOPE.md, the immutable336-entry freeze, FAILURE_diagnose and both supervised receipts. Preserve old helper/source and original NOC4 failures/INCOMPLETE. Before retry, separately snapshot/freeze a mode-inventory repair that distinguishes the four newly created LowRank wrappers from original eval-mode dropout/normalization modules. Require unchanged initialized/frozen arrays, original precision/backend/loss/seed, and exact source-proven mode independence; do not merely delete the gate. No repair or eight-trace numerical execution yet. The requested upstream/per-parameter diagnostic remains pending, zero new native forward/backward/optimizer calls.
+
+CCR0 retires the exact three-frame/source-ID context construction. No context cap/history/normal/radius/selector/gate rescue or dependent learned residual/full trajectory. Original09 physical cause, checkpoint/site membership and NOC4 loss-increase/P mismatch remain unresolved. Future work needs a prospective scope and available allowance; no automatic continuation after the requested window resets.

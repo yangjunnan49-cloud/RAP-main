@@ -1,0 +1,144 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "normal",
+      "expected_outcome_passed": true,
+      "host_exit_code": 0,
+      "child_launched": true,
+      "child_reaped": true,
+      "child_receipt": {
+        "passed": true,
+        "exit_code": 0,
+        "error": null,
+        "forced_stop": false,
+        "elapsed_seconds": 0.2029999999795109,
+        "scope_elapsed_seconds": 76.105998,
+        "peak_RSS_bytes": 14651392,
+        "nonce_responses": 1,
+        "owned_child_reaped": true,
+        "exit_utc": "2026-11-03T04:53:16.105998+00:00",
+        "not_OS_containment": true
+      }
+    },
+    {
+      "case": "without_lease",
+      "expected_outcome_passed": true,
+      "host_exit_code": 1,
+      "child_launched": true,
+      "child_reaped": true,
+      "child_receipt": {
+        "passed": false,
+        "exit_code": 0,
+        "error": null,
+        "forced_stop": false,
+        "elapsed_seconds": 0.14000000013038516,
+        "scope_elapsed_seconds": 76.420243,
+        "peak_RSS_bytes": 12750848,
+        "nonce_responses": 0,
+        "owned_child_reaped": true,
+        "exit_utc": "2026-11-03T04:53:16.420243+00:00",
+        "not_OS_containment": true
+      }
+    },
+    {
+      "case": "nonzero",
+      "expected_outcome_passed": true,
+      "host_exit_code": 1,
+      "child_launched": true,
+      "child_reaped": true,
+      "child_receipt": {
+        "passed": false,
+        "exit_code": 7,
+        "error": null,
+        "forced_stop": false,
+        "elapsed_seconds": 0.2029999999795109,
+        "scope_elapsed_seconds": 76.781658,
+        "peak_RSS_bytes": 14471168,
+        "nonce_responses": 1,
+        "owned_child_reaped": true,
+        "exit_utc": "2026-11-03T04:53:16.781658+00:00",
+        "not_OS_containment": true
+      }
+    },
+    {
+      "case": "no_result",
+      "expected_outcome_passed": true,
+      "host_exit_code": 1,
+      "child_launched": true,
+      "child_reaped": true,
+      "child_receipt": {
+        "passed": false,
+        "exit_code": 0,
+        "error": null,
+        "forced_stop": false,
+        "elapsed_seconds": 0.1869999999180436,
+        "scope_elapsed_seconds": 77.143956,
+        "peak_RSS_bytes": 14508032,
+        "nonce_responses": 1,
+        "owned_child_reaped": true,
+        "exit_utc": "2026-11-03T04:53:17.143956+00:00",
+        "not_OS_containment": true
+      }
+    },
+    {
+      "case": "blocking",
+      "expected_outcome_passed": true,
+      "host_exit_code": 1,
+      "child_launched": true,
+      "child_reaped": true,
+      "child_receipt": {
+        "passed": false,
+        "exit_code": 1,
+        "error": "AssertionError: heartbeat missing",
+        "forced_stop": true,
+        "elapsed_seconds": 2.155999999959022,
+        "scope_elapsed_seconds": 79.4684,
+        "peak_RSS_bytes": 14450688,
+        "nonce_responses": 1,
+        "owned_child_reaped": true,
+        "exit_utc": "2026-11-03T04:53:19.468400+00:00",
+        "not_OS_containment": true
+      }
+    },
+    {
+      "case": "future_serial",
+      "expected_outcome_passed": true,
+      "host_exit_code": 1,
+      "child_launched": true,
+      "child_reaped": true,
+      "child_receipt": {
+        "passed": false,
+        "exit_code": 1,
+        "error": "AssertionError: heartbeat missing",
+        "forced_stop": true,
+        "elapsed_seconds": 2.0310000001918525,
+        "scope_elapsed_seconds": 81.670289,
+        "peak_RSS_bytes": 14512128,
+        "nonce_responses": 0,
+        "owned_child_reaped": true,
+        "exit_utc": "2026-11-03T04:53:21.670289+00:00",
+        "not_OS_containment": true
+      }
+    },
+    {
+      "case": "source_mismatch",
+      "expected_outcome_passed": true,
+      "host_exit_code": 1,
+      "child_launched": false,
+      "child_reaped": null,
+      "child_receipt": null
+    },
+    {
+      "case": "preflight_refusal",
+      "expected_outcome_passed": true,
+      "host_exit_code": 1,
+      "child_launched": false,
+      "child_reaped": null,
+      "child_receipt": null
+    }
+  ],
+  "elapsed_seconds": 6.297000000020489,
+  "all_owned_hosts_reaped": true,
+  "expected_refusals_not_scientific_failures": true
+}

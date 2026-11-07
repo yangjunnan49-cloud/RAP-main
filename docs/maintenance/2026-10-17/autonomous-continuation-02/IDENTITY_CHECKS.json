@@ -1,0 +1,53 @@
+{
+  "utc": "2026-10-17T01:14:21.9701321Z",
+  "scope": "Bounded read-only identity check, no scientific replay",
+  "seals": [
+    {
+      "sha256": "f0b985a2da9935a0345227ec13852c52de0422be5489c7a76db8a8eb939983b1",
+      "matched_entries": 10,
+      "seal": "docs/maintenance/2026-10-16/continuation-handoff-11/ACCOUNT_STOP_SEAL.json"
+    },
+    {
+      "sha256": "40d31fa928cf5593a65dac783c7e4594f5bc03968c2699e89093a67d0f74e3c7",
+      "matched_entries": 26,
+      "seal": "docs/maintenance/2026-10-16/official-inference-clarification-01/DELIVERY_SEAL.json"
+    }
+  ],
+  "C0": [
+    {
+      "freeze": "docs/maintenance/2026-10-16/regx-interface-contract-01/SOURCE_FREEZE.json",
+      "sha256": "9f12d65e9937a1b643cb49566637d2868932312d63c16ff8f7d7518b1eef66e3",
+      "matched_entries": 15
+    },
+    {
+      "freeze": "docs/maintenance/2026-10-16/regx-interface-contract-01/SUPPLEMENTAL_SOURCE_FREEZE.json",
+      "sha256": "931fd4542229721a5ae191a7af3bdba356662c84f4f8a252b5435f9e5466c08d",
+      "matched_entries": 4
+    }
+  ],
+  "stage_paths": [
+    {
+      "exists": false,
+      "path": "docs/maintenance/2026-10-16/regx-interface-contract-01/synthetic"
+    },
+    {
+      "exists": false,
+      "path": "docs/maintenance/2026-10-16/regx-interface-contract-01/build"
+    },
+    {
+      "exists": false,
+      "path": "docs/maintenance/2026-10-16/regx-interface-contract-01/consume"
+    },
+    {
+      "exists": false,
+      "path": "docs/maintenance/2026-10-16/regx-interface-contract-01/validation"
+    },
+    {
+      "exists": false,
+      "path": "docs/maintenance/2026-10-16/regx-interface-contract-01/inputs"
+    }
+  ],
+  "no_python_invocation": true,
+  "C0_charged_seconds": 2.1993678,
+  "C0_remaining_seconds": 897.8006322
+}

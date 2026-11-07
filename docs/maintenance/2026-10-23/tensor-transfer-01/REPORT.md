@@ -1,0 +1,9 @@
+# TT1 CLOSED: canonical-stride gate failure
+
+Stdlib binding preflight and12 synthetic decoder controls pass. The fixed tensor-transfer attempt subsequently stops at miniSpinNet Desc.pnt_layer.0.weight with ValueError(noncontiguous_stride). Recorded shape16x3x1x1 has stride3,1,3,3; the frozen candidate requires canonical3,1,1,1. The differing axes are both singleton dimensions. This metadata observation does not change the original gate, prove dynamic load success or authorize another transfer/inference attempt in this branch.
+
+The worker counter reaches344 loaded state tensors after the RAP section before the mini section fails. The aggregate per-tensor results were held in memory and never sealed because the full suite failed; no full transfer pass or independently delivered partial RAP result is claimed. Architectures constructed2, torch.load attempts0, forward attempts0, point/reference reads0, CUDA hidden. Worker OS peak1,768,816,640 bytes and watchdog peak1,770,246,144 bytes remain below4GiB. Worker1/watcher2 and successful cleanup receipts govern the failure.
+
+TT1 is CLOSED without retry, gate widening, unsafe pickle fallback or inference. The source, weights, existing model families and original CB1/RI1 failures remain unchanged. Post-stop LAYOUT_AFTER_STOP is stdlib metadata interpretation only, not another numeric run. An initial one-line metadata-read command had a literal-newline SyntaxError; the standalone read-only helper fixes that documentary command and does not alter the worker or admission.
+
+The candidate remains uninstalled. Research unresolved/manuscript paused and no efficacy or new prediction result. Further useful independent work in this owner window concerns strict public-input/ref separation and source-bound admission; tensor loading/inference remain stopped.

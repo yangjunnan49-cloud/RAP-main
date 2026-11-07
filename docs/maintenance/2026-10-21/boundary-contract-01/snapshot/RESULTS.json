@@ -1,0 +1,183 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "name": "equal_recorded_bytes_keep_native_state_unknown",
+      "passed": true,
+      "result": "recorded_bytes_equal_native_state_unknown"
+    },
+    {
+      "name": "tiny_derived_pose_not_mislabelled_as_point_change",
+      "passed": true,
+      "result": "derived_input_difference"
+    },
+    {
+      "name": "row_order_change_detected",
+      "passed": true,
+      "result": "prepared_input_difference"
+    },
+    {
+      "name": "same_recorded_inputs_different_output_no_causal_claim",
+      "passed": true,
+      "result": "output_difference_cause_unknown"
+    },
+    {
+      "name": "shape_metadata_bound_even_when_bytes_match",
+      "passed": true,
+      "result": "prepared_input_difference"
+    },
+    {
+      "name": "byteorder_metadata_bound",
+      "passed": true,
+      "result": "prepared_input_difference"
+    },
+    {
+      "name": "different_runtime_binding_incomparable",
+      "passed": true,
+      "result": "incomparable_bindings"
+    },
+    {
+      "name": "count_difference_detected",
+      "passed": true,
+      "result": "event_count_difference"
+    },
+    {
+      "name": "order_difference_detected",
+      "passed": true,
+      "result": "event_metadata_difference"
+    },
+    {
+      "name": "tampered_order_rejected",
+      "passed": true,
+      "result": "rejected"
+    },
+    {
+      "name": "tampered_component_rejected",
+      "passed": true,
+      "result": "rejected"
+    },
+    {
+      "name": "duplicate_event_id_rejected",
+      "passed": true,
+      "result": "rejected"
+    },
+    {
+      "name": "shape_length_mismatch_rejected",
+      "passed": true,
+      "result": "rejected"
+    },
+    {
+      "name": "oversize_artifact_rejected",
+      "passed": true,
+      "result": "rejected"
+    },
+    {
+      "name": "unsupported_complete_native_state_claim_rejected",
+      "passed": true,
+      "result": "rejected"
+    },
+    {
+      "name": "strided_memoryview_rejected",
+      "passed": true,
+      "result": "rejected"
+    },
+    {
+      "name": "malformed_descriptor_length_rejected",
+      "passed": true,
+      "result": "rejected"
+    },
+    {
+      "name": "malformed_descriptor_hash_rejected",
+      "passed": true,
+      "result": "rejected"
+    },
+    {
+      "name": "first_divergence_index_is_second_event",
+      "passed": true,
+      "result": 1
+    },
+    {
+      "name": "mutable_source_snapshot_is_immutable",
+      "passed": true,
+      "result": {
+        "dtype": "f4",
+        "shape": [
+          2,
+          3
+        ],
+        "byteorder": "little",
+        "order": "C",
+        "role": "prepared_input",
+        "nbytes": 24,
+        "sha256": "24ae2dfe8df57c1b80e54cef3d90ac3b417fd98973345a5f616bbc9a75dcc202"
+      }
+    },
+    {
+      "name": "stream_freezes_caller_metadata",
+      "passed": true,
+      "result": {
+        "binding": {
+          "config_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "runtime": "synthetic-stdlib",
+          "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "events": [
+          {
+            "index": 0,
+            "previous": "e3907ed113c2a91c4c234f64c54057c55ffc99001bdf0a419d4c0ebc806004f8",
+            "event": {
+              "boundary": "map.integrate",
+              "components": {
+                "output": {
+                  "byteorder": "na",
+                  "dtype": "u1",
+                  "nbytes": 1,
+                  "order": "C",
+                  "role": "output",
+                  "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+                  "shape": [
+                    1
+                  ]
+                },
+                "points": {
+                  "byteorder": "little",
+                  "dtype": "f4",
+                  "nbytes": 24,
+                  "order": "C",
+                  "role": "prepared_input",
+                  "sha256": "24ae2dfe8df57c1b80e54cef3d90ac3b417fd98973345a5f616bbc9a75dcc202",
+                  "shape": [
+                    2,
+                    3
+                  ]
+                },
+                "pose": {
+                  "byteorder": "little",
+                  "dtype": "f8",
+                  "nbytes": 16,
+                  "order": "C",
+                  "role": "derived_input",
+                  "sha256": "fc62429c3e69001d65972cdeb94fb9aa18a7d9c16bc449e1e474e7e41bb95a7d",
+                  "shape": [
+                    2
+                  ]
+                }
+              },
+              "id": "frame:0",
+              "state_coverage": "unobserved"
+            },
+            "seal": "d602541a56de34eb04c5ba9c686fcd65b2d366d26b06274b60cab606ef355559"
+          }
+        ],
+        "final_seal": "d602541a56de34eb04c5ba9c686fcd65b2d366d26b06274b60cab606ef355559"
+      }
+    }
+  ],
+  "count": 21,
+  "max_rss_bytes": 16011264,
+  "raw_reads": 0,
+  "GT_reads": 0,
+  "native_imports": 0,
+  "new_predictions": 0,
+  "limitation": "Synthetic descriptors only; native integration and full-state observability untested"
+}

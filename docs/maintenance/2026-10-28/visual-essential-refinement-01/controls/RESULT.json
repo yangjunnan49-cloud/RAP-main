@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "completed_utc": "2026-10-28T07:04:47.489245+00:00",
+  "elapsed_seconds": 0.2029999999795109,
+  "child_lifetime_peak_bytes": 47353856,
+  "audited_read_paths": [
+    "e:\\githouse\\rap-main\\docs\\maintenance\\2026-10-28\\visual-essential-refinement-01\\controls\\synthetic_cache.npz"
+  ],
+  "torch_imported": false,
+  "controls": [
+    {
+      "name": "nonplanar_calibrated_pose_available",
+      "passed": true,
+      "status": "POSE"
+    },
+    {
+      "name": "forward_direction_rotation_and_signed_translation",
+      "passed": true,
+      "angle_errors_deg": [
+        2.383961719076508e-12,
+        0.0
+      ]
+    },
+    {
+      "name": "unit_translation",
+      "passed": true
+    },
+    {
+      "name": "reverse_pose_is_inverse",
+      "passed": true,
+      "angle_errors_deg": [
+        1.0354986064265816e-12,
+        0.0
+      ]
+    },
+    {
+      "name": "positive_common_scale_leaves_pixels_unchanged",
+      "passed": true
+    },
+    {
+      "name": "translation_sign_is_not_discarded",
+      "passed": true
+    },
+    {
+      "name": "fixed_seed_reproduction",
+      "passed": true
+    },
+    {
+      "name": "fixed_outlier_geometry_control",
+      "passed": true,
+      "angle_errors_deg": [
+        5.944964418571343e-14,
+        0.0
+      ]
+    },
+    {
+      "name": "mutual_ratio_exact_descriptor_identity",
+      "passed": true
+    },
+    {
+      "name": "ratio_ties_rejected",
+      "passed": true
+    },
+    {
+      "name": "short_descriptor_input_has_no_matches",
+      "passed": true
+    },
+    {
+      "name": "blank_image_has_no_features",
+      "passed": true
+    },
+    {
+      "name": "insufficient_matches_explicit_no_pose",
+      "passed": true
+    },
+    {
+      "name": "collinear_input_explicit_no_pose",
+      "passed": true
+    },
+    {
+      "name": "nonfinite_input_explicit_no_pose",
+      "passed": true
+    },
+    {
+      "name": "camera_to_first_reference_composition",
+      "passed": true
+    },
+    {
+      "name": "zero_reference_translation_direction_is_null",
+      "passed": true
+    },
+    {
+      "name": "numpy_cache_no_pickle_roundtrip",
+      "passed": true
+    },
+    {
+      "name": "raw_outlier_failure_retained_same_seed_and_fixture",
+      "passed": true,
+      "raw_angle_errors_deg": [
+        0.113146318316918,
+        0.499837669953744
+      ]
+    },
+    {
+      "name": "robust_refit_has_strict_fixed_weight_cost_decrease",
+      "passed": true,
+      "iterations": 3
+    },
+    {
+      "name": "refit_update_stays_proper_and_unit",
+      "passed": true
+    },
+    {
+      "name": "prediction_gate_denies_reference_binding",
+      "passed": true
+    },
+    {
+      "name": "allowlisted_numpy_cache_read_after_gate",
+      "passed": true
+    }
+  ],
+  "control_count": 23,
+  "source_freeze_sha256": "a36c0bdfdde50c4d5ab50946e7f892d36dffd8e4e40662d4df36dcea7b6d5b70",
+  "measured_image_reads": 0,
+  "supplied_reference_reads": 0
+}

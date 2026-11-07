@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "frozen_identities": 23,
+  "cases": 8,
+  "native_children": 8,
+  "native_controller_exit": 0,
+  "native_controller_peak_working_set_bytes": 126459904,
+  "results": [
+    {
+      "case": "normal",
+      "native_exit": 0,
+      "reason": null,
+      "admitted": true,
+      "total_case_bytes": 556,
+      "peak_working_set_bytes": 90071040,
+      "wall_seconds": 0.3614082
+    },
+    {
+      "case": "stdout_overflow",
+      "native_exit": 0,
+      "reason": "log_overflow",
+      "admitted": false,
+      "total_case_bytes": 697,
+      "peak_working_set_bytes": 86351872,
+      "wall_seconds": 1.7267203
+    },
+    {
+      "case": "stderr_overflow",
+      "native_exit": 0,
+      "reason": "log_overflow",
+      "admitted": false,
+      "total_case_bytes": 697,
+      "peak_working_set_bytes": 86089728,
+      "wall_seconds": 1.6551208
+    },
+    {
+      "case": "both_flood",
+      "native_exit": -1,
+      "reason": "log_overflow",
+      "admitted": false,
+      "total_case_bytes": 832,
+      "peak_working_set_bytes": 86577152,
+      "wall_seconds": 1.902195
+    },
+    {
+      "case": "nonzero",
+      "native_exit": 7,
+      "reason": "nonzero_exit",
+      "admitted": false,
+      "total_case_bytes": 556,
+      "peak_working_set_bytes": 86540288,
+      "wall_seconds": 0.3113381
+    },
+    {
+      "case": "timeout",
+      "native_exit": -1,
+      "reason": "timeout",
+      "admitted": false,
+      "total_case_bytes": 530,
+      "peak_working_set_bytes": 91467776,
+      "wall_seconds": 0.5791288
+    },
+    {
+      "case": "empty",
+      "native_exit": 0,
+      "reason": null,
+      "admitted": true,
+      "total_case_bytes": 519,
+      "peak_working_set_bytes": 86102016,
+      "wall_seconds": 0.2887574
+    },
+    {
+      "case": "binary",
+      "native_exit": 0,
+      "reason": null,
+      "admitted": true,
+      "total_case_bytes": 527,
+      "peak_working_set_bytes": 86233088,
+      "wall_seconds": 0.2879934
+    }
+  ],
+  "all_native_exits_peak_working_sets_and_pipe_EOF_present": true,
+  "cooperating_case_envelope_bytes": 3072,
+  "whole_production_dossier_guarantee": false,
+  "current_supervisor_or_RAP_integration": false
+}

@@ -1,0 +1,30 @@
+{
+  "scope": "authorized AutoDL migration only; no research or training jobs",
+  "host": "connect.weste.seetacloud.com",
+  "port": 23243,
+  "credentials_persisted": false,
+  "local_exec_sessions": {
+    "persistent_ssh_bash": 18013,
+    "native_sftp_controls_and_receipts": 13128,
+    "resumable_base_transfer_client": 58927,
+    "guarded_context_and_final_receipt_sync": 56345
+  },
+  "remote_pids_at_launch": {
+    "wait_hash_restore_and_POSIX_acceptance": 2518,
+    "environment_attempt03_native_build": 5964,
+    "bounded_post_restore_functional_acceptance_attempt02": 5965,
+    "A8_control_and_authority_finalization": 5966
+  },
+  "remote_paths": {
+    "packages": "/root/autodl-fs/rap-transfer-20261106",
+    "workspace": "/root/autodl-tmp/rap-workspace-20261106",
+    "environment": "/root/autodl-tmp/rap-envs/rap-20261106",
+    "logs_and_receipts": "/root/autodl-tmp/rap-migration-20261106"
+  },
+  "expected_base_files": 589,
+  "expected_base_bytes": 125499551391,
+  "late_A8_control_files": 162,
+  "late_A8_control_bytes": 61699054,
+  "late_A8_control_manifest_sha256": "7027a69281873f069e0492ca19b98ef4896731a57e473919b670a27abfc70034",
+  "success_requirement": "Actual server acceptance plus guarded synchronization must produce MIGRATION_COMPLETE.json; process existence is not success"
+}

@@ -1,0 +1,7 @@
+# One metadata-global repair, before any accuracy read
+
+Original firstP00 computed all4541 scans, source frontend check, complete fine graph and pose/source/hash outputs, then failed at execution-metadata `now()` because the copied helper import omitted now. Original worker remainsFAILED, original bank and all costs immutable. No GT/paired candidate metrics were read. Synthetic IPC/map tests had not exercised metadata helper globals.
+
+Owner's existing continuation/fix authorization covers this mechanical namespace correction. This supplement admits exactly one missing-import repair and one re-execution of this failed cell, superseding the original no-retry rule only for this implementation fault. No successful cell exists to replay. New bank02/run02/seal02 routes preserve old artifacts; original72-cell schedule starts unchanged, no partial-result selection/reclassification. Original failed216.3564823s remains in the SAME9000s account. No queue/seed/config/source-math/performance/accuracy-gate rescue or cap reset.
+
+New helper adds only imported global now. Finalization function AST equals original exactly; worker AST equals after output route/module-name normalization. Symbol-table analysis checks every referenced global against the actual imported module/builtins before raw launch. Existing synthetic IPC/order/map/reset evidence remains applicable to the identical interface. This does not claim the original worker succeeded or replace historical failures. Subsequent scientific/gate failures do not authorize another candidate/parameter retry.

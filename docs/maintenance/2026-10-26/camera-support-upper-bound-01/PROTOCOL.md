@@ -1,0 +1,27 @@
+# CU1 forward-camera support upper bound on the complete existing cohort
+
+Owner authority: explicit October26 request to continue strategy/project work in the current quota window. This is a separately bounded local supplied-reference engineering diagnostic, after AF1's camera-availability check and review of the existing original KITTI devkit. No new source acquisition, efficacy test, candidate selection, training or stopped-family rescue is admitted.
+
+## Question and useful interpretation
+
+For each direction of every one of the existing200 input pairs, how many actual benchmark LiDAR point occurrences can lie at strictly positive depth in both camera0 coordinate systems under the supplied camera reference? Positive depth is necessary but insufficient for image support. This query can rule out potential support when zero and quantify an optimistic ceiling before acquiring273 missing images. It cannot show actual co-visibility, image-field membership, static correspondence, useful texture, information gain or pose accuracy. No favorable pair subset becomes a new cohort.
+
+All10000/10008 pairs and both directions remain in the result. They are previously exposed development data. The reference is the local KITTI supplied camera trajectory under its stated provider convention, not an independently authenticated physical survey. The source-to-raw drive mapping is only intended provider association. No claim of checkpoint exclusion, independent scenes or population risk.
+
+## Exact observations and math
+
+Use only the complete AF1 identifier manifest, original F2 raw-identity map, the273 distinct anchor .bin files in the known benchmark export, camera0 calibration Tr/P0 and camera-reference pose files00/08. Bind every current file length/SHA256 before numerical decoding; raw hashes must match the existing F2 freeze. No image, appearance value, descriptor, RAP output, motion estimate, RegX reference, label or outcome is input.
+
+The existing original devkit specifies rectified camera0 and Tr as Velodyne-to-camera. For source point x, source camera coordinate is Tr*x. Supplied pose P_i maps camera_i to the first camera frame; compute Q_i_to_j=solve(P_j,P_i) using the stored matrices without rotation projection. Target camera coordinate is Q_i_to_j*Tr*x. Source/target optical depths are their third coordinates. Count strictly positive source depth, strictly positive target depth and their conjunction, for every original XYZ occurrence. Keep the original benchmark coordinates, no E0 intrinsic correction, extra deskew, nearest-neighbor association, filtering, truncation, crop, point cap or intensity use in this diagnostic. This is not a new preprocessing choice for RAP.
+
+Corroborate complete counts through two different arithmetic arrangements: full homogeneous point transforms and independently composed affine depth planes. Record any sign disagreement and near-plane ambiguity. Use a fixed numerical guard256*float64_epsilon times1+the absolute matrix-product scale; require any route disagreement to fall inside that guard and maximum depth discrepancy within the guard. Report strict counts from both routes plus lower/upper counts with the guard; do not silently move the zero threshold. This guard is a declared numerical check, not certified interval arithmetic or physical uncertainty.
+
+Before real decoding, exercise identity, opposed optical axes, known translation, LiDAR-to-camera axis permutation, a noncommuting exact rotation composition and zero/negative depth fixtures. Reject malformed/nonfinite arrays. On each real directional record, crosscheck16 fixed evenly spaced source points with independent Decimal accumulation of the supplied affine matrix coefficients. This corroborates arithmetic from the bound matrices, not the truth of reference/calibration or an independent raw-data acquisition audit.
+
+## Source, resource and stopping contract
+
+Conservative new-scope origin06:35:00UTC includes the earlier prospective design discussion and source-identity inspection. Combined scope1800s,180s closure reserve. A single supervised numeric worker gets300s,256MiB native working-set peak, CPU only,16MiB new dossier; no saved real point arrays. Original fresh host12GiB/2s admission remains. All imports/preflight/failures/validation and delivery count in the enclosing scope; overlapping earlier scope clocks are not added twice or amended. Ordinary setup/observer/native process-tree peaks remain outside a scoped worker assertion.
+
+Stop on source, schema, finiteness, numerical corroboration, count/completeness or resource failure. Preserve source/failure/partial records; no retry or cap/zero-threshold/subset rescue. Known .bin sizes must be positive multiples of16. Calibration/P0 and pose rows must have the exact expected dimensions, finite values and near-rigid rotation checks at the fixed1e-3 entry/determinant tolerance; never repair rotations. Every pair ID and400 directional records must be present before summary. No efficacy gate or PASS for image adequacy is invented from a positive count.
+
+KC0's preceding documentary614.5707246/600s failure remains unchanged. CU1 asks a different numerical observation-availability question, does not re-execute KC0 and does not repair its account. It also does not bypass KCS1's login-pointer limitation or authorize image acquisition. Research UNRESOLVED/manuscript PAUSED; no production/default/install/Git/outreach/scheduler/goal-status change, no WSL startup.

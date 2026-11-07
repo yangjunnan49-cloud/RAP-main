@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "union_exact": true,
+  "support_raw_search_exact": true,
+  "strata_exact": true,
+  "sampling_exact": true,
+  "GT_free_inputs": true,
+  "sc_max_delta": 2.1407321249000688e-08,
+  "bruteforce_examples": [
+    {
+      "stratum": "confuser",
+      "source_i": 569,
+      "source_j": 1554,
+      "overlap": 0.0
+    },
+    {
+      "stratum": "confuser",
+      "source_i": 583,
+      "source_j": 802,
+      "overlap": 0.0
+    },
+    {
+      "stratum": "ambiguous_positive",
+      "source_i": 778,
+      "source_j": 1448,
+      "overlap": 0.6937500000000001
+    },
+    {
+      "stratum": "ambiguous_positive",
+      "source_i": 797,
+      "source_j": 1388,
+      "overlap": 0.6837500000000001
+    },
+    {
+      "stratum": "low_overlap",
+      "source_i": 70,
+      "source_j": 1826,
+      "overlap": 0.105375
+    },
+    {
+      "stratum": "low_overlap",
+      "source_i": 2434,
+      "source_j": 3856,
+      "overlap": 0.1075
+    },
+    {
+      "stratum": "ordinary",
+      "source_i": 762,
+      "source_j": 1441,
+      "overlap": 0.82325
+    },
+    {
+      "stratum": "ordinary",
+      "source_i": 792,
+      "source_j": 1414,
+      "overlap": 0.8425
+    }
+  ]
+}

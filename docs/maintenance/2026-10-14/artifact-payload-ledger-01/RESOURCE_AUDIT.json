@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "receipts": [
+    {
+      "stage": "freeze",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 40.70638172100007,
+        "peak_RSS_bytes": 22478848,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 1568531,
+        "imports_included": true,
+        "optimizer_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T16:08:59.5468401Z",
+        "wall_seconds": 43.410197,
+        "host_memory_observations": 56,
+        "minimum_observed_headroom_bytes": 72395591680.0
+      },
+      "launch": {
+        "pid": 49344,
+        "utc_start": "2026-10-13T16:08:16.1366431Z",
+        "script": "scripts/maintenance/artifact_payload_ledger.py",
+        "stage": "freeze",
+        "headroom_before_bytes": 74099621888
+      }
+    },
+    {
+      "stage": "measure",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 71.40041204199952,
+        "peak_RSS_bytes": 27049984,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 1590532,
+        "imports_included": true,
+        "optimizer_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T16:13:33.3176568Z",
+        "wall_seconds": 78.4505366,
+        "host_memory_observations": 101,
+        "minimum_observed_headroom_bytes": 72327417856.0
+      },
+      "launch": {
+        "pid": 3176,
+        "utc_start": "2026-10-13T16:12:14.8671202Z",
+        "script": "scripts/maintenance/artifact_payload_ledger.py",
+        "stage": "measure",
+        "headroom_before_bytes": 74163691520
+      }
+    },
+    {
+      "stage": "validate",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 60.45826254900021,
+        "peak_RSS_bytes": 27623424,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 1609488,
+        "imports_included": true,
+        "optimizer_calls": 0
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T16:15:27.6262246Z",
+        "wall_seconds": 65.9972801,
+        "host_memory_observations": 85,
+        "minimum_observed_headroom_bytes": 72383397888.0
+      },
+      "launch": {
+        "pid": 55100,
+        "utc_start": "2026-10-13T16:14:21.6289445Z",
+        "script": "scripts/maintenance/artifact_payload_ledger.py",
+        "stage": "validate",
+        "headroom_before_bytes": 74117480448
+      }
+    }
+  ],
+  "scientific_child_seconds_including_imports": 172.5650563119998,
+  "peak_RSS_bytes": 27623424,
+  "GPU_bytes": 0,
+  "logging_retries": 0,
+  "logging_gaps": 0,
+  "ordinary_setup_RSS_unknown": true,
+  "stdlib_closure_separate": true,
+  "old_limits_failures_gaps_unchanged": true
+}

@@ -1,0 +1,4 @@
+{
+  "error": "AssertionError()",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/e/githouse/RAP-main/scripts/maintenance/validate_geometric_information_screen.py\", line 147, in <module>\n    try:globals()[args.stage]()\n  File \"/mnt/e/githouse/RAP-main/scripts/maintenance/validate_geometric_information_screen.py\", line 86, in bank\n    assert np.allclose(H,d['H'],atol=1e-7,rtol=1e-9);info=6*H/denominator\nAssertionError\n"
+}

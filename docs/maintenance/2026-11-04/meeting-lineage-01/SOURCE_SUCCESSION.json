@@ -1,0 +1,26 @@
+{
+  "changed_maintenance_sources": [
+    {
+      "root": "rap-main",
+      "path": "scripts/maintenance/index_code_entries.py",
+      "before_sha256": "705fad19ab588e5647fa17df9deb724ba620449fecef696612b3e28d00cabdb4",
+      "after_sha256": "92a079e5e8508003e88c5aac44181ec3ce0fde89a6787aa2faa356c04e362df8"
+    },
+    {
+      "root": "rap-main",
+      "path": "scripts/maintenance/render_current_state.py",
+      "before_sha256": "a3a9266cb4269a3d5b42e56a83223cba3e43d19c0c5cc9b720e253c331561309",
+      "after_sha256": "2cf25b6be1f64459517ed64f7d7c68714ae2244828a7a4d7d0f8703bef58eb65"
+    }
+  ],
+  "added_explicit_maintenance_tool": {
+    "root": "rap-main",
+    "path": "scripts/meetings/materials.py",
+    "sha256": "bd6cebe8b7cb060d631713e38a5005b05cd7be872f5aeaccfb395f4de01f665b",
+    "bytes": 7777
+  },
+  "other_baseline_code_config_files_unchanged": 902,
+  "production_or_training_source_changed": false,
+  "old_meeting_builder_or_artifact_modified": false,
+  "A6_new_control_plane_and_copies_to_be_included_in": "A7_FINAL_INCREMENT"
+}

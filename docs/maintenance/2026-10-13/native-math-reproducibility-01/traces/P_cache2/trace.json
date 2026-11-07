@@ -1,0 +1,23 @@
+{
+  "name": "P_cache2",
+  "arm": "P",
+  "path": "cache",
+  "rep": 2,
+  "loss": 198.34620264780563,
+  "terms": {
+    "translation": 191.86358318054317,
+    "rotation": 6.459410662749862,
+    "shape": 0.023208804512579173
+  },
+  "factor": 0.0009765625,
+  "parameters_unchanged_byteexact": true,
+  "optimizer_calls": 0,
+  "hook_modules": [
+    "transformer_layers.10.global_qkv_proj",
+    "transformer_layers.10.global_out_proj",
+    "transformer_layers.11.global_qkv_proj",
+    "transformer_layers.11.global_out_proj"
+  ],
+  "rank_linear_extra_calls": 4,
+  "dispatched_ATen_names": []
+}

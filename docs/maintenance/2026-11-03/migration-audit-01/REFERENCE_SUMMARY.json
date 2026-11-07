@@ -1,0 +1,37 @@
+{
+  "finished_utc": "2026-11-03T07:13:16.860174+00:00",
+  "seconds": 7.952999999979511,
+  "reference_edges": 237301,
+  "target_status": {
+    "target_in_inventory": 2017,
+    "target_is_audited_root": 619,
+    "linux_runtime_or_unmounted_path": 830,
+    "external_target_exists": 253,
+    "missing_path_under_audited_root": 10612,
+    "dynamic_or_example_path": 14,
+    "external_target_missing_or_inaccessible": 30,
+    "match_at_recorded_resolution": 215362,
+    "recorded_path_unresolved_but_exact_bytes_preserved": 6397,
+    "exact_historical_bytes_recovered": 18,
+    "recorded_path_differs_but_exact_bytes_preserved": 52,
+    "expected_negative_control_digest_mismatch": 1,
+    "recorded_path_unresolved_no_exact_copy_in_scope": 1073,
+    "recorded_current_bytes_differ_no_exact_copy_in_scope": 19,
+    "referenced_external_runtime_matches": 3,
+    "historical_external_runtime_changed": 1
+  },
+  "source_roles": {
+    "current": 67,
+    "historical_or_artifact": 13957,
+    "optional_or_tool": 351,
+    "historical_manifest": 222926
+  },
+  "current_review_edges": 20,
+  "authority_files": 107,
+  "skips": {
+    "PGC1 opaque preservation; no semantic inspection": 1394
+  },
+  "external_unique_paths": 96,
+  "project_asset_discovery_closed": false,
+  "limit": "Static text/manifest path audit; constructed runtime paths and Linux filesystem internals require A3/A4. No partial PGC1 output interpreted."
+}

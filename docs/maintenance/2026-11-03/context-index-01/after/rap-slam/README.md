@@ -1,0 +1,38 @@
+# RAP-SLAM
+
+RAP 工作区的离线 SLAM 系统仓库，与同级 RAP-main 模型仓库独立管理。当前任务为迁移前工程整理，研究 UNRESOLVED、论文 PAUSED；服务器将用于继续研究与训练，全部实验历史随迁并常驻服务器。
+
+先读 [本仓库约定](AGENTS.md)、[工作区当前状态](../RAP-main/docs/CURRENT_STATE.md)、[共用约定](../RAP-main/docs/CONVENTIONS.md)和[迁移计划](../RAP-main/docs/migration/PLAN.md)。
+
+## 代码定位
+
+现有系统流程：数据加载 → 里程计 → 关键帧 → 回环候选与 RAP 验证 → 位姿图 → 评测/输出。以下为源码入口定位，不是本轮新运行结果：
+
+| 文件/目录 | 职责 |
+| --- | --- |
+| [scripts/run_pipeline.py](scripts/run_pipeline.py) | 离线管线参数与入口 |
+| [rap_slam/rap_backend.py](rap_slam/rap_backend.py) | RAP 模型适配与配准，register(a,b) 为 b→a |
+| [rap_slam/rap_precision.py](rap_slam/rap_precision.py) | 配准数值精度作用域 |
+| [rap_slam/real_dataset.py](rap_slam/real_dataset.py) | KITTI 格式输入、帧范围和坐标约定 |
+| [rap_slam/odometry.py](rap_slam/odometry.py) | 里程计包装 |
+| [rap_slam/loop_closure.py](rap_slam/loop_closure.py) | 回环候选与验证 |
+| [rap_slam/pose_graph.py](rap_slam/pose_graph.py) | 位姿图求解接口 |
+| [rap_slam/evaluate.py](rap_slam/evaluate.py) | 评测与可视化输出 |
+| [ros2](ros2) | 可选实时集成/可视化组件，依赖待 A4 单独核对 |
+
+## 运行与迁移状态
+
+现有入口通过 argparse 接收 --rap-root、--output、--real-root、--real-seq、--real-start/--real-end 等参数；源码仍有本机绝对默认值，A3 才实施路径改造。坐标校准、0.205° 修正、帧范围与算法参数按原数据合同/协议解释，整理文档不改变默认值。
+
+[requirements.txt](requirements.txt)只是现有 SLAM 补充依赖清单。完整系统/模型/编译扩展和训练链由 A4 建立受测搭建说明；本页不把旧机器安装成功等同于目标服务器已可训练。
+
+data/、output*/ 和根运行日志保留原路径。A1 已建立逐文件归属和校验，尚未搬迁或删除；新运行不能覆盖这些历史产物。
+
+## 实验与历史
+
+- [实验总索引](../RAP-main/docs/experiments/README.md)：研究、维护和旧输出按类查阅；状态未知不等于成功。
+- [当前研究边界](../RAP-main/docs/CURRENT_STATE.md)：E0 工程正面记录保留，PGC1/SSC1 停止及 official MAC 未运行等限制继续有效。
+- [保全缺口](../RAP-main/docs/experiments/GAPS.md)：五个早期源码哈希和一份旧 AGENTS 中间版本未恢复，不能用现代码冒充。
+- [本 README 整理前的完整原件](../RAP-main/docs/maintenance/2026-11-03/context-index-01/before/rap-slam/README.md)：保存原 7 月起的结果、图表说明、路线图及命令。原文的“当前/下一步”只代表当时状态，指标和来源限制应结合各次协议/报告。
+
+组会与论文材料由[组会定位页](../RAP-main/docs/experiments/MEETINGS.md)进入，成品/源码/缓存组织待 A6，论文仍暂停。本轮没有重新运行这些实验。

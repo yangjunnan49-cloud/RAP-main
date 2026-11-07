@@ -1,0 +1,7 @@
+# Finite descriptive deformation audit
+
+The new primary mean ATE/ter target passes, while07 ter and10 rer exceed declared individual KISS-relative protection. The fixed candidate is not tuned or promoted by this audit. Inspect all six, every accepted local-map closure and every official segment length; no favourable edge/stratum selection, rerun, new pose, solver or model. This is source-bound explanation from already-sealed O/B/G predictions and already-used GT, not a new rejector/gate or physical-authenticity claim.
+
+Bind each recorded map ID to its explicit reset-anchor source frame. Frozen LoopCloser applies source-point-cloud to target-point-cloud transformation; compare its recorded Z with inv(GT_target)*GT_source, and compare O/B/G at those same source frames. Report every accepted closure's translation/rotation discrepancy without a correctness threshold. For each official segment length, show paired O/B/G ter/rer means and signed change counts. Verify O aggregates reproduce its independent control; use already-validated B/G segment records. Check zero-loop G09/10 is a no-op relative to O, with no per-sequence substitution.
+
+Freeze helper, this scope, existing prediction/result/metadata identities before this finite numeric read. Charge original LMB1800s/4GiB/128MiB-combined/GPU0 scope with original12GiB host guard. No change to frozen primary/safety gates, old failures/stops, installed code or reference.

@@ -1,0 +1,3 @@
+# Next retained-update feasibility — DESIGN_ONLY
+
+With ADR0 activated derivatives and SAR0 original-state sampler/extraction bindings complete, design a separate small bounded retained-update comparison on the explicitly defined shadow function. Preserve double learned parameter states instead of rounding them through per-step float32 restoration; a separate frozen-prefix instance or explicit lifecycle is required. Predeclare optimizer policy/exposure/capacity/update/heldout/sampler/metric gates and independently reconstruct every update and full paired predictions before any reference errors. Do not start original400 fits or rescue failed native conditions. No next fit protocol/runner/freeze/retained update/heldout pose metric executed by SAR0.

@@ -1,0 +1,24 @@
+{
+  "exact_target_loss": 2.73910971522912e-13,
+  "analytic_affine_max_delta": 5.3513919295866685e-08,
+  "gauge_loss_delta": 3.865352482534945e-12,
+  "output_directional_FD": [
+    {
+      "analytic": 2.3382841599532114,
+      "finite_difference": 2.3382844460684282,
+      "absolute_delta": 2.8611521685206753e-07
+    },
+    {
+      "analytic": -8676.62702451211,
+      "finite_difference": -8676.62702449934,
+      "absolute_delta": 1.2771124602295458e-08
+    },
+    {
+      "analytic": 8143.470892412786,
+      "finite_difference": 8143.470892463256,
+      "absolute_delta": 5.0469679990783334e-08
+    }
+  ],
+  "passed": true,
+  "model_loaded": false
+}

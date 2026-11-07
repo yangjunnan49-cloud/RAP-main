@@ -1,0 +1,56 @@
+{
+  "task": "structural-holdout-map-pilot-01",
+  "status": "VALIDATED_EXPLORATORY_COMPLETE",
+  "decision": "NO_MATERIAL_SUPPORT_PRESERVING_LOCAL_GAIN",
+  "owner_continuation": "\u4e0d\u9519\uff0c\u7ee7\u7eed\u63a8\u8fdb\u4e0b\u4e00\u8f6e\u65b9\u6848",
+  "freeze_entries": 34,
+  "research_finding": "WHOLE_PATCH_RETENTION_RESTORES_SUPPORT_WITHOUT_MATERIAL_LOCAL_GAIN",
+  "supported_windows": 4,
+  "valid_predictions": 4,
+  "full_features": [
+    106,
+    132,
+    52,
+    51
+  ],
+  "train_features": [
+    86,
+    100,
+    40,
+    37
+  ],
+  "holdout_features": [
+    20,
+    32,
+    12,
+    14
+  ],
+  "gates": {
+    "all_four_supported_valid": true,
+    "ate_improved_windows": 3,
+    "mean_fractional_ate_gain": 0.011377600831067897,
+    "ate_safety": true,
+    "translation_safety": true,
+    "rotation_safety": true,
+    "mean_holdout_rms_ratio": 0.992992337355004,
+    "holdout_safety": true,
+    "eligible": false
+  },
+  "scientific_failures_or_repairs": 0,
+  "separate_metadata_schema_repair": true,
+  "next_revisit_design": {
+    "status": "DESIGN_ONLY",
+    "sequence": "00",
+    "i": 2429,
+    "j": 3373,
+    "raw_bindings": 16,
+    "coordinate_payload_parsed": false,
+    "optimizer_executed": false
+  },
+  "full_optimizer_replay": false,
+  "full_sequence_metrics": false,
+  "checkpoint_deserialized": false,
+  "new_model_training_or_RAP_inference": false,
+  "old_scientific_outcomes_reclassified": false,
+  "original_breakthrough_or_independent_generalization_established": false
+}

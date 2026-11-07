@@ -1,0 +1,120 @@
+{
+  "primary_seal_verified": true,
+  "source_labels_bound": [
+    {
+      "path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-09-14\\hl-v2\\data-expansion-01\\discovery_evaluator.json",
+      "sha256": "d3e182aaf60078ddabf01947ee61982c9d3e97df46f214f35fa03f322d60ec8d"
+    },
+    {
+      "path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-09-14\\support-control-01\\data\\confirmation_evaluator.json",
+      "sha256": "857571e44b43d7bcf0de64f3f5a35ce7d03924f36ac7c132cffa29229f0fc3c1"
+    }
+  ],
+  "complete_pairs": 200,
+  "cells": [
+    {
+      "sequence": "00",
+      "stratum": "ambiguous_positive",
+      "pairs": 25,
+      "directions": 50,
+      "center_domain_occurrences": 345361,
+      "edge_upper_occurrences": 346036,
+      "zero_upper_directions": 17,
+      "zero_upper_both_pairs": 8,
+      "unconditional_upper_fraction_median": 0.005866753923827816
+    },
+    {
+      "sequence": "00",
+      "stratum": "confuser",
+      "pairs": 25,
+      "directions": 50,
+      "center_domain_occurrences": 273644,
+      "edge_upper_occurrences": 274234,
+      "zero_upper_directions": 35,
+      "zero_upper_both_pairs": 13,
+      "unconditional_upper_fraction_median": 0.0
+    },
+    {
+      "sequence": "00",
+      "stratum": "low_overlap",
+      "pairs": 25,
+      "directions": 50,
+      "center_domain_occurrences": 399556,
+      "edge_upper_occurrences": 400306,
+      "zero_upper_directions": 16,
+      "zero_upper_both_pairs": 6,
+      "unconditional_upper_fraction_median": 0.002574537845079345
+    },
+    {
+      "sequence": "00",
+      "stratum": "ordinary",
+      "pairs": 25,
+      "directions": 50,
+      "center_domain_occurrences": 534215,
+      "edge_upper_occurrences": 535321,
+      "zero_upper_directions": 2,
+      "zero_upper_both_pairs": 1,
+      "unconditional_upper_fraction_median": 0.08439758064272296
+    },
+    {
+      "sequence": "08",
+      "stratum": "ambiguous_positive",
+      "pairs": 25,
+      "directions": 50,
+      "center_domain_occurrences": 195671,
+      "edge_upper_occurrences": 196368,
+      "zero_upper_directions": 29,
+      "zero_upper_both_pairs": 14,
+      "unconditional_upper_fraction_median": 0.0
+    },
+    {
+      "sequence": "08",
+      "stratum": "confuser",
+      "pairs": 25,
+      "directions": 50,
+      "center_domain_occurrences": 190604,
+      "edge_upper_occurrences": 191174,
+      "zero_upper_directions": 37,
+      "zero_upper_both_pairs": 14,
+      "unconditional_upper_fraction_median": 0.0
+    },
+    {
+      "sequence": "08",
+      "stratum": "low_overlap",
+      "pairs": 25,
+      "directions": 50,
+      "center_domain_occurrences": 300615,
+      "edge_upper_occurrences": 301402,
+      "zero_upper_directions": 21,
+      "zero_upper_both_pairs": 9,
+      "unconditional_upper_fraction_median": 0.0014789796302678434
+    },
+    {
+      "sequence": "08",
+      "stratum": "ordinary",
+      "pairs": 25,
+      "directions": 50,
+      "center_domain_occurrences": 82545,
+      "edge_upper_occurrences": 82803,
+      "zero_upper_directions": 38,
+      "zero_upper_both_pairs": 19,
+      "unconditional_upper_fraction_median": 0.0
+    }
+  ],
+  "original_positive_aggregates": [
+    {
+      "sequence": "00",
+      "original_positive_pairs": 75,
+      "zero_upper_both_pairs": 15,
+      "zero_upper_directions": 35
+    },
+    {
+      "sequence": "08",
+      "original_positive_pairs": 75,
+      "zero_upper_both_pairs": 42,
+      "zero_upper_directions": 88
+    }
+  ],
+  "no_raw_image_pose_geometry_replay": true,
+  "role": "Complete saved-output descriptive join, no model or efficacy gate"
+}

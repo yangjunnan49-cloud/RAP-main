@@ -1,0 +1,35 @@
+{
+  "freeze_entries": 160,
+  "old_delivery_entries_unchanged": [
+    103,
+    188,
+    53,
+    5
+  ],
+  "RAP_checkpoint_hashed_not_loaded": true,
+  "no_GPU_model_native_or_real_calls": true,
+  "validation": {
+    "passed": true,
+    "primary_conjunction": true,
+    "decision": "FIXED_ANCHOR_METRIC_CONTROL_FEASIBLE",
+    "independent_trial_records": 40,
+    "all12_trial_gradients_FD_checked": true,
+    "independent_hessian_zero_checked": true,
+    "full_optimizer_replays": 4,
+    "replay_iterations": 32,
+    "replay_closure_evaluations": 40,
+    "optimizer_replay_uses_same_source_and_library": true,
+    "not_independently_implemented_LBFGS": true,
+    "max_cost_delta": 7.275957614183426e-12,
+    "max_gradient_FD_delta": 1.0170970199396834e-06,
+    "max_pose_delta": 1.1546319456101628e-14,
+    "max_output_delta": 1.1102230246251565e-16,
+    "max_hessian_FD_delta": 6.591177952941507e-05,
+    "replay_max_delta": 0.0,
+    "all_final_gates_duplicated": true,
+    "wall_seconds": 13.559043592773378,
+    "peak_RSS_bytes": 664436736,
+    "GPU_used": false,
+    "artifact_bytes": 988350
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "scientific_status": "36_COMPLETE_FIXED_PIPELINES_AND_INDEPENDENT_METRICS_VALIDATED",
+  "new_runs": 36,
+  "attempted_model_launches": 38,
+  "completed_model_pipelines": 37,
+  "admitted_repetition_set": 36,
+  "prior_cap_failure_retained": true,
+  "all_new_child_resource_records_complete": true,
+  "combined_prior_attempts_plus_fresh_controller_plus_evaluation_wall_s": 4190.081505242,
+  "fresh_controller_wall_s": 3807.8263337730023,
+  "evaluation_wall_s": 133.1280090559958,
+  "max_all_attempted_rss_bytes": 15841193984,
+  "max_all_attempted_cuda_allocated_bytes": 4785265152,
+  "max_all_attempted_cuda_reserved_bytes": 9661579264,
+  "whole_benchmark_bytes_at_audit": 2135527191,
+  "caps": {
+    "child_rss_GiB": 18,
+    "cuda_allocated_GiB": 6,
+    "cuda_reserved_GiB": 10,
+    "attempts_plus_evaluation_seconds": 7200,
+    "artifacts_GiB": 20
+  },
+  "windows": [
+    {
+      "stage": "run",
+      "observations": 101,
+      "first": "2026-10-11T01:46:59.9269232Z",
+      "last": "2026-10-11T01:48:19.2148624Z",
+      "min_headroom_bytes": 42934890496
+    },
+    {
+      "stage": "recovery-observation",
+      "observations": 72,
+      "first": "2026-10-11T01:50:16.3200456Z",
+      "last": "2026-10-11T01:51:11.8750377Z",
+      "min_headroom_bytes": 26111905792
+    },
+    {
+      "stage": "recovery-observation02",
+      "observations": 4582,
+      "first": "2026-10-11T01:52:55.7498091Z",
+      "last": "2026-10-11T02:52:50.1121548Z",
+      "min_headroom_bytes": 25953943552
+    },
+    {
+      "stage": "evaluate",
+      "observations": 176,
+      "first": "2026-10-11T02:53:04.6102041Z",
+      "last": "2026-10-11T02:55:21.4657346Z",
+      "min_headroom_bytes": 48773939200
+    }
+  ],
+  "known_gaps": [
+    "Original supervisor host snapshots stop after access-denied File.Move. First attached observer also stops after File.Move access denial. Both intervals retained.",
+    "Attached final observer sees process end but Windows launcher exit code is null and remains unavailable. All 36 actual Linux model-child exits are 0. Fresh evaluator has full Windows exit0 and full resource record."
+  ],
+  "claim_boundary": "Child caps observed and captured; do not claim gap-free Windows supervision or all-attempt lifetime host guarantees. Freeze/raw identity checks, design, document authoring and PDF rendering are separate from child-plus-evaluation timings. No production latency claim."
+}

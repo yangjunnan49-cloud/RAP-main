@@ -1,0 +1,72 @@
+{
+  "freeze_entries": 170,
+  "old_delivery_entries_unchanged": [
+    103,
+    188,
+    53,
+    5,
+    37
+  ],
+  "validation_available_artifacts": {
+    "passed": true,
+    "audit_scope": "available artifact integrity, independent CPU mathematics and stopped execution boundary",
+    "freeze_entries": 170,
+    "old_delivery_counts": [
+      103,
+      188,
+      53,
+      5,
+      37
+    ],
+    "noise_arrays_integrity_checked": 24,
+    "noise_generator_replay": false,
+    "fixture_byteexact": true,
+    "mathematics_reproduced": true,
+    "independent_Horn_exact_target_cost": 2.7391101501601475e-13,
+    "independent_Horn_identity_cost_delta": 1.9042545318370685e-12,
+    "no_neural_backward_or_optimizer_evidence": true,
+    "no_probe_or_fitted_parameters_written": true,
+    "retained_updates": 0,
+    "native_fitting_gate_not_reached": true,
+    "neural_learnability_not_evaluated": true,
+    "repository_state_preserved": true,
+    "repositories": [
+      {
+        "root": "/mnt/e/githouse/RAP-main",
+        "HEAD": "4055d929c594b0033aafc6eed339c910369eef55",
+        "branch": "codex/meeting-20260930",
+        "tracked_dirty": [
+          " M .gitignore",
+          " M AGENTS.md"
+        ]
+      },
+      {
+        "root": "/mnt/e/githouse/RAP-SLAM",
+        "HEAD": "6d3f2d22cedfe1f807deb11fd8796b9f5bf17cd6",
+        "branch": "codex/e0-f1-20260926",
+        "tracked_dirty": [
+          " M rap_slam/loop_closure.py",
+          " M rap_slam/odometry.py",
+          " M rap_slam/pose_graph.py",
+          " M rap_slam/rap_backend.py",
+          " M rap_slam/real_dataset.py",
+          " M scripts/build_s1_features.py",
+          " M scripts/eval_map_consistency.py",
+          " M scripts/eval_paper_metrics.py",
+          " M scripts/run_pipeline.py"
+        ]
+      }
+    ],
+    "GPU_used": false,
+    "wall_seconds": 3.7593675830000004,
+    "RSS_peak_bytes": 542408704
+  },
+  "scientific_neural_gates_complete": false,
+  "optimizer_probe_calls": 0,
+  "neural_backward_calls": 0,
+  "fit_updates": 0,
+  "prediction_traces": 0,
+  "real_windows": 0,
+  "nearby_windows": 0,
+  "resource_all_attempt_caps_verified": false
+}

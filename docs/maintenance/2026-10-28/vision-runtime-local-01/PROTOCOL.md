@@ -1,0 +1,7 @@
+# OVL1 owner-provided complete wheel, offline admission
+
+Owner says the requested wheel is downloaded; exactly one matching43,825,962byte file is found at C:/Users/AAA/Downloads/opencv_python_headless-5.0.0.93-cp37-abi3-win_amd64.whl. Use the existing explicit authorization for this pinned wheel's isolated no-dependency installation/API check. No remote request, source/version/dependency change or old failed host retry. Both prior failed transfers remain closed/unchanged. New target is this new project-local dossier's site-packages; no existing Python/RAP/SLAM environment or PATH changes.
+
+Conservative scope origin2026-10-28 04:42:00UTC,600s inclusive with120s closure reserve. Local validation<=60s, offline install<=180s, API probe<=60s,1GiB per process/whole dossier, fresh headroom12GiB/query<=2s. Require exact size/SHA256829717b6a95554f273e49e357cee3b3a2a26b6f4842fbc1bed2b45bdd8f87e0e, bounded safe wheel paths/uncompressed sizes/CRC, then unchanged copy on E. Offline pip --no-index --no-deps --no-compile --no-cache-dir --target, local temporary directory. No automatic retry, resolver, package fallback or global install.
+
+Probe only pinned cv2/NumPy origin/version, classical API/factory capability and installed docstrings, one thread/OpenCL disabled. No image/feature/pose solver/model/training or GPU work. Old source/data/scientific negatives and caps unchanged. Initial account91%/ordinaryTRUE/reset1793169166 followed04:42:00UTC is not exhaustion; no automatic reset resume.

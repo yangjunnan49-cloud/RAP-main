@@ -1,0 +1,184 @@
+{
+  "passed": true,
+  "case_count": 26,
+  "cases": [
+    {
+      "case": "sealed_exports",
+      "dtype": "float32",
+      "layout": 0,
+      "unit": "0.0625",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float32",
+      "layout": 0,
+      "unit": "1",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float32",
+      "layout": 0,
+      "unit": "64",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float32",
+      "layout": 1,
+      "unit": "0.0625",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float32",
+      "layout": 1,
+      "unit": "1",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float32",
+      "layout": 1,
+      "unit": "64",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float32",
+      "layout": 2,
+      "unit": "0.0625",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float32",
+      "layout": 2,
+      "unit": "1",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float32",
+      "layout": 2,
+      "unit": "64",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float64",
+      "layout": 0,
+      "unit": "0.0625",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float64",
+      "layout": 0,
+      "unit": "1",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float64",
+      "layout": 0,
+      "unit": "64",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float64",
+      "layout": 1,
+      "unit": "0.0625",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float64",
+      "layout": 1,
+      "unit": "1",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float64",
+      "layout": 1,
+      "unit": "64",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float64",
+      "layout": 2,
+      "unit": "0.0625",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float64",
+      "layout": 2,
+      "unit": "1",
+      "passed": true
+    },
+    {
+      "case": "sealed_exports",
+      "dtype": "float64",
+      "layout": 2,
+      "unit": "64",
+      "passed": true
+    },
+    {
+      "case": "actual_omitted_Rc_term",
+      "passed": true,
+      "expected_rejection": true,
+      "ratio": "6796.4026090900726587590856799489038908474243620209"
+    },
+    {
+      "case": "inverse_direction",
+      "passed": true,
+      "expected_rejection": true,
+      "ratio": "131071.99999999992135679999999898550271433767651299"
+    },
+    {
+      "case": "doubled_metric_translation",
+      "passed": true,
+      "expected_rejection": true,
+      "ratio": "5461.3352994131122517617268021319410999628677862965"
+    },
+    {
+      "case": "swapped_view_identity",
+      "passed": true,
+      "expected_rejection": true,
+      "ratio": "65535.992135680943718286753805589543329254800489424"
+    },
+    {
+      "case": "reject_nonfinite",
+      "passed": true,
+      "expected_rejection": true
+    },
+    {
+      "case": "reject_reflection",
+      "passed": true,
+      "expected_rejection": true
+    },
+    {
+      "case": "reject_homogeneous",
+      "passed": true,
+      "expected_rejection": true
+    },
+    {
+      "case": "reject_hash_tamper_before_parse",
+      "passed": true,
+      "expected_rejection": true
+    }
+  ],
+  "independent_decimal_coordinate_checks": 98982,
+  "max_coordinate_budget_ratio": "0.0050926939307350004381088482448947284227373241685333",
+  "source_or_fit_replays": 0,
+  "numerical_imports_requested": 0,
+  "source_functions_executed": 0,
+  "actual_missing_center_control_proved_separately": true,
+  "SI1_original_limitation_unchanged": true,
+  "external_reference_or_real_points_read": 0
+}

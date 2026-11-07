@@ -1,0 +1,84 @@
+{
+  "finished_utc": "2026-11-03T07:06:16.318004+00:00",
+  "recovered": [
+    {
+      "sha256": "2a49bc928c37ed5027810277e21e2093f4cf18423a2ff7dbc0b9eb9b40348d39",
+      "bytes": 6453,
+      "backup": "recovered-sources/2a49bc928c37ed5027810277e21e2093f4cf18423a2ff7dbc0b9eb9b40348d39.source",
+      "git_repository": "rap-main",
+      "git_blob": "7feed192bfe6239f934db238572273fd8ebaac5e",
+      "claims": [
+        {
+          "manifest": "rap-main:docs/maintenance/2026-09-10/m3/final_source_manifest.json",
+          "recorded_path": "rap_slam/measurement.py"
+        }
+      ],
+      "source_or_repository_rewritten": false,
+      "blob_semantically_evaluated": false
+    },
+    {
+      "sha256": "11e29c95cf91a3f82dddf34d55eadbee5ed413bedaad9f1105ee2b919f7429db",
+      "bytes": 363,
+      "backup": "recovered-sources/11e29c95cf91a3f82dddf34d55eadbee5ed413bedaad9f1105ee2b919f7429db.source",
+      "git_repository": "rap-main",
+      "git_blob": "ff0afd2b1089ab42a8564cf1e3b7e0cf82f08f94",
+      "claims": [
+        {
+          "manifest": "rap-main:docs/maintenance/audit-2026-09-09/manifest.json",
+          "recorded_path": "/mnt/e/githouse/RAP-main/.gitignore"
+        },
+        {
+          "manifest": "rap-main:.maintenance-archive/2026-09-09-m0/files/original-audit/manifest.json",
+          "recorded_path": "/mnt/e/githouse/RAP-main/.gitignore"
+        }
+      ],
+      "source_or_repository_rewritten": false,
+      "blob_semantically_evaluated": false
+    }
+  ],
+  "external_observations": [
+    {
+      "path": "C:\\Users\\AAA\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "bytes": 107312,
+      "sha256": "f8b45d63047da9d9adf09892e4cc4317b859e86a93a478cc9616bc69d3b176e5",
+      "historical_expected_sha256": "8ee100848a31f602848f99b37bcea91f97e2e94da33110b83845fd4e198d6c48",
+      "matches": false,
+      "purpose": "referenced external runtime; byte inspection only"
+    }
+  ],
+  "unrecovered_sha256": [
+    "482d9b285384abb3489211ff621acb9fcf5646227a12151aca1b3c8d8a3e4c41",
+    "677ec6d410358ba30cfc3a1e3c022753b5f955d214a5d7888439070d17f547c1",
+    "8ee100848a31f602848f99b37bcea91f97e2e94da33110b83845fd4e198d6c48",
+    "afdf15de7ff3779207d04795e8fe3d03c5adb7b8f419f2fd4c121d5426bc27be",
+    "fbf27bafd36dadcf02167f53b8320e70fb7f82e1e66ee0118c01cfbec67d98be"
+  ],
+  "git_reads": [
+    {
+      "root": "rap-main",
+      "blob_size_limit": 2097152,
+      "blobs_byte_hashed": 3107,
+      "blob_bytes_hashed": 165386389,
+      "seconds": 1.3910000000614673,
+      "search_includes_dangling_objects": true,
+      "git_mutated": false,
+      "child_reaped": true
+    },
+    {
+      "root": "rap-slam",
+      "blob_size_limit": 2097152,
+      "blobs_byte_hashed": 295,
+      "blob_bytes_hashed": 3885029,
+      "seconds": 0.2970000000204891,
+      "search_includes_dangling_objects": true,
+      "git_mutated": false,
+      "child_reaped": true
+    }
+  ],
+  "note": "Exact original bytes recovered into this audit only. No historical source, manifest, experiment result or current code rewritten.",
+  "archive_search": {
+    "archives_checked": 42,
+    "opaque_PGC1_archives_opened": false,
+    "no_result_arrays_or_accuracies_interpreted": true
+  }
+}

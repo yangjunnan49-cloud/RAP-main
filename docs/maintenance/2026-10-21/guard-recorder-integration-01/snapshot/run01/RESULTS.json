@@ -1,0 +1,190 @@
+{
+  "stub_controls_per_launched_worker": 15,
+  "cases_count": 9,
+  "native_integration": false,
+  "scientific_payloads": 0,
+  "OS_isolation_certified": false,
+  "passed": true,
+  "cases": [
+    {
+      "case": "normal",
+      "receipt": {
+        "success": true,
+        "error": null,
+        "cleanup_error": null,
+        "elapsed": 2.220418980999966,
+        "accepted_leases": 5,
+        "worker_launched": true,
+        "worker_return_code": 0,
+        "stop_after_last_accepted_reply": null,
+        "peak_worker_group_RSS_bytes": 17059840,
+        "parent_peak_RSS_bytes": 16752640,
+        "synthetic": true,
+        "raw_reads": 0,
+        "GT_reads": 0,
+        "new_predictions": 0
+      },
+      "passed": true
+    },
+    {
+      "case": "host_deadline",
+      "receipt": {
+        "success": false,
+        "error": "host_owned_stop",
+        "cleanup_error": null,
+        "elapsed": 3.1976138439931674,
+        "accepted_leases": 7,
+        "worker_launched": true,
+        "worker_return_code": 2,
+        "stop_after_last_accepted_reply": 0.19080643400957342,
+        "peak_worker_group_RSS_bytes": 17055744,
+        "parent_peak_RSS_bytes": 16547840,
+        "synthetic": true,
+        "raw_reads": 0,
+        "GT_reads": 0,
+        "new_predictions": 0
+      },
+      "passed": true
+    },
+    {
+      "case": "linux_deadline",
+      "receipt": {
+        "success": false,
+        "error": "linux_or_host_stage_deadline",
+        "cleanup_error": null,
+        "elapsed": 2.8427160599967465,
+        "accepted_leases": 6,
+        "worker_launched": true,
+        "worker_return_code": 2,
+        "stop_after_last_accepted_reply": 0.3034137669892516,
+        "peak_worker_group_RSS_bytes": 17088512,
+        "parent_peak_RSS_bytes": 16510976,
+        "synthetic": true,
+        "raw_reads": 0,
+        "GT_reads": 0,
+        "new_predictions": 0
+      },
+      "passed": true
+    },
+    {
+      "case": "observer_loss",
+      "receipt": {
+        "success": false,
+        "error": "host_lease_expired",
+        "cleanup_error": null,
+        "elapsed": 2.936710175999906,
+        "accepted_leases": 2,
+        "worker_launched": true,
+        "worker_return_code": 2,
+        "stop_after_last_accepted_reply": 2.1129629029892385,
+        "peak_worker_group_RSS_bytes": 27201536,
+        "parent_peak_RSS_bytes": 16351232,
+        "synthetic": true,
+        "raw_reads": 0,
+        "GT_reads": 0,
+        "new_predictions": 0
+      },
+      "passed": true
+    },
+    {
+      "case": "bad_nonce",
+      "receipt": {
+        "success": false,
+        "error": "nonce_or_sequence_mismatch",
+        "cleanup_error": null,
+        "elapsed": 0.8283375480095856,
+        "accepted_leases": 1,
+        "worker_launched": true,
+        "worker_return_code": 2,
+        "stop_after_last_accepted_reply": 0.4299181679962203,
+        "peak_worker_group_RSS_bytes": 17031168,
+        "parent_peak_RSS_bytes": 16637952,
+        "synthetic": true,
+        "raw_reads": 0,
+        "GT_reads": 0,
+        "new_predictions": 0
+      },
+      "passed": true
+    },
+    {
+      "case": "headroom_fault",
+      "receipt": {
+        "success": false,
+        "error": "host_memory_guard",
+        "cleanup_error": null,
+        "elapsed": 0.7647820229904028,
+        "accepted_leases": 1,
+        "worker_launched": true,
+        "worker_return_code": 2,
+        "stop_after_last_accepted_reply": 0.4221649989922298,
+        "peak_worker_group_RSS_bytes": 17125376,
+        "parent_peak_RSS_bytes": 16572416,
+        "synthetic": true,
+        "raw_reads": 0,
+        "GT_reads": 0,
+        "new_predictions": 0
+      },
+      "passed": true
+    },
+    {
+      "case": "rss_fault",
+      "receipt": {
+        "success": false,
+        "error": "observed_worker_group_RSS_cap",
+        "cleanup_error": null,
+        "elapsed": 0.46394726700964384,
+        "accepted_leases": 1,
+        "worker_launched": true,
+        "worker_return_code": 2,
+        "stop_after_last_accepted_reply": 0.11364498898910824,
+        "peak_worker_group_RSS_bytes": 84234240,
+        "parent_peak_RSS_bytes": 16756736,
+        "synthetic": true,
+        "raw_reads": 0,
+        "GT_reads": 0,
+        "new_predictions": 0
+      },
+      "passed": true
+    },
+    {
+      "case": "identity_rejection",
+      "receipt": {
+        "success": false,
+        "error": "host_owned_stop",
+        "cleanup_error": null,
+        "elapsed": 1.0560042050055927,
+        "accepted_leases": 2,
+        "worker_launched": true,
+        "worker_return_code": 2,
+        "stop_after_last_accepted_reply": 0.2634903340076562,
+        "peak_worker_group_RSS_bytes": 17108992,
+        "parent_peak_RSS_bytes": 16732160,
+        "synthetic": true,
+        "raw_reads": 0,
+        "GT_reads": 0,
+        "new_predictions": 0
+      },
+      "passed": true
+    },
+    {
+      "case": "source_binding",
+      "receipt": {
+        "success": false,
+        "error": "source_binding_mismatch:worker.py",
+        "cleanup_error": null,
+        "elapsed": 0.044240964998607524,
+        "accepted_leases": 0,
+        "worker_launched": false,
+        "worker_return_code": null,
+        "stop_after_last_accepted_reply": null,
+        "peak_worker_group_RSS_bytes": 0,
+        "parent_peak_RSS_bytes": 16789504,
+        "synthetic": true,
+        "raw_reads": 0,
+        "GT_reads": 0,
+        "new_predictions": 0
+      },
+      "passed": true
+    }
+  ]
+}

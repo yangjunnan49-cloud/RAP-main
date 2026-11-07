@@ -1,0 +1,159 @@
+{
+  "scope": "observed-development fixed native five versus ten Euler steps",
+  "sequences": {
+    "00": {
+      "methods": {
+        "five": {
+          "strict": 49,
+          "oracle_strict": 52,
+          "correct_accepts": 23,
+          "incorrect_accepts": 1,
+          "confuser_accepts": 0,
+          "ordinary_strict": 25,
+          "clipped_error": 1.472846082266669
+        },
+        "ten": {
+          "strict": 50,
+          "oracle_strict": 55,
+          "correct_accepts": 21,
+          "incorrect_accepts": 3,
+          "confuser_accepts": 0,
+          "ordinary_strict": 23,
+          "clipped_error": 1.453172608904538
+        }
+      },
+      "new_strict_candidates": [
+        "00_800_3672",
+        "00_386_2514",
+        "00_976_3835",
+        "00_435_2540",
+        "00_170_1649"
+      ],
+      "strict_gains": [
+        "00_386_2514",
+        "00_976_3835",
+        "00_405_2502",
+        "00_435_2540"
+      ],
+      "strict_losses": [
+        "00_924_3865",
+        "00_752_3676",
+        "00_187_1621"
+      ],
+      "new_correct_accepts": [],
+      "lost_correct_accepts": [
+        "00_752_3676",
+        "00_187_1621"
+      ],
+      "newly_incorrect_accepts": [
+        "00_752_3676",
+        "00_187_1621"
+      ],
+      "ordinary_strict_losses": [
+        "00_752_3676",
+        "00_187_1621"
+      ],
+      "matched_generation_gains": 11,
+      "matched_generation_losses": 6,
+      "by_stratum": {
+        "confuser": {
+          "five_strict": 0,
+          "ten_strict": 0,
+          "five_oracle": 0,
+          "ten_oracle": 0
+        },
+        "ambiguous_positive": {
+          "five_strict": 21,
+          "ten_strict": 21,
+          "five_oracle": 22,
+          "ten_oracle": 23
+        },
+        "low_overlap": {
+          "five_strict": 3,
+          "ten_strict": 6,
+          "five_oracle": 5,
+          "ten_oracle": 9
+        },
+        "ordinary": {
+          "five_strict": 25,
+          "ten_strict": 23,
+          "five_oracle": 25,
+          "ten_oracle": 23
+        }
+      }
+    },
+    "08": {
+      "methods": {
+        "five": {
+          "strict": 30,
+          "oracle_strict": 34,
+          "correct_accepts": 17,
+          "incorrect_accepts": 10,
+          "confuser_accepts": 0,
+          "ordinary_strict": 15,
+          "clipped_error": 1.5799304227352056
+        },
+        "ten": {
+          "strict": 29,
+          "oracle_strict": 34,
+          "correct_accepts": 17,
+          "incorrect_accepts": 10,
+          "confuser_accepts": 0,
+          "ordinary_strict": 15,
+          "clipped_error": 1.5831418451781842
+        }
+      },
+      "new_strict_candidates": [
+        "08_762_1532"
+      ],
+      "strict_gains": [
+        "08_720_1425"
+      ],
+      "strict_losses": [
+        "08_699_1532",
+        "08_699_1540"
+      ],
+      "new_correct_accepts": [],
+      "lost_correct_accepts": [],
+      "newly_incorrect_accepts": [],
+      "ordinary_strict_losses": [],
+      "matched_generation_gains": 4,
+      "matched_generation_losses": 4,
+      "by_stratum": {
+        "confuser": {
+          "five_strict": 0,
+          "ten_strict": 0,
+          "five_oracle": 0,
+          "ten_oracle": 0
+        },
+        "ambiguous_positive": {
+          "five_strict": 12,
+          "ten_strict": 11,
+          "five_oracle": 13,
+          "ten_oracle": 13
+        },
+        "low_overlap": {
+          "five_strict": 3,
+          "ten_strict": 3,
+          "five_oracle": 6,
+          "ten_oracle": 6
+        },
+        "ordinary": {
+          "five_strict": 15,
+          "ten_strict": 15,
+          "five_oracle": 15,
+          "ten_oracle": 15
+        }
+      }
+    }
+  },
+  "conditions": {
+    "08_candidate_and_strict": false,
+    "08_accept_safety": false,
+    "00_guard": false,
+    "ordinary_guard": false,
+    "clipped_error": true,
+    "cost": true
+  },
+  "decision": "NO_TEN_STEP_DEVELOPMENT_SIGNAL"
+}

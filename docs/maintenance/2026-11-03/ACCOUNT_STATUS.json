@@ -1,0 +1,30 @@
+{
+  "receipt_role": "LAST_OBSERVED_BOUNDARY_NOT_A_FRESH_AVAILABILITY_QUERY",
+  "observed_between_utc": [
+    "2026-11-03 04:59:03 UTC",
+    "2026-11-03 04:59:06 UTC"
+  ],
+  "ordinaryUsageAllowed": false,
+  "primary": {
+    "usedPercent": 83,
+    "windowDurationMins": 300,
+    "resetsAt": 1793698332
+  },
+  "secondary": {
+    "usedPercent": 100,
+    "windowDurationMins": 10080,
+    "resetsAt": 1793774518
+  },
+  "actual_ordinary_execution_denial_observed": true,
+  "five_hour_exhaustion_observed": false,
+  "boundary_classification": "ORDINARY_DENIAL_WITH_WEEKLY_100_AND_5H_83",
+  "raw_rateLimitReachedType": "not retained in the compact transcript observation",
+  "source": "mcp__codex_app__get_usage_limits response observed and printed before a failed closeout patch",
+  "persistence_note": "Restored from the actual tool output in this chat; the original multi-operation patch failed before writing any target file.",
+  "availability_refreshed_during_owner_closeout": false,
+  "work_interruption": "Computer Use URL enforcement stop preceded the later observed account denial; the owner subsequently requested explicit documentary closure.",
+  "reset_credits_used": false,
+  "queued_work": false,
+  "automatic_reset_resume": false,
+  "owner_requested_round_close": true
+}

@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-26T02:38:43.9457434+00:00",
+  "files": {
+    "fetch.py": "B76B58F40BE84DA68E1515A66DF48C536E1E89D057B1D6D2DDDB15DE13EDBC80",
+    "host.ps1": "CD818FF530B50717323136362CA976FB84F2212FE56B4C8B3435F33273054879",
+    "REQUEST_PLAN.json": "54D6D8C80361202B2CEDD92BAEF295D06852DF59C683AF2832A9DD62B18A151B",
+    "TRANSPORT_PLAN.json": "D81592B8E81A7EA36F56586AD293606344AF4A8FD3EA986475A8F06E3E591A07",
+    "AUTHORIZATION.json": "797B5882D529850A79DBF5D12B6010374A95C4721A48EE47E7E7F7E77746DD6E",
+    "REVIEW.md": "3160196A81F28C2B5AC3FF9D312A0E16A90E8DD1AC62B103A4ABE1CE7D9B9B54"
+  },
+  "proposal_path": "E:\\githouse\\RAP-main\\docs\\maintenance\\2026-10-26\\regx-curation-request-01\\TRANSPORT_PLAN.json",
+  "proposal_sha256": "D81592B8E81A7EA36F56586AD293606344AF4A8FD3EA986475A8F06E3E591A07",
+  "catalog_path": "docs/maintenance/2026-10-15/official-demo-metadata-01/catalog_windows.json",
+  "catalog_sha256": "94A2BB609432C96C47773B6CDDB811D40AFAC2D0EE665706AD5BA7606D2600EB",
+  "catalog_identity_match": true,
+  "original_worker_sha256": "6ED6C95BA58B93E3DEB22C99307EF17345F93DF7AB1FF650B030439CEAE5849B",
+  "worker_changes": [
+    "Exact pinned canonical JSON URL/host/paths",
+    "90s/256MiB/16MiB transport limits",
+    "JSON MIME",
+    "Published length and Git blob SHA1 checks"
+  ],
+  "host_origin_sha256": "1A83ABA04D56A4FD93D54B1694B2EA6303B63DB923AF509A79A6C0D739E418E3",
+  "host_adaptation": "Dossier check16MiB to32MiB, matching RCM1 authorization",
+  "syntax_pass": true,
+  "network_requests_before_freeze": 0,
+  "preparation_nonexecution": "First functions JS call failed to parse a PowerShell newline escape; no nested tool or filesystem/network operation executed"
+}

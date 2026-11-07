@@ -1,0 +1,60 @@
+{
+  "bridge_calls": [
+    {
+      "index": 0,
+      "path": "/mnt/e/githouse/RAP-main/weights/rap_model_12.ckpt",
+      "map_location": "cpu",
+      "source_weights_only": false,
+      "original_torch_load_executed": false,
+      "success": true,
+      "tensors": 344,
+      "archive": {
+        "byteorder_marker": "little",
+        "legacy_default_little": false,
+        "ignored_non_Desc_tensors": 0
+      },
+      "tracked_RNG_unchanged": true
+    },
+    {
+      "index": 1,
+      "path": "/mnt/e/githouse/RAP-main/weights/mini_spinnet_t.pth",
+      "map_location": "cpu",
+      "source_weights_only": false,
+      "original_torch_load_executed": false,
+      "success": true,
+      "tensors": 58,
+      "archive": {
+        "byteorder_marker": null,
+        "legacy_default_little": true,
+        "ignored_non_Desc_tensors": 47
+      },
+      "tracked_RNG_unchanged": true
+    }
+  ],
+  "source_state_calls": [
+    {
+      "module": "RectifiedPointFlow",
+      "source_strict": false,
+      "tensors": 344,
+      "missing": [],
+      "unexpected": []
+    },
+    {
+      "module": "MiniSpinNet",
+      "source_strict": false,
+      "tensors": 58,
+      "missing": [],
+      "unexpected": []
+    }
+  ],
+  "seed_calls": [
+    {
+      "library": "Torch",
+      "seed": 42
+    },
+    {
+      "library": "NumPy",
+      "seed": 42
+    }
+  ]
+}

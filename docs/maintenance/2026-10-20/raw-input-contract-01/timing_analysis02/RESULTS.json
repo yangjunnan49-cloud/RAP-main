@@ -1,0 +1,2383 @@
+{
+  "utc": "2026-10-21T01:35:40.099173+00:00",
+  "cells": 36,
+  "source_frame_occurrences": 73776,
+  "maximum_timing_partition_delta": 0.0,
+  "all_synthetic_and_independent_queue_checks_passed": true,
+  "rows": [
+    {
+      "repeat": 1,
+      "sequence": "00",
+      "mode": "K",
+      "key": "r1_00_K",
+      "frames": 4541,
+      "source_timing_sha256": "7a1173ca06d7d5e3ffd265e34725dd8241a26826496ea580d9bd0af657ef22c7",
+      "stage_A_seconds": 78.26600035314914,
+      "stage_B_seconds": 70.39905214914324,
+      "measured_frame_total_seconds": 148.66505250229238,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 4541,
+            "last_complete_seconds": 148.66505250229238,
+            "latency_seconds": {
+              "median": 73.91821485612309,
+              "p95": 140.6357836622483,
+              "p99": 147.01018763067842,
+              "maximum": 148.66505250229238,
+              "over100ms": 4539
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 4541,
+            "last_complete_seconds": 78.49512602214236,
+            "latency_seconds": {
+              "median": 39.180882967062644,
+              "p95": 74.2744434901615,
+              "p99": 77.5480000518437,
+              "maximum": 78.49512602214236,
+              "over100ms": 4538
+            }
+          },
+          "maximum_waiting_map_packets": 58,
+          "ideal_overlap_gain_fraction": 0.4720001459594414
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 4541,
+            "last_complete_seconds": 454.03047392900044,
+            "latency_seconds": {
+              "median": 0.03060951099905651,
+              "p95": 0.043292949005262926,
+              "p99": 0.11152897800202637,
+              "maximum": 0.2971678090034402,
+              "over100ms": 52
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 4541,
+            "last_complete_seconds": 454.03047392900044,
+            "latency_seconds": {
+              "median": 0.030598589997680392,
+              "p95": 0.04288806599652162,
+              "p99": 0.09383035260049793,
+              "maximum": 0.2971678090034402,
+              "over100ms": 44
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "sequence": "00",
+      "mode": "G",
+      "key": "r1_00_G",
+      "frames": 4541,
+      "source_timing_sha256": "59995034d3e03abe679d147750190fed4c6d23d60335fa61ae36325cad8b06aa",
+      "stage_A_seconds": 177.86139555798582,
+      "stage_B_seconds": 196.9698340453033,
+      "measured_frame_total_seconds": 374.8312296032891,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 4541,
+            "last_complete_seconds": 374.8312296032891,
+            "latency_seconds": {
+              "median": 187.79444753407734,
+              "p95": 355.22146683224855,
+              "p99": 370.9474932220837,
+              "maximum": 374.8312296032891,
+              "over100ms": 4540
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 4541,
+            "last_complete_seconds": 197.01408957930107,
+            "latency_seconds": {
+              "median": 98.36920447910961,
+              "p95": 186.7714249783312,
+              "p99": 194.86188893092623,
+              "maximum": 197.01408957930107,
+              "over100ms": 4540
+            }
+          },
+          "maximum_waiting_map_packets": 425,
+          "ideal_overlap_gain_fraction": 0.47439254251089147
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 4541,
+            "last_complete_seconds": 454.07574721100536,
+            "latency_seconds": {
+              "median": 0.08087958899704972,
+              "p95": 0.11273482400429202,
+              "p99": 0.2092064006050469,
+              "maximum": 0.37593239299894776,
+              "over100ms": 323
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 4541,
+            "last_complete_seconds": 454.07574721100536,
+            "latency_seconds": {
+              "median": 0.08059127599699423,
+              "p95": 0.09701064199907705,
+              "p99": 0.1673309498024312,
+              "maximum": 0.37593239299894776,
+              "over100ms": 155
+            }
+          },
+          "maximum_waiting_map_packets": 3,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "sequence": "05",
+      "mode": "G",
+      "key": "r1_05_G",
+      "frames": 2761,
+      "source_timing_sha256": "781b27fb333eba86654f4c4fef7ffb3a0dffee73932604cba00b1a83f7416596",
+      "stage_A_seconds": 108.35374232567847,
+      "stage_B_seconds": 122.8462676220588,
+      "measured_frame_total_seconds": 231.20000994773727,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 2761,
+            "last_complete_seconds": 231.20000994773727,
+            "latency_seconds": {
+              "median": 114.10710223279602,
+              "p95": 219.49183518776408,
+              "p99": 228.959181289954,
+              "maximum": 231.20000994773727,
+              "over100ms": 2760
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 2761,
+            "last_complete_seconds": 122.88378417305648,
+            "latency_seconds": {
+              "median": 60.69021815094311,
+              "p95": 116.69707364705391,
+              "p99": 121.71438382387423,
+              "maximum": 122.88378417305648,
+              "over100ms": 2760
+            }
+          },
+          "maximum_waiting_map_packets": 318,
+          "ideal_overlap_gain_fraction": 0.4684957660649135
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 2761,
+            "last_complete_seconds": 276.07785917900037,
+            "latency_seconds": {
+              "median": 0.08182959500118159,
+              "p95": 0.11873904501118204,
+              "p99": 0.24314386000070298,
+              "maximum": 0.3641134779973072,
+              "over100ms": 226
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 2761,
+            "last_complete_seconds": 276.07785917900037,
+            "latency_seconds": {
+              "median": 0.08155317899945658,
+              "p95": 0.09832075399754103,
+              "p99": 0.17892821880581683,
+              "maximum": 0.3641134779973072,
+              "over100ms": 108
+            }
+          },
+          "maximum_waiting_map_packets": 3,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "sequence": "05",
+      "mode": "K",
+      "key": "r1_05_K",
+      "frames": 2761,
+      "source_timing_sha256": "a6991a9456a2ceac889d3d96261410e1654357b6be5734037339c7b698c23c9b",
+      "stage_A_seconds": 36.763872882860596,
+      "stage_B_seconds": 42.36227934691851,
+      "measured_frame_total_seconds": 79.12615222977911,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 2761,
+            "last_complete_seconds": 79.12615222977911,
+            "latency_seconds": {
+              "median": 38.48145464489062,
+              "p95": 75.18104649678571,
+              "p99": 78.35433245199674,
+              "maximum": 79.12615222977911,
+              "over100ms": 2758
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 2761,
+            "last_complete_seconds": 42.38616959891078,
+            "latency_seconds": {
+              "median": 20.0928326669964,
+              "p95": 40.24071659695619,
+              "p99": 41.96940288874612,
+              "maximum": 42.38616959891078,
+              "over100ms": 2756
+            }
+          },
+          "maximum_waiting_map_packets": 340,
+          "ideal_overlap_gain_fraction": 0.4643216129627651
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 2761,
+            "last_complete_seconds": 276.03054749700095,
+            "latency_seconds": {
+              "median": 0.026521778003370855,
+              "p95": 0.03787318700051401,
+              "p99": 0.10638196060230236,
+              "maximum": 0.29592330099694664,
+              "over100ms": 29
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 2761,
+            "last_complete_seconds": 276.03054749700095,
+            "latency_seconds": {
+              "median": 0.026511216005019378,
+              "p95": 0.03758319599728566,
+              "p99": 0.09524110400089064,
+              "maximum": 0.29592330099694664,
+              "over100ms": 28
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "sequence": "06",
+      "mode": "K",
+      "key": "r1_06_K",
+      "frames": 1101,
+      "source_timing_sha256": "e0b2a321e241a42184a6174d656d097f3bf7ab79198016528f3bae4d374bf751",
+      "stage_A_seconds": 18.847316409126506,
+      "stage_B_seconds": 24.580486866892898,
+      "measured_frame_total_seconds": 43.427803276019404,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 43.427803276019404,
+            "latency_seconds": {
+              "median": 21.510349285985285,
+              "p95": 41.13777675900201,
+              "p99": 42.75044776301365,
+              "maximum": 43.427803276019404,
+              "over100ms": 1100
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 24.6610694158735,
+            "latency_seconds": {
+              "median": 12.153709090933262,
+              "p95": 23.325799085861945,
+              "p99": 24.17764602787065,
+              "maximum": 24.6610694158735,
+              "over100ms": 1099
+            }
+          },
+          "maximum_waiting_map_packets": 246,
+          "ideal_overlap_gain_fraction": 0.43213638370948393
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 110.11771552400461,
+            "latency_seconds": {
+              "median": 0.03636234199802857,
+              "p95": 0.05669427900284063,
+              "p99": 0.14950701799534727,
+              "maximum": 0.25651855000614887,
+              "over100ms": 23
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 110.0836760700011,
+            "latency_seconds": {
+              "median": 0.03632065199781209,
+              "p95": 0.0558631680032704,
+              "p99": 0.14950701799534727,
+              "maximum": 0.25651855000614887,
+              "over100ms": 18
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.00030911878112915847
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "sequence": "06",
+      "mode": "G",
+      "key": "r1_06_G",
+      "frames": 1101,
+      "source_timing_sha256": "9e1da7dfaca9a19729ddb5c20112e32dcace43d4eedf5a56e739ca2b12b81448",
+      "stage_A_seconds": 46.82288004396105,
+      "stage_B_seconds": 51.227485125935345,
+      "measured_frame_total_seconds": 98.0503651698964,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 98.0503651698964,
+            "latency_seconds": {
+              "median": 49.12057016592007,
+              "p95": 93.24104880890809,
+              "p99": 96.9310758079082,
+              "maximum": 98.0503651698964,
+              "over100ms": 1100
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 51.266491774935275,
+            "latency_seconds": {
+              "median": 25.441856658981123,
+              "p95": 48.602946611936204,
+              "p99": 50.57171083093999,
+              "maximum": 51.266491774935275,
+              "over100ms": 1100
+            }
+          },
+          "maximum_waiting_map_packets": 94,
+          "ideal_overlap_gain_fraction": 0.4771412458678409
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 110.26053486500024,
+            "latency_seconds": {
+              "median": 0.08822303700435441,
+              "p95": 0.1738330470092464,
+              "p99": 0.24927529499836965,
+              "maximum": 0.29915168099978473,
+              "over100ms": 237
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 110.18705392400153,
+            "latency_seconds": {
+              "median": 0.08628797600249527,
+              "p95": 0.10916032300156076,
+              "p99": 0.21156497299671173,
+              "maximum": 0.29915168099978473,
+              "over100ms": 120
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0006664301156227292
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "sequence": "07",
+      "mode": "G",
+      "key": "r1_07_G",
+      "frames": 1101,
+      "source_timing_sha256": "05e94851a4736033d87434b03ace067b6869a619ce46e8ca56d3406dba1f73dc",
+      "stage_A_seconds": 41.91922505705588,
+      "stage_B_seconds": 47.14873345491651,
+      "measured_frame_total_seconds": 89.06795851197239,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 89.06795851197239,
+            "latency_seconds": {
+              "median": 45.458468819007976,
+              "p95": 84.59232470997085,
+              "p99": 88.1853933939783,
+              "maximum": 89.06795851197239,
+              "over100ms": 1100
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 47.189467272910406,
+            "latency_seconds": {
+              "median": 23.82549417590053,
+              "p95": 44.777494821893924,
+              "p99": 46.728675356920576,
+              "maximum": 47.189467272910406,
+              "over100ms": 1100
+            }
+          },
+          "maximum_waiting_map_packets": 128,
+          "ideal_overlap_gain_fraction": 0.470185821463874
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 110.0844324819991,
+            "latency_seconds": {
+              "median": 0.07915826999669662,
+              "p95": 0.12642768800433402,
+              "p99": 0.2066893099865439,
+              "maximum": 0.25763038500008406,
+              "over100ms": 79
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 110.0844324819991,
+            "latency_seconds": {
+              "median": 0.07902056300372351,
+              "p95": 0.09555004100548103,
+              "p99": 0.12162940400449074,
+              "maximum": 0.25763038500008406,
+              "over100ms": 41
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "sequence": "07",
+      "mode": "K",
+      "key": "r1_07_K",
+      "frames": 1101,
+      "source_timing_sha256": "1ade33aec777c25371568245a594c16e85a9a98859fa93475b23c9e3ab0ac8a7",
+      "stage_A_seconds": 14.319672594901931,
+      "stage_B_seconds": 15.832993125965004,
+      "measured_frame_total_seconds": 30.152665720866935,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 30.152665720866935,
+            "latency_seconds": {
+              "median": 15.407905711013882,
+              "p95": 28.583811323856935,
+              "p99": 29.844714038867096,
+              "maximum": 30.152665720866935,
+              "over100ms": 1098
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 16.066888715009554,
+            "latency_seconds": {
+              "median": 8.373419016046682,
+              "p95": 15.197821966008632,
+              "p99": 15.89871245201357,
+              "maximum": 16.066888715009554,
+              "over100ms": 1095
+            }
+          },
+          "maximum_waiting_map_packets": 128,
+          "ideal_overlap_gain_fraction": 0.46714864736186223
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 110.02582040099514,
+            "latency_seconds": {
+              "median": 0.025569424004061148,
+              "p95": 0.03816304299834883,
+              "p99": 0.05638020300102653,
+              "maximum": 0.1948060369977611,
+              "over100ms": 6
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 110.02582040099514,
+            "latency_seconds": {
+              "median": 0.025567946999217384,
+              "p95": 0.03816304299834883,
+              "p99": 0.05167473600158701,
+              "maximum": 0.1948060369977611,
+              "over100ms": 6
+            }
+          },
+          "maximum_waiting_map_packets": 1,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "sequence": "09",
+      "mode": "K",
+      "key": "r1_09_K",
+      "frames": 1591,
+      "source_timing_sha256": "92ef5b50d87e2bf7a5c05343ef5e059b50e949233e0acce66dbdc56e7befb36b",
+      "stage_A_seconds": 27.574920523118635,
+      "stage_B_seconds": 30.180458531933255,
+      "measured_frame_total_seconds": 57.75537905505189,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1591,
+            "last_complete_seconds": 57.75537905505189,
+            "latency_seconds": {
+              "median": 30.042950722963724,
+              "p95": 53.851516597544105,
+              "p99": 57.07286314865559,
+              "maximum": 57.75537905505189,
+              "over100ms": 1589
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1591,
+            "last_complete_seconds": 30.278877666889457,
+            "latency_seconds": {
+              "median": 16.292709087822004,
+              "p95": 27.786554289890773,
+              "p99": 29.886149826190376,
+              "maximum": 30.278877666889457,
+              "over100ms": 1587
+            }
+          },
+          "maximum_waiting_map_packets": 175,
+          "ideal_overlap_gain_fraction": 0.47573926165339664
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1591,
+            "last_complete_seconds": 159.04648140200152,
+            "latency_seconds": {
+              "median": 0.032255401005386375,
+              "p95": 0.06211608800003887,
+              "p99": 0.11913565370268762,
+              "maximum": 0.2690879439978744,
+              "over100ms": 20
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1591,
+            "last_complete_seconds": 159.04648140200152,
+            "latency_seconds": {
+              "median": 0.03225127100449754,
+              "p95": 0.06022935500004678,
+              "p99": 0.11235779680428074,
+              "maximum": 0.2690879439978744,
+              "over100ms": 19
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "sequence": "09",
+      "mode": "G",
+      "key": "r1_09_G",
+      "frames": 1591,
+      "source_timing_sha256": "487a7a83875eb3c1689f20c090cb32cdf4813bf7d6a8e37d0ad7db44739cdb75",
+      "stage_A_seconds": 65.46095347206574,
+      "stage_B_seconds": 72.5248612409996,
+      "measured_frame_total_seconds": 137.98581471306534,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1591,
+            "last_complete_seconds": 137.98581471306534,
+            "latency_seconds": {
+              "median": 70.2452783670742,
+              "p95": 129.7140932225957,
+              "p99": 136.43384711786783,
+              "maximum": 137.98581471306534,
+              "over100ms": 1590
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1591,
+            "last_complete_seconds": 73.71621758997935,
+            "latency_seconds": {
+              "median": 37.661431152962905,
+              "p95": 69.89411586699134,
+              "p99": 72.98437848610264,
+              "maximum": 73.71621758997935,
+              "over100ms": 1590
+            }
+          },
+          "maximum_waiting_map_packets": 204,
+          "ideal_overlap_gain_fraction": 0.46576959564091014
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1591,
+            "last_complete_seconds": 159.65740500198737,
+            "latency_seconds": {
+              "median": 0.08373309699527454,
+              "p95": 2.1919832749925305,
+              "p99": 2.7218450578022777,
+              "maximum": 2.8857742149877623,
+              "over100ms": 453
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1591,
+            "last_complete_seconds": 159.1157571069998,
+            "latency_seconds": {
+              "median": 0.08144623700354714,
+              "p95": 0.12775623200141517,
+              "p99": 0.18806685229661357,
+              "maximum": 0.32819816900155274,
+              "over100ms": 202
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.003392563564344697
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "sequence": "10",
+      "mode": "G",
+      "key": "r1_10_G",
+      "frames": 1201,
+      "source_timing_sha256": "45dfadcdf8f33534e28917d2efbab28d42f6786c79ffe36da63268c28930cdee",
+      "stage_A_seconds": 47.26229962000798,
+      "stage_B_seconds": 53.009845083877735,
+      "measured_frame_total_seconds": 100.27214470388571,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1201,
+            "last_complete_seconds": 100.27214470388571,
+            "latency_seconds": {
+              "median": 50.506844229006674,
+              "p95": 95.52567075288971,
+              "p99": 99.33310961687675,
+              "maximum": 100.27214470388571,
+              "over100ms": 1200
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1201,
+            "last_complete_seconds": 54.10761886889668,
+            "latency_seconds": {
+              "median": 27.349611546029337,
+              "p95": 51.48437432789069,
+              "p99": 53.58393761089246,
+              "maximum": 54.10761886889668,
+              "over100ms": 1200
+            }
+          },
+          "maximum_waiting_map_packets": 156,
+          "ideal_overlap_gain_fraction": 0.4603923250202514
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1201,
+            "last_complete_seconds": 120.07346423600393,
+            "latency_seconds": {
+              "median": 0.08047799599444261,
+              "p95": 0.2844882440025682,
+              "p99": 0.3780456939988648,
+              "maximum": 0.42926265300920896,
+              "over100ms": 180
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1201,
+            "last_complete_seconds": 120.07346423600393,
+            "latency_seconds": {
+              "median": 0.08021859799919184,
+              "p95": 0.10348217499995371,
+              "p99": 0.13513866999564783,
+              "maximum": 0.2436037790030241,
+              "over100ms": 79
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "sequence": "10",
+      "mode": "K",
+      "key": "r1_10_K",
+      "frames": 1201,
+      "source_timing_sha256": "490979e4e5bff31d541b9a55c609d71e5ab89a6094576cadf873079072f33de3",
+      "stage_A_seconds": 15.860586635870277,
+      "stage_B_seconds": 17.00619816402468,
+      "measured_frame_total_seconds": 32.86678479989496,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1201,
+            "last_complete_seconds": 32.86678479989496,
+            "latency_seconds": {
+              "median": 17.014930361932784,
+              "p95": 31.425242990873812,
+              "p99": 32.583957839880895,
+              "maximum": 32.86678479989496,
+              "over100ms": 1199
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1201,
+            "last_complete_seconds": 17.018312672022148,
+            "latency_seconds": {
+              "median": 9.073229672045272,
+              "p95": 16.342198507030844,
+              "p99": 16.889149816997815,
+              "maximum": 17.018312672022148,
+              "over100ms": 1198
+            }
+          },
+          "maximum_waiting_map_packets": 125,
+          "ideal_overlap_gain_fraction": 0.482203301124954
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1201,
+            "last_complete_seconds": 120.0237740099983,
+            "latency_seconds": {
+              "median": 0.025006455995026045,
+              "p95": 0.038857129002281,
+              "p99": 0.06935705299838446,
+              "maximum": 0.1962781609981903,
+              "over100ms": 6
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1201,
+            "last_complete_seconds": 120.0237740099983,
+            "latency_seconds": {
+              "median": 0.02498432499851333,
+              "p95": 0.03860337699734373,
+              "p99": 0.06935705299838446,
+              "maximum": 0.1962781609981903,
+              "over100ms": 6
+            }
+          },
+          "maximum_waiting_map_packets": 1,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "sequence": "00",
+      "mode": "G",
+      "key": "r2_00_G",
+      "frames": 4541,
+      "source_timing_sha256": "438d7afabfcb3e8530d775fbfc4670cb706981bb3a37803b4cdd43d98effd763",
+      "stage_A_seconds": 175.65146708110842,
+      "stage_B_seconds": 195.18299285284593,
+      "measured_frame_total_seconds": 370.83445993395435,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 4541,
+            "last_complete_seconds": 370.83445993395435,
+            "latency_seconds": {
+              "median": 184.638433837943,
+              "p95": 351.3557016329869,
+              "p99": 366.9273863293857,
+              "maximum": 370.83445993395435,
+              "over100ms": 4540
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 4541,
+            "last_complete_seconds": 195.21724455885123,
+            "latency_seconds": {
+              "median": 97.04740566186229,
+              "p95": 185.04624268589396,
+              "p99": 193.04032610168363,
+              "maximum": 195.21724455885123,
+              "over100ms": 4540
+            }
+          },
+          "maximum_waiting_map_packets": 437,
+          "ideal_overlap_gain_fraction": 0.4735730746446286
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 4541,
+            "last_complete_seconds": 454.07863609700144,
+            "latency_seconds": {
+              "median": 0.08006284599832725,
+              "p95": 0.11639720799430364,
+              "p99": 0.22076406900276377,
+              "maximum": 0.37879950999922585,
+              "over100ms": 317
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 4541,
+            "last_complete_seconds": 454.07863609700144,
+            "latency_seconds": {
+              "median": 0.07978986699890811,
+              "p95": 0.09543181400658796,
+              "p99": 0.16778095280170674,
+              "maximum": 0.37879950999922585,
+              "over100ms": 146
+            }
+          },
+          "maximum_waiting_map_packets": 3,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "sequence": "00",
+      "mode": "K",
+      "key": "r2_00_K",
+      "frames": 4541,
+      "source_timing_sha256": "befd41718f87b472a699bd0f69d862219a4850b3aa31eba224bbebd2b3aa0146",
+      "stage_A_seconds": 59.59637297013978,
+      "stage_B_seconds": 70.00383767710446,
+      "measured_frame_total_seconds": 129.60021064724424,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 4541,
+            "last_complete_seconds": 129.60021064724424,
+            "latency_seconds": {
+              "median": 63.9799393289868,
+              "p95": 122.71645463018649,
+              "p99": 128.1250498706213,
+              "maximum": 129.60021064724424,
+              "over100ms": 4538
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 4541,
+            "last_complete_seconds": 70.03641660609719,
+            "latency_seconds": {
+              "median": 34.20913699587982,
+              "p95": 66.18197171299835,
+              "p99": 69.14016507668276,
+              "maximum": 70.03641660609719,
+              "over100ms": 4537
+            }
+          },
+          "maximum_waiting_map_packets": 664,
+          "ideal_overlap_gain_fraction": 0.4595964292316803
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 4541,
+            "last_complete_seconds": 454.0366180090059,
+            "latency_seconds": {
+              "median": 0.026230504998238757,
+              "p95": 0.03886742499889806,
+              "p99": 0.10117959499854726,
+              "maximum": 0.2957871180042275,
+              "over100ms": 48
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 4541,
+            "last_complete_seconds": 454.0366180090059,
+            "latency_seconds": {
+              "median": 0.0262289559977944,
+              "p95": 0.038747557999158744,
+              "p99": 0.08731245819888077,
+              "maximum": 0.2957871180042275,
+              "over100ms": 40
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "sequence": "05",
+      "mode": "K",
+      "key": "r2_05_K",
+      "frames": 2761,
+      "source_timing_sha256": "6fc360fce9c14d5ec7bc793f1135a4539ea1ae9170eba821d3bb4c123dd93f29",
+      "stage_A_seconds": 47.98613786226633,
+      "stage_B_seconds": 43.98272410297068,
+      "measured_frame_total_seconds": 91.96886196523701,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 2761,
+            "last_complete_seconds": 91.96886196523701,
+            "latency_seconds": {
+              "median": 44.896623607994115,
+              "p95": 87.38965546722466,
+              "p99": 91.12714427502215,
+              "maximum": 91.96886196523701,
+              "over100ms": 2759
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 2761,
+            "last_complete_seconds": 48.69344960011949,
+            "latency_seconds": {
+              "median": 24.042192903070827,
+              "p95": 46.500133509136504,
+              "p99": 48.31606198371446,
+              "maximum": 48.69344960011949,
+              "over100ms": 2757
+            }
+          },
+          "maximum_waiting_map_packets": 53,
+          "ideal_overlap_gain_fraction": 0.4705441759350577
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 2761,
+            "last_complete_seconds": 276.0279936210063,
+            "latency_seconds": {
+              "median": 0.03111515400087228,
+              "p95": 0.04443911999987904,
+              "p99": 0.11405948180529915,
+              "maximum": 0.2959458210025332,
+              "over100ms": 31
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 2761,
+            "last_complete_seconds": 276.0279936210063,
+            "latency_seconds": {
+              "median": 0.03106708300038008,
+              "p95": 0.043991001999529544,
+              "p99": 0.0908880389962068,
+              "maximum": 0.2959458210025332,
+              "over100ms": 26
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "sequence": "05",
+      "mode": "G",
+      "key": "r2_05_G",
+      "frames": 2761,
+      "source_timing_sha256": "b66fe5c3c92760036b32fffe46c0b024746e59defe246ce9d284a4b7778ab788",
+      "stage_A_seconds": 98.78794508828287,
+      "stage_B_seconds": 122.45959457790741,
+      "measured_frame_total_seconds": 221.24753966619028,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 2761,
+            "last_complete_seconds": 221.24753966619028,
+            "latency_seconds": {
+              "median": 108.45561810008076,
+              "p95": 210.19325202916662,
+              "p99": 219.1582539726005,
+              "maximum": 221.24753966619028,
+              "over100ms": 2760
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 2761,
+            "last_complete_seconds": 122.4951487169019,
+            "latency_seconds": {
+              "median": 60.249159703838814,
+              "p95": 116.36412774093333,
+              "p99": 121.33747500672762,
+              "maximum": 122.4951487169019,
+              "over100ms": 2760
+            }
+          },
+          "maximum_waiting_map_packets": 520,
+          "ideal_overlap_gain_fraction": 0.44634345357368566
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 2761,
+            "last_complete_seconds": 276.0737413329989,
+            "latency_seconds": {
+              "median": 0.07807699700060766,
+              "p95": 0.10467429500275216,
+              "p99": 0.22827821879733967,
+              "maximum": 0.3540654780008481,
+              "over100ms": 166
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 2761,
+            "last_complete_seconds": 276.0737413329989,
+            "latency_seconds": {
+              "median": 0.07784582099702675,
+              "p95": 0.0945178960027988,
+              "p99": 0.17026305000443928,
+              "maximum": 0.3540654780008481,
+              "over100ms": 85
+            }
+          },
+          "maximum_waiting_map_packets": 3,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "sequence": "06",
+      "mode": "G",
+      "key": "r2_06_G",
+      "frames": 1101,
+      "source_timing_sha256": "263c497cd4864f4160ca7550f842d9595fe658e33fc8695289fe2decd7f0942f",
+      "stage_A_seconds": 50.65797072913119,
+      "stage_B_seconds": 51.14532872499694,
+      "measured_frame_total_seconds": 101.80329945412814,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 101.80329945412814,
+            "latency_seconds": {
+              "median": 50.89515013599885,
+              "p95": 96.72901564610947,
+              "p99": 100.57398232912965,
+              "maximum": 101.80329945412814,
+              "over100ms": 1100
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 51.54393097208958,
+            "latency_seconds": {
+              "median": 25.770093607912713,
+              "p95": 48.87006707904948,
+              "p99": 50.82895703308168,
+              "maximum": 51.54393097208958,
+              "over100ms": 1100
+            }
+          },
+          "maximum_waiting_map_packets": 18,
+          "ideal_overlap_gain_fraction": 0.4936909584613717
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 110.3059940029969,
+            "latency_seconds": {
+              "median": 0.0927347560078502,
+              "p95": 0.2363940089926473,
+              "p99": 0.30321194299904164,
+              "maximum": 0.3284873140029987,
+              "over100ms": 389
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 110.19665103200242,
+            "latency_seconds": {
+              "median": 0.08970618099556305,
+              "p95": 0.1132868009983099,
+              "p99": 0.22198877700284214,
+              "maximum": 0.3065001939976355,
+              "over100ms": 179
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0009912695314772124
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "sequence": "06",
+      "mode": "K",
+      "key": "r2_06_K",
+      "frames": 1101,
+      "source_timing_sha256": "ac439428d564b91b1ba623be23386beeb6035f1b1931b96ac33283b03feee92b",
+      "stage_A_seconds": 14.798828133920324,
+      "stage_B_seconds": 24.5726598680194,
+      "measured_frame_total_seconds": 39.371488001939724,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 39.371488001939724,
+            "latency_seconds": {
+              "median": 19.33861924289522,
+              "p95": 37.36494962393044,
+              "p99": 38.80153154794971,
+              "maximum": 39.371488001939724,
+              "over100ms": 1099
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 24.586411826021504,
+            "latency_seconds": {
+              "median": 11.933928978003678,
+              "p95": 23.312346210048418,
+              "p99": 24.157625386033033,
+              "maximum": 24.586411826021504,
+              "over100ms": 1097
+            }
+          },
+          "maximum_waiting_map_packets": 425,
+          "ideal_overlap_gain_fraction": 0.3755274927681118
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 110.11466449500296,
+            "latency_seconds": {
+              "median": 0.032810049000545405,
+              "p95": 0.053397807001601905,
+              "p99": 0.15684817699948894,
+              "maximum": 0.2612597999977879,
+              "over100ms": 20
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 110.09035792100332,
+            "latency_seconds": {
+              "median": 0.032775403997220565,
+              "p95": 0.05234058100177208,
+              "p99": 0.14780377299612724,
+              "maximum": 0.2612597999977879,
+              "over100ms": 18
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.000220738755470129
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "sequence": "07",
+      "mode": "K",
+      "key": "r2_07_K",
+      "frames": 1101,
+      "source_timing_sha256": "f1c33dd9e948177a9b834790eb43d12a802aab3f8283495d6911ec4c40312b13",
+      "stage_A_seconds": 18.35088990801887,
+      "stage_B_seconds": 16.21636790213961,
+      "measured_frame_total_seconds": 34.56725781015848,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 34.56725781015848,
+            "latency_seconds": {
+              "median": 17.593196777044795,
+              "p95": 32.73204311818699,
+              "p99": 34.21958988516417,
+              "maximum": 34.56725781015848,
+              "over100ms": 1098
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 18.38469643400458,
+            "latency_seconds": {
+              "median": 9.649580581099144,
+              "p95": 17.44879578902328,
+              "p99": 18.216433973007952,
+              "maximum": 18.38469643400458,
+              "over100ms": 1096
+            }
+          },
+          "maximum_waiting_map_packets": 29,
+          "ideal_overlap_gain_fraction": 0.46814709645259267
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 110.04362556200067,
+            "latency_seconds": {
+              "median": 0.02967765199718997,
+              "p95": 0.042690639005741104,
+              "p99": 0.05579455700208058,
+              "maximum": 0.18982692999998108,
+              "over100ms": 6
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 110.04362556200067,
+            "latency_seconds": {
+              "median": 0.02967765199718997,
+              "p95": 0.042533177002042066,
+              "p99": 0.05290278200118337,
+              "maximum": 0.18982692999998108,
+              "over100ms": 6
+            }
+          },
+          "maximum_waiting_map_packets": 1,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "sequence": "07",
+      "mode": "G",
+      "key": "r2_07_G",
+      "frames": 1101,
+      "source_timing_sha256": "b50ba0aa79a247d368cbb453971b15900d67e507555925ff199a58637c03def1",
+      "stage_A_seconds": 37.833159174195316,
+      "stage_B_seconds": 46.940123808031785,
+      "measured_frame_total_seconds": 84.7732829822271,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 84.7732829822271,
+            "latency_seconds": {
+              "median": 43.24206124916964,
+              "p95": 80.47872332920815,
+              "p99": 83.94651218923536,
+              "maximum": 84.7732829822271,
+              "over100ms": 1100
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 46.97050673103513,
+            "latency_seconds": {
+              "median": 23.76079635498172,
+              "p95": 44.594293160014786,
+              "p99": 46.524548468027206,
+              "maximum": 46.97050673103513,
+              "over100ms": 1100
+            }
+          },
+          "maximum_waiting_map_packets": 219,
+          "ideal_overlap_gain_fraction": 0.4459279494828271
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 110.08560349900654,
+            "latency_seconds": {
+              "median": 0.07499019699753262,
+              "p95": 0.13778568298294402,
+              "p99": 0.22037097898574132,
+              "maximum": 0.2752953210030711,
+              "over100ms": 77
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 110.08560349900654,
+            "latency_seconds": {
+              "median": 0.07482141500076978,
+              "p95": 0.09473534100106917,
+              "p99": 0.12535125000431435,
+              "maximum": 0.2746058080010698,
+              "over100ms": 40
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "sequence": "09",
+      "mode": "G",
+      "key": "r2_09_G",
+      "frames": 1591,
+      "source_timing_sha256": "662597241f44ebca39099c1f0a5f1171740e6c679880bcf3e886cf0c7ec4d16b",
+      "stage_A_seconds": 72.12504032815195,
+      "stage_B_seconds": 72.70161675383861,
+      "measured_frame_total_seconds": 144.82665708199056,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1591,
+            "last_complete_seconds": 144.82665708199056,
+            "latency_seconds": {
+              "median": 74.67004371200892,
+              "p95": 136.3608162219898,
+              "p99": 143.29969749470328,
+              "maximum": 144.82665708199056,
+              "over100ms": 1591
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1591,
+            "last_complete_seconds": 75.61381094399258,
+            "latency_seconds": {
+              "median": 39.750398381002015,
+              "p95": 71.82539672499479,
+              "p99": 74.89559586769538,
+              "maximum": 75.61381094399258,
+              "over100ms": 1591
+            }
+          },
+          "maximum_waiting_map_packets": 103,
+          "ideal_overlap_gain_fraction": 0.4779012892551583
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1591,
+            "last_complete_seconds": 159.8032664859915,
+            "latency_seconds": {
+              "median": 0.09131154900387628,
+              "p95": 2.8883421840153503,
+              "p99": 3.368284661930232,
+              "maximum": 3.5164885350342985,
+              "over100ms": 653
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1591,
+            "last_complete_seconds": 159.10046395099926,
+            "latency_seconds": {
+              "median": 0.08553978200507117,
+              "p95": 0.13242321700381865,
+              "p99": 0.19665878640167564,
+              "maximum": 0.33106792900071014,
+              "over100ms": 289
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.004397923462057918
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "sequence": "09",
+      "mode": "K",
+      "key": "r2_09_K",
+      "frames": 1591,
+      "source_timing_sha256": "c9e60cb1ef2b47a21bafb6e8d0b37d7ea0fc847ba477fa00bef5d5c38b27ab75",
+      "stage_A_seconds": 21.038737728107662,
+      "stage_B_seconds": 29.678796439889993,
+      "measured_frame_total_seconds": 50.717534167997655,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1591,
+            "last_complete_seconds": 50.717534167997655,
+            "latency_seconds": {
+              "median": 26.940188604028663,
+              "p95": 47.48491089550225,
+              "p99": 50.14066593399548,
+              "maximum": 50.717534167997655,
+              "over100ms": 1589
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1591,
+            "last_complete_seconds": 29.691013747891702,
+            "latency_seconds": {
+              "median": 16.401211548967694,
+              "p95": 27.5779089889038,
+              "p99": 29.33946629919592,
+              "maximum": 29.691013747891702,
+              "over100ms": 1587
+            }
+          },
+          "maximum_waiting_map_packets": 503,
+          "ideal_overlap_gain_fraction": 0.4145808893322246
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1591,
+            "last_complete_seconds": 159.0398973629999,
+            "latency_seconds": {
+              "median": 0.027618676002020948,
+              "p95": 0.0522905679965362,
+              "p99": 0.12259521789543075,
+              "maximum": 0.2604029350040946,
+              "over100ms": 28
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1591,
+            "last_complete_seconds": 159.0398973629999,
+            "latency_seconds": {
+              "median": 0.027601458998105954,
+              "p95": 0.05148873900179751,
+              "p99": 0.12220300670625937,
+              "maximum": 0.2604029350040946,
+              "over100ms": 26
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "sequence": "10",
+      "mode": "K",
+      "key": "r2_10_K",
+      "frames": 1201,
+      "source_timing_sha256": "f3d8f08af91548ccb45083ef59dfb2d4fe44ec6c16ad0f434d88c3ae28f3585e",
+      "stage_A_seconds": 20.61950550594338,
+      "stage_B_seconds": 17.40262794002774,
+      "measured_frame_total_seconds": 38.02213344597112,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1201,
+            "last_complete_seconds": 38.02213344597112,
+            "latency_seconds": {
+              "median": 19.800764414052537,
+              "p95": 36.29037349898135,
+              "p99": 37.676644894971105,
+              "maximum": 38.02213344597112,
+              "over100ms": 1199
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1201,
+            "last_complete_seconds": 20.63093609794305,
+            "latency_seconds": {
+              "median": 10.317033512990747,
+              "p95": 19.603409632974945,
+              "p99": 20.41860774595989,
+              "maximum": 20.63093609794305,
+              "over100ms": 1198
+            }
+          },
+          "maximum_waiting_map_packets": 91,
+          "ideal_overlap_gain_fraction": 0.45739667324929834
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1201,
+            "last_complete_seconds": 120.03020557699347,
+            "latency_seconds": {
+              "median": 0.029162169004848693,
+              "p95": 0.046851450999383815,
+              "p99": 0.07902090899733594,
+              "maximum": 0.19103898399771424,
+              "over100ms": 8
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1201,
+            "last_complete_seconds": 120.03020557699347,
+            "latency_seconds": {
+              "median": 0.02914816299744416,
+              "p95": 0.04678356000658823,
+              "p99": 0.07902090899733594,
+              "maximum": 0.19103898399771424,
+              "over100ms": 8
+            }
+          },
+          "maximum_waiting_map_packets": 1,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "sequence": "10",
+      "mode": "G",
+      "key": "r2_10_G",
+      "frames": 1201,
+      "source_timing_sha256": "c18c1f6f2759bd3a857e9c3f20af12a88f29fa965cf92e045126ef83a26f0566",
+      "stage_A_seconds": 42.25579713584011,
+      "stage_B_seconds": 52.93867038610915,
+      "measured_frame_total_seconds": 95.19446752194926,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1201,
+            "last_complete_seconds": 95.19446752194926,
+            "latency_seconds": {
+              "median": 47.96638874193741,
+              "p95": 90.61897580791265,
+              "p99": 94.29100719794224,
+              "maximum": 95.19446752194926,
+              "over100ms": 1200
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1201,
+            "last_complete_seconds": 53.444604734992026,
+            "latency_seconds": {
+              "median": 26.82002336196456,
+              "p95": 50.82040026697359,
+              "p99": 52.921392568976444,
+              "maximum": 53.444604734992026,
+              "over100ms": 1200
+            }
+          },
+          "maximum_waiting_map_packets": 257,
+          "ideal_overlap_gain_fraction": 0.43857446628745367
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1201,
+            "last_complete_seconds": 120.07255896400602,
+            "latency_seconds": {
+              "median": 0.07660800099984044,
+              "p95": 0.12551596799603448,
+              "p99": 0.17725805697264096,
+              "maximum": 0.23872491899965098,
+              "over100ms": 100
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1201,
+            "last_complete_seconds": 120.07255896400602,
+            "latency_seconds": {
+              "median": 0.07648346399946604,
+              "p95": 0.09780953299923567,
+              "p99": 0.12388292399991663,
+              "maximum": 0.23872491899965098,
+              "over100ms": 49
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "sequence": "00",
+      "mode": "K",
+      "key": "r3_00_K",
+      "frames": 4541,
+      "source_timing_sha256": "8101b003482bdfc433edc8e2bdf0dfb20810d116ae21ca7d0ff14cea9892b1a0",
+      "stage_A_seconds": 77.36311455670511,
+      "stage_B_seconds": 69.37419019129447,
+      "measured_frame_total_seconds": 146.7373047479996,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 4541,
+            "last_complete_seconds": 146.7373047479996,
+            "latency_seconds": {
+              "median": 72.78730847608676,
+              "p95": 138.93328517597547,
+              "p99": 145.14869967179402,
+              "maximum": 146.7373047479996,
+              "over100ms": 4539
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 4541,
+            "last_complete_seconds": 77.57258724969142,
+            "latency_seconds": {
+              "median": 38.79728224390419,
+              "p95": 73.42526622762671,
+              "p99": 76.68232541507169,
+              "maximum": 77.57258724969142,
+              "over100ms": 4536
+            }
+          },
+          "maximum_waiting_map_packets": 34,
+          "ideal_overlap_gain_fraction": 0.47135060588095656
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 4541,
+            "last_complete_seconds": 454.02957294500084,
+            "latency_seconds": {
+              "median": 0.030257700993388426,
+              "p95": 0.04284907600231236,
+              "p99": 0.10908948180151037,
+              "maximum": 0.29182025699992664,
+              "over100ms": 49
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 4541,
+            "last_complete_seconds": 454.02957294500084,
+            "latency_seconds": {
+              "median": 0.030249408999225125,
+              "p95": 0.042479123003431596,
+              "p99": 0.09192279760320698,
+              "maximum": 0.29182025699992664,
+              "over100ms": 43
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "sequence": "00",
+      "mode": "G",
+      "key": "r3_00_G",
+      "frames": 4541,
+      "source_timing_sha256": "9700dd2de8aa9e0a84320f4ef158b55a7b8e86c944537614487eaa56d3f49f92",
+      "stage_A_seconds": 156.5127628099508,
+      "stage_B_seconds": 195.82045117294183,
+      "measured_frame_total_seconds": 352.33321398289263,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 4541,
+            "last_complete_seconds": 352.33321398289263,
+            "latency_seconds": {
+              "median": 175.71102843406698,
+              "p95": 333.8705219759868,
+              "p99": 348.8541972279054,
+              "maximum": 352.33321398289263,
+              "over100ms": 4540
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 4541,
+            "last_complete_seconds": 195.85760762794234,
+            "latency_seconds": {
+              "median": 97.61896878197877,
+              "p95": 185.6814459570378,
+              "p99": 193.81607861157536,
+              "maximum": 195.85760762794234,
+              "over100ms": 4540
+            }
+          },
+          "maximum_waiting_map_packets": 893,
+          "ideal_overlap_gain_fraction": 0.4441125620434635
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 4541,
+            "last_complete_seconds": 454.0655770329977,
+            "latency_seconds": {
+              "median": 0.07580789599887794,
+              "p95": 0.09761647401610674,
+              "p99": 0.19317633119935668,
+              "maximum": 0.3628239460012992,
+              "over100ms": 201
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 4541,
+            "last_complete_seconds": 454.0655770329977,
+            "latency_seconds": {
+              "median": 0.075612695000018,
+              "p95": 0.09153508499730378,
+              "p99": 0.16083458039707987,
+              "maximum": 0.3628239460012992,
+              "over100ms": 109
+            }
+          },
+          "maximum_waiting_map_packets": 3,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "sequence": "05",
+      "mode": "G",
+      "key": "r3_05_G",
+      "frames": 2761,
+      "source_timing_sha256": "be6d7ff4d6100de18e2a30918d0137b8a0ca762b24dc254774e132f9cf44e37c",
+      "stage_A_seconds": 107.81338180607418,
+      "stage_B_seconds": 121.44694420007727,
+      "measured_frame_total_seconds": 229.26032600615144,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 2761,
+            "last_complete_seconds": 229.26032600615144,
+            "latency_seconds": {
+              "median": 112.87732480000705,
+              "p95": 217.6884080281743,
+              "p99": 227.07005959977104,
+              "maximum": 229.26032600615144,
+              "over100ms": 2760
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 2761,
+            "last_complete_seconds": 121.48768055107212,
+            "latency_seconds": {
+              "median": 59.7889586320598,
+              "p95": 115.31989808306389,
+              "p99": 120.31504550230602,
+              "maximum": 121.48768055107212,
+              "over100ms": 2760
+            }
+          },
+          "maximum_waiting_map_packets": 299,
+          "ideal_overlap_gain_fraction": 0.4700885117479402
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 2761,
+            "last_complete_seconds": 276.0702070799962,
+            "latency_seconds": {
+              "median": 0.08133657900179969,
+              "p95": 0.1203681329934625,
+              "p99": 0.24047948939636976,
+              "maximum": 0.33565577400440816,
+              "over100ms": 214
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 2761,
+            "last_complete_seconds": 276.0702070799962,
+            "latency_seconds": {
+              "median": 0.08106749699800275,
+              "p95": 0.09709289499733131,
+              "p99": 0.16578354900732964,
+              "maximum": 0.33565577400440816,
+              "over100ms": 106
+            }
+          },
+          "maximum_waiting_map_packets": 3,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "sequence": "05",
+      "mode": "K",
+      "key": "r3_05_K",
+      "frames": 2761,
+      "source_timing_sha256": "25ac77706def5a3026b119cd27842b00a55a72a29e47a0036110c9a1ed2dd6f8",
+      "stage_A_seconds": 35.82501914205204,
+      "stage_B_seconds": 41.8334015027649,
+      "measured_frame_total_seconds": 77.65842064481694,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 2761,
+            "last_complete_seconds": 77.65842064481694,
+            "latency_seconds": {
+              "median": 37.28188789389242,
+              "p95": 73.70466918284365,
+              "p99": 76.93617784262169,
+              "maximum": 77.65842064481694,
+              "over100ms": 2758
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 2761,
+            "last_complete_seconds": 41.846811823765165,
+            "latency_seconds": {
+              "median": 19.460057262935152,
+              "p95": 39.67586071279948,
+              "p99": 41.4717637233669,
+              "maximum": 41.846811823765165,
+              "over100ms": 2756
+            }
+          },
+          "maximum_waiting_map_packets": 356,
+          "ideal_overlap_gain_fraction": 0.4611426362228229
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 2761,
+            "last_complete_seconds": 276.02471193000383,
+            "latency_seconds": {
+              "median": 0.026087800004461315,
+              "p95": 0.03736994600330945,
+              "p99": 0.09810940779920575,
+              "maximum": 0.27397847199608805,
+              "over100ms": 28
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 2761,
+            "last_complete_seconds": 276.02471193000383,
+            "latency_seconds": {
+              "median": 0.026077930997416843,
+              "p95": 0.036850229000265244,
+              "p99": 0.0860334302013543,
+              "maximum": 0.27397847199608805,
+              "over100ms": 26
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "sequence": "06",
+      "mode": "K",
+      "key": "r3_06_K",
+      "frames": 1101,
+      "source_timing_sha256": "d91d5aa68621771f6c1ff8cd4c7df9a0fad86c6672d030d7c20c5ca95990bc0b",
+      "stage_A_seconds": 18.493647581934056,
+      "stage_B_seconds": 23.847154650044104,
+      "measured_frame_total_seconds": 42.34080223197816,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 42.34080223197816,
+            "latency_seconds": {
+              "median": 21.09370645006129,
+              "p95": 40.235180472940556,
+              "p99": 41.70689920496807,
+              "maximum": 42.34080223197816,
+              "over100ms": 1099
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 23.869200744076807,
+            "latency_seconds": {
+              "median": 11.853150443013874,
+              "p95": 22.681702833011514,
+              "p99": 23.423958999061142,
+              "maximum": 23.869200744076807,
+              "over100ms": 1097
+            }
+          },
+          "maximum_waiting_map_packets": 253,
+          "ideal_overlap_gain_fraction": 0.43626007336135353
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 110.12240644900595,
+            "latency_seconds": {
+              "median": 0.03558893700392218,
+              "p95": 0.0546055129962042,
+              "p99": 0.15763605398970526,
+              "maximum": 0.2634754899991094,
+              "over100ms": 22
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 110.08927694699815,
+            "latency_seconds": {
+              "median": 0.03558146199793555,
+              "p95": 0.05336730300041381,
+              "p99": 0.14911659100324925,
+              "maximum": 0.2634754899991094,
+              "over100ms": 19
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.00030084251766815395
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "sequence": "06",
+      "mode": "G",
+      "key": "r3_06_G",
+      "frames": 1101,
+      "source_timing_sha256": "e5eab974edeb111ef4c79713f9f053bb73787de7fd85b7c018607303a3f02d05",
+      "stage_A_seconds": 45.94840320397634,
+      "stage_B_seconds": 50.77292043378111,
+      "measured_frame_total_seconds": 96.72132363775745,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 96.72132363775745,
+            "latency_seconds": {
+              "median": 48.589716038921324,
+              "p95": 91.94147118278488,
+              "p99": 95.62169194975286,
+              "maximum": 96.72132363775745,
+              "over100ms": 1100
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 50.808333263783425,
+            "latency_seconds": {
+              "median": 25.355717938880844,
+              "p95": 48.19563277679845,
+              "p99": 50.1288926337802,
+              "maximum": 50.808333263783425,
+              "over100ms": 1100
+            }
+          },
+          "maximum_waiting_map_packets": 106,
+          "ideal_overlap_gain_fraction": 0.4746935695992771
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 110.24186398199964,
+            "latency_seconds": {
+              "median": 0.08632372799911536,
+              "p95": 0.1866037949876045,
+              "p99": 0.24957451200170055,
+              "maximum": 0.28639559599687914,
+              "over100ms": 253
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 110.16150003199874,
+            "latency_seconds": {
+              "median": 0.08492691099672811,
+              "p95": 0.11039278899988858,
+              "p99": 0.20829090299812947,
+              "maximum": 0.28555983700061915,
+              "over100ms": 122
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0007289785123192338
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "sequence": "07",
+      "mode": "G",
+      "key": "r3_07_G",
+      "frames": 1101,
+      "source_timing_sha256": "3f14c1568f1c785ab4e153a2ff7a534b53c66fe502666cdfc75f218eefe4298e",
+      "stage_A_seconds": 41.33513013213815,
+      "stage_B_seconds": 46.76769183688157,
+      "measured_frame_total_seconds": 88.10282196901971,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 88.10282196901971,
+            "latency_seconds": {
+              "median": 44.71537335799803,
+              "p95": 83.72105612998712,
+              "p99": 87.28557890301454,
+              "maximum": 88.10282196901971,
+              "over100ms": 1100
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 46.80379499987612,
+            "latency_seconds": {
+              "median": 23.45804776793375,
+              "p95": 44.4995454348973,
+              "p99": 46.393025413875876,
+              "maximum": 46.80379499987612,
+              "over100ms": 1100
+            }
+          },
+          "maximum_waiting_map_packets": 135,
+          "ideal_overlap_gain_fraction": 0.4687594114030297
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 110.07893217800301,
+            "latency_seconds": {
+              "median": 0.07824206000077538,
+              "p95": 0.10193730299943127,
+              "p99": 0.1712666829829672,
+              "maximum": 0.24035090699908324,
+              "over100ms": 65
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 110.07893217800301,
+            "latency_seconds": {
+              "median": 0.07818124399636872,
+              "p95": 0.09616513000219129,
+              "p99": 0.1179627759978672,
+              "maximum": 0.24035090699908324,
+              "over100ms": 38
+            }
+          },
+          "maximum_waiting_map_packets": 1,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "sequence": "07",
+      "mode": "K",
+      "key": "r3_07_K",
+      "frames": 1101,
+      "source_timing_sha256": "734533b16aa1b2748915860a90c4508dbfc985941d89b8cb4304b4b6465e5f70",
+      "stage_A_seconds": 14.00315217791649,
+      "stage_B_seconds": 15.687400073024037,
+      "measured_frame_total_seconds": 29.690552250940527,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 29.690552250940527,
+            "latency_seconds": {
+              "median": 15.055285956950684,
+              "p95": 28.14311178796197,
+              "p99": 29.37418458295724,
+              "maximum": 29.690552250940527,
+              "over100ms": 1098
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 15.89096254791366,
+            "latency_seconds": {
+              "median": 8.20864996391174,
+              "p95": 15.024113049941661,
+              "p99": 15.711988972921972,
+              "maximum": 15.89096254791366,
+              "over100ms": 1095
+            }
+          },
+          "maximum_waiting_map_packets": 137,
+          "ideal_overlap_gain_fraction": 0.4647804994125607
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1101,
+            "last_complete_seconds": 110.02603838799405,
+            "latency_seconds": {
+              "median": 0.02512706800189335,
+              "p95": 0.03734290300053544,
+              "p99": 0.056378330002189614,
+              "maximum": 0.20861697800137335,
+              "over100ms": 6
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1101,
+            "last_complete_seconds": 110.02603838799405,
+            "latency_seconds": {
+              "median": 0.02512706800189335,
+              "p95": 0.03734290300053544,
+              "p99": 0.052907475001120474,
+              "maximum": 0.20861697800137335,
+              "over100ms": 6
+            }
+          },
+          "maximum_waiting_map_packets": 1,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "sequence": "09",
+      "mode": "K",
+      "key": "r3_09_K",
+      "frames": 1591,
+      "source_timing_sha256": "e41dda6b44d79834c9c54fc0f33c47410046ea783cb2ec8ce6a80e11b4a2bdd9",
+      "stage_A_seconds": 27.051736707835516,
+      "stage_B_seconds": 29.021352338211727,
+      "measured_frame_total_seconds": 56.073089046047244,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1591,
+            "last_complete_seconds": 56.073089046047244,
+            "latency_seconds": {
+              "median": 29.114627351045783,
+              "p95": 52.487623295059166,
+              "p99": 55.427902788045316,
+              "maximum": 56.073089046047244,
+              "over100ms": 1589
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1591,
+            "last_complete_seconds": 29.15433132117323,
+            "latency_seconds": {
+              "median": 15.732395019047544,
+              "p95": 26.9794329771903,
+              "p99": 28.793335969381584,
+              "maximum": 29.15433132117323,
+              "over100ms": 1587
+            }
+          },
+          "maximum_waiting_map_packets": 166,
+          "ideal_overlap_gain_fraction": 0.4800655391531634
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1591,
+            "last_complete_seconds": 159.03415399900405,
+            "latency_seconds": {
+              "median": 0.03173780900397105,
+              "p95": 0.05593474099805462,
+              "p99": 0.11539888869447164,
+              "maximum": 0.24541657800000394,
+              "over100ms": 22
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1591,
+            "last_complete_seconds": 159.03415399900405,
+            "latency_seconds": {
+              "median": 0.031723414998850785,
+              "p95": 0.054754217500885716,
+              "p99": 0.11018562339449998,
+              "maximum": 0.24541657800000394,
+              "over100ms": 19
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "sequence": "09",
+      "mode": "G",
+      "key": "r3_09_G",
+      "frames": 1591,
+      "source_timing_sha256": "b3ab38ed3e75687ab71a60636d7110a70e0581ffa36d39d37e3e8af9a2932543",
+      "stage_A_seconds": 63.992436129155976,
+      "stage_B_seconds": 71.64456827495451,
+      "measured_frame_total_seconds": 135.63700440411048,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1591,
+            "last_complete_seconds": 135.63700440411048,
+            "latency_seconds": {
+              "median": 68.86569684398273,
+              "p95": 127.3055779136157,
+              "p99": 134.06291316521236,
+              "maximum": 135.63700440411048,
+              "over100ms": 1590
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1591,
+            "last_complete_seconds": 72.7942234549555,
+            "latency_seconds": {
+              "median": 36.97523291599646,
+              "p95": 69.00825092494415,
+              "p99": 72.07379713065674,
+              "maximum": 72.7942234549555,
+              "over100ms": 1590
+            }
+          },
+          "maximum_waiting_map_packets": 217,
+          "ideal_overlap_gain_fraction": 0.4633159013297299
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1591,
+            "last_complete_seconds": 159.63065280598386,
+            "latency_seconds": {
+              "median": 0.08193901400227332,
+              "p95": 1.7140964430247507,
+              "p99": 2.284615242031285,
+              "maximum": 2.42620073902944,
+              "over100ms": 394
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1591,
+            "last_complete_seconds": 159.10865178500535,
+            "latency_seconds": {
+              "median": 0.08030027699714992,
+              "p95": 0.12239939649807674,
+              "p99": 0.17383602490503094,
+              "maximum": 0.29757601999881444,
+              "over100ms": 183
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.003270055041452169
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "sequence": "10",
+      "mode": "G",
+      "key": "r3_10_G",
+      "frames": 1201,
+      "source_timing_sha256": "007fc9b9551035999bb0e7c0e9fa483db3a25817b296d642a29d0e7483f74ae2",
+      "stage_A_seconds": 46.889892564111506,
+      "stage_B_seconds": 52.48508202391531,
+      "measured_frame_total_seconds": 99.37497458802682,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1201,
+            "last_complete_seconds": 99.37497458802682,
+            "latency_seconds": {
+              "median": 50.060715809951944,
+              "p95": 94.62172477401327,
+              "p99": 98.44067251402157,
+              "maximum": 99.37497458802682,
+              "over100ms": 1200
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1201,
+            "last_complete_seconds": 53.588518565949926,
+            "latency_seconds": {
+              "median": 27.204362429991306,
+              "p95": 51.00400189396896,
+              "p99": 53.07622211994021,
+              "maximum": 53.588518565949926,
+              "over100ms": 1200
+            }
+          },
+          "maximum_waiting_map_packets": 156,
+          "ideal_overlap_gain_fraction": 0.4607443293635163
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1201,
+            "last_complete_seconds": 120.07825929699902,
+            "latency_seconds": {
+              "median": 0.07968295099999523,
+              "p95": 0.3191287160152565,
+              "p99": 0.39458732700295496,
+              "maximum": 0.4490610090113476,
+              "over100ms": 159
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1201,
+            "last_complete_seconds": 120.07825929699902,
+            "latency_seconds": {
+              "median": 0.0795437970009516,
+              "p95": 0.1029218870025943,
+              "p99": 0.1300752309980453,
+              "maximum": 0.24348101299983682,
+              "over100ms": 71
+            }
+          },
+          "maximum_waiting_map_packets": 2,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "sequence": "10",
+      "mode": "K",
+      "key": "r3_10_K",
+      "frames": 1201,
+      "source_timing_sha256": "0c71ff8207fda6f61107722c87e5f947c1b9f7a47095ad585e16729c431fa875",
+      "stage_A_seconds": 15.62922013385105,
+      "stage_B_seconds": 17.28651050910412,
+      "measured_frame_total_seconds": 32.91573064295517,
+      "scenarios": {
+        "unpaced": {
+          "serial": {
+            "frames": 1201,
+            "last_complete_seconds": 32.91573064295517,
+            "latency_seconds": {
+              "median": 17.029669055911654,
+              "p95": 31.48563599890622,
+              "p99": 32.61909684896091,
+              "maximum": 32.91573064295517,
+              "over100ms": 1199
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1201,
+            "last_complete_seconds": 17.298105935100466,
+            "latency_seconds": {
+              "median": 9.242422968003666,
+              "p95": 16.641281750096823,
+              "p99": 17.159757358109346,
+              "maximum": 17.298105935100466,
+              "over100ms": 1198
+            }
+          },
+          "maximum_waiting_map_packets": 161,
+          "ideal_overlap_gain_fraction": 0.47447297698668234
+        },
+        "synthetic10Hz": {
+          "serial": {
+            "frames": 1201,
+            "last_complete_seconds": 120.02568290800264,
+            "latency_seconds": {
+              "median": 0.02469383399875369,
+              "p95": 0.042804031996638514,
+              "p99": 0.06344577799609397,
+              "maximum": 0.1897355580003932,
+              "over100ms": 6
+            }
+          },
+          "ideal_FIFO": {
+            "frames": 1201,
+            "last_complete_seconds": 120.02568290800264,
+            "latency_seconds": {
+              "median": 0.024681619004695676,
+              "p95": 0.04193383499659831,
+              "p99": 0.06344577799609397,
+              "maximum": 0.1897355580003932,
+              "over100ms": 6
+            }
+          },
+          "maximum_waiting_map_packets": 1,
+          "ideal_overlap_gain_fraction": 0.0
+        }
+      }
+    }
+  ],
+  "aggregates": {
+    "G": {
+      "cells": 18,
+      "frames": 36888,
+      "stage_A_seconds": 1427.4838822588717,
+      "stage_B_seconds": 1624.0330116193727,
+      "unpaced_serial_seconds": 3051.5168938782444,
+      "unpaced_ideal_FIFO_seconds": 1632.8030743805211,
+      "synthetic10Hz_maximum_queue": 3,
+      "synthetic10Hz_serial_over100ms": 4486,
+      "synthetic10Hz_ideal_FIFO_over100ms": 2122,
+      "synthetic10Hz_maximum_serial_latency": 3.5164885350342985,
+      "synthetic10Hz_maximum_ideal_FIFO_latency": 0.37879950999922585
+    },
+    "K": {
+      "cells": 18,
+      "frames": 36888,
+      "stage_A_seconds": 562.3887318077177,
+      "stage_B_seconds": 599.2684913794728,
+      "unpaced_serial_seconds": 1161.6572231871905,
+      "unpaced_ideal_FIFO_seconds": 626.5613680246461,
+      "synthetic10Hz_maximum_queue": 2,
+      "synthetic10Hz_serial_over100ms": 410,
+      "synthetic10Hz_ideal_FIFO_over100ms": 364,
+      "synthetic10Hz_maximum_serial_latency": 0.2971678090034402,
+      "synthetic10Hz_maximum_ideal_FIFO_latency": 0.2971678090034402
+    }
+  },
+  "measured_parallel_speedup": false,
+  "zero_IPC_and_contention_assumption": true,
+  "actual_parallel_runtime_UNKNOWN": true,
+  "no_online10Hz_claim": true,
+  "new_predictions": 0,
+  "new_GT_metrics": 0
+}

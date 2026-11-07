@@ -1,0 +1,168 @@
+{
+  "passed": true,
+  "receipts": [
+    {
+      "stage": "freeze",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 1.4730636909953319,
+        "peak_RSS_bytes": 18194432,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 49165,
+        "old_archive_or_model_or_fit_calls": 0
+      },
+      "Windows": {
+        "exit_code": 0,
+        "utc_end": "2026-10-14T14:27:49.4885481Z",
+        "wall_seconds": 3.9538772,
+        "host_memory_observations": 5,
+        "minimum_observed_headroom_bytes": 35298869248.0
+      },
+      "launch": {
+        "pid": 20892,
+        "utc_start": "2026-10-14T14:27:45.5346709Z",
+        "script": "scripts/maintenance/pipe_capture_control.py",
+        "stage": "freeze",
+        "headroom_before_bytes": 36746350592
+      }
+    },
+    {
+      "stage": "exercise",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 2.85947818600107,
+        "peak_RSS_bytes": 18178048,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 67304,
+        "old_archive_or_model_or_fit_calls": 0
+      },
+      "Windows": {
+        "exit_code": 0,
+        "utc_end": "2026-10-14T14:28:00.7157937Z",
+        "wall_seconds": 3.953072,
+        "host_memory_observations": 5,
+        "minimum_observed_headroom_bytes": 35105914880.0
+      },
+      "launch": {
+        "pid": 65608,
+        "utc_start": "2026-10-14T14:27:56.7627217Z",
+        "script": "scripts/maintenance/pipe_capture_control.py",
+        "stage": "exercise",
+        "headroom_before_bytes": 35155943424
+      }
+    },
+    {
+      "stage": "validate",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 0.5662713010096923,
+        "peak_RSS_bytes": 17518592,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 70832,
+        "old_archive_or_model_or_fit_calls": 0
+      },
+      "Windows": {
+        "exit_code": 0,
+        "utc_end": "2026-10-14T14:28:09.5294118Z",
+        "wall_seconds": 1.6148671,
+        "host_memory_observations": 2,
+        "minimum_observed_headroom_bytes": 35130621952.0
+      },
+      "launch": {
+        "pid": 64288,
+        "utc_start": "2026-10-14T14:28:07.9145447Z",
+        "script": "scripts/maintenance/pipe_capture_control.py",
+        "stage": "validate",
+        "headroom_before_bytes": 35185369088
+      }
+    }
+  ],
+  "outer_attempts": 3,
+  "outer_successes": 3,
+  "inner_synthetic_children": 8,
+  "inner_native_exits_and_RSS": [
+    {
+      "pid": 407,
+      "wait_status": 0,
+      "exit_code": 0,
+      "peak_RSS_bytes": 18178048,
+      "user_seconds": 0.003574,
+      "system_seconds": 0.003574
+    },
+    {
+      "pid": 408,
+      "wait_status": 0,
+      "exit_code": 0,
+      "peak_RSS_bytes": 18178048,
+      "user_seconds": 0.004606,
+      "system_seconds": 0.002303
+    },
+    {
+      "pid": 409,
+      "wait_status": 15,
+      "exit_code": -15,
+      "peak_RSS_bytes": 18178048,
+      "user_seconds": 0.006906,
+      "system_seconds": 0.0
+    },
+    {
+      "pid": 410,
+      "wait_status": 0,
+      "exit_code": 0,
+      "peak_RSS_bytes": 18178048,
+      "user_seconds": 0.006755,
+      "system_seconds": 0.0
+    },
+    {
+      "pid": 411,
+      "wait_status": 1792,
+      "exit_code": 7,
+      "peak_RSS_bytes": 18178048,
+      "user_seconds": 0.006594,
+      "system_seconds": 0.0
+    },
+    {
+      "pid": 412,
+      "wait_status": 15,
+      "exit_code": -15,
+      "peak_RSS_bytes": 18178048,
+      "user_seconds": 0.005737,
+      "system_seconds": 0.0
+    },
+    {
+      "pid": 413,
+      "wait_status": 0,
+      "exit_code": 0,
+      "peak_RSS_bytes": 18178048,
+      "user_seconds": 0.007155,
+      "system_seconds": 0.0
+    },
+    {
+      "pid": 414,
+      "wait_status": 0,
+      "exit_code": 0,
+      "peak_RSS_bytes": 18178048,
+      "user_seconds": 0.006893,
+      "system_seconds": 0.0
+    }
+  ],
+  "Windows_seconds_including_startup_imports": 9.5218163,
+  "outer_child_seconds_after_time_bootstrap": 4.898813178006094,
+  "inner_child_wall_seconds_nested_not_added": 0.4057299389678519,
+  "peak_outer_RSS_bytes": 18194432,
+  "peak_inner_RSS_bytes": 18178048,
+  "GPU_bytes": 0,
+  "logging_retries": 0,
+  "logging_gaps": 0,
+  "ordinary_preparation_RSS_unknown": true,
+  "stdlib_closure_separate": true
+}

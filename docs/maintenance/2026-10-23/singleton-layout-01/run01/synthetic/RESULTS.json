@@ -1,0 +1,234 @@
+{
+  "passed": true,
+  "counts": {
+    "valid_layouts": 1555,
+    "valid_coordinate_addresses": 22621,
+    "corrupt_non_singleton_axes": 939
+  },
+  "fixed_negative_count": 9,
+  "torch_probes": [
+    {
+      "shape": [],
+      "stride": [],
+      "elements": 1,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    },
+    {
+      "shape": [
+        1
+      ],
+      "stride": [
+        0
+      ],
+      "elements": 1,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    },
+    {
+      "shape": [
+        1
+      ],
+      "stride": [
+        17
+      ],
+      "elements": 1,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    },
+    {
+      "shape": [
+        1,
+        1
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "elements": 1,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    },
+    {
+      "shape": [
+        1,
+        1
+      ],
+      "stride": [
+        0,
+        1
+      ],
+      "elements": 1,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    },
+    {
+      "shape": [
+        1,
+        1
+      ],
+      "stride": [
+        0,
+        17
+      ],
+      "elements": 1,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    },
+    {
+      "shape": [
+        1,
+        1
+      ],
+      "stride": [
+        1,
+        0
+      ],
+      "elements": 1,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    },
+    {
+      "shape": [
+        1,
+        1
+      ],
+      "stride": [
+        1,
+        17
+      ],
+      "elements": 1,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    },
+    {
+      "shape": [
+        1,
+        1
+      ],
+      "stride": [
+        17,
+        0
+      ],
+      "elements": 1,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    },
+    {
+      "shape": [
+        1,
+        1
+      ],
+      "stride": [
+        17,
+        1
+      ],
+      "elements": 1,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    },
+    {
+      "shape": [
+        1,
+        1
+      ],
+      "stride": [
+        17,
+        17
+      ],
+      "elements": 1,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    },
+    {
+      "shape": [
+        1,
+        2
+      ],
+      "stride": [
+        0,
+        1
+      ],
+      "elements": 2,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    },
+    {
+      "shape": [
+        1,
+        2
+      ],
+      "stride": [
+        17,
+        1
+      ],
+      "elements": 2,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    },
+    {
+      "shape": [
+        1,
+        3
+      ],
+      "stride": [
+        0,
+        1
+      ],
+      "elements": 3,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    },
+    {
+      "shape": [
+        1,
+        3
+      ],
+      "stride": [
+        17,
+        1
+      ],
+      "elements": 3,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    },
+    {
+      "shape": [
+        1,
+        4
+      ],
+      "stride": [
+        0,
+        1
+      ],
+      "elements": 4,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    },
+    {
+      "shape": [
+        16,
+        3,
+        1,
+        1
+      ],
+      "stride": [
+        3,
+        1,
+        3,
+        3
+      ],
+      "elements": 48,
+      "is_contiguous": true,
+      "exact_synthetic_values": true
+    }
+  ],
+  "torch_probe_count": 17,
+  "torch_version": "2.7.0+cu128",
+  "CUDA_initialized": false,
+  "actual_weight_reads": 0,
+  "TT1_changed": false,
+  "TT1_retried": false,
+  "real_transfer_or_inference_admitted": false,
+  "claim": "Synthetic future-layout feasibility only"
+}

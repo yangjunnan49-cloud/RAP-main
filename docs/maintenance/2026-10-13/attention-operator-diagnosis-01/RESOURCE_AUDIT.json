@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "children": 4,
+  "payload_seconds_including_imports": 71.2169190689965,
+  "peak_RSS_bytes": 2293174272,
+  "peak_GPU_allocated_bytes": 1563338752,
+  "peak_GPU_reserved_bytes": 1698693120,
+  "all_child_Windows_exits": true,
+  "logging_retries": 0,
+  "logging_gaps": 0,
+  "receipts": [
+    {
+      "stage": "freeze",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 8.008887194002455,
+        "peak_RSS_bytes": 481275904,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 136087,
+        "optimizer_calls": 0,
+        "imports_included": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:26:36.4240049Z",
+        "wall_seconds": 10.9574643,
+        "host_memory_observations": 14,
+        "minimum_observed_headroom_bytes": 94229237760.0
+      },
+      "launch": {
+        "pid": 43724,
+        "utc_start": "2026-10-13T01:26:25.4665406Z",
+        "script": "scripts/maintenance/attention_operator_diagnosis.py",
+        "stage": "freeze",
+        "headroom_before_bytes": 97060868096
+      }
+    },
+    {
+      "stage": "probe",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 40.9468568089942,
+        "peak_RSS_bytes": 2293174272,
+        "peak_GPU_allocated_bytes": 1563338752,
+        "peak_GPU_reserved_bytes": 1698693120,
+        "artifact_bytes": 190813126,
+        "optimizer_calls": 0,
+        "imports_included": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:28:24.2370758Z",
+        "wall_seconds": 45.1576641,
+        "host_memory_observations": 58,
+        "minimum_observed_headroom_bytes": 89069015040.0
+      },
+      "launch": {
+        "pid": 42732,
+        "utc_start": "2026-10-13T01:27:39.0794117Z",
+        "script": "scripts/maintenance/attention_operator_diagnosis.py",
+        "stage": "probe",
+        "headroom_before_bytes": 96815157248
+      }
+    },
+    {
+      "stage": "validate",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 14.97851027300203,
+        "peak_RSS_bytes": 417341440,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 190825812,
+        "optimizer_calls": 0,
+        "imports_included": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:29:37.5328613Z",
+        "wall_seconds": 18.0119986,
+        "host_memory_observations": 23,
+        "minimum_observed_headroom_bytes": 94622961664.0
+      },
+      "launch": {
+        "pid": 43568,
+        "utc_start": "2026-10-13T01:29:19.5208627Z",
+        "script": "scripts/maintenance/attention_operator_diagnosis.py",
+        "stage": "validate",
+        "headroom_before_bytes": 96335753216
+      }
+    },
+    {
+      "stage": "audit",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 7.282664792997821,
+        "peak_RSS_bytes": 102506496,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 190832888,
+        "optimizer_calls": 0,
+        "imports_included": true
+      },
+      "host": {
+        "exit_code": 0,
+        "utc_end": "2026-10-13T01:32:32.2063106Z",
+        "wall_seconds": 10.1829194,
+        "host_memory_observations": 13,
+        "minimum_observed_headroom_bytes": 94401228800.0
+      },
+      "launch": {
+        "pid": 40928,
+        "utc_start": "2026-10-13T01:32:22.0233912Z",
+        "script": "scripts/maintenance/audit_attention_bindings.py",
+        "stage": "audit",
+        "headroom_before_bytes": 96515375104
+      }
+    }
+  ],
+  "old_caps_and_gaps_unchanged": true,
+  "setup_full_RSS_unknown": true,
+  "bookkeeping_separate": true
+}

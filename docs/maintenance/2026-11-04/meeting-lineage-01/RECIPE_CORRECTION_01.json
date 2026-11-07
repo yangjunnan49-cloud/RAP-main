@@ -1,0 +1,9 @@
+{
+  "detected_during": "封存前静态复核",
+  "issue": "最初便携接线删除了 String.raw 的 T 定义，但原问答助手仍使用 T 模板标签；语法检查不能捕获未定义标识符。",
+  "correction": "保留 T 定义，仅追加 bundleRoot 并改写两幅图片路径；正文仍完整保持。",
+  "regression_check": "test_normalization_keeps_template_tag_used_by_questions",
+  "old_recipe_and_tool": "attempt02",
+  "old_recipe_was_executed_to_create_DOCX": false,
+  "original_assets_or_generated_Office_deliverables_modified": false
+}

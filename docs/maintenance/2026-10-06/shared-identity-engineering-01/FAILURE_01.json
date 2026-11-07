@@ -1,0 +1,14 @@
+{
+  "stage": "D1_ORIGINAL_NUMERICAL_VALIDATOR_FAILED",
+  "utc_date": "2026-10-06",
+  "bank_complete_and_sealed": true,
+  "source_binding_validation_passed": true,
+  "original_validator_source": "scripts/maintenance/validate_shared_identity_engineering.py",
+  "exception": "AssertionError",
+  "location": "validate_shared_identity_engineering.py:357, assert len(again)==len(arr)",
+  "first_active_pair": "00_24_629",
+  "cause": "Primary arm includes wall_seconds timing metadata; repeat and dummy arrays omit it.",
+  "original_validation_json_created": false,
+  "accuracy_or_response_conclusion": false,
+  "repair": "See AMENDMENT_01.md and separately frozen attempt-02."
+}

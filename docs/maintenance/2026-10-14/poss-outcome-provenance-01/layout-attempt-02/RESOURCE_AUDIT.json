@@ -1,0 +1,172 @@
+{
+  "passed": true,
+  "receipts": [
+    {
+      "directory": "supervision/freeze",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 3.627101849007886,
+        "peak_RSS_bytes": 19365888,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 106256,
+        "new_model_calls": 0,
+        "new_solver_calls": 0,
+        "new_fit_calls": 0,
+        "new_pose_metric_calls": 0
+      },
+      "Windows": {
+        "exit_code": 0,
+        "utc_end": "2026-10-14T14:12:27.1694031Z",
+        "wall_seconds": 7.0877838,
+        "host_memory_observations": 9,
+        "minimum_observed_headroom_bytes": 35430944768.0
+      },
+      "launch": {
+        "pid": 23520,
+        "utc_start": "2026-10-14T14:12:20.0816193Z",
+        "script": "scripts/maintenance/poss_outcome_provenance.py",
+        "stage": "freeze",
+        "headroom_before_bytes": 37007413248
+      }
+    },
+    {
+      "directory": "supervision/census",
+      "child": {
+        "success": false,
+        "error": "AssertionError()",
+        "full_resource_capture": true,
+        "wall_seconds": 1.4776649049890693,
+        "peak_RSS_bytes": 22056960,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 108247,
+        "new_model_calls": 0,
+        "new_solver_calls": 0,
+        "new_fit_calls": 0,
+        "new_pose_metric_calls": 0
+      },
+      "Windows": {
+        "exit_code": 1,
+        "utc_end": "2026-10-14T14:12:37.8615639Z",
+        "wall_seconds": 2.3839416,
+        "host_memory_observations": 3,
+        "minimum_observed_headroom_bytes": 35316445184.0
+      },
+      "launch": {
+        "pid": 26952,
+        "utc_start": "2026-10-14T14:12:35.4776223Z",
+        "script": "scripts/maintenance/poss_outcome_provenance.py",
+        "stage": "census",
+        "headroom_before_bytes": 35392724992
+      }
+    },
+    {
+      "directory": "layout-attempt-02/supervision/bind",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 1.6210213050071616,
+        "peak_RSS_bytes": 19697664,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 147824,
+        "new_model_calls": 0,
+        "new_solver_calls": 0,
+        "new_fit_calls": 0,
+        "new_pose_metric_calls": 0
+      },
+      "Windows": {
+        "exit_code": 0,
+        "utc_end": "2026-10-14T14:13:58.1686655Z",
+        "wall_seconds": 4.7182428,
+        "host_memory_observations": 6,
+        "minimum_observed_headroom_bytes": 35501821952.0
+      },
+      "launch": {
+        "pid": 64736,
+        "utc_start": "2026-10-14T14:13:53.4504227Z",
+        "script": "scripts/maintenance/poss_outcome_layout02.py",
+        "stage": "bind",
+        "headroom_before_bytes": 36940869632
+      }
+    },
+    {
+      "directory": "layout-attempt-02/supervision/census",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 5.4232220239937305,
+        "peak_RSS_bytes": 26480640,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 155475,
+        "new_model_calls": 0,
+        "new_solver_calls": 0,
+        "new_fit_calls": 0,
+        "new_pose_metric_calls": 0
+      },
+      "Windows": {
+        "exit_code": 0,
+        "utc_end": "2026-10-14T14:14:15.2027346Z",
+        "wall_seconds": 6.3151138,
+        "host_memory_observations": 8,
+        "minimum_observed_headroom_bytes": 35313446912.0
+      },
+      "launch": {
+        "pid": 54092,
+        "utc_start": "2026-10-14T14:14:08.8876208Z",
+        "script": "scripts/maintenance/poss_outcome_layout02.py",
+        "stage": "census",
+        "headroom_before_bytes": 35378491392
+      }
+    },
+    {
+      "directory": "layout-attempt-02/supervision/validate",
+      "child": {
+        "success": true,
+        "error": null,
+        "full_resource_capture": true,
+        "wall_seconds": 3.4722140670055524,
+        "peak_RSS_bytes": 21422080,
+        "peak_GPU_allocated_bytes": 0,
+        "peak_GPU_reserved_bytes": 0,
+        "artifact_bytes": 158006,
+        "new_model_calls": 0,
+        "new_solver_calls": 0,
+        "new_fit_calls": 0,
+        "new_pose_metric_calls": 0
+      },
+      "Windows": {
+        "exit_code": 0,
+        "utc_end": "2026-10-14T14:14:28.4969779Z",
+        "wall_seconds": 4.742477,
+        "host_memory_observations": 6,
+        "minimum_observed_headroom_bytes": 35338194944.0
+      },
+      "launch": {
+        "pid": 66784,
+        "utc_start": "2026-10-14T14:14:23.7545009Z",
+        "script": "scripts/maintenance/poss_outcome_layout02.py",
+        "stage": "validate",
+        "headroom_before_bytes": 35412525056
+      }
+    }
+  ],
+  "attempts": 5,
+  "successes": 4,
+  "retained_original_layout_failure": 1,
+  "Windows_seconds_including_startup_imports": 25.247559,
+  "child_seconds_after_time_bootstrap": 15.6212241500034,
+  "peak_RSS_bytes": 26480640,
+  "GPU_bytes": 0,
+  "logging_retries": 0,
+  "logging_gaps": 0,
+  "original_combined_caps_unchanged": true,
+  "ordinary_preparation_RSS_unknown": true,
+  "stdlib_closure_separate": true
+}

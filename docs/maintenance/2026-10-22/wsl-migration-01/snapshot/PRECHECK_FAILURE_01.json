@@ -1,0 +1,11 @@
+{
+  "script": "01_backup.ps1",
+  "message": "Baseline environments missing",
+  "cause": "PowerShell property collection Count was enumerated per property instead of counted as an array",
+  "actual_environment_count": 4,
+  "original_environment_probe_exit_code": 0,
+  "source_moved": false,
+  "backup_started": false,
+  "correction": "Count @(...PSObject.Properties); reuse successful baseline receipt without rerunning",
+  "original_script_preserved": true
+}

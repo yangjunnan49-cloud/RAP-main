@@ -1,0 +1,247 @@
+{
+  "status": "VALIDATED_FIXED_AUTHOR_PACKAGE_AND_REFERENCE_SCHEMA_ONLY",
+  "checks": [
+    {
+      "path": "OutdoorScan/paris_02/000.ply",
+      "bytes": 270148,
+      "SHA256": "3b9baa3c723165975b01fe878a154a5fd126ab548e3b6a4a9dc2730c3c8ecfaf",
+      "method": "published LFS SHA256 payload identity; catalog Git OID is pointer"
+    },
+    {
+      "path": "OutdoorScan/paris_02/001.ply",
+      "bytes": 271660,
+      "SHA256": "0d24b46c7b71354a614a5b36759285eeff2fcb117ec4bdf2a6cabc42782f560c",
+      "method": "published LFS SHA256 payload identity; catalog Git OID is pointer"
+    },
+    {
+      "path": "OutdoorScan/paris_02/002.ply",
+      "bytes": 273076,
+      "SHA256": "16bc406305aa0b58a8f5f3f075e4cbe52d925a23fff09be6f14fc4ed95a35cf0",
+      "method": "published LFS SHA256 payload identity; catalog Git OID is pointer"
+    },
+    {
+      "path": "OutdoorScan/paris_02/connection_graph_order.txt",
+      "bytes": 30,
+      "SHA256": "41150b8d5bfd5e4d5482b37a91631a32444e331f2c847fb7356d5fb04893cf94",
+      "method": "published Git blob SHA1 and length; local SHA256 separately retained"
+    },
+    {
+      "path": "OutdoorScan/paris_02/connection_graph.npy",
+      "bytes": 200,
+      "SHA256": "d1706dda3331c3f1222004e3c5f4be2f7eae99849d7153643d21b501eddbe7c8",
+      "method": "published LFS SHA256 payload identity; catalog Git OID is pointer"
+    },
+    {
+      "path": "OutdoorScan/paris_02/connection_graph.txt",
+      "bytes": 81,
+      "SHA256": "3edcebfc92522c426da76bd4598943b33d5a0101a65f6ba018c88093532e4679",
+      "method": "published Git blob SHA1 and length; local SHA256 separately retained"
+    },
+    {
+      "path": "OutdoorScan/paris_02/metadata.yaml",
+      "bytes": 555,
+      "SHA256": "9597e5011197164c84913e3fbb276ae0706a984e88254212a27f15606dc828df",
+      "method": "published Git blob SHA1 and length; local SHA256 separately retained"
+    },
+    {
+      "path": "regx_multiview_samples_v2.jsonl",
+      "bytes": 7347107,
+      "SHA256": "d90164be4357c98739de1bd7a8ddaf20466cd281eb610cbe5aee576d69a27b78",
+      "method": "published Git blob SHA1 and length; local SHA256 separately retained"
+    }
+  ],
+  "requests": 16,
+  "redirect_requests": 8,
+  "all_response_body_bytes": 8168371,
+  "body_margin": 220237,
+  "JSONL_records": 1540,
+  "exact_scene_records": 2,
+  "records": [
+    {
+      "line": 913,
+      "keys": [
+        "avg_overlap_ratio",
+        "bottleneck_overlap_ratio",
+        "edge_density",
+        "inputs",
+        "min_overlap_ratio",
+        "overlap_subgraph",
+        "point_cloud_files",
+        "point_cloud_ids",
+        "scene",
+        "view_count"
+      ],
+      "input_files": [
+        "000.ply",
+        "002.ply"
+      ],
+      "reference_schema": [
+        {
+          "file": "000.ply",
+          "shape": [
+            4,
+            4
+          ],
+          "numeric_tokens": "strings, not evaluated",
+          "reference_token_SHA256": "6ada04462cd4df1bdc5149a11eac23bc1d02a984bccf51a2cb7488c069851eba",
+          "input_keys": [
+            "point_cloud_file",
+            "point_cloud_id",
+            "transformation_matrix"
+          ]
+        },
+        {
+          "file": "002.ply",
+          "shape": [
+            4,
+            4
+          ],
+          "numeric_tokens": "strings, not evaluated",
+          "reference_token_SHA256": "2547c1c70e4d604c8a40ef2fc353c06d215550f67fd9f552a536579374dad10a",
+          "input_keys": [
+            "point_cloud_file",
+            "point_cloud_id",
+            "transformation_matrix"
+          ]
+        }
+      ],
+      "complete_three_view": false
+    },
+    {
+      "line": 914,
+      "keys": [
+        "avg_overlap_ratio",
+        "bottleneck_overlap_ratio",
+        "edge_density",
+        "inputs",
+        "min_overlap_ratio",
+        "overlap_subgraph",
+        "point_cloud_files",
+        "point_cloud_ids",
+        "scene",
+        "view_count"
+      ],
+      "input_files": [
+        "000.ply",
+        "001.ply",
+        "002.ply"
+      ],
+      "reference_schema": [
+        {
+          "file": "000.ply",
+          "shape": [
+            4,
+            4
+          ],
+          "numeric_tokens": "strings, not evaluated",
+          "reference_token_SHA256": "b92fbea3e01dfc3f9cfe1bcfa3f14aa2c45db5994517bc1442a264a69e36798c",
+          "input_keys": [
+            "point_cloud_file",
+            "point_cloud_id",
+            "transformation_matrix"
+          ]
+        },
+        {
+          "file": "001.ply",
+          "shape": [
+            4,
+            4
+          ],
+          "numeric_tokens": "strings, not evaluated",
+          "reference_token_SHA256": "f09a7890b717ec2231eef6d95cd0cf1b34e903de93ea90ee67c0bb03eaf62ff2",
+          "input_keys": [
+            "point_cloud_file",
+            "point_cloud_id",
+            "transformation_matrix"
+          ]
+        },
+        {
+          "file": "002.ply",
+          "shape": [
+            4,
+            4
+          ],
+          "numeric_tokens": "strings, not evaluated",
+          "reference_token_SHA256": "d48e7d1f2b722f5d343361085980d38d41ee21fea92fad18eeb028701aaba40f",
+          "input_keys": [
+            "point_cloud_file",
+            "point_cloud_id",
+            "transformation_matrix"
+          ]
+        }
+      ],
+      "complete_three_view": true
+    }
+  ],
+  "ply_headers": [
+    {
+      "file": "000.ply",
+      "header_lines": [
+        "ply",
+        "format binary_little_endian 1.0",
+        "comment Created by Open3D",
+        "element vertex 11250",
+        "property double x",
+        "property double y",
+        "property double z",
+        "end_header"
+      ],
+      "header_bytes": 148,
+      "payload_bytes_not_decoded": 270000
+    },
+    {
+      "file": "001.ply",
+      "header_lines": [
+        "ply",
+        "format binary_little_endian 1.0",
+        "comment Created by Open3D",
+        "element vertex 11313",
+        "property double x",
+        "property double y",
+        "property double z",
+        "end_header"
+      ],
+      "header_bytes": 148,
+      "payload_bytes_not_decoded": 271512
+    },
+    {
+      "file": "002.ply",
+      "header_lines": [
+        "ply",
+        "format binary_little_endian 1.0",
+        "comment Created by Open3D",
+        "element vertex 11372",
+        "property double x",
+        "property double y",
+        "property double z",
+        "end_header"
+      ],
+      "header_bytes": 148,
+      "payload_bytes_not_decoded": 272928
+    }
+  ],
+  "npy_header": {
+    "descr": "<f8",
+    "fortran_order": false,
+    "shape": [
+      3,
+      3
+    ]
+  },
+  "npy_data_not_decoded": true,
+  "order": [
+    "000.ply",
+    "001.ply",
+    "002.ply"
+  ],
+  "graph_text_tokens_evaluated": false,
+  "source_metadata_text": "type: OutdoorScan\nscene: Outdoor, Urban, Street\napplications: urban cartography, mobile mapping\ndescription: Mobile laser scans of a Parisian street, split into overlapping sections.\ngeography: Paris, France\nsource_dataset: PARISLUCO\nlicense: CC-BY-NC-ND-3.0\ncitation: sanchez2023arxiv-parisluco\nnum_point_clouds: 3\npointcloud_info:\n  000.ply:\n    dataset_source: PARISLUCO\n    sensor: Mobile laser scanner\n  001.ply:\n    dataset_source: PARISLUCO\n    sensor: Mobile laser scanner\n  002.ply:\n    dataset_source: PARISLUCO\n    sensor: Mobile laser scanner\n",
+  "dossier_bytes_before_report": 9531409,
+  "no_coordinate_decode": true,
+  "no_pose_arithmetic": true,
+  "no_model_training_solver": true,
+  "original_demo_authentication": false,
+  "surveyed_physical_truth": "NOT ESTABLISHED",
+  "training_exclusion": "NOT ESTABLISHED",
+  "all_scene_records_retained": true
+}

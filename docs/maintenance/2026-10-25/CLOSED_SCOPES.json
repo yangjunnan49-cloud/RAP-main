@@ -1,0 +1,194 @@
+{
+  "scopes": [
+    {
+      "scope": "2026-10-24/continuation-01",
+      "cost_sha256": "A677EA9AD52CD926E3470465CCAD08C0F4649AC6BD2CD61A74281E307FBB74FC",
+      "receipt": {
+        "status": "ADDITIVE_RECOVERY_COMPLETE",
+        "elapsed_seconds": 49.8357556,
+        "old_authorities_overwritten": false,
+        "old_caps_reset": false,
+        "payload_admitted": false,
+        "old_costs_unchanged": 15,
+        "cap_seconds": 600,
+        "budget_status": "PASS"
+      }
+    },
+    {
+      "scope": "2026-10-24/tensor-transfer-02",
+      "cost_sha256": "445C7637A2A04CDB75776F7F4CA72D2E9BEFA12368B51C9B35E313757ED8B622",
+      "receipt": {
+        "budget_status": "PASS",
+        "old_caps_reset": false,
+        "old_TT1_failure_preserved": true,
+        "elapsed_seconds": 161.2944106,
+        "model_forward_calls": 0,
+        "status": "NEW_FIXED402_CPU_TRANSFER_PASS",
+        "cap_seconds": 1500
+      }
+    },
+    {
+      "scope": "2026-10-24/backend-constructor-01",
+      "cost_sha256": "9AE7A0A0529F6202872AFD794E721A5B4954D038C058448BEB4021A88B4206D6",
+      "receipt": {
+        "neural_forward_calls": 0,
+        "budget_status": "PASS",
+        "cap_seconds": 1200,
+        "status": "ORIGINAL_CPU_CONSTRUCTOR_FIXED402_PASS",
+        "elapsed_seconds": 149.5248144,
+        "old_caps_reset": false
+      }
+    },
+    {
+      "scope": "2026-10-24/real-interface-02",
+      "cost_sha256": "028F4DC44C48DA322D808143B8992C6065A257C37A4CDF7E9B2DEE4958A63FF7",
+      "receipt": {
+        "budget_status": "PASS",
+        "status": "PUBLIC_GPU_FUNCTIONAL_OPERABILITY_PASS",
+        "physical_efficacy_admitted": false,
+        "elapsed_seconds": 228.9401883,
+        "RAP_calls": 2,
+        "old_caps_reset": false,
+        "old_RI1_failure_preserved": true,
+        "cap_seconds": 1500
+      }
+    },
+    {
+      "scope": "2026-10-24/output-contract-01",
+      "cost_sha256": "3C2F82C85F056CEDD01FFB60594A03770357DB9DB4DDA59D81B1D906D14E83A7",
+      "receipt": {
+        "budget_status": "PASS",
+        "original_failure_preserved": true,
+        "cap_seconds": 900,
+        "status": "SEALED_REAL_OUTPUT_WITNESS_PASS_WITH_SERIALIZATION_REPAIR",
+        "all_attempts_same_origin": true,
+        "old_caps_reset": false,
+        "elapsed_seconds": 192.2964109,
+        "normalization_coordinate_checks": 60000,
+        "model_replay": 0
+      }
+    },
+    {
+      "scope": "2026-10-24/delivery-audit-01",
+      "cost_sha256": "F629C385F76C9F00D9316B40056649082D18FE98CCEBF9035DEDAD48BFC956EE",
+      "receipt": {
+        "budget_status": "PASS",
+        "cap_seconds": 900,
+        "old_caps_reset": false,
+        "pose_ZIP_members": 6,
+        "status": "CLOSED_FUNCTIONAL_EVIDENCE_AND_PLATFORM_AUDIT_PASS",
+        "full_ZIP_members": 645,
+        "elapsed_seconds": 126.3495894,
+        "pending_real_computation": false
+      }
+    },
+    {
+      "scope": "2026-10-24/pose-convention-01",
+      "cost_sha256": "F33510A82CFE38083AF995BFFC8E9F6DF8F2E31D0511C0C828B7C653FBDFD706",
+      "receipt": {
+        "cap_seconds": 300,
+        "old_caps_reset": false,
+        "matrices_unchanged": 5,
+        "elapsed_seconds": 3.398723,
+        "status": "CASE_LOCAL_POSE_ANNOTATION_COMPLETE",
+        "budget_status": "PASS",
+        "new_pose_computations": 0
+      }
+    },
+    {
+      "scope": "2026-10-24/continuation-02",
+      "cost_sha256": "2154FCD1F8621FBC9105C71F3C71FFC74804D57E5992C77AF255363ACA23E7E9",
+      "receipt": {
+        "status": "ADDITIVE_RENEWAL_RECOVERY_COMPLETE",
+        "elapsed_seconds": 68.249393,
+        "cap_seconds": 900,
+        "budget_status": "PASS",
+        "conservative_UTC_origin": "2026-10-24T07:18:58+00:00",
+        "old_scopes_closed_before_gap": true,
+        "old_caps_reset": false
+      }
+    },
+    {
+      "scope": "2026-10-24/reference-cohort-decision-01",
+      "cost_sha256": "557DDEE9EC3A7873D271C88F0D907D30D547DEF9A7EC83C31EC6E419CE26541C",
+      "receipt": {
+        "status": "SOURCE_REFERENCE_COHORT_DECISION_CLOSED",
+        "elapsed_seconds": 276.351109,
+        "cap_seconds": 1200,
+        "budget_status": "PASS",
+        "conservative_UTC_origin": "2026-10-24T07:18:58+00:00",
+        "all_source_preparation_included": true,
+        "old_caps_reset": false,
+        "real_model_or_metric_calls": 0
+      }
+    },
+    {
+      "scope": "2026-10-24/output-visualization-01",
+      "cost_sha256": "0CC745C81C5C13D1FB38853ABCE3FD8E09D28C911171D55028AF20229BFEC27B",
+      "receipt": {
+        "status": "SEALED_OUTPUT_VISUALIZATION_COMPLETE_WITH_RETAINED_PRELAUNCH_AND_BINDING_FAILURES",
+        "elapsed_seconds": 327.188249,
+        "cap_seconds": 900,
+        "budget_status": "PASS",
+        "original_UTC_origin": "2026-10-24T07:23:19+00:00",
+        "all_attempts_and_repairs_same_origin": true,
+        "old_caps_reset": false,
+        "model_replays": 0,
+        "plots": 2,
+        "WSL_initial_stopped_restored": true
+      }
+    },
+    {
+      "scope": "2026-10-24/handoff-03",
+      "cost_sha256": "FACAE22B7E15C14C87E0EB2421ABBFB490DE795F5E53BABA4E0A3AEB437AE69E",
+      "receipt": {
+        "status": "COMPACT_HANDOFF_ADDITIVE_REVIEW_DELIVERY_COMPLETE",
+        "elapsed_seconds": 193.900443,
+        "cap_seconds": 900,
+        "budget_status": "PASS",
+        "original_UTC_origin": "2026-10-24T07:28:47+00:00",
+        "package_creation_and_verification_included": true,
+        "old_caps_reset": false,
+        "model_or_metric_calls": 0
+      }
+    },
+    {
+      "scope": "2026-10-24/source-request-01",
+      "cost_sha256": "FFB56A80284D103392D63B16ED6D14156892E8F03688BBA2AEDDAE70F4CB9944",
+      "receipt": {
+        "status": "EXACT_UPSTREAM_SOURCE_POINTER_AND_REQUEST_PREPARED_NO_NETWORK",
+        "elapsed_seconds": 120.040495,
+        "cap_seconds": 600,
+        "budget_status": "PASS",
+        "original_UTC_origin": "2026-10-24T07:32:30+00:00",
+        "network_requests": 0,
+        "old_caps_reset": false
+      }
+    },
+    {
+      "scope": "2026-10-25/upstream-page-01",
+      "cost_sha256": "82F1C141ECA813E8807925EA5B8DBCD834F80475C606C222063C9C79FA70E71D",
+      "receipt": {
+        "status": "AUTHORIZED_PAGE_READ_AND_OWNER_REQUESTED_PRE_QUOTA_CLOSEOUT_COMPLETE",
+        "documentary_wrapper_elapsed_seconds": 409.940128,
+        "documentary_wrapper_cap_seconds": 600,
+        "budget_status": "PASS",
+        "transport_whole_attempt_seconds": 3.380245,
+        "transport_whole_attempt_cap_seconds": 120,
+        "worker_elapsed_seconds": 2.0,
+        "worker_cap_seconds": 60,
+        "all_preparation_read_analysis_update_pack_verification_included": true,
+        "old_caps_reset": false
+      }
+    }
+  ],
+  "scope_count": 13,
+  "scope_population": "Twelve previously closed October24 scopes plus this one finite authorized October25 scope; earlier history retained separately",
+  "all_original_time_budgets_pass": true,
+  "original_failures_preserved": true,
+  "pending_payload_or_permission": false,
+  "owner_requested_prequota_closeout": true,
+  "no_automatic_reset_resume": true,
+  "research": "UNRESOLVED",
+  "manuscript": "PAUSED"
+}

@@ -1,0 +1,93 @@
+{
+  "utc": "2026-10-28T12:46:06.063241+00:00",
+  "files": [
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 6620,
+      "sha256": "cce7c0fcb9164f479ba1e6880723a769ec5c2802ad101e682ea0adfddc70bfef",
+      "role": "shared"
+    },
+    {
+      "path": "baseline_lib.py",
+      "bytes": 10222,
+      "sha256": "2ae8a0af4ca5e7e381df8f7ffc1e3ef208647d2605a37bee925ab9d5c67f0aec",
+      "role": "shared"
+    },
+    {
+      "path": "pnp_lib.py",
+      "bytes": 4191,
+      "sha256": "e306b5cea0b1dda9d540181c962ab9d23db4f102293bd39dc998648a9f002c9f",
+      "role": "shared"
+    },
+    {
+      "path": "METHOD.json",
+      "bytes": 525,
+      "sha256": "db9422edafbe101464d554ee668233d73da83a1eefc02a8fff9256558a21de4b",
+      "role": "shared"
+    },
+    {
+      "path": "RUNTIME_BINDING.json",
+      "bytes": 1507,
+      "sha256": "eff88d58d6e4de7be96beedae1edada47224bb874d249e1d816e9de3ec680473",
+      "role": "shared"
+    },
+    {
+      "path": "controls.py",
+      "bytes": 5683,
+      "sha256": "868b396981678dbd1e5aa9ecb8a6ce743efcb49a12faaa8bd1d92d5ed3c64c35",
+      "role": "controls"
+    },
+    {
+      "path": "SYNTHETIC_FIXTURE.json",
+      "bytes": 13493,
+      "sha256": "ee5796a31158dfefae3afb4fd5432488d63371050a17bf946ed7925802e535ba",
+      "role": "controls"
+    },
+    {
+      "path": "predict.py",
+      "bytes": 1790,
+      "sha256": "e74f188031772950c1b0a0d1a5b3033c7c065838ba969ae4b8e3516ca0eaddaf",
+      "role": "prediction"
+    },
+    {
+      "path": "PREDICTION_INPUTS.json",
+      "bytes": 80094,
+      "sha256": "8af89c9b0862cdcd24ea4deaec64f5a55acfe51ea363f340dc94e613fdceb5aa",
+      "role": "prediction"
+    },
+    {
+      "path": "evaluate.py",
+      "bytes": 5893,
+      "sha256": "62ea1b53ccf9548398625ae9f51066b6815e363c0597743af415dcf6fdc90cc9",
+      "role": "evaluation"
+    },
+    {
+      "path": "EVALUATION_INPUTS.json",
+      "bytes": 1152,
+      "sha256": "4a7cb6d5180fd9c9ab5696a54a7f6321e69416026eefbd4092a4784a82b32a43",
+      "role": "evaluation"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 8087,
+      "sha256": "fc191dd2a97f6f861f5eaf6b804c9c8c03ad028547a3e21869a8df7f661c7522",
+      "role": "audit"
+    },
+    {
+      "path": "host.ps1",
+      "bytes": 6707,
+      "sha256": "f82dd1f57e731bffb4521b73e15398c1aad9e2b42110bb8bf09318f251e58771",
+      "role": "host"
+    },
+    {
+      "path": "prepare.py",
+      "bytes": 5328,
+      "sha256": "b71d94b5c1bbd8d60f6edb6024a1fffe9e5fa475ced2e005f7ef410dc5906ce1",
+      "role": "preparation"
+    }
+  ],
+  "measured_PnP_calls_before_freeze": 0,
+  "reference_pose_decodes_before_freeze": 0,
+  "complete_pairs": 200,
+  "all_prediction_evaluation_audit_implementation_included": true
+}

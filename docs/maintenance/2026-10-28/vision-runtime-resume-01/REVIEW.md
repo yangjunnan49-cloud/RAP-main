@@ -1,0 +1,7 @@
+# Concrete one-range completion proposal
+
+OVI1 is CLOSED failed at socket inactivity timeout,34603008bytes retained. New request is exactly the same pinned official wheel URL with Range bytes=34603008-43825961,9222954newbodybytes,one request/no redirects/retries. The partial path/SHA and expected206 Content-Range are fixed in REQUEST_PLAN.json. Preserve original failed dossier unchanged. Verify original partial hash first, append requested remainder into a new file here, and require complete43825962byte SHA256829717b6a95554f273e49e357cee3b3a2a26b6f4842fbc1bed2b45bdd8f87e0e. Reject HTTP200 or any other range/length before body consumption; no fallback full download.
+
+Only after the complete hash and wheel safety pass, install offline/no dependencies only into this new dossier's site-packages, then perform the same approved no-image classical API probe. Existing environments and failed attempt remain unchanged. Limits:120s transfer worker/180s enclosing request,180s install,60s probe,1200s complete scope/180s closure reserve,1GiB process and dossier, fresh12GiB/query<=2s. New socket inactivity limit30s is prospective for this one new range, not a rewrite of the prior15s failure. No alternative version/source, dependencies, GPU/model/features/solver/training.
+
+The earlier authorization allowed one request, already consumed, and did not authorize this new Range or target. Exact human approval is required before SOURCE_FREEZE and launch. This is a concrete local recovery plan, not an automatic continuation.

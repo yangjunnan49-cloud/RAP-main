@@ -1,0 +1,3 @@
+# Future integration — DESIGN_ONLY
+
+A future different evidence writer can reserve each known-size immutable payload before exclusive creation and retain all failed reservations, but must separately bind initial files, nonexclusive stdout/host/source/metadata writers, their enforceable bounds and exact stage/final whole-directory reconciliation. Do not treat payload correctness or fast metadata summation as proof of complete cap safety, timer behavior, archive speedup or repaired LCP0/HFIT0. No integrated writer/protocol/packing retry/model/metric executed here. Scientific progression remains blocked from an efficacy claim on the retired copied-congruent fixture; first audit independent physical observations/exposure/strong controls under a distinct prospective scope.

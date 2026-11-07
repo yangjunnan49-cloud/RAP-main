@@ -1,0 +1,3 @@
+# Supplementary fixed-input binding audit
+
+After independent census observes P default repeated gradient differences, causal attribution to a local VJP requires explicit proof that every normalized input is identical. Add one separately source-frozen CPU artifact audit: compare retained raw/projection inputs and cotangents against the exact archived V_full1/P_full1 arrays, every normalized QKV across repetitions/backends, and each Q/K/V difference count. No operator rerun or gate change. Include this audit under the same600s/4GiB/256MiB scientific limits and full supervision. The original runner/validator/freeze/output/seal remain unchanged; supplementary source hash is fixed before audit.

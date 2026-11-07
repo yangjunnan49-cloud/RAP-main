@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "scope": "FOUR_POINT_NATIVE_CPU_GPU_ABI_ONLY",
+  "torch": "2.7.0+cu128",
+  "cuda": "12.8",
+  "capability": [
+    8,
+    9
+  ],
+  "native_extension_path": "/root/autodl-tmp/rap-envs/rap-20261106/lib/python3.10/site-packages/pytorch3d/_C.cpython-310-x86_64-linux-gnu.so",
+  "native_extension_sha256": "64398968ef32bf2d35b77af3401f37043f034866ee1b38c7e24e19f6179ca37d",
+  "points": 4,
+  "operations": [
+    "sample_farthest_points",
+    "ball_query",
+    "knn_points"
+  ],
+  "model_instances": 0,
+  "dataset_reads": 0,
+  "checkpoint_loads": 0,
+  "training_calls": 0,
+  "wall_seconds": 0.3288456960581243
+}

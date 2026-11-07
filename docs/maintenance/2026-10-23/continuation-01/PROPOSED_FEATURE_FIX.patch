@@ -1,0 +1,11 @@
+--- a/dataset_process/extract_sample_features.py
++++ b/dataset_process/extract_sample_features.py
+@@ -147,7 +147,7 @@
+                 logger.warning(f"Feature extraction failed: {e}")
+                 # Return empty features on failure
+                 feature_dim = 32  # Default feature dimension for miniSpinNet
+-                keypoint_len = keypoints.shape[0] if keypoints.dim() > 1 else len(keypoints)
++                keypoint_len = keypoints.shape[0] if keypoints.ndim > 1 else len(keypoints)
+                 
+                 if points_is_tensor:
+                     empty_features = torch.zeros(keypoint_len, feature_dim, device=self.device)

@@ -1,0 +1,69 @@
+{
+ "validator": "validate_horizontal_comparison.py",
+ "checks": [
+  {
+   "name": "pdf_transcription",
+   "rows_checked": 9,
+   "pass": true,
+   "problems": [],
+   "environment": {
+    "python": "3.12.14",
+    "executable": "C:\\Users\\AAA\\AppData\\Roaming\\kimi-desktop\\daimon-share\\daimon\\runtime\\python\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0"
+   }
+  },
+  {
+   "name": "baseline_recompute",
+   "values_checked": 58,
+   "pass": true,
+   "problems": [],
+   "environment": {
+    "python": "3.10.20",
+    "executable": "/root/miniconda3/envs/rap-inference/bin/python",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+   }
+  },
+  {
+   "name": "table_arithmetic",
+   "values_checked": 36,
+   "pass": true,
+   "problems": [],
+   "environment": {
+    "python": "3.12.14",
+    "executable": "C:\\Users\\AAA\\AppData\\Roaming\\kimi-desktop\\daimon-share\\daimon\\runtime\\python\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0"
+   }
+  },
+  {
+   "name": "external_runs",
+   "status": "CHECKED",
+   "values_checked": 18,
+   "pass": true,
+   "problems": [],
+   "environment": {
+    "python": "3.10.20",
+    "executable": "/root/miniconda3/envs/rap-inference/bin/python",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+   }
+  },
+  {
+   "name": "write_scope",
+   "files_in_exclusive_dir": 156,
+   "unreadable_symlinks_skipped": [
+    "latest",
+    "latest",
+    "latest",
+    "latest"
+   ],
+   "pass": true,
+   "problems": [],
+   "environment": {
+    "python": "3.12.14",
+    "executable": "C:\\Users\\AAA\\AppData\\Roaming\\kimi-desktop\\daimon-share\\daimon\\runtime\\python\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0"
+   }
+  }
+ ],
+ "all_pass": true,
+ "complete": true
+}

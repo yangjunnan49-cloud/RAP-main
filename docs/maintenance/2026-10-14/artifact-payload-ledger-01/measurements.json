@@ -1,0 +1,166 @@
+{
+  "fixtures": [
+    {
+      "name": "exact_success",
+      "cap": 10,
+      "reserved": 7,
+      "actual_bytes": 7,
+      "payload_upper_bound": true,
+      "expected_upper_bound": true,
+      "events": [
+        {
+          "path": "a.bin",
+          "reservation": 4,
+          "reserved_after": 4,
+          "success": true
+        },
+        {
+          "path": "sub/b.bin",
+          "reservation": 3,
+          "reserved_after": 7,
+          "success": true
+        }
+      ]
+    },
+    {
+      "name": "short_write",
+      "cap": 10,
+      "reserved": 8,
+      "actual_bytes": 3,
+      "payload_upper_bound": true,
+      "expected_upper_bound": true,
+      "events": [
+        {
+          "path": "a.bin",
+          "reservation": 8,
+          "reserved_after": 8,
+          "success": false,
+          "error": "InjectedFailure"
+        }
+      ]
+    },
+    {
+      "name": "duplicate_refusal",
+      "cap": 10,
+      "reserved": 8,
+      "actual_bytes": 4,
+      "payload_upper_bound": true,
+      "expected_upper_bound": true,
+      "events": [
+        {
+          "path": "a.bin",
+          "reservation": 4,
+          "reserved_after": 4,
+          "success": true
+        },
+        {
+          "path": "a.bin",
+          "reservation": 4,
+          "reserved_after": 8,
+          "success": false,
+          "error": "FileExistsError"
+        }
+      ]
+    },
+    {
+      "name": "budget_refusal",
+      "cap": 5,
+      "reserved": 4,
+      "actual_bytes": 4,
+      "payload_upper_bound": true,
+      "expected_upper_bound": true,
+      "events": [
+        {
+          "path": "a.bin",
+          "reservation": 4,
+          "reserved_after": 4,
+          "success": true
+        }
+      ]
+    },
+    {
+      "name": "path_refusal",
+      "cap": 10,
+      "reserved": 0,
+      "actual_bytes": 0,
+      "payload_upper_bound": true,
+      "expected_upper_bound": true,
+      "events": []
+    },
+    {
+      "name": "two_retained_failures",
+      "cap": 20,
+      "reserved": 18,
+      "actual_bytes": 9,
+      "payload_upper_bound": true,
+      "expected_upper_bound": true,
+      "events": [
+        {
+          "path": "a.bin",
+          "reservation": 8,
+          "reserved_after": 8,
+          "success": false,
+          "error": "InjectedFailure"
+        },
+        {
+          "path": "sub/b.bin",
+          "reservation": 8,
+          "reserved_after": 16,
+          "success": false,
+          "error": "InjectedFailure"
+        },
+        {
+          "path": "c.bin",
+          "reservation": 2,
+          "reserved_after": 18,
+          "success": true
+        }
+      ]
+    },
+    {
+      "name": "untracked_external_negative",
+      "cap": 20,
+      "reserved": 4,
+      "actual_bytes": 16,
+      "payload_upper_bound": false,
+      "expected_upper_bound": false,
+      "events": [
+        {
+          "path": "a.bin",
+          "reservation": 4,
+          "reserved_after": 4,
+          "success": true
+        }
+      ]
+    }
+  ],
+  "source_corpus_files": 2166,
+  "source_corpus_bytes": 1459341665,
+  "repetitions": [
+    {
+      "rep": 1,
+      "complete_filesystem_census_bytes": 1459341665,
+      "complete_filesystem_census_seconds": 5.572094733011909,
+      "known_length_sum_bytes": 1459341665,
+      "known_length_sum_seconds": 6.265500269364566e-05
+    },
+    {
+      "rep": 2,
+      "complete_filesystem_census_bytes": 1459341665,
+      "complete_filesystem_census_seconds": 5.457519700998091,
+      "known_length_sum_bytes": 1459341665,
+      "known_length_sum_seconds": 5.304899241309613e-05
+    },
+    {
+      "rep": 3,
+      "complete_filesystem_census_bytes": 1459341665,
+      "complete_filesystem_census_seconds": 5.3133318799955305,
+      "known_length_sum_bytes": 1459341665,
+      "known_length_sum_seconds": 5.5836004321463406e-05
+    }
+  ],
+  "payload_only_not_whole_dossier_cap_proof": true,
+  "external_untracked_counterexample_detected": true,
+  "no_total_archive_speedup_claim": true,
+  "no_packing_codec_model_or_GT_execution": true
+}

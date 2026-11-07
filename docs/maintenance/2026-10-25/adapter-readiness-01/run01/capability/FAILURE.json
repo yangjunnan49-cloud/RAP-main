@@ -1,0 +1,4 @@
+{
+  "error": "PackageNotFoundError('einops')",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/e/githouse/RAP-main/docs/maintenance/2026-10-25/adapter-readiness-01/runtime/worker.py\", line 23, in <module>\n    packages[name]=importlib.metadata.version(name)\n  File \"/root/miniconda3/envs/rap-inference/lib/python3.10/importlib/metadata/__init__.py\", line 996, in version\n    return distribution(distribution_name).version\n  File \"/root/miniconda3/envs/rap-inference/lib/python3.10/importlib/metadata/__init__.py\", line 969, in distribution\n    return Distribution.from_name(distribution_name)\n  File \"/root/miniconda3/envs/rap-inference/lib/python3.10/importlib/metadata/__init__.py\", line 548, in from_name\n    raise PackageNotFoundError(name)\nimportlib.metadata.PackageNotFoundError: No package metadata was found for einops\n"
+}

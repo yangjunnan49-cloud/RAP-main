@@ -1,0 +1,1381 @@
+{
+  "id": "https://openalex.org/W4315778466",
+  "doi": "https://doi.org/10.1109/lra.2023.3236571",
+  "title": "KISS-ICP: In Defense of Point-to-Point ICP – Simple, Accurate, and Robust Registration If Done the Right Way",
+  "display_name": "KISS-ICP: In Defense of Point-to-Point ICP – Simple, Accurate, and Robust Registration If Done the Right Way",
+  "publication_year": 2023,
+  "publication_date": "2023-01-12",
+  "ids": {
+    "openalex": "https://openalex.org/W4315778466",
+    "doi": "https://doi.org/10.1109/lra.2023.3236571"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1109/lra.2023.3236571",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/lra.2023.3236571",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210169774",
+      "display_name": "IEEE Robotics and Automation Letters",
+      "issn_l": "2377-3766",
+      "issn": [
+        "2377-3766",
+        "2377-3774"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-2",
+        "ki-jl-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310319808",
+      "host_organization_name": "Institute of Electrical and Electronics Engineers",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319808"
+      ],
+      "host_organization_lineage_names": [
+        "Institute of Electrical and Electronics Engineers"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Robotics and Automation Letters",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "arxiv",
+    "crossref",
+    "datacite"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://arxiv.org/pdf/2209.15397",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5043685385",
+        "display_name": "Ignacio Vizzo",
+        "orcid": "https://orcid.org/0000-0001-5140-6359",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-5140-6359"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135140700",
+          "display_name": "University of Bonn",
+          "ror": "https://ror.org/041nas322",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ignacio Vizzo",
+      "raw_affiliation_strings": [
+        "University of Bonn, Bonn, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5140-6359",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Bonn, Bonn, Germany",
+          "institution_ids": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5016069215",
+        "display_name": "Tiziano Guadagnino",
+        "orcid": "https://orcid.org/0000-0002-7853-5510",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-7853-5510"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135140700",
+          "display_name": "University of Bonn",
+          "ror": "https://ror.org/041nas322",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tiziano Guadagnino",
+      "raw_affiliation_strings": [
+        "University of Bonn, Bonn, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-7853-5510",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Bonn, Bonn, Germany",
+          "institution_ids": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041356220",
+        "display_name": "Benedikt Mersch",
+        "orcid": "https://orcid.org/0000-0002-6937-2799",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6937-2799"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135140700",
+          "display_name": "University of Bonn",
+          "ror": "https://ror.org/041nas322",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Benedikt Mersch",
+      "raw_affiliation_strings": [
+        "University of Bonn, Bonn, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-6937-2799",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Bonn, Bonn, Germany",
+          "institution_ids": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5010951584",
+        "display_name": "Louis Wiesmann",
+        "orcid": "https://orcid.org/0000-0003-0985-7433",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0985-7433"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135140700",
+          "display_name": "University of Bonn",
+          "ror": "https://ror.org/041nas322",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Louis Wiesmann",
+      "raw_affiliation_strings": [
+        "University of Bonn, Bonn, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-0985-7433",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Bonn, Bonn, Germany",
+          "institution_ids": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068364473",
+        "display_name": "Jens Behley",
+        "orcid": "https://orcid.org/0000-0001-6483-0319",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-6483-0319"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135140700",
+          "display_name": "University of Bonn",
+          "ror": "https://ror.org/041nas322",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jens Behley",
+      "raw_affiliation_strings": [
+        "University of Bonn, Bonn, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-6483-0319",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Bonn, Bonn, Germany",
+          "institution_ids": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5011166267",
+        "display_name": "Cyrill Stachniss",
+        "orcid": "https://orcid.org/0000-0003-1173-6972",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1173-6972"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135140700",
+          "display_name": "University of Bonn",
+          "ror": "https://ror.org/041nas322",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135140700"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I40120149",
+          "display_name": "University of Oxford",
+          "ror": "https://ror.org/052gg0110",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210148941",
+          "display_name": "IU International University of Applied Sciences",
+          "ror": "https://ror.org/04fdat027",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210148941"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4387154616",
+          "display_name": "Lamarr Institute for Machine Learning and Artificial Intelligence",
+          "ror": "https://ror.org/04s11ea33",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I135140700",
+            "https://openalex.org/I200332995",
+            "https://openalex.org/I4210098062",
+            "https://openalex.org/I4210144576",
+            "https://openalex.org/I4387154616",
+            "https://openalex.org/I4923324"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Cyrill Stachniss",
+      "raw_affiliation_strings": [
+        "University of Bonn, Bonn, Germany",
+        "Department of Engineering Science, University of Oxford, Oxford, United Kingdom",
+        "Lamarr Institute for Machine Learning and Artificial Intelligence, IU International University of Applied Sciences, Berlin, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-1173-6972",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Bonn, Bonn, Germany",
+          "institution_ids": [
+            "https://openalex.org/I135140700"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Engineering Science, University of Oxford, Oxford, United Kingdom",
+          "institution_ids": [
+            "https://openalex.org/I40120149"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Lamarr Institute for Machine Learning and Artificial Intelligence, IU International University of Applied Sciences, Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210148941",
+            "https://openalex.org/I4387154616"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2345,
+    "currency": "USD",
+    "value_usd": 2345
+  },
+  "apc_paid": null,
+  "fwci": 291.7645,
+  "has_fulltext": false,
+  "cited_by_count": 514,
+  "citation_normalized_percentile": {
+    "value": 0.99996918,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "8",
+    "issue": "2",
+    "first_page": "1029",
+    "last_page": "1036"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10191",
+    "display_name": "Robotics and Sensor-Based Localization",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2202",
+      "display_name": "Aerospace Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10191",
+      "display_name": "Robotics and Sensor-Based Localization",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11211",
+      "display_name": "3D Surveying and Cultural Heritage",
+      "score": 0.9986000061035156,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1907",
+        "display_name": "Geology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10586",
+      "display_name": "Robotic Path Planning Algorithms",
+      "score": 0.9959999918937683,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/odometry",
+      "display_name": "Odometry",
+      "score": 0.8569050431251526
+    },
+    {
+      "id": "https://openalex.org/keywords/point-cloud",
+      "display_name": "Point cloud",
+      "score": 0.7448834776878357
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.7228901386260986
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.607609748840332
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-vision",
+      "display_name": "Computer vision",
+      "score": 0.5985718369483948
+    },
+    {
+      "id": "https://openalex.org/keywords/lidar",
+      "display_name": "Lidar",
+      "score": 0.5247167348861694
+    },
+    {
+      "id": "https://openalex.org/keywords/inertial-measurement-unit",
+      "display_name": "Inertial measurement unit",
+      "score": 0.5172424912452698
+    },
+    {
+      "id": "https://openalex.org/keywords/pose",
+      "display_name": "Pose",
+      "score": 0.5061079859733582
+    },
+    {
+      "id": "https://openalex.org/keywords/visual-odometry",
+      "display_name": "Visual odometry",
+      "score": 0.4893207252025604
+    },
+    {
+      "id": "https://openalex.org/keywords/mobile-robot",
+      "display_name": "Mobile robot",
+      "score": 0.30058056116104126
+    },
+    {
+      "id": "https://openalex.org/keywords/robot",
+      "display_name": "Robot",
+      "score": 0.29493752121925354
+    },
+    {
+      "id": "https://openalex.org/keywords/remote-sensing",
+      "display_name": "Remote sensing",
+      "score": 0.19413045048713684
+    },
+    {
+      "id": "https://openalex.org/keywords/geography",
+      "display_name": "Geography",
+      "score": 0.12154340744018555
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C49441653",
+      "wikidata": "https://www.wikidata.org/wiki/Q2014717",
+      "display_name": "Odometry",
+      "level": 4,
+      "score": 0.8569050431251526
+    },
+    {
+      "id": "https://openalex.org/C131979681",
+      "wikidata": "https://www.wikidata.org/wiki/Q1899648",
+      "display_name": "Point cloud",
+      "level": 2,
+      "score": 0.7448834776878357
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.7228901386260986
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.607609748840332
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.5985718369483948
+    },
+    {
+      "id": "https://openalex.org/C51399673",
+      "wikidata": "https://www.wikidata.org/wiki/Q504027",
+      "display_name": "Lidar",
+      "level": 2,
+      "score": 0.5247167348861694
+    },
+    {
+      "id": "https://openalex.org/C79061980",
+      "wikidata": "https://www.wikidata.org/wiki/Q941680",
+      "display_name": "Inertial measurement unit",
+      "level": 2,
+      "score": 0.5172424912452698
+    },
+    {
+      "id": "https://openalex.org/C52102323",
+      "wikidata": "https://www.wikidata.org/wiki/Q1671968",
+      "display_name": "Pose",
+      "level": 2,
+      "score": 0.5061079859733582
+    },
+    {
+      "id": "https://openalex.org/C5799516",
+      "wikidata": "https://www.wikidata.org/wiki/Q4110915",
+      "display_name": "Visual odometry",
+      "level": 3,
+      "score": 0.4893207252025604
+    },
+    {
+      "id": "https://openalex.org/C19966478",
+      "wikidata": "https://www.wikidata.org/wiki/Q4810574",
+      "display_name": "Mobile robot",
+      "level": 3,
+      "score": 0.30058056116104126
+    },
+    {
+      "id": "https://openalex.org/C90509273",
+      "wikidata": "https://www.wikidata.org/wiki/Q11012",
+      "display_name": "Robot",
+      "level": 2,
+      "score": 0.29493752121925354
+    },
+    {
+      "id": "https://openalex.org/C62649853",
+      "wikidata": "https://www.wikidata.org/wiki/Q199687",
+      "display_name": "Remote sensing",
+      "level": 1,
+      "score": 0.19413045048713684
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.12154340744018555
+    }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.1109/lra.2023.3236571",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/lra.2023.3236571",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210169774",
+        "display_name": "IEEE Robotics and Automation Letters",
+        "issn_l": "2377-3766",
+        "issn": [
+          "2377-3766",
+          "2377-3774"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Robotics and Automation Letters",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:arXiv.org:2209.15397",
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2209.15397",
+      "pdf_url": "https://arxiv.org/pdf/2209.15397",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    {
+      "id": "doi:10.48550/arxiv.2209.15397",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.48550/arxiv.2209.15397",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": "article-journal"
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:oai:arXiv.org:2209.15397",
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/2209.15397",
+    "pdf_url": "https://arxiv.org/pdf/2209.15397",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": "2331-8422",
+      "issn": [
+        "2331-8422"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "text"
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/15",
+      "score": 0.4000000059604645,
+      "display_name": "Life in Land"
+    }
+  ],
+  "x_sdgs": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320320879",
+      "display_name": "Deutsche Forschungsgemeinschaft",
+      "ror": "https://ror.org/018mejw64"
+    },
+    {
+      "id": "https://openalex.org/F4320324161",
+      "display_name": "Korea Advanced Institute of Science and Technology",
+      "ror": "https://ror.org/05apxxy63"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 39,
+  "referenced_works": [
+    "https://openalex.org/W1883517952",
+    "https://openalex.org/W1987648924",
+    "https://openalex.org/W2049981393",
+    "https://openalex.org/W2071906076",
+    "https://openalex.org/W2091657244",
+    "https://openalex.org/W2115579991",
+    "https://openalex.org/W2119851068",
+    "https://openalex.org/W2135209101",
+    "https://openalex.org/W2144491133",
+    "https://openalex.org/W2150066425",
+    "https://openalex.org/W2152864241",
+    "https://openalex.org/W2165558283",
+    "https://openalex.org/W2296228853",
+    "https://openalex.org/W2335829695",
+    "https://openalex.org/W2336416123",
+    "https://openalex.org/W2617010780",
+    "https://openalex.org/W2784112303",
+    "https://openalex.org/W2786036844",
+    "https://openalex.org/W2788154994",
+    "https://openalex.org/W2805521962",
+    "https://openalex.org/W2909908358",
+    "https://openalex.org/W2963311282",
+    "https://openalex.org/W2963600667",
+    "https://openalex.org/W2990284439",
+    "https://openalex.org/W3003991701",
+    "https://openalex.org/W3022905800",
+    "https://openalex.org/W3104766777",
+    "https://openalex.org/W3129245057",
+    "https://openalex.org/W3130736756",
+    "https://openalex.org/W3132401233",
+    "https://openalex.org/W3161855852",
+    "https://openalex.org/W3177946384",
+    "https://openalex.org/W3203066970",
+    "https://openalex.org/W3206776160",
+    "https://openalex.org/W3207826836",
+    "https://openalex.org/W4205574455",
+    "https://openalex.org/W4210974115",
+    "https://openalex.org/W4285257801",
+    "https://openalex.org/W6747827861"
+  ],
+  "related_works": [
+    "https://openalex.org/W2979950214",
+    "https://openalex.org/W87609089",
+    "https://openalex.org/W3024737167",
+    "https://openalex.org/W2414561716",
+    "https://openalex.org/W2998370018",
+    "https://openalex.org/W3161199934",
+    "https://openalex.org/W2303855011",
+    "https://openalex.org/W3125052734",
+    "https://openalex.org/W3123982513",
+    "https://openalex.org/W2312326526"
+  ],
+  "abstract_inverted_index": {
+    "Robust": [
+      0
+    ],
+    "and": [
+      1,
+      48,
+      65,
+      102,
+      169,
+      193,
+      210
+    ],
+    "accurate": [
+      2
+    ],
+    "pose": [
+      3
+    ],
+    "estimation": [
+      4,
+      34,
+      78
+    ],
+    "of": [
+      5,
+      16,
+      46,
+      181,
+      190
+    ],
+    "a": [
+      6,
+      44,
+      56,
+      91,
+      94,
+      103,
+      110,
+      114,
+      129,
+      178,
+      187
+    ],
+    "robotic": [
+      7,
+      18
+    ],
+    "platform,": [
+      8
+    ],
+    "so-called": [
+      9
+    ],
+    "sensor-based": [
+      10
+    ],
+    "odometry,": [
+      11
+    ],
+    "is": [
+      12,
+      61,
+      211
+    ],
+    "an": [
+      13
+    ],
+    "essential": [
+      14
+    ],
+    "part": [
+      15
+    ],
+    "many": [
+      17,
+      21
+    ],
+    "applications.": [
+      19
+    ],
+    "While": [
+      20
+    ],
+    "sensor": [
+      22,
+      203
+    ],
+    "odometry": [
+      23,
+      77
+    ],
+    "systems": [
+      24
+    ],
+    "made": [
+      25
+    ],
+    "progress": [
+      26
+    ],
+    "by": [
+      27
+    ],
+    "adding": [
+      28
+    ],
+    "more": [
+      29
+    ],
+    "complexity": [
+      30
+    ],
+    "to": [
+      31,
+      63,
+      125,
+      128
+    ],
+    "the": [
+      32,
+      39,
+      51,
+      149,
+      202
+    ],
+    "ego-motion": [
+      33
+    ],
+    "process,": [
+      35
+    ],
+    "we": [
+      36,
+      54
+    ],
+    "move": [
+      37
+    ],
+    "in": [
+      38,
+      118,
+      206
+    ],
+    "opposite": [
+      40
+    ],
+    "direction.": [
+      41
+    ],
+    "By": [
+      42
+    ],
+    "removing": [
+      43
+    ],
+    "majority": [
+      45
+    ],
+    "parts": [
+      47
+    ],
+    "focusing": [
+      49
+    ],
+    "on": [
+      50,
+      81,
+      136,
+      172
+    ],
+    "core": [
+      52
+    ],
+    "elements,": [
+      53
+    ],
+    "obtain": [
+      55
+    ],
+    "surprisingly": [
+      57
+    ],
+    "effective": [
+      58
+    ],
+    "system": [
+      59,
+      111,
+      134,
+      198
+    ],
+    "that": [
+      60,
+      117
+    ],
+    "simple": [
+      62,
+      95
+    ],
+    "realize": [
+      64
+    ],
+    "can": [
+      66
+    ],
+    "operate": [
+      67
+    ],
+    "under": [
+      68,
+      141
+    ],
+    "various": [
+      69,
+      142
+    ],
+    "environmental": [
+      70
+    ],
+    "conditions": [
+      71,
+      144
+    ],
+    "using": [
+      72,
+      145,
+      148
+    ],
+    "different": [
+      73,
+      146,
+      191
+    ],
+    "LiDAR": [
+      74,
+      131,
+      183
+    ],
+    "sensors.": [
+      75
+    ],
+    "Our": [
+      76,
+      133,
+      196
+    ],
+    "approach": [
+      79
+    ],
+    "relies": [
+      80
+    ],
+    "point-to-point": [
+      82
+    ],
+    "ICP": [
+      83
+    ],
+    "combined": [
+      84
+    ],
+    "with": [
+      85,
+      112,
+      138
+    ],
+    "adaptive": [
+      86
+    ],
+    "thresholding": [
+      87
+    ],
+    "for": [
+      88,
+      213
+    ],
+    "correspondence": [
+      89
+    ],
+    "matching,": [
+      90
+    ],
+    "robust": [
+      92
+    ],
+    "kernel,": [
+      93
+    ],
+    "but": [
+      96
+    ],
+    "widely": [
+      97
+    ],
+    "applicable": [
+      98
+    ],
+    "motion": [
+      99
+    ],
+    "compensation": [
+      100
+    ],
+    "approach,": [
+      101
+    ],
+    "point": [
+      104,
+      174
+    ],
+    "cloud": [
+      105
+    ],
+    "subsampling": [
+      106
+    ],
+    "strategy.": [
+      107
+    ],
+    "This": [
+      108
+    ],
+    "yields": [
+      109
+    ],
+    "only": [
+      113
+    ],
+    "few": [
+      115
+    ],
+    "parameters": [
+      116
+    ],
+    "most": [
+      119
+    ],
+    "cases": [
+      120
+    ],
+    "do": [
+      121,
+      163
+    ],
+    "not": [
+      122,
+      164
+    ],
+    "even": [
+      123
+    ],
+    "have": [
+      124
+    ],
+    "be": [
+      126
+    ],
+    "tuned": [
+      127
+    ],
+    "specific": [
+      130
+    ],
+    "sensor.": [
+      132
+    ],
+    "performs": [
+      135
+    ],
+    "par": [
+      137
+    ],
+    "state-of-the-art": [
+      139
+    ],
+    "methods": [
+      140
+    ],
+    "operating": [
+      143,
+      194
+    ],
+    "platforms": [
+      147
+    ],
+    "same": [
+      150
+    ],
+    "parameters:": [
+      151
+    ],
+    "automotive": [
+      152
+    ],
+    "platforms,": [
+      153
+    ],
+    "UAV-based": [
+      154
+    ],
+    "operation,": [
+      155
+    ],
+    "vehicles": [
+      156
+    ],
+    "like": [
+      157
+    ],
+    "segways,": [
+      158
+    ],
+    "or": [
+      159
+    ],
+    "handheld": [
+      160
+    ],
+    "LiDARs.": [
+      161
+    ],
+    "We": [
+      162
+    ],
+    "require": [
+      165
+    ],
+    "integrating": [
+      166
+    ],
+    "IMU": [
+      167
+    ],
+    "data": [
+      168
+    ],
+    "solely": [
+      170
+    ],
+    "rely": [
+      171
+    ],
+    "3D": [
+      173,
+      182
+    ],
+    "clouds": [
+      175
+    ],
+    "obtained": [
+      176
+    ],
+    "from": [
+      177
+    ],
+    "wide": [
+      179
+    ],
+    "range": [
+      180
+    ],
+    "sensors,": [
+      184
+    ],
+    "thus,": [
+      185
+    ],
+    "enabling": [
+      186
+    ],
+    "broad": [
+      188
+    ],
+    "spectrum": [
+      189
+    ],
+    "applications": [
+      192
+    ],
+    "conditions.": [
+      195
+    ],
+    "open-source": [
+      197
+    ],
+    "operates": [
+      199
+    ],
+    "faster": [
+      200
+    ],
+    "than": [
+      201
+    ],
+    "frame": [
+      204
+    ],
+    "rate": [
+      205
+    ],
+    "all": [
+      207
+    ],
+    "presented": [
+      208
+    ],
+    "datasets": [
+      209
+    ],
+    "designed": [
+      212
+    ],
+    "real-world": [
+      214
+    ],
+    "scenarios.": [
+      215
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 126
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 202
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 139
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 47
+    }
+  ],
+  "updated_date": "2026-09-29T14:09:16.559479",
+  "created_date": "2025-10-10T00:00:00"
+}

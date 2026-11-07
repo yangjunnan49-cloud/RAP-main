@@ -1,0 +1,85 @@
+{
+ "method_label": "KISS-SLAM 0.0.2 (KISS-ICP 1.3.0 odometry + map_closures 2.1.0 + GTSAM PGO), unmodified default config",
+ "short_label": "KISS-SLAM (same-data run, default cfg)",
+ "provenance": {
+  "package": "kiss-slam 0.0.2 PyPI wheel",
+  "kiss_icp": "1.3.0",
+  "python": "3.12.3",
+  "venv": "/root/venvs/kiss-slam-hc1",
+  "pip_freeze": "env/pip_freeze.txt",
+  "config_sha256": "a17813d28ee273739e0e685913025b3b1091f09229736a2c2cdaf1c566d19718",
+  "config": "unmodified defaults (config/default_config.yaml)",
+  "dataloader": "kitti (applies intrinsic vertical-angle correction, upstream default)",
+  "closures": {
+   "00": 7,
+   "05": 5,
+   "06": 4
+  },
+  "wall_seconds": {
+   "00": 173.14,
+   "05": 109.39,
+   "06": 49.64
+  },
+  "peak_rss_bytes": {
+   "00": 1091568,
+   "05": 1073900,
+   "06": 1066164
+  },
+  "device": "CPU-only",
+  "run_host": "WSL Ubuntu-24.04"
+ },
+ "metric_code": "eval_paper_metrics.evaluate_pair (core-baseline-v1 code path)",
+ "runs": [
+  {
+   "sequences": {
+    "00": {
+     "pose_file": "poses/kitti00_poses_kitti.txt",
+     "pose_file_sha256": "fb074339b3b43df376344ba22da8c228795230e9a7e23bdaa69d6f145d6f2692",
+     "pose_frame": "camera",
+     "n_frames": 4541,
+     "ape_unaligned_rmse": 6.116887859198548,
+     "ape_aligned_rmse": 0.9168480377924235,
+     "kitti_ter_pct": 0.5752716860258087,
+     "kitti_rer_deg100m": 0.15641889567886824,
+     "kitti_segments": 3283,
+     "kitti_ter_pct_lidar": 0.5751618176287847,
+     "kitti_rer_deg100m_lidar": 0.1566735409952464,
+     "kitti_segments_lidar": 3283
+    },
+    "05": {
+     "pose_file": "poses/kitti05_poses_kitti.txt",
+     "pose_file_sha256": "c8aca20f26008c6a155b76b99ed31dbc400584b614f834c683784f49fb08b380",
+     "pose_frame": "camera",
+     "n_frames": 2761,
+     "ape_unaligned_rmse": 1.0611999076865786,
+     "ape_aligned_rmse": 0.6613788883163957,
+     "kitti_ter_pct": 0.5172463030732978,
+     "kitti_rer_deg100m": 0.21329415703824614,
+     "kitti_segments": 1806,
+     "kitti_ter_pct_lidar": 0.5168975455571432,
+     "kitti_rer_deg100m_lidar": 0.21334377331495802,
+     "kitti_segments_lidar": 1806
+    },
+    "06": {
+     "pose_file": "poses/kitti06_poses_kitti.txt",
+     "pose_file_sha256": "8ffeed2231f1b38bc0c777cfdf4670c989010c17b958028420d6fab5f944f45b",
+     "pose_frame": "camera",
+     "n_frames": 1101,
+     "ape_unaligned_rmse": 1.358459988152196,
+     "ape_aligned_rmse": 0.3280572587106492,
+     "kitti_ter_pct": 0.32549245695676,
+     "kitti_rer_deg100m": 0.0718655848809067,
+     "kitti_segments": 570,
+     "kitti_ter_pct_lidar": 0.32537750373052576,
+     "kitti_rer_deg100m_lidar": 0.0717628541160055,
+     "kitti_segments_lidar": 570
+    }
+   },
+   "gt_files": {
+    "00": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/poses/00.txt",
+    "05": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/poses/05.txt",
+    "06": "/mnt/e/githouse/Datasets/data_odometry_velodyne/dataset/poses/06.txt"
+   }
+  }
+ ]
+}

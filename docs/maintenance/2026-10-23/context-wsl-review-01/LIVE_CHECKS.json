@@ -1,0 +1,95 @@
+{
+  "started_utc": "2026-10-23T01:24:15.5384074+00:00",
+  "scope": "Infrastructure verification and documentary review only",
+  "registration": [
+    {
+      "PSChildName": "{b747c46b-d03b-4b14-8c3e-186c6a17f4ee}",
+      "DistributionName": "Ubuntu-24.04",
+      "BasePath": "E:\\WSL\\Ubuntu-24.04",
+      "Version": 2,
+      "DefaultUid": 1000,
+      "VhdFileName": "ext4.vhdx",
+      "Flags": 15
+    }
+  ],
+  "initial_listing": "  NAME            STATE           VERSION\r\n* Ubuntu-24.04    Stopped         2\r\n",
+  "initial_state": "Stopped",
+  "storage": [
+    {
+      "FullName": "E:\\WSL\\Ubuntu-24.04\\ext4.vhdx",
+      "Length": 44881149952,
+      "Attributes": 32,
+      "LinkType": null,
+      "Target": null,
+      "LastWriteTimeUtc": "2026-10-22T02:00:31.5707327Z"
+    },
+    {
+      "FullName": "E:\\WSL-Backup\\Ubuntu-24.04-before-move-20261022.vhdx",
+      "Length": 44881149952,
+      "Attributes": 32,
+      "LinkType": null,
+      "Target": null,
+      "LastWriteTimeUtc": "2026-10-22T01:47:21.053799Z"
+    },
+    {
+      "FullName": "C:\\Users\\AAA\\AppData\\Local\\wsl\\{b747c46b-d03b-4b14-8c3e-186c6a17f4ee}",
+      "Length": null,
+      "Attributes": 1040,
+      "LinkType": "Junction",
+      "Target": "E:\\WSL\\Ubuntu-24.04",
+      "LastWriteTimeUtc": "2026-10-22T01:58:03.5040119Z"
+    }
+  ],
+  "active_file_id": "File ID is 0x0000000000000000000400000002b546",
+  "legacy_file_id": "File ID is 0x0000000000000000000400000002b546",
+  "same_file_id": true,
+  "wslconfig": {
+    "current_sha256": "8FD36EE0789EBE92BB06729A08FAD9C1779C8CC3EAEF8310905E5B7EBC8BB4DC",
+    "migration_snapshot_sha256": "8FD36EE0789EBE92BB06729A08FAD9C1779C8CC3EAEF8310905E5B7EBC8BB4DC",
+    "unchanged": true
+  },
+  "environment_probe_sha256": "C21866E96EBF0BDC8FE57587C2DC0E854DFC88F0DACB3C94E07428C3D3A58D9B",
+  "default_user": {
+    "home": "/home/aaa",
+    "uid": 1000,
+    "user": "aaa"
+  },
+  "environment_count": 4,
+  "environment_metadata_matches_migration": true,
+  "selected_files_match_migration": true,
+  "home_directories_match_migration": true,
+  "root_mount": "/dev/sdd ext4   /",
+  "gpu_visibility": "NVIDIA GeForce RTX 5070, 610.62, 12227 MiB",
+  "final_listing": "  NAME            STATE           VERSION\r\n* Ubuntu-24.04    Stopped         2\r\n",
+  "restored_stopped": true,
+  "backup": {
+    "path": "E:\\WSL-Backup\\Ubuntu-24.04-before-move-20261022.vhdx",
+    "bytes": 44881149952,
+    "sha256": "D911FD7AF4B748FF4B3E52422494BA4EF0DD99BADCE36028A2328FB0BF1878C5",
+    "expected_sha256": "D911FD7AF4B748FF4B3E52422494BA4EF0DD99BADCE36028A2328FB0BF1878C5",
+    "bytes_and_sha256_match": true,
+    "hash_elapsed_seconds": 36.1126302
+  },
+  "disk_space": [
+    {
+      "Name": "C",
+      "Used": 159546998784,
+      "Free": 54991646720
+    },
+    {
+      "Name": "E",
+      "Used": 405287022592,
+      "Free": 538431373312
+    }
+  ],
+  "boot_with_junction_passed": true,
+  "direct_boot_without_junction_tested": false,
+  "active_vhd_hash_compared_to_preboot_hash": false,
+  "model_loads": 0,
+  "research_runs": 0,
+  "solver_runs": 0,
+  "native_python_import_tests_repeated": false,
+  "configuration_or_junction_changes": 0,
+  "passed": true,
+  "finished_utc": "2026-10-23T01:25:02.4496201+00:00"
+}

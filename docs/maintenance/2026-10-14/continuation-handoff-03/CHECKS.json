@@ -1,0 +1,665 @@
+{
+  "passed": true,
+  "scope": "stored identity/count/resource recount only",
+  "new_scopes": 7,
+  "children": 23,
+  "success": 22,
+  "retained_time_cap_failure": 1,
+  "scientific_child_seconds_including_imports": 2581.5711079560424,
+  "peak_RSS_bytes": 2158727168,
+  "GPU_allocated": 1051709440,
+  "GPU_reserved": 1163919360,
+  "no_aggregate_old_budget_change": true,
+  "native_backwards": 0,
+  "actual_CPU_head_backwards": 12,
+  "new_retained_fits": 0,
+  "old_HFIT_retained_updates_still40": true,
+  "no_new_heldout_noise_or_system_result": true,
+  "scopes": [
+    {
+      "scope": "LPC0",
+      "path": "2026-10-13/shadow-prefix-storage-codec-01",
+      "delivery_entries": 127,
+      "freeze_entries": 1907,
+      "status": {
+        "status": "VALIDATED_AVAILABLE_PREFIX_LOSSLESS_REPRESENTATION_COMPLETE",
+        "decision": "AVAILABLE_PREFIX_BIT_IDENTITY_AND_LOSSLESS_REPRESENTATION_VALID",
+        "original_HFIT": "INCOMPLETE_ARTIFACT_CAP",
+        "future_bank_protocol_created": false,
+        "scientific_retry": false
+      },
+      "receipts": [
+        {
+          "scope": "LPC0",
+          "stage": "encode",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 114.35515353600204,
+            "peak_RSS_bytes": 123146240,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 267296669,
+            "imports_included": true,
+            "optimizer_calls": 0,
+            "neural_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T14:56:33.2975918Z",
+            "wall_seconds": 121.8981202,
+            "host_memory_observations": 157,
+            "minimum_observed_headroom_bytes": 72383455232.0
+          }
+        },
+        {
+          "scope": "LPC0",
+          "stage": "freeze",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 29.655699477007147,
+            "peak_RSS_bytes": 20094976,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 387863,
+            "imports_included": true,
+            "optimizer_calls": 0,
+            "neural_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T14:53:16.7055819Z",
+            "wall_seconds": 34.311299,
+            "host_memory_observations": 44,
+            "minimum_observed_headroom_bytes": 72535613440.0
+          }
+        },
+        {
+          "scope": "LPC0",
+          "stage": "validate",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 79.50578872200276,
+            "peak_RSS_bytes": 90013696,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 267347756,
+            "imports_included": true,
+            "optimizer_calls": 0,
+            "neural_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T14:58:20.3089892Z",
+            "wall_seconds": 86.0687671,
+            "host_memory_observations": 111,
+            "minimum_observed_headroom_bytes": 72042037248.0
+          }
+        }
+      ]
+    },
+    {
+      "scope": "LCP0",
+      "path": "2026-10-13/shadow-evidence-archive-01",
+      "delivery_entries": 2156,
+      "freeze_entries": 2037,
+      "status": {
+        "status": "AUDITED_AVAILABLE_EVIDENCE_ARCHIVE_STOP_AT_TIME_CAP",
+        "decision": "ZIP_SERIALIZATION_VALID_PARTIAL_PACK_UNSEALED_NO_COMPLETE_RECONSTRUCTION",
+        "archive_complete": false,
+        "scientific_model_execution": false,
+        "original_HFIT": "INCOMPLETE_ARTIFACT_CAP",
+        "LCP0": "INCOMPLETE_TIME_CAP",
+        "retry": false
+      },
+      "receipts": [
+        {
+          "scope": "LCP0",
+          "stage": "bind",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 19.182877323008142,
+            "peak_RSS_bytes": 21524480,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 420463,
+            "imports_included": true,
+            "optimizer_calls": 0,
+            "neural_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T15:06:06.7101681Z",
+            "wall_seconds": 21.7865028,
+            "host_memory_observations": 28,
+            "minimum_observed_headroom_bytes": 72566624256.0
+          }
+        },
+        {
+          "scope": "LCP0",
+          "stage": "compatibility",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 161.8468471320084,
+            "peak_RSS_bytes": 580239360,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 519224,
+            "imports_included": true,
+            "optimizer_calls": 0,
+            "neural_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T15:09:47.1089850Z",
+            "wall_seconds": 173.4651827,
+            "host_memory_observations": 223,
+            "minimum_observed_headroom_bytes": 71361921024.0
+          }
+        },
+        {
+          "scope": "LCP0",
+          "stage": "freeze",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 21.181251265996252,
+            "peak_RSS_bytes": 21585920,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 410110,
+            "imports_included": true,
+            "optimizer_calls": 0,
+            "neural_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T15:03:43.7775989Z",
+            "wall_seconds": 23.4096984,
+            "host_memory_observations": 30,
+            "minimum_observed_headroom_bytes": 72536494080.0
+          }
+        },
+        {
+          "scope": "LCP0",
+          "stage": "pack",
+          "child": {
+            "success": false,
+            "error": "TimeoutError('LCP0 aggregate attempted-child time cap')",
+            "full_resource_capture": true,
+            "wall_seconds": 1602.0098053339898,
+            "peak_RSS_bytes": 580435968,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 1458853671,
+            "imports_included": true,
+            "optimizer_calls": 0,
+            "neural_calls": 0
+          },
+          "Windows": {
+            "exit_code": 1,
+            "utc_end": "2026-10-13T15:39:35.2763400Z",
+            "wall_seconds": 1717.8052158,
+            "host_memory_observations": 2215,
+            "minimum_observed_headroom_bytes": 67182211072.0
+          }
+        }
+      ]
+    },
+    {
+      "scope": "FCE0",
+      "path": "2026-10-13/frozen-context-extraction-01",
+      "delivery_entries": 67,
+      "freeze_entries": 1316,
+      "status": {
+        "status": "VALIDATED_FROZEN_FEATURE_EXTRACTION_AND_CONTEXT_ISOLATION_COMPLETE",
+        "decision": "FROZEN_FEATURE_EXTRACTION_AND_CONTEXT_ISOLATION_BINDINGS_VALID",
+        "original_HFIT": "INCOMPLETE_ARTIFACT_CAP",
+        "original_native_backwards_repaired": false,
+        "real_training_admitted": false
+      },
+      "receipts": [
+        {
+          "scope": "FCE0",
+          "stage": "extract",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 35.13286205299664,
+            "peak_RSS_bytes": 2158727168,
+            "peak_GPU_allocated_bytes": 1051709440,
+            "peak_GPU_reserved_bytes": 1163919360,
+            "artifact_bytes": 199562601,
+            "imports_included": true,
+            "optimizer_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T15:18:36.4804080Z",
+            "wall_seconds": 39.5956994,
+            "host_memory_observations": 51,
+            "minimum_observed_headroom_bytes": 67177623552.0
+          }
+        },
+        {
+          "scope": "FCE0",
+          "stage": "freeze",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 10.653645730999415,
+            "peak_RSS_bytes": 23613440,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 304270,
+            "imports_included": true,
+            "optimizer_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T15:16:45.5795252Z",
+            "wall_seconds": 12.5069051,
+            "host_memory_observations": 16,
+            "minimum_observed_headroom_bytes": 72426954752.0
+          }
+        },
+        {
+          "scope": "FCE0",
+          "stage": "validate",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 23.210272548996727,
+            "peak_RSS_bytes": 132534272,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 199646384,
+            "imports_included": true,
+            "optimizer_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T15:20:52.5782329Z",
+            "wall_seconds": 25.6954083,
+            "host_memory_observations": 33,
+            "minimum_observed_headroom_bytes": 69756600320.0
+          }
+        }
+      ]
+    },
+    {
+      "scope": "FHR0",
+      "path": "2026-10-13/frozen-metric-head-derivatives-01",
+      "delivery_entries": 280,
+      "freeze_entries": 1386,
+      "status": {
+        "status": "VALIDATED_FROZEN_METRIC_HEAD_DERIVATIVES_AND_ACTIVE_COLUMNS_COMPLETE",
+        "decision": "FROZEN_METRIC_SE3_HEAD_DERIVATIVES_AND_ACTIVE_COLUMNS_VALID",
+        "native_backwards_repaired": false,
+        "head_fitting_executed": false,
+        "real_metric_headroom": false,
+        "original_HFIT": "INCOMPLETE_ARTIFACT_CAP"
+      },
+      "receipts": [
+        {
+          "scope": "FHR0",
+          "stage": "freeze",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 12.300627194010303,
+            "peak_RSS_bytes": 23367680,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 286396,
+            "imports_included": true,
+            "optimizer_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T15:28:57.7750727Z",
+            "wall_seconds": 13.9972525,
+            "host_memory_observations": 18,
+            "minimum_observed_headroom_bytes": 73505333248.0
+          }
+        },
+        {
+          "scope": "FHR0",
+          "stage": "probe",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 29.96251487301197,
+            "peak_RSS_bytes": 541675520,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 2202244,
+            "imports_included": true,
+            "optimizer_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T15:31:22.2041183Z",
+            "wall_seconds": 33.4066214,
+            "host_memory_observations": 43,
+            "minimum_observed_headroom_bytes": 72280858624.0
+          }
+        },
+        {
+          "scope": "FHR0",
+          "stage": "validate",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 28.45156696900085,
+            "peak_RSS_bytes": 100286464,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 2239728,
+            "imports_included": true,
+            "optimizer_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T15:33:24.4231433Z",
+            "wall_seconds": 31.9330857,
+            "host_memory_observations": 41,
+            "minimum_observed_headroom_bytes": 73380921344.0
+          }
+        }
+      ]
+    },
+    {
+      "scope": "CDG0",
+      "path": "2026-10-13/copied-descriptor-geometry-control-01",
+      "delivery_entries": 43,
+      "freeze_entries": 1669,
+      "status": {
+        "status": "VALIDATED_COPIED_DESCRIPTOR_CONTROL_PREREQUISITE_STOP",
+        "decision": "COPIED_DESCRIPTOR_CONTROL_UNRESOLVED_SUPPORT_OR_POSE_GATE",
+        "all_point_support": false,
+        "no_head_training_admission": true,
+        "original_HFIT_and_LCP_INCOMPLETE": true
+      },
+      "receipts": [
+        {
+          "scope": "CDG0",
+          "stage": "freeze",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 14.773620670996024,
+            "peak_RSS_bytes": 23547904,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 341557,
+            "imports_included": true,
+            "optimizer_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T15:44:32.2827225Z",
+            "wall_seconds": 17.8475197,
+            "host_memory_observations": 23,
+            "minimum_observed_headroom_bytes": 72574062592.0
+          }
+        },
+        {
+          "scope": "CDG0",
+          "stage": "predict",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 24.176008542999625,
+            "peak_RSS_bytes": 68100096,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 936769,
+            "imports_included": true,
+            "optimizer_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T15:47:31.4747066Z",
+            "wall_seconds": 25.7210385,
+            "host_memory_observations": 33,
+            "minimum_observed_headroom_bytes": 73560256512.0
+          }
+        },
+        {
+          "scope": "CDG0",
+          "stage": "validate",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 36.81744219100801,
+            "peak_RSS_bytes": 83812352,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 948640,
+            "imports_included": true,
+            "optimizer_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T15:50:01.9466390Z",
+            "wall_seconds": 41.1649415,
+            "host_memory_observations": 53,
+            "minimum_observed_headroom_bytes": 72398594048.0
+          }
+        }
+      ]
+    },
+    {
+      "scope": "GSG0",
+      "path": "2026-10-13/geometry-signature-control-01",
+      "delivery_entries": 57,
+      "freeze_entries": 1715,
+      "status": {
+        "status": "VALIDATED_CONGRUENT_GEOMETRY_CEILING_CONTROL_COMPLETE",
+        "decision": "CONGRUENT_SYNTHETIC_GEOMETRY_CEILING_RECOVERED_NO_LEARNING_CONTEXT_EFFICACY_IDENTIFIABLE",
+        "control_conjunction": true,
+        "stop_copied_congruent_fixture_as_RAP_context_efficacy_test": true,
+        "native_or_head_fits_executed": false,
+        "real_baseline_strength_proven": false
+      },
+      "receipts": [
+        {
+          "scope": "GSG0",
+          "stage": "freeze",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 12.890363847007393,
+            "peak_RSS_bytes": 23609344,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 353650,
+            "imports_included": true,
+            "optimizer_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T15:58:05.9134539Z",
+            "wall_seconds": 15.5554184,
+            "host_memory_observations": 20,
+            "minimum_observed_headroom_bytes": 72461611008.0
+          }
+        },
+        {
+          "scope": "GSG0",
+          "stage": "predict",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 25.02422267300426,
+            "peak_RSS_bytes": 101654528,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 24688583,
+            "imports_included": true,
+            "optimizer_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T16:02:35.0216341Z",
+            "wall_seconds": 28.7916017,
+            "host_memory_observations": 37,
+            "minimum_observed_headroom_bytes": 72292610048.0
+          }
+        },
+        {
+          "scope": "GSG0",
+          "stage": "preflight",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 24.240024601007462,
+            "peak_RSS_bytes": 68280320,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 376389,
+            "imports_included": true,
+            "optimizer_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T16:00:11.0685811Z",
+            "wall_seconds": 28.0198593,
+            "host_memory_observations": 36,
+            "minimum_observed_headroom_bytes": 72409796608.0
+          }
+        },
+        {
+          "scope": "GSG0",
+          "stage": "validate",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 103.63545695898938,
+            "peak_RSS_bytes": 195633152,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 24717087,
+            "imports_included": true,
+            "optimizer_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T16:06:12.4330612Z",
+            "wall_seconds": 112.6250228,
+            "host_memory_observations": 145,
+            "minimum_observed_headroom_bytes": 71533944832.0
+          }
+        }
+      ]
+    },
+    {
+      "scope": "APL0",
+      "path": "2026-10-14/artifact-payload-ledger-01",
+      "delivery_entries": 45,
+      "freeze_entries": 4206,
+      "status": {
+        "status": "VALIDATED_CONSERVATIVE_EXCLUSIVE_PAYLOAD_LEDGER_COMPLETE",
+        "decision": "EXCLUSIVE_PAYLOAD_UPPER_BOUND_VALID_EXTERNAL_WRITES_REQUIRE_SEPARATE_RECONCILIATION",
+        "whole_dossier_cap_safety_proven": false,
+        "new_archive_attempt": false,
+        "original_HFIT_LCP_INCOMPLETE": true
+      },
+      "receipts": [
+        {
+          "scope": "APL0",
+          "stage": "freeze",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 40.70638172100007,
+            "peak_RSS_bytes": 22478848,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 1568531,
+            "imports_included": true,
+            "optimizer_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T16:08:59.5468401Z",
+            "wall_seconds": 43.410197,
+            "host_memory_observations": 56,
+            "minimum_observed_headroom_bytes": 72395591680.0
+          }
+        },
+        {
+          "scope": "APL0",
+          "stage": "measure",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 71.40041204199952,
+            "peak_RSS_bytes": 27049984,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 1590532,
+            "imports_included": true,
+            "optimizer_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T16:13:33.3176568Z",
+            "wall_seconds": 78.4505366,
+            "host_memory_observations": 101,
+            "minimum_observed_headroom_bytes": 72327417856.0
+          }
+        },
+        {
+          "scope": "APL0",
+          "stage": "validate",
+          "child": {
+            "success": true,
+            "error": null,
+            "full_resource_capture": true,
+            "wall_seconds": 60.45826254900021,
+            "peak_RSS_bytes": 27623424,
+            "peak_GPU_allocated_bytes": 0,
+            "peak_GPU_reserved_bytes": 0,
+            "artifact_bytes": 1609488,
+            "imports_included": true,
+            "optimizer_calls": 0
+          },
+          "Windows": {
+            "exit_code": 0,
+            "utc_end": "2026-10-13T16:15:27.6262246Z",
+            "wall_seconds": 65.9972801,
+            "host_memory_observations": 85,
+            "minimum_observed_headroom_bytes": 72383397888.0
+          }
+        }
+      ]
+    }
+  ]
+}

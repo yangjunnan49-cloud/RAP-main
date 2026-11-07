@@ -1,0 +1,797 @@
+{
+ "conventions": {
+  "ter": "KITTI official all-segment mean relative translational drift [%], 100-800 m subsegments (M2 v2 protocol); camera reference frame for our KITTI rows; literature rows as printed by their sources (MULLS family applies 0.2 deg and CT-ICP 0.205 deg intrinsic angle correction; we apply none).",
+  "rer": "rotational drift [deg/100 m], same protocol.",
+  "ate": "APE translation RMSE [m] after SE(3) Umeyama alignment (evo --align convention = PIN-SLAM Table IV convention). Unaligned first-pose-anchored APE is reported separately in the registry and never mixed into this table.",
+  "mean_core": "mean over sequences 00/05/06 (our core-baseline coverage), recomputed from the row values."
+ },
+ "drift_rows": [
+  {
+   "method": "LOAM",
+   "full": "LOAM (Zhang & Singh, RSS 2014 / Auton. Robots 2017)",
+   "type": "odometry+mapping",
+   "source": "MULLS paper (arXiv:2102.03771v2) Table II, orig. LOAM paper + KITTI leaderboard",
+   "ter": [
+    0.78,
+    1.43,
+    0.92,
+    0.86,
+    0.71,
+    0.57,
+    0.65,
+    0.63,
+    1.12,
+    0.77,
+    0.79
+   ],
+   "ter_mean_core": 0.6666666666666666
+  },
+  {
+   "method": "IMLS-SLAM",
+   "full": "IMLS-SLAM (Deschaud, ICRA 2018)",
+   "type": "odometry",
+   "source": "MULLS paper Table II (per-seq); CT-ICP paper Table I reports the same per-seq values with mean 0.55",
+   "ter": [
+    0.5,
+    0.82,
+    0.53,
+    0.68,
+    0.33,
+    0.32,
+    0.33,
+    0.33,
+    0.8,
+    0.55,
+    0.53
+   ],
+   "ter_mean_core": 0.3833333333333333
+  },
+  {
+   "method": "MC2SLAM",
+   "full": "MC2SLAM (Neuhaus et al., GCPR 2018)",
+   "type": "odometry",
+   "source": "MULLS paper Table II",
+   "ter": [
+    0.51,
+    0.79,
+    0.54,
+    0.65,
+    0.44,
+    0.27,
+    0.31,
+    0.34,
+    0.84,
+    0.46,
+    0.52
+   ],
+   "ter_mean_core": 0.36333333333333334
+  },
+  {
+   "method": "S4-SLAM",
+   "full": "S4-SLAM (Zhou et al., Auton. Robots 2020), with loop closure",
+   "type": "slam",
+   "source": "MULLS paper Table II",
+   "ter": [
+    0.62,
+    1.11,
+    1.63,
+    0.82,
+    0.95,
+    0.5,
+    0.65,
+    0.6,
+    1.33,
+    1.05,
+    0.96
+   ],
+   "ter_mean_core": 0.59
+  },
+  {
+   "method": "PSF-LO",
+   "full": "PSF-LO (Chen et al., arXiv 2020), semantic",
+   "type": "odometry",
+   "source": "MULLS paper Table II",
+   "ter": [
+    0.64,
+    1.32,
+    0.87,
+    0.75,
+    0.66,
+    0.45,
+    0.47,
+    0.46,
+    0.94,
+    0.56,
+    0.54
+   ],
+   "ter_mean_core": 0.52
+  },
+  {
+   "method": "SuMa",
+   "full": "SuMa (Behley & Stachniss, RSS 2018), with loop closure",
+   "type": "slam",
+   "source": "PSF-LO paper (arXiv:2010.13355v1) Table II; KISS-ICP paper Table II reports SuMa 00-10 avg 0.80",
+   "ter": [
+    0.68,
+    1.7,
+    1.2,
+    0.74,
+    0.44,
+    0.43,
+    0.54,
+    0.74,
+    1.2,
+    0.62,
+    0.72
+   ],
+   "ter_mean_core": 0.55
+  },
+  {
+   "method": "SuMa++",
+   "full": "SuMa++ (Chen et al., IROS 2019), semantic, with loop closure",
+   "type": "slam",
+   "source": "MULLS paper Table II",
+   "ter": [
+    0.64,
+    1.6,
+    1.0,
+    0.67,
+    0.37,
+    0.4,
+    0.46,
+    0.34,
+    1.1,
+    0.47,
+    0.66
+   ],
+   "ter_mean_core": 0.5,
+   "rer": [
+    0.22,
+    0.46,
+    0.37,
+    0.46,
+    0.26,
+    0.2,
+    0.21,
+    0.19,
+    0.35,
+    0.23,
+    0.28
+   ],
+   "rer_mean_core": 0.21
+  },
+  {
+   "method": "LiTAMIN2",
+   "full": "LiTAMIN2 (Yokozuka et al., ICRA 2021), with loop closure",
+   "type": "slam",
+   "source": "MULLS paper Table II",
+   "ter": [
+    0.7,
+    2.1,
+    0.98,
+    0.96,
+    1.05,
+    0.45,
+    0.59,
+    0.44,
+    0.95,
+    0.69,
+    0.8
+   ],
+   "ter_mean_core": 0.58,
+   "rer": [
+    0.28,
+    0.46,
+    0.32,
+    0.48,
+    0.52,
+    0.25,
+    0.34,
+    0.32,
+    0.29,
+    0.4,
+    0.47
+   ],
+   "rer_mean_core": 0.29000000000000004
+  },
+  {
+   "method": "LO-Net",
+   "full": "LO-Net (Li et al., CVPR 2019), learning-based odometry",
+   "type": "odometry",
+   "source": "MULLS paper Table II",
+   "ter": [
+    0.78,
+    1.42,
+    1.01,
+    0.73,
+    0.56,
+    0.62,
+    0.55,
+    0.56,
+    1.08,
+    0.77,
+    0.92
+   ],
+   "ter_mean_core": 0.65,
+   "rer": [
+    0.42,
+    0.4,
+    0.45,
+    0.59,
+    0.54,
+    0.35,
+    0.35,
+    0.45,
+    0.43,
+    0.38,
+    0.41
+   ],
+   "rer_mean_core": 0.3733333333333333
+  },
+  {
+   "method": "MULLS-LO",
+   "full": "MULLS-LO (Pan et al., ICRA 2021), odometry only",
+   "type": "odometry",
+   "source": "MULLS paper Table II",
+   "ter": [
+    0.51,
+    0.62,
+    0.55,
+    0.61,
+    0.35,
+    0.28,
+    0.24,
+    0.29,
+    0.8,
+    0.49,
+    0.61
+   ],
+   "ter_mean_core": 0.3433333333333333,
+   "rer": [
+    0.18,
+    0.09,
+    0.17,
+    0.22,
+    0.08,
+    0.17,
+    0.11,
+    0.18,
+    0.25,
+    0.15,
+    0.19
+   ],
+   "rer_mean_core": 0.15333333333333335
+  },
+  {
+   "method": "MULLS-SLAM",
+   "full": "MULLS-SLAM (Pan et al., ICRA 2021), with TEASER loop closure + PGO",
+   "type": "slam",
+   "source": "MULLS paper Table II",
+   "ter": [
+    0.54,
+    0.62,
+    0.69,
+    0.61,
+    0.35,
+    0.29,
+    0.29,
+    0.27,
+    0.83,
+    0.51,
+    0.61
+   ],
+   "ter_mean_core": 0.37333333333333335,
+   "rer": [
+    0.13,
+    0.09,
+    0.13,
+    0.22,
+    0.08,
+    0.07,
+    0.08,
+    0.11,
+    0.17,
+    0.12,
+    0.19
+   ],
+   "rer_mean_core": 0.09333333333333334
+  },
+  {
+   "method": "CT-ICP",
+   "full": "CT-ICP (Dellenbach et al., ICRA 2022), odometry (KITTI-corrected scans)",
+   "type": "odometry",
+   "source": "CT-ICP paper (arXiv:2109.12979v2) Table I, KITTI-corrected; AVG averaged over all segments of all seqs",
+   "ter": [
+    0.49,
+    0.76,
+    0.52,
+    0.72,
+    0.39,
+    0.25,
+    0.27,
+    0.31,
+    0.81,
+    0.49,
+    0.48
+   ],
+   "ter_mean_core": 0.33666666666666667
+  },
+  {
+   "method": "pyLiDAR-F2M",
+   "full": "pyLiDAR-SLAM F2M (Dellenbach et al., IROS 2021)",
+   "type": "odometry",
+   "source": "CT-ICP paper Table I, KITTI-corrected",
+   "ter": [
+    0.51,
+    0.79,
+    0.51,
+    0.64,
+    0.36,
+    0.29,
+    0.29,
+    0.32,
+    0.78,
+    0.46,
+    0.57
+   ],
+   "ter_mean_core": 0.3633333333333333
+  },
+  {
+   "method": "KISS-ICP",
+   "full": "KISS-ICP (Vizzo et al., RA-L 2022) - our front-end; paper reports split averages only",
+   "type": "odometry",
+   "source": "KISS-ICP paper (arXiv:2209.15397v2) Table II"
+  },
+  {
+   "method": "F-LOAM",
+   "full": "F-LOAM (Wang et al., IROS 2020)",
+   "type": "odometry",
+   "source": "KISS-ICP paper Table II (split averages only)"
+  },
+  {
+   "method": "ours odometry (core-baseline-v1)",
+   "full": "RAP-SLAM corrected core baseline v1 (KISS-ICP POSS-tuned front-end + SC/proximity retrieval + RAP K=4 verification + relfloor+Huber PGO; no intrinsic angle correction)",
+   "type": "odometry",
+   "source": "core-baseline-v1 registry (2026-09-11)",
+   "ours": true,
+   "ter": [
+    0.904738488682059,
+    null,
+    null,
+    null,
+    null,
+    0.7721504642197357,
+    0.6430210259878476,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rer": [
+    0.38912599685856997,
+    null,
+    null,
+    null,
+    null,
+    0.35511827888744757,
+    0.3197083843008987,
+    null,
+    null,
+    null,
+    null
+   ],
+   "ter_mean_core": 0.7733033262965474,
+   "rer_mean_core": 0.35465088668230543
+  },
+  {
+   "method": "ours full (core-baseline-v1)",
+   "full": "RAP-SLAM corrected core baseline v1 (KISS-ICP POSS-tuned front-end + SC/proximity retrieval + RAP K=4 verification + relfloor+Huber PGO; no intrinsic angle correction)",
+   "type": "slam",
+   "source": "core-baseline-v1 registry (2026-09-11)",
+   "ours": true,
+   "ter": [
+    0.9141706710332342,
+    null,
+    null,
+    null,
+    null,
+    0.7037371779652615,
+    0.6670578013898192,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rer": [
+    0.38945457003049155,
+    null,
+    null,
+    null,
+    null,
+    0.34212335623141193,
+    0.3165927423751197,
+    null,
+    null,
+    null,
+    null
+   ],
+   "ter_mean_core": 0.7616552167961049,
+   "rer_mean_core": 0.34939022287900773
+  },
+  {
+   "method": "KISS-SLAM (same-data run, default cfg)",
+   "method_full": "KISS-SLAM 0.0.2 (KISS-ICP 1.3.0 odometry + map_closures 2.1.0 + GTSAM PGO), unmodified default config",
+   "source": {
+    "package": "kiss-slam 0.0.2 PyPI wheel",
+    "kiss_icp": "1.3.0",
+    "python": "3.12.3",
+    "venv": "/root/venvs/kiss-slam-hc1",
+    "pip_freeze": "env/pip_freeze.txt",
+    "config_sha256": "a17813d28ee273739e0e685913025b3b1091f09229736a2c2cdaf1c566d19718",
+    "config": "unmodified defaults (config/default_config.yaml)",
+    "dataloader": "kitti (applies intrinsic vertical-angle correction, upstream default)",
+    "closures": {
+     "00": 7,
+     "05": 5,
+     "06": 4
+    },
+    "wall_seconds": {
+     "00": 173.14,
+     "05": 109.39,
+     "06": 49.64
+    },
+    "peak_rss_bytes": {
+     "00": 1091568,
+     "05": 1073900,
+     "06": 1066164
+    },
+    "device": "CPU-only",
+    "run_host": "WSL Ubuntu-24.04"
+   },
+   "same_data_run": true,
+   "type": "slam",
+   "ter": [
+    0.5752716860258087,
+    null,
+    null,
+    null,
+    null,
+    0.5172463030732978,
+    0.32549245695676,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rer": [
+    0.15641889567886824,
+    null,
+    null,
+    null,
+    null,
+    0.21329415703824614,
+    0.0718655848809067,
+    null,
+    null,
+    null,
+    null
+   ],
+   "ter_mean_core": 0.47267014868528884,
+   "rer_mean_core": 0.14719287919934035
+  }
+ ],
+ "ate_rows": [
+  {
+   "method": "SuMa",
+   "source": "PIN-SLAM T-RO 2024 preprint, Table IV, page 11",
+   "ate": [
+    1.1,
+    14.6,
+    8.0,
+    1.0,
+    0.3,
+    0.7,
+    0.6,
+    1.1,
+    3.7,
+    1.2,
+    1.4
+   ],
+   "avg_loops_printed": 2.3,
+   "avg_printed": 3.1,
+   "ate_mean_core": 0.7999999999999999,
+   "printed_precision": "decimeter"
+  },
+  {
+   "method": "MULLS",
+   "source": "PIN-SLAM T-RO 2024 preprint, Table IV, page 11",
+   "ate": [
+    1.1,
+    1.9,
+    5.4,
+    0.7,
+    0.9,
+    1.0,
+    0.3,
+    0.4,
+    2.9,
+    2.1,
+    1.1
+   ],
+   "avg_loops_printed": 1.9,
+   "avg_printed": 1.6,
+   "ate_mean_core": 0.7999999999999999,
+   "printed_precision": "decimeter"
+  },
+  {
+   "method": "Litamin2",
+   "source": "PIN-SLAM T-RO 2024 preprint, Table IV, page 11",
+   "ate": [
+    1.3,
+    15.9,
+    3.2,
+    0.8,
+    0.7,
+    0.6,
+    0.8,
+    0.5,
+    2.1,
+    2.1,
+    1.0
+   ],
+   "avg_loops_printed": 1.5,
+   "avg_printed": 2.4,
+   "ate_mean_core": 0.9,
+   "printed_precision": "decimeter"
+  },
+  {
+   "method": "SC-LeGO-LOAM",
+   "source": "PIN-SLAM T-RO 2024 preprint, Table IV, page 11",
+   "ate": [
+    2.3,
+    19.7,
+    5.3,
+    1.6,
+    0.4,
+    1.2,
+    1.0,
+    1.5,
+    5.9,
+    2.0,
+    1.7
+   ],
+   "avg_loops_printed": 2.7,
+   "avg_printed": 5.3,
+   "ate_mean_core": 1.5,
+   "printed_precision": "decimeter"
+  },
+  {
+   "method": "HLBA ‡",
+   "source": "PIN-SLAM T-RO 2024 preprint, Table IV, page 11",
+   "ate": [
+    0.8,
+    1.9,
+    5.1,
+    0.6,
+    0.8,
+    0.4,
+    0.2,
+    0.3,
+    2.7,
+    1.3,
+    1.1
+   ],
+   "avg_loops_printed": 1.5,
+   "avg_printed": 1.4,
+   "ate_mean_core": 0.46666666666666673,
+   "printed_precision": "decimeter"
+  },
+  {
+   "method": "SC-F-LOAM ‡",
+   "source": "PIN-SLAM T-RO 2024 preprint, Table IV, page 11",
+   "ate": [
+    1.3,
+    4.7,
+    3.3,
+    0.7,
+    0.3,
+    1.2,
+    0.4,
+    0.5,
+    3.0,
+    1.3,
+    1.6
+   ],
+   "avg_loops_printed": 1.6,
+   "avg_printed": 1.7,
+   "ate_mean_core": 0.9666666666666667,
+   "printed_precision": "decimeter"
+  },
+  {
+   "method": "SC-KISS-ICP ‡",
+   "source": "PIN-SLAM T-RO 2024 preprint, Table IV, page 11",
+   "ate": [
+    1.0,
+    3.7,
+    1.9,
+    0.4,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    2.2,
+    1.0,
+    0.8
+   ],
+   "avg_loops_printed": 1.0,
+   "avg_printed": 1.1,
+   "ate_mean_core": 0.5333333333333333,
+   "printed_precision": "decimeter"
+  },
+  {
+   "method": "PIN-LO",
+   "source": "PIN-SLAM T-RO 2024 preprint, Table IV, page 11",
+   "ate": [
+    5.6,
+    4.3,
+    9.3,
+    0.7,
+    0.1,
+    1.7,
+    0.5,
+    0.5,
+    3.0,
+    1.8,
+    0.8
+   ],
+   "avg_loops_printed": 3.2,
+   "avg_printed": 2.6,
+   "ate_mean_core": 2.6,
+   "printed_precision": "decimeter"
+  },
+  {
+   "method": "PIN-SLAM",
+   "source": "PIN-SLAM T-RO 2024 preprint, Table IV, page 11",
+   "ate": [
+    0.8,
+    4.3,
+    2.1,
+    0.7,
+    0.1,
+    0.3,
+    0.4,
+    0.3,
+    2.1,
+    1.2,
+    0.8
+   ],
+   "avg_loops_printed": 1.0,
+   "avg_printed": 1.2,
+   "ate_mean_core": 0.5,
+   "printed_precision": "decimeter"
+  },
+  {
+   "method": "ours full (core-baseline-v1)",
+   "source": "core-baseline-v1 registry (2026-09-11)",
+   "ours": true,
+   "printed_precision": "full precision",
+   "ate": [
+    2.8915431582707565,
+    null,
+    null,
+    null,
+    null,
+    1.129312921649441,
+    0.8689712657086562,
+    null,
+    null,
+    null,
+    null
+   ],
+   "ate_mean_core": 1.6299424485429512
+  },
+  {
+   "method": "ours odometry (core-baseline-v1)",
+   "source": "core-baseline-v1 registry (2026-09-11)",
+   "ours": true,
+   "printed_precision": "full precision",
+   "ate": [
+    3.938480860599838,
+    null,
+    null,
+    null,
+    null,
+    1.8686154997795659,
+    0.8933502959874051,
+    null,
+    null,
+    null,
+    null
+   ],
+   "ate_mean_core": 2.2334822187889363
+  },
+  {
+   "method": "KISS-SLAM (same-data run, default cfg)",
+   "method_full": "KISS-SLAM 0.0.2 (KISS-ICP 1.3.0 odometry + map_closures 2.1.0 + GTSAM PGO), unmodified default config",
+   "source": {
+    "package": "kiss-slam 0.0.2 PyPI wheel",
+    "kiss_icp": "1.3.0",
+    "python": "3.12.3",
+    "venv": "/root/venvs/kiss-slam-hc1",
+    "pip_freeze": "env/pip_freeze.txt",
+    "config_sha256": "a17813d28ee273739e0e685913025b3b1091f09229736a2c2cdaf1c566d19718",
+    "config": "unmodified defaults (config/default_config.yaml)",
+    "dataloader": "kitti (applies intrinsic vertical-angle correction, upstream default)",
+    "closures": {
+     "00": 7,
+     "05": 5,
+     "06": 4
+    },
+    "wall_seconds": {
+     "00": 173.14,
+     "05": 109.39,
+     "06": 49.64
+    },
+    "peak_rss_bytes": {
+     "00": 1091568,
+     "05": 1073900,
+     "06": 1066164
+    },
+    "device": "CPU-only",
+    "run_host": "WSL Ubuntu-24.04"
+   },
+   "same_data_run": true,
+   "printed_precision": "full precision",
+   "ate": [
+    0.9168480377924235,
+    null,
+    null,
+    null,
+    null,
+    0.6613788883163957,
+    0.3280572587106492,
+    null,
+    null,
+    null,
+    null
+   ],
+   "ate_mean_core": 0.6354280616064895
+  }
+ ],
+ "kitti_context_rows": [
+  {
+   "seq": "01",
+   "product": "step3_kitti01",
+   "ape_aligned_rmse": 19.87365015838999,
+   "note": "legacy live product, no true revisits"
+  },
+  {
+   "seq": "02",
+   "product": "step3_kitti02_current",
+   "ape_aligned_rmse": 4.034962951545997,
+   "note": "legacy live product, current-backend PGO rerun"
+  },
+  {
+   "seq": "03",
+   "product": "step3_kitti03",
+   "ape_aligned_rmse": 0.8792089847628275,
+   "note": "legacy live product, no true revisits"
+  },
+  {
+   "seq": "04",
+   "product": "step3_kitti04",
+   "ape_aligned_rmse": 0.4017255809417022,
+   "note": "legacy live product, no true revisits"
+  }
+ ],
+ "poss": {
+  "odometry_aligned": 2.564950829437901,
+  "full_aligned": 0.6660539737289165,
+  "odometry_unaligned": 8.257399808291712,
+  "full_unaligned": 1.8222638519884773,
+  "loops_accepted": 4,
+  "frames": 1419,
+  "note": "POSS (PKU campus, Velodyne-32e): no published baseline; cross-sensor generalization set, LiDAR-frame drift in registry."
+ },
+ "coverage_note": "Core claims are limited to KITTI 00/05/06 (+POSS-A); literature 00-10 averages are quoted verbatim and are not same-coverage comparisons."
+}

@@ -1,0 +1,6580 @@
+{
+  "utc": "2026-10-12T15:17:16.136266+00:00",
+  "raw_frames": 239,
+  "raw_returns": 29503605,
+  "endpoints": 81,
+  "total_arm_points": 2884000,
+  "edges": 58,
+  "candidate_outputs": 1160,
+  "completed_candidates": 1160,
+  "failed_candidates": 0,
+  "selectors": {
+    "A": {
+      "J": {
+        "RI": 24,
+        "GI": 0,
+        "GK": 15,
+        "GF": 19,
+        "N": 0
+      },
+      "W": {
+        "RI": 0,
+        "GI": 11,
+        "GK": 26,
+        "GF": 21,
+        "N": 0
+      }
+    },
+    "S": {
+      "J": {
+        "RI": 29,
+        "GI": 0,
+        "GK": 12,
+        "GF": 17,
+        "N": 0
+      },
+      "W": {
+        "RI": 0,
+        "GI": 17,
+        "GK": 23,
+        "GF": 18,
+        "N": 0
+      }
+    },
+    "C": {
+      "J": {
+        "RI": 26,
+        "GI": 0,
+        "GK": 17,
+        "GF": 15,
+        "N": 0
+      },
+      "W": {
+        "RI": 0,
+        "GI": 23,
+        "GK": 18,
+        "GF": 17,
+        "N": 0
+      }
+    },
+    "D": {
+      "J": {
+        "RI": 20,
+        "GI": 0,
+        "GK": 25,
+        "GF": 13,
+        "N": 0
+      },
+      "W": {
+        "RI": 0,
+        "GI": 16,
+        "GK": 29,
+        "GF": 13,
+        "N": 0
+      }
+    },
+    "F": {
+      "J": {
+        "RI": 18,
+        "GI": 0,
+        "GK": 21,
+        "GF": 19,
+        "N": 0
+      },
+      "W": {
+        "RI": 0,
+        "GI": 13,
+        "GK": 28,
+        "GF": 17,
+        "N": 0
+      }
+    }
+  },
+  "timings": [
+    {
+      "seq": "00",
+      "raw_read_selection_seconds": 14.595920542000385
+    },
+    {
+      "seq": "05",
+      "raw_read_selection_seconds": 31.860851544999605
+    },
+    {
+      "seq": "06",
+      "raw_read_selection_seconds": 48.11791915299909
+    },
+    {
+      "seq": "07",
+      "raw_read_selection_seconds": 22.93312117700043
+    },
+    {
+      "seq": "09",
+      "raw_read_selection_seconds": 16.846787906000827
+    },
+    {
+      "seq": "00",
+      "endpoint": 2352,
+      "all_arms_seconds": 0.6771700369972677,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2352
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.013358513002458494
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2352
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07545922200006316,
+          "construction_seconds": 0.08819375600069179
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2350,
+            2351,
+            2352
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07043877199976123,
+          "construction_seconds": 0.07957411399911507
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            2352
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.21675955700266059,
+          "construction_seconds": 0.2336626320029609
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            2350,
+            2351,
+            2352
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20833210299679195,
+          "construction_seconds": 0.2247405769994657
+        }
+      ]
+    },
+    {
+      "seq": "00",
+      "endpoint": 2429,
+      "all_arms_seconds": 0.6748562110005878,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2429
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.016292177999275737
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2429
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06719635099943844,
+          "construction_seconds": 0.07657790699886391
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2427,
+            2428,
+            2429
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07224797299932106,
+          "construction_seconds": 0.08515286599867977
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            2429
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20914902000004076,
+          "construction_seconds": 0.224179554003058
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            2427,
+            2428,
+            2429
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21183768199989572,
+          "construction_seconds": 0.22780309399968246
+        }
+      ]
+    },
+    {
+      "seq": "00",
+      "endpoint": 2433,
+      "all_arms_seconds": 0.6635645860005752,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2433
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014228459000150906
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2433
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0754131480025535,
+          "construction_seconds": 0.08545863999825087
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2431,
+            2432,
+            2433
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06978944099682849,
+          "construction_seconds": 0.0807893460005289
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            2433
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20416910399944754,
+          "construction_seconds": 0.21922012600043672
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            2431,
+            2432,
+            2433
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20725263799977256,
+          "construction_seconds": 0.22381695799776935
+        }
+      ]
+    },
+    {
+      "seq": "00",
+      "endpoint": 2437,
+      "all_arms_seconds": 0.6647529820002092,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2437
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014956635000999086
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2437
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07030035700154258,
+          "construction_seconds": 0.08255352700143703
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2435,
+            2436,
+            2437
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06831179700020584,
+          "construction_seconds": 0.07969505800065235
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            2437
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.21694870099963737,
+          "construction_seconds": 0.23279166700012865
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            2435,
+            2436,
+            2437
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20235879000028945,
+          "construction_seconds": 0.2187905540013162
+        }
+      ]
+    },
+    {
+      "seq": "00",
+      "endpoint": 2441,
+      "all_arms_seconds": 0.653483222999057,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2441
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.015315192002162803
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2441
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07111238300058176,
+          "construction_seconds": 0.08104838800136349
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2439,
+            2440,
+            2441
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06980824100173777,
+          "construction_seconds": 0.0810518790021888
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            2441
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20287552399895503,
+          "construction_seconds": 0.2182016989972908
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            2439,
+            2440,
+            2441
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20469913300257758,
+          "construction_seconds": 0.22033961199849728
+        }
+      ]
+    },
+    {
+      "seq": "00",
+      "endpoint": 2446,
+      "all_arms_seconds": 0.6645759550010553,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2446
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.017403018002369208
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2446
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0671722500010219,
+          "construction_seconds": 0.0770824069986702
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2444,
+            2445,
+            2446
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07164320999800111,
+          "construction_seconds": 0.08287427899995237
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            2446
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20672072299930733,
+          "construction_seconds": 0.22341731499909656
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            2444,
+            2445,
+            2446
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20836260199939716,
+          "construction_seconds": 0.22234842300167657
+        }
+      ]
+    },
+    {
+      "seq": "00",
+      "endpoint": 2454,
+      "all_arms_seconds": 0.6597542300005443,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2454
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014139080998575082
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2454
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07287652400191291,
+          "construction_seconds": 0.08237396199911018
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2452,
+            2453,
+            2454
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07031713999822387,
+          "construction_seconds": 0.08018400100263534
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            2454
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20573302499906276,
+          "construction_seconds": 0.22164515999975265
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            2452,
+            2453,
+            2454
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20774064199940767,
+          "construction_seconds": 0.22338355999818305
+        }
+      ]
+    },
+    {
+      "seq": "00",
+      "endpoint": 2462,
+      "all_arms_seconds": 0.6526991379978426,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2462
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014242335997550981
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2462
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0698474669989082,
+          "construction_seconds": 0.0784023279993562
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            2460,
+            2461,
+            2462
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07047046299703652,
+          "construction_seconds": 0.07931201400060672
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            2462
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20385778499985463,
+          "construction_seconds": 0.22079190099975676
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            2460,
+            2461,
+            2462
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20524970599944936,
+          "construction_seconds": 0.22111985300216475
+        }
+      ]
+    },
+    {
+      "seq": "00",
+      "endpoint": 3289,
+      "all_arms_seconds": 0.6577211769981659,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3289
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.015299623999453615
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3289
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06805090999841923,
+          "construction_seconds": 0.07861207099995227
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3287,
+            3288,
+            3289
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07127903700165916,
+          "construction_seconds": 0.08319998200022383
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3289
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.2043744799993874,
+          "construction_seconds": 0.2231356689990207
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3287,
+            3288,
+            3289
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20154401999752736,
+          "construction_seconds": 0.21715702800065628
+        }
+      ]
+    },
+    {
+      "seq": "00",
+      "endpoint": 3373,
+      "all_arms_seconds": 0.6619979440001771,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3373
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.017828215000918135
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3373
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06725094200010062,
+          "construction_seconds": 0.07611087500117719
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3371,
+            3372,
+            3373
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06851771000219742,
+          "construction_seconds": 0.077390092999849
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3373
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.21267774200168788,
+          "construction_seconds": 0.2275933349992556
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3371,
+            3372,
+            3373
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.205715059000795,
+          "construction_seconds": 0.22231960499993875
+        }
+      ]
+    },
+    {
+      "seq": "00",
+      "endpoint": 3378,
+      "all_arms_seconds": 0.6546827380007016,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3378
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.017158765000203857
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3378
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06753570000000764,
+          "construction_seconds": 0.0772414069979277
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3376,
+            3377,
+            3378
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06753061000199523,
+          "construction_seconds": 0.08000185099808732
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3378
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20275883700014674,
+          "construction_seconds": 0.21852112100168597
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3376,
+            3377,
+            3378
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2056689560013183,
+          "construction_seconds": 0.22100874099851353
+        }
+      ]
+    },
+    {
+      "seq": "00",
+      "endpoint": 3383,
+      "all_arms_seconds": 0.6626030310035276,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3383
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.015889166003034916
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3383
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0701421539997682,
+          "construction_seconds": 0.08167470999978832
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3381,
+            3382,
+            3383
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06993164199957391,
+          "construction_seconds": 0.0821539880016644
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3383
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20731925499785575,
+          "construction_seconds": 0.22248857799786492
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3381,
+            3382,
+            3383
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2059923130000243,
+          "construction_seconds": 0.2221763199995621
+        }
+      ]
+    },
+    {
+      "seq": "00",
+      "endpoint": 3387,
+      "all_arms_seconds": 0.6540681589976884,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3387
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.015694400997745106
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3387
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07056308700339287,
+          "construction_seconds": 0.08277966099922196
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3385,
+            3386,
+            3387
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.0669048150011804,
+          "construction_seconds": 0.07998677900104667
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3387
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20223540799997863,
+          "construction_seconds": 0.22020119199805777
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3385,
+            3386,
+            3387
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.202845983003499,
+          "construction_seconds": 0.21884802800195757
+        }
+      ]
+    },
+    {
+      "seq": "00",
+      "endpoint": 3392,
+      "all_arms_seconds": 0.6505782300009741,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3392
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.011900872999831336
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3392
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0670658769995498,
+          "construction_seconds": 0.07803441700161784
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3390,
+            3391,
+            3392
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06708967099984875,
+          "construction_seconds": 0.07767194800180732
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3392
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20774096199966152,
+          "construction_seconds": 0.22314491900033318
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3390,
+            3391,
+            3392
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2049650750013825,
+          "construction_seconds": 0.2238854099996388
+        }
+      ]
+    },
+    {
+      "seq": "00",
+      "endpoint": 3398,
+      "all_arms_seconds": 0.6599330469980487,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3398
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014098374998866348
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3398
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06834532700304408,
+          "construction_seconds": 0.07939278399862815
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3396,
+            3397,
+            3398
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06950390600104583,
+          "construction_seconds": 0.07937339899945073
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3398
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20777567199911573,
+          "construction_seconds": 0.22306284300066181
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3396,
+            3397,
+            3398
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20639969100011513,
+          "construction_seconds": 0.22307658399950014
+        }
+      ]
+    },
+    {
+      "seq": "00",
+      "endpoint": 3410,
+      "all_arms_seconds": 0.6715574910012947,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3410
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.01613980900219758
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3410
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06964304199937033,
+          "construction_seconds": 0.08119274400087306
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3408,
+            3409,
+            3410
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06881894099933561,
+          "construction_seconds": 0.07887549299994134
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3410
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.21572364699750324,
+          "construction_seconds": 0.23111966099895653
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3408,
+            3409,
+            3410
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20423495400245884,
+          "construction_seconds": 0.22102170400103205
+        }
+      ]
+    },
+    {
+      "seq": "00",
+      "endpoint": 3419,
+      "all_arms_seconds": 0.7302993550001702,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3419
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.017793253999116132
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3419
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07587521099776495,
+          "construction_seconds": 0.08697508499972173
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            3417,
+            3418,
+            3419
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07378541800062521,
+          "construction_seconds": 0.08416497600046569
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3419
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.23086242199860862,
+          "construction_seconds": 0.2482612040003005
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            3417,
+            3418,
+            3419
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.23378600900105084,
+          "construction_seconds": 0.2507962910021888
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 538,
+      "all_arms_seconds": 0.6701251199992839,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            538
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014933365000615595
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            538
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07069786500142072,
+          "construction_seconds": 0.08011260200146353
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            536,
+            537,
+            538
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06750595899939071,
+          "construction_seconds": 0.07801446099983878
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            538
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.2161152549997496,
+          "construction_seconds": 0.2314092439992237
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            536,
+            537,
+            538
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21068894899872248,
+          "construction_seconds": 0.22690505699938512
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 542,
+      "all_arms_seconds": 0.6785117500003253,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            542
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.017169036000268534
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            542
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06843772700085538,
+          "construction_seconds": 0.07776335599919548
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            540,
+            541,
+            542
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07193050299974857,
+          "construction_seconds": 0.08231607899870141
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            542
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.2172854090022156,
+          "construction_seconds": 0.23314868600209593
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            540,
+            541,
+            542
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21510267499979818,
+          "construction_seconds": 0.23267901399958646
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 547,
+      "all_arms_seconds": 0.6645346209988929,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            547
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.01453881899942644
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            547
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06840367800032254,
+          "construction_seconds": 0.07789817800221499
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            545,
+            546,
+            547
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06969582999954582,
+          "construction_seconds": 0.07894853100151522
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            547
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.2105063409981085,
+          "construction_seconds": 0.22748315900025773
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            545,
+            546,
+            547
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21312490100172,
+          "construction_seconds": 0.22897475399804534
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 612,
+      "all_arms_seconds": 0.6854818489991885,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            612
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014433830998314079
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            612
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07596131900209002,
+          "construction_seconds": 0.08886931199958781
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            610,
+            611,
+            612
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06981575900135795,
+          "construction_seconds": 0.0802146919995721
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            612
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.2119175770021684,
+          "construction_seconds": 0.23405369600004633
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            610,
+            611,
+            612
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2135578710003756,
+          "construction_seconds": 0.23050099600004614
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 619,
+      "all_arms_seconds": 0.6641962639987469,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            619
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.013965891001134878
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            619
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06841776299916091,
+          "construction_seconds": 0.07746963099998538
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            617,
+            618,
+            619
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07083495400001993,
+          "construction_seconds": 0.08359435699821915
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            619
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.21082395800112863,
+          "construction_seconds": 0.22830696199889644
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            617,
+            618,
+            619
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20874176999859628,
+          "construction_seconds": 0.22433494400320342
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 626,
+      "all_arms_seconds": 0.6732048420017236,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            626
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014239749001717428
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            626
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06967179000275792,
+          "construction_seconds": 0.08047060999888345
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            624,
+            625,
+            626
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07130985700132442,
+          "construction_seconds": 0.08047823699962464
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            626
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.21256350799740176,
+          "construction_seconds": 0.2287796119999257
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            624,
+            625,
+            626
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21416638500159024,
+          "construction_seconds": 0.23357966500043403
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 633,
+      "all_arms_seconds": 0.658512611000333,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            633
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.012975828001799528
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            633
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0712060139994719,
+          "construction_seconds": 0.08102546900045127
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            631,
+            632,
+            633
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07053053599884151,
+          "construction_seconds": 0.07948994400067022
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            633
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20928087499851245,
+          "construction_seconds": 0.2243764180020662
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            631,
+            632,
+            633
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21043992600243655,
+          "construction_seconds": 0.22567071000230499
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 640,
+      "all_arms_seconds": 0.652548060999834,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            640
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.01449640699865995
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            640
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06742052800109377,
+          "construction_seconds": 0.07780234500023653
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            638,
+            639,
+            640
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06768253799964441,
+          "construction_seconds": 0.0779607570002554
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            640
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.2061116889999539,
+          "construction_seconds": 0.22280158899957314
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            638,
+            639,
+            640
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20800247299848706,
+          "construction_seconds": 0.22391261299708276
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 749,
+      "all_arms_seconds": 0.6642955220013391,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            749
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.015618375000485685
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            749
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06913797599918325,
+          "construction_seconds": 0.07844212700001663
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            747,
+            748,
+            749
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.0674895660013135,
+          "construction_seconds": 0.07608573899779003
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            749
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.209473341001285,
+          "construction_seconds": 0.22487796600034926
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            747,
+            748,
+            749
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21195221599919023,
+          "construction_seconds": 0.2282966659986414
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 757,
+      "all_arms_seconds": 0.6567605750024086,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            757
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.0140225119976094
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            757
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06769806100055575,
+          "construction_seconds": 0.08029087300019455
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            755,
+            756,
+            757
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06820215499828919,
+          "construction_seconds": 0.0771988179985783
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            757
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20592847199804964,
+          "construction_seconds": 0.22337127899663756
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            755,
+            756,
+            757
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2068101969998679,
+          "construction_seconds": 0.22299228399788262
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 766,
+      "all_arms_seconds": 0.6698377150023589,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            766
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.015153411000937922
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            766
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06775371100229677,
+          "construction_seconds": 0.07691198899919982
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            764,
+            765,
+            766
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06921149499976309,
+          "construction_seconds": 0.07886346599843819
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            766
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.2047680780015071,
+          "construction_seconds": 0.22179290100029903
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            764,
+            765,
+            766
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21503273000053014,
+          "construction_seconds": 0.2323498190016835
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 792,
+      "all_arms_seconds": 0.6620980410007178,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            792
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014365063998411642
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            792
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0677717050020874,
+          "construction_seconds": 0.07653146899974672
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            790,
+            791,
+            792
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06926310500057298,
+          "construction_seconds": 0.07916584499980672
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            792
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20720208499915316,
+          "construction_seconds": 0.22360703600134002
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            790,
+            791,
+            792
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21281180400183075,
+          "construction_seconds": 0.2287056159984786
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 1302,
+      "all_arms_seconds": 0.6572126440005377,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1302
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014892849998432212
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1302
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06712894300289918,
+          "construction_seconds": 0.07705373399949167
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1300,
+            1301,
+            1302
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07398058999751811,
+          "construction_seconds": 0.0836387929994089
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1302
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.204699588000949,
+          "construction_seconds": 0.22156549999999697
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1300,
+            1301,
+            1302
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2073818150020088,
+          "construction_seconds": 0.22391144699940924
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 1307,
+      "all_arms_seconds": 0.6881840419991931,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1307
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.013582724001025781
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1307
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07124212100097793,
+          "construction_seconds": 0.08157772699996713
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1305,
+            1306,
+            1307
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07661930399990524,
+          "construction_seconds": 0.08832767800049623
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1307
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.21508440100296866,
+          "construction_seconds": 0.2341292519995477
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1305,
+            1306,
+            1307
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2137639680004213,
+          "construction_seconds": 0.23291315000096802
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 1367,
+      "all_arms_seconds": 0.6864818110007036,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1367
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.013882979001209605
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1367
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06996868799978984,
+          "construction_seconds": 0.08105843500015908
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1365,
+            1366,
+            1367
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06844628700127942,
+          "construction_seconds": 0.0775017800006026
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1367
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.2122557759976189,
+          "construction_seconds": 0.23062536999714212
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1365,
+            1366,
+            1367
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.22691460699934396,
+          "construction_seconds": 0.24706586599859293
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 1374,
+      "all_arms_seconds": 0.6598000189987943,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1374
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.012776882998878136
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1374
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07017593000273337,
+          "construction_seconds": 0.08218769599989173
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1372,
+            1373,
+            1374
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06872048699733568,
+          "construction_seconds": 0.08012535800298792
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1374
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20547336199888377,
+          "construction_seconds": 0.22159633199771633
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1372,
+            1373,
+            1374
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.209332843998709,
+          "construction_seconds": 0.2245180989993969
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 1381,
+      "all_arms_seconds": 0.6876170069990621,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1381
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.013096419999783393
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1381
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06880888299929211,
+          "construction_seconds": 0.07860904299741378
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1379,
+            1380,
+            1381
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06829531000039424,
+          "construction_seconds": 0.07823389099939959
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1381
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.21776411899918457,
+          "construction_seconds": 0.23549207799806027
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1379,
+            1380,
+            1381
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.22876669200195465,
+          "construction_seconds": 0.24734519100093166
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 1388,
+      "all_arms_seconds": 0.6946917310015124,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1388
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014858269998512696
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1388
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07264127599773929,
+          "construction_seconds": 0.08312926500002504
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1386,
+            1387,
+            1388
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07029699600025197,
+          "construction_seconds": 0.07912005199978012
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1388
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.22492526299902238,
+          "construction_seconds": 0.24206660500203725
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1386,
+            1387,
+            1388
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21995972699733102,
+          "construction_seconds": 0.23637018899898976
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 1394,
+      "all_arms_seconds": 0.6822013070013782,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1394
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.013667000999703305
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1394
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06759864299965557,
+          "construction_seconds": 0.07693693599867402
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1392,
+            1393,
+            1394
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07093653599804384,
+          "construction_seconds": 0.08151190400167252
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1394
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.21198874699985026,
+          "construction_seconds": 0.22985994400005438
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1392,
+            1393,
+            1394
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.22420059599971864,
+          "construction_seconds": 0.2395393549995788
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 1491,
+      "all_arms_seconds": 0.6835407789985766,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1491
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.0163845040005981
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1491
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06853334499828634,
+          "construction_seconds": 0.0789709810014756
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1489,
+            1490,
+            1491
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06976607500109822,
+          "construction_seconds": 0.07929946899821516
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1491
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.2125748559992644,
+          "construction_seconds": 0.2292434000009962
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1489,
+            1490,
+            1491
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21977014500225778,
+          "construction_seconds": 0.23605379299988272
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 1499,
+      "all_arms_seconds": 0.6785237109979789,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1499
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.01309873199716094
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1499
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0696048370009521,
+          "construction_seconds": 0.0817345959985687
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1497,
+            1498,
+            1499
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07090190000235452,
+          "construction_seconds": 0.08130149700082256
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1499
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.21659552300116047,
+          "construction_seconds": 0.2343026339985954
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1497,
+            1498,
+            1499
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2135238670016406,
+          "construction_seconds": 0.2308016230017529
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 1508,
+      "all_arms_seconds": 0.7112388120003743,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1508
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.01579035000031581
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1508
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07287350100159529,
+          "construction_seconds": 0.08319625500007533
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1506,
+            1507,
+            1508
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07699141400007647,
+          "construction_seconds": 0.08793526199951884
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1508
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.22191735100204824,
+          "construction_seconds": 0.24324821900154348
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1506,
+            1507,
+            1508
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21900692000053823,
+          "construction_seconds": 0.23587335900083417
+        }
+      ]
+    },
+    {
+      "seq": "05",
+      "endpoint": 1536,
+      "all_arms_seconds": 0.6562929669998994,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1536
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.013100356998620555
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1536
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06943152800158714,
+          "construction_seconds": 0.08279053599835606
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1534,
+            1535,
+            1536
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.0691056630021194,
+          "construction_seconds": 0.07826141099940287
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1536
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.2093475049987319,
+          "construction_seconds": 0.22424069099724875
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1534,
+            1535,
+            1536
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2024528959991585,
+          "construction_seconds": 0.21834088600007817
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 78,
+      "all_arms_seconds": 0.635478759999387,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            78
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.012763742000970524
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            78
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0671216610026022,
+          "construction_seconds": 0.0772940999995626
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            76,
+            77,
+            78
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06625337899822625,
+          "construction_seconds": 0.07658332199935103
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            78
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.2002141289995052,
+          "construction_seconds": 0.22022719200322172
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            76,
+            77,
+            78
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.19898527799887233,
+          "construction_seconds": 0.2135251600011543
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 84,
+      "all_arms_seconds": 0.6477273589989636,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            84
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014441081999393646
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            84
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06743945199923473,
+          "construction_seconds": 0.07792063499800861
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            82,
+            83,
+            84
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06808996699692216,
+          "construction_seconds": 0.07842153599995072
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            84
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20002038099846686,
+          "construction_seconds": 0.21596015600152896
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            82,
+            83,
+            84
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20480631600003107,
+          "construction_seconds": 0.22475266300170915
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 90,
+      "all_arms_seconds": 0.6534023400017759,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            90
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014401893997273874
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            90
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06805923499996425,
+          "construction_seconds": 0.07727295599761419
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            88,
+            89,
+            90
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06786062399987713,
+          "construction_seconds": 0.08141341399823432
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            90
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20369627099717036,
+          "construction_seconds": 0.2240053009991243
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            88,
+            89,
+            90
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20589933100200142,
+          "construction_seconds": 0.2206785980015411
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 140,
+      "all_arms_seconds": 0.6487835359985183,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            140
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.01610230100050103
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            140
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06729046300097252,
+          "construction_seconds": 0.07928226799776894
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            138,
+            139,
+            140
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06697002999862889,
+          "construction_seconds": 0.07909799600020051
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            140
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20064915800321614,
+          "construction_seconds": 0.21767758300120477
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            138,
+            139,
+            140
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2007940650000819,
+          "construction_seconds": 0.21605031700164545
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 145,
+      "all_arms_seconds": 0.6579317379982967,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            145
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.012616173000424169
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            145
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0691837860031228,
+          "construction_seconds": 0.07994246499947621
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            143,
+            144,
+            145
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07081663500139257,
+          "construction_seconds": 0.0822363810002571
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            145
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.21080904799964628,
+          "construction_seconds": 0.23008762300014496
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            143,
+            144,
+            145
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20018408699979773,
+          "construction_seconds": 0.21664306800084887
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 150,
+      "all_arms_seconds": 0.6408945299990592,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            150
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.013109617000736762
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            150
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06676756100205239,
+          "construction_seconds": 0.07621579399710754
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            148,
+            149,
+            150
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06680675600000541,
+          "construction_seconds": 0.07777677400008542
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            150
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20148434400107362,
+          "construction_seconds": 0.21829948899903684
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            148,
+            149,
+            150
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2040422509999189,
+          "construction_seconds": 0.2197145240024838
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 155,
+      "all_arms_seconds": 0.646149124000658,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            155
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.013787115000013728
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            155
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06612275699808379,
+          "construction_seconds": 0.07523663300162298
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            153,
+            154,
+            155
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06608134500129381,
+          "construction_seconds": 0.07538135499999044
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            155
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.2051146689991583,
+          "construction_seconds": 0.22350856499906513
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            153,
+            154,
+            155
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20932109099885565,
+          "construction_seconds": 0.22393473199917935
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 160,
+      "all_arms_seconds": 0.6516485389984155,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            160
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.013250437001261162
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            160
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06839942999795312,
+          "construction_seconds": 0.08011761200032197
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            158,
+            159,
+            160
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06780201700166799,
+          "construction_seconds": 0.07729135900081019
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            160
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.2097824979973666,
+          "construction_seconds": 0.2272136089995911
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            158,
+            159,
+            160
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20391665699935402,
+          "construction_seconds": 0.2195056110031146
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 249,
+      "all_arms_seconds": 0.6478556190013478,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            249
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014386778999323724
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            249
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06945873399672564,
+          "construction_seconds": 0.07879868000236456
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            247,
+            248,
+            249
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06683013599831611,
+          "construction_seconds": 0.0765820150008949
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            249
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20409538300009444,
+          "construction_seconds": 0.2187588449996838
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            247,
+            248,
+            249
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20807365300061065,
+          "construction_seconds": 0.22505375599939725
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 257,
+      "all_arms_seconds": 0.6570715080015361,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            257
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.012915298000734765
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            257
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0671169209999789,
+          "construction_seconds": 0.07839876100115362
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            255,
+            256,
+            257
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07336756600125227,
+          "construction_seconds": 0.08469546999913291
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            257
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20849479699973017,
+          "construction_seconds": 0.2248950769971998
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            255,
+            256,
+            257
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20538091100024758,
+          "construction_seconds": 0.22093663399937213
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 265,
+      "all_arms_seconds": 0.6702992099999392,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            265
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.019155980000505224
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            265
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06969472499986296,
+          "construction_seconds": 0.08129923200249323
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            263,
+            264,
+            265
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.0671622549998574,
+          "construction_seconds": 0.07646507100071176
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            265
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20567006599958404,
+          "construction_seconds": 0.22061436100193532
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            263,
+            264,
+            265
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20989514999746461,
+          "construction_seconds": 0.22738737699910416
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 275,
+      "all_arms_seconds": 0.6393406049974146,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            275
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.015160013997956412
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            275
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0661821579997195,
+          "construction_seconds": 0.07523920499806991
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            273,
+            274,
+            275
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06721384300180944,
+          "construction_seconds": 0.07882473800054868
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            275
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20366033999744104,
+          "construction_seconds": 0.2193284870008938
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            273,
+            274,
+            275
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.19953554099993198,
+          "construction_seconds": 0.2156859370006714
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 909,
+      "all_arms_seconds": 0.6386056459996325,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            909
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.011248287999478634
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            909
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06576433900045231,
+          "construction_seconds": 0.07554471800176543
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            907,
+            908,
+            909
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06751771700146492,
+          "construction_seconds": 0.07895987299707485
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            909
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20197140800155466,
+          "construction_seconds": 0.21679993100042338
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            907,
+            908,
+            909
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20588371499979985,
+          "construction_seconds": 0.2215652630002296
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 915,
+      "all_arms_seconds": 0.6343786550023651,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            915
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.013638725002238061
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            915
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06612656600191258,
+          "construction_seconds": 0.07722969699898385
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            913,
+            914,
+            915
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06665539599998738,
+          "construction_seconds": 0.0764541550015565
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            915
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.200035817000753,
+          "construction_seconds": 0.21590984000067692
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            913,
+            914,
+            915
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.19998126100108493,
+          "construction_seconds": 0.21606734500164748
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 921,
+      "all_arms_seconds": 0.642961343000934,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            921
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014204219001840102
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            921
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06694901100127026,
+          "construction_seconds": 0.07711407100214274
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            919,
+            920,
+            921
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06789117300286307,
+          "construction_seconds": 0.07798950299911667
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            921
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20100497499879566,
+          "construction_seconds": 0.21865141799935373
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            919,
+            920,
+            921
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20499968900185195,
+          "construction_seconds": 0.2215836350005702
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 968,
+      "all_arms_seconds": 0.6555677850010397,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            968
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014543442997819511
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            968
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06707522999931825,
+          "construction_seconds": 0.0768993000019691
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            966,
+            967,
+            968
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.0719084650008881,
+          "construction_seconds": 0.08304209600100876
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            968
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20732612200299627,
+          "construction_seconds": 0.22553341399907367
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            966,
+            967,
+            968
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2035787889981293,
+          "construction_seconds": 0.21820475699860253
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 973,
+      "all_arms_seconds": 0.6490539320002426,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            973
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.016113261997816153
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            973
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06905563899999834,
+          "construction_seconds": 0.07942691599964746
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            971,
+            972,
+            973
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06737564500144799,
+          "construction_seconds": 0.07845108800029266
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            973
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20110891299918876,
+          "construction_seconds": 0.21699720800097566
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            971,
+            972,
+            973
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20399477200044203,
+          "construction_seconds": 0.22039217900237418
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 978,
+      "all_arms_seconds": 0.7008796119989711,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            978
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.015908474000752904
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            978
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07563056199796847,
+          "construction_seconds": 0.08574888500152156
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            976,
+            977,
+            978
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.0720487079997838,
+          "construction_seconds": 0.08243585300078848
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            978
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.22207040799912647,
+          "construction_seconds": 0.23951843000031658
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            976,
+            977,
+            978
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2197872959986853,
+          "construction_seconds": 0.23906816499948036
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 983,
+      "all_arms_seconds": 0.6937917619979999,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            983
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.016101236000395147
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            983
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07263809599680826,
+          "construction_seconds": 0.08302854800058412
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            981,
+            982,
+            983
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07218368599933456,
+          "construction_seconds": 0.0844115520012565
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            983
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.22032523100278922,
+          "construction_seconds": 0.2377278860003571
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            981,
+            982,
+            983
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21758964299806394,
+          "construction_seconds": 0.23405533999903128
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 988,
+      "all_arms_seconds": 0.700693268001487,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            988
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.01599101099782274
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            988
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0778259889993933,
+          "construction_seconds": 0.09044913099933183
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            986,
+            987,
+            988
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07488684700001613,
+          "construction_seconds": 0.0852416230009112
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            988
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.21695139099756489,
+          "construction_seconds": 0.2335914089999278
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            986,
+            987,
+            988
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21935124000083306,
+          "construction_seconds": 0.23773265100317076
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 1069,
+      "all_arms_seconds": 0.6725403169984929,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1069
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.023813604999304516
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1069
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0698180270010198,
+          "construction_seconds": 0.08003575199836632
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1067,
+            1068,
+            1069
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06856003599750693,
+          "construction_seconds": 0.07839042300111032
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1069
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20746716799840215,
+          "construction_seconds": 0.22213218900287757
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1067,
+            1068,
+            1069
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21402512199711055,
+          "construction_seconds": 0.23244119499941007
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 1076,
+      "all_arms_seconds": 0.6781413509997947,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1076
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.017857186998298857
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1076
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0700971340011165,
+          "construction_seconds": 0.081409522001195
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1074,
+            1075,
+            1076
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06882841200058465,
+          "construction_seconds": 0.07825313500143238
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1076
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20674126199810416,
+          "construction_seconds": 0.22231210300014936
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1074,
+            1075,
+            1076
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21029355000064243,
+          "construction_seconds": 0.23849477299881983
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 1083,
+      "all_arms_seconds": 0.6516042279981775,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1083
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.016000897998310393
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1083
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06673031199898105,
+          "construction_seconds": 0.07601064299888094
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1081,
+            1082,
+            1083
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.0682236760003434,
+          "construction_seconds": 0.07774193200020818
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1083
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20890746299846796,
+          "construction_seconds": 0.22536184399723425
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1081,
+            1082,
+            1083
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2072395420000248,
+          "construction_seconds": 0.22231416100112256
+        }
+      ]
+    },
+    {
+      "seq": "06",
+      "endpoint": 1091,
+      "all_arms_seconds": 0.6481819629989332,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1091
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.015147800000704592
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1091
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06694597400201019,
+          "construction_seconds": 0.07729952000227058
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1089,
+            1090,
+            1091
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06637539800067316,
+          "construction_seconds": 0.07595957200101111
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1091
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20197308900242206,
+          "construction_seconds": 0.21781903900046018
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1089,
+            1090,
+            1091
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2044155410003441,
+          "construction_seconds": 0.22430154399989988
+        }
+      ]
+    },
+    {
+      "seq": "07",
+      "endpoint": 0,
+      "all_arms_seconds": 0.34472458100208314,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            0
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.013906552998378174
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            0
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06951394899806473,
+          "construction_seconds": 0.08198222200007876
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            0
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06815321999965818,
+          "construction_seconds": 0.07967378000103054
+        },
+        {
+          "arm": "D",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            0
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0693461170012597,
+          "construction_seconds": 0.07827376199929859
+        },
+        {
+          "arm": "F",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            0
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06919969099908485,
+          "construction_seconds": 0.07957069899930502
+        }
+      ]
+    },
+    {
+      "seq": "07",
+      "endpoint": 13,
+      "all_arms_seconds": 0.6523972670001967,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            13
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.015561462001642212
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            13
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06894313399970997,
+          "construction_seconds": 0.08022970499951043
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            11,
+            12,
+            13
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06953109499954735,
+          "construction_seconds": 0.0788816800013592
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            13
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20371737700043013,
+          "construction_seconds": 0.22015853199991398
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            11,
+            12,
+            13
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2024103389994707,
+          "construction_seconds": 0.2188238700000511
+        }
+      ]
+    },
+    {
+      "seq": "07",
+      "endpoint": 20,
+      "all_arms_seconds": 0.6416937610010791,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            20
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.012566363002406433
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            20
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06689962100062985,
+          "construction_seconds": 0.07626353200248559
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            18,
+            19,
+            20
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06589463999989675,
+          "construction_seconds": 0.0747100379994663
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            20
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.2041342810007336,
+          "construction_seconds": 0.22295359700001427
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            18,
+            19,
+            20
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20215887900121743,
+          "construction_seconds": 0.22053573399898596
+        }
+      ]
+    },
+    {
+      "seq": "07",
+      "endpoint": 25,
+      "all_arms_seconds": 0.6498653009984992,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            25
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.015159524002228864
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            25
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06755532899842365,
+          "construction_seconds": 0.07922345100087114
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            23,
+            24,
+            25
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07042065399946296,
+          "construction_seconds": 0.08031198899698211
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            25
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20157868300157133,
+          "construction_seconds": 0.2180502230003185
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            23,
+            24,
+            25
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2035829129999911,
+          "construction_seconds": 0.22174613900278928
+        }
+      ]
+    },
+    {
+      "seq": "07",
+      "endpoint": 29,
+      "all_arms_seconds": 0.6416726409988769,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            29
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.013067484000202967
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            29
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0665926239998953,
+          "construction_seconds": 0.07774094499836792
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            27,
+            28,
+            29
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06677217100150301,
+          "construction_seconds": 0.07588043600117089
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            29
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20085750100042787,
+          "construction_seconds": 0.2175000759998511
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            27,
+            28,
+            29
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20633485700091114,
+          "construction_seconds": 0.22309269299876178
+        }
+      ]
+    },
+    {
+      "seq": "07",
+      "endpoint": 33,
+      "all_arms_seconds": 0.6742325170016557,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            33
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.01887500100201578
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            33
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06656160800048383,
+          "construction_seconds": 0.07863596599781886
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            31,
+            32,
+            33
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06889508200038108,
+          "construction_seconds": 0.08246935100032715
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            33
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.21041944599710405,
+          "construction_seconds": 0.23036749500170117
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            31,
+            32,
+            33
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20880013400164898,
+          "construction_seconds": 0.2236949200014351
+        }
+      ]
+    },
+    {
+      "seq": "07",
+      "endpoint": 37,
+      "all_arms_seconds": 0.6653787420000299,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            37
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.01485124900136725
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            37
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07729931900030351,
+          "construction_seconds": 0.09247330200014403
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            35,
+            36,
+            37
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06518057200082694,
+          "construction_seconds": 0.07884839500184171
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            37
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20200241800193908,
+          "construction_seconds": 0.21853508699859958
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            35,
+            36,
+            37
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20861257700016722,
+          "construction_seconds": 0.22585182699913275
+        }
+      ]
+    },
+    {
+      "seq": "07",
+      "endpoint": 1063,
+      "all_arms_seconds": 0.6578678960031539,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1063
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.013632057001814246
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1063
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0671237159986049,
+          "construction_seconds": 0.07692838900038623
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1061,
+            1062,
+            1063
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06806520399914007,
+          "construction_seconds": 0.08080291800069972
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1063
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20836441999927047,
+          "construction_seconds": 0.22452670200073044
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1061,
+            1062,
+            1063
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20825339099974371,
+          "construction_seconds": 0.22602578999794787
+        }
+      ]
+    },
+    {
+      "seq": "07",
+      "endpoint": 1076,
+      "all_arms_seconds": 0.6523637079990294,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1076
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.01665906299967901
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1076
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06614857800013851,
+          "construction_seconds": 0.07612508599777357
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1074,
+            1075,
+            1076
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06833075100075803,
+          "construction_seconds": 0.07739335499718436
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1076
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20472565599993686,
+          "construction_seconds": 0.22069047799959662
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1074,
+            1075,
+            1076
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20197602299958817,
+          "construction_seconds": 0.2200192159980361
+        }
+      ]
+    },
+    {
+      "seq": "07",
+      "endpoint": 1100,
+      "all_arms_seconds": 0.655556517001969,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1100
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014235175000067102
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1100
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06784346100175753,
+          "construction_seconds": 0.07690587500110269
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1098,
+            1099,
+            1100
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06909509799879743,
+          "construction_seconds": 0.07903743100177962
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1100
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.2056474220007658,
+          "construction_seconds": 0.2223170890028996
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1098,
+            1099,
+            1100
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20734209599686437,
+          "construction_seconds": 0.22768844299935154
+        }
+      ]
+    },
+    {
+      "seq": "09",
+      "endpoint": 0,
+      "all_arms_seconds": 0.34657719300230383,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            0
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.01706708200072171
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            0
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06797950700274669,
+          "construction_seconds": 0.07882677299858187
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            0
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06505496300087543,
+          "construction_seconds": 0.07820553000055952
+        },
+        {
+          "arm": "D",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            0
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06974606299991137,
+          "construction_seconds": 0.07873783000104595
+        },
+        {
+          "arm": "F",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            0
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06867240300198318,
+          "construction_seconds": 0.0783114090008894
+        }
+      ]
+    },
+    {
+      "seq": "09",
+      "endpoint": 16,
+      "all_arms_seconds": 0.6565139849990373,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            16
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.015147472000535345
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            16
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06825876999937464,
+          "construction_seconds": 0.07753995899838628
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            14,
+            15,
+            16
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06781988199873012,
+          "construction_seconds": 0.07788298800005578
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            16
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20287667700176826,
+          "construction_seconds": 0.21872194599927752
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            14,
+            15,
+            16
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.2130402580005466,
+          "construction_seconds": 0.22842394899998908
+        }
+      ]
+    },
+    {
+      "seq": "09",
+      "endpoint": 28,
+      "all_arms_seconds": 0.6478581900009885,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            28
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.01436696699965978
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            28
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06609673699858831,
+          "construction_seconds": 0.07522161599990795
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            26,
+            27,
+            28
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06896681600119337,
+          "construction_seconds": 0.07971700099733425
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            28
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20349266600169358,
+          "construction_seconds": 0.2202015359980578
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            26,
+            27,
+            28
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20369338900127332,
+          "construction_seconds": 0.220266102001915
+        }
+      ]
+    },
+    {
+      "seq": "09",
+      "endpoint": 1566,
+      "all_arms_seconds": 0.7153139430010924,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1566
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014283569002145668
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1566
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07204719400033355,
+          "construction_seconds": 0.08376474200122175
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1564,
+            1565,
+            1566
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07339629299895023,
+          "construction_seconds": 0.08275071900061448
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1566
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.22558395099986228,
+          "construction_seconds": 0.2453095970013237
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1564,
+            1565,
+            1566
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.22847650999756297,
+          "construction_seconds": 0.2462182759991265
+        }
+      ]
+    },
+    {
+      "seq": "09",
+      "endpoint": 1574,
+      "all_arms_seconds": 0.7082811159998528,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1574
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.015716554000391625
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1574
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07412582899996778,
+          "construction_seconds": 0.08523716899799183
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1572,
+            1573,
+            1574
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.07498215199666447,
+          "construction_seconds": 0.08425933300168253
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1574
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.2231381589990633,
+          "construction_seconds": 0.24208446999909938
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1572,
+            1573,
+            1574
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.21787824599960004,
+          "construction_seconds": 0.2351931320008589
+        }
+      ]
+    },
+    {
+      "seq": "09",
+      "endpoint": 1583,
+      "all_arms_seconds": 0.6592828309985634,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1583
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014591073999326909
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1583
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.07169655100005912,
+          "construction_seconds": 0.08342109799923492
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1581,
+            1582,
+            1583
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06789951399696292,
+          "construction_seconds": 0.08062196800165111
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1583
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20416401300099096,
+          "construction_seconds": 0.22170325899787713
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1581,
+            1582,
+            1583
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.19988439299777383,
+          "construction_seconds": 0.21644078900135355
+        }
+      ]
+    },
+    {
+      "seq": "09",
+      "endpoint": 1590,
+      "all_arms_seconds": 0.6489173449990631,
+      "arms": [
+        {
+          "arm": "A",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1590
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.0,
+          "construction_seconds": 0.014559045997884823
+        },
+        {
+          "arm": "S",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1590
+          ],
+          "counts": [
+            4000
+          ],
+          "normal_seconds": 0.06684369600043283,
+          "construction_seconds": 0.07757791699987138
+        },
+        {
+          "arm": "C",
+          "points": 4000,
+          "valid_normals": 4000,
+          "frames": [
+            1588,
+            1589,
+            1590
+          ],
+          "counts": [
+            1333,
+            1333,
+            1334
+          ],
+          "normal_seconds": 0.06935550500202226,
+          "construction_seconds": 0.07929477699872223
+        },
+        {
+          "arm": "D",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1590
+          ],
+          "counts": [
+            12000
+          ],
+          "normal_seconds": 0.20053476199973375,
+          "construction_seconds": 0.21790287900148542
+        },
+        {
+          "arm": "F",
+          "points": 12000,
+          "valid_normals": 12000,
+          "frames": [
+            1588,
+            1589,
+            1590
+          ],
+          "counts": [
+            4000,
+            4000,
+            4000
+          ],
+          "normal_seconds": 0.20682972299982794,
+          "construction_seconds": 0.22382282200123882
+        }
+      ]
+    }
+  ],
+  "no_unique_scene_independence_claim": true
+}

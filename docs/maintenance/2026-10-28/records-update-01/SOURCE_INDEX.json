@@ -1,0 +1,90 @@
+{
+  "final_seals": [
+    {
+      "scope": "continuation-01",
+      "seal_sha256": "ffcd4fb4f423214178e921cf067608755d5e6be160bd2244c55aadd13549db46",
+      "entries_verified": 17
+    },
+    {
+      "scope": "kitti-access-page-request-01",
+      "seal_sha256": "58442287fd415dc403deb8673b7a63ecf2a649a7cea791c9047b0b140f7b775d",
+      "entries_verified": 27
+    },
+    {
+      "scope": "kitti-registration-page-request-01",
+      "seal_sha256": "03bb58ae9748b13be6e5d8c7e55df1f05d54fd1c579a98045519a925f83e8f5a",
+      "entries_verified": 28
+    },
+    {
+      "scope": "image-archive-admission-01",
+      "seal_sha256": "e53a84199da0e2e13c943ee0a1a57294766096b763ae22f7d6426bcd398ebcf8",
+      "entries_verified": 15
+    },
+    {
+      "scope": "image-packet-verification-01",
+      "seal_sha256": "faf856d81017585f7106321d0c2cdb29aa59040a1e63bfedbf8609e33171a93f",
+      "entries_verified": 291
+    },
+    {
+      "scope": "visual-runtime-readiness-01",
+      "seal_sha256": "4722be439528e746c22285d83b0034e829e4699380cb682dbf310a9bd5792ea3",
+      "entries_verified": 11
+    },
+    {
+      "scope": "visual-environment-census-01",
+      "seal_sha256": "afc2a1edccdbe65c1eb533ca7d400bbd28c767c8f831051fa6955f0bf9cb36e7",
+      "entries_verified": 10
+    },
+    {
+      "scope": "opencv-metadata-request-01",
+      "seal_sha256": "c088e9a87b3a24dd6621b2e6fb6352c273240802f347ff1a4db65497397bc5f5",
+      "entries_verified": 26
+    },
+    {
+      "scope": "vision-runtime-install-01",
+      "seal_sha256": "25a9784f997becc036a06c910af36e5cfe452dd51db949ea8a781bfe30fb9486",
+      "entries_verified": 15
+    },
+    {
+      "scope": "vision-runtime-resume-01",
+      "seal_sha256": "02ce169cdfdb1b441686cecac10731c439833e9eb33a3b221f7bafcfe4128d9a",
+      "entries_verified": 14
+    },
+    {
+      "scope": "camera-frustum-support-01",
+      "seal_sha256": "d50529dd02b1467f69b31088882f2ebb0a1c5b560059fad6ba987253191d443c",
+      "entries_verified": 20
+    },
+    {
+      "scope": "camera-observation-continuation-01",
+      "seal_sha256": "37d94ddba0bebfaf81dddab11f0bca959b1af58bb815d913b86a11e5f002c731",
+      "entries_verified": 14
+    },
+    {
+      "scope": "vision-runtime-local-01",
+      "seal_sha256": "90616dc84fb2df6a8ca7eaf6b8ab06973f94a2f8e79f0601547daa606c521c72",
+      "entries_verified": 76
+    }
+  ],
+  "later_additives": [
+    {
+      "path": "camera-observation-continuation-01/ACCOUNT_03_ADDITIVE.json",
+      "bytes": 632,
+      "sha256": "aa2ef0230523a93cedf4a6f50f41234203345cc8f5539706b21d974291f0e70f",
+      "role": "Additive after the original delivery seal; independently bound here"
+    },
+    {
+      "path": "vision-runtime-local-01/ACCOUNT_ADDITIVE.json",
+      "bytes": 524,
+      "sha256": "44082a67575789b2c328b8a62df193843e9a62c9a3e0ad6cb8f9601b01ec4bb3",
+      "role": "Additive after the original delivery seal; independently bound here"
+    },
+    {
+      "path": "vision-runtime-local-01/NEXT_PLAN_ADDITIVE.md",
+      "bytes": 1557,
+      "sha256": "268d95bedd3dc0b5ffec55b3941f6b91bce2e769cafc3686ae21f6d4f2c1e972",
+      "role": "Additive after the original delivery seal; independently bound here"
+    }
+  ],
+  "all_original_files_preserved": true
+}

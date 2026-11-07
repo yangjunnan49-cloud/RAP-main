@@ -1,0 +1,22 @@
+{
+  "_readme": "Verbatim transcription of PIN-SLAM T-RO 2024 (arXiv 2401.09101v2) Table IV, page 11 of sources/2401.09101v2_pin_slam.pdf (sha256 adbb1b9eab69aa4ba338b2ba52214532675d037cf9808deb6068470d9c92950c). Metric: ATE RMSE [m] after Umeyama SE(3) trajectory alignment, motion-compensated point clouds, printed at decimeter precision. '*' = sequence with loops; Avg.* = average on loop sequences; Avg. = average column as printed. 'offline_pgo' flags methods marked \u2021 (offline pose graph optimization). PIN-LO/PIN-SLAM rows are means over 10 random-seed runs (std omitted here). Transcribed 2026-09-19; independent re-extraction check in validate_horizontal_comparison.py.",
+  "source": "PIN-SLAM T-RO 2024 preprint, Table IV, page 11",
+  "metric": "ATE RMSE [m], Umeyama-aligned, decimeter precision",
+  "seqs": ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10"],
+  "loop_seqs": ["00", "02", "05", "06", "07", "08", "09"],
+  "methods": {
+    "SuMa":         { "ate": [1.1, 14.6, 8.0, 1.0, 0.3, 0.7, 0.6, 1.1, 3.7, 1.2, 1.4], "avg_loops": 2.3, "avg": 3.1, "offline_pgo": false },
+    "MULLS":        { "ate": [1.1,  1.9, 5.4, 0.7, 0.9, 1.0, 0.3, 0.4, 2.9, 2.1, 1.1], "avg_loops": 1.9, "avg": 1.6, "offline_pgo": false },
+    "Litamin2":     { "ate": [1.3, 15.9, 3.2, 0.8, 0.7, 0.6, 0.8, 0.5, 2.1, 2.1, 1.0], "avg_loops": 1.5, "avg": 2.4, "offline_pgo": false },
+    "SC-LeGO-LOAM": { "ate": [2.3, 19.7, 5.3, 1.6, 0.4, 1.2, 1.0, 1.5, 5.9, 2.0, 1.7], "avg_loops": 2.7, "avg": 5.3, "offline_pgo": false },
+    "HLBA":         { "ate": [0.8,  1.9, 5.1, 0.6, 0.8, 0.4, 0.2, 0.3, 2.7, 1.3, 1.1], "avg_loops": 1.5, "avg": 1.4, "offline_pgo": true },
+    "SC-F-LOAM":    { "ate": [1.3,  4.7, 3.3, 0.7, 0.3, 1.2, 0.4, 0.5, 3.0, 1.3, 1.6], "avg_loops": 1.6, "avg": 1.7, "offline_pgo": true },
+    "SC-KISS-ICP":  { "ate": [1.0,  3.7, 1.9, 0.4, 0.3, 0.3, 0.3, 0.3, 2.2, 1.0, 0.8], "avg_loops": 1.0, "avg": 1.1, "offline_pgo": true },
+    "PIN-LO":       { "ate": [5.6,  4.3, 9.3, 0.7, 0.1, 1.7, 0.5, 0.5, 3.0, 1.8, 0.8], "avg_loops": 3.2, "avg": 2.6, "offline_pgo": false },
+    "PIN-SLAM":     { "ate": [0.8,  4.3, 2.1, 0.7, 0.1, 0.3, 0.4, 0.3, 2.1, 1.2, 0.8], "avg_loops": 1.0, "avg": 1.2, "offline_pgo": false }
+  },
+  "known_transcription_notes": [
+    "Naive 11-sequence mean of the printed Litamin2 row is 2.64, but the printed Avg. is 2.4; the naive mean of SC-LeGO-LOAM is 3.87, but the printed Avg. is 5.3. All other rows match naive means at decimeter rounding. The caption does not define the plain Avg. column beyond Avg.*; printed values are kept verbatim and the inconsistency is reported, not corrected.",
+    "Third-party surveys transcribe the arXiv v1 of this table (e.g. PIN-SLAM seq 02 = 3.3); the archived T-RO v2 PDF prints 2.1. This file follows the archived T-RO version only."
+  ]
+}

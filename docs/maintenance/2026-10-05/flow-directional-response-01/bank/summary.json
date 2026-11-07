@@ -1,0 +1,117 @@
+{
+  "rows": [
+    {
+      "name": "synthetic-rigid",
+      "decode_max_delta": 2.220446049250313e-16,
+      "gauge_pose_delta": 1.2434497875801753e-14,
+      "gauge_matrix_delta": 4.691715378983873e-28,
+      "trace_normalized": 2.071562339796198e-28,
+      "max_eigen_share": null,
+      "joint_independent_relative_difference": 1.2783815564891065e-09,
+      "min_retained": 436
+    },
+    {
+      "name": "synthetic-deformed",
+      "decode_max_delta": null,
+      "gauge_pose_delta": 3.053018450029088e-15,
+      "gauge_matrix_delta": 6.401942777983782e-16,
+      "trace_normalized": 0.3991462891637645,
+      "max_eigen_share": 0.9060110402713878,
+      "joint_independent_relative_difference": 3.808060470487051e-14,
+      "min_retained": 436
+    },
+    {
+      "name": "synthetic-wrong-rigid",
+      "decode_max_delta": 2.0000000000000004,
+      "gauge_pose_delta": 3.4286809502681592e-15,
+      "gauge_matrix_delta": 3.044185395751093e-28,
+      "trace_normalized": 5.667038577319082e-28,
+      "max_eigen_share": null,
+      "joint_independent_relative_difference": 5.702791224463308e-10,
+      "min_retained": 392
+    },
+    {
+      "name": "00_24_629",
+      "decode_max_delta": 1.0509395067970217e-05,
+      "gauge_pose_delta": 1.9895196601282805e-13,
+      "gauge_matrix_delta": 2.282618538629322e-13,
+      "trace_normalized": 29.916046915890533,
+      "max_eigen_share": 0.9673136520155701,
+      "joint_independent_relative_difference": 0.1629747552038992,
+      "min_retained": 672
+    },
+    {
+      "name": "00_210_1656",
+      "decode_max_delta": 3.193024927128363e-06,
+      "gauge_pose_delta": 1.1601830607332886e-13,
+      "gauge_matrix_delta": 3.3084646133829665e-14,
+      "trace_normalized": 35.86360918962347,
+      "max_eigen_share": 0.9688333954996073,
+      "joint_independent_relative_difference": 0.4595986151937014,
+      "min_retained": 666
+    },
+    {
+      "name": "00_422_3496",
+      "decode_max_delta": 9.420916587288275e-06,
+      "gauge_pose_delta": 9.592326932761353e-14,
+      "gauge_matrix_delta": 6.021849685566849e-13,
+      "trace_normalized": 345.9896104961752,
+      "max_eigen_share": 0.9946254017019281,
+      "joint_independent_relative_difference": 0.34950504020304146,
+      "min_retained": 665
+    },
+    {
+      "name": "00_956_3859",
+      "decode_max_delta": 4.531502575844115e-06,
+      "gauge_pose_delta": 3.530509218307998e-14,
+      "gauge_matrix_delta": 5.069729358542219e-15,
+      "trace_normalized": 0.9599386619867761,
+      "max_eigen_share": 0.7473722371092016,
+      "joint_independent_relative_difference": 0.3013743477119463,
+      "min_retained": 775
+    },
+    {
+      "name": "08_569_1554",
+      "decode_max_delta": 3.949899358701714e-06,
+      "gauge_pose_delta": 7.105427357601002e-14,
+      "gauge_matrix_delta": 4.463096558993129e-14,
+      "trace_normalized": 34.76531016023919,
+      "max_eigen_share": 0.9818572792609234,
+      "joint_independent_relative_difference": 0.480623925787919,
+      "min_retained": 1006
+    },
+    {
+      "name": "08_583_802",
+      "decode_max_delta": 3.21686228161866e-05,
+      "gauge_pose_delta": 1.2079226507921703e-13,
+      "gauge_matrix_delta": 8.870681966755001e-14,
+      "trace_normalized": 41.43051342835898,
+      "max_eigen_share": 0.8618248527687202,
+      "joint_independent_relative_difference": 0.414232361182396,
+      "min_retained": 1003
+    },
+    {
+      "name": "08_2688_3954",
+      "decode_max_delta": 1.765918303675562e-05,
+      "gauge_pose_delta": 1.1368683772161603e-13,
+      "gauge_matrix_delta": 2.9398705692074145e-13,
+      "trace_normalized": 109.98919925915187,
+      "max_eigen_share": 0.9635377815154268,
+      "joint_independent_relative_difference": 0.6345178950064209,
+      "min_retained": 626
+    },
+    {
+      "name": "08_337_1742",
+      "decode_max_delta": 7.580954655139749e-06,
+      "gauge_pose_delta": 1.4022116801015727e-13,
+      "gauge_matrix_delta": 3.2307490016592055e-14,
+      "trace_normalized": 51.90273064053995,
+      "max_eigen_share": 0.9841145777758331,
+      "joint_independent_relative_difference": 0.3537614814426394,
+      "min_retained": 1321
+    }
+  ],
+  "wall_s": 0.6029007800389081,
+  "peak_rss_gib": 0.06554412841796875,
+  "gt_files_read": false
+}

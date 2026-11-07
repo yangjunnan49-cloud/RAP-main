@@ -1,0 +1,43 @@
+[
+  {
+    "stage": "freeze",
+    "success": true,
+    "utc": "2026-10-10T14:34:49.546653+00:00",
+    "wall_seconds": 3.226867948999825,
+    "peak_RSS_bytes": 509001728,
+    "peak_GPU_allocated_bytes": 0,
+    "peak_GPU_reserved_bytes": 0,
+    "artifact_bytes": 89526
+  },
+  {
+    "stage": "reused_sealed_inputs",
+    "success": true,
+    "utc": "2026-10-10T14:35:02.952158+00:00",
+    "wall_seconds": 2.2449580500001503,
+    "peak_RSS_bytes": 509530112,
+    "peak_GPU_allocated_bytes": 0,
+    "peak_GPU_reserved_bytes": 0,
+    "artifact_bytes": 1532329
+  },
+  {
+    "stage": "native_numerical_preflight",
+    "success": true,
+    "utc": "2026-10-10T14:35:21.809293+00:00",
+    "wall_seconds": 10.3852510669999,
+    "peak_RSS_bytes": 3044179968,
+    "peak_GPU_allocated_bytes": 622251008,
+    "peak_GPU_reserved_bytes": 664797184,
+    "artifact_bytes": 19502145
+  },
+  {
+    "stage": "validate_preflight",
+    "success": false,
+    "utc": "2026-10-10T14:36:02.508929+00:00",
+    "wall_seconds": 11.945113567000135,
+    "peak_RSS_bytes": 3003793408,
+    "peak_GPU_allocated_bytes": 616067584,
+    "peak_GPU_reserved_bytes": 656408576,
+    "artifact_bytes": 37460355,
+    "error": "AssertionError()"
+  }
+]

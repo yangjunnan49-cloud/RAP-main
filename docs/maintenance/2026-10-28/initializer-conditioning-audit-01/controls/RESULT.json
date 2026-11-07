@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "completed_utc": "2026-10-28T13:25:28.515541+00:00",
+  "elapsed_seconds": 0.17099999997299165,
+  "child_lifetime_peak_bytes": 39456768,
+  "audited_read_paths": [
+    "e:\\githouse\\rap-main\\docs\\maintenance\\2026-10-28\\initializer-conditioning-audit-01\\controls\\cold.npy"
+  ],
+  "torch_imported": false,
+  "source_AST_exact": true,
+  "metamorphic_cases": [
+    {
+      "primary_part": 0,
+      "counts": [
+        8,
+        7
+      ],
+      "base_scale": 2.8125,
+      "shifted_scale": 2.8125,
+      "scale_difference": 0.0,
+      "source_delta_raw_m": [
+        2.0,
+        -1.0,
+        0.5
+      ],
+      "quantized_source_float32": false,
+      "condition_byte_equal": true,
+      "max_condition_difference": 0.0,
+      "independent_closed_form_error": 1.9868214962137642e-08,
+      "max_center_error": 4.440892098500626e-16,
+      "representation_budget": 4.340277777777778e-05
+    },
+    {
+      "primary_part": 0,
+      "counts": [
+        8,
+        7
+      ],
+      "base_scale": 2.8125,
+      "shifted_scale": 2.8125,
+      "scale_difference": 0.0,
+      "source_delta_raw_m": [
+        2.0,
+        -1.0,
+        0.5
+      ],
+      "quantized_source_float32": true,
+      "condition_byte_equal": true,
+      "max_condition_difference": 0.0,
+      "independent_closed_form_error": 1.9868214962137642e-08,
+      "max_center_error": 4.440892098500626e-16,
+      "representation_budget": 4.340277777777778e-05
+    },
+    {
+      "primary_part": 1,
+      "counts": [
+        7,
+        8
+      ],
+      "base_scale": 2.8125,
+      "shifted_scale": 2.8125,
+      "scale_difference": 0.0,
+      "source_delta_raw_m": [
+        2.0,
+        -1.0,
+        0.5
+      ],
+      "quantized_source_float32": false,
+      "condition_byte_equal": true,
+      "max_condition_difference": 0.0,
+      "independent_closed_form_error": 1.9868214962137642e-08,
+      "max_center_error": 2.914335439641036e-16,
+      "representation_budget": 4.340277777777778e-05
+    },
+    {
+      "primary_part": 1,
+      "counts": [
+        7,
+        8
+      ],
+      "base_scale": 2.8125,
+      "shifted_scale": 2.8125,
+      "scale_difference": 0.0,
+      "source_delta_raw_m": [
+        2.0,
+        -1.0,
+        0.5
+      ],
+      "quantized_source_float32": true,
+      "condition_byte_equal": true,
+      "max_condition_difference": 0.0,
+      "independent_closed_form_error": 1.9868214962137642e-08,
+      "max_center_error": 2.914335439641036e-16,
+      "representation_budget": 4.340277777777778e-05
+    }
+  ],
+  "both_anchor_branches": true,
+  "cold_array_and_read_gate": true,
+  "nontranslation_changes_coordinates": true,
+  "raw_model_or_reference_calls": 0
+}

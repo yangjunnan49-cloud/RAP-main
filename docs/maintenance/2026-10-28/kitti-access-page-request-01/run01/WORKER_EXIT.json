@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "error": null,
+  "elapsed_seconds": 2.25,
+  "peak_working_set_bytes": 29913088,
+  "cumulative_delivered_body_bytes": 9705,
+  "requests": 1,
+  "all_request_rows": [
+    {
+      "index": 0,
+      "url": "https://www.cvlibs.net/datasets/kitti/user_login.php",
+      "method": "GET",
+      "request_headers": {
+        "User-Agent": "RAP-source-audit/1.0",
+        "Accept": "text/html,application/xhtml+xml;q=0.9",
+        "Accept-Encoding": "identity",
+        "Connection": "close"
+      },
+      "body_bytes": 9705,
+      "EOF": true,
+      "status": 200,
+      "reason": "OK",
+      "response_headers": [
+        [
+          "Server",
+          "nginx"
+        ],
+        [
+          "Date",
+          "Wed, 28 Oct 2026 01:34:35 GMT"
+        ],
+        [
+          "Content-Type",
+          "text/html; charset=UTF-8"
+        ],
+        [
+          "Transfer-Encoding",
+          "chunked"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Vary",
+          "Accept-Encoding"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "Referrer-Policy",
+          "strict-origin-when-cross-origin"
+        ],
+        [
+          "X-Frame-Options",
+          "SAMEORIGIN"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=31536000"
+        ]
+      ],
+      "body_file": "00.body",
+      "body_sha256": "DD7F1DC49283AD45BC8623EC741D0E0B61ADEFE9DC51B5EBE3307CA1F8D4ED8B"
+    }
+  ],
+  "whole_scope_not_retried": true
+}

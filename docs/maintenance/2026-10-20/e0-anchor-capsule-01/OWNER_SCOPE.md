@@ -1,0 +1,7 @@
+# Reusable source-anchor component delivery
+
+The owner prioritizes concrete system deliverables. The original G implementation currently imports repository-specific experiment utilities. Extract its exact tested fine-graph function into a reusable module with explicit optimizer configuration and strict file/schema entry point. This is an engineering portability question, not a new accuracy candidate, parameter rescue, retired-family trial or promotion of the failed individual protections.
+
+Prove AST equality to the frozen fine function after only adding the explicit configuration parameter and replacing its original repository configuration expression. Then exercise the portable CLI on ALL SIX already-frozen initial/odometry/anchor inputs and compare every returned matrix to the existing sealed G trajectory within1e-8. No raw scans, detection, GT numeric reads or pose-accuracy metrics. Keep every original outcome unchanged. Full-six equivalence supplies implementation compatibility, not independent optimizer confirmation or bitwise/native-build determinism.
+
+The real graph calls are charged under the SAME original LMB1800s/4GiB Python/128MiB combined original+extension+capsule/GPU0 scope. Prior1062.9368371s remains charged, no reset. Original12GiB Windows launch guard applies. The capsule has its own receipts/seal because previous delivery files/seals are immutable. No installed library, production/default, reference, model, Git, outreach, scheduler or goal-status edit.

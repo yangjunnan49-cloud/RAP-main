@@ -1,0 +1,1792 @@
+{
+  "records": [
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "nominal_head_parameters": 6150,
+      "base_common_across_arms": true,
+      "parameters_initial_zero": true,
+      "head_fits": 0
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "nominal_head_parameters": 6150,
+      "base_common_across_arms": true,
+      "parameters_initial_zero": true,
+      "head_fits": 0
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "nominal_head_parameters": 6150,
+      "base_common_across_arms": true,
+      "parameters_initial_zero": true,
+      "head_fits": 0
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "nominal_head_parameters": 6150,
+      "base_common_across_arms": true,
+      "parameters_initial_zero": true,
+      "head_fits": 0
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "nominal_head_parameters": 6150,
+      "base_common_across_arms": true,
+      "parameters_initial_zero": true,
+      "head_fits": 0
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "nominal_head_parameters": 6150,
+      "base_common_across_arms": true,
+      "parameters_initial_zero": true,
+      "head_fits": 0
+    }
+  ],
+  "FD_trials": [
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 0,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_0_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 0,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_0_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 0,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_0_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 0,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_0_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 1,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_1_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 1,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_1_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 1,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_1_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 1,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_1_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 2,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_2_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 2,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_2_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 2,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_2_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 2,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_2_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 3,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_3_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 3,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_3_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 3,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_3_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 3,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_3_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 4,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_4_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 4,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_4_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 4,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_4_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 4,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_4_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 5,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_5_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 5,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_5_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 5,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_5_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 5,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_5_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 6,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_6_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 6,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_6_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 6,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_6_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 6,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_6_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 7,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_7_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 7,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_7_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 7,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_7_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 7,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_7_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 8,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_8_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 8,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_8_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 8,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_D_pointwise/direction_8_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "D_pointwise",
+      "direction": 8,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_D_pointwise/direction_8_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 0,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_0_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 0,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_0_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 0,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_0_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 0,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_0_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 1,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_1_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 1,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_1_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 1,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_1_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 1,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_1_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 2,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_2_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 2,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_2_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 2,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_2_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 2,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_2_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 3,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_3_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 3,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_3_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 3,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_3_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 3,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_3_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 4,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_4_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 4,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_4_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 4,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_4_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 4,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_4_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 5,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_5_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 5,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_5_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 5,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_5_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 5,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_5_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 6,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_6_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 6,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_6_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 6,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_6_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 6,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_6_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 7,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_7_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 7,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_7_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 7,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_7_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 7,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_7_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 8,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_8_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 8,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_8_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 8,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_I_separated/direction_8_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "I_separated",
+      "direction": 8,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_I_separated/direction_8_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 0,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_0_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 0,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_0_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 0,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_0_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 0,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_0_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 1,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_1_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 1,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_1_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 1,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_1_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 1,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_1_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 2,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_2_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 2,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_2_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 2,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_2_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 2,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_2_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 3,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_3_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 3,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_3_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 3,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_3_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 3,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_3_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 4,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_4_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 4,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_4_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 4,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_4_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 4,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_4_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 5,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_5_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 5,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_5_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 5,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_5_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 5,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_5_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 6,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_6_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 6,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_6_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 6,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_6_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 6,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_6_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 7,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_7_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 7,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_7_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 7,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_7_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 7,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_7_1e-05_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 8,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_8_0.0001_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 8,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_8_0.0001_+1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 8,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/fit_00_J_joint/direction_8_1e-05_-1.npy"
+    },
+    {
+      "noise": "fit_00",
+      "arm": "J_joint",
+      "direction": 8,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/fit_00_J_joint/direction_8_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 0,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_0_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 0,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_0_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 0,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_0_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 0,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_0_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 1,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_1_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 1,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_1_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 1,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_1_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 1,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_1_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 2,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_2_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 2,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_2_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 2,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_2_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 2,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_2_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 3,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_3_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 3,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_3_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 3,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_3_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 3,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_3_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 4,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_4_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 4,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_4_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 4,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_4_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 4,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_4_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 5,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_5_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 5,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_5_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 5,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_5_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 5,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_5_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 6,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_6_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 6,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_6_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 6,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_6_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 6,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_6_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 7,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_7_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 7,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_7_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 7,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_7_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 7,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_7_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 8,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_8_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 8,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_8_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 8,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_D_pointwise/direction_8_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "D_pointwise",
+      "direction": 8,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_D_pointwise/direction_8_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 0,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_0_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 0,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_0_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 0,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_0_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 0,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_0_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 1,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_1_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 1,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_1_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 1,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_1_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 1,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_1_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 2,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_2_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 2,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_2_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 2,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_2_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 2,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_2_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 3,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_3_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 3,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_3_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 3,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_3_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 3,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_3_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 4,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_4_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 4,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_4_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 4,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_4_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 4,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_4_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 5,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_5_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 5,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_5_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 5,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_5_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 5,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_5_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 6,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_6_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 6,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_6_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 6,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_6_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 6,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_6_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 7,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_7_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 7,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_7_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 7,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_7_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 7,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_7_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 8,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_8_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 8,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_8_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 8,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_I_separated/direction_8_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "I_separated",
+      "direction": 8,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_I_separated/direction_8_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 0,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_0_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 0,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_0_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 0,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_0_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 0,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_0_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 1,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_1_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 1,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_1_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 1,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_1_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 1,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_1_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 2,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_2_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 2,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_2_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 2,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_2_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 2,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_2_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 3,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_3_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 3,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_3_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 3,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_3_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 3,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_3_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 4,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_4_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 4,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_4_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 4,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_4_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 4,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_4_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 5,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_5_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 5,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_5_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 5,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_5_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 5,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_5_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 6,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_6_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 6,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_6_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 6,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_6_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 6,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_6_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 7,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_7_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 7,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_7_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 7,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_7_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 7,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_7_1e-05_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 8,
+      "step": 0.0001,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_8_0.0001_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 8,
+      "step": 0.0001,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_8_0.0001_+1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 8,
+      "step": 1e-05,
+      "sign": -1,
+      "path": "traces/eval_00_J_joint/direction_8_1e-05_-1.npy"
+    },
+    {
+      "noise": "eval_00",
+      "arm": "J_joint",
+      "direction": 8,
+      "step": 1e-05,
+      "sign": 1,
+      "path": "traces/eval_00_J_joint/direction_8_1e-05_+1.npy"
+    }
+  ],
+  "CPU_head_forwards": 246,
+  "CPU_head_backwards": 12,
+  "native_model_loads": 0,
+  "native_backwards": 0,
+  "native_forwards": 0,
+  "optimizer_calls": 0,
+  "retained_updates": 0,
+  "GT_pose_errors": 0,
+  "teacher_or_truth_loaded": false,
+  "head_parameters_remain_zero": true
+}
