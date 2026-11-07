@@ -1,0 +1,24 @@
+test_cpu_probe_guard_fails_before_importing_torch (test_environment_tools.EnvironmentToolsTests) ... ok
+test_existing_receipt_is_not_overwritten (test_environment_tools.EnvironmentToolsTests) ... ok
+test_metadata_cli_isolated_from_other_cwd (test_environment_tools.EnvironmentToolsTests) ... ok
+test_metadata_reads_without_import_and_deduplicates_paths (test_environment_tools.EnvironmentToolsTests) ... ok
+test_metadata_refuses_site_initialization_mode (test_environment_tools.EnvironmentToolsTests) ... ok
+test_backend_missing_feature_file_only_required_when_enabled (test_runtime_paths.RuntimeTests) ... ok
+test_check_never_dispatches_or_creates_output (test_runtime_paths.RuntimeTests) ... ok
+test_evaluation_checks_explicit_references (test_runtime_paths.RuntimeTests) ... ok
+test_execute_dispatch_is_same_interpreter_without_shell (test_runtime_paths.RuntimeTests) ... ok
+test_forwarded_path_overrides_rejected (test_runtime_paths.RuntimeTests) ... ok
+test_invalid_config_and_unknown_keys (test_runtime_paths.RuntimeTests) ... ok
+test_invalid_run_id_rejected (test_runtime_paths.RuntimeTests) ... ok
+test_missing_checkpoint_execute_is_blocked (test_runtime_paths.RuntimeTests) ... ok
+test_missing_files_and_existing_output_fail_before_dispatch (test_runtime_paths.RuntimeTests) ... ok
+test_no_numerical_imports (test_runtime_paths.RuntimeTests) ... ok
+test_overlapping_input_output_rejected (test_runtime_paths.RuntimeTests) ... ok
+test_precedence_and_config_relative_paths (test_runtime_paths.RuntimeTests) ... ok
+test_real_command_checks_from_other_cwd (test_runtime_paths.RuntimeTests) ... ok
+test_sample_demo_features_use_absolute_paths (test_runtime_paths.RuntimeTests) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.242s
+
+OK
