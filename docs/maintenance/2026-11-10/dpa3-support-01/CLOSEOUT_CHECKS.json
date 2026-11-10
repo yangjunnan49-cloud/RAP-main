@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "observed_utc": "2026-11-10T02:16:55.316928+00:00",
+  "before_backups_verified": 8,
+  "production_files_preserved": 22,
+  "production_modified": 0,
+  "old_seals": 9,
+  "old_seal_entries": 115,
+  "DPA1_DPA2_artifacts_preserved": true,
+  "whitelist_input_files": 4,
+  "whitelist_input_bytes": 9342732,
+  "forbidden_members_absent": true,
+  "NN_queries": 0,
+  "raw_reads": 0,
+  "reference_array_reads": 0,
+  "model_ICP_training_calls": 0,
+  "independent_checks": {
+    "Gram_matrices": 32,
+    "spectra": 32,
+    "eigenvector_checks": 32,
+    "angle_distributions": 16,
+    "loss_weight_distributions": 16,
+    "saved_distances": 8,
+    "reciprocity_sets": 8
+  },
+  "synthetic_checks": 10,
+  "resource_controls": 4,
+  "unexpected_execution_failures": 0,
+  "real_wall_s": 0.6021460648626089,
+  "validation_wall_s": 2.203721096739173,
+  "real_peak_RSS_bytes": 48754688,
+  "result_bytes": 83740,
+  "current_state_render_exact": true,
+  "research_holds_unchanged": true,
+  "scientific_promotion": false,
+  "source_status": "UNKNOWN_RETAINED",
+  "root_regression_rerun": false,
+  "root_regression_reason": "All 22 production files unchanged; new diagnostic has bounded synthetic/numerical verification.",
+  "git": {
+    "RAP-main": {
+      "head_before_planned_commit": "f505c74c33874d1d7da78c1a570d0643520304aa",
+      "index_unchanged_before_planned_commit": true,
+      "branch": "chore/autodl-history-20261107"
+    },
+    "RAP-SLAM": {
+      "head_before_planned_commit": "4831889dc3b667b15e40706c4c6c3e88dcc8ce7a",
+      "index_unchanged_before_planned_commit": true,
+      "branch": "chore/autodl-history-20261107"
+    }
+  },
+  "active_jobs": [],
+  "commit_planned": "ONE_FOCUSED_RAP_MAIN_COMMIT",
+  "commit_scope": [
+    "docs/maintenance/2026-11-10/dpa3-support-01/",
+    "docs/experiments/DPA3.md"
+  ],
+  "push_executed": false,
+  "next_step": "DPA4_CONTROLLED_STRUCTURE_IDENTIFIABILITY_DRAFT_NOT_EXECUTED"
+}

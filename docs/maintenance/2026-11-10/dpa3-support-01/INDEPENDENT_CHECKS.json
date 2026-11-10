@@ -1,0 +1,122 @@
+{
+  "passed": true,
+  "checks": {
+    "Gram_matrices": 32,
+    "spectra": 32,
+    "eigenvector_checks": 32,
+    "angle_distributions": 16,
+    "loss_weight_distributions": 16,
+    "saved_distances": 8,
+    "reciprocity_sets": 8
+  },
+  "extra_NN_queries": 0,
+  "raw_reads": 0,
+  "forbidden_array_reads": 0,
+  "summaries": [
+    {
+      "pair": "02_001825_004400",
+      "role": "low",
+      "forward": {
+        "all_count": 16921,
+        "mutual_count": 6129,
+        "mutual_fraction": 0.36221263518704566,
+        "mutual_angle_median": 10.060783917672387,
+        "mutual_unit_eigenvalues": [
+          0.41688876374188977,
+          0.5108584251658886
+        ],
+        "mutual_unit_ratio": 0.8160553750415596
+      },
+      "reverse": {
+        "all_count": 17408,
+        "mutual_count": 6129,
+        "mutual_fraction": 0.35207950367647056,
+        "mutual_angle_median": 10.060787574524792,
+        "mutual_unit_eigenvalues": [
+          0.42277145472906225,
+          0.5050040616826041
+        ],
+        "mutual_unit_ratio": 0.8371644642232101
+      }
+    },
+    {
+      "pair": "02_001875_004450",
+      "role": "low",
+      "forward": {
+        "all_count": 17962,
+        "mutual_count": 7592,
+        "mutual_fraction": 0.42267008128270794,
+        "mutual_angle_median": 8.578840979569085,
+        "mutual_unit_eigenvalues": [
+          0.38536966238346343,
+          0.5692960281573631
+        ],
+        "mutual_unit_ratio": 0.6769231530224916
+      },
+      "reverse": {
+        "all_count": 17146,
+        "mutual_count": 7592,
+        "mutual_fraction": 0.4427854893269567,
+        "mutual_angle_median": 8.578842917389164,
+        "mutual_unit_eigenvalues": [
+          0.39108119961037263,
+          0.5674913643635152
+        ],
+        "mutual_unit_ratio": 0.689140353790229
+      }
+    },
+    {
+      "pair": "02_003350_004625",
+      "role": "high",
+      "forward": {
+        "all_count": 23483,
+        "mutual_count": 10338,
+        "mutual_fraction": 0.44023336030319804,
+        "mutual_angle_median": 6.257498720501207,
+        "mutual_unit_eigenvalues": [
+          0.20728294930995433,
+          0.664293930666424
+        ],
+        "mutual_unit_ratio": 0.3120349889423297
+      },
+      "reverse": {
+        "all_count": 23751,
+        "mutual_count": 10338,
+        "mutual_fraction": 0.4352658835417456,
+        "mutual_angle_median": 6.257498276925654,
+        "mutual_unit_eigenvalues": [
+          0.2187946903129932,
+          0.6575930015181984
+        ],
+        "mutual_unit_ratio": 0.3327205274506532
+      }
+    },
+    {
+      "pair": "02_003400_004575",
+      "role": "high",
+      "forward": {
+        "all_count": 25953,
+        "mutual_count": 13596,
+        "mutual_fraction": 0.523870072823951,
+        "mutual_angle_median": 7.182075134063415,
+        "mutual_unit_eigenvalues": [
+          0.22146170168176377,
+          0.5590878154381997
+        ],
+        "mutual_unit_ratio": 0.3961125525659817
+      },
+      "reverse": {
+        "all_count": 27414,
+        "mutual_count": 13596,
+        "mutual_fraction": 0.49595097395491355,
+        "mutual_angle_median": 7.182075292040523,
+        "mutual_unit_eigenvalues": [
+          0.22628609702601288,
+          0.5608744083704224
+        ],
+        "mutual_unit_ratio": 0.4034523480639272
+      }
+    }
+  ],
+  "limits": "Gram matrices are local fixed-support statistics in each target frame, not physical information or correctness certificates."
+}

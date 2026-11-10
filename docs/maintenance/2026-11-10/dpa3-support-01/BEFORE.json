@@ -1,0 +1,25 @@
+{
+  "files": {
+    "AGENTS.md": "3af66bf30fca4b00b9ec4486ef059cf23d2ec0594e117d04ff0229a548d1743f",
+    "RAP-main/AGENTS.md": "9f60cc7e0f8dd3fb19b40c2fa8a9cd26f5ffb7e0cc1397a76b620eae96bfed2b",
+    "RAP-SLAM/AGENTS.md": "38ac5cfc5048fa378ab194a9150c0a15fd5cd195bc18c59de8e38226ba17e2de",
+    "RAP-main/docs/CURRENT_STATE.json": "b03141dd05b014dadcdac0bc9d3f07b46179fc84d960b26b4b9d9bcf36e45e83",
+    "RAP-main/docs/CURRENT_STATE.md": "f95c0cd5cc6313eb0baef631c432fdf585f9e587ed9cf701c8177f8432d3f70f",
+    "RAP-main/docs/experiments/README.md": "6c91d1276c5e3e415e67b60402adc9f8a76933eb1d46e7c8187e18d8fc08c13a",
+    "RAP-main/docs/experiments/RESIDUAL_02.md": "cefaceafcc262aea87634bbfd03e3549dce7acd6e15ea02a7951af4d0cf6f757",
+    "RAP-main/docs/CONVENTIONS.md": "4f71988a16987bb5ab6d37bdb81eab5d84735099c85408c1db5a5086b733555e"
+  },
+  "git": {
+    "RAP-main": {
+      "head": "f505c74c33874d1d7da78c1a570d0643520304aa",
+      "index_sha256": "cbcaa15ae8f8eeadbcc5a4cd073a89699af489133f47c83db0f8bbf56ba7d2d7",
+      "status": " M AGENTS.md\n M config/model/optimizer/muon.yaml\n M config/trainer/main.yaml\n M dataset_process/extract_sample_features.py\n M docs/CONVENTIONS.md\n M docs/CURRENT_STATE.json\n M docs/CURRENT_STATE.md\n M docs/assets/DATASETS.md\n M docs/environment/TRAINING.md\n M docs/experiments/README.md\n M rectified_point_flow/data/datamodule.py\n M rectified_point_flow/modeling.py\n M rectified_point_flow/utils/checkpoint.py\n M rectified_point_flow/utils/logging.py\n M rectified_point_flow/utils/optimizers.py\n M sample.py\n?? config/RAP_train.yaml\n?? config/trainer/muon_ddp.yaml\n?? docs/assets/KITTI03_CANDIDATE.md\n?? docs/assets/TRAINING_LINEAGE.md\n?? docs/environment/CURATION.md\n?? docs/environment/MUON.md\n?? docs/environment/TRAINING_DATA.md\n?? docs/environment/TRAINING_ENTRY.md\n?? docs/experiments/RESIDUAL_02.md\n?? docs/maintenance/2026-11-09/\n?? docs/maintenance/2026-11-10/dpa1-profile-01/\n?? docs/maintenance/2026-11-10/dpa2-cross-anchor-01/parent/ARTIFACT_MANIFEST.json\n?? docs/maintenance/2026-11-10/dpa3-support-01/\n?? docs/versioning/2026-11-10-dpa2/\n?? rap_runtime/curation.py\n?? rap_runtime/training.py\n?? rectified_point_flow/data/contract.py\n?? rectified_point_flow/utils/muon_checkpoint.py\n?? rectified_point_flow/utils/training_binding.py\n?? requirements/\n?? scripts/training/\n?? tests/fixtures/\n?? tests/numerical/\n?? tests/test_curation_contract.py\n?? tests/test_dynamic_data.py\n?? tests/test_evaluation_integrity.py\n?? tests/test_muon_checkpoint_contract.py\n?? tests/test_muon_contract.py\n?? tests/test_training_data_preflight.py\n?? tests/test_training_entry_contract.py\n"
+    },
+    "RAP-SLAM": {
+      "head": "4831889dc3b667b15e40706c4c6c3e88dcc8ce7a",
+      "index_sha256": "2395d00b6f6316429047f898a9527366d11a640d5894a7a4cda753a10bd17651",
+      "status": " M AGENTS.md\n M rap_slam/rap_backend.py\n M scripts/eval_external_trajectory.py\n?? experiments/\n?? tests/\n"
+    }
+  },
+  "DPA2_manifest_sha256": "c4ae07d8e4fc6b9b4618113a887fa6fb3ce4906ded27c8bf2c1a7ee2fc2c216b"
+}

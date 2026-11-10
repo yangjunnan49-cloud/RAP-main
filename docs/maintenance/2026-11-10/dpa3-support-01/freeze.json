@@ -1,0 +1,293 @@
+{
+  "files": {
+    "support_algebra.py": "bab29a1533f16547b976caa04640b03c982cb7aed78cbaa41dd4a50be2902575",
+    "supervise.py": "a7487b913a2a50d660012e33f3442376fab9f4658ec84a56a5e3849eb6f632aa",
+    "verify_algebra.py": "f6bc11b170f8f2af464fa5afd7e087fd1aba5c294123f919319e62fa3ccdb0ce",
+    "PROTOCOL_CN.md": "52c51f00ab6e826c4ae525e6e7b064d9f5a0f94a17b6586cf355ca0fc4d32bb9",
+    "INPUTS.json": "2d750bb5a61765444082b7f5892fa564fb1f4e403387a420cbb72df9f7f3d67b",
+    "synthetic.json": "5371429a241d18937df7f61fa9f71884dc4399cc03338cb5765b658478a30019",
+    "preflight.json": "5e87cf937217dbcfd210a832dad302276b7049d28fd9a99254b7d940779337d3",
+    "prepare_inputs.py": "a72b46ce869fca3e5a08715aaff1cbe39efd69266ce3b5c180e0540c5b7121c4"
+  },
+  "inputs": {
+    "02_001825_004400.npz": {
+      "sha256": "6c4019c5de4bb27c6e29d2c168bda809372607a8aacf681b3a11ee4d4c2a8776",
+      "bytes": 2168649,
+      "members": {
+        "a.npy": {
+          "sha256": "482540c8f92aecd89427a74ac7e935fddad3cec25bc2e5b030e3803f4c98e4ee",
+          "bytes": 474824
+        },
+        "b.npy": {
+          "sha256": "4ed6cbc21894f6d33bb9788ea10fe5dfb399ee84312974fc0a1e2422ef47820b",
+          "bytes": 627896
+        },
+        "na.npy": {
+          "sha256": "1e4164625c7b8a41b0b1cd369e7088dba5583c3a0714067111f93001e46f5ea3",
+          "bytes": 474824
+        },
+        "nb.npy": {
+          "sha256": "3a663059e24fb155593764b7b39de222d8552e0a1a683f8b92a5f1208018d81a",
+          "bytes": 627896
+        },
+        "final.npy": {
+          "sha256": "ff75212652e33dcf8c25e6a65c4cdd21eb9729fd20541227cef4c4cc63afcb87",
+          "bytes": 256
+        },
+        "f_d0.npy": {
+          "sha256": "fe585e06f3e827d18f48e6ba83bf8ae900cda79e503aed3c3d4d0b17bae79085",
+          "bytes": 209384
+        },
+        "f_j0.npy": {
+          "sha256": "c9142a76897e16282a3ef1b89665fa05ced6372c010b3a7b4994abc889852fc4",
+          "bytes": 104756
+        },
+        "r_d0.npy": {
+          "sha256": "d60c0942ca29ab6b03009a9ba1882aa6cc22adce09ef36c5fad1867eaac2d8fe",
+          "bytes": 158360
+        },
+        "r_j0.npy": {
+          "sha256": "7c51b7051b829929f00fc29b5915b8770ce64622014d0d371a6f29350f775d37",
+          "bytes": 79244
+        }
+      },
+      "parents": {
+        "/root/autodl-tmp/rap-workspace-20261106/RAP-main/docs/maintenance/2026-11-10/dpa2-cross-anchor-01/inputs/02_001825_004400.npz": {
+          "sha256": "256fd970f8659f058d707ec509f91a51be825fbbbd971b5e1e97cc314fbcfac0",
+          "members_read": [
+            "a",
+            "b",
+            "na",
+            "nb",
+            "final"
+          ]
+        },
+        "/root/autodl-tmp/rap-workspace-20261106/RAP-main/docs/maintenance/2026-11-10/dpa2-cross-anchor-01/results/02_001825_004400-queries.npz": {
+          "sha256": "5b1a67ff9aaef64dd967b4e6219fdfbaa47600e46c96f8235b73ec0e43d49dc0",
+          "members_read": [
+            "f_d0",
+            "f_j0",
+            "r_d0",
+            "r_j0"
+          ]
+        }
+      },
+      "pair": "02_001825_004400",
+      "role": "low",
+      "event_group": "02_12_29"
+    },
+    "02_001875_004450.npz": {
+      "sha256": "4ef852e78846f75737c668bc37d2f2618b5df4965e4d6e102e4a66f4fb69147f",
+      "bytes": 1802295,
+      "members": {
+        "a.npy": {
+          "sha256": "d0cb4cbf7bb7d15d39df5cb25f94a54349844788dc6e147f3e7761f1468eb2c1",
+          "bytes": 443600
+        },
+        "b.npy": {
+          "sha256": "c42f1b92af6c9d562be4ea04339fb4b4e692fdd14b8967abc46c7de3a24ced2a",
+          "bytes": 462320
+        },
+        "na.npy": {
+          "sha256": "6b8ccc4cb0d23808fe77d4b81aedd230410bc3c5519a9415209020223bb92328",
+          "bytes": 443600
+        },
+        "nb.npy": {
+          "sha256": "d9b8a0cb39682bc28204c0b5f0749fda916479360a67c3f6621a8ab80eedd717",
+          "bytes": 462320
+        },
+        "final.npy": {
+          "sha256": "41cbe726f4ec8016f0f810cff18e4a1e4b9f3c02aaf45a90dac33e6bc1869165",
+          "bytes": 256
+        },
+        "f_d0.npy": {
+          "sha256": "7bda4e47b911454fa06c0d25ef3ad00d33a30692bb549c26b61a8818e0fd085d",
+          "bytes": 154192
+        },
+        "f_j0.npy": {
+          "sha256": "1380ce9855d391df540b75b9840eb70b08ca7556c899a5e5ee83777291ef5005",
+          "bytes": 77160
+        },
+        "r_d0.npy": {
+          "sha256": "b9377dd02c868d1ff61b99f9c015f1736bdfad91f68a4c98c92eaeb296074438",
+          "bytes": 147952
+        },
+        "r_j0.npy": {
+          "sha256": "ee1645406530cf94fde5b32112b0b38bf9edfe4bebf6927b55f8d578c6302766",
+          "bytes": 74040
+        }
+      },
+      "parents": {
+        "/root/autodl-tmp/rap-workspace-20261106/RAP-main/docs/maintenance/2026-11-10/dpa2-cross-anchor-01/inputs/02_001875_004450.npz": {
+          "sha256": "4783cd1566126f05c858e6284a92e48cfc43ecef4cd05ea4d8fb7720c84c8795",
+          "members_read": [
+            "a",
+            "b",
+            "na",
+            "nb",
+            "final"
+          ]
+        },
+        "/root/autodl-tmp/rap-workspace-20261106/RAP-main/docs/maintenance/2026-11-10/dpa2-cross-anchor-01/results/02_001875_004450-queries.npz": {
+          "sha256": "9bace8e6eae20bbb49a1dbd4fe2678c0a84054f8483a3f6944a32c158f09c19b",
+          "members_read": [
+            "f_d0",
+            "f_j0",
+            "r_d0",
+            "r_j0"
+          ]
+        }
+      },
+      "pair": "02_001875_004450",
+      "role": "low",
+      "event_group": "02_12_29"
+    },
+    "02_003350_004625.npz": {
+      "sha256": "a097274abebebea7c9cfe566a7fe45440e9a80b2d82e366bb66bcacf6fdac787",
+      "bytes": 2529674,
+      "members": {
+        "a.npy": {
+          "sha256": "3c13d7e989a344827f07d80853064527480f24c57d0e5222fb841038beb4c108",
+          "bytes": 638456
+        },
+        "b.npy": {
+          "sha256": "f2cab323177a071e9cabb0a3e79f5ad7e0876005bc350e60478b092f9f60a179",
+          "bytes": 642032
+        },
+        "na.npy": {
+          "sha256": "49e2e5c1730478ce8ec6cc69e38b2f2e2406b593c319a6108ab408370a5a4870",
+          "bytes": 638456
+        },
+        "nb.npy": {
+          "sha256": "1120aa150f10b2c476c66598573573fe58cd0b1962b0d8ef535da1e8db886268",
+          "bytes": 642032
+        },
+        "final.npy": {
+          "sha256": "37a787f7435e0e6bf736cdfded30173bf1149e2c8b616cb529366f3e5da5ed4a",
+          "bytes": 256
+        },
+        "f_d0.npy": {
+          "sha256": "d456e75724b2509e238db2ac42fff1e0c5779c26c844c9f84b323ad2ffd52c20",
+          "bytes": 214096
+        },
+        "f_j0.npy": {
+          "sha256": "9174ecd609d22e0cebb413319fe52e5a360eb0a1b7ce3d1b9f339f5e96c6f5f1",
+          "bytes": 107112
+        },
+        "r_d0.npy": {
+          "sha256": "ea34ad88bc19645be51f905eaca0d3c1a7e38e2c9066beee97e3cf9e6f67f7e1",
+          "bytes": 212904
+        },
+        "r_j0.npy": {
+          "sha256": "eb926770bc6ea7882024d8bead3dd20ce7c8763ad41d387461a1eb30ffd283d5",
+          "bytes": 106516
+        }
+      },
+      "parents": {
+        "/root/autodl-tmp/rap-workspace-20261106/RAP-main/docs/maintenance/2026-11-10/dpa2-cross-anchor-01/inputs/02_003350_004625.npz": {
+          "sha256": "aefacd168b52e0791673b089fe669f7b596d1abaf65d5ed92cd04df8bb1d2d80",
+          "members_read": [
+            "a",
+            "b",
+            "na",
+            "nb",
+            "final"
+          ]
+        },
+        "/root/autodl-tmp/rap-workspace-20261106/RAP-main/docs/maintenance/2026-11-10/dpa2-cross-anchor-01/results/02_003350_004625-queries.npz": {
+          "sha256": "adfb95cf6ad7c8072a7c273c4dca641fb50c3312c11366e281390f39bae075b4",
+          "members_read": [
+            "f_d0",
+            "f_j0",
+            "r_d0",
+            "r_j0"
+          ]
+        }
+      },
+      "pair": "02_003350_004625",
+      "role": "high",
+      "event_group": "02_22_30"
+    },
+    "02_003400_004575.npz": {
+      "sha256": "07fcb27ed30d86b36a4af699baad7468a6ad5810f9215fecec0281a515d37adb",
+      "bytes": 2842114,
+      "members": {
+        "a.npy": {
+          "sha256": "9eb84fd81eca1698b513928c8595b8c9df7eebb0173b2f97feff630b4d4c48c2",
+          "bytes": 720128
+        },
+        "b.npy": {
+          "sha256": "84f243c075dbce441a0168600e9b130b90d326a850476c934bb9a1a2a7c70224",
+          "bytes": 720128
+        },
+        "na.npy": {
+          "sha256": "247972cf50443cb6f1fb8500f66b43092037f8610fc69b139a9bb29ef1ac99a3",
+          "bytes": 720128
+        },
+        "nb.npy": {
+          "sha256": "b5f3e7cb16950a4145dab8565cdc598627cb4fceccd0d7760aa52c3a04128180",
+          "bytes": 720128
+        },
+        "final.npy": {
+          "sha256": "9546c3956c76b67c330c2c45506a2a80d5bf688abb283c89b003b3a06879af8e",
+          "bytes": 256
+        },
+        "f_d0.npy": {
+          "sha256": "d689012d78356bb25faaefde2ab34500e49927a924d11f2954b56ad06cbbc5bf",
+          "bytes": 240128
+        },
+        "f_j0.npy": {
+          "sha256": "8d38924ac9e25a27e37242895027978d6ff7d3ec81180cb39fa0e4da4ac7074d",
+          "bytes": 120128
+        },
+        "r_d0.npy": {
+          "sha256": "3814f5db6b51882f8e18e08c734658fbc3d92f0c061f3dd54e113137386a0bef",
+          "bytes": 240128
+        },
+        "r_j0.npy": {
+          "sha256": "93050d5a888f2be24e232a5fa27273c1051e5f331fbcb29931c05471acc17db8",
+          "bytes": 120128
+        }
+      },
+      "parents": {
+        "/root/autodl-tmp/rap-workspace-20261106/RAP-main/docs/maintenance/2026-11-10/dpa2-cross-anchor-01/inputs/02_003400_004575.npz": {
+          "sha256": "2ca75af24a99a8bda73814ce658eb067befeabe3a6005faeedc29d451506933a",
+          "members_read": [
+            "a",
+            "b",
+            "na",
+            "nb",
+            "final"
+          ]
+        },
+        "/root/autodl-tmp/rap-workspace-20261106/RAP-main/docs/maintenance/2026-11-10/dpa2-cross-anchor-01/results/02_003400_004575-queries.npz": {
+          "sha256": "132938ef756b3506004da55f0c002c8f9e8061c654d1bd755b0c3c46cd72c091",
+          "members_read": [
+            "f_d0",
+            "f_j0",
+            "r_d0",
+            "r_j0"
+          ]
+        }
+      },
+      "pair": "02_003400_004575",
+      "role": "high",
+      "event_group": "02_22_30"
+    }
+  },
+  "allowed_members": [
+    "a",
+    "b",
+    "na",
+    "nb",
+    "final",
+    "f_d0",
+    "f_j0",
+    "r_d0",
+    "r_j0"
+  ],
+  "NN_queries_limit": 0,
+  "wall_limit_s": 30,
+  "AS_limit_bytes": 2080374784,
+  "output_limit_bytes": 4194304
+}
