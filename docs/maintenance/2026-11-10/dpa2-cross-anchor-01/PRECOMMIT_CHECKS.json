@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "staged_scope_reviewed": true,
+  "all_staged_files_byte_equal_to_worktree": true,
+  "text_whitespace_check_passed_except_generated_svg": true,
+  "generated_svg_preserved_unmodified": true,
+  "generated_svg_trailing_whitespace_locations": 1023,
+  "reason": "Matplotlib serializes SVG path continuation lines with trailing spaces; preserve generated scientific artifact bytes. All other staged paths pass normal check."
+}

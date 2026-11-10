@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": [
+    "same surface true displacement",
+    "repeated surface anchor switch",
+    "changing support with common source points",
+    "empty intersection remains unknown",
+    "strict inverse for finite precision rotations",
+    "Huber piecewise analytic values",
+    "hard query cap",
+    "synthetic nearest distance"
+  ],
+  "synthetic_budgeted_queries": 16,
+  "atol": 1e-06,
+  "rtol": 0.001
+}

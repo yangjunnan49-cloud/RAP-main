@@ -1,0 +1,231 @@
+{
+  "passed": true,
+  "loss_checks": 64,
+  "saved_distance_checks": 16,
+  "extra_NN_queries": 0,
+  "raw_reads": 0,
+  "DPA1_endpoints_matched": true,
+  "summaries": [
+    {
+      "pair": "02_001825_004400",
+      "role": "low",
+      "event_group": "02_12_29",
+      "forward": {
+        "full_preference": [
+          "T0",
+          "T1"
+        ],
+        "intersection_preference": [
+          "T0",
+          "T1"
+        ],
+        "counts": [
+          16921,
+          7785
+        ],
+        "intersection_count": 7236,
+        "intersection_over_union": 0.41419576416714365,
+        "correspondence_changed_fraction": 0.999861802100608,
+        "normal_abs_angle_deg_quantiles": [
+          0.0,
+          25.538114206073967,
+          49.847776365023876,
+          73.96298979398843,
+          86.53919904514711,
+          89.97350847318015
+        ]
+      },
+      "reverse": {
+        "full_preference": [
+          "T0",
+          "T1"
+        ],
+        "intersection_preference": [
+          "T0",
+          "T1"
+        ],
+        "counts": [
+          17408,
+          7119
+        ],
+        "intersection_count": 6633,
+        "intersection_over_union": 0.3706829104727842,
+        "correspondence_changed_fraction": 1.0,
+        "normal_abs_angle_deg_quantiles": [
+          0.0,
+          32.30262909595022,
+          55.699574899851875,
+          75.00816266957148,
+          87.40160821727723,
+          89.99467019749613
+        ]
+      }
+    },
+    {
+      "pair": "02_001875_004450",
+      "role": "low",
+      "event_group": "02_12_29",
+      "forward": {
+        "full_preference": [
+          "T0",
+          "T1"
+        ],
+        "intersection_preference": [
+          "T0",
+          "T1"
+        ],
+        "counts": [
+          17962,
+          7983
+        ],
+        "intersection_count": 7875,
+        "intersection_over_union": 0.43580520199225237,
+        "correspondence_changed_fraction": 1.0,
+        "normal_abs_angle_deg_quantiles": [
+          0.0,
+          28.20510700901462,
+          44.3165557830446,
+          60.537258020398,
+          82.87239909486175,
+          89.97006194919146
+        ]
+      },
+      "reverse": {
+        "full_preference": [
+          "T0",
+          "T1"
+        ],
+        "intersection_preference": [
+          "T0",
+          "T1"
+        ],
+        "counts": [
+          17146,
+          6130
+        ],
+        "intersection_count": 5884,
+        "intersection_over_union": 0.3383164673413063,
+        "correspondence_changed_fraction": 1.0,
+        "normal_abs_angle_deg_quantiles": [
+          0.0,
+          29.36983849555486,
+          43.06342671474144,
+          66.88767710171685,
+          86.06894268365387,
+          89.98627759959803
+        ]
+      }
+    },
+    {
+      "pair": "02_003350_004625",
+      "role": "high",
+      "event_group": "02_22_30",
+      "forward": {
+        "full_preference": [
+          "T0",
+          "T0"
+        ],
+        "intersection_preference": [
+          "T0",
+          "T0"
+        ],
+        "counts": [
+          23483,
+          20889
+        ],
+        "intersection_count": 20731,
+        "intersection_over_union": 0.8769087602047291,
+        "correspondence_changed_fraction": 0.618156384158989,
+        "normal_abs_angle_deg_quantiles": [
+          0.0,
+          8.537736462515939e-07,
+          1.242608985480077,
+          19.99720885602853,
+          74.39268759452726,
+          89.99282383121566
+        ]
+      },
+      "reverse": {
+        "full_preference": [
+          "T0",
+          "T0"
+        ],
+        "intersection_preference": [
+          "T0",
+          "T0"
+        ],
+        "counts": [
+          23751,
+          21467
+        ],
+        "intersection_count": 21300,
+        "intersection_over_union": 0.8905426875156786,
+        "correspondence_changed_fraction": 0.5853990610328639,
+        "normal_abs_angle_deg_quantiles": [
+          0.0,
+          0.0,
+          0.714936528793887,
+          13.684803926184495,
+          58.902521653010936,
+          89.90787550714565
+        ]
+      }
+    },
+    {
+      "pair": "02_003400_004575",
+      "role": "high",
+      "event_group": "02_22_30",
+      "forward": {
+        "full_preference": [
+          "T0",
+          "T0"
+        ],
+        "intersection_preference": [
+          "T0",
+          "T0"
+        ],
+        "counts": [
+          25953,
+          25381
+        ],
+        "intersection_count": 25317,
+        "intersection_over_union": 0.9730945151247261,
+        "correspondence_changed_fraction": 0.6339218706797803,
+        "normal_abs_angle_deg_quantiles": [
+          0.0,
+          8.537736462515939e-07,
+          1.5606466721638657,
+          15.78532963054215,
+          58.0376858634515,
+          89.99753450863946
+        ]
+      },
+      "reverse": {
+        "full_preference": [
+          "T0",
+          "T0"
+        ],
+        "intersection_preference": [
+          "T0",
+          "T0"
+        ],
+        "counts": [
+          27414,
+          27204
+        ],
+        "intersection_count": 26996,
+        "intersection_over_union": 0.9773369053652885,
+        "correspondence_changed_fraction": 0.6269076900281523,
+        "normal_abs_angle_deg_quantiles": [
+          0.0,
+          8.537736462515939e-07,
+          1.5681549260627943,
+          15.190355119170478,
+          54.05239933209516,
+          89.98195569904962
+        ]
+      }
+    }
+  ],
+  "limitations": "Saved returned distances checked from point/index pairs; no independent exhaustive nearest search on real clouds."
+}

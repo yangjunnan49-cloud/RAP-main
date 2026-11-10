@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "independent_fixed_loss_checks": 56,
+  "NN_queries": 0,
+  "raw_cloud_reads": 0,
+  "max_loss_tolerance": 1e-12,
+  "summaries": [
+    {
+      "pair": "02_001825_004400",
+      "role": "low",
+      "event_group": "02_12_29",
+      "loss_s0": 0.012497715777926282,
+      "loss_s1": 0.29939508339586773,
+      "ratio_s1_s0": 23.955984334726622,
+      "delta": 0.28689736761794143,
+      "tolerance": 0.00030039508339586775,
+      "direction": "UP",
+      "forward_ratio": 25.156114806398996,
+      "reverse_ratio": 22.926639699206266,
+      "support_s0": [
+        16921,
+        17408
+      ],
+      "support_s1": [
+        7785,
+        7119
+      ]
+    },
+    {
+      "pair": "02_001875_004450",
+      "role": "low",
+      "event_group": "02_12_29",
+      "loss_s0": 0.0074097371925478175,
+      "loss_s1": 0.39387980553323626,
+      "ratio_s1_s0": 53.157054737295184,
+      "delta": 0.3864700683406884,
+      "tolerance": 0.0003948798055332363,
+      "direction": "UP",
+      "forward_ratio": 55.988072708056215,
+      "reverse_ratio": 50.66342693896251,
+      "support_s0": [
+        17962,
+        17146
+      ],
+      "support_s1": [
+        7983,
+        6130
+      ]
+    },
+    {
+      "pair": "02_003350_004625",
+      "role": "high",
+      "event_group": "02_22_30",
+      "loss_s0": 0.0063503962195145085,
+      "loss_s1": 0.1324197769522762,
+      "ratio_s1_s0": 20.852207071010092,
+      "delta": 0.1260693807327617,
+      "tolerance": 0.0001334197769522762,
+      "direction": "UP",
+      "forward_ratio": 23.290045762541585,
+      "reverse_ratio": 18.822340652715955,
+      "support_s0": [
+        23483,
+        23751
+      ],
+      "support_s1": [
+        20889,
+        21467
+      ]
+    },
+    {
+      "pair": "02_003400_004575",
+      "role": "high",
+      "event_group": "02_22_30",
+      "loss_s0": 0.005836048267692889,
+      "loss_s1": 0.040009282298581514,
+      "ratio_s1_s0": 6.855543419691081,
+      "delta": 0.03417323403088862,
+      "tolerance": 4.100928229858151e-05,
+      "direction": "UP",
+      "forward_ratio": 8.08898904067067,
+      "reverse_ratio": 5.8645479994201,
+      "support_s0": [
+        25953,
+        27414
+      ],
+      "support_s1": [
+        25381,
+        27204
+      ]
+    }
+  ],
+  "limits": "Dynamic NN counts are original measurements, not independently re-queried; no physical reference certification."
+}

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "AGENTS.md": "a8c932d96260539e9c767001cc7ede63fb8d0d5b33e161a594fd9a35756eea94",
+    "RAP-main/AGENTS.md": "555a3f1cf7c17218751def592fe5cc03e34f776b7d1db43e2b255844a01b5a93",
+    "RAP-SLAM/AGENTS.md": "04fee5b24bdd9bddcaf4d170c54f1544f10481fa5e3076b9d7fc05f3d3aad3ed",
+    "RAP-main/docs/CURRENT_STATE.json": "7e0d4edaf20f8437ef5a63964df0cb878f3636b54a4edfdeec12bc68e171a9d0",
+    "RAP-main/docs/CURRENT_STATE.md": "b11e556735b1c71a23af630e5f826ed25543354e4f2218aa10806e654dd95d88",
+    "RAP-main/docs/experiments/README.md": "5fe74a096c788415c5c018653670bd654862d1d37467d1e20b033585b9b18561",
+    "RAP-main/docs/experiments/RESIDUAL_02.md": "1d7ec9a71328c026b7a4eb4d595d09e931db8dfd86b52b6b267ee331623e2ccf",
+    "RAP-main/docs/CONVENTIONS.md": "fb5e6768bc1feb37eeb0e7482d61e2d865c38e28bd3b613efbcee8e67fbef3d0"
+  },
+  "git": {
+    "RAP-main": {
+      "head": "12f72996b5a9790857039a5fcc1e019dc33608c1",
+      "index_sha256": "11c31dafe24fbabc7ba506ca63aa3aff17ab8e8de98672bc84d166f1e594c381",
+      "status": " M AGENTS.md\n M config/model/optimizer/muon.yaml\n M config/trainer/main.yaml\n M dataset_process/extract_sample_features.py\n M docs/CONVENTIONS.md\n M docs/CURRENT_STATE.json\n M docs/CURRENT_STATE.md\n M docs/assets/DATASETS.md\n M docs/environment/TRAINING.md\n M docs/experiments/README.md\n M rectified_point_flow/data/datamodule.py\n M rectified_point_flow/modeling.py\n M rectified_point_flow/utils/checkpoint.py\n M rectified_point_flow/utils/logging.py\n M rectified_point_flow/utils/optimizers.py\n M sample.py\n?? config/RAP_train.yaml\n?? config/trainer/muon_ddp.yaml\n?? docs/assets/KITTI03_CANDIDATE.md\n?? docs/assets/TRAINING_LINEAGE.md\n?? docs/environment/CURATION.md\n?? docs/environment/MUON.md\n?? docs/environment/TRAINING_DATA.md\n?? docs/environment/TRAINING_ENTRY.md\n?? docs/experiments/RESIDUAL_02.md\n?? docs/maintenance/2026-11-09/\n?? docs/maintenance/2026-11-10/\n?? rap_runtime/curation.py\n?? rap_runtime/training.py\n?? rectified_point_flow/data/contract.py\n?? rectified_point_flow/utils/muon_checkpoint.py\n?? rectified_point_flow/utils/training_binding.py\n?? requirements/\n?? scripts/training/\n?? tests/fixtures/\n?? tests/numerical/\n?? tests/test_curation_contract.py\n?? tests/test_dynamic_data.py\n?? tests/test_evaluation_integrity.py\n?? tests/test_muon_checkpoint_contract.py\n?? tests/test_muon_contract.py\n?? tests/test_training_data_preflight.py\n?? tests/test_training_entry_contract.py\n"
+    },
+    "RAP-SLAM": {
+      "head": "4831889dc3b667b15e40706c4c6c3e88dcc8ce7a",
+      "index_sha256": "2395d00b6f6316429047f898a9527366d11a640d5894a7a4cda753a10bd17651",
+      "status": " M AGENTS.md\n M rap_slam/rap_backend.py\n M scripts/eval_external_trajectory.py\n?? experiments/\n?? tests/\n"
+    }
+  },
+  "prior_stage_manifest_sha256": "8e260b49699873497038efa77763242c8c6db2f7f6dabaa216f783f8caff2080"
+}

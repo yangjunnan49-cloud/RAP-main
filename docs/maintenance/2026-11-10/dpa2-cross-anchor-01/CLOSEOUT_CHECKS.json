@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "observed_utc": "2026-11-10T01:59:34.002089+00:00",
+  "before_backups_verified": 8,
+  "production_preserved": 22,
+  "production_modified": 0,
+  "old_seals": 9,
+  "old_seal_entries": 115,
+  "DPA1_all_artifacts_and_experiments_preserved": true,
+  "queries": 16,
+  "loss_checks": 64,
+  "saved_distance_checks": 16,
+  "raw_reads": 0,
+  "model_ICP_training_calls": 0,
+  "wall_s": 1.811775403097272,
+  "peak_RSS_bytes": 75067392,
+  "output_bytes": 3869438,
+  "synthetic_checks": 8,
+  "resource_negative_controls": 4,
+  "unexpected_execution_failures": 0,
+  "current_state_render_exact": true,
+  "research_holds_unchanged": true,
+  "scientific_promotion": false,
+  "source_status": "UNKNOWN_RETAINED",
+  "root_regression_rerun": false,
+  "root_regression_reason": "All 22 production files unchanged; bounded diagnostic validated separately.",
+  "git": {
+    "RAP-main": {
+      "head_before_planned_commit": "12f72996b5a9790857039a5fcc1e019dc33608c1",
+      "index_unchanged_before_planned_commit": true,
+      "branch": "chore/autodl-history-20261107"
+    },
+    "RAP-SLAM": {
+      "head_before_planned_commit": "4831889dc3b667b15e40706c4c6c3e88dcc8ce7a",
+      "index_unchanged_before_planned_commit": true,
+      "branch": "chore/autodl-history-20261107"
+    }
+  },
+  "active_jobs": [],
+  "commit_planned": "ONE_FOCUSED_RAP_MAIN_COMMIT",
+  "commit_scope": [
+    "docs/maintenance/2026-11-10/dpa2-cross-anchor-01/",
+    "docs/experiments/DPA2.md"
+  ],
+  "push_authorized_or_executed": false,
+  "next_step": "DPA3_CURRENT_POSE_SUPPORT_ALGEBRA_DRAFT_NOT_EXECUTED"
+}
