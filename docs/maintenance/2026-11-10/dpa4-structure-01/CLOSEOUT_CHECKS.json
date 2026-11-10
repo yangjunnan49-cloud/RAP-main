@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "observed_utc": "2026-11-10T02:50:12.013269+00:00",
+  "before_backups_verified": 8,
+  "production_preserved": 22,
+  "production_modified": 0,
+  "old_seals": 9,
+  "old_seal_entries": 115,
+  "DPA1_DPA2_DPA3_artifacts_preserved": true,
+  "cases": 8,
+  "queries": 32,
+  "real_data_reads": 0,
+  "score_checks": 96,
+  "saved_distance_checks": 32,
+  "Gram_groups": 28,
+  "identity_cases": 8,
+  "new_block_over_nn_correct": 0,
+  "stop_decision": "STOP_THIS_BLOCK_SCORE_RECIPE",
+  "synthetic_cases": 9,
+  "resource_controls": 4,
+  "unexpected_execution_failures": 0,
+  "wall_s": 0.44464075565338135,
+  "result_bytes": 65017,
+  "current_state_render_exact": true,
+  "research_holds_unchanged": true,
+  "scientific_promotion": false,
+  "source_status": "UNKNOWN_RETAINED",
+  "root_regression_rerun": false,
+  "root_regression_reason": "22 production files unchanged; new bounded diagnostic independently validated.",
+  "git": {
+    "RAP-main": {
+      "head_before_planned_commit": "4081ddcad78235a2953d680eacc0b18719ebd066",
+      "index_unchanged_before_planned_commit": true
+    },
+    "RAP-SLAM": {
+      "head_before_planned_commit": "4831889dc3b667b15e40706c4c6c3e88dcc8ce7a",
+      "index_unchanged_before_planned_commit": true
+    }
+  },
+  "active_jobs": [],
+  "commit_planned": "ONE_FOCUSED_RAP_MAIN_COMMIT",
+  "push_planned": "ONE_FAST_FORWARD_ORIGIN_PUSH_INCLUDING_TWO_PRIOR_DIAGNOSTICS",
+  "next_step": "ENGINEERING_BASELINE_INTEGRATION_REVIEW_PLAN_NOT_EXECUTED"
+}

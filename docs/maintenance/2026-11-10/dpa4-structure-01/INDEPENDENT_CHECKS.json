@@ -1,0 +1,297 @@
+{
+  "passed": true,
+  "score_checks": 96,
+  "saved_distance_checks": 32,
+  "Gram_groups": 28,
+  "truth_identity_checks": 8,
+  "extra_NN_queries": 0,
+  "real_data_reads": 0,
+  "summary": {
+    "nn_mean": {
+      "identified_correct": 4,
+      "identified_wrong": 0,
+      "abstained": 4,
+      "ambiguous_forced": 0
+    },
+    "plane_huber": {
+      "identified_correct": 2,
+      "identified_wrong": 0,
+      "abstained": 6,
+      "ambiguous_forced": 0
+    },
+    "block_score": {
+      "identified_correct": 4,
+      "identified_wrong": 0,
+      "abstained": 4,
+      "ambiguous_forced": 0
+    }
+  },
+  "cases": [
+    {
+      "case": "case00",
+      "group": "unique",
+      "density": "uniform",
+      "expected": "identify",
+      "physical_true_index": 0,
+      "methods": {
+        "nn_mean": {
+          "selected": 0,
+          "label": "identified_correct",
+          "scores": [
+            8.362318743506222e-17,
+            7.50140645111626
+          ]
+        },
+        "plane_huber": {
+          "selected": 0,
+          "label": "identified_correct",
+          "scores": [
+            1.1127595234237363e-33,
+            null
+          ]
+        },
+        "block_score": {
+          "selected": 0,
+          "label": "identified_correct",
+          "scores": [
+            3.4606387051450917e-16,
+            0.6748677248677248
+          ]
+        }
+      }
+    },
+    {
+      "case": "case01",
+      "group": "unique",
+      "density": "uneven",
+      "expected": "identify",
+      "physical_true_index": 1,
+      "methods": {
+        "nn_mean": {
+          "selected": 1,
+          "label": "identified_correct",
+          "scores": [
+            7.503013823820547,
+            8.735189084106653e-17
+          ]
+        },
+        "plane_huber": {
+          "selected": 1,
+          "label": "identified_correct",
+          "scores": [
+            null,
+            2.2377471734785025e-33
+          ]
+        },
+        "block_score": {
+          "selected": 1,
+          "label": "identified_correct",
+          "scores": [
+            0.7665960024227741,
+            3.634006266431973e-16
+          ]
+        }
+      }
+    },
+    {
+      "case": "case02",
+      "group": "repeat",
+      "density": "uniform",
+      "expected": "ambiguous",
+      "physical_true_index": 0,
+      "methods": {
+        "nn_mean": {
+          "selected": null,
+          "label": "abstained",
+          "scores": [
+            8.362318743506222e-17,
+            3.9747928519369454e-17
+          ]
+        },
+        "plane_huber": {
+          "selected": null,
+          "label": "abstained",
+          "scores": [
+            1.1127595234237363e-33,
+            8.559688641721048e-35
+          ]
+        },
+        "block_score": {
+          "selected": null,
+          "label": "abstained",
+          "scores": [
+            3.4606387051450917e-16,
+            1.251275916187269e-16
+          ]
+        }
+      }
+    },
+    {
+      "case": "case03",
+      "group": "repeat",
+      "density": "uneven",
+      "expected": "ambiguous",
+      "physical_true_index": 0,
+      "methods": {
+        "nn_mean": {
+          "selected": null,
+          "label": "abstained",
+          "scores": [
+            8.735189084106655e-17,
+            4.1606308497929585e-17
+          ]
+        },
+        "plane_huber": {
+          "selected": null,
+          "label": "abstained",
+          "scores": [
+            2.2377471734785025e-33,
+            3.6684379893090205e-35
+          ]
+        },
+        "block_score": {
+          "selected": null,
+          "label": "abstained",
+          "scores": [
+            3.634006266431973e-16,
+            1.1937162466672669e-16
+          ]
+        }
+      }
+    },
+    {
+      "case": "case04",
+      "group": "visible_anchor",
+      "density": "uniform",
+      "expected": "identify",
+      "physical_true_index": 0,
+      "methods": {
+        "nn_mean": {
+          "selected": 0,
+          "label": "identified_correct",
+          "scores": [
+            1.73834198525962e-16,
+            1.2110482877908817
+          ]
+        },
+        "plane_huber": {
+          "selected": null,
+          "label": "abstained",
+          "scores": [
+            1.0883973326742225e-32,
+            8.559688641721048e-35
+          ]
+        },
+        "block_score": {
+          "selected": 0,
+          "label": "identified_correct",
+          "scores": [
+            1.037139604007364e-15,
+            0.37187500000000007
+          ]
+        }
+      }
+    },
+    {
+      "case": "case05",
+      "group": "visible_anchor",
+      "density": "uneven",
+      "expected": "identify",
+      "physical_true_index": 0,
+      "methods": {
+        "nn_mean": {
+          "selected": 0,
+          "label": "identified_correct",
+          "scores": [
+            1.3366502406337368e-16,
+            0.6297451096512586
+          ]
+        },
+        "plane_huber": {
+          "selected": null,
+          "label": "abstained",
+          "scores": [
+            7.138780327195355e-33,
+            3.6684379893090205e-35
+          ]
+        },
+        "block_score": {
+          "selected": 0,
+          "label": "identified_correct",
+          "scores": [
+            1.047541657684577e-15,
+            0.37187500000000007
+          ]
+        }
+      }
+    },
+    {
+      "case": "case06",
+      "group": "missing_anchor",
+      "density": "uniform",
+      "expected": "ambiguous",
+      "physical_true_index": 1,
+      "methods": {
+        "nn_mean": {
+          "selected": null,
+          "label": "abstained",
+          "scores": [
+            3.9747928519369454e-17,
+            8.362318743506226e-17
+          ]
+        },
+        "plane_huber": {
+          "selected": null,
+          "label": "abstained",
+          "scores": [
+            8.559688641721048e-35,
+            1.1127595234237363e-33
+          ]
+        },
+        "block_score": {
+          "selected": null,
+          "label": "abstained",
+          "scores": [
+            1.251275916187269e-16,
+            3.4606387051450917e-16
+          ]
+        }
+      }
+    },
+    {
+      "case": "case07",
+      "group": "missing_anchor",
+      "density": "uneven",
+      "expected": "ambiguous",
+      "physical_true_index": 0,
+      "methods": {
+        "nn_mean": {
+          "selected": null,
+          "label": "abstained",
+          "scores": [
+            8.735189084106652e-17,
+            4.160630849792958e-17
+          ]
+        },
+        "plane_huber": {
+          "selected": null,
+          "label": "abstained",
+          "scores": [
+            2.2377471734785025e-33,
+            3.6684379893090205e-35
+          ]
+        },
+        "block_score": {
+          "selected": null,
+          "label": "abstained",
+          "scores": [
+            3.6340062664319735e-16,
+            1.1937162466672666e-16
+          ]
+        }
+      }
+    }
+  ],
+  "new_correct_over_nn_cases": [],
+  "decision": "STOP_THIS_BLOCK_SCORE_RECIPE"
+}

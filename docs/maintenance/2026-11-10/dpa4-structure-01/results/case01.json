@@ -1,0 +1,62 @@
+{
+  "case": "case01",
+  "candidates": [
+    {
+      "index": 0,
+      "forward": {
+        "nn_mean": 7.5030138238205595,
+        "plane_huber": null,
+        "block_score": 0.7665960024227741,
+        "source_count": 252,
+        "gate_count": 0,
+        "normal_median_deg": 90.0,
+        "yz_eigenvalues": null,
+        "mutual_count": 0
+      },
+      "reverse": {
+        "nn_mean": 7.501406451116261,
+        "plane_huber": null,
+        "block_score": 0.6666666666666667,
+        "source_count": 108,
+        "gate_count": 0,
+        "normal_median_deg": 0.0,
+        "yz_eigenvalues": null,
+        "mutual_count": 0
+      }
+    },
+    {
+      "index": 1,
+      "forward": {
+        "nn_mean": 8.735189084106643e-17,
+        "plane_huber": 2.2377471734785025e-33,
+        "block_score": 3.634006266431973e-16,
+        "source_count": 252,
+        "gate_count": 252,
+        "normal_median_deg": 0.0,
+        "yz_eigenvalues": [
+          0.14285714285714285,
+          0.7142857142857143
+        ],
+        "mutual_count": 108
+      },
+      "reverse": {
+        "nn_mean": 0.0,
+        "plane_huber": 0.0,
+        "block_score": 0.0,
+        "source_count": 108,
+        "gate_count": 108,
+        "normal_median_deg": 0.0,
+        "yz_eigenvalues": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "mutual_count": 108
+      }
+    }
+  ],
+  "decisions": {
+    "nn_mean": 1,
+    "plane_huber": 1,
+    "block_score": 1
+  }
+}

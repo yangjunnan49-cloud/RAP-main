@@ -1,0 +1,68 @@
+{
+  "case": "case05",
+  "candidates": [
+    {
+      "index": 0,
+      "forward": {
+        "nn_mean": 1.336650240633736e-16,
+        "plane_huber": 7.138780327195355e-33,
+        "block_score": 1.047541657684577e-15,
+        "source_count": 300,
+        "gate_count": 300,
+        "normal_median_deg": 0.0,
+        "yz_eigenvalues": [
+          0.17333333333333334,
+          0.6533333333333333
+        ],
+        "mutual_count": 156
+      },
+      "reverse": {
+        "nn_mean": 2.5270403949753146,
+        "plane_huber": 0.0,
+        "block_score": 0.38148148148148153,
+        "source_count": 264,
+        "gate_count": 156,
+        "normal_median_deg": 0.0,
+        "yz_eigenvalues": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "mutual_count": 156
+      }
+    },
+    {
+      "index": 1,
+      "forward": {
+        "nn_mean": 0.6297451096512586,
+        "plane_huber": 3.6684379893090205e-35,
+        "block_score": 0.37187500000000007,
+        "source_count": 300,
+        "gate_count": 252,
+        "normal_median_deg": 0.0,
+        "yz_eigenvalues": [
+          0.14285714285714285,
+          0.7142857142857143
+        ],
+        "mutual_count": 108
+      },
+      "reverse": {
+        "nn_mean": 4.146289364251481,
+        "plane_huber": 7.242252127742332e-32,
+        "block_score": 0.3666666666666683,
+        "source_count": 264,
+        "gate_count": 108,
+        "normal_median_deg": 0.0,
+        "yz_eigenvalues": [
+          0.3333333333333333,
+          0.3333333333333335
+        ],
+        "mutual_count": 108
+      }
+    }
+  ],
+  "decisions": {
+    "nn_mean": 0,
+    "plane_huber": null,
+    "block_score": 0
+  }
+}
